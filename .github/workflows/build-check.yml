@@ -1,0 +1,46 @@
+name: Build check
+
+on:
+  pull_request:
+    paths:
+      - "content/**"
+      - "quartz/**"
+      - "scripts/**"
+      - "glossary.md"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/**"
+
+jobs:
+  quartz-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install pipeline deps
+        run: npm ci
+
+      - name: Typecheck pipeline scripts
+        run: npm run typecheck
+
+      - name: Expand glossary (ensure regen is up to date)
+        run: |
+          npm run expand-glossary
+          if [ -n "$(git status --porcelain content/glossary)" ]; then
+            echo "::warning::content/glossary/ is out of sync with glossary.md. Run npm run expand-glossary and commit."
+            git status --porcelain content/glossary
+          fi
+
+      - name: Install Quartz deps
+        working-directory: quartz
+        run: npm ci
+
+      - name: Build Quartz site
+        working-directory: quartz
+        run: npx quartz build --directory ../content --output ../public
