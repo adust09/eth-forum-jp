@@ -1,0 +1,31 @@
+{
+  "name": "ethresear-jp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Ethereum Research (ethresear.ch) の日本語化アーカイブ",
+  "scripts": {
+    "expand-glossary": "tsx scripts/expand-glossary.ts",
+    "fetch-translate": "tsx scripts/fetch-and-translate.ts",
+    "dev": "cd quartz && npx quartz build --serve",
+    "build": "cd quartz && npx quartz build --output ../public",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "fast-xml-parser": "^4.5.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,72 @@
+name: Daily Translate
+
+on:
+  schedule:
+    # 00:00 UTC = 09:00 JST. ethresear.ch is a low-volume forum, so daily is enough.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max number of new posts to translate this run"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install pipeline deps
+        run: npm ci
+
+      - name: Expand glossary
+        run: npm run expand-glossary
+
+      - name: Fetch + translate new posts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            node --import tsx scripts/fetch-and-translate.ts --limit ${{ github.event.inputs.limit }}
+          else
+            npm run fetch-translate
+          fi
+
+      - name: Open PR if there are changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Only stage generated/tracked content, never anything else (no `git add -A`).
+          git -c user.name="ethresear-jp-bot" \
+              -c user.email="187392377+ethresear-jp-bot@users.noreply.github.com" \
+              add content/posts content/glossary scripts/state.json
+
+          if git diff --cached --quiet; then
+            echo "No new content to commit. Exiting."
+            exit 0
+          fi
+
+          BR="auto/translate-$(date -u +%F)"
+          git checkout -b "$BR"
+          git -c user.name="ethresear-jp-bot" \
+              -c user.email="187392377+ethresear-jp-bot@users.noreply.github.com" \
+              commit -m "feat: translate new posts from ethresear.ch ($(date -u +%F))"
+
+          git push -u origin "$BR"
+
+          COUNT=$(git diff --name-only main...HEAD -- content/posts | wc -l)
+          gh pr create \
+            --title "Daily translation $(date -u +%F) (${COUNT} new posts)" \
+            --body "Automated translation by Gemini 2.5 Pro. Review for translation quality, then merge to deploy via Cloudflare Pages."
