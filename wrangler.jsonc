@@ -1,0 +1,26 @@
+/**
+ * Cloudflare Workers configuration for static site deployment via Workers Builds.
+ *
+ * The site is built by Quartz into ./public/, and Workers Static Assets serves
+ * that directory directly without a JS handler.
+ *
+ * Required dashboard configuration (Workers & Pages → ethresear-jp → Settings → Builds):
+ *   Build command:  git fetch --unshallow || true && cd quartz && npm ci && npx quartz build --directory ../content --output ../public
+ *   Deploy command: npx wrangler deploy
+ *
+ * The Build command is what populates ./public/ before this config is used.
+ * If it is left empty, wrangler will fail with "Could not detect a directory
+ * containing static files" because nothing was generated.
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ethresear-jp",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
