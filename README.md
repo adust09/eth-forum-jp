@@ -7,7 +7,7 @@
 1. GitHub Actions が日次で `https://ethresear.ch/latest.rss` を取得
 2. 新着投稿を Gemini API で日本語化（`glossary.md` をプロンプトに注入して用語のブレを防ぐ）
 3. 翻訳結果を `content/posts/` に Markdown として保存し PR を作成
-4. main にマージされると Cloudflare Pages が Quartz をビルドして公開
+4. main にマージされると Cloudflare Workers (Static Assets) が Quartz をビルドして公開
 
 ## ローカル開発
 
@@ -34,24 +34,31 @@ npm run dev                # Quartz ローカルサーバー (http://localhost:8
 
 - `GEMINI_API_KEY` を Repository secrets に登録（Settings → Secrets and variables → Actions）
 
-### 2. Cloudflare Pages
+### 2. Cloudflare Workers (Static Assets)
 
-Cloudflare ダッシュボード → Workers & Pages → Create application → Pages → Connect to Git:
+Cloudflare では 2024 年以降 **Workers Builds + Static Assets** が静的サイトの推奨パスです（旧 Pages も使えますが legacy 扱い）。本リポジトリは `wrangler.jsonc` を含んでおり、`./public/` を静的アセット元として宣言しています。
+
+#### dashboard 接続
+
+Cloudflare ダッシュボード → Workers & Pages → Create → **Workers** → Connect to Git → `adust09/ethresear-jp`:
 
 | 設定項目 | 値 |
 |---|---|
 | Production branch | `main` |
-| Framework preset | `None` |
-| Build command | `git fetch --unshallow \|\| true && cd quartz && npm ci && npx quartz build --directory ../content --output ../public` |
-| Build output directory | `public` |
+| Build command | `git fetch --unshallow \|\| true && npm ci && cd quartz && npm ci && npx quartz build --directory ../content --output ../public` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | (空欄 = リポジトリルート) |
 | Node version (環境変数 `NODE_VERSION`) | `22` |
 
-`git fetch --unshallow` は Quartz が git ベースの last-modified を正確に取得するため必要。
+ポイント:
+- **Build command を空にしない** — Cloudflare はビルドを skip して `wrangler deploy` を呼んでしまい、「静的ファイルが見つからない」エラーになる
+- `git fetch --unshallow` は Quartz が git ベースの last-modified を正確に取得するため必要
+- ルート `npm ci` で `gray-matter`/`turndown`/`@google/generative-ai` 等が入り、`cd quartz && npm ci` で Quartz 本体の依存が入る
 
 ### 3. 動作確認
 
 - Actions タブから `Daily Translate` を `workflow_dispatch` で `limit=1` で手動実行 → PR が立つ
-- PR をマージ → Cloudflare Pages がビルドして `*.pages.dev` URL で公開
+- PR をマージ → Cloudflare Workers がビルド・デプロイして `ethresear-jp.<account>.workers.dev` で公開
 - グラフビュー・タグ・画像が本番でも動くか確認
 
 ## ライセンス
