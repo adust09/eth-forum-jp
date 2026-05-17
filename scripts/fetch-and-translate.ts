@@ -17,7 +17,7 @@ import process from "node:process";
 import matter from "gray-matter";
 import { fetchFeed, type RssItem } from "./lib/rss.js";
 import { htmlToMarkdown } from "./lib/html2md.js";
-import { GeminiTranslator } from "./lib/gemini.js";
+import { GeminiTranslator, MODEL as GEMINI_MODEL } from "./lib/gemini.js";
 import { loadGlossary, buildPromptGlossary } from "./lib/glossary.js";
 import { slugFromLink, postFileName } from "./lib/slug.js";
 
@@ -70,7 +70,7 @@ function renderPost(
     tags: Array.from(new Set([normalizeCategoryTag(item.category), ...translated.tags])).filter(Boolean),
     topic_id: item.topicId,
     translated_at: new Date().toISOString().slice(0, 10),
-    translator: "gemini-2.5-pro",
+    translator: GEMINI_MODEL,
   });
 
   // Inject a small "原文" callout at the top of the body so readers can always
@@ -109,7 +109,7 @@ async function main(): Promise<void> {
 
   const glossaryEntries = await loadGlossary(ROOT);
   const glossaryContext = buildPromptGlossary(glossaryEntries);
-  console.log(`[fetch-and-translate] glossary terms: ${glossaryEntries.length} (prompt: ${glossaryContext.length} chars)`);
+  console.log(`[fetch-and-translate] model: ${GEMINI_MODEL}, glossary terms: ${glossaryEntries.length} (prompt: ${glossaryContext.length} chars)`);
 
   const translator = new GeminiTranslator(apiKey, glossaryContext);
   const state = await loadState();
