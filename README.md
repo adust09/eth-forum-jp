@@ -5,7 +5,7 @@
 ## 仕組み
 
 1. GitHub Actions が日次で `https://ethresear.ch/latest.rss` を取得
-2. 新着投稿を Gemini API で日本語化（`glossary.md` をプロンプトに注入して用語のブレを防ぐ）
+2. 新着投稿を Gemini API (`gemini-2.5-flash`, free tier OK) で日本語化（`glossary.md` をプロンプトに注入して用語のブレを防ぐ）
 3. 翻訳結果を `content/posts/` に Markdown として保存し PR を作成
 4. main にマージされると Cloudflare Workers (Static Assets) が Quartz をビルドして公開
 
@@ -30,9 +30,10 @@ npm run dev                # Quartz ローカルサーバー (http://localhost:8
 
 ## デプロイ（初回セットアップ）
 
-### 1. GitHub Secrets
+### 1. GitHub Secrets / Variables
 
-- `GEMINI_API_KEY` を Repository secrets に登録（Settings → Secrets and variables → Actions）
+- `GEMINI_API_KEY` を Repository **secrets** に登録（Settings → Secrets and variables → Actions）
+- デフォルトは `gemini-2.5-flash`（free tier で十分動く）。billing 有効化済みで `gemini-2.5-pro` を使いたい場合は環境変数 `GEMINI_MODEL=gemini-2.5-pro` を渡す
 
 ### 2. Cloudflare Workers (Static Assets)
 

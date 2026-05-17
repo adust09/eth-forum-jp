@@ -1,6 +1,10 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const MODEL = "gemini-2.5-pro";
+// Default model. gemini-2.5-pro is paid-tier only (free tier quota = 0), while
+// gemini-2.5-flash has a generous free tier sufficient for daily ethresear.ch
+// volume and is quality-adequate for natural-language translation.
+// Override with GEMINI_MODEL env var if billing is enabled (e.g. "gemini-2.5-pro").
+export const MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
 
 const SYSTEM_PROMPT_TEMPLATE = `あなたは Ethereum リサーチ専門の翻訳者です。
 入力された英語 Markdown を、原文のフォーマット（見出し・コードブロック・テーブル・画像・引用・リンク）を完全に保ったまま日本語に翻訳してください。
