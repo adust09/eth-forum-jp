@@ -87,6 +87,11 @@ interface RunOptions {
   dryRun?: boolean;
 }
 
+function isRateLimitError(err: unknown): boolean {
+  if (!err || typeof err !== "object") return false;
+  return (err as { status?: unknown }).status === 429;
+}
+
 function parseArgs(argv: string[]): RunOptions {
   const opts: RunOptions = {};
   for (let i = 0; i < argv.length; i++) {
@@ -126,7 +131,9 @@ async function main(): Promise<void> {
 
   let written = 0;
   let failed = 0;
-  for (const item of toProcess) {
+  let deferred = 0;
+  for (let i = 0; i < toProcess.length; i++) {
+    const item = toProcess[i];
     try {
       console.log(`[fetch-and-translate] translating: [${item.topicId}] ${item.title}`);
       const sourceMd = htmlToMarkdown(item.html);
@@ -143,6 +150,19 @@ async function main(): Promise<void> {
       written++;
       console.log(`[fetch-and-translate]   -> ${path.relative(ROOT, file)}`);
     } catch (err) {
+      if (isRateLimitError(err)) {
+        // Gemini free-tier daily quota exhausted. Stop here without counting
+        // this item as a failure — it stays out of state.json and will be
+        // retried on the next scheduled run. Treating this as a hard failure
+        // would force a non-zero exit, which (under `set -e` in the workflow)
+        // skips the "Open PR" step and loses everything written above.
+        deferred = toProcess.length - i;
+        console.warn(
+          `[fetch-and-translate] Gemini rate limit hit at [${item.topicId}] ${item.title}. ` +
+            `Deferring ${deferred} remaining item(s) to the next run.`,
+        );
+        break;
+      }
       failed++;
       console.error(`[fetch-and-translate] FAILED [${item.topicId}] ${item.title}:`, err);
     }
@@ -152,8 +172,15 @@ async function main(): Promise<void> {
     await saveState(state);
   }
 
-  console.log(`[fetch-and-translate] done. written=${written} failed=${failed} skipped=${items.length - newItems.length}`);
-  if (failed > 0) {
+  console.log(
+    `[fetch-and-translate] done. written=${written} failed=${failed} ` +
+      `deferred=${deferred} skipped=${items.length - newItems.length}`,
+  );
+
+  // Only treat the run as failed when nothing was written AND a non-rate-limit
+  // error occurred. Partial success (some items translated, rest deferred to a
+  // later run) must exit 0 so the workflow proceeds to commit & open a PR.
+  if (written === 0 && failed > 0) {
     process.exitCode = 1;
   }
 }
