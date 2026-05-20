@@ -6,7 +6,7 @@ aliases:
   - Proposer Builder Separation
 tags:
   - glossary
-date: '2026-05-19'
+date: '2026-05-20'
 ---
 
 **PBS（プロポーザー・ビルダー分離）**
