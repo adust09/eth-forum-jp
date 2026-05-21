@@ -69,4 +69,7 @@ jobs:
           COUNT=$(git diff --name-only main...HEAD -- content/posts | wc -l)
           gh pr create \
             --title "Daily translation $(date -u +%F) (${COUNT} new posts)" \
-            --body "Automated translation by Gemini 2.5 Pro. Review for translation quality, then merge to deploy via Cloudflare Pages."
+            --body "Automated translation by Gemini 2.5 Pro. Review for translation quality, then merge to deploy via Cloudflare Pages." \
+            --assignee "@me"
+
+          gh pr merge --auto --merge "$BR"
