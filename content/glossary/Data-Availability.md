@@ -7,7 +7,7 @@ aliases:
   - DAS
 tags:
   - glossary
-date: '2026-05-20'
+date: '2026-05-17'
 ---
 
 **データアベイラビリティ**

@@ -23,7 +23,7 @@ npm run dev                # Quartz ローカルサーバー (http://localhost:8
 
 | Path | 役割 |
 |---|---|
-| `glossary.md` | 用語集の単一ソース（人間が編集） |
+| `glossary.md` | 用語集の編集ソース（人手編集 + パイプラインによる自動追記） |
 | `content/` | Quartz が公開する Markdown |
 | `scripts/` | RSS取得・翻訳・glossary 展開 |
 | `quartz/` | Quartz v4 本体 (vendored) |

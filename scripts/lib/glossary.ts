@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import process from "node:process";
 import matter from "gray-matter";
 
 export interface GlossaryEntry {
@@ -147,4 +148,121 @@ export function buildPromptGlossary(entries: GlossaryEntry[]): string {
     return `- ${surfaceForms} → [[glossary/${e.slug}|${e.ja}]]`;
   });
   return lines.join("\n");
+}
+
+/**
+ * Lower-cased set of every surface form (term, aliases, slug) of the known
+ * glossary. Used to dedupe auto-extracted candidates against what already
+ * exists — and to prevent slug collisions that would overwrite a page.
+ */
+export function buildSurfaceFormSet(entries: GlossaryEntry[]): Set<string> {
+  const set = new Set<string>();
+  for (const e of entries) {
+    set.add(e.term.toLowerCase());
+    set.add(e.slug.toLowerCase());
+    for (const a of e.aliases) set.add(a.toLowerCase());
+  }
+  return set;
+}
+
+/** Provenance recorded on auto-added entries so the source is auditable later. */
+export interface EntryProvenance {
+  /** Date the entry was auto-added (YYYY-MM-DD). */
+  autoAdded: string;
+  /** ethresear.ch topic id the term was extracted from. */
+  sourceTopicId: string;
+  /** Source post URL the term was extracted from. */
+  sourceUrl: string;
+}
+
+export interface NewGlossaryItem {
+  entry: GlossaryEntry;
+  provenance: EntryProvenance;
+}
+
+/**
+ * Render a single entry in glossary.md's hand-rolled format. `auto_*` keys are
+ * provenance markers; `loadGlossary` ignores unknown keys, so they are inert.
+ */
+export function serializeEntry(entry: GlossaryEntry, provenance: EntryProvenance): string {
+  const lines: string[] = [`## ${entry.term}`, `- ja: ${entry.ja}`];
+  if (entry.aliases.length > 0) lines.push(`- aliases: [${entry.aliases.join(", ")}]`);
+  if (entry.related.length > 0) lines.push(`- related: [${entry.related.join(", ")}]`);
+  lines.push(`- auto_added: ${provenance.autoAdded}`);
+  lines.push(`- auto_source_topic_id: ${provenance.sourceTopicId}`);
+  lines.push(`- auto_source_url: ${provenance.sourceUrl}`);
+  if (entry.desc) {
+    lines.push("- desc: |");
+    for (const l of entry.desc.split("\n")) {
+      lines.push(l.length > 0 ? `  ${l}` : "");
+    }
+  }
+  return lines.join("\n");
+}
+
+function arraysEqual(a: string[], b: string[]): boolean {
+  return a.length === b.length && a.every((v, i) => v === b[i]);
+}
+
+/** Confirm a serialized entry parses back to the same values before writing it. */
+function entryRoundTrips(entry: GlossaryEntry, serialized: string): boolean {
+  const body = serialized.replace(/^##\s+.*\n/, "");
+  try {
+    const props = parseEntryBody(body, entry.term);
+    return (
+      asString(props.ja) === entry.ja &&
+      arraysEqual(asArray(props.aliases) ?? [], entry.aliases) &&
+      arraysEqual(asArray(props.related) ?? [], entry.related) &&
+      (asString(props.desc) ?? "") === entry.desc
+    );
+  } catch {
+    return false;
+  }
+}
+
+/** Replace `last_updated:` inside the leading frontmatter block only. */
+function bumpLastUpdated(raw: string, today: string): string {
+  const fmMatch = raw.match(/^---\n[\s\S]*?\n---\n/);
+  if (!fmMatch) {
+    throw new Error("glossary.md is missing YAML frontmatter; cannot update last_updated");
+  }
+  const fm = fmMatch[0];
+  if (!/^last_updated:.*$/m.test(fm)) {
+    throw new Error("glossary.md frontmatter is missing a last_updated field");
+  }
+  const newFm = fm.replace(/^last_updated:.*$/m, `last_updated: ${today}`);
+  return newFm + raw.slice(fm.length);
+}
+
+/**
+ * Append new entries to glossary.md and bump `last_updated`. Each entry is
+ * round-trip validated first; the file is written atomically (temp + rename)
+ * so a mid-write failure cannot corrupt the source.
+ */
+export async function appendGlossaryEntries(
+  rootDir: string,
+  items: NewGlossaryItem[],
+  today: string,
+): Promise<void> {
+  if (items.length === 0) return;
+
+  const blocks: string[] = [];
+  for (const { entry, provenance } of items) {
+    const serialized = serializeEntry(entry, provenance);
+    if (!entryRoundTrips(entry, serialized)) {
+      console.warn(`[glossary] skipping entry that failed round-trip validation: ${entry.term}`);
+      continue;
+    }
+    blocks.push(serialized);
+  }
+  if (blocks.length === 0) return;
+
+  const filePath = path.join(rootDir, "glossary.md");
+  const raw = await fs.readFile(filePath, "utf8");
+  const withDate = bumpLastUpdated(raw, today);
+  const next = `${withDate.replace(/\s*$/, "")}\n\n${blocks.join("\n\n")}\n`;
+
+  const tmp = `${filePath}.tmp-${process.pid}`;
+  await fs.writeFile(tmp, next, "utf8");
+  await fs.rename(tmp, filePath);
 }
