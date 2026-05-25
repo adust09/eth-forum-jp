@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-05-17
+last_updated: 2026-05-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -77,3 +77,50 @@ description: |
   ブロック内データが全ノードに対して取得可能であることを担保する性質。
   Danksharding/EIP-4844 では blob として実装され、DAS で全ダウンロードなしに
   可用性を検証できるよう設計されている。
+
+## Diversity-Weighted Byzantine Fault Tolerance
+- ja: 多様性重み付けビザンチン耐性 (DW-BFT)
+- aliases: [DW-BFT]
+- related: [Byzantine Fault Tolerance, Coordination Collapse, Diversity Weight, Effective Stake]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  バリデーターの行動的多様性に基づいて重み付けを行う、新しいビザンチン耐性コンセンサスシステム。ビザンチンバリデーターが協調するほど多様性重みがゼロに近づき、実効投票権を失うことで、ビザンチン攻撃を構造的に自己無効化する。
+
+## Coordination Collapse
+- ja: 協調崩壊
+- related: [Diversity-Weighted Byzantine Fault Tolerance, Diversity Weight, Effective Stake]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  ビザンチンバリデーター間の行動的協調の度合いが高まるにつれて、彼らの多様性重みがゼロに収束し、結果として実効投票権が失われる現象。多様性重み付けビザンチン耐性（DW-BFT）の主要なメカニズム。
+
+## Diversity Weight
+- ja: 多様性重み
+- related: [Coordination Collapse, Effective Stake, Behavioral Diversity]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  バリデーターの行動がアンサンブル平均からどれだけ独立しているかを示す指標。ピアソン相関係数を用いて計算され、協調するバリデーターの多様性重みはゼロに近づく。
+
+## Effective Stake
+- ja: 実効ステーク
+- related: [Diversity Weight, Stake Weight]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  バリデーターの実際のステーク重みに、その行動的多様性重みを乗じて算出される値。多様性重み付けビザンチン耐性（DW-BFT）において、バリデーターの実際の投票権として機能する。
+
+## Threshold Exclusion
+- ja: 閾値除外
+- aliases: [δ threshold exclusion]
+- related: [Consensus Window, Diversity-Weighted Byzantine Fault Tolerance]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  多様性重み付けビザンチン耐性（DW-BFT）における第二の防御メカニズム。バリデーターの提出値がコンセンサスウィンドウ（δ）の範囲外である場合、そのバリデーターをコンセンサススコアから除外する。これにより、多様性を維持しつつ不正な値を提出する攻撃を防ぐ。
