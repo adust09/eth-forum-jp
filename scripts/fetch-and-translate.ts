@@ -18,7 +18,17 @@ import matter from "gray-matter";
 import { fetchFeed, type RssItem } from "./lib/rss.js";
 import { htmlToMarkdown } from "./lib/html2md.js";
 import { GeminiTranslator, MODEL as GEMINI_MODEL } from "./lib/gemini.js";
-import { loadGlossary, buildPromptGlossary } from "./lib/glossary.js";
+import {
+  loadGlossary,
+  buildPromptGlossary,
+  buildSurfaceFormSet,
+  appendGlossaryEntries,
+  termToSlug,
+  type GlossaryEntry,
+  type NewGlossaryItem,
+} from "./lib/glossary.js";
+import { GlossaryExtractor, type ExtractedTerm } from "./lib/glossary-extract.js";
+import { expandGlossary } from "./expand-glossary.js";
 import { slugFromLink, postFileName } from "./lib/slug.js";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -92,6 +102,17 @@ function isRateLimitError(err: unknown): boolean {
   return (err as { status?: unknown }).status === 429;
 }
 
+function extractedToEntry(t: ExtractedTerm): GlossaryEntry {
+  return {
+    term: t.term.trim(),
+    slug: termToSlug(t.term),
+    ja: t.ja.trim(),
+    aliases: t.aliases,
+    related: t.related,
+    desc: t.desc.trim(),
+  };
+}
+
 function parseArgs(argv: string[]): RunOptions {
   const opts: RunOptions = {};
   for (let i = 0; i < argv.length; i++) {
@@ -117,6 +138,23 @@ async function main(): Promise<void> {
   console.log(`[fetch-and-translate] model: ${GEMINI_MODEL}, glossary terms: ${glossaryEntries.length} (prompt: ${glossaryContext.length} chars)`);
 
   const translator = new GeminiTranslator(apiKey, glossaryContext);
+  const extractor = new GlossaryExtractor(apiKey);
+  const today = new Date().toISOString().slice(0, 10);
+
+  // Surface forms already covered by the glossary; grows as we accept new terms
+  // so two posts in the same run can't both add the same term.
+  const knownSurfaceForms = buildSurfaceFormSet(glossaryEntries);
+  const newGlossaryItems: NewGlossaryItem[] = [];
+  let extractionDisabled = false;
+
+  const isKnown = (entry: GlossaryEntry): boolean =>
+    [entry.term, entry.slug, ...entry.aliases].some((s) => knownSurfaceForms.has(s.toLowerCase()));
+  const registerEntry = (entry: GlossaryEntry): void => {
+    knownSurfaceForms.add(entry.term.toLowerCase());
+    knownSurfaceForms.add(entry.slug.toLowerCase());
+    for (const a of entry.aliases) knownSurfaceForms.add(a.toLowerCase());
+  };
+
   const state = await loadState();
   const seen = new Set(state.topicIds);
 
@@ -149,6 +187,33 @@ async function main(): Promise<void> {
       }
       written++;
       console.log(`[fetch-and-translate]   -> ${path.relative(ROOT, file)}`);
+
+      // Glossary extraction is independent and best-effort: its failures must
+      // never affect the translation that already succeeded above.
+      if (!extractionDisabled) {
+        try {
+          const candidates = await extractor.extract(sourceMd, item.title, knownSurfaceForms);
+          for (const candidate of candidates) {
+            const entry = extractedToEntry(candidate);
+            if (isKnown(entry)) continue;
+            newGlossaryItems.push({
+              entry,
+              provenance: { autoAdded: today, sourceTopicId: item.topicId, sourceUrl: item.link },
+            });
+            registerEntry(entry);
+            console.log(`[fetch-and-translate]   + glossary candidate: ${entry.term} → ${entry.ja}`);
+          }
+        } catch (exErr) {
+          if (isRateLimitError(exErr)) {
+            extractionDisabled = true;
+            console.warn(
+              "[fetch-and-translate] glossary extraction hit rate limit; skipping extraction for remaining items.",
+            );
+          } else {
+            console.warn(`[fetch-and-translate] glossary extraction failed for [${item.topicId}]:`, exErr);
+          }
+        }
+      }
     } catch (err) {
       if (isRateLimitError(err)) {
         // Gemini free-tier daily quota exhausted. Stop here without counting
@@ -170,6 +235,28 @@ async function main(): Promise<void> {
 
   if (!opts.dryRun) {
     await saveState(state);
+  }
+
+  // Auto-update the glossary from this run's extractions. Best-effort: posts and
+  // state are already persisted, and append/expand are atomic, so a failure here
+  // leaves glossary.md / content/glossary intact and never loses translations.
+  if (newGlossaryItems.length > 0) {
+    if (opts.dryRun) {
+      console.log(`[fetch-and-translate] (dry-run) ${newGlossaryItems.length} new glossary term(s) would be added:`);
+      for (const { entry } of newGlossaryItems) {
+        console.log(`  - ${entry.term} → ${entry.ja}`);
+      }
+    } else {
+      try {
+        await appendGlossaryEntries(ROOT, newGlossaryItems, today);
+        await expandGlossary(ROOT);
+        console.log(
+          `[fetch-and-translate] added ${newGlossaryItems.length} new glossary term(s) and regenerated content/glossary`,
+        );
+      } catch (gErr) {
+        console.error("[fetch-and-translate] glossary auto-update failed (translations unaffected):", gErr);
+      }
+    }
   }
 
   console.log(

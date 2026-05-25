@@ -2,7 +2,9 @@
 title: Ethereum Research 用語集（編集ソース）
 last_updated: 2026-05-17
 description: |
-  この単一ファイルが用語集の唯一の編集源です。
+  用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
+  （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
+  自動追記された用語が翻訳のウィキリンク化に効くのは「次回以降のラン」です（同一ラン内では効きません）。
   scripts/expand-glossary.ts がここをパースして content/glossary/*.md に展開します。
   各エントリのフォーマット:
     ## <英語または主表記>

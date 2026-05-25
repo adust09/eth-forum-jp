@@ -51,7 +51,7 @@ jobs:
           # Only stage generated/tracked content, never anything else (no `git add -A`).
           git -c user.name="ethresear-jp-bot" \
               -c user.email="187392377+ethresear-jp-bot@users.noreply.github.com" \
-              add content/posts content/glossary scripts/state.json
+              add content/posts content/glossary scripts/state.json glossary.md
 
           if git diff --cached --quiet; then
             echo "No new content to commit. Exiting."
