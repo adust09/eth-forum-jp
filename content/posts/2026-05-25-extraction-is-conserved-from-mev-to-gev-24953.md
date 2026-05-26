@@ -10,6 +10,7 @@ tags:
   - mev
   - gev
   - protocol-design
+  - mechanism-design
 topic_id: '24953'
 translated_at: '2026-05-26'
 translator: gemini-2.5-flash

@@ -6,11 +6,11 @@ author: donnoh
 date: '2026-05-05'
 category: Sharding
 tags:
-  - sharding
-  - native-proof-verification
+  - verification
+  - zk
   - rollup
-  - eip-8025
-  - zk-proofs
+  - eip
+  - protocol-design
 topic_id: '24798'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

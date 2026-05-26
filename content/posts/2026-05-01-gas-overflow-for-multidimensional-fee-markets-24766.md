@@ -6,10 +6,11 @@ author: aelowsson
 date: '2026-05-01'
 category: Uncategorized
 tags:
-  - uncategorized
+  - fee-market
   - gas
   - eip
   - evm
+  - execution-layer
 topic_id: '24766'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

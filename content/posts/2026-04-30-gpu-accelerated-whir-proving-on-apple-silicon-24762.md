@@ -7,9 +7,9 @@ date: '2026-04-30'
 category: Privacy
 tags:
   - privacy
-  - gpu-acceleration
-  - whir
-  - apple-silicon
+  - proving
+  - cryptography
+  - research
 topic_id: '24762'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

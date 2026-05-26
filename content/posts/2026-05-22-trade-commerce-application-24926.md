@@ -7,9 +7,9 @@ date: '2026-05-22'
 category: Applications
 tags:
   - applications
-  - dapp
-  - commerce
-  - trade
+  - payments
+  - smart-contracts
+  - research
 topic_id: '24926'
 translated_at: '2026-05-23'
 translator: gemini-2.5-flash

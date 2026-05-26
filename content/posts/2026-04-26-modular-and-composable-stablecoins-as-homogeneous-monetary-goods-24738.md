@@ -9,8 +9,8 @@ category: Economics
 tags:
   - economics
   - stablecoins
-  - monetary-theory
-  - composability
+  - tokenomics
+  - mechanism-design
 topic_id: '24738'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

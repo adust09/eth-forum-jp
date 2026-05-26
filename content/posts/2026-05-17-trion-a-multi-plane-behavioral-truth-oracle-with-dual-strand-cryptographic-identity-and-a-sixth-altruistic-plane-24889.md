@@ -9,10 +9,12 @@ author: TRION-Protocol
 date: '2026-05-17'
 category: Uncategorized
 tags:
-  - uncategorized
   - oracle
-  - behavioral-security
-  - defi
+  - security
+  - consensus
+  - identity
+  - mechanism-design
+  - research
 topic_id: '24889'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

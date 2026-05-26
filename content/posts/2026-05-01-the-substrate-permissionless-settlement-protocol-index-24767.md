@@ -7,10 +7,11 @@ author: pablo-chacon
 date: '2026-05-01'
 category: Economics
 tags:
-  - economics
-  - ethereum
   - smart-contracts
-  - decentralized-applications
+  - applications
+  - decentralization
+  - payments
+  - research
 topic_id: '24767'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

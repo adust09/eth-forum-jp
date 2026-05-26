@@ -8,9 +8,11 @@ date: '2026-05-22'
 category: Networking
 tags:
   - networking
-  - ethereum
   - peer-discovery
   - staking
+  - zk
+  - security
+  - research
 topic_id: '24927'
 translated_at: '2026-05-23'
 translator: gemini-2.5-flash

@@ -9,8 +9,9 @@ category: Cryptography
 tags:
   - cryptography
   - post-quantum
-  - randao
+  - consensus
   - vrf
+  - research
 topic_id: '24906'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

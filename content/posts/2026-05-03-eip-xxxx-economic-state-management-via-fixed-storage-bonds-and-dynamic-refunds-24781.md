@@ -9,10 +9,11 @@ author: tbrannt
 date: '2026-05-03'
 category: Uncategorized
 tags:
-  - uncategorized
-  - ethereum
-  - eip
   - state-management
+  - economics
+  - eip
+  - research
+  - protocol-design
 topic_id: '24781'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

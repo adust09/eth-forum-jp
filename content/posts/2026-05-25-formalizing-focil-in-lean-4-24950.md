@@ -7,10 +7,10 @@ date: '2026-05-25'
 category: Consensus
 tags:
   - consensus
-  - ethereum
   - focil
-  - lean4
-  - 形式検証
+  - formal-verification
+  - eip
+  - research
 topic_id: '24950'
 translated_at: '2026-05-26'
 translator: gemini-2.5-flash

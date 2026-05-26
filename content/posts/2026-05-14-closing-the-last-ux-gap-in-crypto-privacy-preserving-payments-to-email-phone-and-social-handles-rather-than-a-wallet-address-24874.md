@@ -13,7 +13,7 @@ tags:
   - ux
   - privacy
   - payments
-  - protocol
+  - zk
 topic_id: '24874'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

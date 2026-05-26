@@ -13,6 +13,7 @@ tags:
   - defi
   - security
   - insurance
+  - mechanism-design
 topic_id: '24770'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

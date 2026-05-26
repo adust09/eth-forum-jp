@@ -11,8 +11,8 @@ category: Cryptography
 tags:
   - cryptography
   - post-quantum
-  - zk-snarks
-  - eip-7702
+  - zk
+  - eip
   - account-abstraction
   - wallet
 topic_id: '24754'

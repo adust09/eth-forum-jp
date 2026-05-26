@@ -6,10 +6,12 @@ author: skilesare
 date: '2026-05-07'
 category: Execution Layer Research
 tags:
-  - execution-layer-research
   - evm
-  - motoko
   - cross-chain
+  - wallet
+  - oracle
+  - execution-layer
+  - research
 topic_id: '24818'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

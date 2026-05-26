@@ -32,6 +32,11 @@ import { GlossaryExtractor, type ExtractedTerm } from "./lib/glossary-extract.js
 import { expandGlossary } from "./expand-glossary.js";
 import { slugFromLink, postFileName } from "./lib/slug.js";
 import { SOURCES, sourceById, type Source } from "./lib/sources.js";
+import {
+  buildPromptTaxonomy,
+  canonicalizeTags,
+  normalizeCategoryTag,
+} from "./lib/taxonomy.js";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const STATE_PATH = path.join(ROOT, "scripts", "state.json");
@@ -88,14 +93,6 @@ async function saveState(state: State): Promise<void> {
   await fs.writeFile(STATE_PATH, JSON.stringify(out, null, 2) + "\n", "utf8");
 }
 
-function normalizeCategoryTag(category: string): string {
-  return category
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
 function renderPost(
   source: Source,
   item: RssItem,
@@ -110,7 +107,7 @@ function renderPost(
     author: item.author,
     date: item.date,
     category: item.category,
-    tags: Array.from(new Set([normalizeCategoryTag(item.category), ...translated.tags])).filter(Boolean),
+    tags: canonicalizeTags([normalizeCategoryTag(item.category), ...translated.tags]),
     topic_id: item.topicId,
     translated_at: new Date().toISOString().slice(0, 10),
     translator: GEMINI_MODEL,
@@ -213,9 +210,10 @@ async function main(): Promise<void> {
 
   const glossaryEntries = await loadGlossary(ROOT);
   const glossaryContext = buildPromptGlossary(glossaryEntries);
+  const taxonomyContext = buildPromptTaxonomy();
   console.log(`[fetch-and-translate] model: ${GEMINI_MODEL}, glossary terms: ${glossaryEntries.length} (prompt: ${glossaryContext.length} chars)`);
 
-  const translator = new GeminiTranslator(apiKey, glossaryContext);
+  const translator = new GeminiTranslator(apiKey, glossaryContext, taxonomyContext);
   const extractor = new GlossaryExtractor(apiKey);
   const today = new Date().toISOString().slice(0, 10);
 

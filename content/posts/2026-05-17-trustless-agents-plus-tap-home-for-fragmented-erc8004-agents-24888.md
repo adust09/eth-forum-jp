@@ -8,9 +8,10 @@ date: '2026-05-17'
 category: Applications
 tags:
   - applications
-  - erc-8004
-  - multi-chain
+  - ai-agents
+  - cross-chain
   - identity
+  - research
 topic_id: '24888'
 translated_at: '2026-05-17'
 translator: gemini-2.5-flash
