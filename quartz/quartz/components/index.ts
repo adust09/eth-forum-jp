@@ -14,6 +14,7 @@ import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
+import TagNav from "./TagNav"
 import Search from "./Search"
 import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
@@ -40,6 +41,7 @@ export {
   TagList,
   Graph,
   Backlinks,
+  TagNav,
   Search,
   Footer,
   DesktopOnly,
