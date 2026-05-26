@@ -13,9 +13,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
-- [[glossary/diversity-weight|diversity weight]] — 多様性重み
-- [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチンフォールトトレランス
-- [[glossary/effective-stake|effective stake]] — 実効ステーク
+- [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
+- [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
 - [[glossary/EIP|EIP]] — EIP（Ethereum 改善提案）
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
@@ -28,7 +28,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
-- [[glossary/threshold-exclusion|threshold exclusion]] — 閾値除外
+- [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 
 ---

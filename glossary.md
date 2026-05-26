@@ -172,50 +172,48 @@ description: |
   FOCILの文脈で議論される攻撃手法の一つ。悪意のあるプロポーザーが、インクルージョンリスト内のトランザクションと同じ送信者を持つ別のトランザクションを先に含めることで、リスト内のトランザクションのナンスを無効化し、その包含を妨害する。
 
 ## Diversity-Weighted Byzantine Fault Tolerance
-- ja: 多様性重み付けビザンチンフォールトトレランス
+- ja: 多様性重み付けビザンチン耐性 (DW-BFT)
 - aliases: [DW-BFT]
-- related: [Byzantine Fault Tolerant consensus system, honest supermajority assumption]
-- auto_added: 2026-05-26
+- related: [Byzantine Fault Tolerance, Coordination Collapse, Diversity Weight, Effective Stake]
+- auto_added: 2026-05-25
 - auto_source_topic_id: 24935
 - auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
 - desc: |
-  従来のビザンチンフォールトトレラント（BFT）システムが正直なスーパーマジョリティを前提とするのに対し、バリデーターの行動多様性に基づいて重み付けを行うことで、ビザンチン側の協調行動が構造的に自己破壊的となることを証明するコンセンサスシステム。
-
-## diversity weight
-- ja: 多様性重み
-- aliases: [dⱼ]
-- related: [behavioral diversity, effective stake, Pearson correlation]
-- auto_added: 2026-05-26
-- auto_source_topic_id: 24935
-- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
-- desc: |
-  バリデーターの行動がアンサンブル平均からどれだけ独立しているかを示す指標。ピアソン相関係数を用いて計算され、協調行動をとるバリデーターの重みはゼロに近づく。
-
-## effective stake
-- ja: 実効ステーク
-- aliases: [eⱼ]
-- related: [stake weight, diversity weight]
-- auto_added: 2026-05-26
-- auto_source_topic_id: 24935
-- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
-- desc: |
-  バリデーターの実際のステーク（sⱼ）に多様性重み（dⱼ）を乗じて算出される、コンセンサスにおける実効的な投票力。ビザンチンバリデーターが協調すると多様性重みが低下し、実効ステークも減少する。
+  バリデーターの行動的多様性に基づいて重み付けを行う、新しいビザンチン耐性コンセンサスシステム。ビザンチンバリデーターが協調するほど多様性重みがゼロに近づき、実効投票権を失うことで、ビザンチン攻撃を構造的に自己無効化する。
 
 ## Coordination Collapse
 - ja: 協調崩壊
-- related: [diversity weight, effective stake]
-- auto_added: 2026-05-26
+- related: [Diversity-Weighted Byzantine Fault Tolerance, Diversity Weight, Effective Stake]
+- auto_added: 2026-05-25
 - auto_source_topic_id: 24935
 - auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
 - desc: |
-  ビザンチンバリデーター間の行動の協調度が高まるにつれて、彼らの多様性重みがゼロに収束し、結果として実効ステークがゼロになるという定理。これにより、ビザンチン側の協調行動が構造的に自己破壊的となる。
+  ビザンチンバリデーター間の行動的協調の度合いが高まるにつれて、彼らの多様性重みがゼロに収束し、結果として実効投票権が失われる現象。多様性重み付けビザンチン耐性（DW-BFT）の主要なメカニズム。
 
-## threshold exclusion
-- ja: 閾値除外
-- aliases: [δ threshold]
-- related: [consensus window, Diverse Byzantine Attack]
-- auto_added: 2026-05-26
+## Diversity Weight
+- ja: 多様性重み
+- related: [Coordination Collapse, Effective Stake, Behavioral Diversity]
+- auto_added: 2026-05-25
 - auto_source_topic_id: 24935
 - auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
 - desc: |
-  バリデーターの提出した値が、ステークと多様性で重み付けされた平均値（コンセンサスウィンドウ）から一定の閾値（δ）を超えて離れている場合に、その値をコンセンサススコアから除外するメカニズム。多様性を維持しつつ不正な値を提出する攻撃を防ぐ。
+  バリデーターの行動がアンサンブル平均からどれだけ独立しているかを示す指標。ピアソン相関係数を用いて計算され、協調するバリデーターの多様性重みはゼロに近づく。
+
+## Effective Stake
+- ja: 実効ステーク
+- related: [Diversity Weight, Stake Weight]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  バリデーターの実際のステーク重みに、その行動的多様性重みを乗じて算出される値。多様性重み付けビザンチン耐性（DW-BFT）において、バリデーターの実際の投票権として機能する。
+
+## Threshold Exclusion
+- ja: 閾値除外
+- aliases: [δ threshold exclusion]
+- related: [Consensus Window, Diversity-Weighted Byzantine Fault Tolerance]
+- auto_added: 2026-05-25
+- auto_source_topic_id: 24935
+- auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
+- desc: |
+  多様性重み付けビザンチン耐性（DW-BFT）における第二の防御メカニズム。バリデーターの提出値がコンセンサスウィンドウ（δ）の範囲外である場合、そのバリデーターをコンセンサススコアから除外する。これにより、多様性を維持しつつ不正な値を提出する攻撃を防ぐ。
