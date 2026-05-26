@@ -1,7 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 
 import style from "../styles/listPage.scss"
-import { PageList, SortFn } from "../PageList"
+import { PageList, SortFn, byDateAndAlphabetical } from "../PageList"
+import { getDate } from "../Date"
 import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
@@ -102,6 +103,41 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
+    // Opt-in via the folder index page's `groupBy: category` frontmatter:
+    // render one section per Discourse category instead of a single flat list.
+    const groupByCategory = fileData.frontmatter?.groupBy === "category"
+
+    const renderListing = () => {
+      if (!groupByCategory) {
+        return <PageList {...listProps} />
+      }
+
+      const groups = new Map<string, QuartzPluginData[]>()
+      for (const page of allPagesInFolder) {
+        const category = (page.frontmatter?.category as string | undefined) ?? "Uncategorized"
+        const bucket = groups.get(category)
+        if (bucket) {
+          bucket.push(page)
+        } else {
+          groups.set(category, [page])
+        }
+      }
+
+      // Order categories so the one with the most recently published post comes first.
+      const mostRecent = (pages: QuartzPluginData[]): number =>
+        Math.max(...pages.map((page) => getDate(cfg, page)?.getTime() ?? 0))
+      const orderedCategories = [...groups.entries()].sort(
+        ([, a], [, b]) => mostRecent(b) - mostRecent(a),
+      )
+
+      return orderedCategories.map(([category, pages]) => (
+        <section class="category-section">
+          <h2 class="category-heading">{category}</h2>
+          <PageList {...props} allFiles={pages} sort={byDateAndAlphabetical(cfg)} />
+        </section>
+      ))
+    }
+
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
@@ -113,9 +149,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
               })}
             </p>
           )}
-          <div>
-            <PageList {...listProps} />
-          </div>
+          <div>{renderListing()}</div>
         </div>
       </div>
     )
