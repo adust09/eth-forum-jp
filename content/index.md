@@ -1,14 +1,14 @@
 ---
-title: Ethereum Research 日本語アーカイブ
-description: ethresear.ch の投稿を Gemini で日本語化し、Quartz のグラフビューで概念のつながりを辿れる形で公開しています。
+title: Ethereum フォーラム 日本語アーカイブ
+description: ethresear.ch と ethereum-magicians.org の投稿を Gemini で日本語化し、Quartz のグラフビューで概念のつながりを辿れる形で公開しています。
 tags:
   - top
 date: 2026-05-17
 ---
 
-[ethresear.ch](https://ethresear.ch/) (Ethereum Research) はイーサリアム コア開発・研究者の議論が集まる一次情報源ですが、すべて英語で更新も多く、日本人が継続的に追うのは負担が大きいです。
+[ethresear.ch](https://ethresear.ch/) (Ethereum Research) と [ethereum-magicians.org](https://ethereum-magicians.org/) (Ethereum Magicians) は、イーサリアムのコア開発・研究・EIP/ERC 議論が集まる一次情報源ですが、すべて英語で更新も多く、日本人が継続的に追うのは負担が大きいです。
 
-このサイトでは、公式 RSS から新着投稿を取り込み、Gemini で日本語化した結果を公開しています。専門用語の翻訳は [[glossary/index|用語集]] で一元管理しています。
+このサイトでは、両フォーラムの公式 RSS から新着投稿を取り込み、Gemini で日本語化した結果を公開しています。専門用語の翻訳は [[glossary/index|用語集]] で一元管理しています。
 
 ## 入口
 
@@ -28,4 +28,4 @@ date: 2026-05-17
 
 ## 免責
 
-翻訳対象の原文の著作権はそれぞれの著者に帰属します。本サイトは Ethereum Research コミュニティへの還元を目的とした非営利の二次利用です。誤訳や引用範囲の問題があれば [GitHub Issues](https://github.com/adust09/ethresear-jp/issues) でご連絡ください。
+翻訳対象の原文の著作権はそれぞれの著者に帰属します。本サイトは Ethereum 開発者コミュニティへの還元を目的とした非営利の二次利用です。誤訳や引用範囲の問題があれば [GitHub Issues](https://github.com/adust09/ethresear-jp/issues) でご連絡ください。

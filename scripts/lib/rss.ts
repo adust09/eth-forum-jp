@@ -18,8 +18,8 @@ export interface RssItem {
 }
 
 function parseTopicId(link: string): string {
-  // ethresear.ch URLs look like:
-  //   https://ethresear.ch/t/<slug>/<topic_id>
+  // Discourse topic URLs look like:
+  //   https://<forum>/t/<slug>/<topic_id>
   const m = link.match(/\/t\/[^/]+\/(\d+)/);
   if (!m) {
     throw new Error(`could not parse topic id from link: ${link}`);
