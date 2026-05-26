@@ -1,4 +1,4 @@
-# ethresear-jp
+# eth-forum-jp
 
 [ethresear.ch](https://ethresear.ch/) (Ethereum Research) と [ethereum-magicians.org](https://ethereum-magicians.org/) (Ethereum Magicians) の投稿を日本語化して、Quartz のグラフビューで概念のつながりを辿れる形で公開するサイト。
 
@@ -41,7 +41,7 @@ Cloudflare では 2024 年以降 **Workers Builds + Static Assets** が静的サ
 
 #### dashboard 接続
 
-Cloudflare ダッシュボード → Workers & Pages → Create → **Workers** → Connect to Git → `adust09/ethresear-jp`:
+Cloudflare ダッシュボード → Workers & Pages → Create → **Workers** → Connect to Git → `adust09/eth-forum-jp`:
 
 | 設定項目 | 値 |
 |---|---|

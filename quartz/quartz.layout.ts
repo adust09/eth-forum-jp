@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "ethresear.ch (原文)": "https://ethresear.ch/",
       "ethereum-magicians.org (原文)": "https://ethereum-magicians.org/",
-      GitHub: "https://github.com/adust09/ethresear-jp",
+      GitHub: "https://github.com/adust09/eth-forum-jp",
     },
   }),
 }

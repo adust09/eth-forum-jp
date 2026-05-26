@@ -28,4 +28,4 @@ date: 2026-05-17
 
 ## 免責
 
-翻訳対象の原文の著作権はそれぞれの著者に帰属します。本サイトは Ethereum 開発者コミュニティへの還元を目的とした非営利の二次利用です。誤訳や引用範囲の問題があれば [GitHub Issues](https://github.com/adust09/ethresear-jp/issues) でご連絡ください。
+翻訳対象の原文の著作権はそれぞれの著者に帰属します。本サイトは Ethereum 開発者コミュニティへの還元を目的とした非営利の二次利用です。誤訳や引用範囲の問題があれば [GitHub Issues](https://github.com/adust09/eth-forum-jp/issues) でご連絡ください。

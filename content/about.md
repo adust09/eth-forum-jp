@@ -1,6 +1,6 @@
 ---
 title: このサイトについて
-description: ethresear-jp の運用方針・翻訳パイプライン・免責事項
+description: eth-forum-jp の運用方針・翻訳パイプライン・免責事項
 tags:
   - meta
 date: 2026-05-17
@@ -18,7 +18,7 @@ date: 2026-05-17
 4. 翻訳結果を `content/posts/` に Markdown として保存し PR を作成
 5. main にマージされると Cloudflare Pages が Quartz をビルドして公開
 
-ソース: [adust09/ethresear-jp](https://github.com/adust09/ethresear-jp)
+ソース: [adust09/eth-forum-jp](https://github.com/adust09/eth-forum-jp)
 
 ## 翻訳の精度について
 
@@ -33,9 +33,9 @@ date: 2026-05-17
 ## ライセンス
 
 - 翻訳対象の原文の著作権はそれぞれの著者に帰属します
-- 本サイトのコードは [MIT License](https://github.com/adust09/ethresear-jp/blob/main/LICENSE) です
+- 本サイトのコードは [MIT License](https://github.com/adust09/eth-forum-jp/blob/main/LICENSE) です
 - 翻訳結果は CC BY 4.0 で公開しています（原文の二次利用にあたる部分は原文ライセンスを優先）
 
 ## 問い合わせ
 
-誤訳や引用範囲の問題、その他の指摘は [GitHub Issues](https://github.com/adust09/ethresear-jp/issues) までお寄せください。
+誤訳や引用範囲の問題、その他の指摘は [GitHub Issues](https://github.com/adust09/eth-forum-jp/issues) までお寄せください。
