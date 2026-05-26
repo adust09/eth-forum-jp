@@ -8,11 +8,11 @@ date: 2026-05-17
 
 ## このサイトは何か
 
-[ethresear.ch](https://ethresear.ch/) の投稿を、Gemini 2.5 Pro で日本語化し [Quartz](https://quartz.jzhao.xyz/) で公開しているサイトです。
+[ethresear.ch](https://ethresear.ch/) と [ethereum-magicians.org](https://ethereum-magicians.org/) の投稿を、Gemini 2.5 Pro で日本語化し [Quartz](https://quartz.jzhao.xyz/) で公開しているサイトです。
 
 ## 仕組み
 
-1. GitHub Actions が日次（JST 09:00）で `https://ethresear.ch/latest.rss` を取得
+1. GitHub Actions が日次（JST 09:00）で各 Discourse フォーラム（ethresear.ch, ethereum-magicians.org）の `/latest.rss` を取得
 2. 新着投稿の HTML を Markdown に変換し、Gemini に翻訳を依頼
 3. プロンプトに [[glossary/index|用語集]] を毎回注入することで、専門用語の表記揺れを抑制
 4. 翻訳結果を `content/posts/` に Markdown として保存し PR を作成

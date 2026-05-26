@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Ethereum Research 日本語アーカイブ",
+    pageTitle: "Ethereum フォーラム 日本語アーカイブ",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

@@ -2,12 +2,16 @@ name: Daily Translate
 
 on:
   schedule:
-    # 00:00 UTC = 09:00 JST. ethresear.ch is a low-volume forum, so daily is enough.
+    # 00:00 UTC = 09:00 JST. The source forums are low-volume, so daily is enough.
     - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       limit:
-        description: "Max number of new posts to translate this run"
+        description: "Max number of new posts to translate per source this run"
+        required: false
+        default: ""
+      source:
+        description: "Restrict to one source id (e.g. ethresear or magicians). Empty = all."
         required: false
         default: ""
 
@@ -38,11 +42,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          ARGS=""
           if [ -n "${{ github.event.inputs.limit }}" ]; then
-            node --import tsx scripts/fetch-and-translate.ts --limit ${{ github.event.inputs.limit }}
-          else
-            npm run fetch-translate
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
           fi
+          if [ -n "${{ github.event.inputs.source }}" ]; then
+            ARGS="$ARGS --source ${{ github.event.inputs.source }}"
+          fi
+          node --import tsx scripts/fetch-and-translate.ts $ARGS
 
       - name: Open PR if there are changes
         env:
@@ -62,7 +69,7 @@ jobs:
           git checkout -b "$BR"
           git -c user.name="ethresear-jp-bot" \
               -c user.email="187392377+ethresear-jp-bot@users.noreply.github.com" \
-              commit -m "feat: translate new posts from ethresear.ch ($(date -u +%F))"
+              commit -m "feat: translate new forum posts ($(date -u +%F))"
 
           git push -u origin "$BR"
 

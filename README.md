@@ -1,10 +1,10 @@
 # ethresear-jp
 
-[ethresear.ch](https://ethresear.ch/) (Ethereum Research) の投稿を日本語化して、Quartz のグラフビューで概念のつながりを辿れる形で公開するサイト。
+[ethresear.ch](https://ethresear.ch/) (Ethereum Research) と [ethereum-magicians.org](https://ethereum-magicians.org/) (Ethereum Magicians) の投稿を日本語化して、Quartz のグラフビューで概念のつながりを辿れる形で公開するサイト。
 
 ## 仕組み
 
-1. GitHub Actions が日次で `https://ethresear.ch/latest.rss` を取得
+1. GitHub Actions が日次で各 Discourse フォーラム（ethresear.ch, ethereum-magicians.org）の `/latest.rss` を取得（対象ソースは `scripts/lib/sources.ts` で定義）
 2. 新着投稿を Gemini API (`gemini-2.5-flash`, free tier OK) で日本語化（`glossary.md` をプロンプトに注入して用語のブレを防ぐ）
 3. 翻訳結果を `content/posts/` に Markdown として保存し PR を作成
 4. main にマージされると Cloudflare Workers (Static Assets) が Quartz をビルドして公開
@@ -64,4 +64,4 @@ Cloudflare ダッシュボード → Workers & Pages → Create → **Workers** 
 
 ## ライセンス
 
-翻訳対象の原文の著作権はそれぞれの著者に帰属します。本リポジトリで生成される翻訳は、原文の URL を `source_url` として常に表示し、Ethereum Research コミュニティへの還元を目的とした非営利の二次利用です。
+翻訳対象の原文の著作権はそれぞれの著者に帰属します。本リポジトリで生成される翻訳は、原文の URL を `source_url` として常に表示し、Ethereum 開発者コミュニティへの還元を目的とした非営利の二次利用です。

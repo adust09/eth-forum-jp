@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "ethresear.ch (原文)": "https://ethresear.ch/",
+      "ethereum-magicians.org (原文)": "https://ethereum-magicians.org/",
       GitHub: "https://github.com/adust09/ethresear-jp",
     },
   }),

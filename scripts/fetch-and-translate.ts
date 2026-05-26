@@ -1,15 +1,16 @@
 /**
  * Daily translation pipeline.
  *
- *   1. fetch https://ethresear.ch/latest.rss
- *   2. for each item not already in state.json:
+ *   1. for each source (see scripts/lib/sources.ts), fetch its /latest.rss
+ *   2. for each item not already in that source's state.json slice:
  *      - HTML → Markdown
  *      - Gemini translate (glossary injected via system prompt)
- *      - write content/posts/<date>-<slug>-<topic_id>.md with frontmatter
- *      - record topic_id in state.json
+ *      - write content/posts/<source>-<date>-<slug>-<topic_id>.md with frontmatter
+ *      - record topic_id under the source in state.json
  *
  * Re-running is safe: posts already in state.json are skipped without an API
- * call (cost-efficient).
+ * call (cost-efficient). Each source has an independent topic-id space, so the
+ * ledger is keyed per source to avoid cross-forum id collisions.
  */
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -30,32 +31,61 @@ import {
 import { GlossaryExtractor, type ExtractedTerm } from "./lib/glossary-extract.js";
 import { expandGlossary } from "./expand-glossary.js";
 import { slugFromLink, postFileName } from "./lib/slug.js";
+import { SOURCES, sourceById, type Source } from "./lib/sources.js";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const STATE_PATH = path.join(ROOT, "scripts", "state.json");
 const POSTS_DIR = path.join(ROOT, "content", "posts");
 
-interface State {
+/** Per-source ledger: source id -> sorted, deduped topic ids. */
+type State = Record<string, string[]>;
+
+/** Legacy single-source shape, before per-source namespacing. */
+interface LegacyState {
   topicIds: string[];
+}
+
+function emptyState(): State {
+  const state: State = {};
+  for (const s of SOURCES) state[s.id] = [];
+  return state;
 }
 
 async function loadState(): Promise<State> {
   try {
     const raw = await fs.readFile(STATE_PATH, "utf8");
-    const parsed = JSON.parse(raw) as State;
-    return { topicIds: parsed.topicIds ?? [] };
+    const parsed = JSON.parse(raw) as Record<string, unknown>;
+
+    // Migration: the legacy flat shape `{ "topicIds": [...] }` predates
+    // multi-source support, so every id in it belongs to ethresear.ch. This is
+    // read-time and idempotent — those ids land in state.ethresear and stay
+    // skipped, so no post is ever re-translated.
+    const legacyTopicIds = (parsed as Partial<LegacyState>).topicIds;
+    if (Array.isArray(legacyTopicIds)) {
+      return { ...emptyState(), ethresear: legacyTopicIds };
+    }
+
+    // New shape: adopt known slices, ensuring every configured source exists.
+    const state = emptyState();
+    for (const [key, value] of Object.entries(parsed)) {
+      if (Array.isArray(value)) state[key] = value as string[];
+    }
+    return state;
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") {
-      return { topicIds: [] };
+      return emptyState();
     }
     throw err;
   }
 }
 
 async function saveState(state: State): Promise<void> {
-  // Sort & dedupe for stable diffs across runs.
-  const unique = Array.from(new Set(state.topicIds)).sort();
-  await fs.writeFile(STATE_PATH, JSON.stringify({ topicIds: unique }, null, 2) + "\n", "utf8");
+  // Sort keys and each slice (deduped) for stable diffs across runs.
+  const out: State = {};
+  for (const key of Object.keys(state).sort()) {
+    out[key] = Array.from(new Set(state[key])).sort();
+  }
+  await fs.writeFile(STATE_PATH, JSON.stringify(out, null, 2) + "\n", "utf8");
 }
 
 function normalizeCategoryTag(category: string): string {
@@ -67,12 +97,15 @@ function normalizeCategoryTag(category: string): string {
 }
 
 function renderPost(
+  source: Source,
   item: RssItem,
   translated: { title: string; tags: string[]; body: string },
 ): string {
   const frontmatter = matter.stringify("", {
     title: translated.title,
     original_title: item.title,
+    source: source.id,
+    source_name: source.name,
     source_url: item.link,
     author: item.author,
     date: item.date,
@@ -91,10 +124,18 @@ function renderPost(
 }
 
 interface RunOptions {
-  /** If set, only translate at most this many new items (useful for local smoke tests). */
+  /** If set, only translate at most this many new items per source (useful for local smoke tests). */
   limit?: number;
   /** If true, skip writing state and post files. */
   dryRun?: boolean;
+  /** If set, restrict the run to this source id (translate or seed). */
+  source?: string;
+  /**
+   * If set, record the current feed window of this source id as already-seen
+   * WITHOUT translating, then exit. Used to start a new source go-forward
+   * (only posts published after seeding get translated). Costs zero API calls.
+   */
+  seed?: string;
 }
 
 function isRateLimitError(err: unknown): boolean {
@@ -121,13 +162,50 @@ function parseArgs(argv: string[]): RunOptions {
       opts.limit = Number(argv[++i]);
     } else if (a === "--dry-run") {
       opts.dryRun = true;
+    } else if (a === "--source") {
+      opts.source = argv[++i];
+    } else if (a === "--seed") {
+      opts.seed = argv[++i];
     }
   }
   return opts;
 }
 
+/**
+ * Record a source's entire current feed window as already-seen, without
+ * translating. Lets a newly-added source start go-forward (only future posts
+ * get translated). Costs zero Gemini calls.
+ */
+async function seedSource(source: Source): Promise<void> {
+  const state = await loadState();
+  const items = await fetchFeed(source.feedUrl);
+  const before = new Set(state[source.id] ?? []);
+  for (const item of items) before.add(item.topicId);
+  state[source.id] = Array.from(before);
+  await saveState(state);
+  console.log(
+    `[fetch-and-translate] seeded "${source.id}": marked ${items.length} current feed item(s) ` +
+      `as seen. Only posts published after this will be translated.`,
+  );
+}
+
 async function main(): Promise<void> {
   const opts = parseArgs(process.argv.slice(2));
+
+  // Seeding is a no-translation operation; handle it before requiring the API key.
+  if (opts.seed !== undefined) {
+    const source = sourceById(opts.seed);
+    if (!source) {
+      throw new Error(`unknown --seed source "${opts.seed}" (known: ${SOURCES.map((s) => s.id).join(", ")})`);
+    }
+    await seedSource(source);
+    return;
+  }
+
+  if (opts.source !== undefined && !sourceById(opts.source)) {
+    throw new Error(`unknown --source "${opts.source}" (known: ${SOURCES.map((s) => s.id).join(", ")})`);
+  }
+
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error("GEMINI_API_KEY env var is required");
@@ -156,80 +234,92 @@ async function main(): Promise<void> {
   };
 
   const state = await loadState();
-  const seen = new Set(state.topicIds);
-
-  const items = await fetchFeed();
-  console.log(`[fetch-and-translate] feed items: ${items.length}`);
-
-  const newItems = items.filter((i) => !seen.has(i.topicId));
-  console.log(`[fetch-and-translate] new items: ${newItems.length}`);
-
-  const toProcess = opts.limit !== undefined ? newItems.slice(0, opts.limit) : newItems;
+  const sourcesToRun = opts.source ? SOURCES.filter((s) => s.id === opts.source) : SOURCES;
   await fs.mkdir(POSTS_DIR, { recursive: true });
 
   let written = 0;
   let failed = 0;
   let deferred = 0;
-  for (let i = 0; i < toProcess.length; i++) {
-    const item = toProcess[i];
-    try {
-      console.log(`[fetch-and-translate] translating: [${item.topicId}] ${item.title}`);
-      const sourceMd = htmlToMarkdown(item.html);
-      const translated = await translator.translate(sourceMd, item.title);
+  let skipped = 0;
+  // Gemini quota is shared across sources, so a 429 must stop the whole run,
+  // not just the current source.
+  let rateLimited = false;
 
-      const slug = slugFromLink(item.link);
-      const file = path.join(POSTS_DIR, postFileName(item.date, slug, item.topicId));
-      const out = renderPost(item, translated);
+  for (const source of sourcesToRun) {
+    if (rateLimited) break;
+    state[source.id] ??= [];
+    const seen = new Set(state[source.id]);
 
-      if (!opts.dryRun) {
-        await fs.writeFile(file, out, "utf8");
-        state.topicIds.push(item.topicId);
-      }
-      written++;
-      console.log(`[fetch-and-translate]   -> ${path.relative(ROOT, file)}`);
+    const items = await fetchFeed(source.feedUrl);
+    const newItems = items.filter((i) => !seen.has(i.topicId));
+    skipped += items.length - newItems.length;
+    console.log(
+      `[fetch-and-translate] (${source.id}) feed items: ${items.length}, new: ${newItems.length}`,
+    );
 
-      // Glossary extraction is independent and best-effort: its failures must
-      // never affect the translation that already succeeded above.
-      if (!extractionDisabled) {
-        try {
-          const candidates = await extractor.extract(sourceMd, item.title, knownSurfaceForms);
-          for (const candidate of candidates) {
-            const entry = extractedToEntry(candidate);
-            if (isKnown(entry)) continue;
-            newGlossaryItems.push({
-              entry,
-              provenance: { autoAdded: today, sourceTopicId: item.topicId, sourceUrl: item.link },
-            });
-            registerEntry(entry);
-            console.log(`[fetch-and-translate]   + glossary candidate: ${entry.term} → ${entry.ja}`);
-          }
-        } catch (exErr) {
-          if (isRateLimitError(exErr)) {
-            extractionDisabled = true;
-            console.warn(
-              "[fetch-and-translate] glossary extraction hit rate limit; skipping extraction for remaining items.",
-            );
-          } else {
-            console.warn(`[fetch-and-translate] glossary extraction failed for [${item.topicId}]:`, exErr);
+    const toProcess = opts.limit !== undefined ? newItems.slice(0, opts.limit) : newItems;
+    for (let i = 0; i < toProcess.length; i++) {
+      const item = toProcess[i];
+      try {
+        console.log(`[fetch-and-translate] (${source.id}) translating: [${item.topicId}] ${item.title}`);
+        const sourceMd = htmlToMarkdown(item.html);
+        const translated = await translator.translate(sourceMd, item.title);
+
+        const slug = slugFromLink(item.link);
+        const file = path.join(POSTS_DIR, postFileName(source.id, item.date, slug, item.topicId));
+        const out = renderPost(source, item, translated);
+
+        if (!opts.dryRun) {
+          await fs.writeFile(file, out, "utf8");
+          state[source.id].push(item.topicId);
+        }
+        written++;
+        console.log(`[fetch-and-translate]   -> ${path.relative(ROOT, file)}`);
+
+        // Glossary extraction is independent and best-effort: its failures must
+        // never affect the translation that already succeeded above.
+        if (!extractionDisabled) {
+          try {
+            const candidates = await extractor.extract(sourceMd, item.title, knownSurfaceForms);
+            for (const candidate of candidates) {
+              const entry = extractedToEntry(candidate);
+              if (isKnown(entry)) continue;
+              newGlossaryItems.push({
+                entry,
+                provenance: { autoAdded: today, sourceTopicId: item.topicId, sourceUrl: item.link },
+              });
+              registerEntry(entry);
+              console.log(`[fetch-and-translate]   + glossary candidate: ${entry.term} → ${entry.ja}`);
+            }
+          } catch (exErr) {
+            if (isRateLimitError(exErr)) {
+              extractionDisabled = true;
+              console.warn(
+                "[fetch-and-translate] glossary extraction hit rate limit; skipping extraction for remaining items.",
+              );
+            } else {
+              console.warn(`[fetch-and-translate] glossary extraction failed for [${item.topicId}]:`, exErr);
+            }
           }
         }
+      } catch (err) {
+        if (isRateLimitError(err)) {
+          // Gemini free-tier daily quota exhausted. Stop here without counting
+          // this item as a failure — it stays out of state.json and will be
+          // retried on the next scheduled run. Treating this as a hard failure
+          // would force a non-zero exit, which (under `set -e` in the workflow)
+          // skips the "Open PR" step and loses everything written above.
+          deferred += toProcess.length - i;
+          rateLimited = true;
+          console.warn(
+            `[fetch-and-translate] Gemini rate limit hit at [${item.topicId}] ${item.title}. ` +
+              `Deferring ${deferred} remaining item(s) to the next run.`,
+          );
+          break;
+        }
+        failed++;
+        console.error(`[fetch-and-translate] FAILED [${item.topicId}] ${item.title}:`, err);
       }
-    } catch (err) {
-      if (isRateLimitError(err)) {
-        // Gemini free-tier daily quota exhausted. Stop here without counting
-        // this item as a failure — it stays out of state.json and will be
-        // retried on the next scheduled run. Treating this as a hard failure
-        // would force a non-zero exit, which (under `set -e` in the workflow)
-        // skips the "Open PR" step and loses everything written above.
-        deferred = toProcess.length - i;
-        console.warn(
-          `[fetch-and-translate] Gemini rate limit hit at [${item.topicId}] ${item.title}. ` +
-            `Deferring ${deferred} remaining item(s) to the next run.`,
-        );
-        break;
-      }
-      failed++;
-      console.error(`[fetch-and-translate] FAILED [${item.topicId}] ${item.title}:`, err);
     }
   }
 
@@ -261,7 +351,7 @@ async function main(): Promise<void> {
 
   console.log(
     `[fetch-and-translate] done. written=${written} failed=${failed} ` +
-      `deferred=${deferred} skipped=${items.length - newItems.length}`,
+      `deferred=${deferred} skipped=${skipped}`,
   );
 
   // Only treat the run as failed when nothing was written AND a non-rate-limit
