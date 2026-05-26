@@ -11,6 +11,7 @@ tags:
   - mechanism-design
   - mev
   - security
+  - research
 topic_id: '24863'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

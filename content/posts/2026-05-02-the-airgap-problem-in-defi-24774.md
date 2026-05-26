@@ -6,11 +6,11 @@ author: WGlynn
 date: '2026-05-02'
 category: Execution Layer Research
 tags:
-  - execution-layer-research
   - defi
   - security
-  - consensus
   - mechanism-design
+  - consensus
+  - research
 topic_id: '24774'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

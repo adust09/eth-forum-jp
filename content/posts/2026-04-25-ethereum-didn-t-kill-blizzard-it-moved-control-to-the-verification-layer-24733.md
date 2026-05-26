@@ -7,10 +7,10 @@ author: DamonZwicker
 date: '2026-04-25'
 category: Meta-innovation
 tags:
-  - meta-innovation
-  - ethereum
   - verification
   - decentralization
+  - protocol-design
+  - research
 topic_id: '24733'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

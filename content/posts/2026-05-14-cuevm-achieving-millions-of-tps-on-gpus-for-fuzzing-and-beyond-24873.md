@@ -7,10 +7,11 @@ author: minhhn2910
 date: '2026-05-14'
 category: Execution Layer Research
 tags:
-  - execution-layer-research
-  - ethereum
-  - gpu
   - fuzzing
+  - evm
+  - execution-layer
+  - smart-contracts
+  - research
 topic_id: '24873'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

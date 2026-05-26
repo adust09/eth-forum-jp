@@ -10,9 +10,11 @@ date: '2026-04-24'
 category: Sharding
 tags:
   - sharding
-  - ethereum
-  - scalability
+  - scaling
   - zkevm
+  - execution-layer
+  - zk
+  - protocol-design
 topic_id: '24724'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

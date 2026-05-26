@@ -10,8 +10,10 @@ date: '2026-05-24'
 category: Consensus
 tags:
   - consensus
-  - byzantine-fault-tolerance
-  - diversity-weighting
+  - client-diversity
+  - mechanism-design
+  - protocol-design
+  - research
 topic_id: '24935'
 translated_at: '2026-05-25'
 translator: gemini-2.5-flash

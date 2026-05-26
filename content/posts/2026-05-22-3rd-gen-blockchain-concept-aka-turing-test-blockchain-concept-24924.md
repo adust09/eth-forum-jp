@@ -8,9 +8,9 @@ date: '2026-05-22'
 category: Proof-of-Stake
 tags:
   - proof-of-stake
-  - ai
-  - blockchain-architecture
-  - proof-of-concept
+  - ai-agents
+  - protocol-design
+  - research
 topic_id: '24924'
 translated_at: '2026-05-23'
 translator: gemini-2.5-flash

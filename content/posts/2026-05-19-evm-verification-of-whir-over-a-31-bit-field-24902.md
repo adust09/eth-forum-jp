@@ -6,10 +6,11 @@ author: alxkzmn
 date: '2026-05-19'
 category: 'zk-s[nt]arks'
 tags:
-  - zk-s-nt-arks
-  - evm-verification
-  - whir
+  - zk
+  - evm
+  - verification
   - snarks
+  - cryptography
 topic_id: '24902'
 translated_at: '2026-05-20'
 translator: gemini-2.5-flash

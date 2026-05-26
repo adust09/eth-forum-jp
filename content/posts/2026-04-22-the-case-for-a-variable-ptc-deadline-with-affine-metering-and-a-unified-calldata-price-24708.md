@@ -10,11 +10,12 @@ date: '2026-04-22'
 category: Proof-of-Stake
 tags:
   - proof-of-stake
-  - ethereum
-  - research
-  - calldata
+  - pbs
+  - gas
+  - fee-market
   - eip
   - scaling
+  - protocol-design
 topic_id: '24708'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

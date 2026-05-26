@@ -7,6 +7,7 @@
   "scripts": {
     "expand-glossary": "tsx scripts/expand-glossary.ts",
     "fetch-translate": "tsx scripts/fetch-and-translate.ts",
+    "retag-posts": "tsx scripts/retag-posts.ts",
     "dev": "cd quartz && npx quartz build --serve",
     "build": "cd quartz && npx quartz build --output ../public",
     "typecheck": "tsc --noEmit"

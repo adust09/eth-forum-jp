@@ -10,10 +10,10 @@ date: '2026-05-03'
 category: Cryptography
 tags:
   - cryptography
-  - bitvm
   - tee
   - bridges
   - security
+  - research
 topic_id: '24783'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

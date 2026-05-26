@@ -6,10 +6,11 @@ author: barryWhiteHat
 date: '2026-04-21'
 category: Uncategorized
 tags:
-  - uncategorized
-  - zkp
-  - witness-encryption
+  - zk
+  - cryptography
   - privacy
+  - smart-contracts
+  - research
 topic_id: '24700'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

@@ -7,8 +7,10 @@ date: '2026-05-05'
 category: Privacy
 tags:
   - privacy
-  - anonymous-credentials
+  - identity
   - ai-agents
+  - zk
+  - research
 topic_id: '24797'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

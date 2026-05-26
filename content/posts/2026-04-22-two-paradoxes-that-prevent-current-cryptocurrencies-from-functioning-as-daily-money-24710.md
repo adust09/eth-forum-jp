@@ -10,9 +10,9 @@ date: '2026-04-22'
 category: Economics
 tags:
   - economics
-  - cryptocurrency
-  - money
-  - adoption
+  - mechanism-design
+  - payments
+  - decentralization
 topic_id: '24710'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash

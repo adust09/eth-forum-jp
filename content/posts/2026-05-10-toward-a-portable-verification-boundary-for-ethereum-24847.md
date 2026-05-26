@@ -7,12 +7,11 @@ author: DamonZwicker
 date: '2026-05-10'
 category: Execution Layer Research
 tags:
-  - execution-layer-research
-  - ethereum
   - verification
+  - zk
   - data-availability
-  - zk-proofs
-  - protocol
+  - protocol-design
+  - research
 topic_id: '24847'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

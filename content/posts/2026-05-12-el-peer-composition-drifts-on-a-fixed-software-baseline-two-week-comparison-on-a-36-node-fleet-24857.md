@@ -10,10 +10,9 @@ date: '2026-05-12'
 category: Networking
 tags:
   - networking
-  - ethereum
   - p2p
   - client-diversity
-  - besu
+  - research
 topic_id: '24857'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

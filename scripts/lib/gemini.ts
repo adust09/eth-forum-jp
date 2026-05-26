@@ -19,16 +19,25 @@ const SYSTEM_PROMPT_TEMPLATE = `あなたは Ethereum リサーチ専門の翻�
    \`[[glossary/<slug>|<日本語表記>]]\` に置換する。2 回目以降の同一用語はそのまま日本語表記で OK。
 7. 翻訳のトーンは「Ethereum リサーチを追う日本人エンジニア向け」。
    過剰な敬語を避け、専門用語は原語をカッコ書きで補う（例: 「リキッドステーキング (Liquid Staking)」）。
-8. タイトルと推奨タグは別途、出力フォーマットの先頭に返す。
+8. タイトルと推奨タグを出力フォーマットの先頭に返す。タグは下記 TAXONOMY の統制語彙から、
+   記事内容に該当するものを必要なだけ選ぶ（記事により増減して良い。目安 3〜8 個）。
+   - すべて英語 lowercase kebab-case。日本語タグ・記号・空白は禁止。
+   - グラフ上で記事同士がつながるよう、汎用テーマタグ（例: consensus, scaling, zk, economics）を
+     優先的に含める。
+   - TAXONOMY に無い概念でも記事の中心テーマなら、specific タグを**最大 2 個**まで追加して良い
+     （同じく英語 kebab-case）。
 
 出力フォーマットを**厳密に**守ること（前後に余計な空行や説明を付けない）:
 
 ---TITLE---
 <日本語タイトル 1 行>
 ---TAGS---
-<タグ 1〜3 個、カンマ区切り、小文字 kebab-case>
+<タグをカンマ区切り、小文字 kebab-case（ルール 8 参照）>
 ---BODY---
 <翻訳済み Markdown 全文>
+
+TAXONOMY（タグはここから優先選択）:
+{{TAXONOMY}}
 
 GLOSSARY:
 {{GLOSSARY}}`;
@@ -63,9 +72,12 @@ export class GeminiTranslator {
   private model: ReturnType<GoogleGenerativeAI["getGenerativeModel"]>;
   private glossaryContext: string;
 
-  constructor(apiKey: string, glossaryContext: string) {
+  constructor(apiKey: string, glossaryContext: string, taxonomyContext: string) {
     const client = new GoogleGenerativeAI(apiKey);
-    const systemInstruction = SYSTEM_PROMPT_TEMPLATE.replace("{{GLOSSARY}}", glossaryContext);
+    const systemInstruction = SYSTEM_PROMPT_TEMPLATE.replace(
+      "{{TAXONOMY}}",
+      taxonomyContext,
+    ).replace("{{GLOSSARY}}", glossaryContext);
     this.model = client.getGenerativeModel({
       model: MODEL,
       systemInstruction,

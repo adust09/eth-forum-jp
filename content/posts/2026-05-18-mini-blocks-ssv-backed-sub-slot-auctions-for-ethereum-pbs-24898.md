@@ -8,9 +8,10 @@ date: '2026-05-18'
 category: Economics
 tags:
   - economics
-  - ethereum
   - pbs
   - mev
+  - consensus
+  - protocol-design
 topic_id: '24898'
 translated_at: '2026-05-19'
 translator: gemini-2.5-flash

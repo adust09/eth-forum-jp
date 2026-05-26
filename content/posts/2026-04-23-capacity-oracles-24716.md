@@ -6,10 +6,12 @@ author: mbahrani
 date: '2026-04-23'
 category: Economics
 tags:
-  - economics
-  - capacity-oracles
-  - sybil-attacks
+  - oracle
   - mechanism-design
+  - verification
+  - ai-agents
+  - security
+  - cryptography
 topic_id: '24716'
 translated_at: '2026-05-21'
 translator: gemini-2.5-flash
