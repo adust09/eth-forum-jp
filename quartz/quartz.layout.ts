@@ -1,5 +1,21 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { FileTrieNode } from "./quartz/util/fileTrie"
+
+// Explorer sort: folders first, then files by published date descending (newest
+// first), tie-broken by display name. Must stay self-contained — it is serialized
+// via Function.prototype.toString() and re-evaluated client-side in explorer.inline.ts.
+const explorerByDate = (a: FileTrieNode, b: FileTrieNode): number => {
+  if (a.isFolder && !b.isFolder) return -1
+  if (!a.isFolder && b.isFolder) return 1
+  const aTime = a.data?.date ? new Date(a.data.date).getTime() : 0
+  const bTime = b.data?.date ? new Date(b.data.date).getTime() : 0
+  if (aTime !== bTime) return bTime - aTime
+  return a.displayName.localeCompare(b.displayName, undefined, {
+    numeric: true,
+    sensitivity: "base",
+  })
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -39,7 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({ sortFn: explorerByDate }),
     Component.TagNav({ limit: 20 }),
   ],
   right: [
@@ -64,7 +80,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({ sortFn: explorerByDate }),
     Component.TagNav({ limit: 20 }),
   ],
   right: [],

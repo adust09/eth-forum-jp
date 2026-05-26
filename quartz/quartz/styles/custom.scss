@@ -35,3 +35,21 @@
     }
   }
 }
+
+// 翻訳記事一覧 (/posts/) のカテゴリ別グループ表示。カテゴリ見出しを
+// 区切り線付きで明示し、セクション間に余白を取って群の境界を分かりやすくする。
+.category-section {
+  margin-block: 1.5rem 0;
+
+  & + .category-section {
+    margin-top: 2rem;
+  }
+
+  .category-heading {
+    margin: 0 0 0.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--lightgray);
+    font-size: 1.1rem;
+    color: var(--secondary);
+  }
+}
