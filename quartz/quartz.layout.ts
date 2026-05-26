@@ -40,6 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.TagNav({ limit: 20 }),
   ],
   right: [
     Component.Graph(),
@@ -64,6 +65,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.TagNav({ limit: 20 }),
   ],
   right: [],
 }
