@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-05-17'
+date: '2026-05-26'
 ---
 
 **ブロック構築**
