@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Explorer の記事一覧: 折り返した複数行タイトルがくっついて境界が分かりにくいので、
+// タイトル内の行間を詰め、記事ごとに hairline divider で分離し、ホバーで行を明示する。
+.explorer-content {
+  // 葉ノード（記事リンク）を直接の子に持つ <li> だけを対象にする。
+  // フォルダ行（直接の子が .folder-container の div）は対象外。
+  & li:has(> a) {
+    border-bottom: 1px solid var(--lightgray);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  & li > a {
+    display: block;
+    padding: 0.4rem 0.4rem;
+    line-height: 1.35; // 1タイトル内の折り返し行を詰めて束ねる
+    border-radius: 4px;
+    transition:
+      background-color 0.15s ease,
+      opacity 0.15s ease;
+
+    &:hover {
+      background-color: var(--highlight);
+      opacity: 1;
+    }
+
+    // 現在表示中の記事も淡くハイライト（既存の color:var(--tertiary) に追加）。
+    &.active {
+      background-color: var(--highlight);
+    }
+  }
+}
