@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -217,3 +217,51 @@ description: |
 - auto_source_url: https://ethresear.ch/t/coordination-is-self-defeating-a-structural-proof-for-diversity-weighted-byzantine-fault-tolerance/24935
 - desc: |
   多様性重み付けビザンチン耐性（DW-BFT）における第二の防御メカニズム。バリデーターの提出値がコンセンサスウィンドウ（δ）の範囲外である場合、そのバリデーターをコンセンサススコアから除外する。これにより、多様性を維持しつつ不正な値を提出する攻撃を防ぐ。
+
+## Trusted Execution Environment
+- ja: トラステッド実行環境 (TEE)
+- aliases: [TEE]
+- related: [Confidential execution, Measurement and attestation]
+- auto_added: 2026-05-27
+- auto_source_topic_id: 24964
+- auto_source_url: https://ethresear.ch/t/physical-integrity-attestation-and-the-state-of-permissionless-tees/24964
+- desc: |
+  ハードウェアベースのセキュリティ機能で、コードとデータをメインのOSやハイパーバイザーから隔離された安全な領域で実行することを保証します。これにより、機密性の高い処理が外部からの改ざんや覗き見から保護されます。
+
+## Custody and physical integrity endorsement
+- ja: カストディおよび物理的完全性の保証
+- related: [Platform Ownership Endorsement, Proof of Cloud]
+- auto_added: 2026-05-27
+- auto_source_topic_id: 24964
+- auto_source_url: https://ethresear.ch/t/physical-integrity-attestation-and-the-state-of-permissionless-tees/24964
+- desc: |
+  TEEシステムにおいて、ハードウェアの物理的な制御者（カストディ）と、そのハードウェアが改ざんから保護されていること（物理的完全性）を検証可能に声明するセキュリティレイヤーです。CPUベンダーが提供する基本的なアテステーションではカバーされない、重要な信頼のギャップを埋めることを目的とします。
+
+## Platform Ownership Endorsement
+- ja: プラットフォーム所有権保証 (PoE)
+- aliases: [PoE]
+- related: [PIID, CoRIM, Custody and physical integrity endorsement]
+- auto_added: 2026-05-27
+- auto_source_topic_id: 24964
+- auto_source_url: https://ethresear.ch/t/physical-integrity-attestation-and-the-state-of-permissionless-tees/24964
+- desc: |
+  Intelが提案する標準化されたメカニズムで、プラットフォームオペレーターが特定のCPUの物理的制御を暗号学的に署名することを可能にします。これにより、TEEが特定の信頼できるオペレーターの管理下にあることを検証できます。
+
+## Proof of Cloud
+- ja: プルーフ・オブ・クラウド
+- aliases: [PoC]
+- related: [Custody and physical integrity endorsement]
+- auto_added: 2026-05-27
+- auto_source_topic_id: 24964
+- auto_source_url: https://ethresear.ch/t/physical-integrity-attestation-and-the-state-of-permissionless-tees/24964
+- desc: |
+  TEEハードウェアが特定のクラウドプロバイダーの管理下にあることを検証するアプローチです。人間による検証（Level 1）や、TPMのクロスリンクを利用した暗号学的検証（Level 2）など、オペレーターの署名に依存しない形でカストディを証明することを目指します。
+
+## Physical bus interposition
+- ja: 物理バス介在攻撃
+- related: [WireTap, TEE.fail]
+- auto_added: 2026-05-27
+- auto_source_topic_id: 24964
+- auto_source_url: https://ethresear.ch/t/physical-integrity-attestation-and-the-state-of-permissionless-tees/24964
+- desc: |
+  TEEのメモリ暗号化エンジンとDRAM間の物理バスにデバイスを介在させることで、暗号化されたメモリ上のデータを傍受・改ざんするハードウェアレベルの攻撃手法です。これにより、TEEの機密性保証が破られる可能性があります。
