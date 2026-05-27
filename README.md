@@ -59,7 +59,7 @@ Cloudflare ダッシュボード → Workers & Pages → Create → **Workers** 
 ### 3. 動作確認
 
 - Actions タブから `Daily Translate` を `workflow_dispatch` で `limit=1` で手動実行 → PR が立つ
-- PR をマージ → Cloudflare Workers がビルド・デプロイして `ethresear-jp.<account>.workers.dev` で公開
+- PR をマージ → Cloudflare Workers がビルド・デプロイして本番ドメイン [`https://ethforum.org`](https://ethforum.org) で公開（`wrangler.jsonc` の `routes` でカスタムドメインを宣言済み。初回 deploy 時に DNS レコードと TLS 証明書が自動発行される）
 - グラフビュー・タグ・画像が本番でも動くか確認
 
 ## ライセンス

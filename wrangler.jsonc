@@ -16,6 +16,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ethresear-jp",
   "compatibility_date": "2025-01-01",
+  // Custom domain (registered via Cloudflare Registrar). `custom_domain: true`
+  // makes `wrangler deploy` provision the DNS record + TLS cert and bind the
+  // apex to this Worker, so the production URL is https://ethforum.org.
+  "routes": [
+    { "pattern": "ethforum.org", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
