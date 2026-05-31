@@ -5,7 +5,7 @@ aliases:
   - PoC
 tags:
   - glossary
-date: '2026-05-30'
+date: '2026-05-31'
 ---
 
 **プルーフ・オブ・クラウド**

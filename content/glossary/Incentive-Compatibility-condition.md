@@ -5,7 +5,7 @@ aliases:
   - IC condition
 tags:
   - glossary
-date: '2026-05-30'
+date: '2026-05-31'
 ---
 
 **インセンティブ整合性条件 (IC条件)**

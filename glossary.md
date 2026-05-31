@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -665,3 +665,132 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/wyriwe-what-you-read-is-what-you-execute-input-provenance-for-verifiable-ai-inference/28655
 - desc: |
   EIP-712標準を利用して、AI推論の入力来歴や実行結果などのアテステーション（証明）の構造を定義するプロファイル。これにより、アテステーションの署名と検証が標準化され、信頼性が向上します。
+
+## bisection
+- ja: バイセクション（二分探索）
+- related: [optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、不正な状態遷移が発生した正確なステップを特定するために、実行トレースに対して二分探索を行うプロセス。これにより、オンチェーンでの検証コストを削減する。
+
+## single-instruction Groth16 proof
+- ja: 単一命令Groth16証明
+- related: [Groth16, ZK-SNARK, optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明において、MIPSなどの仮想マシンの単一の命令実行ステップのみを対象として生成されるGroth16形式のゼロ知識証明。これにより、オンチェーンでの検証コストを大幅に削減できる。
+
+## ZK state channel
+- ja: ZKステートチャネル
+- related: [state channel, ZK-SNARK, optimistic rollup, dispute resolution]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  ゼロ知識証明（ZK-SNARK）を活用したステートチャネルの一種。オフチェーンでのインタラクションをゼロ知識証明で検証することで、オンチェーンでの紛争解決を効率化し、信頼性を高める。
+
+## MIPS leaf execution
+- ja: MIPSリーフ実行
+- related: [MIPS, optimistic rollup, fraud proof, bisection]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、MIPS仮想マシンの実行トレースを二分探索した結果、不正が特定された最小単位の単一命令実行ステップ。このステップがゼロ知識証明の対象となることが多い。
+
+## trusted setup
+- ja: トラステッドセットアップ（信頼できる設定）
+- related: [ZK-SNARK, MPC ceremony, Powers of Tau]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  特定のゼロ知識証明システム（例: Groth16）を使用するために必要な初期パラメータ生成プロセス。このプロセスには、秘密のランダム値が使用され、その秘密が漏洩しないように信頼できる当事者によって実行される必要がある。
+
+## Keyed Nonces
+- ja: キー付きナンス (Keyed Nonces)
+- related: [Async nonce, Frame Transactions, EIP-8250]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8250で提案されている、単一の送信者ナンスを(nonce_key, nonce_seq)のペアで置き換える仕組みです。これにより、異なるキーを持つトランザクションはリプレイ攻撃に対して独立し、並行処理やプライバシープロトコルでの利用が可能になります。
+
+## Frame Transactions
+- ja: フレームトランザクション (Frame Transactions)
+- related: [EIP-8141, Keyed Nonces]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8141で導入されたトランザクションタイプです。EIP-8250では、このフレームトランザクションの単一送信者ナンスをキー付きナンスに置き換えることが提案されています。
+
+## Async nonce
+- ja: 非同期ナンス (Async nonce)
+- related: [Keyed Nonces, Sync nonce]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EVVMで実装されているナンスモデルの一つで、アカウントごとに(account, nonce_value)のスロットを持ち、使用時に消費済みとマークされます。異なる非同期ナンスはリプレイ攻撃に対して独立しており、並行するインテントや共有送信者パターンに利用されます。
+
+## non-authoritative reservation
+- ja: 非権威的予約 (non-authoritative reservation)
+- related: [Keyed Nonces]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  キー付きナンスの上に構築される予約プリミティブで、ユーザーやアプリケーションが「ナンスXを使用する意図がある」ことをオンチェーンで公開します。他のアクターがそのナンスを使用することをブロックせず、意図を可視化し、インデックス可能にすることで、競合を早期に検出する情報レイヤーとして機能します。
+
+## mempool addressability
+- ja: メムプールアドレス可能性 (mempool addressability)
+- aliases: [protocol-level mempool addressability]
+- related: [Keyed Nonces, keyed-aware mempool policies]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  プロトコルレベルでキー付きナンスを認識し、処理できるメムプールの能力を指します。これにより、送信者ごとの並行トランザクションを可能にするキー対応のメムプールポリシーが実現され、L1プロトコルにキー付きナンスを導入する主要な理由の一つとされています。
+
+## Post-Quantum Interop
+- ja: ポスト量子相互運用性 (PQ相互運用性)
+- aliases: [PQ Interop]
+- related: [Post-Quantum Cryptography, Quantum Computing]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  量子コンピュータの脅威に耐えうる暗号技術（ポスト量子暗号）の相互運用性に関する取り組みや研究分野を指します。Ethereumプロトコルが将来の量子攻撃に対して安全であることを保証するための重要な研究テーマの一つです。
+
+## Devnet
+- ja: 開発ネットワーク (Devnet)
+- aliases: [Development Network]
+- related: [Testnet, Mainnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  開発者が新しいプロトコルやアプリケーションをテストするために使用する、本番環境（メインネット）とは異なる独立したブロックチェーンネットワークです。実際の資産価値を持たないため、自由に実験やデバッグを行うことができます。
+
+## mainnet
+- ja: メインネット
+- related: [testnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumの主要な本番ネットワーク。実際の価値を持つETHやトークンが取引され、スマートコントラクトが実行されます。
+
+## testnet
+- ja: テストネット
+- related: [mainnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumプロトコルの開発やテストのために使用されるネットワーク。実際の価値を持たないETHやトークンが使用され、メインネットに影響を与えることなく実験が行われます。
