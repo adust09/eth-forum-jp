@@ -76,9 +76,12 @@ jobs:
           COUNT=$(git diff --name-only main...HEAD -- content/posts | wc -l)
           # No --assignee: the default GITHUB_TOKEN is a GitHub App installation
           # token, which cannot assign users (replaceActorsForAssignable fails).
-          # Under `bash -e` that error aborts the step before auto-merge is enabled.
+          # Under `bash -e` that error aborts the step.
           gh pr create \
             --title "Daily translation $(date -u +%F) (${COUNT} new posts)" \
-            --body "Automated translation by Gemini 2.5 Pro. Review for translation quality, then merge to deploy via Cloudflare Pages."
+            --body "Automated translation by Gemini 2.5 Pro. Auto-merged to deploy via Cloudflare Pages."
 
-          gh pr merge --auto --merge "$BR"
+          # Merge immediately rather than `--auto`: main has no required status
+          # checks, so the PR is CLEAN at creation and enablePullRequestAutoMerge
+          # rejects it ("Pull request is in clean status"), failing the step.
+          gh pr merge --merge --delete-branch "$BR"
