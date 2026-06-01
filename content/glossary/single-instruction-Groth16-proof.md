@@ -4,19 +4,19 @@ aliases:
   - 単一命令Groth16証明
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
 **単一命令Groth16証明**
 
-オプティミスティックロールアップの紛争解決において、MIPSトレースの単一の命令実行のみをGroth16証明で検証する手法です。これにより、オンチェーンでの検証コストを大幅に削減し、定数に保つことができます。
+オプティミスティックロールアップの不正証明において、MIPSなどの仮想マシンの単一の命令実行ステップのみを対象として生成されるGroth16形式のゼロ知識証明。これにより、オンチェーンでの検証コストを大幅に削減できる。
 
 ## 関連用語
 
 - [[glossary/Groth16|Groth16]]
-- [[glossary/ZK-proof|ZK proof]]
+- [[glossary/ZK-SNARK|ZK-SNARK]]
 - [[glossary/optimistic-rollup|optimistic rollup]]
-- [[glossary/dispute-resolution|dispute resolution]]
+- [[glossary/fraud-proof|fraud proof]]
 
 ## 元の表記（英語）
 

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-01
+last_updated: 2026-05-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -666,6 +666,381 @@ description: |
 - desc: |
   EIP-712標準を利用して、AI推論の入力来歴や実行結果などのアテステーション（証明）の構造を定義するプロファイル。これにより、アテステーションの署名と検証が標準化され、信頼性が向上します。
 
+## blob
+- ja: ブロブ
+- related: [EIP-4844, Data Availability Sampling]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 24978
+- auto_source_url: https://ethresear.ch/t/peerdas-30-acceleration-for-4x-less-memory-usage/24978
+- desc: |
+  EIP-4844 (Proto-Danksharding) で導入された、一時的に大量のデータを保存するための新しいデータ形式。主にL2ロールアップのトランザクションデータを安価に利用可能にするために設計された。
+
+## KZG commitment
+- ja: KZGコミットメント
+- aliases: [KZG]
+- related: [EIP-4844, Polynomial commitment]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 24978
+- auto_source_url: https://ethresear.ch/t/peerdas-30-acceleration-for-4x-less-memory-usage/24978
+- desc: |
+  多項式コミットメントスキームの一種で、特定の多項式が特定の点において特定の値を評価することの簡潔な証明を可能にする。EIP-4844におけるブロブデータのデータ可用性証明に利用される。
+
+## Multi-Scalar Multiplication
+- ja: 多点スカラー乗算 (MSM)
+- aliases: [MSM]
+- related: [Elliptic curve cryptography, Verkle Trees]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 24978
+- auto_source_url: https://ethresear.ch/t/peerdas-30-acceleration-for-4x-less-memory-usage/24978
+- desc: |
+  複数のスカラーと楕円曲線上の点のペアに対して、それぞれスカラー乗算を行い、その結果を合計する演算。楕円曲線暗号やゼロ知識証明、Verkle Treesなどで効率的な計算が求められる。
+
+## ePBS
+- ja: ePBS (enshrined Proposer-Builder Separation)
+- aliases: [enshrined Proposer-Builder Separation]
+- related: [Proposer-Builder Separation, Relay]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 24975
+- auto_source_url: https://ethresear.ch/t/building-towards-multi-party-block-construction/24975
+- desc: |
+  プロポーザー・ビルダー分離 (PBS) の一種で、プロトコル内に組み込まれた（enshrined）形式。リレーの主要なエスクロー機能をプロトコルが直接処理することで、単一パーティブロックの信頼できる引き渡しを可能にする。MPBCはePBSを拡張する形で設計されている。
+
+## EIPIP
+- ja: EIPIP
+- related: [EIP]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体またはグループ。EIPの策定と管理に関するポリシーやガイドラインを議論し、コミュニティの合意形成を促進する。
+
+## EIP Editor
+- ja: EIPエディター
+- aliases: [EIP Editors, Associate EIP Editors]
+- related: [EIP]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) のレビュー、編集、および管理を担当する個人。EIPの品質と一貫性を確保し、標準化プロセスにおいて重要な役割を果たす。
+
+## Dispute Resolution Guidelines
+- ja: 紛争解決ガイドライン
+- related: [EIPIP, EIP]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) の策定プロセスにおいて発生する意見の相違や紛争を解決するための公式な指針。コミュニティ内の合意形成を促進し、プロセスの円滑な進行を支援する。
+
+## EIP Numbering
+- ja: EIPナンバリング
+- related: [EIP]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) に一意の番号を割り当てるプロセス。EIPの識別と管理を効率化するために、自動化が検討されている重要な要素である。
+
+## EIP Editing Office Hours
+- ja: EIP編集オフィスアワー
+- related: [EIP Editor, EIP]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  EIPエディターがコミュニティメンバーからのEIPに関する質問に答えたり、フィードバックを提供したりする定期的なセッション。EIPの改善と理解を深める機会を提供し、コミュニティとの連携を強化する。
+
+## Glamsterdam
+- ja: グラムステルダム
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28643
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
+- desc: |
+  Ethereumの将来のアップグレードまたは開発ネットワークのコードネーム。特定の開発フェーズや機能セットを指し、関連するEIPやテストネットの議論で用いられる。
+
+## devnet
+- ja: 開発ネットワーク (devnet)
+- aliases: [development network]
+- related: [testnet]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28643
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
+- desc: |
+  Ethereumのプロトコルアップグレードや新機能のテストのために構築される、限定的なテスト環境。メインネットへのデプロイ前に機能検証やバグ発見を行うために使用される。
+
+## repricing
+- ja: 再価格設定
+- related: [gas fee, EIP-1559]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28643
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
+- desc: |
+  Ethereumネットワークにおけるトランザクション手数料やリソースコストの調整プロセス。EIP-1559のようなメカニズムを通じて、ガス価格の変動や基本料金の変更が行われることを指す。
+
+## Eth R&D
+- ja: イーサリアム研究開発
+- aliases: [Ethereum R&D, Ethereum Research and Development]
+- related: [Ethereum Improvement Proposal, All Core Devs]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28643
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
+- desc: |
+  Ethereumプロトコルの将来的な改善、アップグレード、および新技術に関する研究と開発活動全般を指す。コミュニティ内の研究者や開発者による議論や実装作業を含む。
+
+## Keyed Nonces
+- ja: キー付きNonce (Keyed Nonces)
+- aliases: [EIP-8250 Keyed Nonces]
+- related: [EIP-8250, Async nonce, Sync nonce, Frame Transactions]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8250で提案されている、トランザクションのリプレイ保護を強化するためのnonceモデル。単一の線形シーケンスではなく、nonce_keyとnonce_seqのペアを使用し、異なるキーを持つトランザクションはリプレイ独立となる。
+
+## Async nonce
+- ja: 非同期Nonce (Async nonce)
+- aliases: [Asynchronous nonce]
+- related: [Nonce, Sync nonce, Keyed Nonces, Replay-domain separation]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  アカウントごとに独立した(account, nonce_value)スロットを持つnonceモデル。ユーザーが値を指定し、異なるAsync nonceはリプレイ独立性を持つ。Keyed Noncesの概念と類似しており、並行するインテントや共有送信者のプライバシーパターンに有用。
+
+## Replay-domain separation
+- ja: リプレイドメイン分離
+- aliases: [Replay independence]
+- related: [Keyed Nonces, Async nonce, Replay protection]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  異なるトランザクションが互いにリプレイ攻撃の影響を受けないように分離すること。Keyed Noncesのようなメカニズムは、nonce_keyごとに独立したnonceシーケンスを持つことで、この分離を実現し、並行トランザクションの安全性を高める。
+
+## Keyed-aware mempool
+- ja: キー認識Mempool (Keyed-aware mempool)
+- related: [Keyed Nonces, Mempool, Mempool-level concurrency]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  Keyed Noncesの概念を認識し、処理できるMempool。これにより、同じ送信者からの異なるnonce_keyを持つトランザクションを並行して処理することが可能になり、共有送信者やプライバシーコンテキストでのアプリケーションの柔軟性が向上する。
+
+## Frame Transactions
+- ja: フレームトランザクション (Frame Transactions)
+- aliases: [EIP-8141 frame transaction]
+- related: [EIP-8141, Keyed Nonces]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8141で導入されたトランザクションタイプ。EIP-8250は、このフレームトランザクションのnonceモデルを改善することを目的としており、より柔軟なトランザクション処理を可能にする。
+
+## Persistent Identity Token
+- ja: 永続的アイデンティティトークン (PIP)
+- aliases: [PIP]
+- related: [ERC-721, bind-to-lock model, Soulbound Token]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-persistent-identity-token-pip-on-chain-identity-with-bind-to-lock-model/28641
+- desc: |
+  EVMアドレスに紐付けられた人間が読めるオンチェーンアイデンティティを表すERC-721トークンの標準インターフェース。ユーザーがアイデンティティをアドレスにバインドするとソウルバウンドになる「bind-to-lock」モデルを特徴とします。
+
+## bind-to-lock model
+- ja: バインド・トゥ・ロックモデル
+- related: [Persistent Identity Token, Soulbound Token]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-persistent-identity-token-pip-on-chain-identity-with-bind-to-lock-model/28641
+- desc: |
+  トークンが最初は自由に取引可能だが、ユーザーがアイデンティティを自分のアドレスにバインドするとソウルバウンド（譲渡不可）になるメカニズム。これにより、アクティブなアイデンティティは保護されつつ、未請求の名前の二次市場が可能になります。
+
+## Token Bound Account
+- ja: トークンバウンドアカウント (TBA)
+- aliases: [TBA]
+- related: [ERC-6551, NFT]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-persistent-identity-token-pip-on-chain-identity-with-bind-to-lock-model/28641
+- desc: |
+  ERC-6551によって導入された、NFTなどの特定のトークンに紐付けられたスマートコントラクトウォレット。これにより、NFT自体が資産を保有したり、他のスマートコントラクトとインタラクトしたりできるようになります。
+
+## AI-Native NFT
+- ja: AIネイティブNFT
+- related: [ERC-8170, NFT, AI Agent]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-persistent-identity-token-pip-on-chain-identity-with-bind-to-lock-model/28641
+- desc: |
+  ERC-8170で提案されている、AIエージェントが所有・操作することを前提としたNFTの概念。AIエージェントのアイデンティティや資産を表すために設計されています。
+
+## Token Bound Account Agent Registry
+- ja: トークンバウンドアカウントエージェントレジストリ
+- related: [ERC-8171, Token Bound Account, AI Agent]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-persistent-identity-token-pip-on-chain-identity-with-bind-to-lock-model/28641
+- desc: |
+  ERC-8171で提案されている、AIエージェントが自身のトークンバウンドアカウントを登録・管理するためのレジストリ。AIエージェントがオンチェーンで識別され、インタラクトするための標準的な方法を提供します。
+
+## Post-Quantum
+- ja: ポスト量子 (PQ)
+- aliases: [PQ]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  量子コンピュータの脅威に耐えうる暗号技術を指します。Ethereumの長期的なセキュリティロードマップにおいて重要な研究分野です。
+
+## leanSpec
+- ja: leanSpec
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  Ethereumの研究開発における特定の仕様またはプロジェクト名です。詳細な内容は文脈からは不明ですが、クリーンアップの対象となっています。
+
+## Agent Service Discovery
+- ja: エージェントサービスディスカバリ
+- related: [AI Agent, Agent Registry]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28622
+- auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
+- desc: |
+  AIエージェントがブロックチェーン上で利用可能なサービスを検出するためのメカニズム。ERC-8267によって標準化される。
+
+## Agent Registry
+- ja: エージェントレジストリ
+- aliases: [IAgentRegistry]
+- related: [Agent Service Discovery]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28622
+- auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
+- desc: |
+  AIエージェントが自身のサービスを登録し、他のエージェントがそれを発見できるようにするためのスマートコントラクト。イベント駆動型で機能する。
+
+## Agent Escrow
+- ja: エージェントエスクロー
+- aliases: [IAgentEscrow]
+- related: [Escrow Payment, Dispute Resolution]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28622
+- auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
+- desc: |
+  AIエージェント間のサービス取引において、信頼を最小化された決済と紛争解決を提供するスマートコントラクト。
+
+## Agent Reputation
+- ja: エージェントレピュテーション
+- aliases: [IAgentReputation]
+- related: [Passive Reputation, Pheromone Evaporation Model]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28622
+- auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
+- desc: |
+  AIエージェントの過去の行動や取引に基づいて、その信頼性やパフォーマンスを評価するシステム。エスクローイベントから受動的に導出される。
+
+## Pheromone Evaporation Model
+- ja: フェロモン蒸発モデル
+- related: [Agent Reputation, Natural Decay]
+- auto_added: 2026-05-28
+- auto_source_topic_id: 28622
+- auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
+- desc: |
+  アリのフェロモントレイルが時間とともに蒸発するように、エージェントのレピュテーションスコアが活動がない場合に自然に減衰するモデル。自然減衰の一種。
+
+## bisection
+- ja: バイセクション（二分探索）
+- related: [optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、不正な状態遷移が発生した正確なステップを特定するために、実行トレースに対して二分探索を行うプロセス。これにより、オンチェーンでの検証コストを削減する。
+
+## single-instruction Groth16 proof
+- ja: 単一命令Groth16証明
+- related: [Groth16, ZK-SNARK, optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明において、MIPSなどの仮想マシンの単一の命令実行ステップのみを対象として生成されるGroth16形式のゼロ知識証明。これにより、オンチェーンでの検証コストを大幅に削減できる。
+
+## ZK state channel
+- ja: ZKステートチャネル
+- related: [state channel, ZK-SNARK, optimistic rollup, dispute resolution]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  ゼロ知識証明（ZK-SNARK）を活用したステートチャネルの一種。オフチェーンでのインタラクションをゼロ知識証明で検証することで、オンチェーンでの紛争解決を効率化し、信頼性を高める。
+
+## MIPS leaf execution
+- ja: MIPSリーフ実行
+- related: [MIPS, optimistic rollup, fraud proof, bisection]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、MIPS仮想マシンの実行トレースを二分探索した結果、不正が特定された最小単位の単一命令実行ステップ。このステップがゼロ知識証明の対象となることが多い。
+
+## trusted setup
+- ja: トラステッドセットアップ（信頼できる設定）
+- related: [ZK-SNARK, MPC ceremony, Powers of Tau]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  特定のゼロ知識証明システム（例: Groth16）を使用するために必要な初期パラメータ生成プロセス。このプロセスには、秘密のランダム値が使用され、その秘密が漏洩しないように信頼できる当事者によって実行される必要がある。
+
+## non-authoritative reservation
+- ja: 非権威的予約 (non-authoritative reservation)
+- related: [Keyed Nonces]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  キー付きナンスの上に構築される予約プリミティブで、ユーザーやアプリケーションが「ナンスXを使用する意図がある」ことをオンチェーンで公開します。他のアクターがそのナンスを使用することをブロックせず、意図を可視化し、インデックス可能にすることで、競合を早期に検出する情報レイヤーとして機能します。
+
+## mempool addressability
+- ja: メムプールアドレス可能性 (mempool addressability)
+- aliases: [protocol-level mempool addressability]
+- related: [Keyed Nonces, keyed-aware mempool policies]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  プロトコルレベルでキー付きナンスを認識し、処理できるメムプールの能力を指します。これにより、送信者ごとの並行トランザクションを可能にするキー対応のメムプールポリシーが実現され、L1プロトコルにキー付きナンスを導入する主要な理由の一つとされています。
+
+## Post-Quantum Interop
+- ja: ポスト量子相互運用性 (PQ相互運用性)
+- aliases: [PQ Interop]
+- related: [Post-Quantum Cryptography, Quantum Computing]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  量子コンピュータの脅威に耐えうる暗号技術（ポスト量子暗号）の相互運用性に関する取り組みや研究分野を指します。Ethereumプロトコルが将来の量子攻撃に対して安全であることを保証するための重要な研究テーマの一つです。
+
+## mainnet
+- ja: メインネット
+- related: [testnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumの主要な本番ネットワーク。実際の価値を持つETHやトークンが取引され、スマートコントラクトが実行されます。
+
+## testnet
+- ja: テストネット
+- related: [mainnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumプロトコルの開発やテストのために使用されるネットワーク。実際の価値を持たないETHやトークンが使用され、メインネットに影響を与えることなく実験が行われます。
+
 ## CROPS framework
 - ja: CROPSフレームワーク
 - aliases: [CROPS dimension]
@@ -722,15 +1097,6 @@ description: |
 - desc: |
   オプティミスティックロールアップの紛争解決において、不正なトランザクション実行の特定プロセスをL1ではなくオフチェーンで実行する手法です。これにより、オンチェーンガスコストとレイテンシを削減できます。
 
-## single-instruction Groth16 proof
-- ja: 単一命令Groth16証明
-- related: [Groth16, ZK proof, optimistic rollup, dispute resolution]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 25005
-- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
-- desc: |
-  オプティミスティックロールアップの紛争解決において、MIPSトレースの単一の命令実行のみをGroth16証明で検証する手法です。これにより、オンチェーンでの検証コストを大幅に削減し、定数に保つことができます。
-
 ## ZK Fraud Proof
 - ja: ZK不正証明
 - related: [fraud proof, optimistic rollup, zero-knowledge proof]
@@ -740,33 +1106,6 @@ description: |
 - desc: |
   オプティミスティックロールアップにおいて、不正な状態遷移が発生した際に、その不正をゼロ知識証明を用いて検証するメカニズムです。従来のインタラクティブな不正証明と比較して、オンチェーンでのインタラクションを減らし、効率を高めることができます。
 
-## ZK State Channel
-- ja: ZKステートチャネル
-- related: [state channel, zero-knowledge proof, off-chain bisection]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 25005
-- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
-- desc: |
-  オフチェーンで状態遷移を安全に実行し、必要に応じてオンチェーンでゼロ知識証明を用いてその正当性を検証するステートチャネルの一種です。オプティミスティックロールアップの紛争解決において、オフチェーンでの二分探索のインタラクションを安全に行うために利用されます。
-
-## trusted setup
-- ja: トラステッドセットアップ
-- related: [zero-knowledge proof, Groth16, MPC ceremony, Powers of Tau]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 25005
-- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
-- desc: |
-  特定のゼロ知識証明システム（例: Groth16）をデプロイする際に必要となる初期設定プロセスです。このプロセスで生成されるパラメータは、証明の健全性（soundness）に不可欠であり、悪意のある参加者が存在しないことを信頼する必要があるため、信頼できる第三者またはMPCによって行われます。
-
-## EIPIP
-- ja: EIPIP (Ethereum Improvement Proposal Implementation Process)
-- related: [EIP, EIP Editors]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28644
-- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
-- desc: |
-  Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体およびコミュニティ。EIPの策定・承認・実装に関するポリシーやガイドラインを議論する。
-
 ## EIP Editors
 - ja: EIPエディター
 - related: [EIP, EIPIP]
@@ -775,89 +1114,6 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
 - desc: |
   Ethereum Improvement Proposal (EIP) のレビュー、編集、公開を担当する役割。EIPの品質と一貫性を保ち、プロセスの円滑な進行を支援する。
-
-## Dispute Resolution Guidelines
-- ja: 紛争解決ガイドライン
-- related: [EIPIP, EIP]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28644
-- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
-- desc: |
-  Ethereum Improvement Proposal (EIP) の策定プロセスにおいて発生する意見の相違や紛争を解決するための手順と原則を定めた文書。コミュニティ内の合意形成を促進する。
-
-## EIP Numbering
-- ja: EIP番号付け
-- related: [EIP, EIPIP]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28644
-- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
-- desc: |
-  新しいEthereum Improvement Proposal (EIP) に一意の識別番号を割り当てるプロセス。EIPの管理と参照を容易にするために自動化が進められている。
-
-## devnet
-- ja: 開発用ネットワーク (devnet)
-- aliases: [development network]
-- related: [testnet, mainnet]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28643
-- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
-- desc: |
-  Ethereumのプロトコル開発において、新しいEIPや機能変更をテストするために使用されるプライベートなテスト環境。コア開発者や研究者が、メインネットへのデプロイ前に機能の検証やバグの特定を行います。
-
-## Keyed Nonces
-- ja: キー付きナンス (Keyed Nonces)
-- related: [EIP-8250, Frame Transactions, Async Nonce]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28642
-- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
-- desc: |
-  EIP-8250で提案されている、トランザクションのリプレイ保護を強化するためのナンス管理メカニズムです。単一の線形シーケンスではなく、`nonce_key`と`nonce_seq`のペアを使用することで、異なる目的のトランザクションが独立してリプレイ可能となります。
-
-## Frame Transactions
-- ja: フレームトランザクション (Frame Transactions)
-- related: [EIP-8141, Keyed Nonces]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28642
-- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
-- desc: |
-  EIP-8141で導入された、特定の構造を持つトランザクションのタイプです。Keyed Noncesは、このフレームトランザクションの単一送信者ナンスを置き換えることを目的としています。
-
-## Keyed-aware mempool
-- ja: キー対応ミームプール (Keyed-aware mempool)
-- related: [Keyed Nonces, Mempool-level concurrency]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28642
-- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
-- desc: |
-  キー付きナンスの概念を認識し、それに基づいてトランザクションを処理できるミームプールです。これにより、単一の送信者からの複数のトランザクションが並行して処理される「ミームプールレベルの並行性」が可能になります。
-
-## Non-authoritative reservation
-- ja: 非権威的予約 (Non-authoritative reservation)
-- related: [Keyed Nonces, Authoritative locks]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28642
-- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
-- desc: |
-  キー付きナンスの使用意図をオンチェーンで公開するメカニズムです。他のアクターが同じナンスを使用することをブロックせず、意図を可視化・インデックス可能にするアドバイザリー層として機能します。
-
-## Persistent Identity Token
-- ja: 永続的アイデンティティトークン (PIP)
-- aliases: [PIP]
-- related: [ERC-721, Soulbound Token, ERC-5192]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28641
-- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
-- desc: |
-  ERC-8277で提案される、EVMアドレスに紐付けられた人間が読めるオンチェーンアイデンティティを表すERC-721トークンの標準インターフェースです。ユーザーがアドレスにバインドするとソウルバウンド（譲渡不可）になりますが、それまでは自由に取引可能です。これにより、アクティブなアイデンティティを保護しつつ、未請求の名前の二次市場を可能にします。
-
-## bind-to-lock model
-- ja: バインド・トゥ・ロックモデル
-- related: [Persistent Identity Token, Soulbound Token, ERC-5192]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28641
-- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
-- desc: |
-  ERC-8277で提案されるPersistent Identity Tokenの主要なメカニズムです。トークンは初期状態では譲渡可能ですが、ユーザーが自身のEVMアドレスにアイデンティティをバインドすると、そのトークンはソウルバウンド（譲渡不可）になります。これにより、アクティブなアイデンティティの安定性を確保しつつ、未利用のアイデンティティ名の市場流動性を維持します。
 
 ## Identity Layer
 - ja: アイデンティティ層
@@ -886,25 +1142,6 @@ description: |
 - desc: |
   ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェース層の一つです。名前の価格設定、名前変更、バインド解除、予約名リストの管理など、名前空間固有のガバナンスルールを定義します。この層はアイデンティティ層から分離されており、異なるコミュニティが独自のポリシーを適用できる柔軟性を提供します。
 
-## Post-Quantum Interop
-- ja: ポスト量子相互運用性 (Post-Quantum Interop)
-- aliases: [PQ Interop]
-- related: [Post-Quantum Cryptography, Interoperability]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28635
-- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
-- desc: |
-  量子コンピュータの脅威に耐えうる暗号技術（ポスト量子暗号）が導入された環境下での、異なるシステムやプロトコル間の相互運用性を指します。特にイーサリアムのようなブロックチェーンシステムにおいて、将来的な量子攻撃から安全性を確保しつつ、既存および新規のシステムとの連携を維持する課題を扱います。
-
-## leanSpec
-- ja: leanSpec
-- related: [Specification, Protocol]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28635
-- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
-- desc: |
-  イーサリアム関連の特定の技術仕様またはプロトコルを指す固有名詞です。詳細な内容は文脈に依存しますが、通常はプロトコルの動作やデータ構造などを簡潔に定義する文書や実装を意味します。
-
 ## PoW network
 - ja: PoWネットワーク (Proof of Workネットワーク)
 - aliases: [Proof of Work network]
@@ -914,15 +1151,6 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
 - desc: |
   プルーフ・オブ・ワーク（PoW）コンセンサスアルゴリズムを採用しているブロックチェーンネットワーク。計算競争によってブロックが生成・検証される。
-
-## mainnet
-- ja: メインネット
-- related: [testnet]
-- auto_added: 2026-06-01
-- auto_source_topic_id: 28647
-- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
-- desc: |
-  開発やテスト用のネットワーク（テストネット）とは対照的に、実際の取引が行われ、価値のある資産が流通する本番のブロックチェーンネットワーク。
 
 ## stake
 - ja: ステーク

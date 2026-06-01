@@ -1,21 +1,20 @@
 ---
 title: devnet
 aliases:
-  - 開発用ネットワーク (devnet)
+  - 開発ネットワーク (devnet)
   - development network
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
-**開発用ネットワーク (devnet)**
+**開発ネットワーク (devnet)**
 
-Ethereumのプロトコル開発において、新しいEIPや機能変更をテストするために使用されるプライベートなテスト環境。コア開発者や研究者が、メインネットへのデプロイ前に機能の検証やバグの特定を行います。
+Ethereumのプロトコルアップグレードや新機能のテストのために構築される、限定的なテスト環境。メインネットへのデプロイ前に機能検証やバグ発見を行うために使用される。
 
 ## 関連用語
 
 - [[glossary/testnet|testnet]]
-- [[glossary/mainnet|mainnet]]
 
 ## 元の表記（英語）
 

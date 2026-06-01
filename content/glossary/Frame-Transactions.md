@@ -2,14 +2,15 @@
 title: Frame Transactions
 aliases:
   - フレームトランザクション (Frame Transactions)
+  - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
 **フレームトランザクション (Frame Transactions)**
 
-EIP-8141で導入された、特定の構造を持つトランザクションのタイプです。Keyed Noncesは、このフレームトランザクションの単一送信者ナンスを置き換えることを目的としています。
+EIP-8141で導入されたトランザクションタイプ。EIP-8250は、このフレームトランザクションのnonceモデルを改善することを目的としており、より柔軟なトランザクション処理を可能にする。
 
 ## 関連用語
 
@@ -18,4 +19,4 @@ EIP-8141で導入された、特定の構造を持つトランザクションの
 
 ## 元の表記（英語）
 
-(なし)
+- EIP-8141 frame transaction

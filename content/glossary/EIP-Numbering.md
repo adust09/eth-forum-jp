@@ -1,20 +1,19 @@
 ---
 title: EIP Numbering
 aliases:
-  - EIP番号付け
+  - EIPナンバリング
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
-**EIP番号付け**
+**EIPナンバリング**
 
-新しいEthereum Improvement Proposal (EIP) に一意の識別番号を割り当てるプロセス。EIPの管理と参照を容易にするために自動化が進められている。
+Ethereum Improvement Proposal (EIP) に一意の番号を割り当てるプロセス。EIPの識別と管理を効率化するために、自動化が検討されている重要な要素である。
 
 ## 関連用語
 
 - [[glossary/EIP|EIP]]
-- [[glossary/EIPIP|EIPIP]]
 
 ## 元の表記（英語）
 

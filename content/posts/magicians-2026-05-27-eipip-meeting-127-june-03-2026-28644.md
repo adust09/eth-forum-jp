@@ -11,30 +11,27 @@ tags:
   - protocol-calls-and-happenings
   - eip
   - governance
-  - protocol-design
-  - research
-  - meta
 topic_id: '28644'
-translated_at: '2026-06-01'
+translated_at: '2026-05-28'
 translator: gemini-2.5-flash
 ---
 
 > [!note] 原文
 > [EIPIP Meeting #127, June 03, 2026](https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644) — system (2026-05-27)
 
-### 議題
+### アジェンダ
 
-会議室: [Zoom](https://us02web.zoom.us/j/82357016731?pwd=V0hLUWIvU2V2UTdUd216WHdGNFBKUT09)
+会議室: [Zoom](https://us02web.zoom.us/j/82357016731?pwd=V0hLUWI1U2V2UTdUd216WHdGNFBKUT09)
 
 ### 意見募集
 
 | 課題 | 期限 |
 | --- | --- |
-| 意見募集: Unicode Technical Standardsへのリンクを許可 · イシュー #393 · ethcatherders/EIPIP · GitHub | 2025年11月16日 |
-| 意見募集: 準EIP編集者の追加 · イシュー #398 · ethcatherders/EIPIP · GitHub | 2026年2月10日 |
-| 意見募集: OWASP、C2PA、CAIへのリンクを許可 · イシュー #408 · ethcatherders/EIPIP · GitHub | 2026年5月7日 |
+| 意見募集: Unicode Technical Standardsへのリンクを許可 · Issue #393 · ethcatherders/EIPIP · GitHub | 2025年11月16日 |
+| 意見募集: 準[[glossary/EIP|EIP（Ethereum 改善提案）]]エディターの追加 · Issue #398 · ethcatherders/EIPIP · GitHub | 2026年2月10日 |
+| 意見募集: OWASP、C2PA、CAIへのリンクを許可 · Issue #408 · ethcatherders/EIPIP · GitHub | 2026年5月7日 |
 
-### 編集者による議論
+### エディターズディスカッション
 
 ポリシーに関する議論
 
@@ -43,12 +40,12 @@ translator: gemini-2.5-flash
 
 ### 以前の会議からのトピックに関する更新
 
--   ボットメッセージの更新 (参照: [イシュー](https://github.com/ethereum/eip-review-bot/issues/429))
--   EIP番号付けの自動化 (参照: [イシュー](https://github.com/ethereum/eip-review-bot/issues/430))
+-   ボットメッセージの更新 参照: [Issue](https://github.com/ethereum/eip-review-bot/issues/429)
+-   EIP番号付けの自動化 参照: [Issue](https://github.com/ethereum/eip-review-bot/issues/430)
 -   [EIPIP 126からのアクションアイテム]
 -   EIP編集オフィスアワー
     -   2026年6月2日に第100回オフィスアワー
-    -   編集者の空き状況 → [スケジュール](https://docs.google.com/spreadsheets/d/1L1_HMqXyYndQZzG3494wcqFcUv9RpzzX67Rdo0UnKqU/edit?gid=0#gid=0)に追加
+    -   エディターの空き状況 → [スケジュール](https://docs.google.com/spreadsheets/d/1L1_HMqXyYndQZzG3494wcqFcUv9RpzzX67Rdo0UnKqU/edit?gid=0#gid=0)に追加
 
 ### EIPインサイト
 
@@ -56,13 +53,13 @@ translator: gemini-2.5-flash
 
 ### コミュニティからのフィードバック/更新
 
--   コントリビューターページ (EIPsInsight) のデモ
--   プロジェクトのショーケースまたはフィードバック。興味があればコメントを残してください。
+-   コントリビューターページ（EIPsInsight）のデモ
+-   プロジェクトのショーケースまたはフィードバック、興味があればコメントを残してください。
 
 **会議時間:** 2026年6月3日水曜日 16:00 UTC (60分)
 
-[GitHubイシュー](https://github.com/ethereum/pm/issues/2086)
+[GitHub Issue](https://github.com/ethereum/pm/issues/2086)
 
-*1件の投稿 - 1名の参加者*
+*1投稿 - 1参加者*
 
-[トピック全体を読む](https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644)
+[トピック全文を読む](https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644)

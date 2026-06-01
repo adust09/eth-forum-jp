@@ -10,11 +10,11 @@ category: Protocol Calls & happenings
 tags:
   - protocol-calls-and-happenings
   - eip
-  - protocol-design
   - research
-  - fee-market
+  - protocol-design
+  - governance
 topic_id: '28640'
-translated_at: '2026-06-01'
+translated_at: '2026-05-28'
 translator: gemini-2.5-flash
 ---
 
@@ -23,15 +23,15 @@ translator: gemini-2.5-flash
 
 ### 議題
 
--   bal-devnet-7 の更新
--   [[glossary/EIP|EIP]]-8037 の未解決問題
--   ベンチマークの更新
--   ACDT への議論移行とこの分科会の終了
+-   bal-devnet-7 のアップデート
+-   [[glossary/EIP|EIP（Ethereum 改善提案）]]-8037 に関する未解決の課題
+-   ベンチマークのアップデート
+-   ACDT への議論移行とこのブレイクアウトの終了
 
-**会議時間:** 2026年5月27日水曜日 14:00 UTC（60分）
+**会議時間:** 2026年5月27日（水）14:00 UTC（60分）
 
 [GitHub Issue](https://github.com/ethereum/pm/issues/2082)
 
-*4件の投稿 - 2名の参加者*
+*3件の投稿 - 1名の参加者*
 
-[トピック全体を読む](https://ethereum-magicians.org/t/glamsterdam-repricings-8-may-27-2026)
+[トピック全体を読む](https://ethereum-magicians.org/t/glamsterdam-repricings-8-may-27-2026/28640)

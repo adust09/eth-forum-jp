@@ -4,17 +4,16 @@ aliases:
   - leanSpec
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
 **leanSpec**
 
-イーサリアム関連の特定の技術仕様またはプロトコルを指す固有名詞です。詳細な内容は文脈に依存しますが、通常はプロトコルの動作やデータ構造などを簡潔に定義する文書や実装を意味します。
+Ethereumの研究開発における特定の仕様またはプロジェクト名です。詳細な内容は文脈からは不明ですが、クリーンアップの対象となっています。
 
 ## 関連用語
 
-- [[glossary/Specification|Specification]]
-- [[glossary/Protocol|Protocol]]
+(なし)
 
 ## 元の表記（英語）
 

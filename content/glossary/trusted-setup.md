@@ -1,20 +1,19 @@
 ---
 title: trusted setup
 aliases:
-  - トラステッドセットアップ
+  - トラステッドセットアップ（信頼できる設定）
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
-**トラステッドセットアップ**
+**トラステッドセットアップ（信頼できる設定）**
 
-特定のゼロ知識証明システム（例: Groth16）をデプロイする際に必要となる初期設定プロセスです。このプロセスで生成されるパラメータは、証明の健全性（soundness）に不可欠であり、悪意のある参加者が存在しないことを信頼する必要があるため、信頼できる第三者またはMPCによって行われます。
+特定のゼロ知識証明システム（例: Groth16）を使用するために必要な初期パラメータ生成プロセス。このプロセスには、秘密のランダム値が使用され、その秘密が漏洩しないように信頼できる当事者によって実行される必要がある。
 
 ## 関連用語
 
-- [[glossary/zero-knowledge-proof|zero-knowledge proof]]
-- [[glossary/Groth16|Groth16]]
+- [[glossary/ZK-SNARK|ZK-SNARK]]
 - [[glossary/MPC-ceremony|MPC ceremony]]
 - [[glossary/Powers-of-Tau|Powers of Tau]]
 

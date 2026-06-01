@@ -1,20 +1,19 @@
 ---
 title: EIPIP
 aliases:
-  - EIPIP (Ethereum Improvement Proposal Implementation Process)
+  - EIPIP
 tags:
   - glossary
-date: '2026-06-01'
+date: '2026-05-30'
 ---
 
-**EIPIP (Ethereum Improvement Proposal Implementation Process)**
+**EIPIP**
 
-Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体およびコミュニティ。EIPの策定・承認・実装に関するポリシーやガイドラインを議論する。
+Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体またはグループ。EIPの策定と管理に関するポリシーやガイドラインを議論し、コミュニティの合意形成を促進する。
 
 ## 関連用語
 
 - [[glossary/EIP|EIP]]
-- [[glossary/EIP-Editors|EIP Editors]]
 
 ## 元の表記（英語）
 
