@@ -3,26 +3,32 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-05-28'
+date: '2026-05-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
 
 - [[glossary/1-out-of-N-honesty|1-out-of-N honesty]] — N分の1の正直性
+- [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
+- [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
+- [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/blob|blob]] — ブロブ
+- [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
+- [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
+- [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
 - [[glossary/devnet|devnet]] — 開発ネットワーク (devnet)
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
@@ -32,26 +38,42 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-Editing-Office-Hours|EIP Editing Office Hours]] — EIP編集オフィスアワー
 - [[glossary/EIP-Editor|EIP Editor]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
+- [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
+- [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
+- [[glossary/ERC-8004|ERC-8004]] — ERC-8004 (エージェントIDレジストリ)
+- [[glossary/ERC-8263|ERC-8263]] — ERC-8263 (オンチェーン証明レイヤー)
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
+- [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
+- [[glossary/execution-layer|execution layer]] — 実行レイヤー
+- [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
+- [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
+- [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
+- [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/intent-layer|intent layer]] — インテントレイヤー
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/KZG-commitment|KZG commitment]] — KZGコミットメント
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
+- [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
-- [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築 (MPBC)
+- [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
+- [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
+- [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
+- [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/Operator|Operator]] — オペレーター
+- [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
@@ -59,18 +81,33 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
+- [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
+- [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
+- [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
+- [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
 - [[glossary/repricing|repricing]] — 再価格設定
+- [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/Rollup|Rollup]] — ロールアップ
+- [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
+- [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
+- [[glossary/Service-Object|Service Object]] — サービスオブジェクト
+- [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
+- [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
+- [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
+- [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
+- [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
+- [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
 
 ---
 

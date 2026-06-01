@@ -4,7 +4,7 @@ aliases:
   - 再価格設定
 tags:
   - glossary
-date: '2026-05-28'
+date: '2026-05-30'
 ---
 
 **再価格設定**
