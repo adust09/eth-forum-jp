@@ -948,3 +948,95 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8275-agent-service-discovery-and-escrow-payments/28622
 - desc: |
   アリのフェロモントレイルが時間とともに蒸発するように、エージェントのレピュテーションスコアが活動がない場合に自然に減衰するモデル。自然減衰の一種。
+
+## bisection
+- ja: バイセクション（二分探索）
+- related: [optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、不正な状態遷移が発生した正確なステップを特定するために、実行トレースに対して二分探索を行うプロセス。これにより、オンチェーンでの検証コストを削減する。
+
+## single-instruction Groth16 proof
+- ja: 単一命令Groth16証明
+- related: [Groth16, ZK-SNARK, optimistic rollup, fraud proof]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明において、MIPSなどの仮想マシンの単一の命令実行ステップのみを対象として生成されるGroth16形式のゼロ知識証明。これにより、オンチェーンでの検証コストを大幅に削減できる。
+
+## ZK state channel
+- ja: ZKステートチャネル
+- related: [state channel, ZK-SNARK, optimistic rollup, dispute resolution]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  ゼロ知識証明（ZK-SNARK）を活用したステートチャネルの一種。オフチェーンでのインタラクションをゼロ知識証明で検証することで、オンチェーンでの紛争解決を効率化し、信頼性を高める。
+
+## MIPS leaf execution
+- ja: MIPSリーフ実行
+- related: [MIPS, optimistic rollup, fraud proof, bisection]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの不正証明プロトコルにおいて、MIPS仮想マシンの実行トレースを二分探索した結果、不正が特定された最小単位の単一命令実行ステップ。このステップがゼロ知識証明の対象となることが多い。
+
+## trusted setup
+- ja: トラステッドセットアップ（信頼できる設定）
+- related: [ZK-SNARK, MPC ceremony, Powers of Tau]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  特定のゼロ知識証明システム（例: Groth16）を使用するために必要な初期パラメータ生成プロセス。このプロセスには、秘密のランダム値が使用され、その秘密が漏洩しないように信頼できる当事者によって実行される必要がある。
+
+## non-authoritative reservation
+- ja: 非権威的予約 (non-authoritative reservation)
+- related: [Keyed Nonces]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  キー付きナンスの上に構築される予約プリミティブで、ユーザーやアプリケーションが「ナンスXを使用する意図がある」ことをオンチェーンで公開します。他のアクターがそのナンスを使用することをブロックせず、意図を可視化し、インデックス可能にすることで、競合を早期に検出する情報レイヤーとして機能します。
+
+## mempool addressability
+- ja: メムプールアドレス可能性 (mempool addressability)
+- aliases: [protocol-level mempool addressability]
+- related: [Keyed Nonces, keyed-aware mempool policies]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  プロトコルレベルでキー付きナンスを認識し、処理できるメムプールの能力を指します。これにより、送信者ごとの並行トランザクションを可能にするキー対応のメムプールポリシーが実現され、L1プロトコルにキー付きナンスを導入する主要な理由の一つとされています。
+
+## Post-Quantum Interop
+- ja: ポスト量子相互運用性 (PQ相互運用性)
+- aliases: [PQ Interop]
+- related: [Post-Quantum Cryptography, Quantum Computing]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  量子コンピュータの脅威に耐えうる暗号技術（ポスト量子暗号）の相互運用性に関する取り組みや研究分野を指します。Ethereumプロトコルが将来の量子攻撃に対して安全であることを保証するための重要な研究テーマの一つです。
+
+## mainnet
+- ja: メインネット
+- related: [testnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumの主要な本番ネットワーク。実際の価値を持つETHやトークンが取引され、スマートコントラクトが実行されます。
+
+## testnet
+- ja: テストネット
+- related: [mainnet]
+- auto_added: 2026-05-31
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  Ethereumプロトコルの開発やテストのために使用されるネットワーク。実際の価値を持たないETHやトークンが使用され、メインネットに影響を与えることなく実験が行われます。

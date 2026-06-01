@@ -20,6 +20,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
+- [[glossary/bisection|bisection]] — バイセクション（二分探索）
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
@@ -64,11 +65,15 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
+- [[glossary/mainnet|mainnet]] — メインネット
+- [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
+- [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
+- [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
@@ -81,6 +86,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
+- [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
@@ -95,8 +101,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Service-Object|Service Object]] — サービスオブジェクト
 - [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
+- [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
@@ -106,8 +114,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
+- [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
+- [[glossary/ZK-state-channel|ZK state channel]] — ZKステートチャネル
 
 ---
 
