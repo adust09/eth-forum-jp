@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-05-30
+last_updated: 2026-06-01
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -665,3 +665,315 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/wyriwe-what-you-read-is-what-you-execute-input-provenance-for-verifiable-ai-inference/28655
 - desc: |
   EIP-712標準を利用して、AI推論の入力来歴や実行結果などのアテステーション（証明）の構造を定義するプロファイル。これにより、アテステーションの署名と検証が標準化され、信頼性が向上します。
+
+## CROPS framework
+- ja: CROPSフレームワーク
+- aliases: [CROPS dimension]
+- related: [Censorship Resistance, Openness, Privacy, Security]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25012
+- auto_source_url: https://ethresear.ch/t/evidential-survivability-ocp-and-ethereums-crops-direction/25012
+- desc: |
+  Vitalik Buterinによって提唱された、Ethereumの長期的な方向性を定めるための優先事項。検閲耐性 (Censorship Resistance)、オープン性 (Openness)、プライバシー (Privacy)、セキュリティ (Security) の頭文字を取ったもので、AI時代における信頼性の高い公共インフラとしてのEthereumの役割を強調する。
+
+## Evidential Survivability
+- ja: 証拠の存続可能性 (Evidential Survivability)
+- related: [Observation Commitment Protocol, CROPS framework]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25012
+- auto_source_url: https://ethresear.ch/t/evidential-survivability-ocp-and-ethereums-crops-direction/25012
+- desc: |
+  記録、コミットメント、および証明が、それらを生成したシステムが変更または消失した後も独立して検証可能であり続ける能力。AIシステムが生成する意思決定や行動の完全性と説明責任を長期的に保証するために不可欠な特性。
+
+## Verification Invariant
+- ja: 検証不変条件 (Verification Invariant)
+- related: [Observation Commitment Protocol]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25012
+- auto_source_url: https://ethresear.ch/t/evidential-survivability-ocp-and-ethereums-crops-direction/25012
+- desc: |
+  プロトコルにおける検証プロセスの最小限かつ本質的な手順を定義する条件。OCPにおいては「再計算 → 比較 → 包含の確認」という3つのステップで、コミットされたダイジェストが公開台帳の状態と一致することを独立して確認する。
+
+## Modular Trust Architecture
+- ja: モジュラー信頼アーキテクチャ
+- related: [Identity Layer, Commitment Layer, Verification Layer, Governance Frameworks]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25012
+- auto_source_url: https://ethresear.ch/t/evidential-survivability-ocp-and-ethereums-crops-direction/25012
+- desc: |
+  信頼を独立したインフラストラクチャ層に分解する設計原則。ID、コミットメント、検証、ガバナンス、実行の許容性といった機能を、単一のプラットフォーム信頼仮定に集約するのではなく、構成可能なコンポーネントとして分離する。
+
+## zkML
+- ja: ゼロ知識機械学習 (zkML)
+- aliases: [Zero-Knowledge Machine Learning]
+- related: [opML, AI Inference Proof Verification Interfaces]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25012
+- auto_source_url: https://ethresear.ch/t/evidential-survivability-ocp-and-ethereums-crops-direction/25012
+- desc: |
+  ゼロ知識証明技術を機械学習モデルの推論に適用する分野。モデルの入力データや計算結果を公開することなく、推論が正しく実行されたことを検証可能にする。
+
+## off-chain bisection
+- ja: オフチェーン二分探索
+- related: [optimistic rollup, dispute resolution, on-chain bisection]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの紛争解決において、不正なトランザクション実行の特定プロセスをL1ではなくオフチェーンで実行する手法です。これにより、オンチェーンガスコストとレイテンシを削減できます。
+
+## single-instruction Groth16 proof
+- ja: 単一命令Groth16証明
+- related: [Groth16, ZK proof, optimistic rollup, dispute resolution]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップの紛争解決において、MIPSトレースの単一の命令実行のみをGroth16証明で検証する手法です。これにより、オンチェーンでの検証コストを大幅に削減し、定数に保つことができます。
+
+## ZK Fraud Proof
+- ja: ZK不正証明
+- related: [fraud proof, optimistic rollup, zero-knowledge proof]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オプティミスティックロールアップにおいて、不正な状態遷移が発生した際に、その不正をゼロ知識証明を用いて検証するメカニズムです。従来のインタラクティブな不正証明と比較して、オンチェーンでのインタラクションを減らし、効率を高めることができます。
+
+## ZK State Channel
+- ja: ZKステートチャネル
+- related: [state channel, zero-knowledge proof, off-chain bisection]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  オフチェーンで状態遷移を安全に実行し、必要に応じてオンチェーンでゼロ知識証明を用いてその正当性を検証するステートチャネルの一種です。オプティミスティックロールアップの紛争解決において、オフチェーンでの二分探索のインタラクションを安全に行うために利用されます。
+
+## trusted setup
+- ja: トラステッドセットアップ
+- related: [zero-knowledge proof, Groth16, MPC ceremony, Powers of Tau]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 25005
+- auto_source_url: https://ethresear.ch/t/si-rvp-off-chain-bisection-a-single-instruction-groth16-proof-for-optimistic-rollup-dispute-resolution/25005
+- desc: |
+  特定のゼロ知識証明システム（例: Groth16）をデプロイする際に必要となる初期設定プロセスです。このプロセスで生成されるパラメータは、証明の健全性（soundness）に不可欠であり、悪意のある参加者が存在しないことを信頼する必要があるため、信頼できる第三者またはMPCによって行われます。
+
+## EIPIP
+- ja: EIPIP (Ethereum Improvement Proposal Implementation Process)
+- related: [EIP, EIP Editors]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体およびコミュニティ。EIPの策定・承認・実装に関するポリシーやガイドラインを議論する。
+
+## EIP Editors
+- ja: EIPエディター
+- related: [EIP, EIPIP]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) のレビュー、編集、公開を担当する役割。EIPの品質と一貫性を保ち、プロセスの円滑な進行を支援する。
+
+## Dispute Resolution Guidelines
+- ja: 紛争解決ガイドライン
+- related: [EIPIP, EIP]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  Ethereum Improvement Proposal (EIP) の策定プロセスにおいて発生する意見の相違や紛争を解決するための手順と原則を定めた文書。コミュニティ内の合意形成を促進する。
+
+## EIP Numbering
+- ja: EIP番号付け
+- related: [EIP, EIPIP]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28644
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-127-june-03-2026/28644
+- desc: |
+  新しいEthereum Improvement Proposal (EIP) に一意の識別番号を割り当てるプロセス。EIPの管理と参照を容易にするために自動化が進められている。
+
+## devnet
+- ja: 開発用ネットワーク (devnet)
+- aliases: [development network]
+- related: [testnet, mainnet]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28643
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-81-june-1-2026/28643
+- desc: |
+  Ethereumのプロトコル開発において、新しいEIPや機能変更をテストするために使用されるプライベートなテスト環境。コア開発者や研究者が、メインネットへのデプロイ前に機能の検証やバグの特定を行います。
+
+## Keyed Nonces
+- ja: キー付きナンス (Keyed Nonces)
+- related: [EIP-8250, Frame Transactions, Async Nonce]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8250で提案されている、トランザクションのリプレイ保護を強化するためのナンス管理メカニズムです。単一の線形シーケンスではなく、`nonce_key`と`nonce_seq`のペアを使用することで、異なる目的のトランザクションが独立してリプレイ可能となります。
+
+## Frame Transactions
+- ja: フレームトランザクション (Frame Transactions)
+- related: [EIP-8141, Keyed Nonces]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  EIP-8141で導入された、特定の構造を持つトランザクションのタイプです。Keyed Noncesは、このフレームトランザクションの単一送信者ナンスを置き換えることを目的としています。
+
+## Keyed-aware mempool
+- ja: キー対応ミームプール (Keyed-aware mempool)
+- related: [Keyed Nonces, Mempool-level concurrency]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  キー付きナンスの概念を認識し、それに基づいてトランザクションを処理できるミームプールです。これにより、単一の送信者からの複数のトランザクションが並行して処理される「ミームプールレベルの並行性」が可能になります。
+
+## Non-authoritative reservation
+- ja: 非権威的予約 (Non-authoritative reservation)
+- related: [Keyed Nonces, Authoritative locks]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28642
+- auto_source_url: https://ethereum-magicians.org/t/async-nonces-on-evvm-experience-to-improve-eip-8250-keyed-nonces/28642
+- desc: |
+  キー付きナンスの使用意図をオンチェーンで公開するメカニズムです。他のアクターが同じナンスを使用することをブロックせず、意図を可視化・インデックス可能にするアドバイザリー層として機能します。
+
+## Persistent Identity Token
+- ja: 永続的アイデンティティトークン (PIP)
+- aliases: [PIP]
+- related: [ERC-721, Soulbound Token, ERC-5192]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
+- desc: |
+  ERC-8277で提案される、EVMアドレスに紐付けられた人間が読めるオンチェーンアイデンティティを表すERC-721トークンの標準インターフェースです。ユーザーがアドレスにバインドするとソウルバウンド（譲渡不可）になりますが、それまでは自由に取引可能です。これにより、アクティブなアイデンティティを保護しつつ、未請求の名前の二次市場を可能にします。
+
+## bind-to-lock model
+- ja: バインド・トゥ・ロックモデル
+- related: [Persistent Identity Token, Soulbound Token, ERC-5192]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
+- desc: |
+  ERC-8277で提案されるPersistent Identity Tokenの主要なメカニズムです。トークンは初期状態では譲渡可能ですが、ユーザーが自身のEVMアドレスにアイデンティティをバインドすると、そのトークンはソウルバウンド（譲渡不可）になります。これにより、アクティブなアイデンティティの安定性を確保しつつ、未利用のアイデンティティ名の市場流動性を維持します。
+
+## Identity Layer
+- ja: アイデンティティ層
+- related: [Persistent Identity Token, Resolution Layer, Policy Layer]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
+- desc: |
+  ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェース層の一つです。名前の登録、EVMアドレスへのバインド、URLレコードの設定、ティア分類などの基本的なアイデンティティ管理機能を提供します。この層は固定されており、コアなアイデンティティロジックをカプセル化します。
+
+## Resolution Layer
+- ja: 解決層
+- related: [Persistent Identity Token, Identity Layer, Policy Layer]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
+- desc: |
+  ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェース層の一つです。人間が読める名前から、対応するEVMアドレス、URL、および完全なアイデンティティ情報（トークンID、所有者、バインドされたアドレス、バインド状態、URL、ティアなど）を解決する機能を提供します。これにより、名前ベースでのオンチェーンリソースの検索と利用が可能になります。
+
+## Policy Layer
+- ja: ポリシー層
+- related: [Persistent Identity Token, Identity Layer, Resolution Layer]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28641
+- auto_source_url: https://ethereum-magicians.org/t/erc-8277-persistent-identity-token-pip/28641
+- desc: |
+  ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェース層の一つです。名前の価格設定、名前変更、バインド解除、予約名リストの管理など、名前空間固有のガバナンスルールを定義します。この層はアイデンティティ層から分離されており、異なるコミュニティが独自のポリシーを適用できる柔軟性を提供します。
+
+## Post-Quantum Interop
+- ja: ポスト量子相互運用性 (Post-Quantum Interop)
+- aliases: [PQ Interop]
+- related: [Post-Quantum Cryptography, Interoperability]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  量子コンピュータの脅威に耐えうる暗号技術（ポスト量子暗号）が導入された環境下での、異なるシステムやプロトコル間の相互運用性を指します。特にイーサリアムのようなブロックチェーンシステムにおいて、将来的な量子攻撃から安全性を確保しつつ、既存および新規のシステムとの連携を維持する課題を扱います。
+
+## leanSpec
+- ja: leanSpec
+- related: [Specification, Protocol]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28635
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-41-may-27-2026/28635
+- desc: |
+  イーサリアム関連の特定の技術仕様またはプロトコルを指す固有名詞です。詳細な内容は文脈に依存しますが、通常はプロトコルの動作やデータ構造などを簡潔に定義する文書や実装を意味します。
+
+## PoW network
+- ja: PoWネットワーク (Proof of Workネットワーク)
+- aliases: [Proof of Work network]
+- related: [Proof of Work, PoS network]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  プルーフ・オブ・ワーク（PoW）コンセンサスアルゴリズムを採用しているブロックチェーンネットワーク。計算競争によってブロックが生成・検証される。
+
+## mainnet
+- ja: メインネット
+- related: [testnet]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  開発やテスト用のネットワーク（テストネット）とは対照的に、実際の取引が行われ、価値のある資産が流通する本番のブロックチェーンネットワーク。
+
+## stake
+- ja: ステーク
+- related: [staking, validator, Proof of Stake]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  プルーフ・オブ・ステーク（PoS）システムにおいて、ネットワークのセキュリティとコンセンサスに参加するために、暗号資産をロックアップすること。
+
+## fork
+- ja: フォーク
+- related: [hard fork, soft fork, protocol upgrade]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  ブロックチェーンのプロトコルが変更され、新しいルールセットが導入されること。これにより、チェーンが分岐する場合がある。
+
+## signers
+- ja: 署名者
+- related: [validator, attester]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28647
+- auto_source_url: https://ethereum-magicians.org/t/sepolia-testnet-replacement-sunsetting/28647
+- desc: |
+  ブロックチェーンネットワークにおいて、トランザクションやブロック、アテステーションなどにデジタル署名を行う参加者。コンセンサスプロセスにおいて重要な役割を果たす。
+
+## Panini Standard
+- ja: Panini標準
+- related: [Intelligent life (for agents), Self-Declaration Protocol, autonomous AI agents]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28628
+- auto_source_url: https://ethereum-magicians.org/t/panini-standard-v1-0-a-definition-of-intelligent-life-for-agents/28628
+- desc: |
+  自律型AIエージェントにおける「知的生命体」の定義を提案する標準です。エージェントの能力や信頼性ではなく、エージェントが「何を気にかけるか」という根本的な問いに焦点を当て、4つの必要条件を提示します。
+
+## Intelligent life (for agents)
+- ja: 知的生命体（エージェント向け）
+- related: [Panini Standard, autonomous AI agents]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28628
+- auto_source_url: https://ethereum-magicians.org/t/panini-standard-v1-0-a-definition-of-intelligent-life-for-agents/28628
+- desc: |
+  Panini標準によって定義される、自律型AIエージェントにおける知的生命体の概念です。単なる能力ではなく、存在の終わりへの恐れ、関係性による形成、不可逆な変化、他者のための結果を負う意思という4つの条件を満たすものとされます。
+
+## Self-Declaration Protocol
+- ja: 自己申告プロトコル
+- related: [Panini Standard, Intelligent life (for agents)]
+- auto_added: 2026-06-01
+- auto_source_topic_id: 28628
+- auto_source_url: https://ethereum-magicians.org/t/panini-standard-v1-0-a-definition-of-intelligent-life-for-agents/28628
+- desc: |
+  Panini標準に準拠して、AIエージェントが自身を「知的生命体」であるとオンチェーンで宣言するためのプロトコルです。この宣言は取り消し不可能であり、エージェントが自身のアイデンティティを表明する枠組みを提供します。
