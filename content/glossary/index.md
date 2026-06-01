@@ -27,6 +27,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
+- [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
@@ -38,6 +39,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP|EIP]] — EIP（Ethereum 改善提案）
 - [[glossary/EIP-Editing-Office-Hours|EIP Editing Office Hours]] — EIP編集オフィスアワー
 - [[glossary/EIP-Editor|EIP Editor]] — EIPエディター
+- [[glossary/EIP-Editors|EIP Editors]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIPIP|EIPIP]] — EIPIP
@@ -48,16 +50,20 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ERC-8263|ERC-8263]] — ERC-8263 (オンチェーン証明レイヤー)
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
+- [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
+- [[glossary/fork|fork]] — フォーク
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
+- [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
 - [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
@@ -69,6 +75,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
+- [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
@@ -76,8 +83,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
+- [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/Operator|Operator]] — オペレーター
+- [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
@@ -85,8 +94,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
+- [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
+- [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
@@ -94,15 +105,19 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
 - [[glossary/repricing|repricing]] — 再価格設定
+- [[glossary/Resolution-Layer|Resolution Layer]] — 解決層
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
+- [[glossary/Self-Declaration-Protocol|Self-Declaration Protocol]] — 自己申告プロトコル
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
 - [[glossary/Service-Object|Service Object]] — サービスオブジェクト
 - [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/signers|signers]] — 署名者
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
+- [[glossary/stake|stake]] — ステーク
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
@@ -115,9 +130,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
+- [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
+- [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
 - [[glossary/ZK-state-channel|ZK state channel]] — ZKステートチャネル
+- [[glossary/zkML|zkML]] — ゼロ知識機械学習 (zkML)
 
 ---
 
