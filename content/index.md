@@ -1,5 +1,5 @@
 ---
-title: Ethereum フォーラム 日本語アーカイブ
+title: Ethereum Forum JP
 description: ethresear.ch と ethereum-magicians.org の投稿を Gemini で日本語化し、Quartz のグラフビューで概念のつながりを辿れる形で公開しています。
 tags:
   - top
