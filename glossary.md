@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-05-30
+last_updated: 2026-06-02
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1205,3 +1205,49 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/panini-standard-v1-0-a-definition-of-intelligent-life-for-agents/28628
 - desc: |
   Panini標準に準拠して、AIエージェントが自身を「知的生命体」であるとオンチェーンで宣言するためのプロトコルです。この宣言は取り消し不可能であり、エージェントが自身のアイデンティティを表明する枠組みを提供します。
+
+## Post-Quantum Public Key Registry
+- ja: 量子耐性公開鍵レジストリ
+- related: [Post-Quantum, eXtended Merkle Signature Scheme, BLS signatures]
+- auto_added: 2026-06-02
+- auto_source_topic_id: 25040
+- auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
+- desc: |
+  Ethereumバリデーターが量子コンピュータの脅威からネットワークを保護するために、量子耐性のある公開鍵を登録するためのシステム。現在のBLS署名から量子耐性署名への移行を段階的に行うための重要なインフラとなる。
+
+## eXtended Merkle Signature Scheme
+- ja: 拡張マークル署名スキーム (XMSS)
+- aliases: [XMSS]
+- related: [Hash-based signatures, One-Time Signature, Merkle tree]
+- auto_added: 2026-06-02
+- auto_source_topic_id: 25040
+- auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
+- desc: |
+  ハッシュベース署名の一種で、Ethereumのポスト量子署名スキームの主要候補。ワンタイム署名鍵ペアのマークルツリーを構築し、各署名を特定のシーケンシャルな位置に紐付けることで、鍵の再利用を防ぎつつ多回署名を可能にする。
+
+## leanVM
+- ja: leanVM
+- related: [pqSNARKs, recursive aggregation, zkVM]
+- auto_added: 2026-06-02
+- auto_source_topic_id: 25040
+- auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
+- desc: |
+  Ethereumのポスト量子署名検証のために特別に設計された、Cairoにインスパイアされた最小限のzkVM。SuperSpartan、Logup、WHIRなどの最適化された証明スタックを利用し、量子耐性署名の効率的な再帰的集約を可能にする。
+
+## KoalaBear prime field
+- ja: KoalaBear素体
+- related: [Poseidon, SNARK, finite field]
+- auto_added: 2026-06-02
+- auto_source_topic_id: 25040
+- auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
+- desc: |
+  XMSSスキームとSNARKアグリゲーターの演算に用いられる31ビットの素体。SIMD並列処理、オーバーフローリスクの排除、高い2-adicityなどの利点があり、Poseidonハッシュ関数の効率的な実装に貢献する。
+
+## Hash-based signatures
+- ja: ハッシュベース署名
+- related: [eXtended Merkle Signature Scheme, Post-Quantum, digital signatures]
+- auto_added: 2026-06-02
+- auto_source_topic_id: 25040
+- auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
+- desc: |
+  量子耐性デジタル署名の一種で、概念的なシンプルさ、実装の容易さ、および標準モデルの暗号学的仮定への依存から、Ethereumのポスト量子移行における有力な候補とされている。鍵の再利用を防ぐための厳格な状態管理が必要となる。

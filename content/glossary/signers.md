@@ -4,7 +4,7 @@ aliases:
   - 署名者
 tags:
   - glossary
-date: '2026-05-30'
+date: '2026-06-02'
 ---
 
 **署名者**
