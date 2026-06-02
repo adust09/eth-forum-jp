@@ -6,6 +6,7 @@ public/
 *.log
 .cache/
 quartz/.quartz-cache/
+quartz/quartz/.quartz-cache/
 
 # editor
 .vscode/
