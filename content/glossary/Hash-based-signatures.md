@@ -1,0 +1,22 @@
+---
+title: Hash-based signatures
+aliases:
+  - ハッシュベース署名
+tags:
+  - glossary
+date: '2026-06-02'
+---
+
+**ハッシュベース署名**
+
+量子耐性デジタル署名の一種で、概念的なシンプルさ、実装の容易さ、および標準モデルの暗号学的仮定への依存から、Ethereumのポスト量子移行における有力な候補とされている。鍵の再利用を防ぐための厳格な状態管理が必要となる。
+
+## 関連用語
+
+- [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]]
+- [[glossary/Post-Quantum|Post-Quantum]]
+- [[glossary/digital-signatures|digital signatures]]
+
+## 元の表記（英語）
+
+(なし)
