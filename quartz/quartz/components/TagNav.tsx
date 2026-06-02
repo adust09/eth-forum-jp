@@ -104,6 +104,12 @@ export default ((userOpts?: Partial<Options>) => {
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 800px) {
+  .tag-nav {
+    display: none;
+  }
+}
 `
 
   return TagNav
