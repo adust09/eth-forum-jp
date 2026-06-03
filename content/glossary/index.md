@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-02'
+date: '2026-06-03'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -18,6 +18,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
+- [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
+- [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
@@ -25,6 +27,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
+- [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
+- [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
+- [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
@@ -77,6 +82,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/mainnet|mainnet]] — メインネット
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
+- [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
@@ -87,6 +93,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
+- [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/Operator|Operator]] — オペレーター
@@ -94,6 +101,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
+- [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
@@ -118,11 +126,15 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
 - [[glossary/Service-Object|Service Object]] — サービスオブジェクト
 - [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
+- [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
+- [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/stake|stake]] — ステーク
+- [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
