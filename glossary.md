@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1251,3 +1251,117 @@ description: |
 - auto_source_url: https://ethresear.ch/t/exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators/25040
 - desc: |
   量子耐性デジタル署名の一種で、概念的なシンプルさ、実装の容易さ、および標準モデルの暗号学的仮定への依存から、Ethereumのポスト量子移行における有力な候補とされている。鍵の再利用を防ぐための厳格な状態管理が必要となる。
+
+## Atomic Cross-Domain State Synchronization
+- ja: アトミックなクロスドメイン状態同期
+- aliases: [atomic synchronization, causally coupled bidirectional synchronization]
+- related: [Cross-chain bridge, Shared sequencing, Atomic composition across rollups, Causal Coupling of State]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 25065
+- auto_source_url: https://ethresear.ch/t/mechanized-proofs-for-atomic-cross-domain-state-synchronization/25065
+- desc: |
+  複数のドメインに存在する資産の状態遷移を、単一の因果的単位として結合し、中間状態を構造的に到達不可能にする同期モデル。これにより、一方のドメインでの状態遷移が他方で失敗する事態を防ぎ、市場の分断や規制上の問題を回避する。
+
+## Causal Coupling of State
+- ja: 状態の因果的結合
+- aliases: [causal coupling]
+- related: [Atomic Cross-Domain State Synchronization, State transition]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 25065
+- auto_source_url: https://ethresear.ch/t/mechanized-proofs-for-atomic-cross-domain-state-synchronization/25065
+- desc: |
+  複数のドメインに存在する資産の状態が、単なる観測ではなく因果的に結びついている必要があるという要件。一方のドメインでの状態遷移が、同じ力とタイミングで他のドメインにも反映されることを保証する。
+
+## State Preservation
+- ja: 状態保存 (State Preservation)
+- related: [State machine, Homomorphism, Naturality condition]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 25065
+- auto_source_url: https://ethresear.ch/t/mechanized-proofs-for-atomic-cross-domain-state-synchronization/25065
+- desc: |
+  状態同期の順方向マッピングが満たすべき数学的条件で、2つの状態機械間の順方向準同型性として定義される。あるドメインでの状態遷移が、別のドメインにマッピングされた後もその構造を維持することを保証する。
+
+## Per-Asset Isolation
+- ja: アセットごとの分離
+- aliases: [isolation of unconnected domains]
+- related: [Multi-domain preservation]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 25065
+- auto_source_url: https://ethresear.ch/t/mechanized-proofs-for-atomic-cross-domain-state-synchronization/25065
+- desc: |
+  マルチドメイン環境において、あるアセットに対する同期操作が、他のアセットや他のドメインに影響を与えないことを保証する特性。これにより、システム全体の整合性を保ちつつ、特定のアセットの独立した処理を可能にする。
+
+## OEV Containment
+- ja: OEV封じ込め (OEV Containment)
+- aliases: [Structural OEV containment]
+- related: [OEV, MEV, Atomic Cross-Domain State Synchronization]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 25065
+- auto_source_url: https://ethresear.ch/t/mechanized-proofs-for-atomic-cross-domain-state-synchronization/25065
+- desc: |
+  アトミックな「bind → verify → commit」サイクルによって、抽出可能な情報非対称性の時間窓を構造的に排除するOEV（Order Extractable Value）緩和アプローチ。既存のOEV再分配メカニズムとは異なり、OEVの発生自体を抑制する。
+
+## CCIP-Read
+- ja: CCIP-Read
+- aliases: [EIP-3668]
+- related: [CCIP-Read gateway, Offchain resolver]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28680
+- auto_source_url: https://ethereum-magicians.org/t/gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol/28680
+- desc: |
+  EIP-3668で定義される、オンチェーンコントラクトがオフチェーンデータにアクセスするための標準プロトコル。スマートコントラクトが外部のデータソースから情報を取得するメカニズムを提供する。
+
+## Mesh sync protocol
+- ja: メッシュ同期プロトコル
+- related: [CCIP-Read gateway, EIP-3668]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28680
+- auto_source_url: https://ethereum-magicians.org/t/gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol/28680
+- desc: |
+  EIP-3668 CCIP-Readゲートウェイ間でレコードを同期するための提案されたプロトコル。冗長性、監査可能性、帰属の問題を解決し、単一障害点のない分散型アプリケーションを可能にする。
+
+## Attestation
+- ja: アテステーション（証明）
+- related: [EIP-712, Commitment hash]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28680
+- auto_source_url: https://ethereum-magicians.org/t/gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol/28680
+- desc: |
+  ゲートウェイが特定の入力に対して特定の結果を生成したことを証明する署名付きの記録。これにより、ゲートウェイの応答の整合性と信頼性が保証される。
+
+## Sign-In With Ethereum
+- ja: Sign-In With Ethereum (SIWE)
+- aliases: [SIWE, EIP-4361]
+- related: [Account abstraction]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28680
+- auto_source_url: https://ethereum-magicians.org/t/gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol/28680
+- desc: |
+  ユーザーがEthereumウォレットを使用してウェブサイトやアプリケーションに認証するための標準的な方法。EIP-4361で定義され、署名されたメッセージを通じてユーザーの身元を証明する。
+
+## Settlement layer
+- ja: 決済レイヤー
+- related: [L2 rollup, Execution layer]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28680
+- auto_source_url: https://ethereum-magicians.org/t/gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol/28680
+- desc: |
+  ブロックチェーンアーキテクチャにおいて、トランザクションの最終的な確定と決済が行われるレイヤー。通常、L1ブロックチェーンがL2ソリューションの決済レイヤーとして機能する。
+
+## Sparse blobpools
+- ja: スパースブロブプール
+- related: [blob, data availability, P2P Networking]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28674
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-2-june-3-2026/28674
+- desc: |
+  EthereumのP2Pネットワークにおいて、ブロブ（EIP-4844で導入された一時的なデータチャンク）の伝播と管理を効率化するための概念。ネットワークリソースを節約するため、ブロブの全体ではなく、その一部やメタデータのみを伝播させる手法を指す可能性があります。
+
+## cell-level deltas
+- ja: セルレベルデルタ
+- related: [data availability sampling, Verkle trees, state updates]
+- auto_added: 2026-06-03
+- auto_source_topic_id: 28674
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-2-june-3-2026/28674
+- desc: |
+  Ethereumのデータ可用性レイヤーやステート管理において、データを「セル」と呼ばれる小さな単位に分割し、そのセル単位での変更点（デルタ）のみを更新・伝播するメカニズム。ネットワーク帯域とストレージ効率の向上を目的とします。
