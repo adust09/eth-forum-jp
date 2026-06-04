@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-03'
+date: '2026-06-04'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -30,6 +30,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
+- [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
@@ -54,9 +55,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ERC-8004|ERC-8004]] — ERC-8004 (エージェントIDレジストリ)
 - [[glossary/ERC-8263|ERC-8263]] — ERC-8263 (オンチェーン証明レイヤー)
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
+- [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
+- [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
@@ -65,6 +68,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
+- [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
 - [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
@@ -85,6 +89,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
+- [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
@@ -147,6 +152,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
+- [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)

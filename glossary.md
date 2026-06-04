@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1365,3 +1365,59 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/p2p-networking-2-june-3-2026/28674
 - desc: |
   Ethereumのデータ可用性レイヤーやステート管理において、データを「セル」と呼ばれる小さな単位に分割し、そのセル単位での変更点（デルタ）のみを更新・伝播するメカニズム。ネットワーク帯域とストレージ効率の向上を目的とします。
+
+## Modular smart accounts
+- ja: モジュラー型スマートアカウント (Modular Smart Accounts)
+- aliases: [Modular accounts]
+- related: [Account abstraction, Smart accounts]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28695
+- auto_source_url: https://ethereum-magicians.org/t/erc-modular-accounts-for-frame-transactions/28695
+- desc: |
+  スマートコントラクトアカウントの一種で、バリデーター、エグゼキューター、フック、設定などの機能をモジュールとして組み合わせて構築されるアカウント。これにより、アカウントの機能を柔軟にカスタマイズし、特定のユースケースやセキュリティ要件に合わせて調整できる。
+
+## Validator module
+- ja: バリデーターモジュール (Validator Module)
+- related: [Modular smart accounts, Executor module, Hook module, Config module]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28695
+- auto_source_url: https://ethereum-magicians.org/t/erc-modular-accounts-for-frame-transactions/28695
+- desc: |
+  モジュラー型スマートアカウントの構成要素の一つで、トランザクションの検証ロジックを担うモジュール。アカウントのセキュリティと実行条件を定義し、不正な操作を防ぐ役割を持つ。
+
+## Executor module
+- ja: エグゼキューターモジュール (Executor Module)
+- related: [Modular smart accounts, Validator module, Hook module, Config module]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28695
+- auto_source_url: https://ethereum-magicians.org/t/erc-modular-accounts-for-frame-transactions/28695
+- desc: |
+  モジュラー型スマートアカウントの構成要素の一つで、トランザクションの実行ロジックを担うモジュール。アカウントの操作や機能の実装を行い、実際にオンチェーンアクションを実行する。
+
+## Hook module
+- ja: フックモジュール (Hook Module)
+- related: [Modular smart accounts, Validator module, Executor module, Config module]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28695
+- auto_source_url: https://ethereum-magicians.org/t/erc-modular-accounts-for-frame-transactions/28695
+- desc: |
+  モジュラー型スマートアカウントの構成要素の一つで、トランザクション処理の特定の段階（フック）でカスタムロジックを実行するためのモジュール。追加機能や条件付き操作を可能にし、アカウントの挙動を拡張する。
+
+## Config module
+- ja: 設定モジュール (Config Module)
+- related: [Modular smart accounts, Validator module, Executor module, Hook module]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28695
+- auto_source_url: https://ethereum-magicians.org/t/erc-modular-accounts-for-frame-transactions/28695
+- desc: |
+  モジュラー型スマートアカウントの構成要素の一つで、アカウントの設定やパラメータを管理するモジュール。アカウントの挙動を制御するための設定情報を提供し、柔軟な管理を可能にする。
+
+## Ethereum validator
+- ja: イーサリアムバリデータ
+- aliases: [validator]
+- related: [Proof of Stake, Staking, Consensus Layer, Proposer]
+- auto_added: 2026-06-04
+- auto_source_topic_id: 28694
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-42-june-3-2026/28694
+- desc: |
+  EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザクションの検証とブロックの生成を行う参加者です。ETHをステークすることでネットワークのセキュリティと健全性に貢献し、報酬を得ます。

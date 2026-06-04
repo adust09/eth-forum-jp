@@ -1,0 +1,22 @@
+---
+title: Modular smart accounts
+aliases:
+  - モジュラー型スマートアカウント (Modular Smart Accounts)
+  - Modular accounts
+tags:
+  - glossary
+date: '2026-06-04'
+---
+
+**モジュラー型スマートアカウント (Modular Smart Accounts)**
+
+スマートコントラクトアカウントの一種で、バリデーター、エグゼキューター、フック、設定などの機能をモジュールとして組み合わせて構築されるアカウント。これにより、アカウントの機能を柔軟にカスタマイズし、特定のユースケースやセキュリティ要件に合わせて調整できる。
+
+## 関連用語
+
+- [[glossary/Account-abstraction|Account abstraction]]
+- [[glossary/Smart-accounts|Smart accounts]]
+
+## 元の表記（英語）
+
+- Modular accounts
