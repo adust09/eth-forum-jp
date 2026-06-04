@@ -6,7 +6,7 @@ aliases:
   - Ethereum Research and Development
 tags:
   - glossary
-date: '2026-06-03'
+date: '2026-06-04'
 ---
 
 **イーサリアム研究開発**
