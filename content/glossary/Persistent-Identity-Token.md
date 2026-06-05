@@ -5,7 +5,7 @@ aliases:
   - PIP
 tags:
   - glossary
-date: '2026-06-04'
+date: '2026-06-05'
 ---
 
 **永続的アイデンティティトークン (PIP)**
