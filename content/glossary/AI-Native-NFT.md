@@ -4,7 +4,7 @@ aliases:
   - AIネイティブNFT
 tags:
   - glossary
-date: '2026-06-04'
+date: '2026-06-05'
 ---
 
 **AIネイティブNFT**

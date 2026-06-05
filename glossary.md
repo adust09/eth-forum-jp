@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1421,3 +1421,144 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/post-quantum-pq-interop-42-june-3-2026/28694
 - desc: |
   EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザクションの検証とブロックの生成を行う参加者です。ETHをステークすることでネットワークのセキュリティと健全性に貢献し、報酬を得ます。
+
+## Privacy-native fungible token
+- ja: プライバシーネイティブなファンジブルトークン
+- aliases: [pERC20]
+- related: [ERC-20, ZK-UTXO note, Zcash Orchard protocol]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28702
+- auto_source_url: https://ethereum-magicians.org/t/erc-8287-privacy-native-fungible-tokens/28702
+- desc: |
+  ZK-UTXOノートとZcash Orchardプロトコルを基盤とし、残高と送金がプライベートでありながら、総供給量が公開されるEVM上の新しいファンジブルトークンインターフェースです。
+
+## ZK-UTXO note
+- ja: ZK-UTXOノート
+- aliases: [note]
+- related: [UTXO, ZK-SNARKs, Privacy-native fungible token]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28702
+- auto_source_url: https://ethereum-magicians.org/t/erc-8287-privacy-native-fungible-tokens/28702
+- desc: |
+  ZK-SNARKsによって保護されたUTXO（未使用トランザクション出力）モデルのノートです。値と受取人情報が暗号化されており、プライベートな残高と送金を可能にします。
+
+## compliance frozen root
+- ja: コンプライアンス凍結ルート
+- aliases: [frozenRoot, rt_frozen]
+- related: [Sparse Merkle Tree, note commitment]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28702
+- auto_source_url: https://ethereum-magicians.org/t/erc-8287-privacy-native-fungible-tokens/28702
+- desc: |
+  規制遵守のためにブラックリスト化されたノートのコミットメントを格納するSparse Merkle Treeのルートです。このルートはオンチェーンで維持され、回路内で消費されるノートがブラックリストに含まれないことを証明します。
+
+## nullifier
+- ja: ナリファイア
+- aliases: [nf]
+- related: [ZK-UTXO note, double-spending]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28702
+- auto_source_url: https://ethereum-magicians.org/t/erc-8287-privacy-native-fungible-tokens/28702
+- desc: |
+  ZK-UTXOモデルにおいて、ノートが消費された際に公開される一意のワンタイムマーカーです。二重支払いを防ぎ、元のノートや所有者の身元とはリンクされないように設計されています。
+
+## Orchard action circuit
+- ja: Orchardアクション回路
+- related: [Zcash Orchard protocol, ZK-SNARKs, Groth16]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28702
+- auto_source_url: https://ethereum-magicians.org/t/erc-8287-privacy-native-fungible-tokens/28702
+- desc: |
+  Zcash Orchardプロトコルで使用されるZK-SNARK回路です。複数の入力と出力を柔軟にサポートし、pERC20のバンドル操作の基盤となることで、効率的なプライベートトランザクションを可能にします。
+
+## Builder Execution Requests
+- ja: ビルダー実行リクエスト
+- related: [ePBS, Request Bus, Builder]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28699
+- auto_source_url: https://ethereum-magicians.org/t/eip-8282-builder-execution-requests/28699
+- desc: |
+  EIP-7732 (ePBS) のビルダーが、バリデーターのフローを経由せずに、自身のオンボーディングや終了を要求するために使用する実行レイヤーリクエスト。EIP-7685 リクエストバスを通じてルーティングされます。
+
+## Request Bus
+- ja: リクエストバス
+- related: [EIP-7685, EIP-7002, EIP-7251]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28699
+- auto_source_url: https://ethereum-magicians.org/t/eip-8282-builder-execution-requests/28699
+- desc: |
+  Ethereumプロトコルにおいて、様々なリクエストタイプ（例: ビルダーのオンボーディングや終了、バリデーターの引き出しなど）を処理するための標準化されたインターフェースまたはメカニズム。EIP-7685やEIP-7002/7251などで定義されています。
+
+## Cold-key exit
+- ja: コールドキー・イグジット (Cold-key exit)
+- related: [Hot key, Execution address]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28699
+- auto_source_url: https://ethereum-magicians.org/t/eip-8282-builder-execution-requests/28699
+- desc: |
+  ビルダーやバリデーターがプロトコルから離脱する際に、日常的な操作に使用するホットキーではなく、より安全なコールドキー（またはその制御下にあるアドレス）によって離脱を承認するセキュリティメカニズム。これにより、ホットキーが侵害された場合でも資産の安全性が保たれます。
+
+## Predeploys
+- ja: プリデプロイ (Predeploys)
+- aliases: [Pre-deployed contracts]
+- related: [EIP]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28699
+- auto_source_url: https://ethereum-magicians.org/t/eip-8282-builder-execution-requests/28699
+- desc: |
+  Ethereumプロトコルにおいて、特定の固定アドレスに事前にデプロイされているコントラクト。これらは通常、プロトコルレベルの機能を提供し、EIPによって導入されることが多いです。
+
+## Transient Storage
+- ja: トランジェントストレージ
+- related: [EVM]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28691
+- auto_source_url: https://ethereum-magicians.org/t/erc-8284-wallet-scoped-token-pull-execution/28691
+- desc: |
+  EVMにおいて、トランザクションの実行中にのみ存在する一時的なストレージ領域。トランザクション終了時に自動的にクリアされ、永続的な状態変更を伴わない一時的なデータ保存に利用されます。
+
+## Wallet-Scoped Token Pull Execution
+- ja: ウォレットスコープのトークンプル実行
+- related: [ERC-20, Token Pull Authorization]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28691
+- auto_source_url: https://ethereum-magicians.org/t/erc-8284-wallet-scoped-token-pull-execution/28691
+- desc: |
+  ERC-8284で提案される、ウォレットが特定の外部呼び出し中にのみ、指定されたターゲットに対してトークンをプルする権限を一時的に付与するメカニズム。従来の`approve`-then-callパターンに代わるものとして設計されています。
+
+## Token Pull Authorization
+- ja: トークンプル承認
+- related: [ERC-20, Wallet-Scoped Token Pull Execution, Approve-then-call pattern]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28691
+- auto_source_url: https://ethereum-magicians.org/t/erc-8284-wallet-scoped-token-pull-execution/28691
+- desc: |
+  トークンをプル（引き出し）する権限を付与すること。特に、ERC-8284では、従来の`approve`による永続的なアロワンスではなく、特定のトランザクション実行中に限定された一時的な承認メカニズムを指します。
+
+## Proof of Personhood
+- ja: 人間性証明 (Proof of Personhood)
+- related: [Sybil Resistance, Identity Layer]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28689
+- auto_source_url: https://ethereum-magicians.org/t/sigil-address-verification-with-passport-good-or-bad-idea/28689
+- desc: |
+  あるエンティティがユニークな人間であることを証明するメカニズム。Web3プロトコルにおけるSybil攻撃を防ぎ、公平なリソース配分やガバナンスを可能にするために重要です。
+
+## Zero-Knowledge Proof
+- ja: ゼロ知識証明
+- aliases: [ZKP, ZK proof]
+- related: [Rollup, Privacy, Scalability]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28689
+- auto_source_url: https://ethereum-magicians.org/t/sigil-address-verification-with-passport-good-or-bad-idea/28689
+- desc: |
+  ある主張が真実であることを、その主張の根拠となる情報（知識）を一切開示することなく証明する暗号技術。Ethereumのスケーラビリティ向上（ZKロールアップなど）やプライバシー保護に不可欠です。
+
+## Per-session proofs
+- ja: セッションごとの証明
+- related: [Identity Layer, Privacy]
+- auto_added: 2026-06-05
+- auto_source_topic_id: 28689
+- auto_source_url: https://ethereum-magicians.org/t/sigil-address-verification-with-passport-good-or-bad-idea/28689
+- desc: |
+  ユーザーがプロトコルとやり取りするたびに、そのセッション固有の証明を生成・提出する方式。プライバシー保護に優れるが、ユーザー体験や実装の複雑さが増す可能性があります。
