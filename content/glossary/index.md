@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-05'
+date: '2026-06-06'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -14,29 +14,38 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
+- [[glossary/Agentic-Onchain-Operations|Agentic Onchain Operations]] — エージェントによるオンチェーン操作
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
+- [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
+- [[glossary/Association-Set-Provider|Association Set Provider]] — アソシエーションセットプロバイダー
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
+- [[glossary/blind-signing|blind signing]] — ブラインド署名
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
+- [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
+- [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
+- [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
+- [[glossary/Counterfactual-Transaction|Counterfactual Transaction]] — 反実仮想トランザクション
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
+- [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
@@ -51,6 +60,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-Editors|EIP Editors]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
+- [[glossary/EIP-7702|EIP-7702]] — EIP-7702
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
@@ -61,13 +71,16 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
+- [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
+- [[glossary/Forensic-Token|Forensic Token]] — フォレンジックトークン
 - [[glossary/fork|fork]] — フォーク
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
+- [[glossary/Frame-type|Frame type]] — フレームタイプ
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
@@ -83,10 +96,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/KoalaBear-prime-field|KoalaBear prime field]] — KoalaBear素体
 - [[glossary/KZG-commitment|KZG commitment]] — KZGコミットメント
+- [[glossary/L1-zkEVM|L1-zkEVM]] — L1-zkEVM (レイヤー1 zkEVM)
+- [[glossary/Lamport-chain|Lamport chain]] — ランポートチェーン
+- [[glossary/Layer-1|Layer 1]] — レイヤー1
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/leanVM|leanVM]] — leanVM
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
+- [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
@@ -94,6 +111,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
+- [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
@@ -105,6 +123,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
+- [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/Operator|Operator]] — オペレーター
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
@@ -118,17 +137,21 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
+- [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
+- [[glossary/privacy-set|privacy set]] — プライバシーセット
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
+- [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
+- [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
 - [[glossary/repricing|repricing]] — 再価格設定
@@ -143,12 +166,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/stake|stake]] — ステーク
+- [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
 - [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/testnet|testnet]] — テストネット
@@ -158,22 +183,30 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]] — トークンプル承認
 - [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
+- [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
+- [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 - [[glossary/Transient-Storage|Transient Storage]] — トランジェントストレージ
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
+- [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
+- [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
+- [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
+- [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
 - [[glossary/ZK-state-channel|ZK state channel]] — ZKステートチャネル
 - [[glossary/ZK-UTXO-note|ZK-UTXO note]] — ZK-UTXOノート
+- [[glossary/zkEVM|zkEVM]] — zkEVM (ゼロ知識イーサリアム仮想マシン)
 - [[glossary/zkML|zkML]] — ゼロ知識機械学習 (zkML)
+- [[glossary/zkwormholes|zkwormholes]] — zkワームホール
 
 ---
 

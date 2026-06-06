@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1562,3 +1562,310 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/sigil-address-verification-with-passport-good-or-bad-idea/28689
 - desc: |
   ユーザーがプロトコルとやり取りするたびに、そのセッション固有の証明を生成・提出する方式。プライバシー保護に優れるが、ユーザー体験や実装の複雑さが増す可能性があります。
+
+## MACI
+- ja: MACI (Minimum Anti-Collusion Infrastructure)
+- aliases: [Minimum Anti-Collusion Infrastructure]
+- related: [ZK-Proofs, anonymous voting]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 25077
+- auto_source_url: https://ethresear.ch/t/vitalik-buterin-proposes-that-ai-votes-for-us-we-propose-a-cryptographic-space-where-we-vote-and-no-one-is-watching/25077
+- desc: |
+  ゼロ知識証明と暗号技術を組み合わせ、投票システムにおける共謀や買収を防ぐためのインフラです。投票者の匿名性を保ちつつ、投票結果の集計を検証可能にします。
+
+## VWU
+- ja: VWU (Vote Weight Unit)
+- aliases: [Vote Weight Unit]
+- related: [DAOガバナンス, 投票権]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 25077
+- auto_source_url: https://ethresear.ch/t/vitalik-buterin-proposes-that-ai-votes-for-us-we-propose-a-cryptographic-space-where-we-vote-and-no-one-is-watching/25077
+- desc: |
+  BeTrueCoreシステムで提案された、投票権の重みを決定する単位です。トークン保有量ではなく、時間の経過とともに検証された倫理的判断の質に基づいて重みが付与されます。
+
+## MPC
+- ja: MPC (マルチパーティ計算)
+- aliases: [Multi-Party Computation]
+- related: [プライバシー保護, ゼロ知識証明]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 25077
+- auto_source_url: https://ethresear.ch/t/vitalik-buterin-proposes-that-ai-votes-for-us-we-propose-a-cryptographic-space-where-we-vote-and-no-one-is-watching/25077
+- desc: |
+  複数の参加者がそれぞれの秘密入力データを公開することなく、共同で関数を計算する暗号技術です。分散型システムにおけるプライバシー保護とデータ処理に利用されます。
+
+## AI Stewards
+- ja: AIスチュワード
+- related: [DAOガバナンス, AIエージェント]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 25077
+- auto_source_url: https://ethresear.ch/t/vitalik-buterin-proposes-that-ai-votes-for-us-we-propose-a-cryptographic-space-where-we-vote-and-no-one-is-watching/25077
+- desc: |
+  Vitalik Buterinが提案した、ユーザーの行動履歴に基づいて訓練され、DAOでの投票を自動化する個人用AIエージェントです。有権者の無関心を解消し、ガバナンスを簡素化することを目的とします。
+
+## Cryptographic Isolation
+- ja: 暗号的隔離
+- related: [プライバシー保護, 匿名性]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 25077
+- auto_source_url: https://ethresear.ch/t/vitalik-buterin-proposes-that-ai-votes-for-us-we-propose-a-cryptographic-space-where-we-vote-and-no-one-is-watching/25077
+- desc: |
+  暗号技術を用いて、参加者の意思決定プロセスや中間結果を外部から完全に遮断する状態です。ソーシャルプレッシャーや外部からの操作を防ぎ、個人の真の意図を保護するために設計されます。
+
+## Frame type
+- ja: フレームタイプ
+- related: [Frame transactions, STARK Aggregation, Quantum-resistant Signature]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28723
+- auto_source_url: https://ethereum-magicians.org/t/eip-frame-type-for-quantum-resistant-signature-and-stark-aggregation/28723
+- desc: |
+  Ethereumのトランザクションが特定の依存関係や機能を宣言するための新しいタイプ。量子耐性署名やSTARK集約を効率的に処理するために導入される。
+
+## Quantum-resistant Signature
+- ja: 量子耐性署名
+- related: [Post-quantum cryptography, STARK Aggregation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28723
+- auto_source_url: https://ethereum-magicians.org/t/eip-frame-type-for-quantum-resistant-signature-and-stark-aggregation/28723
+- desc: |
+  量子コンピュータによる攻撃に対して安全なように設計されたデジタル署名。将来の量子コンピュータの脅威に備え、Ethereumトランザクションのセキュリティを確保するために重要となる。
+
+## STARK Aggregation
+- ja: STARK集約
+- related: [STARK, Recursive STARK, Zero-Knowledge Proof]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28723
+- auto_source_url: https://ethereum-magicians.org/t/eip-frame-type-for-quantum-resistant-signature-and-stark-aggregation/28723
+- desc: |
+  複数のSTARK証明を単一の証明にまとめる技術。これにより、トランザクションのガス効率を高め、ブロックチェーン上での検証コストを削減できる。
+
+## Recursive STARK
+- ja: 再帰的STARK
+- related: [STARK, STARK Aggregation, Zero-Knowledge Proof]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28723
+- auto_source_url: https://ethereum-magicians.org/t/eip-frame-type-for-quantum-resistant-signature-and-stark-aggregation/28723
+- desc: |
+  複数のSTARK証明の有効性を単一のSTARK証明で検証する技術。これにより、大量の証明を効率的に処理し、ブロックチェーンの拡張性とプライバシーを向上させる。
+
+## Counterfactual Transaction
+- ja: 反実仮想トランザクション
+- related: [Account Abstraction, State Channel]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28722
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-101-june-09-2026/28722
+- desc: |
+  ブロックチェーン上で実際に実行されることなく、その実行可能性に基づいて合意されるトランザクション。主にオフチェーンでのインタラクションを可能にし、必要に応じてオンチェーンで解決されることで、ガス代の節約やスケーラビリティの向上に寄与します。
+
+## Contract Payer Transaction
+- ja: コントラクト支払いトランザクション
+- related: [Gas Abstraction, Account Abstraction]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28722
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-101-june-09-2026/28722
+- desc: |
+  トランザクションのガス代を、そのトランザクションの送信者ではなく、特定のスマートコントラクトが支払う仕組みのトランザクション。ユーザーが直接ガス代を支払う必要がないため、ユーザーエクスペリエンスの向上や特定のビジネスモデルの実現に役立ちます。
+
+## Shielded Note Teleportation
+- ja: シールドノートのテレポート
+- related: [Shielded Transaction, Zero-Knowledge Proof, Privacy Coin]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28722
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-101-june-09-2026/28722
+- desc: |
+  プライバシー保護された「シールドノート」（特定のユーザーに属する秘密の資産表現）を、異なるコンテキストやブロックチェーン間で移動させるプロセス。ゼロ知識証明などの技術を用いて、移動中もそのプライバシー特性を維持することを目的とします。
+
+## Agentic Onchain Operations
+- ja: エージェントによるオンチェーン操作
+- related: [AI Agent, Account Abstraction, Autonomous Agent]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28722
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-101-june-09-2026/28722
+- desc: |
+  自律的なエージェント（AIエージェントなど）が、ブロックチェーン上で直接実行する操作や活動。これらのエージェントは、特定の目的のためにプログラムされ、スマートコントラクトや他のオンチェーンリソースとインタラクトすることで、自動化された機能を提供します。
+
+## Forensic Token
+- ja: フォレンジックトークン
+- aliases: [Forest]
+- related: [Traceability, Compliance, Auditability]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28722
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-101-june-09-2026/28722
+- desc: |
+  監査や調査（フォレンジック分析）を目的として設計された特殊なトークン。通常のトークンよりも詳細な追跡機能や、特定の条件下での情報開示メカニズムを持つことで、規制遵守や不正行為の特定に役立つ可能性があります。
+
+## zkwormholes
+- ja: zkワームホール
+- related: [EIP-7503, shielded note teleportation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28721
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-shielded-note-teleportation/28721
+- desc: |
+  EIP-7503で提案された概念で、ゼロ知識証明を利用して、プライバシープロトコル間で資産を公開することなく移動させるメカニズム。本ERCの「Shielded Note Teleportation」の基礎となる。
+
+## burn commitment
+- ja: バーンコミットメント
+- related: [burn address, shielded note teleportation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28721
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-shielded-note-teleportation/28721
+- desc: |
+  プライバシープロトコル間でシールドされたノートを移動させる際に、ソースプールでノートが使用不能なアドレスにバインドされたことを証明するためのコミットメント。これにより、資産の二重使用を防ぎつつ、宛先プロトコルでのインポートを可能にする。
+
+## Positive-sum privacy sets
+- ja: ポジティブサム・プライバシーセット
+- related: [privacy set, shielded note teleportation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28721
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-shielded-note-teleportation/28721
+- desc: |
+  シールドされたノートをプライバシープロトコル間でテレポートすることで、宛先プールのプライバシーセットを増加させると同時に、ソースプールのプライバシーセットを減少させない特性。これにより、新しいプロトコルが既存の大きなプロトコルの匿名性を継承できる。
+
+## privacy set
+- ja: プライバシーセット
+- related: [anonymity, shielded note teleportation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28721
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-shielded-note-teleportation/28721
+- desc: |
+  プライバシープロトコルにおいて、特定のトランザクションやユーザーの匿名性を保証する際に、その中に紛れ込ませることができる可能性のあるユーザーやトランザクションの集合。プライバシーセットが大きいほど匿名性が高まる。
+
+## Association Set Provider
+- ja: アソシエーションセットプロバイダー
+- aliases: [ASP]
+- related: [compliance, illicit funds]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28721
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-shielded-note-teleportation/28721
+- desc: |
+  プライバシープロトコルにおいて、テレポートされたノートが不正な資金に関連していないかをスクリーニングするために使用される可能性のあるサービスプロバイダー。コンプライアンス対策の一環として機能する。
+
+## blind signing
+- ja: ブラインド署名
+- related: [Clear Signing]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28717
+- auto_source_url: https://ethereum-magicians.org/t/erc-8283-on-chain-registry-for-erc-7730-clear-signing-descriptors/28717
+- desc: |
+  ウォレットユーザーがトランザクションの内容を完全に理解せずに署名してしまう行為。スマートコントラクトの複雑性により、意図しない資産の損失につながる重大なセキュリティリスク。
+
+## Clear Signing
+- ja: クリア署名
+- related: [blind signing, Clear Signing descriptor, ERC-7730]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28717
+- auto_source_url: https://ethereum-magicians.org/t/erc-8283-on-chain-registry-for-erc-7730-clear-signing-descriptors/28717
+- desc: |
+  ウォレットがユーザーにトランザクションの意図と影響を明確かつ人間が読める形式で表示し、ユーザーが内容を完全に理解した上で署名できるようにする標準。ブラインド署名の問題を解決するために導入された。
+
+## on-chain registry
+- ja: オンチェーンレジストリ
+- related: [ERC-8283, Clear Signing descriptor]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28717
+- auto_source_url: https://ethereum-magicians.org/t/erc-8283-on-chain-registry-for-erc-7730-clear-signing-descriptors/28717
+- desc: |
+  ERC-7730のクリア署名記述子を許可なく維持・更新できるスマートコントラクトベースのレジストリ。ウォレットが記述子とそのアテステーションをオンチェーンで検索できるようにする。
+
+## transaction envelope
+- ja: トランザクションエンベロープ
+- related: [ERC-8265, Clear Signing]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28717
+- auto_source_url: https://ethereum-magicians.org/t/erc-8283-on-chain-registry-for-erc-7730-clear-signing-descriptors/28717
+- desc: |
+  ウォレット向けのメタデータ（トランザクションシミュレーション結果、アサーション、解決済みENS名など）を署名ハードウェアに到達するまでの解決プロセス中にバンドルするためのフォーマット。ERC-8265で定義される。
+
+## transaction assertions
+- ja: トランザクションアサーション
+- related: [EIP-7906, Clear Signing]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28717
+- auto_source_url: https://ethereum-magicians.org/t/erc-8283-on-chain-registry-for-erc-7730-clear-signing-descriptors/28717
+- desc: |
+  スマートコントラクトが、呼び出しデータによって規定された状態変更をオンチェーンで強制するためのメカニズム。EIP-7906で定義され、クリア署名エコシステムの一部を構成する。
+
+## zkEVM
+- ja: zkEVM (ゼロ知識イーサリアム仮想マシン)
+- aliases: [Zero-Knowledge Ethereum Virtual Machine]
+- related: [Zero-Knowledge Proof, EVM, Rollup]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28716
+- auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-05-june-10-2026/28716
+- desc: |
+  ゼロ知識証明技術を用いて、イーサリアム仮想マシン（EVM）の計算の正当性を証明するシステム。これにより、L2スケーリングソリューション（特にzkRollup）において、オフチェーン計算の検証を効率的かつ安全に行うことが可能になる。
+
+## Layer 1
+- ja: レイヤー1
+- aliases: [L1]
+- related: [Layer 2, Ethereum Mainnet, Blockchain]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28716
+- auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-05-june-10-2026/28716
+- desc: |
+  ブロックチェーンネットワークの基盤となるメインのチェーン。イーサリアムにおいては、トランザクションの最終的な確定とセキュリティを提供するメインネットを指す。L2ソリューションは通常、L1のセキュリティを継承してスケーラビリティを向上させる。
+
+## L1-zkEVM
+- ja: L1-zkEVM (レイヤー1 zkEVM)
+- aliases: [L1 zkEVM]
+- related: [zkEVM, Layer 1, Ethereum Virtual Machine]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28716
+- auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-05-june-10-2026/28716
+- desc: |
+  イーサリアムのレイヤー1上で動作するか、レイヤー1に密接に統合されたゼロ知識証明ベースのEVM実装。これにより、イーサリアムのセキュリティと分散性を維持しつつ、スケーラビリティとトランザクションのファイナリティを向上させることを目指す。
+
+## EVM assembly
+- ja: EVMアセンブリ
+- aliases: [evm-asm, EVM assembler]
+- related: [EVM, bytecode, Solidity]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28716
+- auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-05-june-10-2026/28716
+- desc: |
+  イーサリアム仮想マシン（EVM）の低レベルな命令セットを人間が読み書きしやすい形式で表現したもの。スマートコントラクトのコンパイルターゲットであり、EVMの動作を直接制御するために使用される。
+
+## WOTS-39
+- ja: WOTS-39
+- related: [Winternitz One-Time Signatures, Lamport chain, ERC-4337, EIP-7702, Post-Quantum]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28715
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
+- desc: |
+  BitcoinとEthereumの両方で動作する、Winternitz One-Time Signatures (WOTS+)とLamportチェーンを組み合わせたポスト量子署名ウォレットの実装。トランザクションハッシュ(TXID)をアンカーとして利用し、各トランザクションで一意のWOTS+キーを導出することで、キーの再利用問題を解決する。
+
+## Winternitz One-Time Signatures
+- ja: ウィンターニッツ・ワンタイム署名 (WOTS+)
+- aliases: [WOTS+]
+- related: [Hash-based signature scheme, WOTS-39, Lamport chain, Post-Quantum]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28715
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
+- desc: |
+  ハッシュ関数のみに基づいて構築されたワンタイム署名スキーム。秘密鍵はランダムな値のセットであり、公開鍵はそれらの値をW回ハッシュチェーン化したもの。一度しか安全に署名できないため、キーの再利用がセキュリティを損なう。
+
+## Lamport chain
+- ja: ランポートチェーン
+- related: [Lamport signature, WOTS-39, Post-Quantum]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28715
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
+- desc: |
+  マスターシークレットから導出されたハッシュ値の長いシーケンス。ウォレットのセットアップ時に最終値（チェーンチップ）のみをオンチェーンに公開し、新しいキーのアップロードを承認する際に、その前の値を順次公開することで所有権を証明する。各スロットは一度消費されると再利用できない。
+
+## validateUserOp
+- ja: validateUserOp (関数)
+- related: [ERC-4337, Smart contract wallet, UserOperation]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28715
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
+- desc: |
+  ERC-4337スマートコントラクトウォレットの主要な関数。ユーザーオペレーションの署名を検証し、関連するロジック（例：WOTS+署名の検証、Lamportチェーンスロットの消費）を実行する。これにより、アカウントのカスタム検証ロジックを実装できる。
+
+## EIP-7702
+- ja: EIP-7702
+- related: [EOA, Account abstraction, ERC-4337]
+- auto_added: 2026-06-06
+- auto_source_topic_id: 28715
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
+- desc: |
+  既存のEOA（Externally Owned Account）が、トランザクションの期間中、または永続的に、その検証ロジックをスマートコントラクト実装に委任できるようにするEthereum Improvement Proposal。これにより、既存のユーザーが資金を移動せずに、ポスト量子安全性などの新しい検証メカニズムにアップグレードできる。
