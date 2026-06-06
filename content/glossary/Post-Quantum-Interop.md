@@ -5,7 +5,7 @@ aliases:
   - PQ Interop
 tags:
   - glossary
-date: '2026-06-05'
+date: '2026-06-06'
 ---
 
 **ポスト量子相互運用性 (PQ相互運用性)**
