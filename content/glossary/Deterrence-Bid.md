@@ -4,7 +4,7 @@ aliases:
   - 抑止入札
 tags:
   - glossary
-date: '2026-06-06'
+date: '2026-06-08'
 ---
 
 **抑止入札**

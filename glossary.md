@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -1869,3 +1869,263 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum/28715
 - desc: |
   既存のEOA（Externally Owned Account）が、トランザクションの期間中、または永続的に、その検証ロジックをスマートコントラクト実装に委任できるようにするEthereum Improvement Proposal。これにより、既存のユーザーが資金を移動せずに、ポスト量子安全性などの新しい検証メカニズムにアップグレードできる。
+
+## Ethereum Transparency Layer
+- ja: イーサリアム透明性レイヤー (ETL)
+- aliases: [ETL]
+- related: [Deterministic Verifier Runtime, Replay-Stable Architecture]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25116
+- auto_source_url: https://ethresear.ch/t/ethereum-governance-verification-system/25116
+- desc: |
+  Ethereumガバナンス活動を決定論的な検証基盤に変換するために設計された、多層アーキテクチャ。ガバナンスの可視性だけでなく、再現可能な検証を可能にすることを目指します。
+
+## Deterministic Verifier Runtime
+- ja: 決定論的検証ランタイム
+- related: [Ethereum Transparency Layer, Replay Certification Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25116
+- auto_source_url: https://ethresear.ch/t/ethereum-governance-verification-system/25116
+- desc: |
+  Ethereum Transparency Layer (ETL) のセマンティクスを運用し、リプレイ安定性のあるガバナンス検証インフラを構築する実行環境。ガバナンス実行の連続性を決定論的に検証することに特化しています。
+
+## Replay-Stable Architecture
+- ja: リプレイ安定性アーキテクチャ
+- related: [Deterministic Verifier Runtime, Ethereum Transparency Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25116
+- auto_source_url: https://ethresear.ch/t/ethereum-governance-verification-system/25116
+- desc: |
+  ガバナンス履歴の決定論的な再構築、権限の連続性の理解、および観察された挙動が宣言されたガバナンス構造と一貫しているかの検証を可能にするアーキテクチャ。異なる環境間でのリプレイ同等な検証を保証します。
+
+## ETNL Semantic Layer
+- ja: ETNLセマンティックレイヤー (実行トレース正規化レイヤー)
+- aliases: [Execution Trace Normalization Layer]
+- related: [Ethereum Transparency Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25116
+- auto_source_url: https://ethresear.ch/t/ethereum-governance-verification-system/25116
+- desc: |
+  Ethereum Transparency Layer (ETL) の構成要素の一つで、ガバナンス実行の証拠を正規化されたセマンティック表現に変換するレイヤー。決定論的検証が始まる前にセマンティックな曖昧さを排除する役割を持ちます。
+
+## Proof-of-Operation Layer
+- ja: オペレーション証明レイヤー
+- related: [Ethereum Transparency Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25116
+- auto_source_url: https://ethresear.ch/t/ethereum-governance-verification-system/25116
+- desc: |
+  Ethereum Transparency Layer (ETL) の構成要素の一つで、ガバナンス実行トレース、実行連続性記録、委任されたオペレーションの証拠など、規範的な実行証拠を確立するレイヤー。ガバナンス実行を規範的なリプレイ可能な運用証拠に変換することを目的とします。
+
+## Cooperative capitalism
+- ja: 協調的資本主義
+- related: [Mechanism design, Risk layer, Value layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25109
+- auto_source_url: https://ethresear.ch/t/cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left/25109
+- desc: |
+  協力がメカニズム設計によって強制され、社会的規範や法的構造、ガバナンス投票に依存しない経済システム。リスク層をパーミッションレスに相互化し、価値層で競争することを特徴とする。
+
+## Retroactive security
+- ja: 事後的なセキュリティ
+- related: [Taint propagation]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25109
+- auto_source_url: https://ethresear.ch/t/cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left/25109
+- desc: |
+  攻撃が成功した後で、その攻撃を不採算にするセキュリティアプローチ。悪意のあるアクターが特定された場合、トランザクショングラフを通じて汚染が伝播し、正直なカウンターパーティとの価値の流れから切り離される。
+
+## Mutualized risk pools
+- ja: 相互化されたリスクプール
+- related: [Cooperative capitalism, Risk layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25109
+- auto_source_url: https://ethresear.ch/t/cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left/25109
+- desc: |
+  保険がパーミッションレスであり、資産を保有する誰もが自動的に保険に加入する仕組み。コミュニティが自ら保険をかけ、アンダーライターはリスクに対してプレミアムを獲得し、損失を負担する。
+
+## Layer separation enforcement
+- ja: レイヤー分離の強制
+- related: [Cooperative capitalism, Risk layer, Value layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25109
+- auto_source_url: https://ethresear.ch/t/cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left/25109
+- desc: |
+  競争的な価値層と協力的なリスク層を意図的に分離し、互いに汚染し合わないようにするメカニズム設計の原則。競争層の収益が協力層の安定性を資金供給する。
+
+## Identity-splitting attacks
+- ja: アイデンティティ分割攻撃
+- related: [Shapley value distribution]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 25109
+- auto_source_url: https://ethresear.ch/t/cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left/25109
+- desc: |
+  Shapley分布において、攻撃者が自身のアイデンティティを分割することで報酬を操作しようとする攻撃。この種の攻撃に対する正式な証明が必要とされている。
+
+## Execution Receipt
+- ja: 実行レシート
+- related: [AI Agent, On-chain Anchor, Session Root]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28737
+- auto_source_url: https://ethereum-magicians.org/t/execution-receipts-for-ai-agents-off-chain-evidence-on-chain-roots-and-verifiable-session-proofs/28737
+- desc: |
+  AIエージェントが実行したアクションの検証可能な記録。エージェントの出力や行動の信頼性を確保するため、オフチェーンの証拠から計算された決定論的なハッシュ/ルートをオンチェーンにアンカーする。
+
+## Receipt Layer
+- ja: レシートレイヤー
+- related: [Execution Receipt, AI Agent]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28737
+- auto_source_url: https://ethereum-magicians.org/t/execution-receipts-for-ai-agents-off-chain-evidence-on-chain-roots-and-verifiable-session-proofs/28737
+- desc: |
+  AIエージェントの実行結果を検証可能な記録として提供するためのシステム層。エージェントの行動に対する信頼性と透明性を高めることを目的とする。
+
+## On-chain Anchor
+- ja: オンチェーンアンカー
+- related: [Merkle Tree, Execution Receipt]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28737
+- auto_source_url: https://ethereum-magicians.org/t/execution-receipts-for-ai-agents-off-chain-evidence-on-chain-roots-and-verifiable-session-proofs/28737
+- desc: |
+  オフチェーンで生成されたデータのハッシュまたはルートを、検証のためにブロックチェーン上に記録する仕組み。これにより、オフチェーンデータの完全性と検証可能性が保証される。
+
+## Session Root
+- ja: セッションルート
+- aliases: [Workflow Root]
+- related: [Execution Receipt, Merkle Tree, On-chain Anchor]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28737
+- auto_source_url: https://ethereum-magicians.org/t/execution-receipts-for-ai-agents-off-chain-evidence-on-chain-roots-and-verifiable-session-proofs/28737
+- desc: |
+  AIエージェントの単一セッションまたはワークフロー内で実行された複数のアクションのレシートハッシュをまとめたMerkleツリーのルート。これにより、セッション全体の行動がコンパクトにオンチェーンにコミットされる。
+
+## Consensus Layer
+- ja: コンセンサス層
+- aliases: [CL]
+- related: [Execution Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28681
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-82-june-8-2026/28681
+- desc: |
+  Ethereumの2つの主要な層のうちの1つで、ブロックのファイナリティ、バリデータの管理、およびネットワークのセキュリティを担当します。Proof-of-Stakeコンセンサスアルゴリズムを実行します。
+
+## State Root
+- ja: ステートルート
+- related: [Merkle Patricia Trie, Block Header]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28681
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-82-june-8-2026/28681
+- desc: |
+  特定のブロックにおけるEthereumブロックチェーンの全状態（アカウント残高、コントラクトストレージなど）を暗号学的に表現するハッシュ値です。ブロックヘッダーに含まれ、状態の整合性を検証するために使用されます。
+
+## Simple Serialize
+- ja: シンプルシリアライズ
+- aliases: [SSZ]
+- related: [RLP]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28681
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-82-june-8-2026/28681
+- desc: |
+  Ethereumのコンセンサス層で広く使用されている、効率的で決定論的なシリアライズ（直列化）方式です。主に、ネットワークメッセージや状態オブジェクトなどのデータ構造をバイト列に変換するために用いられます。
+
+## Engine API
+- ja: エンジンAPI
+- related: [Execution Layer, Consensus Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28681
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-82-june-8-2026/28681
+- desc: |
+  EthereumのExecution LayerクライアントとConsensus Layerクライアント間の通信を可能にするインターフェースです。ブロックの構築、トランザクションの実行、状態の同期など、両層間の協調動作に不可欠な役割を果たします。
+
+## RWA Disclosure Interfaces
+- ja: RWA開示インターフェース
+- aliases: [ERC RWA Disclosure Interfaces]
+- related: [IERCRwaDisclosureResolver, IERCRwaAttestation, IERCRwaDocuments]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28679
+- auto_source_url: https://ethereum-magicians.org/t/erc-proposal-rwa-disclosure-interfaces/28679
+- desc: |
+  実世界資産（RWA）に関する情報をオンチェーンで標準的に開示するためのインターフェース群。準備金報告、NAV明細、監査報告、裏付け状況、法的文書などのオフチェーン情報を機械可読な形式で提供する。
+
+## Disclosure Plane
+- ja: 開示プレーン (開示層)
+- aliases: [Disclosure Layer]
+- related: [RWA Disclosure Interfaces, Control Plane, Identity Layer]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28679
+- auto_source_url: https://ethereum-magicians.org/t/erc-proposal-rwa-disclosure-interfaces/28679
+- desc: |
+  実世界資産（RWA）の開示情報を標準化し、オンチェーンプロトコルやウォレットが利用できるようにするための概念的な層。RWAの転送制御や本人確認とは異なる情報開示に特化している。
+
+## Asset Key
+- ja: アセットキー
+- aliases: [assetKey]
+- related: [ERC-20, ERC-721, ERC-1155, ERC-6909]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28679
+- auto_source_url: https://ethereum-magicians.org/t/erc-proposal-rwa-disclosure-interfaces/28679
+- desc: |
+  RWA開示インターフェースにおいて、開示が適用される資産または資産シリーズを一意に識別するためのバイト列。単一資産トークン、マルチアセットトークン、または複数のトークン契約をカバーする開示契約に対応する。
+
+## RwaAttestation
+- ja: RWAアテステーション
+- related: [RWA Disclosure Interfaces, RwaBackingStatus, RwaDocument]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28679
+- auto_source_url: https://ethereum-magicians.org/t/erc-proposal-rwa-disclosure-interfaces/28679
+- desc: |
+  実世界資産（RWA）に関する最新の機械可読な声明（アテステーション）を表現する構造体。誰が、いつ、何について証明したか、有効期限、関連データハッシュ、URIなどのメタデータを含む。
+
+## Disclosure Contract
+- ja: 開示契約
+- related: [RWA Disclosure Interfaces, Token Contract]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28679
+- auto_source_url: https://ethereum-magicians.org/t/erc-proposal-rwa-disclosure-interfaces/28679
+- desc: |
+  RWA開示インターフェースを実装し、実世界資産（RWA）に関する開示情報を提供するスマートコントラクト。トークン契約自体に実装される場合と、別途独立した契約としてデプロイされる場合がある。
+
+## Function-scoped delegation
+- ja: 関数スコープの委任
+- related: [Permission Registry, asset-scoped, action-scoped]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28670
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
+- desc: |
+  スマートコントラクトの特定の関数に対してのみ、実行権限を委任すること。ERC-20の承認が資産全体に及ぶのに対し、この提案では個々の関数レベルでの詳細な権限管理を可能にする。
+
+## Asset-scoped
+- ja: 資産スコープ
+- related: [function-scoped delegation, action-scoped, ERC-20 approvals]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28670
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
+- desc: |
+  承認や権限が特定の資産全体に適用される範囲を指す。例えば、ERC-20の`approve`は、指定されたトークン（資産）の全量に対する移転権限を委任する。
+
+## Action-scoped
+- ja: アクションスコープ
+- related: [function-scoped delegation, asset-scoped]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28670
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
+- desc: |
+  承認や権限が特定の操作やアクション（スマートコントラクトの関数呼び出しなど）に限定される範囲を指す。資産全体ではなく、実行可能な具体的な行動に焦点を当てる。
+
+## Full-target approval
+- ja: フルターゲット承認
+- related: [Permission Registry, selector bundles]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28670
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
+- desc: |
+  提案されているPermission Registryにおいて、オペレーターが特定のターゲットコントラクトの全ての関数に対して承認を得る形式。有効期限のみを指定するコンパクトなデータ形式で表現される。
+
+## Selector bundles
+- ja: セレクターバンドル
+- related: [full-target approval, function-scoped delegation]
+- auto_added: 2026-06-08
+- auto_source_topic_id: 28670
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
+- desc: |
+  提案されているPermission Registryにおいて、特定のオペレーターに委任される、ソートされた複数の関数セレクターの集合。これにより、個々の関数レベルでの詳細な権限管理が可能になる。
