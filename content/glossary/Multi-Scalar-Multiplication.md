@@ -5,7 +5,7 @@ aliases:
   - MSM
 tags:
   - glossary
-date: '2026-06-06'
+date: '2026-06-08'
 ---
 
 **多点スカラー乗算 (MSM)**
