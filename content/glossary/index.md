@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-08'
+date: '2026-06-12'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -11,6 +11,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/1-out-of-N-honesty|1-out-of-N honesty]] — N分の1の正直性
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
 - [[glossary/Action-scoped|Action-scoped]] — アクションスコープ
+- [[glossary/Active-state|Active state]] — アクティブステート
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
@@ -40,10 +41,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
+- [[glossary/Cold-subtree|Cold subtree]] — コールドサブツリー
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
+- [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]] — 協調的資本主義
@@ -99,10 +102,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
+- [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
 - [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
 - [[glossary/Identity-splitting-attacks|Identity-splitting attacks]] — アイデンティティ分割攻撃
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
+- [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
@@ -122,6 +127,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
+- [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
@@ -180,6 +186,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Resolution-Layer|Resolution Layer]] — 解決層
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
+- [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
@@ -201,8 +208,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
+- [[glossary/state-expiry|state expiry]] — ステート有効期限
 - [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
 - [[glossary/State-Root|State Root]] — ステートルート
+- [[glossary/State-Tiering-by-Periods|State Tiering by Periods]] — 期間別ステート階層化
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
@@ -227,6 +236,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
+- [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明

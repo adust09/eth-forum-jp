@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-08
+last_updated: 2026-06-12
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -2129,3 +2129,96 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody/28670
 - desc: |
   提案されているPermission Registryにおいて、特定のオペレーターに委任される、ソートされた複数の関数セレクターの集合。これにより、個々の関数レベルでの詳細な権限管理が可能になる。
+
+## Merkle-Patricia Trie
+- ja: マークルパトリシアトライ (MPT)
+- aliases: [MPT]
+- related: [State Root, Account Trie, Storage Trie]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 25119
+- auto_source_url: https://ethresear.ch/t/hot-cold-storage-separation-in-practice/25119
+- desc: |
+  Ethereumのステート、トランザクション、レシートを効率的かつ安全に保存・検証するために使用されるデータ構造。各ブロックのステートルートはこのトライのルートハッシュによって認証される。
+
+## RLP
+- ja: RLP (Recursive Length Prefix)
+- aliases: [Recursive Length Prefix]
+- related: [Serialization]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 25119
+- auto_source_url: https://ethresear.ch/t/hot-cold-storage-separation-in-practice/25119
+- desc: |
+  Ethereumでデータ構造（オブジェクト、リスト、文字列など）をバイト列にシリアライズするためのエンコーディング方式。シンプルで効率的なデータ表現を可能にする。
+
+## Hot-Cold Storage Separation
+- ja: ホット・コールドストレージ分離
+- aliases: [Hot/Cold Storage Separation]
+- related: [Hot State, Cold State, EIP-8188, Consensus-visible timestamp]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 25119
+- auto_source_url: https://ethresear.ch/t/hot-cold-storage-separation-in-practice/25119
+- desc: |
+  Ethereumノードのストレージを、頻繁にアクセスされる「ホット」な状態と、あまりアクセスされない「コールド」な状態に物理的に分離する手法。これにより、ストレージコストの削減とパフォーマンスの最適化を目指す。
+
+## Consensus-visible timestamp
+- ja: コンセンサス可視タイムスタンプ
+- related: [EIP-8188, Hot-Cold Storage Separation]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 25119
+- auto_source_url: https://ethresear.ch/t/hot-cold-storage-separation-in-practice/25119
+- desc: |
+  EIP-8188によって導入される、各アカウントとストレージスロットが最後に変更された時刻を記録するタイムスタンプ。コンセンサス層で可視であり、ホット・コールドストレージ分離の判断基準として利用される。
+
+## Cold subtree
+- ja: コールドサブツリー
+- related: [Merkle-Patricia Trie, Hot-Cold Storage Separation]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 25119
+- auto_source_url: https://ethresear.ch/t/hot-cold-storage-separation-in-practice/25119
+- desc: |
+  Merkle-Patricia Trieにおいて、その配下のすべてのリーフが長期間書き込みがされていない（非アクティブな）状態であると判断されたサブツリー。ホット・コールドストレージ分離の際に、メインデータベースから切り離され、より安価なストレージに移動される対象となる。
+
+## State Tiering by Periods
+- ja: 期間別ステート階層化
+- related: [EIP-8295, EIP-8188, Active state, Inactive state, state expiry]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 28763
+- auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
+- desc: |
+  EIP-8295で提案された、ステートの最終書き込み時期に基づいてステートを「アクティブ」と「非アクティブ」の階層に分類するメカニズムです。非アクティブなステートへの書き込みには追加のガス料金が課されます。
+
+## write-age signal
+- ja: 書き込み経過時間シグナル
+- related: [EIP-8188, State Tiering by Periods, last_written_block]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 28763
+- auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
+- desc: |
+  EIP-8188によって記録される、ステートが最後に書き込まれてからの経過時間を示す情報です。EIP-8295ではこのシグナルに基づいてステートの階層が決定されます。
+
+## Active state
+- ja: アクティブステート
+- related: [Inactive state, State Tiering by Periods, period]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 28763
+- auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
+- desc: |
+  EIP-8295において、定義された期間内に書き込みが行われたと判断されるステートです。このステートへの書き込みは通常のガス料金で処理されます。
+
+## Inactive state
+- ja: 非アクティブステート
+- related: [Active state, State Tiering by Periods, period, INACTIVE_ACCOUNT_WRITE_SURCHARGE, INACTIVE_STORAGE_WRITE_SURCHARGE]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 28763
+- auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
+- desc: |
+  EIP-8295において、定義された期間内に書き込みが行われなかったと判断されるステートです。このステートへの書き込みには追加のガス料金が課されます。
+
+## state expiry
+- ja: ステート有効期限
+- related: [State Tiering by Periods, state bloat]
+- auto_added: 2026-06-12
+- auto_source_topic_id: 28763
+- auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
+- desc: |
+  Ethereumのステートサイズ増大問題に対処するため、一定期間アクセスされていないステートをプロトコルから削除またはアーカイブするメカニズムです。EIP-8295は、ステート有効期限とは異なり、ステートを削除せず、非アクティブなステートへの書き込みコストを増加させることで圧力をかけます。

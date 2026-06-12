@@ -5,7 +5,7 @@ aliases:
   - Structural OEV containment
 tags:
   - glossary
-date: '2026-06-08'
+date: '2026-06-12'
 ---
 
 **OEV封じ込め (OEV Containment)**
