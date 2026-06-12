@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-06-08'
+date: '2026-06-12'
 ---
 
 **ポスト量子 (PQ)**
