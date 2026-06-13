@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-12
+last_updated: 2026-06-13
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -2222,3 +2222,492 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8295-state-tiering-by-periods/28763
 - desc: |
   Ethereumのステートサイズ増大問題に対処するため、一定期間アクセスされていないステートをプロトコルから削除またはアーカイブするメカニズムです。EIP-8295は、ステート有効期限とは異なり、ステートを削除せず、非アクティブなステートへの書き込みコストを増加させることで圧力をかけます。
+
+## SPHINCS-
+- ja: SPHINCS-（SPHINCSマイナス）
+- aliases: [SPHINCS minus]
+- related: [SPHINCS+, Post-Quantum Signature Verification, Hash-based signatures, EVM]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25165
+- auto_source_url: https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165
+- desc: |
+  EVM向けに最適化されたSPHINCS+の派生形であり、ステートレスな耐量子署名検証を効率的に行うことを目的としている。標準のハッシュ関数をKECCAK256に置き換えることで、プリコンパイルやプロトコル変更なしにオンチェーンでの検証コストを最小化する。
+
+## Hypertree
+- ja: ハイパーツリー
+- related: [SPHINCS+, FORS, XMSS trees, WOTS+]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25165
+- auto_source_url: https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165
+- desc: |
+  SPHINCS+のようなハッシュベース署名スキームで用いられる、複数のツリーを階層的に組み合わせたデータ構造。FORSインスタンスを葉とし、その上にXMSSツリーの層が積み重ねられることで、多数のワンタイム公開鍵を単一のルートに圧縮する。
+
+## FORS
+- ja: FORS（フォレスト・オブ・ランダム・サブセット）
+- aliases: [Forest of Random Subsets]
+- related: [SPHINCS+, Hypertree, WOTS+]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25165
+- auto_source_url: https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165
+- desc: |
+  SPHINCS+における「数回署名」スキームの構成要素。k個の独立したバイナリツリーで構成され、メッセージダイジェストに基づいて各ツリーから1つの葉とその認証パスを公開することで署名を行う。
+
+## leanSPHINCS
+- ja: leanSPHINCS（リーンSPHINCS）
+- related: [SPHINCS-, ZK-friendly hash, zkEVM, Aggregation circuit]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25165
+- auto_source_url: https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165
+- desc: |
+  SPHINCS-の将来的なバリアントで、基盤となるハッシュ関数がZKフレンドリーになるように設計されている。zkEVMの制約に適合し、プロトコルレベルのアグリゲーションと組み合わせることで、検証コストを大幅に削減することを目指す。
+
+## Decaying vote weight
+- ja: 減衰する投票ウェイト
+- related: [stale validators, liveness]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25164
+- auto_source_url: https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164
+- desc: |
+  参加状況を反映させるため、活動していないバリデータの投票ウェイトを時間経過とともに減少させるメカニズム。これにより、バリデータのライブネスを奨励する。
+
+## Absolute quorum floor
+- ja: 絶対クォーラムフロア
+- aliases: [quorum floor, floor]
+- related: [total base weight, effective present weight, Eclipse attack]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25164
+- auto_source_url: https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164
+- desc: |
+  コンセンサスにおけるファイナリティの分母が、現在の有効ウェイトとベースウェイトの固定割合である絶対的な最小値のうち、大きい方を取るように設定されるメカニズム。これにより、エクリプス攻撃による分母の縮小を防ぐ。
+
+## Eclipse attack
+- ja: エクリプス攻撃
+- aliases: [eclipse]
+- related: [censoring heartbeats, finalization bar, Absolute quorum floor]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25164
+- auto_source_url: https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164
+- desc: |
+  攻撃者が正直なノードをネットワークから隔離し、そのノードがネットワークの大部分と通信できないようにする攻撃。これにより、攻撃者は少数派のウェイトでファイナリティを達成できる可能性がある。
+
+## Contribution score
+- ja: 貢献スコア
+- aliases: [earned contribution score]
+- related: [weighted consensus, staked capital, proof of work]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25164
+- auto_source_url: https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164
+- desc: |
+  複数のリソースでバリデータを重み付けするコンセンサスシステムにおいて、バリデータが獲得した貢献度を数値化したスコア。投票ウェイトの構成要素の一つとなる。
+
+## Finalization bar
+- ja: ファイナリティバー
+- aliases: [finalization threshold]
+- related: [two thirds supermajority, total base weight, effective present weight]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25164
+- auto_source_url: https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164
+- desc: |
+  ブロックがファイナライズされるために必要な、支持ウェイトの最小しきい値。通常、総ウェイトの過半数（例：3分の2）として設定される。
+
+## Precondition
+- ja: 前提条件
+- related: [Ordering Discretion, Parameter Discretion, Mandatory Intermediation, Allocation Asymmetry]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25160
+- auto_source_url: https://ethresear.ch/t/closing-the-first-precondition-batch-auctions-remove-the-ordering-surface-they-do-not-relocate-it/25160
+- desc: |
+  抽出可能な価値を生み出す構造的な事実を指します。MEV/GEVの文脈で、価値抽出の根本原因となる要素を意味し、これを閉じることで抽出を根本的に防ぐことを目指します。
+
+## Ordering discretion
+- ja: 順序付け裁量
+- related: [Precondition, Sequencing Privilege, Ordering Extraction, MEV]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25160
+- auto_source_url: https://ethresear.ch/t/closing-the-first-precondition-batch-auctions-remove-the-ordering-surface-they-do-not-relocate-it/25160
+- desc: |
+  保留中の操作が適用される順序を決定する権限を持つ当事者が存在することです。これはMEVの主要な前提条件の一つであり、トランザクションの順序付けや清算の順序付けによる価値抽出の根源となります。
+
+## Parameter discretion
+- ja: パラメータ裁量
+- related: [Precondition, Governance Extraction]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25160
+- auto_source_url: https://ethresear.ch/t/closing-the-first-precondition-batch-auctions-remove-the-ordering-surface-they-do-not-relocate-it/25160
+- desc: |
+  特権的な投票や管理者キーによってプロトコルのパラメータを移動できる当事者が存在することです。これはガバナンス抽出の前提条件となり、プロトコル設定の変更を通じて価値が抽出される可能性を生みます。
+
+## Commit-reveal batch auction
+- ja: コミット・リビール型バッチオークション
+- related: [Batch Auction, Uniform Clearing Price, Ordering Discretion]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25160
+- auto_source_url: https://ethresear.ch/t/closing-the-first-precondition-batch-auctions-remove-the-ordering-surface-they-do-not-relocate-it/25160
+- desc: |
+  固定された時間枠内の操作を収集し、順序付けを行わないオークションメカニズムです。コミットフェーズで注文のハッシュと秘密を提出し、リビールフェーズで開示します。これにより、順序付けの裁量を排除し、MEVを軽減することを目指します。
+
+## Uniform clearing price
+- ja: 均一清算価格
+- related: [Commit-reveal batch auction, Batch Auction]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25160
+- auto_source_url: https://ethresear.ch/t/closing-the-first-precondition-batch-auctions-remove-the-ordering-surface-they-do-not-relocate-it/25160
+- desc: |
+  バッチオークションにおいて、バッチ内のすべての取引が単一の同じ価格で決済されるメカニズムです。これにより、注文の順序による価格差がなくなり、MEVの一種であるスプレッド抽出を防ぎます。
+
+## Verification Primitive
+- ja: 検証プリミティブ
+- related: [Replay Equivalence, Deterministic Reconstruction, Governance Reconstruction]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25149
+- auto_source_url: https://ethresear.ch/t/governance-reconstruction-as-a-verification-primitive/25149
+- desc: |
+  より高次の検証手順を構築するための基礎となる操作。分散型システムにおいて、ガバナンス再構築が観測可能な証拠からガバナンス結論を導き出す再現可能なメカニズムを提供する場合、検証プリミティブとして機能する。
+
+## Replay Equivalence
+- ja: リプレイ同等性
+- related: [Verification Primitive, Deterministic Reconstruction]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25149
+- auto_source_url: https://ethresear.ch/t/governance-reconstruction-as-a-verification-primitive/25149
+- desc: |
+  独立したオブザーバーが同じ公開された証拠と依存関係を保持する再構築プロセスを適用した場合に、同等のガバナンス結論に到達できることを確立する検証の要件。これにより、検証結果の再現性が保証され、オブザーバー依存性が低減される。
+
+## Observability Gap
+- ja: 可視性ギャップ
+- related: [Event Limitations, Authority Visibility Gap, Governance Reconstruction Problem]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25149
+- auto_source_url: https://ethresear.ch/t/governance-reconstruction-as-a-verification-primitive/25149
+- desc: |
+  分散型システムの実行が公開されているにもかかわらず、その広範な行動プロセスや意味を理解するには追加の再構築が必要となる、直接的な可視性と解釈の間の隔たり。オブザーバーが大量の実行データにアクセスできても、意味のある結果を生成するために活動がどのように結合するかを判断できない課題を指す。
+
+## Authority Visibility Gap
+- ja: 権限可視性ギャップ
+- related: [Observability Gap, Governance Reconstruction Problem]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25149
+- auto_source_url: https://ethresear.ch/t/governance-reconstruction-as-a-verification-primitive/25149
+- desc: |
+  分散型システムにおいて、ガバナンス上の結論が権限の行使、委任、制約、または分散の理解に依存する一方で、基盤となる権限関係が個々の実行アーティファクトを通じて直接的に可視化されないという課題。これにより、観測可能な活動からガバナンス結果がどのように生じるかを判断するには再構築が必要となる。
+
+## Governance Reconstruction Problem
+- ja: ガバナンス再構築問題
+- related: [Observability Gap, Authority Visibility Gap, Reconstruction Architecture]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25149
+- auto_source_url: https://ethresear.ch/t/governance-reconstruction-as-a-verification-primitive/25149
+- desc: |
+  公開された分散型システムにおいて、ガバナンス上の結論を、観測可能な証拠へのトレーサビリティを保持し、独立したオブザーバー間で再現可能な結果を生み出す決定論的な再構築プロセスを通じて導き出せるかという課題。この問題は、ガバナンス評価が直接的な観察を超えた要件を持つことから生じる。
+
+## trustless builder-proposer payments
+- ja: トラストレスなビルダー・プロポーザー間支払い
+- related: [ePBS, builder, proposer]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25125
+- auto_source_url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- desc: |
+  ePBSによってプロトコル内に導入される、ビルダーからプロポーザーへの信頼不要な支払いメカニズム。ビルダーのステーク残高から差し引かれ、プロポーザーの引き出しアドレスに支払われることで、支払いの強制力が確保される。
+
+## Payload-Timeliness Committee
+- ja: ペイロード適時性委員会
+- aliases: [PTC]
+- related: [ePBS, payload]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25125
+- auto_source_url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- desc: |
+  ePBSにおいて、ビルダーがネットワークに公開・配信したペイロードが特定の期限内に確認された場合にのみ、それがカノニカルとなることを検証する委員会。ペイロードの適時性を保証する役割を担う。
+
+## pipelining
+- ja: パイプライニング
+- related: [ePBS, EIP-7732]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25125
+- auto_source_url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- desc: |
+  EIP-7732によって導入される主要機能の一つ。ブロック構築プロセスにおける効率化や並列処理を可能にする概念で、ePBSの文脈で議論される。
+
+## first-price block auction
+- ja: ファーストプライス・ブロックオークション
+- related: [sealed-bid auction, second-price auction, MEV-boost]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25125
+- auto_source_url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- desc: |
+  最も高い入札額を提示したビルダーがブロックを構築する権利を得て、その入札額をプロポーザーに支払う形式のオークション。ePBSのプロトコル内チャネルでは、この形式がデフォルトとなる。
+
+## sealed-bid auction
+- ja: 封印入札オークション
+- aliases: [sealed-bid format]
+- related: [first-price block auction, open-bidding auction]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25125
+- auto_source_url: https://ethresear.ch/t/trustless-payments-and-relays/25125
+- desc: |
+  入札者が他の入札者の額を知ることなく、秘密裏に入札額を提出するオークション形式。ePBSのプロトコル内チャネルでは、ビルダーがプロポーザーに直接入札額を送るため、この形式がデフォルトとなる傾向がある。
+
+## MEV opportunity attribution problem
+- ja: MEV機会帰属問題
+- related: [MEV, arbitrage opportunity]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25124
+- auto_source_url: https://ethresear.ch/t/the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale/25124
+- desc: |
+  実行されたMEV（特に裁定取引）がどの先行トランザクションによって可能になったかを特定し、その利益を帰属させる問題。MEVの「創造」側に焦点を当てる。
+
+## atomic arbitrage transaction
+- ja: アトミック裁定取引
+- aliases: [atomic arbitrage]
+- related: [MEV, arbitrage]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25124
+- auto_source_url: https://ethresear.ch/t/the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale/25124
+- desc: |
+  複数の取引（スワップなど）を単一のトランザクション内で実行し、価格の不均衡を利用して利益を得る裁定取引。ブロックチェーンの原子性により、全取引が成功するか、全て失敗するかのいずれかとなる。
+
+## single-source hypothesis
+- ja: 単一ソース仮説
+- related: [MEV opportunity attribution problem]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25124
+- auto_source_url: https://ethresear.ch/t/the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale/25124
+- desc: |
+  競争の激しいMEV市場において、裁定取引機会の大部分（96.7%）が単一の先行トランザクションに起因するという仮説。機会発生時に即座に価値が抽出されることを示唆する。
+
+## counterfactual replay
+- ja: 反実仮想リプレイ
+- related: [simulation-based attribution, EVM determinism]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25124
+- auto_source_url: https://ethresear.ch/t/the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale/25124
+- desc: |
+  EVMの決定論を利用し、特定のトランザクションが実行されなかった場合のブロックの状態を再現することで、そのトランザクションの因果的影響を正確に測定する手法。MEV帰属のシミュレーションベースの手法で用いられる。
+
+## concentrated liquidity mechanisms
+- ja: 集中流動性メカニズム
+- aliases: [concentrated liquidity AMMs]
+- related: [AMM, Uniswap V3]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 25124
+- auto_source_url: https://ethresear.ch/t/the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale/25124
+- desc: |
+  Uniswap V3などで採用されている、特定の価格帯に流動性を集中させるAMMの仕組み。資本効率が高い一方で、価格の不均衡が生じやすく、裁定取引機会を頻繁に生み出す要因となる。
+
+## SETCODEFROM
+- ja: SETCODEFROM (EVM命令)
+- related: [EVM instruction, EIP-8298, Contract bytecode reuse, EOA migration]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28779
+- auto_source_url: https://ethereum-magicians.org/t/eip-8298-setcodefrom-code-reuse-instruction/28779
+- desc: |
+  現在のアカウントが既存のデプロイ済みコントラクトのコードハッシュを採用できるようにするEVM命令です。これにより、コードの再利用が可能になり、デプロイコストの削減やEOAの移行に利用されます。
+
+## Contract bytecode reuse
+- ja: コントラクトバイトコードの再利用
+- related: [SETCODEFROM, deployment economics, code-deposit gas]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28779
+- auto_source_url: https://ethereum-magicians.org/t/eip-8298-setcodefrom-code-reuse-instruction/28779
+- desc: |
+  既にデプロイされているコントラクトのバイトコードを別のアカウントが再利用する概念です。これにより、重複するコードのデプロイコストを削減し、ブロックチェーンの状態成長を抑制する効果が期待されます。
+
+## state growth
+- ja: 状態成長
+- related: [state expiry, state preservation, deployment economics]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28779
+- auto_source_url: https://ethereum-magicians.org/t/eip-8298-setcodefrom-code-reuse-instruction/28779
+- desc: |
+  ブロックチェーンのストレージに保存されるデータの総量が増加していく現象です。コントラクトのデプロイやトランザクションの実行によって状態が更新・追加されることで発生し、ノードの運用コストやスケーラビリティに影響を与えます。
+
+## code-deposit gas
+- ja: コードデポジットガス
+- related: [deployment economics, Contract bytecode reuse, gas]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28779
+- auto_source_url: https://ethereum-magicians.org/t/eip-8298-setcodefrom-code-reuse-instruction/28779
+- desc: |
+  コントラクトのバイトコードをブロックチェーンにデプロイする際に発生するガス料金です。このコストは、デプロイされるコードのサイズに比例し、ブロックチェーンの状態成長に影響を与えます。
+
+## consensus state
+- ja: コンセンサス状態
+- related: [consensus layer, state root]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28779
+- auto_source_url: https://ethereum-magicians.org/t/eip-8298-setcodefrom-code-reuse-instruction/28779
+- desc: |
+  ブロックチェーンネットワークの参加者間で合意された、特定の時点におけるブロックチェーンの全体の状態です。これには、アカウント残高、コントラクトコード、ストレージなどが含まれ、トランザクションの検証とブロックの構築の基礎となります。
+
+## Aggregator
+- ja: アグリゲーター
+- aliases: [PQ Attestation Aggregator]
+- related: [PQ Ethereum, BLS signatures, hash-based signatures, succinct proofs, validator attestations, block production]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28778
+- auto_source_url: https://ethereum-magicians.org/t/eip-8292-pq-attestation-aggregators/28778
+- desc: |
+  Post-Quantum Ethereumにおいて、BLS署名がより大きな耐量子ハッシュベース署名に置き換えられる際に、検証コストの高い多数のバリデータアッテステーションを簡潔な証明で検証し、ブロック生成からこの高負荷な作業を分離する役割を担う高スペックノード。
+
+## PQ Ethereum
+- ja: 耐量子イーサリアム (PQ Ethereum)
+- aliases: [Post-Quantum Ethereum]
+- related: [Post-Quantum, BLS signatures, hash-based signatures]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28778
+- auto_source_url: https://ethereum-magicians.org/t/eip-8292-pq-attestation-aggregators/28778
+- desc: |
+  BLS署名が耐量子ハッシュベース署名に置き換えられた、将来のイーサリアムプロトコルを指す。これにより、量子コンピュータによる攻撃からネットワークのセキュリティを保護することを目指す。
+
+## L* hard fork
+- ja: L* ハードフォーク
+- related: [hard fork, PQ Ethereum, Aggregator]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28778
+- auto_source_url: https://ethereum-magicians.org/t/eip-8292-pq-attestation-aggregators/28778
+- desc: |
+  PQ Attestation Aggregatorsの導入を含む、将来のイーサリアムのハードフォークの仮称。このハードフォークで、耐量子ハッシュベース署名への移行と、アグリゲーターの役割が導入される予定。
+
+## succinct proofs
+- ja: 簡潔な証明
+- related: [zero-knowledge proof, ZKP, attestation aggregation]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28778
+- auto_source_url: https://ethereum-magicians.org/t/eip-8292-pq-attestation-aggregators/28778
+- desc: |
+  検証にかかる計算量が証明の複雑さや入力データ量に比べて非常に小さい暗号学的証明。Ethereumでは、特にロールアップやアッテステーションの集約など、スケーラビリティと効率性の向上に利用される。
+
+## Partitioned Binary Tree
+- ja: パーティション化されたバイナリツリー
+- related: [hexary Patricia tries, binary state tree, zone identifier]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28776
+- auto_source_url: https://ethereum-magicians.org/t/eip-8297-partitioned-binary-tree/28776
+- desc: |
+  EIP-8297で提案されている、既存のヘキサリパトリシアトライに代わる新しいステートツリー構造。アカウントとストレージのトライを単一のツリーに統合し、キーの上位ビットでゾーンに分割することで、状態のカテゴリ（アカウントヘッダー、コントラクトコード、ストレージ）を識別する。
+
+## hexary Patricia tries
+- ja: ヘキサリパトリシアトライ
+- related: [Partitioned Binary Tree, Merkle Patricia Trie]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28776
+- auto_source_url: https://ethereum-magicians.org/t/eip-8297-partitioned-binary-tree/28776
+- desc: |
+  Ethereumの現在のステートツリー構造で用いられているデータ構造。16進数（hexary）のキーに基づいてノードが分岐するパトリシアトライの一種で、EIP-8297で提案されるPartitioned Binary Treeに置き換えられることが意図されている。
+
+## binary state tree
+- ja: バイナリステートツリー
+- related: [Partitioned Binary Tree, hexary Patricia tries]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28776
+- auto_source_url: https://ethereum-magicians.org/t/eip-8297-partitioned-binary-tree/28776
+- desc: |
+  Ethereumの状態を表現するために使用される、キーがバイナリ（2進数）で分岐するツリー構造。EIP-8297で提案されるPartitioned Binary Treeは、このバイナリステートツリーの一種である。
+
+## zone identifier
+- ja: ゾーン識別子
+- related: [Partitioned Binary Tree]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28776
+- auto_source_url: https://ethereum-magicians.org/t/eip-8297-partitioned-binary-tree/28776
+- desc: |
+  Partitioned Binary Treeにおいて、キーの上位ビットによって状態のカテゴリ（アカウントヘッダー、コントラクトコード、ストレージなど）を識別するために使用される値。これにより、ツリー内のデータの局所性が向上する。
+
+## account headers
+- ja: アカウントヘッダー
+- related: [Partitioned Binary Tree, contract code, storage]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28776
+- auto_source_url: https://ethereum-magicians.org/t/eip-8297-partitioned-binary-tree/28776
+- desc: |
+  Partitioned Binary Treeにおいて、アカウントに関する主要な情報（例: ノンス、残高、ストレージルート、コードハッシュなど）を保持するデータ構造。ツリー内の特定のゾーンに格納される状態カテゴリの一つ。
+
+## Ethereum JSON-RPC Specification
+- ja: Ethereum JSON-RPC仕様
+- related: [JSON-RPC, Execution APIs]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28775
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-28-june-15-2026-15-00-utc/28775
+- desc: |
+  Ethereumクライアントが外部アプリケーションと通信するための標準的なインターフェースを定義する仕様。ブロックチェーンの状態照会やトランザクション送信などに用いられる。
+
+## Execution APIs
+- ja: 実行API (Execution APIs)
+- related: [Ethereum JSON-RPC Specification, Execution Layer]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28775
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-28-june-15-2026-15-00-utc/28775
+- desc: |
+  Ethereumの実行層（Execution Layer）とやり取りするためのAPI群。主にJSON-RPCプロトコルに基づいており、クライアントがブロックの構築、トランザクションの処理、状態の取得などを行うために使用される。
+
+## eth_baseFee
+- ja: eth_baseFee
+- related: [Base Fee, EIP-1559]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28775
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-28-june-15-2026-15-00-utc/28775
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、EIP-1559で導入された現在のベースフィー（基本手数料）を取得するために使用される。トランザクションのガス価格計算に不可欠な情報を提供する。
+
+## depositContractAddress
+- ja: デポジットコントラクトアドレス (Deposit Contract Address)
+- related: [Deposit Contract, Staking]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28775
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-28-june-15-2026-15-00-utc/28775
+- desc: |
+  Ethereum 2.0（コンセンサス層）へのETHのステーキングに使用される、特定のスマートコントラクトのアドレス。バリデーターがETHをロックし、ステーキングプロセスを開始するためにこのコントラクトとやり取りする。
+
+## txpool namespace
+- ja: txpoolネームスペース (txpool namespace)
+- related: [Transaction Pool, Mempool, JSON-RPC]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28775
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-28-june-15-2026-15-00-utc/28775
+- desc: |
+  Ethereum JSON-RPC仕様における、トランザクションプール（mempool）に関連するメソッド群をまとめたネームスペース。保留中のトランザクションの情報を照会したり、トランザクションのステータスを監視したりするために使用される。
+
+## Fixed-Cutoff State Tiering
+- ja: 固定カットオフ型ステート階層化
+- related: [State Expiry, CUTOFF_BLOCK, Inactive state]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28772
+- auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
+- desc: |
+  長期間変更されていないステートへの書き込みに課金することで、ステートをアクティブと非アクティブに分類し、管理する提案。非アクティブなステートはトライに残り、削除や復活のメカニズムは不要となる。
+
+## CUTOFF_BLOCK
+- ja: カットオフブロック
+- related: [Fixed-Cutoff State Tiering, last_written_block]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28772
+- auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
+- desc: |
+  固定カットオフ型ステート階層化において、ステートのアクティブ/非アクティブ状態を区別するための基準となるブロック番号。このブロック以前に最後に書き込まれたステートは非アクティブとみなされる。
+
+## last_written_block
+- ja: 最終書き込みブロック
+- related: [CUTOFF_BLOCK, EIP-8188]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28772
+- auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
+- desc: |
+  EIP-8188で定義される、アカウントまたはストレージスロットが最後に書き込まれたブロック番号を示す属性。ステートの活動状態を判断するために使用される。
+
+## eviction mechanism
+- ja: 削除メカニズム
+- related: [State Expiry, resurrection mechanism]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28772
+- auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
+- desc: |
+  ブロックチェーンのステート管理において、長期間アクセスされていない、または非アクティブとみなされるステートを削除またはアーカイブするための仕組み。ステートの肥大化を防ぐ目的で検討される。
+
+## resurrection mechanism
+- ja: 復活メカニズム
+- related: [State Expiry, eviction mechanism]
+- auto_added: 2026-06-13
+- auto_source_topic_id: 28772
+- auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
+- desc: |
+  ブロックチェーンのステート管理において、削除またはアーカイブされた非アクティブなステートを、必要に応じて再びアクティブなステートとして利用可能にするための仕組み。
