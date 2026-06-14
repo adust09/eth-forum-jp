@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-13
+last_updated: 2026-06-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -2711,3 +2711,313 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8296-fixed-cutoff-state-tiering/28772
 - desc: |
   ブロックチェーンのステート管理において、削除またはアーカイブされた非アクティブなステートを、必要に応じて再びアクティブなステートとして利用可能にするための仕組み。
+
+## Stealth Name Resolution
+- ja: ステルス名解決
+- related: [stealth meta-address, ERC-5564, ERC-6538, ENSIP-10]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28787
+- auto_source_url: https://ethereum-magicians.org/t/draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains/28787
+- desc: |
+  ステルスメタアドレスを人間が読める名前に解決するためのレイヤーを定義する提案。特に非EVM環境でのクロスチェーン名前解決を目的とし、既存のENSIP-10ワイルドカードリゾルバーと連携する。
+
+## stealth meta-address
+- ja: ステルスメタアドレス
+- related: [Stealth address, ERC-5564, ERC-6538]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28787
+- auto_source_url: https://ethereum-magicians.org/t/draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains/28787
+- desc: |
+  複数のチェーンやトランザクションで再利用可能な、単一の公開鍵から派生するステルスアドレス。プライバシーを維持しつつ、ユーザーが簡単に識別できる単一の識別子を提供する。
+
+## ERC-6538
+- ja: ERC-6538
+- related: [stealth meta-address, ERC-5564]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28787
+- auto_source_url: https://ethereum-magicians.org/t/draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains/28787
+- desc: |
+  ステルスメタアドレスを登録し、その公開鍵をオンチェーンで管理するためのEthereum標準。これにより、ユーザーは単一の識別子で複数のステルスアドレスを生成・管理できる。
+
+## ERC-5564
+- ja: ERC-5564
+- related: [stealth meta-address, ERC-6538]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28787
+- auto_source_url: https://ethereum-magicians.org/t/draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains/28787
+- desc: |
+  ステルスメタアドレスへの支払いを可能にするためのEthereum標準。これにより、受信者のプライバシーを保護しつつ、ユーザーが簡単に資金を送金できる。
+
+## mirror payload
+- ja: ミラーペイロード
+- related: [canonical-chain-wins model, cross-chain name resolution]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28787
+- auto_source_url: https://ethereum-magicians.org/t/draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains/28787
+- desc: |
+  非EVMチェーンがEthereum RPCエンドポイントを照会することなく、読み取り専用の名前レコードを維持できるように設計された、トランスポートに依存しないデータ形式。ブリッジを介して送信され、クロスチェーンの名前解決を可能にする。
+
+## Agentic Commerce
+- ja: エージェント型商取引 (Agentic Commerce)
+- related: [AI Agent]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28785
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-agent-execution/28785
+- desc: |
+  AIエージェントが自律的に参加し、商品やサービスの交換、契約の締結、支払いなどを実行する商取引の形態。ERC-8183などの標準によって実現される。
+
+## AgentTask
+- ja: エージェントタスク
+- related: [IAgentCaller, IAgentHandler]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28785
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-agent-execution/28785
+- desc: |
+  スマートコントラクトがAIエージェントに実行を依頼するタスクの定義を構造化したもの。タスクID、プロンプトハッシュ、モデルID、ハンドラー、検証者、期限などのフィールドを含む。
+
+## IAgentCaller
+- ja: IAgentCaller (インターフェース)
+- related: [AgentTask, IAgentHandler]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28785
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-agent-execution/28785
+- desc: |
+  スマートコントラクトがAIエージェントを呼び出し、タスクをディスパッチするための標準インターフェース。`callAgent`関数を通じてタスクの実行をトリガーする。
+
+## IAgentHandler
+- ja: IAgentHandler (インターフェース)
+- related: [AgentTask, IAgentCaller, Optimistic Handler]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28785
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-agent-execution/28785
+- desc: |
+  AIエージェントがタスクの結果を返信し、関連する証明を提出するための標準インターフェース。`onAgentReply`と`onAgentProve`の2つの主要なコールバック関数を定義する。
+
+## Optimistic Handler
+- ja: オプティミスティックハンドラー
+- related: [IAgentHandler]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28785
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-agent-execution/28785
+- desc: |
+  AIエージェントからの返信（結果）を即座に処理し、その後に証明の提出を非同期的に待つ設計パターンを採用したハンドラー。これにより、応答の迅速性と最終的な検証を両立させる。
+
+## IERC8060Reservable
+- ja: IERC8060Reservable
+- related: [ERC-8060, Reservation accounting]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28780
+- auto_source_url: https://ethereum-magicians.org/t/discussion-ierc8060reservable-a-minimal-reservation-accounting-extension-for-erc-8060/28780
+- desc: |
+  ERC-8060に値を持つNFTのための、予約会計を可能にする最小限のオプション拡張インターフェース。NFTの所有権を移転したり資金を移動させたりすることなく、その埋め込まれた価値の一部を一時的にロックするワークフローをサポートします。
+
+## Reservation accounting
+- ja: 予約会計
+- related: [IERC8060Reservable, Locked value, Available value]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28780
+- auto_source_url: https://ethereum-magicians.org/t/discussion-ierc8060reservable-a-minimal-reservation-accounting-extension-for-erc-8060/28780
+- desc: |
+  NFTなどのオンチェーン資産の埋め込まれた価値の一部を、所有権の移転なしに一時的にロックする仕組みに関する会計処理。決済ロジックとは独立して、予約された価値が引き出されたり二重使用されたりするのを防ぐことを目的とします。
+
+## Token-bound reservations
+- ja: トークンに紐づく予約
+- related: [IERC8060Reservable, Token bound account]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28780
+- auto_source_url: https://ethereum-magicians.org/t/discussion-ierc8060reservable-a-minimal-reservation-accounting-extension-for-erc-8060/28780
+- desc: |
+  NFTなどのトークンIDに直接紐付けられた価値の予約。トークンが転送されると、その予約もトークンと共に移動する特性を持ちます。これにより、トークンが持つ価値の一部を一時的にロックし、特定の目的のために確保することが可能になります。
+
+## Locked value
+- ja: ロックされた価値
+- related: [Available value, Reservation accounting, IERC8060Reservable]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28780
+- auto_source_url: https://ethereum-magicians.org/t/discussion-ierc8060reservable-a-minimal-reservation-accounting-extension-for-erc-8060/28780
+- desc: |
+  NFTなどのオンチェーン資産において、特定の目的のために一時的に予約され、引き出しや使用が制限されている価値の量。IERC8060Reservableでは、この値はトークンIDに紐付けられ、トークンと共に移動します。
+
+## Available value
+- ja: 利用可能な価値
+- related: [Locked value, Reservation accounting, IERC8060Reservable]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28780
+- auto_source_url: https://ethereum-magicians.org/t/discussion-ierc8060reservable-a-minimal-reservation-accounting-extension-for-erc-8060/28780
+- desc: |
+  NFTなどのオンチェーン資産において、現在予約されておらず、自由に引き出しや使用が可能な価値の量。総価値からロックされた価値を差し引いたものとして計算されます。
+
+## Payer Services
+- ja: ペイヤーサービス
+- related: [ERC-8168, ERC-8130]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28762
+- auto_source_url: https://ethereum-magicians.org/t/erc-8168-payer-services-for-erc-8130/28762
+- desc: |
+  ERC-8168によって定義されるサービスで、ERC-8130チェーン上で利用されます。トランザクションのガス代などを第三者が支払う機能を提供し、ユーザーエクスペリエンスの向上を目指します。
+
+## All Core Devs - Testing
+- ja: 全コア開発者会議 - テスト (ACDT)
+- aliases: [ACDT]
+- related: [All Core Devs, devnet]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28759
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-83-june-15-2026/28759
+- desc: |
+  Ethereumプロトコルのコア開発者が、プロトコルの変更やアップグレードのテスト状況について議論する定期的な会議です。主に開発ネット（devnet）でのテスト結果や課題が共有されます。
+
+## forkcast
+- ja: フォークキャスト
+- related: [All Core Devs, ACDT]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28759
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-83-june-15-2026/28759
+- desc: |
+  Ethereumのコア開発者会議（All Core Devs Calls）の議事録や要約を提供するウェブプラットフォームです。会議の内容を追跡し、コミュニティに情報共有する役割を果たすために利用されます。
+
+## Security Semantics
+- ja: セキュリティセマンティクス
+- related: [Role Tier Derivation Rules, Grantor Authorization Pattern, Category-Action Registry]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28757
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-semantics-standard/28757
+- desc: |
+  スマートコントラクトのロール名から、そのロールが持つセキュリティ上の意味や影響を導出する概念。権限の階層、認証関係、職務分掌制約などを明確にするために用いられる。
+
+## Role Tier Derivation Rules
+- ja: ロールティア導出ルール
+- related: [Authorization tier, Security Semantics]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28757
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-semantics-standard/28757
+- desc: |
+  スマートコントラクトのロール名から、そのロールの権限階層（ティア）を決定論的に導出するための規則。これにより、ロールのリスクレベルを自動的に評価し、セキュリティ監査の優先順位付けを可能にする。
+
+## Grantor Authorization Pattern
+- ja: グラントール認証パターン
+- related: [Security Semantics, Grant role]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28757
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-semantics-standard/28757
+- desc: |
+  ロール名に認証関係を直接エンコードすることで、どのロールが他のロールの権限付与を管理するかを明確にするパターン。これにより、認証ツリーの可読性が向上し、監査が容易になる。
+
+## Category-Action Registry
+- ja: カテゴリ-アクションレジストリ
+- related: [Security Semantics, action lexical classification]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28757
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-semantics-standard/28757
+- desc: |
+  スマートコントラクトのロールにおけるカテゴリとアクションの組み合わせが、既知の安全なパターンに属するかどうかを定義・検証するためのレジストリ。これにより、異常なロールの組み合わせを自動的に識別できる。
+
+## action lexical classification
+- ja: アクション語彙分類
+- related: [atomic role, scope role, grant role, Security Semantics]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28757
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-semantics-standard/28757
+- desc: |
+  スマートコントラクトのロール名におけるアクション部分を、その意味論的な役割（例：atomic, scope, grant）に基づいて分類すること。これにより、異なるリスクレベルや権限付与の性質を持つアクションを区別できる。
+
+## Contract Role Naming Pattern
+- ja: コントラクトロール命名パターン
+- aliases: [role.{category}.{action}]
+- related: [Core Role Set, Role Hash Derivation]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28756
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-naming-standard/28756
+- desc: |
+  スマートコントラクトにおける特権ロールの命名規則を標準化するための階層型パターン。`role.{カテゴリ}.{アクション}`の形式で、ロールの機能ドメインと操作を明確に示し、一貫した命名とハッシュによる発見可能性を可能にする。
+
+## Core Role Set
+- ja: コアロールセット
+- aliases: [Universal Roles, Functionality-Conditional Roles]
+- related: [Contract Role Naming Pattern, Role Confusion Attack, Semantic Drift Attack]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28756
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-naming-standard/28756
+- desc: |
+  ERC-XXXXで定義される、プロトコル間で頻繁に登場し、誤用が資金損失やガバナンス侵害に直結しうる特権ロールの固定された集合。普遍的なロールと機能条件付きロールに分類される。
+
+## Role Confusion Attack
+- ja: ロール混同攻撃
+- related: [Semantic Drift Attack, Core Role Set]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28756
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-naming-standard/28756
+- desc: |
+  スマートコントラクトにおいて、プロトコル間で同名のロールが異なる権限を持つことによって発生するセキュリティ上の脆弱性。監査ツールがロールの権限を名前だけで区別できないため、誤ったセキュリティ評価につながる可能性がある。
+
+## Semantic Drift Attack
+- ja: 意味ドリフト攻撃
+- related: [Role Confusion Attack, Core Role Set]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28756
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-naming-standard/28756
+- desc: |
+  スマートコントラクトにおいて、ロール名がその実際の操作と異なる意味を持つことで、監査者の仮定を悪用し、誤ったセキュリティ認識を生じさせる攻撃。例えば、「BURNER」ロールが実際にはミント操作を行う場合など。
+
+## Adoption Levels
+- ja: 導入レベル
+- aliases: [Progressive Adoption]
+- related: [On-chain Query Interface, Contract Role Semantics Standard]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28756
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-role-naming-standard/28756
+- desc: |
+  ERC-XXXXで定義される、スマートコントラクトがロール命名標準を段階的に導入するための構造化されたアプローチ。レベル1（命名規則のみ）、レベル2（オンチェーンクエリインターフェース）、レベル3（オンチェーンセマンティック導出インターフェース）がある。
+
+## Invariant-First Reserve Receipt Token
+- ja: インバリアントファースト準備金受領トークン
+- aliases: [IFR, IFR-pETH]
+- related: [ERC-20, reserve-backed token, solvency as a transaction-validity condition]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28753
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-invariant-first-reserve-receipt-token-ifr-peth/28753
+- desc: |
+  準備金に裏付けられたトークンのためのERC-20互換の標準であり、ソルベンシー（支払能力）を外部の準備金証明レポートではなく、トランザクションの有効性条件として強制します。これにより、すべての状態遷移で特定の会計不変条件が維持されることを保証し、オンチェーンでの支払能力の検証を可能にします。
+
+## solvency as a transaction-validity condition
+- ja: トランザクション有効性条件としてのソルベンシー
+- related: [Invariant-First Reserve Receipt Token, accounting invariant, proof-of-reserves]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28753
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-invariant-first-reserve-receipt-token-ifr-peth/28753
+- desc: |
+  トークンの支払能力（ソルベンシー）を、外部レポートではなく、ブロックチェーン上のトランザクションが有効であるための必須条件として強制するメカニズムです。これにより、各状態遷移後にソルベンシーが維持されることがオンチェーンで保証され、サイレントな不履行の蓄積を防ぎます。
+
+## accounting invariant
+- ja: 会計不変条件
+- related: [Invariant-First Reserve Receipt Token, solvency as a transaction-validity condition, state tuple]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28753
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-invariant-first-reserve-receipt-token-ifr-peth/28753
+- desc: |
+  システムの整合性を維持するために、すべての状態遷移後に必ず満たされなければならない数学的な条件です。IFR標準では、T + F == R および address(this).balance >= R の2つの条件がこれに該当し、準備金トークンの支払能力を保証します。
+
+## state tuple
+- ja: 状態タプル
+- related: [Invariant-First Reserve Receipt Token, accounting invariant]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28753
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-invariant-first-reserve-receipt-token-ifr-peth/28753
+- desc: |
+  特定のシステムの状態を定義するために使用される、関連する変数の集合です。IFR標準では、準備金(R)、未償還トークン供給量(T)、プロトコル手数料(F)の3つの変数で構成され、これらの変数が会計不変条件の基礎となります。
+
+## reserve-backed token
+- ja: 準備金裏付けトークン
+- related: [Invariant-First Reserve Receipt Token, ETH wrapper]
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28753
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-invariant-first-reserve-receipt-token-ifr-peth/28753
+- desc: |
+  実際の資産（準備金）によって価値が裏付けられているトークンです。その価値は、裏付けとなる準備金の量と質に依存し、DeFiプロトコルにおいて担保やステーブルコインとして利用されます。
+
+## Hegotá
+- ja: ヘゴタ (Hegotá)
+- auto_added: 2026-06-14
+- auto_source_topic_id: 28751
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-execution-acde-239-june-18-2026/28751
+- desc: |
+  Ethereumの次期アップグレードのコードネームの一つ。プロトコルの改善や新機能の導入を目的とした開発フェーズを指します。
