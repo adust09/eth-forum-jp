@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-14'
+date: '2026-06-15'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -16,6 +16,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/action-lexical-classification|action lexical classification]] — アクション語彙分類
 - [[glossary/Action-scoped|Action-scoped]] — アクションスコープ
 - [[glossary/Active-state|Active state]] — アクティブステート
+- [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Adoption-Levels|Adoption Levels]] — 導入レベル
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
@@ -38,8 +39,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
+- [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Available-value|Available value]] — 利用可能な価値
 - [[glossary/Base-Block|Base Block]] — ベースブロック
+- [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
@@ -47,6 +50,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
+- [[glossary/BLS-keys|BLS keys]] — BLS鍵
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
@@ -70,6 +74,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Contract-Role-Naming-Pattern|Contract Role Naming Pattern]] — コントラクトロール命名パターン
 - [[glossary/Contribution-score|Contribution score]] — 貢献スコア
+- [[glossary/Controller-Pattern|Controller Pattern]] — コントローラーパターン
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]] — 協調的資本主義
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/Core-Role-Set|Core Role Set]] — コアロールセット
@@ -81,6 +86,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
+- [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
@@ -91,6 +97,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
+- [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
 - [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
 - [[glossary/EIP|EIP]] — EIP（Ethereum 改善提案）
 - [[glossary/EIP-Editing-Office-Hours|EIP Editing Office Hours]] — EIP編集オフィスアワー
@@ -100,6 +107,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
 - [[glossary/EIPIP|EIPIP]] — EIPIP
+- [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
@@ -151,14 +159,17 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
 - [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
 - [[glossary/Identity-splitting-attacks|Identity-splitting attacks]] — アイデンティティ分割攻撃
+- [[glossary/IEmergencyState|IEmergencyState]] — IEmergencyState（緊急状態インターフェース）
 - [[glossary/IERC8060Reservable|IERC8060Reservable]] — IERC8060Reservable
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
+- [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/KoalaBear-prime-field|KoalaBear prime field]] — KoalaBear素体
@@ -190,6 +201,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
+- [[glossary/Multisig|Multisig]] — マルチシグ（マルチシグネチャ）
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
@@ -197,12 +209,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/nullifier|nullifier]] — ナリファイア
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
+- [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/Operator|Operator]] — オペレーター
+- [[glossary/opHash|opHash]] — opHash (操作ハッシュ)
 - [[glossary/Optimistic-Handler|Optimistic Handler]] — オプティミスティックハンドラー
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
@@ -239,6 +253,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
+- [[glossary/RANDAO|RANDAO]] — RANDAO
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
@@ -256,6 +271,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]] — ロール混同攻撃
 - [[glossary/Role-Tier-Derivation-Rules|Role Tier Derivation Rules]] — ロールティア導出ルール
+- [[glossary/Role-Based-Timelock-Operation|Role-Based Timelock Operation]] — ロールベース・タイムロック操作
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
@@ -279,6 +295,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
+- [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
@@ -289,6 +306,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
 - [[glossary/State-Root|State Root]] — ステートルート
 - [[glossary/State-Tiering-by-Periods|State Tiering by Periods]] — 期間別ステート階層化
+- [[glossary/State-transition-function|State transition function]] — 状態遷移関数
 - [[glossary/state-tuple|state tuple]] — 状態タプル
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
@@ -296,6 +314,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
+- [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
@@ -318,8 +337,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verification-Primitive|Verification Primitive]] — 検証プリミティブ
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
+- [[glossary/VRF|VRF]] — 検証可能乱数関数 (VRF)
 - [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
+- [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル

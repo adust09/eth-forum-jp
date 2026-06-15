@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3021,3 +3021,196 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/all-core-devs-execution-acde-239-june-18-2026/28751
 - desc: |
   Ethereumの次期アップグレードのコードネームの一つ。プロトコルの改善や新機能の導入を目的とした開発フェーズを指します。
+
+## Multisig
+- ja: マルチシグ（マルチシグネチャ）
+- aliases: [Multi-signature]
+- related: [Smart contract wallet, Account abstraction, MPC]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28749
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-transaction-signature-10/28749
+- desc: |
+  複数の署名者がトランザクションを承認する必要がある仕組み。通常、スマートコントラクトによって実装され、資金のセキュリティを高めるために使用される。特に、共同管理やセキュリティ強化の目的で利用される。
+
+## Smart Contract Emergency States
+- ja: スマートコントラクト緊急状態
+- related: [IEmergencyState, EmergencyStateChanged]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28748
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-smart-contract-emergency-states/28748
+- desc: |
+  スマートコントラクトが異常な状態にあることを示すための標準化された状態。このERCは、プロトコル間で相互運用可能な検出を可能にするための、これらの状態を観測するための標準インターフェースを定義します。
+
+## IEmergencyState
+- ja: IEmergencyState（緊急状態インターフェース）
+- related: [Smart Contract Emergency States, EmergencyStateChanged]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28748
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-smart-contract-emergency-states/28748
+- desc: |
+  スマートコントラクトの緊急状態を観測するための標準インターフェース。現在の緊急状態と、その状態が最後に更新されたタイムスタンプを提供します。
+
+## EmergencyStateChanged
+- ja: EmergencyStateChanged（緊急状態変更イベント）
+- related: [IEmergencyState, Smart Contract Emergency States]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28748
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-smart-contract-emergency-states/28748
+- desc: |
+  スマートコントラクトの緊急状態が新しい値に設定されたときに発行されるイベント。状態変更をトリガーしたアドレス、変更前の状態、変更後の状態が含まれます。
+
+## State transition function
+- ja: 状態遷移関数
+- related: [Smart Contract Emergency States]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28748
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-smart-contract-emergency-states/28748
+- desc: |
+  スマートコントラクトの状態を変更する機能を指します。このERCでは、緊急状態の観測のみを標準化し、状態遷移関数とその承認パターンはプロトコル固有の実装に委ねられています。
+
+## Observation layer
+- ja: 観測レイヤー
+- related: [IEmergencyState, State transition function]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28748
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-smart-contract-emergency-states/28748
+- desc: |
+  システムにおいて、状態の読み取りや監視に特化した部分。このERCは、スマートコントラクトの緊急状態を「観測」するためのインターフェースを定義しており、状態を「変更」するアクションレイヤーとは区別されます。
+
+## VRF
+- ja: 検証可能乱数関数 (VRF)
+- aliases: [Verifiable Random Function]
+- related: [RANDAO, Post-Quantum VRF]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28743
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-vrf-for-ethereum-ethresear-ch-cross-post/28743
+- desc: |
+  暗号学的な乱数生成関数で、その出力が特定の入力と秘密鍵から正しく生成されたことを公開鍵で検証できる。ブロックチェーンのコンセンサスプロトコルでランダム性を確保するために利用される。
+
+## RANDAO
+- ja: RANDAO
+- related: [randao_reveal, VRF]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28743
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-vrf-for-ethereum-ethresear-ch-cross-post/28743
+- desc: |
+  Ethereumのコンセンサス層で使用される、検証可能な乱数生成メカニズム。バリデータからのコミットメントと公開を通じて、予測不可能な乱数を生成し、ブロック提案者の選出などに利用される。
+
+## BeaconBlockBody
+- ja: ビーコンブロックボディ
+- related: [Beacon Chain]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28743
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-vrf-for-ethereum-ethresear-ch-cross-post/28743
+- desc: |
+  Ethereumのビーコンチェーンにおけるブロックの主要な構成要素。トランザクション、アテステーション、RANDAOの公開値など、ブロックのペイロードに関する情報が含まれる。
+
+## BLS keys
+- ja: BLS鍵
+- related: [BLS signature]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28743
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-vrf-for-ethereum-ethresear-ch-cross-post/28743
+- desc: |
+  Boneh-Lynn-Shacham (BLS) 署名スキームに基づく公開鍵と秘密鍵のペア。Ethereumのコンセンサス層では、バリデータがブロックの署名やアテステーションに利用する。
+
+## WHIR proof
+- ja: WHIR証明
+- related: [Post-Quantum VRF]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28743
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-vrf-for-ethereum-ethresear-ch-cross-post/28743
+- desc: |
+  投稿で提案されている、ハッシュベースのVRFの証明に用いられる特定の種類の暗号証明。量子耐性を持つVRFの構成要素として導入されている。
+
+## Role-Based Timelock Operation
+- ja: ロールベース・タイムロック操作
+- aliases: [Role-Based Timelock]
+- related: [TimelockController, Access Control, RBAC]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28742
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-role-based-timelock-operation/28742
+- desc: |
+  スマートコントラクトのアクセス制御システムにおいて、特定のロールに紐付けられた特権操作に時間遅延を強制するメカニズム。特権キーが侵害された際に、防御側が介入する機会を提供する。
+
+## IRoleBasedTimelock
+- ja: IRoleBasedTimelock (インターフェース)
+- related: [Role-Based Timelock Operation, ERC-165]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28742
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-role-based-timelock-operation/28742
+- desc: |
+  ロールベースのタイムロック強制のためのコアインターフェース。スマートコントラクトがこのERCに準拠するために実装する必要がある。
+
+## opHash
+- ja: opHash (操作ハッシュ)
+- aliases: [operation hash]
+- related: [paramsHash, selector]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28742
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-role-based-timelock-operation/28742
+- desc: |
+  スケジュールされた操作を一意に識別するためのbytes32値。ロール、呼び出し元、ターゲット、セレクター、パラメータハッシュをエンコードして計算される。
+
+## Integrated Pattern
+- ja: 統合パターン
+- related: [Controller Pattern, onlyTimelockedRole modifier]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28742
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-role-based-timelock-operation/28742
+- desc: |
+  ロールベース・タイムロックの実装パターンの一つで、タイムロックのチェックがターゲットコントラクト自体に修飾子（modifier）を介して直接組み込まれる方式。ガスオーバーヘッドが低く、元の関数シグネチャを保持する。
+
+## Controller Pattern
+- ja: コントローラーパターン
+- related: [Integrated Pattern, IRoleBasedTimelockExecute]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28742
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-role-based-timelock-operation/28742
+- desc: |
+  ロールベース・タイムロックの実装パターンの一つで、タイムロックのロジックが既存のコントラクトとは別のコントローラーコントラクトにデプロイされ、既存コントラクトがそのコントローラーに特権ロールを付与する方式。
+
+## Time-Delayed Access Control
+- ja: 時間遅延型アクセス制御
+- related: [Access Control, Role-Based Access Control]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28741
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
+- desc: |
+  スマートコントラクトのアクセス制御において、ロールの付与や剥奪が設定可能な遅延期間を経てから有効になる仕組み。特権昇格攻撃に対する防御策として機能します。
+
+## Delayed Role Activation
+- ja: 遅延ロール有効化
+- related: [Time-Delayed Access Control, Role Management]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28741
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
+- desc: |
+  スマートコントラクトのロール管理において、ロールの変更（付与または剥奪）が即座に適用されず、設定された遅延期間を経てから有効になる状態。これにより、不正な変更に対する対応時間を提供します。
+
+## Effective Role Evaluation Module
+- ja: 実効ロール評価モジュール
+- related: [Time-Delayed Access Control, hasEffectiveRole]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28741
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
+- desc: |
+  スマートコントラクトのアクセス制御システムにおいて、アカウントが特定のロールを「実効的に」保持しているかを判断するモジュール。現在のブロックタイムスタンプと、ロールの有効化・剥奪がスケジュールされたタイムスタンプを比較して評価します。
+
+## Auto-Activation Pattern
+- ja: 自動有効化パターン
+- related: [Time-Delayed Access Control, Query-Based State]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28741
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
+- desc: |
+  スマートコントラクトのロール変更において、有効化の実行ステップを必要とせず、クエリ時にスケジュールされたタイムスタンプと現在のブロックタイムスタンプを比較することで自動的に状態が反映される設計パターン。これにより、実行時の競合状態や追加ステップが不要になります。
+
+## Admin-Centric Delay Lookup
+- ja: 管理者中心遅延参照
+- related: [Role Hierarchy, Access Control]
+- auto_added: 2026-06-15
+- auto_source_topic_id: 28741
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
+- desc: |
+  ロールの付与または剥奪にかかる遅延が、そのロール自体の設定ではなく、そのロールの管理者ロールに設定された遅延パラメータに基づいて決定されるメカニズム。これにより、ロール階層全体のセキュリティモデルが簡素化されます。
