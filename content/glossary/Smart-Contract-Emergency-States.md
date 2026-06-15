@@ -1,0 +1,21 @@
+---
+title: Smart Contract Emergency States
+aliases:
+  - スマートコントラクト緊急状態
+tags:
+  - glossary
+date: '2026-06-15'
+---
+
+**スマートコントラクト緊急状態**
+
+スマートコントラクトが異常な状態にあることを示すための標準化された状態。このERCは、プロトコル間で相互運用可能な検出を可能にするための、これらの状態を観測するための標準インターフェースを定義します。
+
+## 関連用語
+
+- [[glossary/IEmergencyState|IEmergencyState]]
+- [[glossary/EmergencyStateChanged|EmergencyStateChanged]]
+
+## 元の表記（英語）
+
+(なし)
