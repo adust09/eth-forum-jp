@@ -5,7 +5,7 @@ aliases:
   - Multi-signature
 tags:
   - glossary
-date: '2026-06-15'
+date: '2026-06-16'
 ---
 
 **マルチシグ（マルチシグネチャ）**
