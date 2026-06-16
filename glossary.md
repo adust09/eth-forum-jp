@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3214,3 +3214,299 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-time-delayed-access-control/28741
 - desc: |
   ロールの付与または剥奪にかかる遅延が、そのロール自体の設定ではなく、そのロールの管理者ロールに設定された遅延パラメータに基づいて決定されるメカニズム。これにより、ロール階層全体のセキュリティモデルが簡素化されます。
+
+## Autonomous Agent
+- ja: 自律エージェント
+- related: [Searcher, Solver, Intent Executor]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25202
+- auto_source_url: https://ethresear.ch/t/treating-autonomous-agents-as-untrusted-participants-what-the-claude-code-harness-suggests-for-on-chain-mechanism-design/25202
+- desc: |
+  オンチェーンシステムにおいて、人間以外の参加者として自律的に行動し、トランザクションの検索、解決、意図の実行などを行うプログラム。Ethereumエコシステムにおけるその役割が増大している。
+
+## On-chain Mechanism Design
+- ja: オンチェーンメカニズム設計
+- related: [Mechanism Design, Incentive Compatibility]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25202
+- auto_source_url: https://ethresear.ch/t/treating-autonomous-agents-as-untrusted-participants-what-the-claude-code-harness-suggests-for-on-chain-mechanism-design/25202
+- desc: |
+  ブロックチェーン上のプロトコルにおいて、参加者のインセンティブを調整し、望ましい行動を促すためのルールや構造を設計すること。自律エージェントなどの信頼できない参加者を前提とする。
+
+## Default-Deny Permission Layer
+- ja: デフォルト拒否パーミッションレイヤー
+- related: [Autonomous Agent, Agent's Permission Envelope]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25202
+- auto_source_url: https://ethresear.ch/t/treating-autonomous-agents-as-untrusted-participants-what-the-claude-code-harness-suggests-for-on-chain-mechanism-design/25202
+- desc: |
+  自律エージェントが状態変更アクションを実行する際に、デフォルトで拒否し、明示的な許可があった場合のみ実行を許すセキュリティ層。エージェントの誤動作や悪意ある行動を防ぐために用いられる。
+
+## Agent-Facing Mechanism
+- ja: エージェント向けメカニズム
+- related: [Autonomous Agent, On-chain Mechanism Design, Incentive Compatibility]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25202
+- auto_source_url: https://ethresear.ch/t/treating-autonomous-agents-as-untrusted-participants-what-the-claude-code-harness-suggests-for-on-chain-mechanism-design/25202
+- desc: |
+  自律エージェントが主要な参加者として関与することを想定して設計されたオンチェーンプロトコルやシステム。エージェントの特性（例：合理性、誤謬性）を考慮したインセンティブ設計が求められる。
+
+## Fallibility Term
+- ja: 誤謬項
+- related: [Incentive Compatibility, Autonomous Agent]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25202
+- auto_source_url: https://ethresear.ch/t/treating-autonomous-agents-as-untrusted-participants-what-the-claude-code-harness-suggests-for-on-chain-mechanism-design/25202
+- desc: |
+  インセンティブ互換性分析において、参加者が常に最適な行動（ベストレスポンス）を取るとは限らず、非最適な行動を一定の確率で取る可能性を考慮に入れるための要素。特に自律エージェントの分析で重要となる。
+
+## Orchard shielded-pool model
+- ja: Orchardシールドプールモデル
+- aliases: [Orchard shielded pool]
+- related: [Zcash Protocol Specification, pERC20, shielded pool]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25200
+- auto_source_url: https://ethresear.ch/t/perc20-private-token-standard-draft/25200
+- desc: |
+  Zcashプロトコル仕様で定義されているプライバシー保護メカニズム。トランザクションの送信者、受信者、金額を秘匿するために、シールドされたノートとコミットメントツリーを使用します。
+
+## ZIP-32 subaccounts
+- ja: ZIP-32サブアカウント
+- related: [ZIP-32, hierarchical deterministic wallets, pERC20]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25200
+- auto_source_url: https://ethresear.ch/t/perc20-private-token-standard-draft/25200
+- desc: |
+  ZcashのZIP-32階層型決定性ウォレットに基づき、各EOAスペンダーに専用のサブアカウントを割り当てるメカニズム。pERC20では、承認済み支出（approve/transferFrom）のプライバシーを確保するために使用されます。
+
+## PrivacyCall
+- ja: PrivacyCall (プライバシーコール)
+- related: [pERC20, Orchard actions, binding signature]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25200
+- auto_source_url: https://ethresear.ch/t/perc20-private-token-standard-draft/25200
+- desc: |
+  pERC20標準において、値変更を伴う全ての操作（transfer, mint, burnなど）で利用される構造体。Orchardアクションの配列とバインディング署名を含み、プライバシー保護されたトランザクションを可能にします。
+
+## commitment tree
+- ja: コミットメントツリー
+- related: [Orchard shielded-pool model, nullifier set, ZK-UTXO]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25200
+- auto_source_url: https://ethresear.ch/t/perc20-private-token-standard-draft/25200
+- desc: |
+  暗号学的コミットメントを効率的に管理・検証するためのデータ構造。ZcashのOrchardシールドプールモデルやpERC20のようなZK-UTXOシステムにおいて、シールドされたノートの存在を証明するために使用されます。
+
+## Censorship Resistance
+- ja: 検閲耐性
+- related: [Decentralization, Self-Sovereignty]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25196
+- auto_source_url: https://ethresear.ch/t/twin-domain-convergence-identity-is-the-com-eth-pair-an-emerging-institutional-namespace-standard-and-how-does-this-relate-to-ethereums-core-mission/25196
+- desc: |
+  ブロックチェーンネットワークにおいて、特定のトランザクションやユーザーがネットワーク参加者によって意図的にブロックされたり、除外されたりすることを防ぐ特性。イーサリアムのコアミッションの一つであり、分散化されたシステム設計によって実現される。
+
+## Fully Homomorphic Encryption
+- ja: 完全準同型暗号 (FHE)
+- aliases: [FHE]
+- related: [Zero-Knowledge Proof, Confidential Computing]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25196
+- auto_source_url: https://ethresear.ch/t/twin-domain-convergence-identity-is-the-com-eth-pair-an-emerging-institutional-namespace-standard-and-how-does-this-relate-to-ethereums-core-mission/25196
+- desc: |
+  暗号化されたデータのままで計算処理を可能にする暗号技術。データを復号することなく演算できるため、プライバシーを保護しながらオンチェーンでの機密計算を実現する上で重要な技術とされている。
+
+## Decentralized Identifiers
+- ja: 分散型識別子 (DID)
+- aliases: [DID, W3C DID]
+- related: [Self-Sovereign Identity, ENS]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25196
+- auto_source_url: https://ethresear.ch/t/twin-domain-convergence-identity-is-the-com-eth-pair-an-emerging-institutional-namespace-standard-and-how-does-this-relate-to-ethereums-core-mission/25196
+- desc: |
+  W3Cによって標準化された、分散型ウェブにおける自己主権型アイデンティティのための識別子。中央集権的な機関に依存せず、ユーザー自身が自身のデジタルIDを管理・制御することを可能にする。
+
+## Kohaku
+- ja: Kohaku
+- related: [Decentralization, Privacy]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25196
+- auto_source_url: https://ethresear.ch/t/twin-domain-convergence-identity-is-the-com-eth-pair-an-emerging-institutional-namespace-standard-and-how-does-this-relate-to-ethereums-core-mission/25196
+- desc: |
+  イーサリアム財団が分散化、自己主権、プライバシーといったコアミッションを推進するために重点を置いている特定のイニシアチブまたはプロジェクト。投稿では、Vitalik氏のビジョンと関連付けられて言及されている。
+
+## On-chain Privacy
+- ja: オンチェーンプライバシー
+- related: [FHE, Zero-Knowledge Proofs, Confidential Computing]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25196
+- auto_source_url: https://ethresear.ch/t/twin-domain-convergence-identity-is-the-com-eth-pair-an-emerging-institutional-namespace-standard-and-how-does-this-relate-to-ethereums-core-mission/25196
+- desc: |
+  ブロックチェーン上で実行されるトランザクションやデータの内容が、第三者から秘匿される特性。FHEやZK-proofsなどの暗号技術を用いて、公開された台帳上でもユーザーのプライバシーを保護する研究・開発分野。
+
+## Time-locked blind sessions
+- ja: タイムロックされたブラインドセッション
+- related: [blind signing, time-delayed access control, cryptographic isolation]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25187
+- auto_source_url: https://ethresear.ch/t/the-voice-of-silence-beyond-alignment-human-sovereign-will-as-the-missing-layer-in-agi-governance/25187
+- desc: |
+  ユーザーが匿名かつ検証可能な形で価値観を表明できるように設計されたセッション。特定の期間ロックされ、参加者のプライバシーを保護しながら、表現の歪みを防ぐためにブラインド（盲目）な状態で行われる。
+
+## Biometric ZK-proof
+- ja: 生体認証ZK証明
+- related: [zero-knowledge proof, zkp, identity layer]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25187
+- auto_source_url: https://ethresear.ch/t/the-voice-of-silence-beyond-alignment-human-sovereign-will-as-the-missing-layer-in-agi-governance/25187
+- desc: |
+  生体認証データを用いて、個人の身元を明かすことなくその正当性を証明するゼロ知識証明の一種。プライバシーを保護しつつ、L0レベルでの強力な本人確認を可能にする。
+
+## ZK-SNARKs
+- ja: ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)
+- aliases: [Zero-Knowledge Succinct Non-Interactive Argument of Knowledge]
+- related: [zero-knowledge proof, zkp, recursive stark]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25187
+- auto_source_url: https://ethresear.ch/t/the-voice-of-silence-beyond-alignment-human-sovereign-will-as-the-missing-layer-in-agi-governance/25187
+- desc: |
+  ゼロ知識証明の一種で、証明が非常に簡潔（succinct）で検証が高速であり、証明者と検証者の間で対話が不要（non-interactive）な特性を持つ。ブロックチェーンのスケーラビリティとプライバシー保護に広く利用される。
+
+## Notary model (AI as notary)
+- ja: 公証人モデル (AIを公証人とする)
+- aliases: [AI as notary]
+- related: [on-chain mechanism design, deterministic verifier runtime]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 25187
+- auto_source_url: https://ethresear.ch/t/the-voice-of-silence-beyond-alignment-human-sovereign-will-as-the-missing-layer-in-agi-governance/25187
+- desc: |
+  AIが意思決定の内容を評価するのではなく、特定の決定が適切な人物によって自由かつ正しい条件下で行われたことを証明し、記録の完全性を保証するアーキテクチャパターン。特にブロックチェーン環境における信頼性と透明性の確保に用いられる。
+
+## ERC-20 approved spending
+- ja: ERC-20承認済み支出
+- aliases: [approved spending]
+- related: [ZIP-32 subaccounts, approve, allowance, transferFrom]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28796
+- auto_source_url: https://ethereum-magicians.org/t/perc20-private-token-standard/28796
+- desc: |
+  pERC20において、ERC-20の`approve`、`allowance`、`transferFrom`に相当する機能。ZIP-32サブアカウントを利用し、プライベートな形で第三者による支出を許可する。
+
+## protocol-enshrined shielded pool
+- ja: プロトコルに組み込まれたシールドプール
+- related: [EIP-8182, shielded pool]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28796
+- auto_source_url: https://ethereum-magicians.org/t/perc20-private-token-standard/28796
+- desc: |
+  プロトコル層で直接実装されるプライバシー保護のためのシールドプール。ユーザーは公開資産を預け入れ、プール内でプライベートに価値を移動し、公開形式で引き出すことができる。EIP-8182で定義されている。
+
+## Orchard action bundle
+- ja: Orchardアクションバンドル
+- related: [Orchard shielded pool, PrivacyCall, BundleAction]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28796
+- auto_source_url: https://ethereum-magicians.org/t/perc20-private-token-standard/28796
+- desc: |
+  ZcashプロトコルのOrchard shielded poolモデルにおける、一つ以上のOrchardアクションをエンコードしたデータ構造。pERC20では、トランザクションのプライバシーを確保するために使用される。
+
+## holder-only scan
+- ja: ホルダーのみのスキャン
+- related: [viewing key, balanceOf]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28796
+- auto_source_url: https://ethereum-magicians.org/t/perc20-private-token-standard/28796
+- desc: |
+  pERC20において、トークン保有者のみが自身のビューイングキーを用いてオフチェーンで自身の残高をスキャンし、確認できる仕組み。第三者からは残高を照会できない。
+
+## immutable contract
+- ja: 不変コントラクト
+- related: [upgradeable contract, proxy contract]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28795
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-version-interface-standardizing-version-across-smart-contracts/28795
+- desc: |
+  デプロイ後にそのコードやロジックを変更できないスマートコントラクト。セキュリティや予測可能性の面で利点があるが、バグ修正や機能追加には再デプロイが必要となる。
+
+## proxy-based upgradeable system
+- ja: プロキシベースのアップグレード可能システム
+- aliases: [proxy upgradeable system]
+- related: [proxy contract, upgradeable contract, implementation contract]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28795
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-version-interface-standardizing-version-across-smart-contracts/28795
+- desc: |
+  ユーザーが常に同じアドレスとやり取りしながら、基盤となるスマートコントラクトのロジックをアップグレードできるシステム。プロキシコントラクトが呼び出しを実装コントラクトに委任することで実現される。
+
+## interface discovery
+- ja: インターフェース検出
+- related: [ERC-165, supportsInterface]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28795
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-contract-version-interface-standardizing-version-across-smart-contracts/28795
+- desc: |
+  スマートコントラクトが特定のインターフェースを実装しているかどうかを、オンチェーンでプログラム的に確認するメカニズム。ERC-165標準によって提供され、コントラクトの相互運用性を高める。
+
+## Operation Restriction Policy
+- ja: 操作制限ポリシー
+- related: [Tiered Permissions, Operation-level restrictions, IPermissionPolicy]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28793
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-operation-restriction-policy-for-tiered-permissions/28793
+- desc: |
+  スマートコントラクトにおける操作レベルの制限を標準化するためのポリシー。既存のIDベースのパーミッションや検証インフラストラクチャとは異なり、「どのような制約が適用されるか」を定義することで、セキュリティモデルを強化します。
+
+## Operation-level restrictions
+- ja: 操作レベルの制限
+- related: [Operation Restriction Policy, Tiered Permissions]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28793
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-operation-restriction-policy-for-tiered-permissions/28793
+- desc: |
+  スマートコントラクトにおいて、特定の操作（トランザクション）に対して適用される制約。誰が行動できるか（IDベースのパーミッション）や、どのようにチェックするか（検証インフラストラクチャ）とは異なり、操作の内容や頻度、価値、時間などに基づく制限を指します。
+
+## Tiered Permissions
+- ja: 階層型パーミッション
+- related: [Operation Restriction Policy, IRoleTier]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28793
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-operation-restriction-policy-for-tiered-permissions/28793
+- desc: |
+  スマートコントラクトのユーザーや役割に対して、権限を複数の階層（Tier）に分けて付与するシステム。各階層には異なる操作制限ポリシーが適用され、柔軟かつきめ細やかなアクセス制御とセキュリティ管理を可能にします。
+
+## IRoleTier
+- ja: IRoleTier (ロール階層インターフェース)
+- related: [Tiered Permissions, Role-based access control (ERC-5982)]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28793
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-operation-restriction-policy-for-tiered-permissions/28793
+- desc: |
+  ロールシステムと操作制限階層を橋渡しするスマートコントラクトインターフェース。アカウントがどの制限階層に属するかを解決する役割を担い、ロールの割り当てと制限の適用を分離することで、システムのモジュール性と柔軟性を高めます。
+
+## Restriction Type
+- ja: 制限タイプ
+- related: [Operation Restriction Policy, RATE_LIMIT, VALUE_CAP, TIME_WINDOW, FUNCTION_WHITELIST]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28793
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-operation-restriction-policy-for-tiered-permissions/28793
+- desc: |
+  スマートコントラクトの操作に適用される具体的な制約の種類を指します。例えば、操作の頻度を制限するレートリミット、トランザクションの最大値を制限するバリューキャップ、操作可能な時間帯を制限するタイムウィンドウ、許可された関数セレクタを制限するファンクションホワイトリストなどがあります。
+
+## Counterfactual Rejection Event Log
+- ja: 反実仮想拒否イベントログ (CREL)
+- aliases: [CREL]
+- related: [Counterfactual analysis, DEX protocol]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8293-counterfactual-rejection-event-log-crel/28792
+- desc: |
+  DEXプロトコルやフィルターが実行前に拒否した取引候補をオンチェーンで記録するためのイベントログ。これにより、外部の参加者がフィルターの精度を測定し、反実仮想分析を実行できるようになります。
+
+## Counterfactual analysis
+- ja: 反実仮想分析
+- related: [Counterfactual Rejection Event Log, Counterfactual replay]
+- auto_added: 2026-06-16
+- auto_source_topic_id: 28792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8293-counterfactual-rejection-event-log-crel/28792
+- desc: |
+  拒否された取引候補がもし実行されていたらどうなっていたかを分析する手法。DEXフィルターの品質評価や、拒否された取引の潜在的な影響を理解するために用いられます。

@@ -5,7 +5,7 @@ aliases:
   - XMSS
 tags:
   - glossary
-date: '2026-06-15'
+date: '2026-06-16'
 ---
 
 **拡張マークル署名スキーム (XMSS)**
