@@ -5,7 +5,7 @@ aliases:
   - Real World Asset platforms
 tags:
   - glossary
-date: '2026-06-16'
+date: '2026-06-17'
 ---
 
 **RWAプラットフォーム (Real World Assetプラットフォーム)**
