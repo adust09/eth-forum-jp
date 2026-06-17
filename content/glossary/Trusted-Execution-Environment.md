@@ -5,7 +5,7 @@ aliases:
   - TEE
 tags:
   - glossary
-date: '2026-06-16'
+date: '2026-06-17'
 ---
 
 **トラステッド実行環境 (TEE)**

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3510,3 +3510,156 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8293-counterfactual-rejection-event-log-crel/28792
 - desc: |
   拒否された取引候補がもし実行されていたらどうなっていたかを分析する手法。DEXフィルターの品質評価や、拒否された取引の潜在的な影響を理解するために用いられます。
+
+## Ownership Fragmentation
+- ja: 所有権の断片化 (Ownership Fragmentation)
+- related: [Disposable Stealth Accounts, Ownership Reconstruction]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25213
+- auto_source_url: https://ethresear.ch/t/exploring-ownership-fragmentation-as-a-privacy-primitive-for-the-post-pectra-evm/25213
+- desc: |
+  ブロックチェーン上の資産の所有権を、単一の永続的なアカウントに集中させるのではなく、多数の独立した出力や使い捨てのアカウントに分散させるプライバシー手法。これにより、観察者による所有権の再構築を困難にすることを目指します。
+
+## Privacy Primitive
+- ja: プライバシープリミティブ (Privacy Primitive)
+- related: [Ownership Fragmentation]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25213
+- auto_source_url: https://ethresear.ch/t/exploring-ownership-fragmentation-as-a-privacy-primitive-for-the-post-pectra-evm/25213
+- desc: |
+  プライバシーシステムを構築するための基本的な構成要素や技術。GhostShardの文脈では、所有権の断片化がそのような根本的なプライバシー機能として提案されています。
+
+## Ownership Reconstruction
+- ja: 所有権の再構築 (Ownership Reconstruction)
+- related: [Ownership Fragmentation, Ambiguity Generation]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25213
+- auto_source_url: https://ethresear.ch/t/exploring-ownership-fragmentation-as-a-privacy-primitive-for-the-post-pectra-evm/25213
+- desc: |
+  ブロックチェーン上のトランザクションデータやその他の公開情報から、隠された所有構造、アイデンティティ、関係性、行動パターンなどを推測し、再構築しようとする分析プロセス。プライバシー侵害の主要な形態の一つと見なされます。
+
+## Disposable Stealth Accounts
+- ja: 使い捨てステルスアカウント (Disposable Stealth Accounts)
+- aliases: [shards]
+- related: [Ownership Fragmentation, ERC-5564]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25213
+- auto_source_url: https://ethresear.ch/t/exploring-ownership-fragmentation-as-a-privacy-primitive-for-the-post-pectra-evm/25213
+- desc: |
+  所有権の断片化を実現するために使用される、一時的で使い捨てのステルスアドレスベースのアカウント。各トランザクションで古いアカウントの所有権を消費し、新しいアカウントに所有権を生成することで、所有権の連続性を追跡しにくくします。
+
+## Ambiguity Generation
+- ja: 曖昧性生成 (Ambiguity Generation)
+- related: [Ownership Reconstruction, Partition Ambiguity, Ownership Ambiguity, Amount Ambiguity, Temporal Ambiguity]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25213
+- auto_source_url: https://ethresear.ch/t/exploring-ownership-fragmentation-as-a-privacy-primitive-for-the-post-pectra-evm/25213
+- desc: |
+  プライバシーシステムを評価する新しいフレームワーク。情報を完全に隠すのではなく、観察者が特定の質問に答えるのを妨げることで、所有権の再構築を困難にします。複数の曖昧性レイヤーを導入し、不確実性を複合的に高めることを目指します。
+
+## Price Elasticity of Gas Demand
+- ja: ガス需要の価格弾力性
+- related: [Gas Fee, Blockspace Demand, EIP-1559]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25211
+- auto_source_url: https://ethresear.ch/t/price-elasticity-of-gas-demand-on-ethereum-and-arbitrum/25211
+- desc: |
+  ブロックチェーンにおけるガス料金の変化が、ブロック空間の需要にどの程度影響を与えるかを示す経済指標。需要の価格弾力性が低い場合、料金が変動しても需要は大きく変化しないことを意味する。
+
+## Blockspace Demand
+- ja: ブロック空間需要
+- related: [Gas Fee, EIP-1559, Transaction]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25211
+- auto_source_url: https://ethresear.ch/t/price-elasticity-of-gas-demand-on-ethereum-and-arbitrum/25211
+- desc: |
+  ブロックチェーンのブロックにトランザクションやデータを記録するための需要。この需要と供給のバランスがガス料金を決定する主要因となる。
+
+## Endogeneity
+- ja: 内生性
+- related: [Causal Estimate, Instrument Variable]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25211
+- auto_source_url: https://ethresear.ch/t/price-elasticity-of-gas-demand-on-ethereum-and-arbitrum/25211
+- desc: |
+  統計モデルにおいて、説明変数と誤差項の間に相関がある状態を指す。EIP-1559のようなメカニズムでは、ガス料金が需要によって決定されるため、料金と需要の関係を分析する際に内生性の問題が生じる。
+
+## Probabilistic Backrunners
+- ja: 確率的バックランナー
+- related: [MEV, Backrunning]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25211
+- auto_source_url: https://ethresear.ch/t/price-elasticity-of-gas-demand-on-ethereum-and-arbitrum/25211
+- desc: |
+  L2環境において、特定のトランザクションを検知し、そのトランザクションが実行される前に自身のトランザクションを挿入しようとするエンティティ。L2の特性上、その成功が確率的である場合に用いられる表現。
+
+## Two-way Fixed Effects Analysis
+- ja: 双方向固定効果分析
+- related: [Panel Data, Econometrics]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 25211
+- auto_source_url: https://ethresear.ch/t/price-elasticity-of-gas-demand-on-ethereum-and-arbitrum/25211
+- desc: |
+  パネルデータ分析手法の一つで、個体（この場合はウォレット）と時間（期間）の両方の固定効果をモデルに組み込むことで、観測されない異質性によるバイアスを軽減する。ブロックチェーンのデータ分析において、ウォレット固有の特性や時間経過による影響を考慮する際に用いられる。
+
+## Mempool
+- ja: メムプール (Mempool)
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28804
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-provide-feedback-on-the-draft-eips-8105-8184/28804
+- desc: |
+  ブロックチェーンネットワークにおいて、まだブロックに含まれていないが、ノードによって受信され検証されたトランザクションが一時的に保持される場所。マイナーやバリデーターはここからトランザクションを選択してブロックを構築する。
+
+## Encrypted Mempool
+- ja: 暗号化メムプール
+- related: [Mempool, MEV, Censorship Resistance]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28804
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-provide-feedback-on-the-draft-eips-8105-8184/28804
+- desc: |
+  トランザクションの内容が、ブロックに含められるまで暗号化された状態で保持されるメムプール。MEV（Maximal Extractable Value）の抽出や検閲攻撃を防ぐことを目的としている。
+
+## Lean Staking
+- ja: リーンステーキング
+- related: [Staking]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28803
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
+- desc: |
+  ステーキングの効率性や最小要件に焦点を当てた、新しいステーキングアプローチ。リソース消費を抑えつつ、ネットワークセキュリティへの貢献を目指す。
+
+## Account-warming charge
+- ja: アカウントウォーミングチャージ
+- related: [Gas, EVM]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28803
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
+- desc: |
+  EthereumのEVMにおいて、最近アクセスされていないアカウントに初めてアクセスする際に発生する追加のガス料金。コールドステートアクセスによるパフォーマンスオーバーヘッドを反映する。
+
+## Precompile target
+- ja: プリコンパイルターゲット
+- related: [Precompile, EVM]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28803
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
+- desc: |
+  EthereumのEVMに組み込まれた特殊なコントラクト（プリコンパイル）の呼び出し先アドレスまたは特定の機能。複雑な暗号操作などを効率的に実行するために使用される。
+
+## Wallet Title Deeds
+- ja: ウォレット所有権証書
+- related: [ERC, NFT, Wallet]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28803
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
+- desc: |
+  ウォレットの所有権や関連する権利を表現するための新しいERC標準または概念。NFTなどのトークン形式でウォレットの権利を管理する可能性を示唆する。
+
+## Referable NFTs Authorization
+- ja: 参照可能NFT承認
+- related: [NFT, Authorization, ERC]
+- auto_added: 2026-06-17
+- auto_source_topic_id: 28803
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
+- desc: |
+  NFTが他のエンティティ（ユーザーやコントラクト）に対して、特定のアクションを実行する権限を付与または管理するメカニズム。NFTのユーティリティを拡張する。

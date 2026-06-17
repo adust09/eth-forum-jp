@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-06-16'
+date: '2026-06-17'
 ---
 
 **イーサリアムバリデータ**
