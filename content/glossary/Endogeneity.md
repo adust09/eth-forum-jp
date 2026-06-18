@@ -4,7 +4,7 @@ aliases:
   - 内生性
 tags:
   - glossary
-date: '2026-06-17'
+date: '2026-06-18'
 ---
 
 **内生性**

@@ -4,7 +4,7 @@ aliases:
   - ZK不正証明
 tags:
   - glossary
-date: '2026-06-17'
+date: '2026-06-18'
 ---
 
 **ZK不正証明**

@@ -4,7 +4,7 @@ aliases:
   - 参照可能NFT承認
 tags:
   - glossary
-date: '2026-06-17'
+date: '2026-06-18'
 ---
 
 **参照可能NFT承認**
