@@ -140,11 +140,15 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex).map(([slug, content]) => {
-          // remove description from the content index as nothing downstream
-          // uses it; we only keep it in the index for the RSS feed.
+          // Drop the full post body from the client-side index. It is by far the
+          // largest payload (~1.3M chars across the whole site → 2.5MB JSON) and
+          // `fetchData` is fetched eagerly on every page load by Graph/Explorer,
+          // freezing the main thread while it is parsed. Full-text body search is
+          // intentionally dropped; Search keeps matching on title, tags, and this
+          // short summary, which also feeds the search result preview card.
           // `date` is kept so the Explorer can sort entries by published date.
-          delete content.description
-          return [slug, content]
+          const summary = content.description ?? ""
+          return [slug, { ...content, content: summary, description: undefined, richContent: undefined }]
         }),
       )
 
