@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3663,3 +3663,77 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-102-june-16-2026/28803
 - desc: |
   NFTが他のエンティティ（ユーザーやコントラクト）に対して、特定のアクションを実行する権限を付与または管理するメカニズム。NFTのユーティリティを拡張する。
+
+## LUCID
+- ja: LUCID (EIP-8184)
+- aliases: [EIP-8184]
+- related: [Encrypted Mempool, Commit-and-Reveal Scheme]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 25210
+- auto_source_url: https://ethresear.ch/t/a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs/25210
+- desc: |
+  暗号化されたmempoolの設計に関するEIP-8184の提案。ユーザーをMEVから保護することを目的としているが、十分な閾値暗号がないため、コミット＆リビール方式を採用している。
+
+## Threshold Encryption
+- ja: 閾値暗号
+- related: [Encrypted Mempool, Time-based cryptography, Threshold IBE]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 25210
+- auto_source_url: https://ethresear.ch/t/a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs/25210
+- desc: |
+  複数の参加者が共同で暗号文を復号できるが、単独ではできない暗号方式。理想的な暗号化されたmempoolの設計に必要とされるが、現在、Ethereumの要件を満たす適切なスキームは存在しない。
+
+## Commit-and-Reveal Scheme
+- ja: コミット＆リビール方式
+- related: [LUCID, Reveal Optionality]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 25210
+- auto_source_url: https://ethresear.ch/t/a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs/25210
+- desc: |
+  ユーザーがまずトランザクションのコミットメントを提出し、後でその内容を公開する（リビールする）暗号プロトコル。LUCIDはこの方式を採用しているが、リビールしない選択肢が攻撃のリスクを生む。
+
+## Reveal Optionality
+- ja: リビール選択性
+- aliases: [Reveal Optionality by the Transaction Sender]
+- related: [Commit-and-Reveal Scheme, Probabilistic Frontrunning]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 25210
+- auto_source_url: https://ethresear.ch/t/a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs/25210
+- desc: |
+  コミット＆リビール方式において、トランザクション送信者がコミットした内容を公開するかどうかを任意に選択できる問題。特に、他の参加者のリビールを見てから自身の公開を決定できる点が、様々な攻撃を可能にする。
+
+## Probabilistic Frontrunning
+- ja: 確率的フロントランニング
+- related: [Frontrunning, MEV, Reveal Optionality]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 25210
+- auto_source_url: https://ethresear.ch/t/a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs/25210
+- desc: |
+  攻撃者が、正直なユーザーのコミットされたトランザクション内容を推測し、その推測に基づいてフロントランニングトランザクションを挿入する攻撃。ユーザーのリビール選択性を悪用し、推測が正しければ攻撃トランザクションをリビールし、そうでなければリビールしないことでリスクを軽減する。
+
+## Trustless log and transaction index
+- ja: トラストレスなログおよびトランザクションインデックス
+- related: [Log and transaction lookup]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 28824
+- auto_source_url: https://ethereum-magicians.org/t/eip-xxxx-trustless-log-and-transaction-index/28824
+- desc: |
+  Ethereumのログおよびトランザクションのインデックスを、信頼できる第三者を必要とせずに検証可能にするためのメカニズム。EIP-xxxxで提案されており、効率的なトラストレス証明を可能にする。
+
+## System contract
+- ja: システムコントラクト
+- related: [Predeploys]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 28824
+- auto_source_url: https://ethereum-magicians.org/t/eip-xxxx-trustless-log-and-transaction-index/28824
+- desc: |
+  Ethereumプロトコル内で特別な役割や権限を持つコントラクト。プロトコルレベルの機能を提供し、特定のEIPの実装や状態の管理に利用されることがある。
+
+## Root hashes of index tables
+- ja: インデックステーブルのルートハッシュ
+- related: [Merkle Patricia Trie, KZG commitment]
+- auto_added: 2026-06-18
+- auto_source_topic_id: 28824
+- auto_source_url: https://ethereum-magicians.org/t/eip-xxxx-trustless-log-and-transaction-index/28824
+- desc: |
+  ログやトランザクションのインデックスデータ構造の整合性を検証するために使用される暗号学的ハッシュ。これらのルートハッシュをシステムコントラクトに保存することで、インデックスのトラストレスな証明が可能になる。

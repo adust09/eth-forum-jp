@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-17'
+date: '2026-06-18'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -69,6 +69,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
 - [[glossary/Cold-subtree|Cold subtree]] — コールドサブツリー
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
+- [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]] — コミット＆リビール方式
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
@@ -210,6 +211,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
+- [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
@@ -286,6 +288,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
+- [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
@@ -310,12 +313,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Restriction-Type|Restriction Type]] — 制限タイプ
 - [[glossary/resurrection-mechanism|resurrection mechanism]] — 復活メカニズム
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
+- [[glossary/Reveal-Optionality|Reveal Optionality]] — リビール選択性
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]] — ロール混同攻撃
 - [[glossary/Role-Tier-Derivation-Rules|Role Tier Derivation Rules]] — ロールティア導出ルール
 - [[glossary/Role-Based-Timelock-Operation|Role-Based Timelock Operation]] — ロールベース・タイムロック操作
 - [[glossary/Rollup|Rollup]] — ロールアップ
+- [[glossary/Root-hashes-of-index-tables|Root hashes of index tables]] — インデックステーブルのルートハッシュ
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
@@ -355,7 +360,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
+- [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/testnet|testnet]] — テストネット
+- [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
 - [[glossary/Tiered-Permissions|Tiered Permissions]] — 階層型パーミッション
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
@@ -375,6 +382,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
+- [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
