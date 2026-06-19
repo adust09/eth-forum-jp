@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-18'
+date: '2026-06-19'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -34,7 +34,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
+- [[glossary/anchoring|anchoring]] — アンカリング
 - [[glossary/Asset-Key|Asset Key]] — アセットキー
+- [[glossary/Asset-Enforced-Spend-Mandate|Asset-Enforced Spend Mandate]] — アセット強制型支出委任
 - [[glossary/Asset-scoped|Asset-scoped]] — 資産スコープ
 - [[glossary/Association-Set-Provider|Association Set Provider]] — アソシエーションセットプロバイダー
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
@@ -72,6 +74,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]] — コミット＆リビール方式
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
+- [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
@@ -150,6 +153,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
+- [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]] — 固定カットオフ型ステート階層化
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
@@ -186,6 +190,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
+- [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
+- [[glossary/instant-revoke|instant revoke]] — 即時取り消し
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
@@ -212,6 +219,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
+- [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
@@ -225,6 +233,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
+- [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
@@ -266,6 +275,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
+- [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
@@ -278,12 +288,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
+- [[glossary/pq-account|pq-account]] — 量子耐性アカウント (pq-account)
 - [[glossary/Precompile-target|Precompile target]] — プリコンパイルターゲット
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Precondition|Precondition]] — 前提条件
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
+- [[glossary/Privacy-Relay|Privacy Relay]] — プライバシーリレー
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
@@ -360,6 +372,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
+- [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
@@ -377,6 +390,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
+- [[glossary/transfer-eligibility-gate|transfer-eligibility gate]] — 転送適格性ゲート
 - [[glossary/Transient-Storage|Transient Storage]] — トランジェントストレージ
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
@@ -403,6 +417,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/ZIP-32-subaccounts|ZIP-32 subaccounts]] — ZIP-32サブアカウント
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
+- [[glossary/zk-shielding-layer|zk shielding layer]] — zkシーディング層 (zk shielding layer)
 - [[glossary/ZK-state-channel|ZK state channel]] — ZKステートチャネル
 - [[glossary/ZK-SNARKs|ZK-SNARKs]] — ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)
 - [[glossary/ZK-UTXO-note|ZK-UTXO note]] — ZK-UTXOノート
