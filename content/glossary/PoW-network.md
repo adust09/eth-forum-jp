@@ -5,7 +5,7 @@ aliases:
   - Proof of Work network
 tags:
   - glossary
-date: '2026-06-18'
+date: '2026-06-19'
 ---
 
 **PoWネットワーク (Proof of Workネットワーク)**

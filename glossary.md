@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3737,3 +3737,142 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-xxxx-trustless-log-and-transaction-index/28824
 - desc: |
   ログやトランザクションのインデックスデータ構造の整合性を検証するために使用される暗号学的ハッシュ。これらのルートハッシュをシステムコントラクトに保存することで、インデックスのトラストレスな証明が可能になる。
+
+## Fingerprint Profile
+- ja: フィンガープリントプロファイル
+- related: [browser fingerprinting, anonymity set]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 25224
+- auto_source_url: https://ethresear.ch/t/etherveil-an-ethereum-privacy-browser/25224
+- desc: |
+  Etherveilブラウザにおいて、ブラウザの観測可能な挙動を標準化するために定義された、固定された事前計算済みの同値クラス。ユーザー間の匿名性を最大化するために、セッションの存続期間中不変に割り当てられる。
+
+## Privacy Relay
+- ja: プライバシーリレー
+- related: [Kohaku Wallet Engine, zk shielding layer, ERC-4337 bundler]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 25224
+- auto_source_url: https://ethresear.ch/t/etherveil-an-ethereum-privacy-browser/25224
+- desc: |
+  dAppからのトランザクションをプライベートにルーティングするためのコンポーネント。Kohaku Wallet Engineからチェーンへの経路の一部として機能し、ユーザーのIPアドレスとトランザクションの関連付けを防ぐ。
+
+## zk shielding layer
+- ja: zkシーディング層 (zk shielding layer)
+- related: [zero-knowledge proof, Tornado Cash, Privacy Relay]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 25224
+- auto_source_url: https://ethresear.ch/t/etherveil-an-ethereum-privacy-browser/25224
+- desc: |
+  トランザクションのプライバシーを確保するためにゼロ知識証明を利用する抽象的な層。Tornado Cashのようなプロトコルがこれに該当し、ユーザーのオンチェーン活動の匿名化を可能にする。
+
+## pq-account
+- ja: 量子耐性アカウント (pq-account)
+- aliases: [post-quantum account]
+- related: [ERC-4337, post-quantum cryptography, smart account]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 25224
+- auto_source_url: https://ethresear.ch/t/etherveil-an-ethereum-privacy-browser/25224
+- desc: |
+  量子コンピュータの脅威に耐性を持つように設計された、ERC-4337準拠のスマートアカウントタイプ。Etherveilではデフォルトのアカウントタイプとして採用され、将来のセキュリティリスクに対応する。
+
+## sync committee proofs
+- ja: 同期委員会証明
+- related: [sync committee, light client, Proof-of-Stake]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 25224
+- auto_source_url: https://ethresear.ch/t/etherveil-an-ethereum-privacy-browser/25224
+- desc: |
+  EthereumのProof-of-Stakeコンセンサスにおいて、ライトクライアントがチェーンの最新状態を検証するために使用する証明。少数のバリデータで構成される同期委員会によって生成され、効率的な検証を可能にする。
+
+## common execution envelope
+- ja: 共通実行エンベロープ
+- related: [agent interaction, multi-agent accountability]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28833
+- auto_source_url: https://ethereum-magicians.org/t/composition-note-agent-service-consultation-flow-composing-the-agent-ercs-8004-8263-8274-8275-8281-8299-8301-informational/28833
+- desc: |
+  複数のエージェントが相互作用する際に、それらの実行を統一的に包み込むための共通の枠組み。エージェント間の相互運用性と説明責任を確保するために設計される。
+
+## input provenance
+- ja: 入力来歴 (input provenance)
+- related: [verifiable result, agent interaction]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28833
+- auto_source_url: https://ethereum-magicians.org/t/composition-note-agent-service-consultation-flow-composing-the-agent-ercs-8004-8263-8274-8275-8281-8299-8301-informational/28833
+- desc: |
+  エージェントシステムにおいて、入力データの起源、履歴、および信頼性を追跡・検証する能力。検証可能な結果を得るために不可欠な要素。
+
+## multi-agent accountability
+- ja: マルチエージェントの説明責任
+- related: [agent interaction, common execution envelope]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28833
+- auto_source_url: https://ethereum-magicians.org/t/composition-note-agent-service-consultation-flow-composing-the-agent-ercs-8004-8263-8274-8275-8281-8299-8301-informational/28833
+- desc: |
+  複数のエージェントが関与するシステムにおいて、各エージェントの行動や結果に対する責任を追跡・評価する仕組み。エージェント間の信頼と協調を促進するために重要。
+
+## anchoring
+- ja: アンカリング
+- related: [verification, on-chain anchor]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28833
+- auto_source_url: https://ethereum-magicians.org/t/composition-note-agent-service-consultation-flow-composing-the-agent-ercs-8004-8263-8274-8275-8281-8299-8301-informational/28833
+- desc: |
+  エージェントの相互作用や検証プロセスにおいて、特定のデータや結果をブロックチェーンなどの信頼できる基盤に固定し、その存在や状態を検証可能にすること。
+
+## Informational ERC
+- ja: 情報提供ERC (Informational ERC)
+- aliases: [Informational EIP, Informational track]
+- related: [ERC, EIP]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28833
+- auto_source_url: https://ethereum-magicians.org/t/composition-note-agent-service-consultation-flow-composing-the-agent-ercs-8004-8263-8274-8275-8281-8299-8301-informational/28833
+- desc: |
+  Ethereum Request for Comments (ERC) の一種で、プロトコルや実装に関する情報、設計パターン、一般的なガイドラインなどを記述するために使用される。プロトコル変更を提案するStandard Track ERCとは異なり、実装を強制しない。
+
+## Asset-Enforced Spend Mandate
+- ja: アセット強制型支出委任
+- related: [transfer-eligibility gate, machine-readable reason vocabulary]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28831
+- auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
+- desc: |
+  トークン自体がデリゲートの支出権限を制限し、トランザクションごとの上限、有効期限、許可されたトークン、即時取り消しなどを強制するメカニズム。エージェントの振る舞いではなく、トークンによって直接執行される。
+
+## transfer-eligibility gate
+- ja: 転送適格性ゲート
+- aliases: [spend gate]
+- related: [Asset-Enforced Spend Mandate, machine-readable reason vocabulary, IGatedAsset]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28831
+- auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
+- desc: |
+  トークンの転送が許可されるべきかを判断する、独立してデプロイ可能なコントラクト。アセット強制型支出委任の主要な構成要素であり、標準化された理由語彙を用いて転送の可否を通知する。
+
+## machine-readable reason vocabulary
+- ja: 機械可読な理由語彙
+- aliases: [spend-reason vocabulary, byte-pinned reason vocabulary]
+- related: [transfer-eligibility gate, TransferBlocked]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28831
+- auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
+- desc: |
+  トークンの転送が拒否された際に、その理由を標準化された形式で示すための語彙。統合者が拒否の具体的な原因をプログラム的に理解し、適切な対応を取ることを可能にする。
+
+## per-transaction cap
+- ja: トランザクションごとの上限
+- related: [Asset-Enforced Spend Mandate]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28831
+- auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
+- desc: |
+  デリゲートが単一のトランザクションで支出できる金額に設定される上限。アセット強制型支出委任の一部として、エージェントの不正行為から資産を保護するために使用される。
+
+## instant revoke
+- ja: 即時取り消し
+- related: [Asset-Enforced Spend Mandate]
+- auto_added: 2026-06-19
+- auto_source_topic_id: 28831
+- auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
+- desc: |
+  デリゲートに付与された支出権限を、即座に無効化するメカニズム。資産所有者がエージェントの活動を迅速に停止させることを可能にする。

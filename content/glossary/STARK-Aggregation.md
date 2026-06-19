@@ -4,7 +4,7 @@ aliases:
   - STARK集約
 tags:
   - glossary
-date: '2026-06-18'
+date: '2026-06-19'
 ---
 
 **STARK集約**
