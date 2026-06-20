@@ -1,0 +1,22 @@
+---
+title: Asset futarchy
+aliases:
+  - アセット・フューチャーキー (資産フューチャーキー)
+tags:
+  - glossary
+date: '2026-06-20'
+---
+
+**アセット・フューチャーキー (資産フューチャーキー)**
+
+提案が可決された場合と否決された場合のトークン価値に対する市場の予測に基づいて、提案の可否を決定するガバナンスシステムです。市場価格が提案の因果的効果を正確に反映することが重要となります。
+
+## 関連用語
+
+- [[glossary/PASS-ASSET|PASS-ASSET]]
+- [[glossary/FAIL-ASSET|FAIL-ASSET]]
+- [[glossary/Conditional-markets|Conditional markets]]
+
+## 元の表記（英語）
+
+(なし)
