@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -3876,3 +3876,167 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-asset-enforced-spend-mandate/28831
 - desc: |
   デリゲートに付与された支出権限を、即座に無効化するメカニズム。資産所有者がエージェントの活動を迅速に停止させることを可能にする。
+
+## Reputation Wallet
+- ja: レピュテーションウォレット
+- related: [Token-weighted governance, Judgment balance, Sovereign collective intelligence]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25236
+- auto_source_url: https://ethresear.ch/t/the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain/25236
+- desc: |
+  金融価値ではなく、知識、倫理、道徳的判断といった人間の判断を格納するよう設計されたウォレット。参加者の行動に基づいて動的に再計算されるレピュテーションを反映し、その判断力を計測する。
+
+## Token-weighted governance
+- ja: トークン加重ガバナンス
+- related: [DAO, Quadratic voting]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25236
+- auto_source_url: https://ethresear.ch/t/the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain/25236
+- desc: |
+  トークン保有量に基づいて参加者の影響力や投票権を決定するオンチェーンガバナンスシステム。より多くのトークンを持つ参加者がより大きな発言力を持つため、富が意思決定に影響を与える傾向がある。
+
+## Sovereign collective intelligence
+- ja: 主権的集合知
+- related: [Reputation Wallet, Collective intelligence]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25236
+- auto_source_url: https://ethresear.ch/t/the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain/25236
+- desc: |
+  BeTrueCoreプロジェクトが提唱する概念で、個々の参加者の判断力（レピュテーション）をオンチェーンで検証し、集合的な意思決定に活用するシステム。金融インフラとは独立した補完的なレイヤーとして機能する。
+
+## Judgment balance
+- ja: 判断残高
+- related: [Reputation Wallet, Vote Weight Unit]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25236
+- auto_source_url: https://ethresear.ch/t/the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain/25236
+- desc: |
+  レピュテーションウォレットの出力として提案される、参加者の判断力を示す検証可能な単一の指標。金融残高とは異なり、知識、倫理、道徳的判断の3つの側面を反映し、1から9のスケールで表される。
+
+## Asset futarchy
+- ja: アセット・フューチャーキー (資産フューチャーキー)
+- related: [PASS-ASSET, FAIL-ASSET, Conditional markets]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25235
+- auto_source_url: https://ethresear.ch/t/futarchy-is-insecure-without-a-proposal-gatekeeper/25235
+- desc: |
+  提案が可決された場合と否決された場合のトークン価値に対する市場の予測に基づいて、提案の可否を決定するガバナンスシステムです。市場価格が提案の因果的効果を正確に反映することが重要となります。
+
+## PASS-ASSET
+- ja: PASS-ASSET (可決時資産)
+- related: [Asset futarchy, FAIL-ASSET]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25235
+- auto_source_url: https://ethresear.ch/t/futarchy-is-insecure-without-a-proposal-gatekeeper/25235
+- desc: |
+  アセット・フューチャーキーにおいて、特定の提案が可決された世界における資産（トークン）の価値を表す条件付き市場の対象です。提案の可否を判断する際の基準の一つとなります。
+
+## FAIL-ASSET
+- ja: FAIL-ASSET (否決時資産)
+- related: [Asset futarchy, PASS-ASSET]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25235
+- auto_source_url: https://ethresear.ch/t/futarchy-is-insecure-without-a-proposal-gatekeeper/25235
+- desc: |
+  アセット・フューチャーキーにおいて、特定の提案が否決された世界における資産（トークン）の価値を表す条件付き市場の対象です。提案の可否を判断する際の基準の一つとなります。
+
+## Resistance-Contingent Delivery
+- ja: 抵抗依存型デリバリー
+- related: [Asset futarchy]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25235
+- auto_source_url: https://ethresear.ch/t/futarchy-is-insecure-without-a-proposal-gatekeeper/25235
+- desc: |
+  アセット・フューチャーキーにおける攻撃手法の一つです。提案者が価値創造的な作業を約束するが、その実行を市場の抵抗（カウンター取引）の強さに応じてオプション化します。抵抗が弱い場合は作業をスキップし、強い場合は実行します。
+
+## Proposal Convexity Maximisation
+- ja: 提案の凸性最大化
+- related: [Asset futarchy, Decision selection bias]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25235
+- auto_source_url: https://ethresear.ch/t/futarchy-is-insecure-without-a-proposal-gatekeeper/25235
+- desc: |
+  アセット・フューチャーキーにおける攻撃手法の一つです。提案者が未解決の情報（不確実性）を利用して、提案の可決が有利な情報が明らかになる世界を市場が選択するように仕向けます。これにより、本来は負の期待値を持つ提案でも可決される可能性があります。
+
+## Validity-Only Partial Statelessness
+- ja: バリディティオンリー部分ステートレス性 (VOPS)
+- aliases: [VOPS]
+- related: [Statelessness, BALs, zkEVM]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25233
+- auto_source_url: https://ethresear.ch/t/repurposing-focil-as-an-l2-forced-transaction-mechanism/25233
+- desc: |
+  バリデータやインクルーダーのストレージ負荷を軽減し、アカウントの残高とノンスのみを追跡することで健全なメモリプールを維持することを目指す、ステートレス性を部分的に実現するための提案。
+
+## Native rollups
+- ja: ネイティブロールアップ
+- related: [Rollup, L2]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25233
+- auto_source_url: https://ethresear.ch/t/repurposing-focil-as-an-l2-forced-transaction-mechanism/25233
+- desc: |
+  L1とのより深い統合を特徴とするロールアップの一種。特に強制トランザクションメカニズムの簡素化を目的として研究されている。
+
+## Forced transaction mechanism
+- ja: 強制トランザクションメカニズム
+- related: [Censorship resistance, Sequencer, Inclusion list]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25233
+- auto_source_url: https://ethresear.ch/t/repurposing-focil-as-an-l2-forced-transaction-mechanism/25233
+- desc: |
+  L2のシーケンサーによる検閲を防ぐため、ユーザーがトランザクションを強制的にL2ブロックに含めることを可能にする仕組み。本稿ではFOCILを再利用して、既存ソリューションとは異なるアプローチを提案する。
+
+## Block stuffing
+- ja: ブロックスタッフィング
+- related: [Censorship resistance, Base fee, Inclusion list]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25233
+- auto_source_url: https://ethresear.ch/t/repurposing-focil-as-an-l2-forced-transaction-mechanism/25233
+- desc: |
+  ビルダーが意図的にブロックを大量のトランザクションで満たし、特定のトランザクションのインクルージョンを妨害する行為。プロトコルはEIP-1559のベースフィーを増加させることで検閲耐性を提供する。
+
+## Accounts-only nodes
+- ja: アカウントオンリーノード
+- related: [VOPS, BALs, Account proof]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25233
+- auto_source_url: https://ethresear.ch/t/repurposing-focil-as-an-l2-forced-transaction-mechanism/25233
+- desc: |
+  L2ユーザーがフルステートを維持することなく、アカウントの残高とノンスのみを追跡することで、強制トランザクションを容易に送信できるようにするノードの一種。VOPSとzkEVMと組み合わせて研究されている。
+
+## Hegota
+- ja: ヘゴタ
+- related: [Glamsterdam, hard fork]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25232
+- auto_source_url: https://ethresear.ch/t/scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth/25232
+- desc: |
+  Glamsterdamの後にガスリミットのスケーリングを維持するために提案されているEthereumのハードフォーク名。ETH転送のガス上限が実行と帯域幅の両方の側面を制約するという観察に基づき、スケーリングの最適化を目指す。
+
+## anchor block
+- ja: アンカーブロック
+- aliases: [transfer-full block]
+- related: [ETH transfer, gas limit, bandwidth]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25232
+- auto_source_url: https://ethresear.ch/t/scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth/25232
+- desc: |
+  21,000ガスを消費するETH転送のみで構成されたブロック。このブロックがスロットの実行と帯域幅の両方の次元を制約するため、スケーリング分析の基準点として使用される。
+
+## execution anchor
+- ja: 実行アンカー
+- related: [gas limit, transfer cap]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25232
+- auto_source_url: https://ethresear.ch/t/scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth/25232
+- desc: |
+  ETH転送の21,000ガスという上限によって固定される、最悪ケースの実行性能の基準値。Glamsterdamでは100 Mgas/sに設定されており、これ以上の引き上げはETH転送のガスコスト変更を伴うため困難とされる。
+
+## calldata floor
+- ja: コールデータフロア
+- related: [calldata pricing, EIP-7976]
+- auto_added: 2026-06-20
+- auto_source_topic_id: 25232
+- auto_source_url: https://ethresear.ch/t/scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth/25232
+- desc: |
+  コールデータのガス価格設定における最低料金。EIP-7976で導入され、Glamsterdamでは64ガス/バイトに設定されたが、Hegotaでは96ガス/バイトへの引き上げが提案されている。
