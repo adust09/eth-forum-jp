@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-20'
+date: '2026-06-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -50,6 +50,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
+- [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
@@ -61,6 +62,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
+- [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
@@ -82,6 +84,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
+- [[glossary/condorcet-winner|condorcet winner]] — コンドルセ勝者
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
@@ -104,6 +107,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
+- [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
@@ -155,6 +159,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
+- [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
@@ -232,6 +237,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
+- [[glossary/majority-trigger-mechanism|majority-trigger mechanism]] — 過半数トリガーメカニズム
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
@@ -250,6 +256,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Multisig|Multisig]] — マルチシグ（マルチシグネチャ）
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
+- [[glossary/native-zkEVM|native zkEVM]] — ネイティブzkEVM
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
@@ -320,11 +327,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proposal-Convexity-Maximisation|Proposal Convexity Maximisation]] — 提案の凸性最大化
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/protocol-enshrined-shielded-pool|protocol-enshrined shielded pool]] — プロトコルに組み込まれたシールドプール
+- [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
 - [[glossary/RANDAO|RANDAO]] — RANDAO
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
+- [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
@@ -375,6 +384,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
+- [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
 - [[glossary/state-expiry|state expiry]] — ステート有効期限

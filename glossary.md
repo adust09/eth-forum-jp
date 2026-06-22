@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-20
+last_updated: 2026-06-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4040,3 +4040,93 @@ description: |
 - auto_source_url: https://ethresear.ch/t/scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth/25232
 - desc: |
   コールデータのガス価格設定における最低料金。EIP-7976で導入され、Glamsterdamでは64ガス/バイトに設定されたが、Hegotaでは96ガス/バイトへの引き上げが提案されている。
+
+## native zkEVM
+- ja: ネイティブzkEVM
+- related: [zkEVM, enshrined proposer-builder separation, blobs]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25254
+- auto_source_url: https://ethresear.ch/t/a-native-zkevm-scales-bandwidth-not-just-execution/25254
+- desc: |
+  EthereumのL1プロトコルに組み込まれ、バリデータがブロックの再実行ではなくZK証明の検証を行うように規定されたzkEVM。これにより、実行スケーリングと帯域幅スケーリングの両方を目指し、Ethereumの処理能力を大幅に向上させることを目的とする。
+
+## execution scaling
+- ja: 実行スケーリング
+- related: [bandwidth scaling, zkEVM, proof verification]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25254
+- auto_source_url: https://ethresear.ch/t/a-native-zkevm-scales-bandwidth-not-just-execution/25254
+- desc: |
+  ブロック内のトランザクション実行にかかる時間を短縮することで、Ethereumの処理能力を向上させるスケーリング手法。zkEVMでは、ブロックの再実行をZK証明の検証に置き換えることで、このスケーリングを実現する。
+
+## bandwidth scaling
+- ja: 帯域幅スケーリング
+- related: [execution scaling, blobs, data availability sampling, blocks-in-blobs]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25254
+- auto_source_url: https://ethresear.ch/t/a-native-zkevm-scales-bandwidth-not-just-execution/25254
+- desc: |
+  ブロックデータのダウンロードにかかる時間を短縮することで、Ethereumの処理能力を向上させるスケーリング手法。zkEVMとblobsを組み合わせることで、バリデータがブロック内容をサンプリングするだけで済むようになり、ダウンロード遅延を大幅に削減する。
+
+## prover
+- ja: プルーバー
+- related: [zkEVM, proof verification]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25254
+- auto_source_url: https://ethresear.ch/t/a-native-zkevm-scales-bandwidth-not-just-execution/25254
+- desc: |
+  zkEVMのブロック検証フローにおいて、ブロックのトランザクションが有効であることを示すZK証明を生成する役割を担う参加者。この役割は、プロトコルに組み込まれるか、ビルダーが担うことが想定されている。
+
+## blocks-in-blobs
+- ja: ブロック・イン・ブロブ (blocks-in-blobs)
+- related: [blobs, data availability sampling, bandwidth scaling, EIP-8142]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25254
+- auto_source_url: https://ethresear.ch/t/a-native-zkevm-scales-bandwidth-not-just-execution/25254
+- desc: |
+  ブロックの全内容をデータブロブ内に配置する仕組み。EIP-8142によって実現され、バリデータはブロック全体をダウンロードする代わりに、ブロブをサンプリングするだけで検証が可能となり、帯域幅スケーリングに貢献する。
+
+## redirect rate
+- ja: リダイレクト率
+- related: [staking rewards, splitter contract]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25248
+- auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
+- desc: |
+  ステーキング報酬のうち、エコシステムへの資金提供にリダイレクトされる割合。バリデータが設定し、過半数の合意により全バリデータに義務付けられるプロトコルレベルのパラメータです。
+
+## splitter contract
+- ja: スプリッターコントラクト
+- related: [redirect rate, condorcet winner]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25248
+- auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
+- desc: |
+  リダイレクトされた資金を複数の受取人アドレスに分配するためのスマートコントラクト。バリデータの選好に基づいて、コンドルセ勝者となる分配比率が決定されます。
+
+## condorcet winner
+- ja: コンドルセ勝者
+- related: [splitter contract, validator preferences]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25248
+- auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
+- desc: |
+  複数の選択肢がある中で、他のどの選択肢との一対一の対決においても勝利する選択肢を指す概念。本提案では、バリデータの選好を集約し、リダイレクト資金の最適な分配比率を決定するために用いられます。
+
+## majority-trigger mechanism
+- ja: 過半数トリガーメカニズム
+- related: [redirect rate, validator consensus]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25248
+- auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
+- desc: |
+  リダイレクト率が0%より高い値に設定された場合、51%以上のバリデータがその設定に同意すると、そのリダイレクト率がすべてのバリデータに強制的に適用される仕組み。フリーライダー問題を解決し、協調行動を促します。
+
+## deadweight loss
+- ja: 死荷重（デッドウェイトロス）
+- related: [coordination failure, free-rider problem]
+- auto_added: 2026-06-22
+- auto_source_topic_id: 25248
+- auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
+- desc: |
+  市場の非効率性によって生じる、経済的厚生の不可逆的な損失。本提案では、Ethereumエコシステムにおける共有インフラへの資金提供不足が引き起こす、競争力低下の要因として説明されています。

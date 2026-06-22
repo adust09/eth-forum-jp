@@ -5,7 +5,7 @@ aliases:
   - PIM
 tags:
   - glossary
-date: '2026-06-20'
+date: '2026-06-22'
 ---
 
 **プロトコルインタラクションマニフェスト (PIM)**
