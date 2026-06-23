@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4130,3 +4130,139 @@ description: |
 - auto_source_url: https://ethresear.ch/t/validator-redirected-revenue/25248
 - desc: |
   市場の非効率性によって生じる、経済的厚生の不可逆的な損失。本提案では、Ethereumエコシステムにおける共有インフラへの資金提供不足が引き起こす、競争力低下の要因として説明されています。
+
+## Relationship-Anchored Money
+- ja: 関係性アンカー型マネー
+- aliases: [RAM]
+- related: [Symbolization, Securitization (of money)]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 25275
+- auto_source_url: https://ethresear.ch/t/relationship-anchored-money-separating-symbolization-from-securitization/25275
+- desc: |
+  価値交換の関係性から切り離された匿名トークンとしての「証券化」を構造的に阻止し、価値交換の「象徴化」を維持するよう設計された貨幣プロトコル。ETHを唯一の準備資産とし、L2に不変のスマートコントラクトとしてデプロイされる。
+
+## Symbolization
+- ja: 象徴化
+- related: [Securitization (of money), Relationship-Anchored Money]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 25275
+- auto_source_url: https://ethresear.ch/t/relationship-anchored-money-separating-symbolization-from-securitization/25275
+- desc: |
+  価値交換を記録する行為。Relationship-Anchored Moneyプロトコルでは、貨幣が価値交換の関係性を保持する側面を指し、証券化と対比される。
+
+## Securitization (of money)
+- ja: 貨幣の証券化
+- related: [Symbolization, Relationship-Anchored Money]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 25275
+- auto_source_url: https://ethresear.ch/t/relationship-anchored-money-separating-symbolization-from-securitization/25275
+- desc: |
+  価値の象徴をその関係性から切り離し、自由に譲渡可能な匿名トークンに変える行為。Relationship-Anchored Moneyプロトコルでは、これが社会的な損害を隠蔽可能にする主要因と見なされる。
+
+## Collaboration pools
+- ja: コラボレーションプール
+- related: [Relationship-Anchored Money, Equity relationships]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 25275
+- auto_source_url: https://ethresear.ch/t/relationship-anchored-money-separating-symbolization-from-securitization/25275
+- desc: |
+  Relationship-Anchored Moneyプロトコルにおける普遍的な組織プリミティブ。所有者不在で、株主全員の同意によって統治され、労働報酬が株式ベースの収益分配となる。
+
+## Exchange-channel minting
+- ja: 交換チャネルミント
+- related: [Relationship-Anchored Money, Transaction tax]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 25275
+- auto_source_url: https://ethresear.ch/t/relationship-anchored-money-separating-symbolization-from-securitization/25275
+- desc: |
+  Relationship-Anchored Moneyプロトコルにおいて、ETHを預け入れて新しいポイントをミントするプロトコルレベルの操作。20%の取引税の対象外となる。
+
+## EVM
+- ja: EVM (イーサリアム仮想マシン)
+- aliases: [Ethereum Virtual Machine]
+- related: [zkevm, execution layer, smart contract, gas]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28843
+- auto_source_url: https://ethereum-magicians.org/t/subroutines-for-the-evm-1-june-30-2026/28843
+- desc: |
+  イーサリアムのスマートコントラクトを実行するための分散型仮想マシンです。ブロックチェーン上のすべてのノードで同じコードが実行されることを保証し、トランザクションの処理と状態の更新を行います。
+
+## Oracle-Permissioned
+- ja: オラクル許可型
+- related: [Oracle, Permissioned]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28842
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-103-june-23-2026/28842
+- desc: |
+  オラクルによって特定の操作やアクセスが許可されるモデル。スマートコントラクトやトークンにおいて、外部のデータや条件に基づいて権限を制御するために使用される。
+
+## Prepared Transaction Envelope
+- ja: 準備済みトランザクションエンベロープ
+- related: [Transaction Envelope]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28842
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-103-june-23-2026/28842
+- desc: |
+  特定の目的のために事前に構造化または準備されたトランザクションのラッパー。トランザクションの署名、実行、または他のオンチェーン操作を容易にするために使用される。
+
+## Compliance Oracle
+- ja: コンプライアンスオラクル
+- related: [Oracle, Zero-Knowledge Proof]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28842
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-103-june-23-2026/28842
+- desc: |
+  ブロックチェーン上のトランザクションやエンティティが特定の規制やポリシーに準拠しているかを検証・報告する役割を持つオラクル。ゼロ知識証明と組み合わせてプライバシーを保護しつつコンプライアンスを実現する。
+
+## Forward compatible consensus data structures
+- ja: 前方互換性のあるコンセンサスデータ構造
+- related: [consensus layer, protocol upgrade]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28840
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-85-june-29-2026/28840
+- desc: |
+  Ethereumプロトコルにおいて、将来のアップグレードや変更に対応できるよう設計されたコンセンサス層のデータ構造を指す。これにより、プロトコルの進化に伴う互換性の問題を最小限に抑え、スムーズな移行を可能にする。
+
+## Malleable offchain metadata
+- ja: 可変なオフチェーンメタデータ
+- related: [NFT]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28839
+- auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
+- desc: |
+  NFTの特性や外観を定義するデータがブロックチェーン外に保存され、発行者などによって変更されうる状態を指します。これにより、NFTの永続性や信頼性が損なわれる可能性があります。
+
+## Offchain orderbook
+- ja: オフチェーンオーダーブック
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28839
+- auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
+- desc: |
+  取引の注文（買い注文と売り注文）がブロックチェーン外の集中型システムで管理される形式のオーダーブックです。高速な取引を可能にする一方で、中央集権的な信頼を必要とします。
+
+## minHash
+- ja: minHash (ミニハッシュ)
+- related: [Locality Sensitive Hashing, Jaccard similarity]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28839
+- auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
+- desc: |
+  集合間の類似度を効率的に推定するために使用される、局所性鋭敏型ハッシュ (LSH) の一種です。特に大規模なデータセットにおいて、Jaccard類似度を近似するのに役立ちます。
+
+## Jaccard similarity
+- ja: Jaccard類似度 (ジャカード類似度)
+- related: [minHash, Locality Sensitive Hashing]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28839
+- auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
+- desc: |
+  2つの集合間の類似度を測る尺度で、共通部分の要素数を和集合の要素数で割った値です。minHashと組み合わせて、NFTの特性セット間の類似性をオンチェーンで評価するために利用されます。
+
+## Credibly neutral
+- ja: 信頼できる中立性
+- related: [decentralization, market fragmentation]
+- auto_added: 2026-06-23
+- auto_source_topic_id: 28839
+- auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
+- desc: |
+  システムやプロトコルが、特定の参加者やグループに偏ることなく、公平かつ予測可能な方法で機能するという特性を指します。分散型システム、特に市場インフラにおいて、市場の分断を防ぎ、広範な採用を促す上で重要な設計原則です。

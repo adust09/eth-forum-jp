@@ -4,7 +4,7 @@ aliases:
   - エージェント型商取引 (Agentic Commerce)
 tags:
   - glossary
-date: '2026-06-22'
+date: '2026-06-23'
 ---
 
 **エージェント型商取引 (Agentic Commerce)**
