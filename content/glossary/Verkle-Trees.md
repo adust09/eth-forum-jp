@@ -5,7 +5,7 @@ aliases:
   - VKTs
 tags:
   - glossary
-date: '2026-06-23'
+date: '2026-06-24'
 ---
 
 **Verkleツリー**
