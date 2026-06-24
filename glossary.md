@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4266,3 +4266,122 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/using-lsh-minhash-to-enable-decentralized-nft-marketplaces/28839
 - desc: |
   システムやプロトコルが、特定の参加者やグループに偏ることなく、公平かつ予測可能な方法で機能するという特性を指します。分散型システム、特に市場インフラにおいて、市場の分断を防ぎ、広範な採用を促す上で重要な設計原則です。
+
+## threshold ecdsa
+- ja: しきい値ECDSA (Threshold ECDSA)
+- related: [threshold encryption, multi-party computation, ECDSA]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 25279
+- auto_source_url: https://ethresear.ch/t/the-ethgent-testnet-officially-launches-today/25279
+- desc: |
+  複数の参加者が協力してECDSA署名を生成するが、個々の参加者は秘密鍵全体を知らないスキーム。特定のしきい値以上の参加者が合意することで署名が有効となるため、単一障害点のリスクを低減し、セキュリティを向上させる。
+
+## http outcalls
+- ja: HTTPアウトコール
+- related: [oracle, cross-chain communication]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 25279
+- auto_source_url: https://ethresear.ch/t/the-ethgent-testnet-officially-launches-today/25279
+- desc: |
+  スマートコントラクトがブロックチェーンの外部にあるHTTPエンドポイントに対してリクエストを送信し、その応答を受け取る機能。これにより、コントラクトはオフチェーンデータやサービスと安全に連携できるようになる。
+
+## app chain
+- ja: アプリケーションチェーン
+- aliases: [application-specific blockchain]
+- related: [rollup, L2, sovereign rollup]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 25279
+- auto_source_url: https://ethresear.ch/t/the-ethgent-testnet-officially-launches-today/25279
+- desc: |
+  特定のアプリケーションやユースケースのために設計・最適化されたブロックチェーン。汎用的なブロックチェーンとは異なり、そのアプリケーションの要件に合わせてカスタマイズされた機能やパフォーマンスを提供できる。
+
+## async sublayer
+- ja: 非同期サブレイヤー
+- related: [layered architecture, asynchronous processing]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 25279
+- auto_source_url: https://ethresear.ch/t/the-ethgent-testnet-officially-launches-today/25279
+- desc: |
+  ブロックチェーンシステム内で非同期処理を扱うための下位レイヤー。メインの実行レイヤーとは独立して動作し、時間のかかる操作や外部との通信などを効率的に処理することで、システムの全体的なスループットと応答性を向上させる。
+
+## Stateful Keys
+- ja: ステートフルキー
+- related: [XMSS, consumable key, commit-before-sign durability ordering]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28853
+- auto_source_url: https://ethereum-magicians.org/t/eip-8310-post-quantum-keystore-for-stateful-keys/28853
+- desc: |
+  署名ごとに内部状態が変化し、その状態を追跡・更新する必要がある暗号キー。XMSSなどのハッシュベース署名スキームで用いられ、キーの再利用や状態の巻き戻しがセキュリティ上の脆弱性につながるため、厳格な管理が求められる。
+
+## leanxmss
+- ja: leanXMSS
+- related: [XMSS, lean Ethereum consensus layer]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28853
+- auto_source_url: https://ethereum-magicians.org/t/eip-8310-post-quantum-keystore-for-stateful-keys/28853
+- desc: |
+  Ethereumのコンセンサス層（lean Ethereum）で使用されることを想定したXMSSの実装またはプロファイル。ポスト量子セキュリティを目的として、BLSバリデーターキーの代替として検討されている。
+
+## commit-before-sign durability ordering
+- ja: 署名前コミット耐久性順序付け
+- related: [Stateful Keys, high-water mark]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28853
+- auto_source_url: https://ethereum-magicians.org/t/eip-8310-post-quantum-keystore-for-stateful-keys/28853
+- desc: |
+  ステートフルキー（特にXMSS）の安全な運用を保証するためのプロトコル設計パターン。署名が生成される前に、キーの進んだ状態（ハイウォーターマーク）を永続ストレージにコミットすることを義務付ける。これにより、システム障害時でもキー状態の巻き戻しによる再利用を防ぐ。
+
+## Bounded Agent Actions
+- ja: 制限付きエージェントアクション (ERC-1833)
+- aliases: [ERC-1833]
+- related: [agent authority, bounded mandate, cursor]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28851
+- auto_source_url: https://ethereum-magicians.org/t/erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority/28851
+- desc: |
+  ERC-1833で提案されている、エージェントが持つ権限（マンデート）の使用量を計測するためのフレームワーク。エージェントが実行したアクション全体で、どれだけの権限を消費したかを追跡する。
+
+## cursor
+- ja: カーソル (オンチェーンオブジェクト)
+- related: [Bounded Agent Actions, bounded mandate, metering layer]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28851
+- auto_source_url: https://ethereum-magicians.org/t/erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority/28851
+- desc: |
+  エージェントの制限付きマンデートの使用量を追跡するために使用される、オンチェーンの小さなオブジェクト。単一のインターフェースを持ち、マンデートの残量を読み取り、消費量に応じて進めることができる。
+
+## bounded mandate
+- ja: 制限付きマンデート
+- related: [agent authority, Bounded Agent Actions, cursor]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28851
+- auto_source_url: https://ethereum-magicians.org/t/erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority/28851
+- desc: |
+  エージェントに付与される、使用量に上限が設定された権限。エージェントが実行するアクションを通じて消費され、その残量が追跡される。
+
+## metering layer
+- ja: 計測レイヤー
+- related: [Bounded Agent Actions, cursor]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28851
+- auto_source_url: https://ethereum-magicians.org/t/erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority/28851
+- desc: |
+  エージェントの権限（マンデート）の使用量を計測し、追跡するための抽象化された層。この層は、消費された権限の量を記録する役割を担い、実際の強制は別の層で行われる。
+
+## bounded-execution
+- ja: 制限付き実行
+- related: [ERC-8301, Bounded Agent Actions]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28851
+- auto_source_url: https://ethereum-magicians.org/t/erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority/28851
+- desc: |
+  ERC-8301で議論されている概念で、エージェントやコントラクトの実行に特定の制約や上限を設けること。本ERC-1833の計測レイヤーと連携して、実行の制約を強制する。
+
+## Fast Confirmation Rule
+- ja: 高速承認ルール
+- aliases: [FCR]
+- auto_added: 2026-06-24
+- auto_source_topic_id: 28850
+- auto_source_url: https://ethereum-magicians.org/t/fast-confirmation-rule-fcr-10-july-7-2026/28850
+- desc: |
+  Ethereumにおけるトランザクションの高速承認に関する特定のルールまたは提案。ブロックのファイナリティやトランザクションの確定を加速するためのメカニズムを指す。会議の議題として定期的に議論されていることから、継続的な研究テーマであると考えられる。

@@ -4,7 +4,7 @@ aliases:
   - 制限タイプ
 tags:
   - glossary
-date: '2026-06-23'
+date: '2026-06-24'
 ---
 
 **制限タイプ**

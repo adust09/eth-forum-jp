@@ -4,7 +4,7 @@ aliases:
   - プライバシープリミティブ (Privacy Primitive)
 tags:
   - glossary
-date: '2026-06-23'
+date: '2026-06-24'
 ---
 
 **プライバシープリミティブ (Privacy Primitive)**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-23'
+date: '2026-06-24'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -37,12 +37,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
 - [[glossary/anchor-block|anchor block]] — アンカーブロック
 - [[glossary/anchoring|anchoring]] — アンカリング
+- [[glossary/app-chain|app chain]] — アプリケーションチェーン
 - [[glossary/Asset-futarchy|Asset futarchy]] — アセット・フューチャーキー (資産フューチャーキー)
 - [[glossary/Asset-Key|Asset Key]] — アセットキー
 - [[glossary/Asset-Enforced-Spend-Mandate|Asset-Enforced Spend Mandate]] — アセット強制型支出委任
 - [[glossary/Asset-scoped|Asset-scoped]] — 資産スコープ
 - [[glossary/Association-Set-Provider|Association Set Provider]] — アソシエーションセットプロバイダー
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
+- [[glossary/async-sublayer|async sublayer]] — 非同期サブレイヤー
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
@@ -65,6 +67,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
+- [[glossary/Bounded-Agent-Actions|Bounded Agent Actions]] — 制限付きエージェントアクション (ERC-1833)
+- [[glossary/bounded-mandate|bounded mandate]] — 制限付きマンデート
+- [[glossary/bounded-execution|bounded-execution]] — 制限付き実行
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
@@ -80,6 +85,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
 - [[glossary/Collaboration-pools|Collaboration pools]] — コラボレーションプール
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]] — コミット＆リビール方式
+- [[glossary/commit-before-sign-durability-ordering|commit-before-sign durability ordering]] — 署名前コミット耐久性順序付け
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
@@ -107,6 +113,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
+- [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
@@ -169,6 +176,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
+- [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
@@ -197,6 +205,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
 - [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
+- [[glossary/http-outcalls|http outcalls]] — HTTPアウトコール
 - [[glossary/Hypertree|Hypertree]] — ハイパーツリー
 - [[glossary/IAgentCaller|IAgentCaller]] — IAgentCaller (インターフェース)
 - [[glossary/IAgentHandler|IAgentHandler]] — IAgentHandler (インターフェース)
@@ -237,6 +246,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/leanSPHINCS|leanSPHINCS]] — leanSPHINCS（リーンSPHINCS）
 - [[glossary/leanVM|leanVM]] — leanVM
+- [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
@@ -250,6 +260,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
+- [[glossary/metering-layer|metering layer]] — 計測レイヤー
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MEV-opportunity-attribution-problem|MEV opportunity attribution problem]] — MEV機会帰属問題
 - [[glossary/minHash|minHash]] — minHash (ミニハッシュ)
@@ -408,6 +419,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-Tiering-by-Periods|State Tiering by Periods]] — 期間別ステート階層化
 - [[glossary/State-transition-function|State transition function]] — 状態遷移関数
 - [[glossary/state-tuple|state tuple]] — 状態タプル
+- [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
@@ -416,6 +428,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/testnet|testnet]] — テストネット
+- [[glossary/threshold-ecdsa|threshold ecdsa]] — しきい値ECDSA (Threshold ECDSA)
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
 - [[glossary/Tiered-Permissions|Tiered Permissions]] — 階層型パーミッション
