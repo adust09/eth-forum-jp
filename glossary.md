@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4385,3 +4385,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/fast-confirmation-rule-fcr-10-july-7-2026/28850
 - desc: |
   Ethereumにおけるトランザクションの高速承認に関する特定のルールまたは提案。ブロックのファイナリティやトランザクションの確定を加速するためのメカニズムを指す。会議の議題として定期的に議論されていることから、継続的な研究テーマであると考えられる。
+
+## Scope Contestation Registry
+- ja: スコープ異議申し立てレジストリ
+- related: [Observation Scope, Contestability]
+- auto_added: 2026-06-25
+- auto_source_topic_id: 28856
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
+- desc: |
+  アクターが観測した座標の集合（観測スコープ）を外部コミットメントに紐付けてコミットし、任意の第三者が特定の座標がそのコミットされた集合に「不在」であったことをオンチェーンで証明できる、パーミッションレスなメカニズム。レジストリはこれらの証明を永続的に記録し、観測の完全性に関する異議申し立てを可能にする。
+
+## Observation Scope
+- ja: 観測スコープ
+- related: [Scope Contestation Registry, Coordinate]
+- auto_added: 2026-06-25
+- auto_source_topic_id: 28856
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
+- desc: |
+  アクターが観測した座標の集合。スコープ異議申し立てレジストリにおいて、このスコープの「完全性」が問われる対象となる。エージェントが特定のタスクを実行する際に考慮した情報範囲を示す。
+
+## Contestability
+- ja: 異議申し立て可能性
+- related: [Scope Contestation Registry, Omission]
+- auto_added: 2026-06-25
+- auto_source_topic_id: 28856
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
+- desc: |
+  観測スコープからの見えない省略を、永続的でパーミッションレスかつ再計算可能な主張へと変換するメカニズム。これにより、システムの構造的な盲点に対処し、観測の完全性に関する検証を可能にする。
+
+## Omission
+- ja: 省略（観測スコープからの）
+- related: [Observation Scope, Contestability]
+- auto_added: 2026-06-25
+- auto_source_topic_id: 28856
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
+- desc: |
+  アクターが観測スコープから特定の座標を意図的または偶発的に含めなかった状態。スコープ異議申し立てレジストリは、この省略が構造的に見えないものではなく、異議申し立て可能であることを保証する。
+
+## Coordinate
+- ja: 座標（観測スコープ内の）
+- related: [Observation Scope]
+- auto_added: 2026-06-25
+- auto_source_topic_id: 28856
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
+- desc: |
+  観測スコープを構成する個々のデータ要素。例えば、資産回復の文脈では特定のアドレスを指し、その存在または不在が観測スコープの完全性に影響を与える。

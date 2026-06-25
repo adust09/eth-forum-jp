@@ -4,7 +4,7 @@ aliases:
   - zkシーディング層 (zk shielding layer)
 tags:
   - glossary
-date: '2026-06-24'
+date: '2026-06-25'
 ---
 
 **zkシーディング層 (zk shielding layer)**

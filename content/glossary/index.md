@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-24'
+date: '2026-06-25'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -98,12 +98,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
+- [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Contract-Role-Naming-Pattern|Contract Role Naming Pattern]] — コントラクトロール命名パターン
 - [[glossary/Contribution-score|Contribution score]] — 貢献スコア
 - [[glossary/Controller-Pattern|Controller Pattern]] — コントローラーパターン
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]] — 協調的資本主義
+- [[glossary/Coordinate|Coordinate]] — 座標（観測スコープ内の）
 - [[glossary/Coordination-Collapse|Coordination Collapse]] — 協調崩壊
 - [[glossary/Core-Role-Set|Core Role Set]] — コアロールセット
 - [[glossary/Counterfactual-analysis|Counterfactual analysis]] — 反実仮想分析
@@ -285,9 +287,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
 - [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
+- [[glossary/Observation-Scope|Observation Scope]] — 観測スコープ
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/Offchain-orderbook|Offchain orderbook]] — オフチェーンオーダーブック
+- [[glossary/Omission|Omission]] — 省略（観測スコープからの）
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]] — オンチェーンメカニズム設計
@@ -384,6 +388,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
+- [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス

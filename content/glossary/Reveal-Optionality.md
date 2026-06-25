@@ -5,7 +5,7 @@ aliases:
   - Reveal Optionality by the Transaction Sender
 tags:
   - glossary
-date: '2026-06-24'
+date: '2026-06-25'
 ---
 
 **リビール選択性**
