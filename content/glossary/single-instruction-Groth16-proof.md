@@ -4,7 +4,7 @@ aliases:
   - 単一命令Groth16証明
 tags:
   - glossary
-date: '2026-06-24'
+date: '2026-06-25'
 ---
 
 **単一命令Groth16証明**

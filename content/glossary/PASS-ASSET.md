@@ -4,7 +4,7 @@ aliases:
   - PASS-ASSET (可決時資産)
 tags:
   - glossary
-date: '2026-06-24'
+date: '2026-06-25'
 ---
 
 **PASS-ASSET (可決時資産)**
