@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-25'
+date: '2026-06-26'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -47,6 +47,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/async-sublayer|async sublayer]] — 非同期サブレイヤー
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
+- [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
@@ -102,6 +103,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Contract-Role-Naming-Pattern|Contract Role Naming Pattern]] — コントラクトロール命名パターン
+- [[glossary/Contract-Role-Semantics-Standard|Contract Role Semantics Standard]] — コントラクトロール意味論標準
 - [[glossary/Contribution-score|Contribution score]] — 貢献スコア
 - [[glossary/Controller-Pattern|Controller Pattern]] — コントローラーパターン
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]] — 協調的資本主義
@@ -124,6 +126,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
+- [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
@@ -345,8 +348,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
+- [[glossary/Privileged-Role-Control-Framework|Privileged Role Control Framework]] — 特権ロール制御フレームワーク
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
+- [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
@@ -401,6 +406,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Session-Root|Session Root]] — セッションルート
 - [[glossary/SETCODEFROM|SETCODEFROM]] — SETCODEFROM (EVM命令)
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
+- [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
@@ -409,7 +415,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
+- [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
+- [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
@@ -437,6 +445,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外
 - [[glossary/Tiered-Permissions|Tiered Permissions]] — 階層型パーミッション
+- [[glossary/Time-Bound-Access-Control-Interface|Time-Bound Access Control Interface]] — 期限付きアクセス制御インターフェース
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
 - [[glossary/Time-locked-blind-sessions|Time-locked blind sessions]] — タイムロックされたブラインドセッション
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
@@ -463,6 +472,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
+- [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verification-Primitive|Verification Primitive]] — 検証プリミティブ
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
