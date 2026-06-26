@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4430,3 +4430,99 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability/28856
 - desc: |
   観測スコープを構成する個々のデータ要素。例えば、資産回復の文脈では特定のアドレスを指し、その存在または不在が観測スコープの完全性に影響を与える。
+
+## Programmable Settlement Locks
+- ja: プログラマブル決済ロック (Programmable Settlement Locks)
+- aliases: [ERC-8316]
+- related: [Atomic Settlement, Settlement Object]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28861
+- auto_source_url: https://ethereum-magicians.org/t/erc-8316-programmable-settlement-locks/28861
+- desc: |
+  異なるアセットモデルや可視性を持つシステム間でのアトミックな決済を可能にするために提案されたERC-8316で定義されるインターフェース。価値を持つコントラクトが共通のロックライフサイクル（作成、更新、委任、使用、キャンセル、検査）を公開するための最小限のインターフェースを提供する。
+
+## Atomic Settlement
+- ja: アトミック決済 (Atomic Settlement)
+- related: [Programmable Settlement Locks, Settlement Object]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28861
+- auto_source_url: https://ethereum-magicians.org/t/erc-8316-programmable-settlement-locks/28861
+- desc: |
+  異なるシステム間で、すべてが成功するか、すべてが失敗するかのいずれかとなるように、価値の移転を最終的に確定させるプロセス。特に、アセットモデルや可視性の前提が異なるシステム間での信頼性の高い価値移転を可能にする。
+
+## Settlement Object
+- ja: 決済オブジェクト (Settlement Object)
+- related: [Programmable Settlement Locks, Atomic Settlement]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28861
+- auto_source_url: https://ethereum-magicians.org/t/erc-8316-programmable-settlement-locks/28861
+- desc: |
+  プログラマブル決済ロックの提案における中心的な概念で、標準化された決済の表現。これは、単一の現在の使用者を持ち、コミットされた使用パスとキャンセルパス、および最終化権限の委任を伴う、準備された価値を持つ操作を表す。
+
+## Value-bearing operation
+- ja: 価値を持つ操作 (Value-bearing operation)
+- related: [Programmable Settlement Locks, Settlement Object]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28861
+- auto_source_url: https://ethereum-magicians.org/t/erc-8316-programmable-settlement-locks/28861
+- desc: |
+  価値を持つコントラクトによって実行される、資産の移動や状態変更を伴う操作。プログラマブル決済ロックは、このような操作を事前に準備し、その最終化を委任するためのメカニズムを提供する。
+
+## Delegation of finalization authority
+- ja: 最終化権限の委任 (Delegation of finalization authority)
+- related: [Programmable Settlement Locks, Settlement Object]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28861
+- auto_source_url: https://ethereum-magicians.org/t/erc-8316-programmable-settlement-locks/28861
+- desc: |
+  プログラマブル決済ロックの重要な機能の一つで、準備された価値を持つ操作の最終的な実行（使用またはキャンセル）を、元の作成者から別の当事者や調整コントラクトに委任すること。これにより、委任された使用者は、事前に定義されたパスを通じてのみ操作を完了できる。
+
+## Privileged Role Control Framework
+- ja: 特権ロール制御フレームワーク
+- aliases: [PRCF]
+- related: [Smart Contract Lifecycle Registry, Contract Role Semantics Standard, Time-Bound Access Control Interface, Smart Contract Emergency Response]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28859
+- auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
+- desc: |
+  スマートコントラクトの特権アクセス管理を標準化するためのERC群。ロールの定義からインシデント対応まで、セキュリティライフサイクル全体をカバーし、ガバナンスの課題解決を目指す。
+
+## Smart Contract Lifecycle Registry
+- ja: スマートコントラクトライフサイクルレジストリ
+- aliases: [ERC-8089]
+- related: [Privileged Role Control Framework]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28859
+- auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
+- desc: |
+  デプロイされたスマートコントラクトの存在とライフサイクルステータス（Default, Active, Deprecated, Frozen, Terminated）を追跡するためのオンチェーンレジストリの標準。忘れられたコントラクトが攻撃対象となるリスクを軽減する。
+
+## Contract Role Semantics Standard
+- ja: コントラクトロール意味論標準
+- aliases: [ERC-8315]
+- related: [Privileged Role Control Framework, Contract Role Naming Standard]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28859
+- auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
+- desc: |
+  標準化されたロール命名構造からセキュリティ意味論を導き出すERC。ロールの階層分類や承認元を定義し、自動化されたリスク評価を可能にする。
+
+## Time-Bound Access Control Interface
+- ja: 期限付きアクセス制御インターフェース
+- aliases: [ERC-8083]
+- related: [Privileged Role Control Framework]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28859
+- auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
+- desc: |
+  ロール付与に有効期限（expiryTimestamp）を紐付けるERC。期限が過ぎると自動的にロールが無効化され、ベンダーや元スタッフによる古い永続的なロールの蓄積を防ぐ。
+
+## Smart Contract Emergency Response
+- ja: スマートコントラクト緊急対応
+- aliases: [ERC-8308]
+- related: [Privileged Role Control Framework, Smart Contract Emergency State]
+- auto_added: 2026-06-26
+- auto_source_topic_id: 28859
+- auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
+- desc: |
+  緊急対応のためのアクションインターフェースを標準化するERC。`triggerEmergency()`と`resolveEmergency()`関数を提供し、監視システムや自動応答システムが任意の準拠コントラクトで緊急事態をトリガー・解決できるようにする。

@@ -5,7 +5,7 @@ aliases:
   - Execution Trace Normalization Layer
 tags:
   - glossary
-date: '2026-06-25'
+date: '2026-06-26'
 ---
 
 **ETNLセマンティックレイヤー (実行トレース正規化レイヤー)**

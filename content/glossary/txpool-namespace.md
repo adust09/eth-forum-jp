@@ -4,7 +4,7 @@ aliases:
   - txpoolネームスペース (txpool namespace)
 tags:
   - glossary
-date: '2026-06-25'
+date: '2026-06-26'
 ---
 
 **txpoolネームスペース (txpool namespace)**

@@ -4,7 +4,7 @@ aliases:
   - エグゼキューターモジュール (Executor Module)
 tags:
   - glossary
-date: '2026-06-25'
+date: '2026-06-26'
 ---
 
 **エグゼキューターモジュール (Executor Module)**
