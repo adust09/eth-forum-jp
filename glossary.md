@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-26
+last_updated: 2026-06-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4526,3 +4526,133 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/introducing-a-privileged-role-control-framework/28859
 - desc: |
   緊急対応のためのアクションインターフェースを標準化するERC。`triggerEmergency()`と`resolveEmergency()`関数を提供し、監視システムや自動応答システムが任意の準拠コントラクトで緊急事態をトリガー・解決できるようにする。
+
+## memory layer
+- ja: メモリ層
+- related: [sequencer, based sequencing, virtual mempools]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25305
+- auto_source_url: https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305
+- desc: |
+  トランザクションがロールアップにシーケンスされ、メモリプールが形成され、検閲や強制的なインクルージョンリストへの追加が行われるプロトコル層。アカウント抽象化の多くの側面もこの層で発生する。
+
+## sequencer
+- ja: シーケンサー
+- related: [rollup, memory layer, based sequencing]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25305
+- auto_source_url: https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305
+- desc: |
+  ロールアップの計算に含まれるトランザクションを選択するエンティティ。歴史的に中央集権的であり、計算とトランザクションの検閲に対する全権限を持つ。
+
+## based sequencing
+- ja: ベースド・シーケンシング
+- related: [sequencer, memory layer, virtual mempools]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25305
+- auto_source_url: https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305
+- desc: |
+  トランザクションのシーケンスを分散化し、検閲耐性やMEVの削減を目指すシーケンシング手法。メモリ層の問題に対する潜在的な解決策の一つ。
+
+## virtual mempools
+- ja: 仮想メモリプール
+- aliases: [sharded mempools]
+- related: [memory layer, based sequencing, sequencer]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25305
+- auto_source_url: https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305
+- desc: |
+  メモリ層を分散化し、トランザクションのシーケンスをロールアップだけでなくメインネット自体にも適用するための概念。公正なインクルージョンとMEVの根絶を目指す。
+
+## attestor-proposer separation
+- ja: アテスター・プロポーザー分離
+- related: [proposer-builder separation, MEV, consensus layer]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25305
+- auto_source_url: https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305
+- desc: |
+  EthereumのPoSにおいて、ブロックの提案者とアテスターの役割を分離する提案。これにより、コンセンサスと実行の分離がより明確になり、MEVや検閲の問題に対処する。
+
+## harvest-now-decrypt-later attacks
+- ja: 今すぐ収集し、後で解読する攻撃
+- aliases: [HNDL attacks]
+- related: [post-quantum cryptography, quantum computer]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25291
+- auto_source_url: https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291
+- desc: |
+  現在の暗号化されたデータを量子コンピュータが利用可能になった将来に解読するために、今すぐ収集・保存しておく攻撃手法。耐量子計算機暗号への移行を促す主要な脅威の一つです。
+
+## key encapsulation mechanism
+- ja: 鍵カプセル化メカニズム (KEM)
+- aliases: [KEM]
+- related: [key agreement, post-quantum cryptography, NIST PQC]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25291
+- auto_source_url: https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291
+- desc: |
+  公開鍵暗号の一種で、共有秘密鍵を安全に確立するために使用されます。特に耐量子計算機暗号の文脈で、鍵合意プロトコルに代わる主要な構成要素としてNISTによって標準化されています。
+
+## decryption trilemma
+- ja: 復号のトリレンマ
+- related: [oblivious message retrieval, fuzzy message detection, privacy-preserving protocols]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25291
+- auto_source_url: https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291
+- desc: |
+  プライバシー保護プロトコルにおいて、匿名性、低遅延、小帯域幅使用量の3つの特性を同時に満たすことが困難であるという課題です。耐量子計算機スキームへの移行により、この問題はさらに顕著になります。
+
+## oblivious message retrieval
+- ja: 秘匿メッセージ検索 (OMR)
+- aliases: [OMR]
+- related: [oblivious message detection, private information retrieval, decryption trilemma]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25291
+- auto_source_url: https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291
+- desc: |
+  受信者が、どのメッセージを検索したかをサーバーに知られることなく、特定のメッセージを効率的に取得できる暗号技術です。量子安全な構成も存在しますが、オンチェーンコストやサーバーコストが高いという課題があります。
+
+## turnstiles
+- ja: ターンスタイル
+- related: [recovery mechanism, social layer coordination]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 25291
+- auto_source_url: https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291
+- desc: |
+  プロトコルにおいて、特に壊滅的な資金損失が発生した場合に、プロトコルの回復を試みるためのメカニズムです。本質的に反応的、非遡及的、非予防的な手法であり、ソーシャルレイヤーの調整を必要とします。
+
+## Contract Storage Layout
+- ja: コントラクトストレージレイアウト
+- related: [Storage Layout Metadata, Diamond Storage, Namespaced Storage]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 28864
+- auto_source_url: https://ethereum-magicians.org/t/erc-8317-contract-storage-layout-descriptor-format/28864
+- desc: |
+  イーサリアムのスマートコントラクトがブロックチェーン上にデータをどのように保存するかを定義する構造。変数の宣言順序や型によってストレージスロットへのマッピングが決まる。
+
+## Storage Layout Metadata
+- ja: ストレージレイアウトメタデータ
+- related: [Contract Storage Layout, Transaction Simulation, Clear Signing]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 28864
+- auto_source_url: https://ethereum-magicians.org/t/erc-8317-contract-storage-layout-descriptor-format/28864
+- desc: |
+  スマートコントラクトのストレージレイアウトに関する記述情報。トランザクションシミュレーションやクリアサイニングなどのツールが、コントラクトの状態変更を解釈し、ユーザーに分かりやすく表示するために利用される。
+
+## Diamond Storage
+- ja: ダイヤモンドストレージ
+- related: [EIP-2535, Namespaced Storage, Smart Contract Accounts]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 28864
+- auto_source_url: https://ethereum-magicians.org/t/erc-8317-contract-storage-layout-descriptor-format/28864
+- desc: |
+  スマートコントラクトのストレージパターンの一つで、複数のファセット（実装コントラクト）が単一のプロキシコントラクトのストレージを共有できるように設計されている。ストレージの衝突を避けつつ、モジュール性を高めることを目的とする。
+
+## Namespaced Storage
+- ja: 名前空間付きストレージ
+- related: [Contract Storage Layout, Diamond Storage, EIP-7201]
+- auto_added: 2026-06-27
+- auto_source_topic_id: 28864
+- auto_source_url: https://ethereum-magicians.org/t/erc-8317-contract-storage-layout-descriptor-format/28864
+- desc: |
+  スマートコントラクトのストレージ管理パターンの一つで、ストレージスロットを論理的な「名前空間」に分割することで、異なるモジュールやライブラリ間でのストレージ衝突を防ぐ。特にアップグレード可能なコントラクトで有用。
