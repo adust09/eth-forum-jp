@@ -4,7 +4,7 @@ aliases:
   - 設定モジュール (Config Module)
 tags:
   - glossary
-date: '2026-06-27'
+date: '2026-06-30'
 ---
 
 **設定モジュール (Config Module)**

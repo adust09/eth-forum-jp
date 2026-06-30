@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-27'
+date: '2026-06-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -142,6 +142,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/dormant-state|dormant state]] — 休眠状態
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
 - [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
 - [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
@@ -150,6 +151,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-Editor|EIP Editor]] — EIPエディター
 - [[glossary/EIP-Editors|EIP Editors]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
+- [[glossary/EIP-tagging|EIP tagging]] — EIPタグ付け
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
 - [[glossary/EIPIP|EIPIP]] — EIPIP
@@ -183,6 +185,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
+- [[glossary/existence-probes|existence probes]] — 存在確認プローブ
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
@@ -205,6 +208,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
+- [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Governance-Reconstruction-Problem|Governance Reconstruction Problem]] — ガバナンス再構築問題
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
@@ -340,6 +344,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/pipelining|pipelining]] — パイプライニング
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
+- [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
@@ -353,6 +358,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
 - [[glossary/Prepared-Transaction-Envelope|Prepared Transaction Envelope]] — 準備済みトランザクションエンベロープ
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
+- [[glossary/Price-of-Forgery|Price of Forgery]] — 偽造の価格 (PoF)
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
 - [[glossary/Privacy-Relay|Privacy Relay]] — プライバシーリレー
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
@@ -436,6 +442,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
+- [[glossary/state-access|state access]] — 状態アクセス
 - [[glossary/state-expiry|state expiry]] — ステート有効期限
 - [[glossary/state-growth|state growth]] — 状態成長
 - [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
@@ -449,6 +456,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
+- [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
@@ -482,6 +490,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
+- [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
@@ -498,6 +507,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
+- [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/ZIP-32-subaccounts|ZIP-32 subaccounts]] — ZIP-32サブアカウント

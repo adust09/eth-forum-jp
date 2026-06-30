@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-27
+last_updated: 2026-06-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4656,3 +4656,94 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8317-contract-storage-layout-descriptor-format/28864
 - desc: |
   スマートコントラクトのストレージ管理パターンの一つで、ストレージスロットを論理的な「名前空間」に分割することで、異なるモジュールやライブラリ間でのストレージ衝突を防ぐ。特にアップグレード可能なコントラクトで有用。
+
+## state access
+- ja: 状態アクセス
+- related: [state, state growth, active state, dormant state]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25317
+- auto_source_url: https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317
+- desc: |
+  Ethereumブロックチェーンの状態（アカウント残高、nonce、コード、ストレージスロットなど）に対する読み取りおよび書き込み操作のこと。チェーンのスケーラビリティや効率性を議論する上で中心的な概念です。
+
+## dormant state
+- ja: 休眠状態
+- related: [active state, state expiry, state tiering]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25317
+- auto_source_url: https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317
+- desc: |
+  Ethereumブロックチェーンの状態のうち、長期間にわたってアクセス（読み書き）されていない部分を指します。状態の肥大化問題に対処するための状態階層化（state tiering）の議論において、アクティブな状態と区別されます。
+
+## write-age tier
+- ja: 書き込み経過時間階層
+- related: [state tiering, EIP-8295, Active state, Inactive state]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25317
+- auto_source_url: https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317
+- desc: |
+  Ethereumの状態管理において、各状態要素が最後に書き込まれてからの経過時間に基づいて状態を階層化する仕組みです。EIP-8295などで提案されており、最近書き込まれた状態（Active）を安価に、長期間書き込まれていない状態（Inactive）を高価にすることで、状態の肥大化を抑制します。
+
+## existence probes
+- ja: 存在確認プローブ
+- related: [state access, read-only set, populated read]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25317
+- auto_source_url: https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317
+- desc: |
+  Ethereumの状態に対する読み取り操作のうち、特定のアカウントやストレージスロットが存在するかどうか、または値が設定されているかどうかを確認するために行われるものを指します。多くの場合、ゼロ値を返す読み取りとして観測されます。
+
+## populated read
+- ja: 値あり読み取り
+- related: [state access, read-only set, existence probes]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25317
+- auto_source_url: https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317
+- desc: |
+  Ethereumの状態に対する読み取り操作のうち、ゼロ以外の（つまり、実際にデータが設定されている）値を返すものを指します。存在確認プローブ（existence probes）と対比され、実際のデータ利用を伴う読み取りを示します。
+
+## Sybil resistance
+- ja: シビル耐性
+- related: [Sybil attack, Proof of Personhood]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25316
+- auto_source_url: https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316
+- desc: |
+  分散システムやブロックチェーンにおいて、単一のエンティティが複数の偽のアイデンティティ（シビル）を作成してシステムを操作しようとするシビル攻撃に対するシステムの耐性。
+
+## Price of Forgery
+- ja: 偽造の価格 (PoF)
+- aliases: [PoF]
+- related: [Proof of Personhood, Sybil resistance]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25316
+- auto_source_url: https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316
+- desc: |
+  特定の人間証明（Proof of Personhood）手法において、偽のアイデンティティを1つ作成するために必要なドル建てのコスト。市場メカニズムによって客観的に決定される。
+
+## Upala protocol
+- ja: ウパラプロトコル
+- related: [Price of Forgery, Proof of Personhood, Gentle Methodology]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25316
+- auto_source_url: https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316
+- desc: |
+  偽造の価格（PoF）を測定するために設計されたプロトコル。ユーザーが自らのアイデンティティを意図的にシビルとしてマークし、その対価として金銭を受け取ることで、市場が偽造コストを明らかにする。
+
+## Gentle Methodology
+- ja: ジェントルメソドロジー
+- related: [Price of Forgery, Upala protocol]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 25316
+- auto_source_url: https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316
+- desc: |
+  Upalaプロトコル内で偽造の価格（PoF）を決定するために用いられる、スコアとプールサイズに関するデュアルオークションの仕組み。市場の反応を段階的に観察し、偽造者が価格を明らかにするまで調整する。
+
+## EIP tagging
+- ja: EIPタグ付け
+- related: [EIP, ERC]
+- auto_added: 2026-06-30
+- auto_source_topic_id: 28887
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-104-june-30-2026/28887
+- desc: |
+  EIP（Ethereum Improvement Proposal）にタグを付与し、分類や検索を容易にするための提案。EIPの管理と発見性を向上させることを目的としています。
