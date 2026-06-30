@@ -4,7 +4,7 @@ aliases:
   - N分の1の正直性
 tags:
   - glossary
-date: '2026-06-27'
+date: '2026-06-30'
 ---
 
 **N分の1の正直性**

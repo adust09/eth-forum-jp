@@ -5,7 +5,7 @@ aliases:
   - IL
 tags:
   - glossary
-date: '2026-06-27'
+date: '2026-06-30'
 ---
 
 **インクルージョンリスト**
