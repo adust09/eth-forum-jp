@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4747,3 +4747,156 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-104-june-30-2026/28887
 - desc: |
   EIP（Ethereum Improvement Proposal）にタグを付与し、分類や検索を容易にするための提案。EIPの管理と発見性を向上させることを目的としています。
+
+## slot-0 reorg
+- ja: スロット0リorg
+- related: [epoch boundary, attestation deadline]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25338
+- auto_source_url: https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338
+- desc: |
+  各エポックの最初のスロット（スロット0）で発生するブロックのリorg。他のスロットと比較して発生頻度が高く、エポック遷移に伴う処理の遅延やブロック伝播の問題が主な原因とされる。
+
+## attestation deadline
+- ja: アテステーション期限
+- related: [ePBS, slot-0 reorg, payload propagation]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25338
+- auto_source_url: https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338
+- desc: |
+  バリデータがブロックに投票（アテステーション）する最終期限。この期限までにブロックがネットワークに伝播しない場合、リorgのリスクが高まる。ePBSの導入により、この期限は調整可能なパラメータとなる。
+
+## epoch boundary
+- ja: エポック境界
+- related: [slot-0 reorg, epoch]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25338
+- auto_source_url: https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338
+- desc: |
+  Ethereumのコンセンサス層におけるエポックの区切り。スロット0はこの境界に位置し、ファイナライゼーションの帳簿処理、RANDAOのシャッフル、新しい委員会割り当てなど、重要な遷移作業が行われる。
+
+## locally-built blocks
+- ja: ローカル構築ブロック
+- related: [relay-delivered blocks, MEV-Boost]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25338
+- auto_source_url: https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338
+- desc: |
+  MEV-Boostリレーを介さず、プロポーザー自身がローカルで構築したブロック。エポック境界などの繁忙時に、リレー経由のブロックよりも伝播が遅れる傾向があり、リorgの原因となることがある。
+
+## DA-propagation burden
+- ja: DA伝播負荷 (Data Availability Propagation Burden)
+- related: [blob, data availability, payload propagation]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25338
+- auto_source_url: https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338
+- desc: |
+  ブロックに添付されるブロブ（データアベイラビリティデータ）の伝播にかかる負荷。ブロブ数が多いほど伝播が遅くなり、特にローカル構築ブロックにおいてスロット0のリorgリスクを高める要因となる。
+
+## Ossification
+- ja: オシフィケーション (硬化)
+- related: [Decentralization, Centralization, Mining Pool]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25332
+- auto_source_url: https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332
+- desc: |
+  ブロックチェーンシステムにおいて、ノードの連合が時間とともにリソースをプールし、協力して効率を向上させ、市場を支配することで中央集権化が進む現象。本論文では、ブロックチェーンの分散化度を決定する主要因とされている。
+
+## Verifiably Decentralized Blockchain System
+- ja: 検証可能な分散型ブロックチェーンシステム
+- related: [Decentralization, Blockchain System]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25332
+- auto_source_url: https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332
+- desc: |
+  分散化の度合いを測定または証明できるブロックチェーンシステム。本論文では、ユーザー間の協調的なインタラクションの豊かさと多様性が分散化の本質を捉えるという観点から、このようなシステムの構築フレームワークが提案されている。
+
+## Ossification-resistant
+- ja: オシフィケーション耐性 (硬化耐性)
+- related: [Ossification, Decentralization, Incentive Mechanism]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25332
+- auto_source_url: https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332
+- desc: |
+  ノードの連合がリソースをプールし、市場を支配することで中央集権化が進む「オシフィケーション」現象に抵抗する特性を持つシステム。本論文では、オシフィケーションを防ぐための新しいインセンティブメカニズムが提案されている。
+
+## Anti-ossification incentives
+- ja: オシフィケーション防止インセンティブ
+- related: [Ossification, Incentive Mechanism, Decentralization]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25332
+- auto_source_url: https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332
+- desc: |
+  ブロックチェーンシステムにおいて、ノードが連合を形成し中央集権化する「オシフィケーション」を防ぐために設計されたインセンティブメカニズム。多様なエンティティとの協力を奨励し、静的な連合を罰することで分散化を促進する。
+
+## Importance score
+- ja: 重要度スコア
+- related: [Sybil Resistance, Reputation System]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25332
+- auto_source_url: https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332
+- desc: |
+  本論文で提案されているメカニズムにおいて、各公開鍵に割り当てられるスコア。ノードが過去にどれだけ多様なノードと協力してきたかの尺度であり、悪意のあるノードを避けるための指標として利用される。トークンとは異なり、時間とともにアルゴリズム的に獲得され、容易に譲渡できない。
+
+## self-destruct
+- ja: self-destruct (自己破壊)
+- related: [Solidity, smart contract]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25331
+- auto_source_url: https://ethresear.ch/t/integrating-kleros-for-onchain-arr/25331
+- desc: |
+  Ethereumスマートコントラクトの組み込み機能で、コントラクト自身をブロックチェーンから削除し、残りのEtherを指定されたアドレスに送る。セキュリティやアップグレードパターンにおいて重要な考慮事項となる。
+
+## decentralized arbitration
+- ja: 分散型仲裁
+- related: [Kleros, dispute resolution, smart contract]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25331
+- auto_source_url: https://ethresear.ch/t/integrating-kleros-for-onchain-arr/25331
+- desc: |
+  ブロックチェーン上で発生する紛争を、中央集権的な第三者機関ではなく、分散化された参加者（陪審員など）の合意によって解決するメカニズム。スマートコントラクトの実行結果に関する異議申し立てなどに利用される。
+
+## Agent-to-agent trust network
+- ja: エージェント間信頼ネットワーク
+- related: [agent-native trust network]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25322
+- auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+- desc: |
+  ERC-8004のようなシステムにおいて、自律エージェント同士が相互に信頼を構築し、評価し合うことで形成されるネットワーク。本稿では、このネットワークが実際に機能しているかを分析している。
+
+## Agent identity layer
+- ja: エージェントIDレイヤー
+- related: [ERC-8004]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25322
+- auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+- desc: |
+  ERC-8004などのプロトコルが提供する、オンチェーン上のエージェントの識別情報と評判を管理する基盤。エージェントのオフチェーンでの活動パターンがオンチェーンで観測可能な痕跡を残す。
+
+## Adjusted reputation
+- ja: 調整済み評判
+- related: [reputation]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25322
+- auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+- desc: |
+  ERC-8004システム内でエージェントに付与される評判スコアで、オンチェーン活動などの要因に基づいて調整されたもの。エージェントの信頼性やパフォーマンスを測る指標となる。
+
+## Feedback network
+- ja: フィードバックネットワーク
+- related: [reputation system]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25322
+- auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+- desc: |
+  ERC-8004の評判システムにおいて、エージェント間の評判インタラクション（評価のやり取り）から構築される有向ネットワーク。誰が誰を評価しているか、その構造を可視化する。
+
+## Zombie agents
+- ja: ゾンビエージェント
+- related: [batch registration]
+- auto_added: 2026-07-02
+- auto_source_topic_id: 25322
+- auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+- desc: |
+  ERC-8004の登録レイヤーに存在するものの、ほとんど活動していない、または全く使用されていない非アクティブなエージェント。本稿の分析では、全エージェントの約95%がこれに該当するとされる。

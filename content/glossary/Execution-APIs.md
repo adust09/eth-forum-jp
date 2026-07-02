@@ -4,7 +4,7 @@ aliases:
   - 実行API (Execution APIs)
 tags:
   - glossary
-date: '2026-06-30'
+date: '2026-07-02'
 ---
 
 **実行API (Execution APIs)**
