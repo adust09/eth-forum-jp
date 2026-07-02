@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-06-30'
+date: '2026-07-02'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -18,13 +18,16 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/action-lexical-classification|action lexical classification]] — アクション語彙分類
 - [[glossary/Action-scoped|Action-scoped]] — アクションスコープ
 - [[glossary/Active-state|Active state]] — アクティブステート
+- [[glossary/Adjusted-reputation|Adjusted reputation]] — 調整済み評判
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Adoption-Levels|Adoption Levels]] — 導入レベル
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
+- [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
 - [[glossary/Agent-Facing-Mechanism|Agent-Facing Mechanism]] — エージェント向けメカニズム
+- [[glossary/Agent-to-agent-trust-network|Agent-to-agent trust network]] — エージェント間信頼ネットワーク
 - [[glossary/Agentic-Commerce|Agentic Commerce]] — エージェント型商取引 (Agentic Commerce)
 - [[glossary/Agentic-Onchain-Operations|Agentic Onchain Operations]] — エージェントによるオンチェーン操作
 - [[glossary/AgentTask|AgentTask]] — エージェントタスク
@@ -37,6 +40,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
 - [[glossary/anchor-block|anchor block]] — アンカーブロック
 - [[glossary/anchoring|anchoring]] — アンカリング
+- [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
 - [[glossary/Asset-futarchy|Asset futarchy]] — アセット・フューチャーキー (資産フューチャーキー)
 - [[glossary/Asset-Key|Asset Key]] — アセットキー
@@ -49,6 +53,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
+- [[glossary/attestation-deadline|attestation deadline]] — アテステーション期限
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
@@ -123,9 +128,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
+- [[glossary/DA-propagation-burden|DA-propagation burden]] — DA伝播負荷 (Data Availability Propagation Burden)
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
+- [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
@@ -160,6 +167,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
+- [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
 - [[glossary/ERC-20-approved-spending|ERC-20 approved spending]] — ERC-20承認済み支出
@@ -190,6 +198,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
+- [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
@@ -231,6 +240,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IERC8060Reservable|IERC8060Reservable]] — IERC8060Reservable
 - [[glossary/immutable-contract|immutable contract]] — 不変コントラクト
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
+- [[glossary/Importance-score|Importance score]] — 重要度スコア
 - [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
@@ -264,6 +274,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanVM|leanVM]] — leanVM
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
+- [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
@@ -324,6 +335,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
 - [[glossary/Orchard-shielded-pool-model|Orchard shielded-pool model]] — Orchardシールドプールモデル
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
+- [[glossary/Ossification|Ossification]] — オシフィケーション (硬化)
+- [[glossary/Ossification-resistant|Ossification-resistant]] — オシフィケーション耐性 (硬化耐性)
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
@@ -415,6 +428,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
 - [[glossary/Self-Declaration-Protocol|Self-Declaration Protocol]] — 自己申告プロトコル
+- [[glossary/self-destruct|self-destruct]] — self-destruct (自己破壊)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
 - [[glossary/sequencer|sequencer]] — シーケンサー
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
@@ -432,6 +446,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
+- [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
@@ -495,6 +510,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
+- [[glossary/Verifiably-Decentralized-Blockchain-System|Verifiably Decentralized Blockchain System]] — 検証可能な分散型ブロックチェーンシステム
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verification-Primitive|Verification Primitive]] — 検証プリミティブ
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
@@ -519,6 +535,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/zkEVM|zkEVM]] — zkEVM (ゼロ知識イーサリアム仮想マシン)
 - [[glossary/zkML|zkML]] — ゼロ知識機械学習 (zkML)
 - [[glossary/zkwormholes|zkwormholes]] — zkワームホール
+- [[glossary/Zombie-agents|Zombie agents]] — ゾンビエージェント
 - [[glossary/zone-identifier|zone identifier]] — ゾーン識別子
 
 ---

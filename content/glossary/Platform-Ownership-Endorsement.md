@@ -5,7 +5,7 @@ aliases:
   - PoE
 tags:
   - glossary
-date: '2026-06-30'
+date: '2026-07-02'
 ---
 
 **プラットフォーム所有権保証 (PoE)**

@@ -4,7 +4,7 @@ aliases:
   - ブロック・イン・ブロブ (blocks-in-blobs)
 tags:
   - glossary
-date: '2026-06-30'
+date: '2026-07-02'
 ---
 
 **ブロック・イン・ブロブ (blocks-in-blobs)**
