@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -4900,3 +4900,197 @@ description: |
 - auto_source_url: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
 - desc: |
   ERC-8004の登録レイヤーに存在するものの、ほとんど活動していない、または全く使用されていない非アクティブなエージェント。本稿の分析では、全エージェントの約95%がこれに該当するとされる。
+
+## receipt-freeness
+- ja: 領収書不要性
+- related: [vote-buying, MACI]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25348
+- auto_source_url: https://ethresear.ch/t/designing-infrastructure-where-exploits-destroy-themselves/25348
+- desc: |
+  投票の買い占めを防ぐための特性で、投票者が中間的な行動を買い手に提示しても、買い手が最終的な選択を数学的に検証できない状態を指します。これにより、投票の売買が経済的に成り立たなくなります。
+
+## AI Sentinel
+- ja: AIセンチネル
+- related: [AI as notary, Sybil attack]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25348
+- auto_source_url: https://ethresear.ch/t/designing-infrastructure-where-exploits-destroy-themselves/25348
+- desc: |
+  AIエージェントが監視役として機能し、システム内の異常な活動や協調的な攻撃を検出する層を指します。特に、長期間にわたる同期活動の監視に用いられます。
+
+## ZK-nullifier
+- ja: ZKヌリファイア（ゼロ知識ヌリファイア）
+- aliases: [ZK-nullifiers]
+- related: [nullifier, zero-knowledge proof]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25348
+- auto_source_url: https://ethresear.ch/t/designing-infrastructure-where-exploits-destroy-themselves/25348
+- desc: |
+  ゼロ知識証明（ZK-SNARKsなど）に基づいて生成されるヌリファイアで、特定の行動（例：投票）が一度だけ行われたことを証明し、二重投票などの不正を防ぐために使用されます。プライバシーを保護しつつ、一意性を保証します。
+
+## mid-session choice mutability
+- ja: セッション中選択変更可能性
+- related: [receipt-freeness, vote-buying]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25348
+- auto_source_url: https://ethresear.ch/t/designing-infrastructure-where-exploits-destroy-themselves/25348
+- desc: |
+  セッション中に参加者が自身の選択を変更できる特性を指します。これにより、投票の買い占めにおいて、買い手が最終的な投票結果を保証できないため、不正な取引を抑制する効果があります。
+
+## L0 behavioral biometrics
+- ja: L0行動生体認証
+- related: [keystroke dynamics, Sybil attack]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25348
+- auto_source_url: https://ethresear.ch/t/designing-infrastructure-where-exploits-destroy-themselves/25348
+- desc: |
+  プロトコルの最も基盤となるL0層で、ユーザーの行動パターン（例：キーストロークダイナミクス）に基づいて本人認証を行う技術です。Sybil攻撃対策として、大量の合成されたアイデンティティをフィルタリングするのに役立ちます。
+
+## SPREAD
+- ja: SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
+- aliases: [Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination]
+- related: [GossipSub, Dandelion++]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25343
+- auto_source_url: https://ethresear.ch/t/spread-extending-gossipsub-with-efficient-anonymous-dissemination/25343
+- desc: |
+  EthereumのGossipSubプロトコルを拡張し、メッセージ送信者の匿名性を高めつつ、メッセージ伝播効率を向上させるための新しいゴシッププロトコル。ローカルなランダムウォークと地理的に指向された伝播を組み合わせる。
+
+## Sender deanonymization
+- ja: 送信者匿名性解除
+- aliases: [deanonymization]
+- related: [Timing-based attack, Censorship resistance]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25343
+- auto_source_url: https://ethresear.ch/t/spread-extending-gossipsub-with-efficient-anonymous-dissemination/25343
+- desc: |
+  P2Pネットワークにおいて、メッセージの送信元を特定する行為。GossipSubのようなプロトコルでは、メッセージのタイミング観測を通じて攻撃者が送信者を特定し、標的型攻撃を行う可能性がある。
+
+## Curious Nodes
+- ja: 好奇心旺盛なノード (Honest-but-Curious Observers)
+- aliases: [Honest-but-Curious Observers]
+- related: [Adversary model, Deanonymization]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25343
+- auto_source_url: https://ethresear.ch/t/spread-extending-gossipsub-with-efficient-anonymous-dissemination/25343
+- desc: |
+  プロトコルを正しく実行するが、観測されたトラフィックパターンから追加情報（例：メッセージの送信元）を推測しようとするノード。匿名性攻撃の評価によく用いられる特定の敵対者モデル。
+
+## Timing-based attack
+- ja: タイミングベース攻撃
+- related: [Sender deanonymization, Eclipse attack]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25343
+- auto_source_url: https://ethresear.ch/t/spread-extending-gossipsub-with-efficient-anonymous-dissemination/25343
+- desc: |
+  メッセージの伝播タイミングを観測・相関させることで、メッセージの送信元やネットワーク内のノードの身元を特定しようとする攻撃。GossipSubの匿名性解除に利用され、ブロックチェーンのバリデーター匿名性に影響を与える。
+
+## Intra-cluster communication
+- ja: クラスター内通信
+- related: [Inter-cluster communication, Cluster]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 25343
+- auto_source_url: https://ethresear.ch/t/spread-extending-gossipsub-with-efficient-anonymous-dissemination/25343
+- desc: |
+  SPREADプロトコルにおいて、仮想座標空間で地理的に近いノードのグループ（クラスター）内で行われるメッセージ伝播。匿名性を確保するためのランダムウォークに利用され、低遅延が特徴。
+
+## titled asset infrastructure
+- ja: 権利証付き資産インフラ
+- related: [RWA, tokenisation]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28913
+- auto_source_url: https://ethereum-magicians.org/t/proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review/28913
+- desc: |
+  法的権利証（タイトル）が存在する不動産や天然資源権などの資産をブロックチェーン上で扱うためのインフラ。既存のERC標準ではカバーしきれない、資産とトークンの構造的結合、文書バンドルの確定的コミットメント、移転ドメインルールなどを標準化することを目指す。
+
+## Asset Anchor Registry
+- ja: 資産アンカーレジストリ
+- related: [titled asset infrastructure, tokenisation]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28913
+- auto_source_url: https://ethereum-magicians.org/t/proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review/28913
+- desc: |
+  資産とトークンを結合するためのレジストリ。特定のアンカーを(token, bindingScope, tokenId)タプルにリンクし、法的根拠と証拠のコミットメントを分離する。資産とトークンのバインディングを照会可能にし、構造的に検証可能にすることを目的とする。
+
+## Canonical Document Bundle Anchor
+- ja: 規範的文書バンドルアンカー
+- related: [titled asset infrastructure]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28913
+- auto_source_url: https://ethereum-magicians.org/t/proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review/28913
+- desc: |
+  オフチェーン文書セットを記述するマニフェストの確定的コミットメント。正規化された文書表現、規範的なエントリフィールド、順序付けルール、スキーマバージョンが同じであれば、互換性のある実装が同じバンドルハッシュを導出する。
+
+## Directional Transfer Domain Registry
+- ja: 方向性移転ドメインレジストリ
+- related: [titled asset infrastructure, transfer controls]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28913
+- auto_source_url: https://ethereum-magicians.org/t/proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review/28913
+- desc: |
+  資産クラスについて、2つのドメイン間の移転が許可されているかどうかを定義するコリドーレベルのルールを管理するレジストリ。移転の方向性があり、逆方向の許可には別途登録が必要。
+
+## Subject-Linked NAV Snapshot Oracle
+- ja: 主体リンク型NAVスナップショットオラクル
+- related: [titled asset infrastructure, NAV, publication staleness, valuation staleness]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28913
+- auto_source_url: https://ethereum-magicians.org/t/proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review/28913
+- desc: |
+  明示的な根拠、通貨、プロバイダーの帰属、修正チェーン、および2つの独立した陳腐化チェック（公開陳腐化と評価陳腐化）を備えた、主体キー付きのNAV（純資産価値）レポートを提供するオラクル。
+
+## Multi-block Access List Warming
+- ja: マルチブロック・アクセスリスト・ウォーミング
+- related: [Access List, State Warming, EIP-2930, Gas Cost]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28912
+- auto_source_url: https://ethereum-magicians.org/t/eip-8289-multi-block-access-list-warming/28912
+- desc: |
+  複数のブロックにわたって状態アクセスリストの「ウォーミング」効果を維持するメカニズム。これにより、トランザクションが将来のブロックでアクセスする状態に対して、事前にガス料金を支払うことで、その後のブロックでのガス料金を削減できる可能性がある。EIP-8289で提案されている。
+
+## ReceiptOS
+- ja: ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
+- related: [verifiable agent execution, Evidence Capsule Model, recomputable receipt]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28900
+- auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
+- desc: |
+  エージェントの実行を検証可能にするためのポータブルな証明基盤。エージェントのアクションをキャプチャし、正規化して外部にアンカーすることで、信頼不要な検証を可能にする。
+
+## verifiable agent execution
+- ja: 検証可能なエージェント実行
+- related: [ReceiptOS, agent action, recomputable receipt]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28900
+- auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
+- desc: |
+  エージェントが行ったアクションが、そのエージェントを生成したシステムを信頼することなく、独立して検証可能であること。ReceiptOSはこの問題の解決を目指す。
+
+## agent action
+- ja: エージェントアクション
+- related: [verifiable agent execution, Evidence Capsule]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28900
+- auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
+- desc: |
+  自律エージェントによって実行される単一の操作や活動。ReceiptOSでは、このエージェントアクションごとに検証可能なレシートを生成する。
+
+## Evidence Capsule Model
+- ja: エビデンスカプセルモデル
+- related: [ReceiptOS, Evidence Capsule, recomputable receipt]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28900
+- auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
+- desc: |
+  ReceiptOSが採用する、エージェントアクションの検証可能性を確保するためのアーキテクチャモデル。アクションのキャプチャ、正規化、アンカー、検証の4つのステップで構成される。
+
+## Evidence Capsule
+- ja: エビデンスカプセル
+- aliases: [capsule]
+- related: [Evidence Capsule Model, recomputable receipt, agent action]
+- auto_added: 2026-07-03
+- auto_source_topic_id: 28900
+- auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
+- desc: |
+  エージェントアクションとその入出力をキャプチャし、正規化された形式で格納するデータ構造。このカプセルからハッシュを再計算し、外部アンカーと照合することでアクションの検証が可能となる。
