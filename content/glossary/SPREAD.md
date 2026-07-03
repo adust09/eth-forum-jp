@@ -1,0 +1,22 @@
+---
+title: SPREAD
+aliases:
+  - SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
+  - Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination
+tags:
+  - glossary
+date: '2026-07-03'
+---
+
+**SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)**
+
+EthereumのGossipSubプロトコルを拡張し、メッセージ送信者の匿名性を高めつつ、メッセージ伝播効率を向上させるための新しいゴシッププロトコル。ローカルなランダムウォークと地理的に指向された伝播を組み合わせる。
+
+## 関連用語
+
+- [[glossary/GossipSub|GossipSub]]
+- [[glossary/Dandelion|Dandelion++]]
+
+## 元の表記（英語）
+
+- Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination
