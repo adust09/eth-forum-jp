@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5094,3 +5094,197 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/receiptos-a-portable-proof-substrate-for-verifiable-agent-execution/28900
 - desc: |
   エージェントアクションとその入出力をキャプチャし、正規化された形式で格納するデータ構造。このカプセルからハッシュを再計算し、外部アンカーと照合することでアクションの検証が可能となる。
+
+## Distributed Validator Technology
+- ja: 分散型バリデータ技術 (DVT)
+- aliases: [DVT]
+- related: [Validator, Staking]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 25353
+- auto_source_url: https://ethresear.ch/t/in-protocol-client-data-reporting/25353
+- desc: |
+  複数の独立したノードが協力して単一のバリデータキーを運用し、バリデータの分散化と耐障害性を高める技術です。単一障害点のリスクを軽減し、ネットワークの堅牢性を向上させることを目的としています。
+
+## Zero-Knowledge Consensus Layer
+- ja: ゼロ知識コンセンサス層 (zkCL)
+- aliases: [zkCL]
+- related: [Zero-Knowledge Proof, Consensus Layer]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 25353
+- auto_source_url: https://ethresear.ch/t/in-protocol-client-data-reporting/25353
+- desc: |
+  ゼロ知識証明技術をコンセンサス層に統合する概念です。これにより、バリデータが自身の状態や行動を公開することなく、プロトコルルールに従っていることを証明できるようになり、プライバシーと効率が向上する可能性があります。
+
+## In-Protocol Client Reporting
+- ja: プロトコル内クライアント報告
+- related: [Client Diversity, Network Resilience]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 25353
+- auto_source_url: https://ethresear.ch/t/in-protocol-client-data-reporting/25353
+- desc: |
+  Ethereumのプロトコル自体にクライアントの種類や設定に関する情報を報告する仕組みを組み込むことです。ネットワークのクライアント多様性を監視し、潜在的な集中化リスクやバグの影響を評価するために提案されています。
+
+## Graffiti Watermark
+- ja: グラフィティ・ウォーターマーク
+- related: [Graffiti, Client Reporting]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 25353
+- auto_source_url: https://ethresear.ch/t/in-protocol-client-data-reporting/25353
+- desc: |
+  Ethereumのブロック提案時にバリデータが設定できる「グラフィティ」フィールドを利用して、使用しているクライアント情報を埋め込む手法です。クライアント多様性を追跡する初期の試みの一つですが、標準化されておらず、他の情報と競合する可能性があります。
+
+## Priority Update Registry
+- ja: プライオリティ更新レジストリ (PUR)
+- aliases: [PUR]
+- related: [PropAMMs, block producers]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28921
+- auto_source_url: https://ethereum-magicians.org/t/erc-priority-update-registry-pur/28921
+- desc: |
+  他のコントラクトが所有する小さなステートを保持する単一の共有コントラクト。オフチェーンのアップデーターがステートを書き込み、所有コントラクトのみが他のトランザクション呼び出し中にそれを読み戻す。ブロックプロデューサーが特定のトランザクション（更新）を優先することを容易にする。
+
+## PropAMMs
+- ja: PropAMM (プロップAMM)
+- related: [AMM, Priority Update Registry]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28921
+- auto_source_url: https://ethereum-magicians.org/t/erc-priority-update-registry-pur/28921
+- desc: |
+  ブロックプロデューサーによる特定のトランザクション（更新）の優先順位付けから恩恵を受ける、特定の種類の自動マーケットメーカー。Priority Update Registry (PUR) の主要な動機付けとなるユースケース。
+
+## commutative tier
+- ja: 可換ティア
+- related: [transaction ordering]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28921
+- auto_source_url: https://ethereum-magicians.org/t/erc-priority-update-registry-pur/28921
+- desc: |
+  ブロック内の他の要素に依存してはならない更新のための、トランザクションの順序付けにおける特定のカテゴリ。このティアに属する更新は、ブロック内の他のトランザクションの実行順序に関わらず、同じ結果をもたらすことが期待される。
+
+## Source-Token Agent Binding
+- ja: ソーストークン・エージェントバインディング
+- related: [ERC-8004, ERC-8217, Agent NFT Identity Bindings, Token Bound Account]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28920
+- auto_source_url: https://ethereum-magicians.org/t/source-token-agent-binding-for-erc-8004/28920
+- desc: |
+  エージェント（スマートアカウントやNFT）が、その起源となるソーストークンに紐付けられるメカニズム。エージェントの不変な来歴（provenance）と、ソーストークンの現在の所有権という可変な事実を明確に分離して管理する。
+
+## Permanent Provenance
+- ja: 永続的な来歴
+- related: [Source-Token Agent Binding]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28920
+- auto_source_url: https://ethereum-magicians.org/t/source-token-agent-binding-for-erc-8004/28920
+- desc: |
+  エージェントがどのソーストークンから派生したかを示す、不変の記録。一度設定されると変更されず、エージェントの起源を恒久的に追跡可能にする。
+
+## Function Selector
+- ja: 関数セレクター
+- related: [ERC-165, EVM]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28920
+- auto_source_url: https://ethereum-magicians.org/t/source-token-agent-binding-for-erc-8004/28920
+- desc: |
+  Ethereum Virtual Machine (EVM) において、スマートコントラクトの特定の関数を識別するために使用される4バイトのハッシュ値。関数のシグネチャ（名前と引数の型）のKeccak-256ハッシュの最初の4バイトから生成される。
+
+## TBA Custody Pattern
+- ja: TBAカストディパターン (Token Bound Account Custody Pattern)
+- aliases: [Token Bound Account Custody Pattern]
+- related: [Token Bound Account, ERC-6551]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28920
+- auto_source_url: https://ethereum-magicians.org/t/source-token-agent-binding-for-erc-8004/28920
+- desc: |
+  Token Bound Account (TBA) が、そのバインド元となるNFT（ソーストークン）を自身で保有する、または管理する特定の所有権パターン。エージェントがソーストークンの所有者である場合に、従来の ownerOf チェックとは異なる検証ロジックを必要とする。
+
+## Regulated Asset Claim
+- ja: 規制資産クレーム
+- related: [ERC-8320, on-chain assets, verifiable claims]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8320-regulated-asset-claim/28919
+- desc: |
+  オンチェーン資産に関する検証可能なクレームのためのレジストリ標準を提案するERC-8320の主要概念です。資産の価値、裏付け、コンプライアンスなどの情報を機械が検証できる形式で定義し、従来のPDFベースの情報を代替します。
+
+## claim types
+- ja: クレームタイプ
+- related: [Regulated Asset Claim, ERC-8320]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8320-regulated-asset-claim/28919
+- desc: |
+  ERC-8320で定義される、資産に関するクレームのカテゴリです。IDENTITY、VALUATION、MANDATE、TERMS、COMPLIANCE、BACKING、EVENT、RISKの8種類があり、それぞれ異なる種類の情報を表現します。
+
+## Maker-checker (on-chain)
+- ja: メイカーチェッカー（オンチェーン）
+- related: [AUTHOR, VALIDATOR, ACTIVATOR, Regulated Asset Claim]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8320-regulated-asset-claim/28919
+- desc: |
+  ERC-8320におけるクレーム管理のプロセスで、提案者（AUTHOR）と検証者（VALIDATOR）の役割を分離します。これにより、職務分掌がオンチェーンで強制され、クレームのライフサイクル（PROPOSED, VALID, ACTIVE, EXPIRED, REVOKED）が管理されます。
+
+## IRegistryAnchor
+- ja: IRegistryAnchor（インターフェース）
+- related: [Regulated Asset Claim, registry admin]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8320-regulated-asset-claim/28919
+- desc: |
+  ERC-8320において、資産が自身が認識するレジストリを承認するために実装できるインターフェースです。これにより、資産はどのレジストリからのクレームを受け入れるかを指定し、信頼の方向性を確立できます。
+
+## verifiable claims
+- ja: 検証可能なクレーム
+- related: [Regulated Asset Claim, on-chain assets]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8320-regulated-asset-claim/28919
+- desc: |
+  資産に関する署名され、バージョン管理され、ハッシュでアンカーされたステートメントです。機械がその真実性を検証できる形式で提供され、従来のオフチェーン文書に依存する情報管理のギャップを埋めます。
+
+## Regulatory Compliance Protocol
+- ja: 規制コンプライアンスプロトコル (RCP)
+- aliases: [RCP]
+- related: [action taxonomy, minimal enforcement primitives, regulatory state machine]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28917
+- auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
+- desc: |
+  トークン化された資産に対する規制執行措置に明示的な法的効果を割り当てるための共有定義レイヤー。ERC-8319として提案されており、標準、ツール、監査人が参照できる中立的で恒久的な規制参照を提供する。
+
+## action taxonomy
+- ja: アクション分類体系
+- related: [Regulatory Compliance Protocol, regulatory actions]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28917
+- auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
+- desc: |
+  Regulatory Compliance Protocol (RCP)内で定義される、トークン化された資産に対する規制執行措置の分類システム。FREEZE, SEIZE, CONFISCATE, LIQUIDATE, RESTRICT, RECOVERの6つのアクションから構成され、それぞれ可逆性、所有権への影響、最終性によって定義される。
+
+## regulatory state machine
+- ja: 規制状態機械
+- related: [Regulatory Compliance Protocol, action taxonomy]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28917
+- auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
+- desc: |
+  Regulatory Compliance Protocol (RCP)のアクションセマンティクスを形式的に検証するために使用される状態機械モデル。Isabelle/HOLで機械的にチェックされ、規制アクション間の有効な状態遷移と、CONFISCATED状態の特性（終端性、普遍的到達性）を証明する。
+
+## minimal enforcement primitives
+- ja: 最小限の執行プリミティブ
+- related: [forcedTransfer, Regulatory Compliance Protocol]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28917
+- auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
+- desc: |
+  ERC-7943の`forcedTransfer`のように、トークン化された資産に対する執行措置を実行するが、その法的動機や効果を明示的に定義しない基本的な機能。Regulatory Compliance Protocol (RCP)は、これらのプリミティブに欠けている法的効果の語彙を提供する。
+
+## reversibility ladder
+- ja: 可逆性ラダー
+- related: [action taxonomy, Regulatory Compliance Protocol]
+- auto_added: 2026-07-04
+- auto_source_topic_id: 28917
+- auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
+- desc: |
+  Regulatory Compliance Protocol (RCP)の行動分類において、規制執行措置の可逆性の度合いを示す概念。一時的なFREEZEと不可逆的なCONFISCATEのように、構造的に異なる法的効果を持つアクションを区別する。

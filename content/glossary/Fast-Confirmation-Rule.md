@@ -5,7 +5,7 @@ aliases:
   - FCR
 tags:
   - glossary
-date: '2026-07-03'
+date: '2026-07-04'
 ---
 
 **高速承認ルール**

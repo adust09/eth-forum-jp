@@ -5,7 +5,7 @@ aliases:
   - Workflow Root
 tags:
   - glossary
-date: '2026-07-03'
+date: '2026-07-04'
 ---
 
 **セッションルート**
