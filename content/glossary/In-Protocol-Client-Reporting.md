@@ -1,0 +1,21 @@
+---
+title: In-Protocol Client Reporting
+aliases:
+  - プロトコル内クライアント報告
+tags:
+  - glossary
+date: '2026-07-04'
+---
+
+**プロトコル内クライアント報告**
+
+Ethereumのプロトコル自体にクライアントの種類や設定に関する情報を報告する仕組みを組み込むことです。ネットワークのクライアント多様性を監視し、潜在的な集中化リスクやバグの影響を評価するために提案されています。
+
+## 関連用語
+
+- [[glossary/Client-Diversity|Client Diversity]]
+- [[glossary/Network-Resilience|Network Resilience]]
+
+## 元の表記（英語）
+
+(なし)
