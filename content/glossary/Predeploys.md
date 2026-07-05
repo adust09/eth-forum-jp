@@ -5,7 +5,7 @@ aliases:
   - Pre-deployed contracts
 tags:
   - glossary
-date: '2026-07-04'
+date: '2026-07-05'
 ---
 
 **プリデプロイ (Predeploys)**
