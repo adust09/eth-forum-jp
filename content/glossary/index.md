@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-04'
+date: '2026-07-05'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -210,6 +210,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
+- [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
@@ -232,6 +233,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
+- [[glossary/Goldilocks-field|Goldilocks field]] — ゴールディロックス体 (Goldilocks field)
 - [[glossary/Governance-Reconstruction-Problem|Governance Reconstruction Problem]] — ガバナンス再構築問題
 - [[glossary/Graffiti-Watermark|Graffiti Watermark]] — グラフィティ・ウォーターマーク
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
@@ -295,6 +297,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
+- [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
@@ -333,6 +336,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Notary-model|Notary model (AI as notary)]] — 公証人モデル (AIを公証人とする)
 - [[glossary/nullifier|nullifier]] — ナリファイア
+- [[glossary/Number-Theoretic-Transform|Number Theoretic Transform]] — 数論変換 (NTT)
 - [[glossary/oblivious-message-retrieval|oblivious message retrieval]] — 秘匿メッセージ検索 (OMR)
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
@@ -490,6 +494,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/SPREAD|SPREAD]] — SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
 - [[glossary/stake|stake]] — ステーク
+- [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
 - [[glossary/state-access|state access]] — 状態アクセス
 - [[glossary/state-expiry|state expiry]] — ステート有効期限

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5288,3 +5288,53 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8319-regulatory-compliance-protocol/28917
 - desc: |
   Regulatory Compliance Protocol (RCP)の行動分類において、規制執行措置の可逆性の度合いを示す概念。一時的なFREEZEと不可逆的なCONFISCATEのように、構造的に異なる法的効果を持つアクションを区別する。
+
+## Goldilocks field
+- ja: ゴールディロックス体 (Goldilocks field)
+- aliases: [G64]
+- related: [STARK, NTT, Plonky2]
+- auto_added: 2026-07-05
+- auto_source_topic_id: 25359
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
+- desc: |
+  zk-STARKsやFRIプロトコルなどのゼロ知識証明システムで計算に使用される特定の有限体です。特にPlonky2のようなシステムで効率的な演算を可能にするために設計されており、p = 2^64 - 2^32 + 1というモジュラスを持ちます。
+
+## Number Theoretic Transform
+- ja: 数論変換 (NTT)
+- aliases: [NTT]
+- related: [STARK, FRI, Goldilocks field]
+- auto_added: 2026-07-05
+- auto_source_topic_id: 25359
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
+- desc: |
+  巡回畳み込みを高速に計算するためのアルゴリズムで、多項式の乗算を効率化するために使用されます。特にゼロ知識証明システム（STARKsなど）において、有限体上での多項式演算の高速化に不可欠な技術です。
+
+## STARK
+- ja: STARK (スケーラブルで透過的な知識の引数)
+- aliases: [Scalable Transparent ARgument of Knowledge]
+- related: [ZKP, FRI, LDE, Plonky2]
+- auto_added: 2026-07-05
+- auto_source_topic_id: 25359
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
+- desc: |
+  ゼロ知識証明（ZKP）の一種で、証明サイズが検証される計算のサイズに対して対数的にしか増加しないスケーラビリティと、信頼できるセットアップが不要な透過性を特徴とします。Ethereumのスケーリングソリューションとして注目されています。
+
+## Low Degree Extension
+- ja: 低次数拡張 (LDE)
+- aliases: [LDE]
+- related: [STARK, FRI]
+- auto_added: 2026-07-05
+- auto_source_topic_id: 25359
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
+- desc: |
+  STARKsやFRIプロトコルにおいて、ある多項式をより大きなドメインに拡張し、その拡張された多項式が元の多項式と同じ低次数性を持つことを検証するプロセスです。これにより、証明の健全性が保証されます。
+
+## Fast Reed-Solomon Interactive Oracle Proofs of Proximity
+- ja: 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
+- aliases: [FRI]
+- related: [STARK, LDE]
+- auto_added: 2026-07-05
+- auto_source_topic_id: 25359
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
+- desc: |
+  STARKsの主要な構成要素であり、多項式が特定の低次数を持つことを効率的に証明するためのプロトコルです。多項式の低次数性を繰り返し検証することで、証明のサイズを大幅に削減し、スケーラビリティを向上させます。
