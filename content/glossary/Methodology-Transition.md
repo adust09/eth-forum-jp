@@ -1,0 +1,20 @@
+---
+title: Methodology Transition
+aliases:
+  - メソドロジー移行
+tags:
+  - glossary
+date: '2026-07-06'
+---
+
+**メソドロジー移行**
+
+オンチェーンで定義された測定手法（メソドロジー）が、新しいバージョンや異なる手法に切り替わるプロセス。通常、特定のスケジュール（例：序数ベース）に従って行われる。
+
+## 関連用語
+
+- [[glossary/Methodology-Versioning-Interface|Methodology-Versioning Interface]]
+
+## 元の表記（英語）
+
+(なし)

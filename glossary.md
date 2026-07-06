@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5338,3 +5338,265 @@ description: |
 - auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-native-goldilocks-g64-gpu-ntt-at-2-27-on-rx-7900-xtx-and-a-reproducible-benchmark-plan/25359
 - desc: |
   STARKsの主要な構成要素であり、多項式が特定の低次数を持つことを効率的に証明するためのプロトコルです。多項式の低次数性を繰り返し検証することで、証明のサイズを大幅に削減し、スケーラビリティを向上させます。
+
+## Hash-chain RANDAO
+- ja: ハッシュチェーンRANDAO
+- related: [RANDAO, BLS signatures, Beacon chain randomness]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28942
+- auto_source_url: https://ethereum-magicians.org/t/hash-chain-randao/28942
+- desc: |
+  RANDAOの特定のバリアントで、BLS署名への直接的な依存を排除し、ハッシュチェーンを利用してビーコンチェーンのランダム性を生成するメカニズムです。これにより、プロトコルの複雑性を軽減し、潜在的な攻撃ベクトルを減らすことを目指します。
+
+## Beacon chain randomness
+- ja: ビーコンチェーンのランダム性
+- related: [RANDAO, Beacon Chain]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28942
+- auto_source_url: https://ethereum-magicians.org/t/hash-chain-randao/28942
+- desc: |
+  Ethereumのコンセンサス層であるビーコンチェーンによって生成されるランダムな値。これは、プロポーザの選択、シャードの割り当て、その他のプロトコル機能に不可欠です。その生成方法のセキュリティと予測不可能性は、ネットワーク全体の健全性に影響を与えます。
+
+## NAV basis
+- ja: NAV基準 (NAV basis)
+- related: [Net Asset Value, Oracle]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28939
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-nav-snapshot-oracle-candidate-erc/28939
+- desc: |
+  ネットアセットバリュー（NAV）の計算方法を定義する設定です。このERCでは、ストリームレベルで「単位あたり」「シェアまたはトークンあたり」「総資産価値」のいずれかを設定し、異なる計算方法のデータが混在するのを防ぎます。
+
+## Linear correction chain
+- ja: 線形訂正チェーン (Linear correction chain)
+- aliases: [linear corrections]
+- related: [Administrative invalidation, Data integrity]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28939
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-nav-snapshot-oracle-candidate-erc/28939
+- desc: |
+  過去のデータスナップショットを修正するためのメカニズムです。これにより、元のデータとその後の修正が時系列に沿って追跡可能となり、データの完全性と履歴の透明性が保たれます。
+
+## Administrative invalidation
+- ja: 管理的無効化 (Administrative invalidation)
+- related: [Linear correction chain, Data integrity]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28939
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-nav-snapshot-oracle-candidate-erc/28939
+- desc: |
+  データの履歴を保持しつつ、特定のデータスナップショットを無効にするメカニズムです。特に、プロバイダーが侵害されたり利用不能になったりした場合に、不正なデータを修正せずに無効化し、直前の有効なスナップショットを復元するために使用されます。
+
+## Deterministic lower median
+- ja: 決定論的下位中央値 (Deterministic lower median)
+- aliases: [lower median]
+- related: [Aggregation, Oracle]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28939
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-nav-snapshot-oracle-candidate-erc/28939
+- desc: |
+  複数のプロバイダーから提出された値を集約する際に使用される特定のルールです。値を共通の小数点精度に正規化した後、決定論的に下位中央値を計算することで、単一の集約値を導出します。
+
+## Executable market price
+- ja: 実行可能な市場価格 (Executable market price)
+- related: [Reported NAV, Oracle]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28939
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-nav-snapshot-oracle-candidate-erc/28939
+- desc: |
+  オンチェーンでの取引や決済に直接使用できる市場価格を指します。これは、情報提供を目的とする「報告されたNAV」とは対照的な概念であり、オラクルの出力が持つ機能的な違いを明確にします。
+
+## Subject-Linked Impact Snapshot Log
+- ja: 主題紐付けインパクトスナップショットログ (ERC)
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28938
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-impact-snapshot-log-candidate-erc/28938
+- desc: |
+  アプリケーション定義の主題、指標、測定期間、単位、および手法に紐付けられた、追記専用の定量的インパクトスナップショットを記録するための候補ERC。過去の主張を消去することなく、新しい報告期間や以前の期間への修正を区別できる。
+
+## Methodology Transition
+- ja: メソドロジー移行
+- related: [Methodology-Versioning Interface]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28938
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-impact-snapshot-log-candidate-erc/28938
+- desc: |
+  オンチェーンで定義された測定手法（メソドロジー）が、新しいバージョンや異なる手法に切り替わるプロセス。通常、特定のスケジュール（例：序数ベース）に従って行われる。
+
+## Correction Provenance
+- ja: 修正履歴 (Correction Provenance)
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28938
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-impact-snapshot-log-candidate-erc/28938
+- desc: |
+  オンチェーンデータ、特にインパクトスナップショットに対する修正の起源と履歴を追跡するメカニズム。これにより、どの修正がいつ、誰によって行われたかを検証できる。
+
+## Methodology-Versioning Interface
+- ja: メソドロジーバージョン管理インターフェース
+- related: [Methodology Transition]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28938
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-impact-snapshot-log-candidate-erc/28938
+- desc: |
+  今後のスナップショットに適用されるアクティブなメソドロジーを公開し、即時または序数ベースでスケジュールされたメソドロジーの変更（supersession）をサポートするインターフェース。メソドロジーの進化を管理する。
+
+## Ordinal-Scheduled Supersession
+- ja: 序数スケジュールによる置換 (Ordinal-Scheduled Supersession)
+- related: [Methodology Transition]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28938
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-impact-snapshot-log-candidate-erc/28938
+- desc: |
+  タイムスタンプではなく、序数（シーケンス番号）に基づいて、あるメソドロジーが別のメソドロジーに置き換えられる（supersedeされる）ことをスケジュールする方式。ブロックチェーンの決定論的な性質に適している。
+
+## Subject-Linked Compliance Event Log
+- ja: 主体紐付け型コンプライアンスイベントログ
+- related: [Compliance Event, Correction Chain]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28937
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-compliance-event-log-candidate-erc/28937
+- desc: |
+  特定の主体（トークン、アドレス、資産など）に関連付けられ、追記専用のコンプライアンスイベント記録を管理するためのERC候補インターフェース。属性、証拠コミットメント、型付けされた関係者、バージョン管理されたペイロード、インデックス、および修正履歴をサポートします。
+
+## Correction Chain
+- ja: 修正チェーン
+- related: [Single-successor correction chain, Competing correction branches]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28937
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-compliance-event-log-candidate-erc/28937
+- desc: |
+  過去の記録に対する修正イベントが、その修正対象の記録にリンクされ、一連の連鎖を形成する仕組み。各イベントは後続の修正イベントへのポインタを持つことで、完全な履歴を保持します。
+
+## Single-successor correction chain
+- ja: 単一後続修正チェーン
+- related: [Correction Chain, Competing correction branches]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28937
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-compliance-event-log-candidate-erc/28937
+- desc: |
+  修正チェーンにおいて、各イベントが最大で1つの後続の修正イベントのみを持つことを強制する設計。これにより修正の分岐（フォーク）を防ぎ、履歴の一貫性を保ちます。
+
+## Competing correction branches
+- ja: 競合する修正ブランチ
+- related: [Correction Chain, Single-successor correction chain]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28937
+- auto_source_url: https://ethereum-magicians.org/t/subject-linked-compliance-event-log-candidate-erc/28937
+- desc: |
+  修正チェーンの設計において、あるイベントに対して複数の異なる修正イベントが存在し、それぞれが独立した修正履歴の分岐を形成する可能性のある状態。単一後続修正チェーンとは対照的なアプローチです。
+
+## Opaque Domain
+- ja: 不透明ドメイン (Opaque Domain)
+- related: [Directional Transfer Domain Registry, Asset Class]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28936
+- auto_source_url: https://ethereum-magicians.org/t/directional-transfer-domain-registry-candidate-erc/28936
+- desc: |
+  Directional Transfer Domain Registryにおいて、管轄区域、規制された場所、企業ネットワーク、ゲーム経済、DAOの財務境界など、アプリケーションによって定義される文脈を表す概念です。これらのドメインは、特定の分類法を規定せず、不透明な`bytes32`値として扱われます。
+
+## Nonzero Evidence Commitment
+- ja: ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
+- related: [Directional Transfer Domain Registry, Graceful Revocation]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28936
+- auto_source_url: https://ethereum-magicians.org/t/directional-transfer-domain-registry-candidate-erc/28936
+- desc: |
+  Directional Transfer Domain Registryのコアインターフェースでサポートされる機能の一つで、ルートの決定（許可や取り消し）の背後にある証拠や正当性をコミットするメカニズムを指します。これにより、決定の透明性と説明責任が向上します。
+
+## Graceful Revocation
+- ja: グレースフル取り消し (Graceful Revocation)
+- related: [Directional Transfer Domain Registry, Nonzero Evidence Commitment]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28936
+- auto_source_url: https://ethereum-magicians.org/t/directional-transfer-domain-registry-candidate-erc/28936
+- desc: |
+  Directional Transfer Domain Registryにおける、時間ベースで将来的に有効となる取り消しメカニズムです。即時取り消しとは異なり、開始、キャンセル、将来の有効性、および最終化のライフサイクルをサポートします。
+
+## Asset Class
+- ja: 資産クラス (Asset Class)
+- related: [Directional Transfer Domain Registry, Opaque Domain]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28936
+- auto_source_url: https://ethereum-magicians.org/t/directional-transfer-domain-registry-candidate-erc/28936
+- desc: |
+  Directional Transfer Domain Registryにおいて、転送ルートの許可を定義する際の主要な識別子の一つです。特定の資産の種類を指し、同じドメインペアでも異なる資産クラスに対して異なる転送許可を設定できます。
+
+## Normalization Profile
+- ja: 正規化プロファイル
+- related: [Canonical Document Bundle Anchor, Manifest]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28935
+- auto_source_url: https://ethereum-magicians.org/t/canonical-document-bundle-anchor-candidate-erc/28935
+- desc: |
+  オフチェーン文書を標準的なバイト列に変換するためのルールセット。これにより、異なる実装間での文書の解釈の不一致を防ぎ、バンドルの相互運用性を確保する。
+
+## Manifest
+- ja: マニフェスト
+- related: [Canonical Document Bundle Anchor, Normalization Profile, DocumentEntry]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28935
+- auto_source_url: https://ethereum-magicians.org/t/canonical-document-bundle-anchor-candidate-erc/28935
+- desc: |
+  正規化された文書のコミットメントを記述し、順序付け、ハッシュ化するデータ構造。各エントリは文書のハッシュ、役割、MIMEタイプ、ファイル名、正規化プロファイルIDを含む。
+
+## (subjectId, role) slot
+- ja: (subjectId, role) スロット
+- related: [Canonical Document Bundle Anchor, Supersession]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28935
+- auto_source_url: https://ethereum-magicians.org/t/canonical-document-bundle-anchor-candidate-erc/28935
+- desc: |
+  文書バンドルをオンチェーンでアンカーするための特定の識別子とメカニズム。各スロットは特定の主題と役割に関連付けられ、一度に1つのアクティブなバンドルのみを保持できる。
+
+## Bundle Hash
+- ja: バンドルハッシュ
+- related: [Canonical Document Bundle Anchor, Manifest]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28935
+- auto_source_url: https://ethereum-magicians.org/t/canonical-document-bundle-anchor-candidate-erc/28935
+- desc: |
+  マニフェスト内のすべての文書エントリを特定のバージョン付きスキーマ識別子のもとでハッシュ化して生成される、単一の32バイトのコミットメント。文書バンドル全体の決定論的な表現となる。
+
+## Binding
+- ja: バインディング
+- aliases: [token-to-anchor binding, contract binding, token-ID binding]
+- related: [Asset Anchor Registry]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28934
+- auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
+- desc: |
+  トークンコントラクトまたは個別のトークンIDを、オフチェーン資産に関するクレームを表すレジストリレコードに紐付ける行為。このERCの主要な概念であり、トークンとオフチェーン資産の関連付けを確立する。
+
+## legalHash
+- ja: legalHash (法的ハッシュ)
+- related: [evidenceHash, anchorId]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28934
+- auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
+- desc: |
+  オフチェーン資産に関する法的クレームのコミットメントを表すハッシュ値。evidenceHashと共にanchorIdを決定するために使用される。
+
+## evidenceHash
+- ja: evidenceHash (証拠ハッシュ)
+- related: [legalHash, anchorId]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28934
+- auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
+- desc: |
+  オフチェーン資産に関する証拠のコミットメントを表すハッシュ値。legalHashと共にanchorIdを決定するために使用される。
+
+## Domain-separated scopes
+- ja: ドメイン分離スコープ
+- related: [Binding]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28934
+- auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
+- desc: |
+  バインディングがコントラクト全体に適用されるか、特定のトークンIDに適用されるかを明確に区別するための仕組み。これにより、異なるタイプのトークン（ERC-20、ERC-721など）に対するバインディングの曖昧さを解消する。
+
+## Token-side interfaces
+- ja: トークン側インターフェース
+- related: [mutual declaration, Asset Anchor Registry]
+- auto_added: 2026-07-06
+- auto_source_topic_id: 28934
+- auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
+- desc: |
+  トークン自身が、認識するレジストリとアンカーを宣言するために公開するインターフェース。これにより、コンシューマーはレジストリの記録とトークン自身の応答を比較し、相互宣言された関係を確認できる。

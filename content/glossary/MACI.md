@@ -5,7 +5,7 @@ aliases:
   - Minimum Anti-Collusion Infrastructure
 tags:
   - glossary
-date: '2026-07-05'
+date: '2026-07-06'
 ---
 
 **MACI (Minimum Anti-Collusion Infrastructure)**
