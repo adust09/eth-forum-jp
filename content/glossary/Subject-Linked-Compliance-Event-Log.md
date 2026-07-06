@@ -1,0 +1,21 @@
+---
+title: Subject-Linked Compliance Event Log
+aliases:
+  - 主体紐付け型コンプライアンスイベントログ
+tags:
+  - glossary
+date: '2026-07-06'
+---
+
+**主体紐付け型コンプライアンスイベントログ**
+
+特定の主体（トークン、アドレス、資産など）に関連付けられ、追記専用のコンプライアンスイベント記録を管理するためのERC候補インターフェース。属性、証拠コミットメント、型付けされた関係者、バージョン管理されたペイロード、インデックス、および修正履歴をサポートします。
+
+## 関連用語
+
+- [[glossary/Compliance-Event|Compliance Event]]
+- [[glossary/Correction-Chain|Correction Chain]]
+
+## 元の表記（英語）
+
+(なし)
