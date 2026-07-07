@@ -16,6 +16,10 @@ AIエージェントが監視役として機能し、システム内の異常な
 - [[glossary/AI-as-notary|AI as notary]]
 - [[glossary/Sybil-attack|Sybil attack]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

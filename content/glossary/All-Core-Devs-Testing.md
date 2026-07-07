@@ -17,6 +17,10 @@ Ethereumプロトコルのコア開発者が、プロトコルの変更やアッ
 - [[glossary/All-Core-Devs|All Core Devs]]
 - [[glossary/devnet|devnet]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - ACDT

@@ -16,6 +16,10 @@ Relationship-Anchored Moneyプロトコルにおいて、ETHを預け入れて�
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]]
 - [[glossary/Transaction-tax|Transaction tax]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

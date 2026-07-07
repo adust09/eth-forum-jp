@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Asset-futarchy|Asset futarchy]]
 - [[glossary/Decision-selection-bias|Decision selection bias]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

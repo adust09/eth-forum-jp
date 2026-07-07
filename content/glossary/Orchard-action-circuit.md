@@ -17,6 +17,10 @@ Zcash Orchardプロトコルで使用されるZK-SNARK回路です。複数の�
 - [[glossary/ZK-SNARKs|ZK-SNARKs]]
 - [[glossary/Groth16|Groth16]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

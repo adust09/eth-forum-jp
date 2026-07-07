@@ -17,6 +17,10 @@ Ethereumバリデーターが量子コンピュータの脅威からネットワ
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]]
 - [[glossary/BLS-signatures|BLS signatures]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-03-post-quantum-pq-interop-42-june-3-2026-28694|ポスト量子 (PQ) 相互運用性 #42、2026年6月3日]]（2026-06-03）
+
 ## 元の表記（英語）
 
 (なし)

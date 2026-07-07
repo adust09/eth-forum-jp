@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]]
 - [[glossary/Role-Management|Role Management]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

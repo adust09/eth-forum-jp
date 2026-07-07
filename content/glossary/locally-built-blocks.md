@@ -16,6 +16,10 @@ MEV-Boostリレーを介さず、プロポーザー自身がローカルで構�
 - [[glossary/relay-delivered-blocks|relay-delivered blocks]]
 - [[glossary/MEV-Boost|MEV-Boost]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

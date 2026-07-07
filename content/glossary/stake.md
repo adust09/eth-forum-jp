@@ -17,6 +17,15 @@ date: '2026-07-07'
 - [[glossary/validator|validator]]
 - [[glossary/Proof-of-Stake|Proof of Stake]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
+- [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
+- [[posts/ethresear-2026-06-30-rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems-25332|検証可能な分散型ブロックチェーンシステムのための協調的信頼の再考]]（2026-06-30）
+- [[posts/ethresear-2026-06-24-properties-of-issuance-offsets-and-increased-penalties-under-low-zero-negative-issuance-policies-25292|低/ゼロ/マイナス発行ポリシー下での発行オフセットとペナルティ増加の特性]]（2026-06-24）
+- [[posts/ethresear-2026-06-21-validator-redirected-revenue-25248|バリデーターによる収益リダイレクト]]（2026-06-21）
+- [[posts/ethresear-2026-06-12-three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus-25164|3つの修正、3つの新たな攻撃：加重コンセンサスにおける投票重みの減衰]]（2026-06-12）
+
 ## 元の表記（英語）
 
 (なし)

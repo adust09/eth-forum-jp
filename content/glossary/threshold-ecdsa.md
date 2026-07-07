@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/multi-party-computation|multi-party computation]]
 - [[glossary/ECDSA|ECDSA]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

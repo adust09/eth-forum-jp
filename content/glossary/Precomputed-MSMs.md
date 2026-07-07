@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/KZG-commitment|KZG commitment]]
 - [[glossary/Verkle-Trees|Verkle Trees]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,11 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、および管理�
 
 - [[glossary/EIP|EIP]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-02-proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review-28913|権原付き資産インフラストラクチャ向け候補ERCインターフェース群の提案 — アーキテクチャレビュー]]（2026-07-02）
+- [[posts/magicians-2026-06-04-eipip-meeting-128-july-08-2026-28706|EIPIPミーティング #128、2026年7月8日]]（2026-06-04）
+
 ## 元の表記（英語）
 
 - EIP Editors

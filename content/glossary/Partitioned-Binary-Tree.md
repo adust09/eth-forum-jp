@@ -17,6 +17,10 @@ EIP-8297で提案されている、既存のヘキサリパトリシアトライ
 - [[glossary/binary-state-tree|binary state tree]]
 - [[glossary/zone-identifier|zone identifier]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

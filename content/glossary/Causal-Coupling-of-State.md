@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]]
 - [[glossary/State-transition|State transition]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - causal coupling

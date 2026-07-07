@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/fuzzy-message-detection|fuzzy message detection]]
 - [[glossary/privacy-preserving-protocols|privacy-preserving protocols]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

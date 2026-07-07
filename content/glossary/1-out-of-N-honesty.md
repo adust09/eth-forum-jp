@@ -16,6 +16,10 @@ FOCILの主要なセキュリティ保証の一つ。インクルージョンリ
 - [[glossary/FOCIL|FOCIL]]
 - [[glossary/censorship-resistance|censorship resistance]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ EthereumのP2Pネットワークにおいて、ブロブ（EIP-4844で導入さ�
 - [[glossary/data-availability|data availability]]
 - [[glossary/P2P-Networking|P2P Networking]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

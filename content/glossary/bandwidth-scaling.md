@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/data-availability-sampling|data availability sampling]]
 - [[glossary/blocks-in-blobs|blocks-in-blobs]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

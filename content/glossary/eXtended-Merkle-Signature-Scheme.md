@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/One-Time-Signature|One-Time Signature]]
 - [[glossary/Merkle-tree|Merkle tree]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-05-post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum-28715|[ポスト量子ERC-4337] WOTS-39: イーサリアム向けWinternitzワンタイム署名ウォレット]]（2026-06-05）
+
 ## 元の表記（英語）
 
 - XMSS

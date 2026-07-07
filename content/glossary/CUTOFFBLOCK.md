@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]]
 - [[glossary/lastwrittenblock|last_written_block]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

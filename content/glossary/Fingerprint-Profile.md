@@ -16,6 +16,10 @@ Etherveilブラウザにおいて、ブラウザの観測可能な挙動を標�
 - [[glossary/browser-fingerprinting|browser fingerprinting]]
 - [[glossary/anonymity-set|anonymity set]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]]
 - [[glossary/Approve-then-call-pattern|Approve-then-call pattern]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Directional Transfer Domain Registryにおける、時間ベースで将来的�
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]]
 - [[glossary/Nonzero-Evidence-Commitment|Nonzero Evidence Commitment]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

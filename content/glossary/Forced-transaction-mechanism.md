@@ -17,6 +17,10 @@ L2のシーケンサーによる検閲を防ぐため、ユーザーがトラン
 - [[glossary/Sequencer|Sequencer]]
 - [[glossary/Inclusion-list|Inclusion list]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/time-delayed-access-control|time-delayed access control]]
 - [[glossary/cryptographic-isolation|cryptographic isolation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

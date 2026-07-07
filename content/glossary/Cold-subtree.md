@@ -16,6 +16,10 @@ Merkle-Patricia Trieにおいて、その配下のすべてのリーフが長期
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]]
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

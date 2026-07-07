@@ -15,6 +15,10 @@ ERC-8004のようなシステムにおいて、自律エージェント同士が
 
 - [[glossary/agent-native-trust-network|agent-native trust network]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

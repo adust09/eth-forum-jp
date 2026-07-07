@@ -16,6 +16,10 @@ Upalaプロトコル内で偽造の価格（PoF）を決定するために用い
 - [[glossary/Price-of-Forgery|Price of Forgery]]
 - [[glossary/Upala-protocol|Upala protocol]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

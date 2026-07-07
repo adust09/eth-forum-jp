@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/MEV|MEV]]
 - [[glossary/Censorship-Resistance|Censorship Resistance]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
+
 ## 元の表記（英語）
 
 (なし)

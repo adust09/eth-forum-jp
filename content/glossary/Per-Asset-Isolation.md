@@ -16,6 +16,10 @@ date: '2026-07-07'
 
 - [[glossary/Multi-domain-preservation|Multi-domain preservation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - isolation of unconnected domains

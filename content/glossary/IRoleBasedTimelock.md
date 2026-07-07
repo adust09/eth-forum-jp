@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Role-Based-Timelock-Operation|Role-Based Timelock Operation]]
 - [[glossary/ERC-165|ERC-165]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

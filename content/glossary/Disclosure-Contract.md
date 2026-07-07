@@ -16,6 +16,10 @@ RWA開示インターフェースを実装し、実世界資産（RWA）に関�
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]]
 - [[glossary/Token-Contract|Token Contract]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

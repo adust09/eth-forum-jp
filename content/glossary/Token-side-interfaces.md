@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/mutual-declaration|mutual declaration]]
 - [[glossary/Asset-Anchor-Registry|Asset Anchor Registry]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

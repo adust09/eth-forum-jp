@@ -15,6 +15,10 @@ Partitioned Binary Treeにおいて、キーの上位ビットによって状態
 
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ ERC-7943の`forcedTransfer`のように、トークン化された資産に対�
 - [[glossary/forcedTransfer|forcedTransfer]]
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

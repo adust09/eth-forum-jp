@@ -17,6 +17,10 @@ Uniswap V3などで採用されている、特定の価格帯に流動性を集�
 - [[glossary/AMM|AMM]]
 - [[glossary/Uniswap-V3|Uniswap V3]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - concentrated liquidity AMMs

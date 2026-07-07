@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/publication-staleness|publication staleness]]
 - [[glossary/valuation-staleness|valuation staleness]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-05-subject-linked-nav-snapshot-oracle-candidate-erc-28939|主体リンク型NAVスナップショットオラクル - ERC候補]]（2026-07-05）
+
 ## 元の表記（英語）
 
 (なし)

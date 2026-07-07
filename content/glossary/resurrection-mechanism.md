@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/State-Expiry|State Expiry]]
 - [[glossary/eviction-mechanism|eviction mechanism]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

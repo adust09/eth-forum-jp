@@ -17,6 +17,10 @@ ePBSによってプロトコル内に導入される、ビルダーからプロ�
 - [[glossary/builder|builder]]
 - [[glossary/proposer|proposer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

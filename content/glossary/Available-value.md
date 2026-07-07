@@ -17,6 +17,10 @@ NFTなどのオンチェーン資産において、現在予約されておら�
 - [[glossary/Reservation-accounting|Reservation accounting]]
 - [[glossary/IERC8060Reservable|IERC8060Reservable]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

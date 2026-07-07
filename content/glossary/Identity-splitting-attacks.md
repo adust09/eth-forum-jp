@@ -15,6 +15,10 @@ Shapley分布において、攻撃者が自身のアイデンティティを分�
 
 - [[glossary/Shapley-value-distribution|Shapley value distribution]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

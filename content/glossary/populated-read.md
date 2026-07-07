@@ -17,6 +17,10 @@ Ethereumの状態に対する読み取り操作のうち、ゼロ以外の（つ
 - [[glossary/read-only-set|read-only set]]
 - [[glossary/existence-probes|existence probes]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

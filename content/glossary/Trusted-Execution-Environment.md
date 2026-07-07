@@ -17,6 +17,14 @@ date: '2026-07-07'
 - [[glossary/Confidential-execution|Confidential execution]]
 - [[glossary/Measurement-and-attestation|Measurement and attestation]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
+- [[posts/ethresear-2026-06-08-trustless-payments-and-relays-25125|トラストレスな支払いとリレー]]（2026-06-08）
+- [[posts/ethresear-2026-05-31-evidential-survivability-ocp-and-ethereums-crops-direction-25012|証拠の生存可能性：OCPとEthereumのCROPS方向性]]（2026-05-31）
+- [[posts/ethresear-2026-05-29-imperfect-commitment-in-maximal-extractable-value-auctions-25001|MEVオークションにおける不完全なコミットメント]]（2026-05-29）
+- [[posts/ethresear-2026-05-27-building-towards-multi-party-block-construction-24975|マルチパーティ・ブロック構築に向けた取り組み]]（2026-05-27）
+
 ## 元の表記（英語）
 
 - TEE

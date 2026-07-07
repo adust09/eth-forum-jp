@@ -19,6 +19,10 @@ pERC20において、ERC-20の`approve`、`allowance`、`transferFrom`に相当�
 - [[glossary/allowance|allowance]]
 - [[glossary/transferFrom|transferFrom]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - approved spending

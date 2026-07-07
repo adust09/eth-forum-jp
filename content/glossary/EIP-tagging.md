@@ -16,6 +16,10 @@ EIP（Ethereum Improvement Proposal）にタグを付与し、分類や検索を
 - [[glossary/EIP|EIP]]
 - [[glossary/ERC|ERC]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

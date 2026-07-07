@@ -17,6 +17,10 @@ Ethereumガバナンス活動を決定論的な検証基盤に変換するため
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]]
 - [[glossary/Replay-Stable-Architecture|Replay-Stable Architecture]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-11-governance-reconstruction-as-a-verification-primitive-25149|検証プリミティブとしてのガバナンス再構築]]（2026-06-11）
+
 ## 元の表記（英語）
 
 - ETL

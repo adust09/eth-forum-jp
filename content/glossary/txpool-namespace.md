@@ -17,6 +17,10 @@ Ethereum JSON-RPC仕様における、トランザクションプール（mempoo
 - [[glossary/Mempool|Mempool]]
 - [[glossary/JSON-RPC|JSON-RPC]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ Ethereumのステートツリーを置き換えるために提案されている
 - [[glossary/KZG-commitment|KZG commitment]]
 - [[glossary/Data-Availability-Sampling|Data Availability Sampling]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer-25374|リーン実行：世界のコンピュータをスケールさせるための、安全で、効率的で、適応性があり、リソース効率の高い実行スループットへの包括的アプローチ]]（2026-07-06）
+
 ## 元の表記（英語）
 
 - VKTs

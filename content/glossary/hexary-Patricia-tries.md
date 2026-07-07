@@ -16,6 +16,10 @@ Ethereumの現在のステートツリー構造で用いられているデータ
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]]
 - [[glossary/Merkle-Patricia-Trie|Merkle Patricia Trie]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

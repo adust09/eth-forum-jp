@@ -16,6 +16,10 @@ Directional Transfer Domain Registryにおいて、転送ルートの許可を�
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]]
 - [[glossary/Opaque-Domain|Opaque Domain]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

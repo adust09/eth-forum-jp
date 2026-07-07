@@ -16,6 +16,10 @@ Panini標準に準拠して、AIエージェントが自身を「知的生命体
 - [[glossary/Panini-Standard|Panini Standard]]
 - [[glossary/Intelligent-life|Intelligent life (for agents)]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

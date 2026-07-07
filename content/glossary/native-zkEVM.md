@@ -17,6 +17,10 @@ EthereumのL1プロトコルに組み込まれ、バリデータがブロック�
 - [[glossary/enshrined-proposer-builder-separation|enshrined proposer-builder separation]]
 - [[glossary/blobs|blobs]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

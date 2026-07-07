@@ -17,6 +17,10 @@ Partitioned Binary Treeにおいて、アカウントに関する主要な情報
 - [[glossary/contract-code|contract code]]
 - [[glossary/storage|storage]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

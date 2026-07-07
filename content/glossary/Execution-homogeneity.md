@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Data-homogeneity|Data homogeneity]]
 - [[glossary/Execution-layer|Execution layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -18,6 +18,10 @@ Ethereumの状態管理において、各状態要素が最後に書き込まれ
 - [[glossary/Active-state|Active state]]
 - [[glossary/Inactive-state|Inactive state]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

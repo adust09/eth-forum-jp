@@ -17,6 +17,43 @@ date: '2026-07-07'
 - [[glossary/EIP|EIP]]
 - [[glossary/RIP|RIP]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-05-asset-anchor-registry-interface-candidate-erc-28934|資産アンカーレジストリインターフェース - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-directional-transfer-domain-registry-candidate-erc-28936|方向性のある転送ドメインレジストリ - 候補となるERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-compliance-event-log-candidate-erc-28937|主体リンク型コンプライアンスイベントログ - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-impact-snapshot-log-candidate-erc-28938|主体リンク型インパクトスナップショットログ - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-nav-snapshot-oracle-candidate-erc-28939|主体リンク型NAVスナップショットオラクル - ERC候補]]（2026-07-05）
+- [[posts/magicians-2026-07-02-proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review-28913|権原付き資産インフラストラクチャ向け候補ERCインターフェース群の提案 — アーキテクチャレビュー]]（2026-07-02）
+- [[posts/magicians-2026-06-29-eip-editing-office-hour-eip-erc-meeting-104-june-30-2026-28887|EIP編集オフィスアワー (EIP + ERC) ミーティング #104、2026年6月30日]]（2026-06-29）
+- [[posts/magicians-2026-06-24-introducing-a-privileged-role-control-framework-28859|特権ロール制御フレームワークの紹介]]（2026-06-24）
+- [[posts/magicians-2026-06-23-eip-8310-post-quantum-keystore-for-stateful-keys-28853|EIP-8310: ステートフル鍵のためのポスト量子キーストア]]（2026-06-23）
+- [[posts/magicians-2026-06-23-erc-1833-bounded-agent-actions-a-metering-layer-for-agent-authority-28851|ERC-1833: 制限付きエージェントアクション - エージェント権限のためのメータリング層]]（2026-06-23）
+- [[posts/magicians-2026-06-23-ethgent-testnet-officially-launches-today-28844|ETHgentテストネットが本日正式にローンチ]]（2026-06-23）
+- [[posts/magicians-2026-06-22-eip-editing-office-hour-eip-erc-meeting-103-june-23-2026-28842|EIP編集オフィスアワー (EIP + ERC) ミーティング #103、2026年6月23日]]（2026-06-22）
+- [[posts/magicians-2026-06-16-eip-editing-office-hour-eip-erc-meeting-102-june-16-2026-28803|EIP編集オフィスアワー (EIP + ERC) ミーティング #102、2026年6月16日]]（2026-06-16）
+- [[posts/ethresear-2026-06-15-perc20-private-token-standard-draft-25200|pERC20: プライベートトークン標準 (ドラフト)]]（2026-06-15）
+- [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
+- [[posts/magicians-2026-06-10-eip-8295-state-tiering-by-periods-28763|EIP-8295: 期間によるステートの階層化]]（2026-06-10）
+- [[posts/magicians-2026-06-10-erc-8168-payer-services-for-erc-8130-28762|ERC-8168 - ERC-8130向け支払いサービス]]（2026-06-10）
+- [[posts/magicians-2026-06-09-erc-discussion-invariant-first-reserve-receipt-token-ifr-peth-28753|ERC議論: 不変条件優先準備金レシートトークン (IFR-pETH)]]（2026-06-09）
+- [[posts/magicians-2026-06-09-erc-xxxx-smart-contract-emergency-response-28750|ERC-XXXX: スマートコントラクト緊急対応]]（2026-06-09）
+- [[posts/magicians-2026-06-09-erc-xxxx-smart-contract-emergency-states-28748|ERC-XXXX: スマートコントラクトの緊急状態]]（2026-06-09）
+- [[posts/magicians-2026-06-08-erc-xxxx-role-based-timelock-operation-28742|ERC-XXXX ロールベースのタイムロック操作]]（2026-06-08）
+- [[posts/magicians-2026-06-08-erc-xxxx-time-delayed-access-control-28741|ERC-XXXX 時間遅延アクセス制御]]（2026-06-08）
+- [[posts/ethresear-2026-06-07-ethereum-governance-verification-system-25116|イーサリアムにおける権限検証、実行再構築、ガバナンス一貫性検証のためのリプレイ安定型アーキテクチャ]]（2026-06-07）
+- [[posts/magicians-2026-06-05-draft-erc-shielded-note-teleportation-28721|ドラフトERC: シールドされたノートのテレポート]]（2026-06-05）
+- [[posts/magicians-2026-06-05-eip-frame-type-for-quantum-resistant-signature-and-stark-aggregation-28723|EIP: 量子耐性署名とSTARK集約のためのフレームタイプ]]（2026-06-05）
+- [[posts/magicians-2026-06-04-erc-8287-privacy-native-fungible-tokens-28702|ERC-8287: プライバシーネイティブなファンジブルトークン]]（2026-06-04）
+- [[posts/magicians-2026-06-04-siwe-gated-nft-media-uri-28708|SIWEで保護されたNFTメディアURIのERCドラフト]]（2026-06-04）
+- [[posts/magicians-2026-06-03-erc-8284-wallet-scoped-token-pull-execution-28691|ERC-8284: ウォレットスコープのトークンプル実行]]（2026-06-03）
+- [[posts/magicians-2026-06-03-erc-modular-accounts-for-frame-transactions-28695|ERC: フレームトランザクション向けモジュラーアカウント]]（2026-06-03）
+- [[posts/magicians-2026-06-03-erc-wallet-nft-pull-execution-28693|ERC: ウォレットNFTプル実行]]（2026-06-03）
+- [[posts/magicians-2026-06-02-erc-8280-contract-runtime-apps-28685|ERC-8280: コントラクトランタイムアプリ]]（2026-06-02）
+- [[posts/magicians-2026-06-02-erc-proposal-rwa-disclosure-interfaces-28679|ERC提案: RWA開示インターフェース]]（2026-06-02）
+- [[posts/magicians-2026-06-01-draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody-28670|ドラフトERC: パーミッションレジストリ — カストディなしでエージェントに機能スコープの委任を]]（2026-06-01）
+- [[posts/magicians-2026-05-27-erc-8277-persistent-identity-token-pip-28641|ERC-8277: 永続的アイデンティティトークン (PIP)]]（2026-05-27）
+
 ## 元の表記（英語）
 
 - Ethereum Request for Comments

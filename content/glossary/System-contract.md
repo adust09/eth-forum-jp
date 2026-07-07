@@ -15,6 +15,10 @@ Ethereumプロトコル内で特別な役割や権限を持つコントラクト
 
 - [[glossary/Predeploys|Predeploys]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

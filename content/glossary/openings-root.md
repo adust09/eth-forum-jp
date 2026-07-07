@@ -16,6 +16,10 @@ EthereumのネイティブUTXOモデルにおいて、各ブロックで作成�
 - [[glossary/UTXO|UTXO]]
 - [[glossary/commitment-tree|commitment tree]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

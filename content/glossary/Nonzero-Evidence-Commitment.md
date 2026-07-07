@@ -16,6 +16,10 @@ Directional Transfer Domain Registryのコアインターフェースでサポ�
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]]
 - [[glossary/Graceful-Revocation|Graceful Revocation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

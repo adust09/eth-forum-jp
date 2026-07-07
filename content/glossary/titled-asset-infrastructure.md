@@ -16,6 +16,14 @@ date: '2026-07-07'
 - [[glossary/RWA|RWA]]
 - [[glossary/tokenisation|tokenisation]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-05-asset-anchor-registry-interface-candidate-erc-28934|資産アンカーレジストリインターフェース - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-directional-transfer-domain-registry-candidate-erc-28936|方向性のある転送ドメインレジストリ - 候補となるERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-compliance-event-log-candidate-erc-28937|主体リンク型コンプライアンスイベントログ - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-impact-snapshot-log-candidate-erc-28938|主体リンク型インパクトスナップショットログ - 候補ERC]]（2026-07-05）
+- [[posts/magicians-2026-07-05-subject-linked-nav-snapshot-oracle-candidate-erc-28939|主体リンク型NAVスナップショットオラクル - ERC候補]]（2026-07-05）
+
 ## 元の表記（英語）
 
 (なし)

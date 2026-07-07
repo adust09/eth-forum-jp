@@ -18,6 +18,10 @@ Ethereumのステート、トランザクション、レシートを効率的か
 - [[glossary/Account-Trie|Account Trie]]
 - [[glossary/Storage-Trie|Storage Trie]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
+
 ## 元の表記（英語）
 
 - MPT

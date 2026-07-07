@@ -17,6 +17,10 @@ AIエージェントの過去の行動や取引に基づいて、その信頼性
 - [[glossary/Passive-Reputation|Passive Reputation]]
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - IAgentReputation

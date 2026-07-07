@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]]
 - [[glossary/Incentive-Compatibility|Incentive Compatibility]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

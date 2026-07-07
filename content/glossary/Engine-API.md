@@ -16,6 +16,11 @@ EthereumのExecution LayerクライアントとConsensus Layerクライアント
 - [[glossary/Execution-Layer|Execution Layer]]
 - [[glossary/Consensus-Layer|Consensus Layer]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）
+- [[posts/magicians-2026-06-18-ssz-engine-api-1-june-26-2026-28832|SSZ エンジンAPI #1、2026年6月26日]]（2026-06-18）
+
 ## 元の表記（英語）
 
 (なし)

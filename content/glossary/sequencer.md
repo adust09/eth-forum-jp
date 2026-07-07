@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/memory-layer|memory layer]]
 - [[glossary/based-sequencing|based sequencing]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-30-rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems-25332|検証可能な分散型ブロックチェーンシステムのための協調的信頼の再考]]（2026-06-30）
+
 ## 元の表記（英語）
 
 (なし)

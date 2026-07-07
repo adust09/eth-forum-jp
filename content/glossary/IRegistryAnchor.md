@@ -16,6 +16,10 @@ ERC-8320において、資産が自身が認識するレジストリを承認す
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]]
 - [[glossary/registry-admin|registry admin]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

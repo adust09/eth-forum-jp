@@ -16,6 +16,10 @@ BeTrueCoreプロジェクトが提唱する概念で、個々の参加者の判�
 - [[glossary/Reputation-Wallet|Reputation Wallet]]
 - [[glossary/Collective-intelligence|Collective intelligence]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -18,6 +18,10 @@ EVMアドレスに紐付けられた人間が読めるオンチェーンアイ�
 - [[glossary/bind-to-lock-model|bind-to-lock model]]
 - [[glossary/Soulbound-Token|Soulbound Token]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PIP

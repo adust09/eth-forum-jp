@@ -17,6 +17,10 @@ EthereumのGossipSubプロトコルを拡張し、メッセージ送信者の匿
 - [[glossary/GossipSub|GossipSub]]
 - [[glossary/Dandelion|Dandelion++]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination

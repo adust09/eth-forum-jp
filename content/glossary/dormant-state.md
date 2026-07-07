@@ -17,6 +17,10 @@ Ethereumブロックチェーンの状態のうち、長期間にわたってア
 - [[glossary/state-expiry|state expiry]]
 - [[glossary/state-tiering|state tiering]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

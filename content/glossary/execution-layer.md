@@ -17,6 +17,11 @@ Protocol Interaction Manifest (PIM) の構成要素の一つで、ユーザー�
 - [[glossary/intent-layer|intent layer]]
 - [[glossary/lookup-layer|lookup layer]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-01-receiptos-a-portable-proof-substrate-for-verifiable-agent-execution-28900|ReceiptOS: 検証可能なエージェント実行のためのポータブルな証明基盤]]（2026-07-01）
+- [[posts/magicians-2026-06-22-all-core-devs-testing-acdt-85-june-29-2026-28840|全コア開発者会議 - テスト (ACDT) #85、2026年6月29日]]（2026-06-22）
+
 ## 元の表記（英語）
 
 (なし)

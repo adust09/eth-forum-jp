@@ -18,6 +18,10 @@ SPHINCS+における「数回署名」スキームの構成要素。k個の独�
 - [[glossary/Hypertree|Hypertree]]
 - [[glossary/WOTS|WOTS+]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Forest of Random Subsets

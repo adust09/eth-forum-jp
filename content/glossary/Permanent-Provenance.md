@@ -15,6 +15,10 @@ date: '2026-07-07'
 
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

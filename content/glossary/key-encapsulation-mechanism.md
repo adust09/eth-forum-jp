@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/post-quantum-cryptography|post-quantum cryptography]]
 - [[glossary/NIST-PQC|NIST PQC]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - KEM

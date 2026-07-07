@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Oracle|Oracle]]
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

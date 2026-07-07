@@ -18,6 +18,10 @@ ZK-UTXOノートとZcash Orchardプロトコルを基盤とし、残高と送金
 - [[glossary/ZK-UTXO-note|ZK-UTXO note]]
 - [[glossary/Zcash-Orchard-protocol|Zcash Orchard protocol]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
+
 ## 元の表記（英語）
 
 - pERC20

@@ -16,6 +16,10 @@ EVMの決定論を利用し、特定のトランザクションが実行され�
 - [[glossary/simulation-based-attribution|simulation-based attribution]]
 - [[glossary/EVM-determinism|EVM determinism]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

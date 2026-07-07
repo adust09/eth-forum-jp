@@ -15,6 +15,10 @@ Ethereum Transparency Layer (ETL) の構成要素の一つで、ガバナンス�
 
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

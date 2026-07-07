@@ -16,6 +16,10 @@ AIエージェントがブロックチェーン上で利用可能なサービス
 - [[glossary/AI-Agent|AI Agent]]
 - [[glossary/Agent-Registry|Agent Registry]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

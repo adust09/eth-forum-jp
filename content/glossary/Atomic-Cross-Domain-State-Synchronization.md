@@ -20,6 +20,10 @@ date: '2026-07-07'
 - [[glossary/Atomic-composition-across-rollups|Atomic composition across rollups]]
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - atomic synchronization

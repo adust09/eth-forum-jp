@@ -15,6 +15,10 @@ date: '2026-07-07'
 
 - [[glossary/Asset-Enforced-Spend-Mandate|Asset-Enforced Spend Mandate]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

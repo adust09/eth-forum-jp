@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/L2-rollup|L2 rollup]]
 - [[glossary/Execution-layer|Execution layer]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-01-receiptos-a-portable-proof-substrate-for-verifiable-agent-execution-28900|ReceiptOS: 検証可能なエージェント実行のためのポータブルな証明基盤]]（2026-07-01）
+
 ## 元の表記（英語）
 
 (なし)

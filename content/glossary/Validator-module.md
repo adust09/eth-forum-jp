@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/Hook-module|Hook module]]
 - [[glossary/Config-module|Config module]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

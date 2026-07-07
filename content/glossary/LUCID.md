@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]]
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - EIP-8184

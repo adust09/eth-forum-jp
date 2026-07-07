@@ -16,6 +16,10 @@ Ethereumのアカウントモデルにおいて、アドレスが初めてETHを
 - [[glossary/account-model|account model]]
 - [[glossary/state-tree|state tree]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

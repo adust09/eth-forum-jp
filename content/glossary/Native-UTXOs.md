@@ -16,6 +16,10 @@ EthereumにBitcoinのようなUTXOモデルを導入する提案。支払いワ�
 - [[glossary/UTXO|UTXO]]
 - [[glossary/Frame-Transactions|Frame Transactions]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

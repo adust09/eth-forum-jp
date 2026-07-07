@@ -18,6 +18,10 @@ ZK-SNARKsによって保護されたUTXO（未使用トランザクション出�
 - [[glossary/ZK-SNARKs|ZK-SNARKs]]
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-05-draft-erc-shielded-note-teleportation-28721|ドラフトERC: シールドされたノートのテレポート]]（2026-06-05）
+
 ## 元の表記（英語）
 
 - note

@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/private-information-retrieval|private information retrieval]]
 - [[glossary/decryption-trilemma|decryption trilemma]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - OMR

@@ -17,6 +17,10 @@ date: '2026-07-07'
 
 - [[glossary/Account-abstraction|Account abstraction]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-04-siwe-gated-nft-media-uri-28708|SIWEで保護されたNFTメディアURIのERCドラフト]]（2026-06-04）
+
 ## 元の表記（英語）
 
 - SIWE

@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Observation-Scope|Observation Scope]]
 - [[glossary/Contestability|Contestability]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-24-erc-xxxx-scope-contestation-registry-permissionless-observation-scope-completeness-contestability-28856|ERC-XXXX: スコープ異議申し立てレジストリ — パーミッションレスな観測スコープ完全性の異議申し立て可能性]]（2026-06-24）
+
 ## 元の表記（英語）
 
 (なし)

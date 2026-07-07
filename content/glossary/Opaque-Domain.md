@@ -16,6 +16,10 @@ Directional Transfer Domain Registryにおいて、管轄区域、規制され�
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]]
 - [[glossary/Asset-Class|Asset Class]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

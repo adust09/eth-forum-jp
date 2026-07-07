@@ -17,6 +17,10 @@ ZcashプロトコルのOrchard shielded poolモデルにおける、一つ以上
 - [[glossary/PrivacyCall|PrivacyCall]]
 - [[glossary/BundleAction|BundleAction]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

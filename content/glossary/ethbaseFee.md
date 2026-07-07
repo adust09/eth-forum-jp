@@ -16,6 +16,10 @@ EthereumのJSON-RPCメソッドの一つで、EIP-1559で導入された現在�
 - [[glossary/Base-Fee|Base Fee]]
 - [[glossary/EIP-1559|EIP-1559]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

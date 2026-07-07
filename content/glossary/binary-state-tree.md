@@ -16,6 +16,10 @@ Ethereumの状態を表現するために使用される、キーがバイナリ
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]]
 - [[glossary/hexary-Patricia-tries|hexary Patricia tries]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

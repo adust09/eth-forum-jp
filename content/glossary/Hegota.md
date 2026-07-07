@@ -16,6 +16,10 @@ Glamsterdamの後にガスリミットのスケーリングを維持するため
 - [[glossary/Glamsterdam|Glamsterdam]]
 - [[glossary/hard-fork|hard fork]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

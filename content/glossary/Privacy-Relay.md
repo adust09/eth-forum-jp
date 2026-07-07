@@ -17,6 +17,10 @@ dAppからのトランザクションをプライベートにルーティング�
 - [[glossary/zk-shielding-layer|zk shielding layer]]
 - [[glossary/ERC-4337-bundler|ERC-4337 bundler]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

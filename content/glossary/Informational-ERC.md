@@ -18,6 +18,10 @@ Ethereum Request for Comments (ERC) の一種で、プロトコルや実装に�
 - [[glossary/ERC|ERC]]
 - [[glossary/EIP|EIP]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-03-erc-8319-regulatory-compliance-protocol-28917|ERC-8319: 規制コンプライアンスプロトコル]]（2026-07-03）
+
 ## 元の表記（英語）
 
 - Informational EIP

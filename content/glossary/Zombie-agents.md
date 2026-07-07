@@ -15,6 +15,10 @@ ERC-8004の登録レイヤーに存在するものの、ほとんど活動して
 
 - [[glossary/batch-registration|batch registration]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

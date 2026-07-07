@@ -16,6 +16,10 @@ pERC20において、トークン保有者のみが自身のビューイング�
 - [[glossary/viewing-key|viewing key]]
 - [[glossary/balanceOf|balanceOf]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

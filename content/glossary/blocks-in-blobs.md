@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/bandwidth-scaling|bandwidth scaling]]
 - [[glossary/EIP-8142|EIP-8142]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

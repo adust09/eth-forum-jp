@@ -16,6 +16,10 @@ Ethereumプロトコルにおいて、将来のアップグレードや変更に
 - [[glossary/consensus-layer|consensus layer]]
 - [[glossary/protocol-upgrade|protocol upgrade]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

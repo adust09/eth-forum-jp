@@ -16,6 +16,10 @@ Panini標準によって定義される、自律型AIエージェントにおけ
 - [[glossary/Panini-Standard|Panini Standard]]
 - [[glossary/autonomous-AI-agents|autonomous AI agents]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

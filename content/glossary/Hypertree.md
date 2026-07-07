@@ -18,6 +18,10 @@ SPHINCS+のようなハッシュベース署名スキームで用いられる、
 - [[glossary/XMSS-trees|XMSS trees]]
 - [[glossary/WOTS|WOTS+]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

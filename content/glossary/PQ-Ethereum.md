@@ -18,6 +18,10 @@ BLS署名が耐量子ハッシュベース署名に置き換えられた、将�
 - [[glossary/BLS-signatures|BLS signatures]]
 - [[glossary/hash-based-signatures|hash-based signatures]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Post-Quantum Ethereum

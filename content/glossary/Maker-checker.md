@@ -18,6 +18,10 @@ ERC-8320におけるクレーム管理のプロセスで、提案者（AUTHOR）
 - [[glossary/ACTIVATOR|ACTIVATOR]]
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

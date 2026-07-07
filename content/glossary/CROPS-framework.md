@@ -19,6 +19,10 @@ Vitalik Buterinによって提唱された、Ethereumの長期的な方向性を
 - [[glossary/Privacy|Privacy]]
 - [[glossary/Security|Security]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - CROPS dimension

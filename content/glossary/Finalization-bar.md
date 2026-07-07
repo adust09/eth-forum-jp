@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/total-base-weight|total base weight]]
 - [[glossary/effective-present-weight|effective present weight]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - finalization threshold

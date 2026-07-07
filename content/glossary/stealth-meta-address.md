@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/ERC-5564|ERC-5564]]
 - [[glossary/ERC-6538|ERC-6538]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-13-draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains-28787|ドラフト提案: ステルスネーム解決（非同期チェーン間でのステルスメタアドレス名）]]（2026-06-13）
+
 ## 元の表記（英語）
 
 (なし)

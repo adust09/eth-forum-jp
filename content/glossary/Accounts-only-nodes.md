@@ -17,6 +17,10 @@ L2ユーザーがフルステートを維持することなく、アカウント
 - [[glossary/BALs|BALs]]
 - [[glossary/Account-proof|Account proof]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

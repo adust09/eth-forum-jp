@@ -17,6 +17,10 @@ Ethereumのポスト量子署名検証のために特別に設計された、Cai
 - [[glossary/recursive-aggregation|recursive aggregation]]
 - [[glossary/zkVM|zkVM]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

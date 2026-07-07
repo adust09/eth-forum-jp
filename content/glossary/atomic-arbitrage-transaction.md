@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/MEV|MEV]]
 - [[glossary/arbitrage|arbitrage]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - atomic arbitrage

@@ -19,6 +19,10 @@ BitcoinとEthereumの両方で動作する、Winternitz One-Time Signatures (WOT
 - [[glossary/EIP-7702|EIP-7702]]
 - [[glossary/Post-Quantum|Post-Quantum]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

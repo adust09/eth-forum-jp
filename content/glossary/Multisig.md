@@ -18,6 +18,11 @@ date: '2026-07-07'
 - [[glossary/Account-abstraction|Account abstraction]]
 - [[glossary/MPC|MPC]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-15-perc20-private-token-standard-draft-25200|pERC20: プライベートトークン標準 (ドラフト)]]（2026-06-15）
+- [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
+
 ## 元の表記（英語）
 
 - Multi-signature
