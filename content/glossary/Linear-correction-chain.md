@@ -5,7 +5,7 @@ aliases:
   - linear corrections
 tags:
   - glossary
-date: '2026-07-06'
+date: '2026-07-07'
 ---
 
 **線形訂正チェーン (Linear correction chain)**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-06'
+date: '2026-07-07'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -13,6 +13,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
 - [[glossary/account-headers|account headers]] — アカウントヘッダー
+- [[glossary/account-leaf|account leaf]] — アカウントリーフ
 - [[glossary/Account-warming-charge|Account-warming charge]] — アカウントウォーミングチャージ
 - [[glossary/accounting-invariant|accounting invariant]] — 会計不変条件
 - [[glossary/Accounts-only-nodes|Accounts-only nodes]] — アカウントオンリーノード
@@ -62,10 +63,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/attestation-deadline|attestation deadline]] — アテステーション期限
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
+- [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
+- [[glossary/balance-update-proof|balance update proof]] — 残高更新証明
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
@@ -116,6 +119,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/condorcet-winner|condorcet winner]] — コンドルセ勝者
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
+- [[glossary/Consensus-homogeneity|Consensus homogeneity]] — コンセンサス均一性
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
@@ -147,6 +151,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
 - [[glossary/DA-propagation-burden|DA-propagation burden]] — DA伝播負荷 (Data Availability Propagation Burden)
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
+- [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
@@ -155,6 +160,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
 - [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
+- [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
@@ -169,9 +175,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Distributed-Validator-Technology|Distributed Validator Technology]] — 分散型バリデータ技術 (DVT)
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/domainlogn|domain_logn]] — ドメインの対数サイズ (domain_logn)
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
 - [[glossary/dormant-state|dormant state]] — 休眠状態
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
+- [[glossary/Economic-Invariant|Economic Invariant]] — 経済的不変条件
 - [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
 - [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
 - [[glossary/EIP|EIP]] — EIP（Ethereum 改善提案）
@@ -185,6 +193,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
+- [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
@@ -214,6 +223,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/execution-anchor|execution anchor]] — 実行アンカー
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
+- [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
@@ -307,12 +317,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/leanSPHINCS|leanSPHINCS]] — leanSPHINCS（リーンSPHINCS）
 - [[glossary/leanVM|leanVM]] — leanVM
+- [[glossary/leanWOTS|leanWOTS]] — leanWOTS (署名アルゴリズム)
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
+- [[glossary/logicallogn|logical_logn]] — 論理ドメインの対数サイズ (logical_logn)
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
@@ -350,6 +362,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/Namespaced-Storage|Namespaced Storage]] — 名前空間付きストレージ
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
+- [[glossary/Native-UTXOs|Native UTXOs]] — ネイティブUTXO
 - [[glossary/native-zkEVM|native zkEVM]] — ネイティブzkEVM
 - [[glossary/NAV-basis|NAV basis]] — NAV基準 (NAV basis)
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
@@ -375,6 +388,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
+- [[glossary/openings-root|openings root]] — オープニングルート
 - [[glossary/Operation-Restriction-Policy|Operation Restriction Policy]] — 操作制限ポリシー
 - [[glossary/Operation-level-restrictions|Operation-level restrictions]] — 操作レベルの制限
 - [[glossary/Operator|Operator]] — オペレーター
@@ -408,6 +422,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/pipelining|pipelining]] — パイプライニング
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
+- [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
@@ -506,6 +521,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
+- [[glossary/single-slot-finality|single-slot finality]] — シングルスロットファイナリティ
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
 - [[glossary/Single-successor-correction-chain|Single-successor correction chain]] — 単一後続修正チェーン
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
@@ -516,12 +532,15 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
+- [[glossary/spent-bit|spent bit]] — 使用済みビット
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/SPREAD|SPREAD]] — SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
+- [[glossary/STARK-LDE-NTT|STARK-LDE NTT]] — STARK-LDE NTT (STARK低次拡張数論変換)
+- [[glossary/STARK-style-LDE|STARK-style LDE]] — STARK形式のLDE (STARK-style LDE)
 - [[glossary/state-access|state access]] — 状態アクセス
 - [[glossary/state-expiry|state expiry]] — ステート有効期限
 - [[glossary/state-growth|state growth]] — 状態成長
@@ -535,6 +554,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
+- [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
+- [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
@@ -544,6 +565,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
+- [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/threshold-ecdsa|threshold ecdsa]] — しきい値ECDSA (Threshold ECDSA)
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
@@ -577,11 +599,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
+- [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
+- [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行
 - [[glossary/verifiable-claims|verifiable claims]] — 検証可能なクレーム
 - [[glossary/Verifiably-Decentralized-Blockchain-System|Verifiably Decentralized Blockchain System]] — 検証可能な分散型ブロックチェーンシステム
