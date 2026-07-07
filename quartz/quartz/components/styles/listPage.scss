@@ -38,3 +38,35 @@ li.section-li {
     display: none;
   }
 }
+
+// Client-side sort toggle (category vs. date) on the posts index.
+.sort-toggle {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0 0 1rem 0;
+
+  & > .sort-toggle-btn {
+    padding: 0.3rem 0.9rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--lightgray);
+    }
+
+    &.active {
+      background-color: var(--secondary);
+      border-color: var(--secondary);
+      color: var(--light);
+    }
+  }
+}
+
+.listing-view.hidden {
+  display: none;
+}

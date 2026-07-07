@@ -10,6 +10,8 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+// @ts-ignore
+import sortToggleScript from "../scripts/sortToggle.inline"
 
 interface FolderContentOptions {
   /**
@@ -107,11 +109,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     // render one section per Discourse category instead of a single flat list.
     const groupByCategory = fileData.frontmatter?.groupBy === "category"
 
-    const renderListing = () => {
-      if (!groupByCategory) {
-        return <PageList {...listProps} />
-      }
-
+    const renderCategoryGroups = () => {
       const groups = new Map<string, QuartzPluginData[]>()
       for (const page of allPagesInFolder) {
         const category = (page.frontmatter?.category as string | undefined) ?? "Uncategorized"
@@ -138,6 +136,34 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       ))
     }
 
+    const renderListing = () => {
+      if (!groupByCategory) {
+        return <PageList {...listProps} />
+      }
+
+      // Render both views; a client-side toggle (sortToggle.inline) shows one at a
+      // time and persists the choice in localStorage. Category view is the default
+      // (and the only one visible when JS is disabled).
+      return (
+        <div class="sort-toggle-container">
+          <div class="sort-toggle" role="group" aria-label="並び順">
+            <button type="button" class="sort-toggle-btn" data-sort="category">
+              カテゴリ別
+            </button>
+            <button type="button" class="sort-toggle-btn" data-sort="date">
+              日付順
+            </button>
+          </div>
+          <div class="listing-view" data-view="category">
+            {renderCategoryGroups()}
+          </div>
+          <div class="listing-view hidden" data-view="date">
+            <PageList {...props} allFiles={allPagesInFolder} sort={byDateAndAlphabetical(cfg)} />
+          </div>
+        </div>
+      )
+    }
+
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
@@ -156,5 +182,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   }
 
   FolderContent.css = concatenateResources(style, PageList.css)
+  FolderContent.afterDOMLoaded = sortToggleScript
   return FolderContent
 }) satisfies QuartzComponentConstructor
