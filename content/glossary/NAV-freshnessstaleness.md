@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Net-Asset-Value|Net Asset Value]]
 - [[glossary/Oracle|Oracle]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-02-proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review-28913|権原付き資産インフラストラクチャ向け候補ERCインターフェース群の提案 — アーキテクチャレビュー]]（2026-07-02）
+
 ## 元の表記（英語）
 
 (なし)

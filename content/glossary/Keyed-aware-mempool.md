@@ -17,6 +17,10 @@ Keyed Noncesの概念を認識し、処理できるMempool。これにより、�
 - [[glossary/Mempool|Mempool]]
 - [[glossary/Mempool-level-concurrency|Mempool-level concurrency]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

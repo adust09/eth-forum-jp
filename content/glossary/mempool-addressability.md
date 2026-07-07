@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Keyed-Nonces|Keyed Nonces]]
 - [[glossary/keyed-aware-mempool-policies|keyed-aware mempool policies]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - protocol-level mempool addressability

@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/recomputable-receipt|recomputable receipt]]
 - [[glossary/agent-action|agent action]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - capsule

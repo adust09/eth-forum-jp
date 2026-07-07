@@ -16,6 +16,10 @@ Relationship-Anchored Moneyプロトコルにおける普遍的な組織プリ�
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]]
 - [[glossary/Equity-relationships|Equity relationships]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

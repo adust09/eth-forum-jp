@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Tornado-Cash|Tornado Cash]]
 - [[glossary/Privacy-Relay|Privacy Relay]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

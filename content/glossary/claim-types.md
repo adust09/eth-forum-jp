@@ -16,6 +16,10 @@ ERC-8320で定義される、資産に関するクレームのカテゴリです
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]]
 - [[glossary/ERC-8320|ERC-8320]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

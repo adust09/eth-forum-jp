@@ -17,6 +17,10 @@ P2Pネットワークにおいて、メッセージの送信元を特定する�
 - [[glossary/Timing-based-attack|Timing-based attack]]
 - [[glossary/Censorship-resistance|Censorship resistance]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - deanonymization

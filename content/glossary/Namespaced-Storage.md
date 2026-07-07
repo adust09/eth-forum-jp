@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Diamond-Storage|Diamond Storage]]
 - [[glossary/EIP-7201|EIP-7201]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Consensus-Window|Consensus Window]]
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - δ threshold exclusion

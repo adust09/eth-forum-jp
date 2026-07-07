@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]]
 - [[glossary/tokenisation|tokenisation]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-07-05-asset-anchor-registry-interface-candidate-erc-28934|資産アンカーレジストリインターフェース - 候補ERC]]（2026-07-05）
+
 ## 元の表記（英語）
 
 (なし)

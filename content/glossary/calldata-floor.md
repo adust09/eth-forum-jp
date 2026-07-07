@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/calldata-pricing|calldata pricing]]
 - [[glossary/EIP-7976|EIP-7976]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

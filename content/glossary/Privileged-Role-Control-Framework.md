@@ -19,6 +19,10 @@ date: '2026-07-07'
 - [[glossary/Time-Bound-Access-Control-Interface|Time-Bound Access Control Interface]]
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PRCF

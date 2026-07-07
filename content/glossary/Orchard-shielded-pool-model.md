@@ -18,6 +18,10 @@ Zcashプロトコル仕様で定義されているプライバシー保護メカ
 - [[glossary/pERC20|pERC20]]
 - [[glossary/shielded-pool|shielded pool]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
+
 ## 元の表記（英語）
 
 - Orchard shielded pool

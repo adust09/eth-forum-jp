@@ -16,6 +16,10 @@ EthereumのEVMに組み込まれた特殊なコントラクト（プリコンパ
 - [[glossary/Precompile|Precompile]]
 - [[glossary/EVM|EVM]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

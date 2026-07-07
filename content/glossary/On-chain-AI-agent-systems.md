@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]]
 - [[glossary/WYRIWE|WYRIWE]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-13-draft-erc-ai-agent-execution-28785|ドラフトERC: AIエージェント実行]]（2026-06-13）
+
 ## 元の表記（英語）
 
 (なし)

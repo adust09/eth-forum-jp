@@ -15,6 +15,10 @@ Ethereum Improvement Proposal (EIP) に一意の番号を割り当てるプロ�
 
 - [[glossary/EIP|EIP]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-04-eipip-meeting-128-july-08-2026-28706|EIPIPミーティング #128、2026年7月8日]]（2026-06-04）
+
 ## 元の表記（英語）
 
 (なし)

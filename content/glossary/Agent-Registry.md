@@ -16,6 +16,10 @@ AIエージェントが自身のサービスを登録し、他のエージェン
 
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - IAgentRegistry

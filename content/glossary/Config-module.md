@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/Executor-module|Executor module]]
 - [[glossary/Hook-module|Hook module]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

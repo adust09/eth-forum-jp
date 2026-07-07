@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/dispute-resolution|dispute resolution]]
 - [[glossary/smart-contract|smart contract]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

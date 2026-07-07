@@ -16,6 +16,10 @@ AIエージェントの実行結果を検証可能な記録として提供する
 - [[glossary/Execution-Receipt|Execution Receipt]]
 - [[glossary/AI-Agent|AI Agent]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

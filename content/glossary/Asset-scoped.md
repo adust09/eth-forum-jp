@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/action-scoped|action-scoped]]
 - [[glossary/ERC-20-approvals|ERC-20 approvals]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

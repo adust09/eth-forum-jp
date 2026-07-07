@@ -17,6 +17,10 @@ ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェ�
 - [[glossary/Identity-Layer|Identity Layer]]
 - [[glossary/Resolution-Layer|Resolution Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

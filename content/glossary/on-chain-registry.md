@@ -16,6 +16,10 @@ ERC-7730のクリア署名記述子を許可なく維持・更新できるスマ
 - [[glossary/ERC-8283|ERC-8283]]
 - [[glossary/Clear-Signing-descriptor|Clear Signing descriptor]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-24-introducing-a-privileged-role-control-framework-28859|特権ロール制御フレームワークの紹介]]（2026-06-24）
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Ethereumのコンセンサス層におけるエポックの区切り。スロッ
 - [[glossary/slot-0-reorg|slot-0 reorg]]
 - [[glossary/epoch|epoch]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ MEVオークションにおいて、ビルダーが落札者の戦略を複製�
 - [[glossary/Replicability-Fraction|Replicability Fraction]]
 - [[glossary/Frontrunning|Frontrunning]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

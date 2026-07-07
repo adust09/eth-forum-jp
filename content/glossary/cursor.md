@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/bounded-mandate|bounded mandate]]
 - [[glossary/metering-layer|metering layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

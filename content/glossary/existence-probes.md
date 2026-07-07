@@ -17,6 +17,10 @@ Ethereumの状態に対する読み取り操作のうち、特定のアカウン
 - [[glossary/read-only-set|read-only set]]
 - [[glossary/populated-read|populated read]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

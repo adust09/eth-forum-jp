@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/Control-Plane|Control Plane]]
 - [[glossary/Identity-Layer|Identity Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Disclosure Layer

@@ -16,6 +16,10 @@ NFTなどのトークンIDに直接紐付けられた価値の予約。トーク
 - [[glossary/IERC8060Reservable|IERC8060Reservable]]
 - [[glossary/Token-bound-account|Token bound account]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

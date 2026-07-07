@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Anti-concentration-Invariant|Anti-concentration Invariant]]
 - [[glossary/Consensus-Layer|Consensus Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、公開を担当�
 - [[glossary/EIP|EIP]]
 - [[glossary/EIPIP|EIPIP]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

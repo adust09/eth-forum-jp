@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/first-price-block-auction|first-price block auction]]
 - [[glossary/open-bidding-auction|open-bidding auction]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - sealed-bid format

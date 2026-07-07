@@ -16,6 +16,10 @@ TEEのメモリ暗号化エンジンとDRAM間の物理バスにデバイスを�
 - [[glossary/WireTap|WireTap]]
 - [[glossary/TEEfail|TEE.fail]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

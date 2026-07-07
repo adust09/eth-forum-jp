@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]]
 - [[glossary/Privacy-Coin|Privacy Coin]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

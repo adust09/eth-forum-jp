@@ -16,6 +16,10 @@ SPREADプロトコルにおいて、仮想座標空間で地理的に近いノ�
 - [[glossary/Inter-cluster-communication|Inter-cluster communication]]
 - [[glossary/Cluster|Cluster]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

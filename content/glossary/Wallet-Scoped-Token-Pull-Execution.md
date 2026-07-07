@@ -16,6 +16,10 @@ ERC-8284で提案される、ウォレットが特定の外部呼び出し中に
 - [[glossary/ERC-20|ERC-20]]
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

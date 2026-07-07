@@ -16,6 +16,10 @@ EIP-8188で定義される、アカウントまたはストレージスロット
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]]
 - [[glossary/EIP-8188|EIP-8188]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-29-the-anatomy-of-ethereum-s-state-access-25317|イーサリアムのステートアクセス解剖学]]（2026-06-29）
+
 ## 元の表記（英語）
 
 (なし)

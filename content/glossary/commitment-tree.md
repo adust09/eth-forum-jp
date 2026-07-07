@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/nullifier-set|nullifier set]]
 - [[glossary/ZK-UTXO|ZK-UTXO]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
+
 ## 元の表記（英語）
 
 (なし)

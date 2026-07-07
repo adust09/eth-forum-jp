@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/FK23|FK23]]
 - [[glossary/KZG-commitment|KZG commitment]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

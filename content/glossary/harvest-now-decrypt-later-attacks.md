@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/post-quantum-cryptography|post-quantum cryptography]]
 - [[glossary/quantum-computer|quantum computer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - HNDL attacks

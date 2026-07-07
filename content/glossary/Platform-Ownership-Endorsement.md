@@ -18,6 +18,10 @@ Intelが提案する標準化されたメカニズムで、プラットフォー
 - [[glossary/CoRIM|CoRIM]]
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PoE

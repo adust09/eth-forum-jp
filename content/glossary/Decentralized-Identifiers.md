@@ -18,6 +18,10 @@ W3Cによって標準化された、分散型ウェブにおける自己主権�
 - [[glossary/Self-Sovereign-Identity|Self-Sovereign Identity]]
 - [[glossary/ENS|ENS]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - DID

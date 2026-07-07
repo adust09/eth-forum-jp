@@ -18,6 +18,10 @@ AIエージェントの単一セッションまたはワークフロー内で実
 - [[glossary/Merkle-Tree|Merkle Tree]]
 - [[glossary/On-chain-Anchor|On-chain Anchor]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Workflow Root

@@ -16,6 +16,10 @@ Ethereumビーコンチェーンにおいて、各エポックの終わりに実
 - [[glossary/epoch|epoch]]
 - [[glossary/beacon-chain|beacon chain]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

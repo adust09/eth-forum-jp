@@ -17,6 +17,11 @@ date: '2026-07-07'
 - [[glossary/Post-Quantum|Post-Quantum]]
 - [[glossary/digital-signatures|digital signatures]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-23-eip-8310-post-quantum-keystore-for-stateful-keys-28853|EIP-8310: ステートフル鍵のためのポスト量子キーストア]]（2026-06-23）
+- [[posts/magicians-2026-06-12-eip-8292-pq-attestation-aggregators-28778|EIP-8292: ポスト量子アテステーションアグリゲーター]]（2026-06-12）
+
 ## 元の表記（英語）
 
 (なし)

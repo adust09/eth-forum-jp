@@ -18,6 +18,10 @@ Ethereumプロトコルの将来的な改善、アップグレード、および
 - [[glossary/Ethereum-Improvement-Proposal|Ethereum Improvement Proposal]]
 - [[glossary/All-Core-Devs|All Core Devs]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Ethereum R&D

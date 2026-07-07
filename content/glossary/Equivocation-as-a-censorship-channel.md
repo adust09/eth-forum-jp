@@ -17,6 +17,10 @@ FOCILにおいて、委員会メンバーが二重署名（equivocation）を行
 - [[glossary/equivocation|equivocation]]
 - [[glossary/censorship-resistance|censorship resistance]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

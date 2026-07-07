@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/ERC-8265|ERC-8265]]
 - [[glossary/Clear-Signing|Clear Signing]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-22-eip-editing-office-hour-eip-erc-meeting-103-june-23-2026-28842|EIP編集オフィスアワー (EIP + ERC) ミーティング #103、2026年6月23日]]（2026-06-22）
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ AIエージェントの行動に対する完全な証明スタックを構成す
 - [[glossary/ERC-8263|ERC-8263]]
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-05-31-evidential-survivability-ocp-and-ethereums-crops-direction-25012|証拠の生存可能性：OCPとEthereumのCROPS方向性]]（2026-05-31）
+
 ## 元の表記（英語）
 
 (なし)

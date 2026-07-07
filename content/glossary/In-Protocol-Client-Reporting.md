@@ -16,6 +16,10 @@ Ethereumのプロトコル自体にクライアントの種類や設定に関す
 - [[glossary/Client-Diversity|Client Diversity]]
 - [[glossary/Network-Resilience|Network Resilience]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

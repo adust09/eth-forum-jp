@@ -19,6 +19,10 @@ Ethereumノードのストレージを、頻繁にアクセスされる「ホッ
 - [[glossary/EIP-8188|EIP-8188]]
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Hot/Cold Storage Separation

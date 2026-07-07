@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Integrated-Pattern|Integrated Pattern]]
 - [[glossary/IRoleBasedTimelockExecute|IRoleBasedTimelockExecute]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-08-erc-xxxx-role-based-timelock-operation-28742|ERC-XXXX ロールベースのタイムロック操作]]（2026-06-08）
+
 ## 元の表記（英語）
 
 (なし)

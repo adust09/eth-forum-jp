@@ -19,6 +19,10 @@ EIP-8295で提案された、ステートの最終書き込み時期に基づい
 - [[glossary/Inactive-state|Inactive state]]
 - [[glossary/state-expiry|state expiry]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

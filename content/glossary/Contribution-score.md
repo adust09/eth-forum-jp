@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/staked-capital|staked capital]]
 - [[glossary/proof-of-work|proof of work]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - earned contribution score

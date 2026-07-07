@@ -16,6 +16,10 @@ L2環境において、特定のトランザクションを検知し、そのト
 - [[glossary/MEV|MEV]]
 - [[glossary/Backrunning|Backrunning]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

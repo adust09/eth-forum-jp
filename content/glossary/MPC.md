@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/|プライバシー保護]]
 - [[glossary/|ゼロ知識証明]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-09-post-quantum-transaction-signature-10-28749|ポスト量子トランザクション署名 #10]]（2026-06-09）
+
 ## 元の表記（英語）
 
 - Multi-Party Computation

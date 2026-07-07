@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Sybil-Resistance|Sybil Resistance]]
 - [[glossary/Reputation-System|Reputation System]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

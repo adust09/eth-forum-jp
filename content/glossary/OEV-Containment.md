@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/MEV|MEV]]
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Structural OEV containment

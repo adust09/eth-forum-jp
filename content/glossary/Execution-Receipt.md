@@ -17,6 +17,10 @@ AIエージェントが実行したアクションの検証可能な記録。エ
 - [[glossary/On-chain-Anchor|On-chain Anchor]]
 - [[glossary/Session-Root|Session Root]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
+
 ## 元の表記（英語）
 
 (なし)

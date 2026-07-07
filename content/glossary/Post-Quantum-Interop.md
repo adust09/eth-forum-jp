@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Post-Quantum-Cryptography|Post-Quantum Cryptography]]
 - [[glossary/Quantum-Computing|Quantum Computing]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PQ Interop

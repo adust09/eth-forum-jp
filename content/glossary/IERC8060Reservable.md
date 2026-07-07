@@ -16,6 +16,10 @@ ERC-8060に値を持つNFTのための、予約会計を可能にする最小限
 - [[glossary/ERC-8060|ERC-8060]]
 - [[glossary/Reservation-accounting|Reservation accounting]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ AIエージェントがタスクの結果を返信し、関連する証明を提
 - [[glossary/IAgentCaller|IAgentCaller]]
 - [[glossary/Optimistic-Handler|Optimistic Handler]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

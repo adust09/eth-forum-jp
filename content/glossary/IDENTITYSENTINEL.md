@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/sanitization-pipeline-hash|sanitization pipeline hash]]
 - [[glossary/verifier-branching-invariant|verifier-branching invariant]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

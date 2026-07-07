@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/IEmergencyState|IEmergencyState]]
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

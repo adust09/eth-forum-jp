@@ -16,6 +16,10 @@ Ethereumクライアントが外部アプリケーションと通信するため
 - [[glossary/JSON-RPC|JSON-RPC]]
 - [[glossary/Execution-APIs|Execution APIs]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Correction-Chain|Correction Chain]]
 - [[glossary/Single-successor-correction-chain|Single-successor correction chain]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

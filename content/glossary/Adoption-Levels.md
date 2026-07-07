@@ -17,6 +17,10 @@ ERC-XXXXで定義される、スマートコントラクトがロール命名標
 - [[glossary/On-chain-Query-Interface|On-chain Query Interface]]
 - [[glossary/Contract-Role-Semantics-Standard|Contract Role Semantics Standard]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Progressive Adoption

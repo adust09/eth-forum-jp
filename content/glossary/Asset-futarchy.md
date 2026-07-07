@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/FAIL-ASSET|FAIL-ASSET]]
 - [[glossary/Conditional-markets|Conditional markets]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-19-futarchy-is-insecure-without-a-proposal-gatekeeper-25235|提案ゲートキーパーなしではフューターキーは安全ではない]]（2026-06-19）
+
 ## 元の表記（英語）
 
 (なし)

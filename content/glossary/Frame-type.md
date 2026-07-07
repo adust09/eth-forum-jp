@@ -17,6 +17,10 @@ Ethereumのトランザクションが特定の依存関係や機能を宣言す
 - [[glossary/STARK-Aggregation|STARK Aggregation]]
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

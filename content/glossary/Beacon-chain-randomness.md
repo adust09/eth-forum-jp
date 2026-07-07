@@ -16,6 +16,10 @@ Ethereumのコンセンサス層であるビーコンチェーンによって生
 - [[glossary/RANDAO|RANDAO]]
 - [[glossary/Beacon-Chain|Beacon Chain]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ Ethereumのデータ可用性レイヤーやステート管理において、デ
 - [[glossary/Verkle-trees|Verkle trees]]
 - [[glossary/state-updates|state updates]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

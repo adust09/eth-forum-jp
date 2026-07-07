@@ -16,6 +16,10 @@ STARK（Scalable Transparent ARgument of Knowledge）証明システムに特有
 - [[glossary/STARK|STARK]]
 - [[glossary/Low-Degree-Extension|Low Degree Extension]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

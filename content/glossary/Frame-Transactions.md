@@ -17,6 +17,13 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 - [[glossary/EIP-8141|EIP-8141]]
 - [[glossary/Keyed-Nonces|Keyed Nonces]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
+- [[posts/magicians-2026-06-10-encrypt-the-mempool-6-june-24-2026-28765|Mempoolの暗号化 #6、2026年6月24日]]（2026-06-10）
+- [[posts/magicians-2026-06-04-encrypt-the-mempool-5-june-10-2026-28703|Mempoolの暗号化 #5、2026年6月10日]]（2026-06-04）
+- [[posts/magicians-2026-06-03-erc-modular-accounts-for-frame-transactions-28695|ERC: フレームトランザクション向けモジュラーアカウント]]（2026-06-03）
+
 ## 元の表記（英語）
 
 - EIP-8141 frame transaction

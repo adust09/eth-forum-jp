@@ -16,6 +16,10 @@ Ethereumのコンセンサス層（lean Ethereum）で使用されることを�
 - [[glossary/XMSS|XMSS]]
 - [[glossary/lean-Ethereum-consensus-layer|lean Ethereum consensus layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Regulatory Compliance Protocol (RCP)のアクションセマンティクスを�
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]]
 - [[glossary/action-taxonomy|action taxonomy]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

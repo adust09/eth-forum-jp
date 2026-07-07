@@ -16,6 +16,10 @@ TEEハードウェアが特定のクラウドプロバイダーの管理下に�
 
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PoC

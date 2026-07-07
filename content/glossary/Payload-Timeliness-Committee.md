@@ -17,6 +17,11 @@ ePBSにおいて、ビルダーがネットワークに公開・配信したペ�
 - [[glossary/ePBS|ePBS]]
 - [[glossary/payload|payload]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-19-scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth-25232|Hegotaにおけるスケーリング：ETH転送をアンカーとして実行と帯域幅を固定する]]（2026-06-19）
+- [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
+
 ## 元の表記（英語）
 
 - PTC

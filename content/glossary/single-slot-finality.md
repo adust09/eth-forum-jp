@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/finalization|finalization]]
 - [[glossary/slot|slot]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
+
 ## 元の表記（英語）
 
 (なし)

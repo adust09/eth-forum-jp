@@ -17,6 +17,12 @@ BeTrueCoreシステムで提案された、投票権の重みを決定する単�
 - [[glossary/DAO|DAOガバナンス]]
 - [[glossary/|投票権]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-02-designing-infrastructure-where-exploits-destroy-themselves-25348|エクスプロイトが自己破壊するインフラの設計]]（2026-07-02）
+- [[posts/ethresear-2026-06-19-the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain-25236|レピュテーションウォレット：知識、倫理、道徳的判断がオンチェーンに属する理由]]（2026-06-19）
+- [[posts/ethresear-2026-06-10-beyond-agi-control-sovereign-collective-intelligence-as-complementary-infrastructure-25142|AGI制御の先へ：補完的インフラとしての主権的集合知]]（2026-06-10）
+
 ## 元の表記（英語）
 
 - Vote Weight Unit

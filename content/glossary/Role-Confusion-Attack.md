@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]]
 - [[glossary/Core-Role-Set|Core Role Set]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ STARKsの主要な構成要素であり、多項式が特定の低次数を持�
 - [[glossary/STARK|STARK]]
 - [[glossary/LDE|LDE]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - FRI

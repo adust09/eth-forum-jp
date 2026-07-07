@@ -16,6 +16,10 @@ ERC-8301で議論されている概念で、エージェントやコントラク
 - [[glossary/ERC-8301|ERC-8301]]
 - [[glossary/Bounded-Agent-Actions|Bounded Agent Actions]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

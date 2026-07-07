@@ -17,6 +17,10 @@ EIP-8188によって記録される、ステートが最後に書き込まれて
 - [[glossary/State-Tiering-by-Periods|State Tiering by Periods]]
 - [[glossary/lastwrittenblock|last_written_block]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

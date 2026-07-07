@@ -16,6 +16,10 @@ EIP-3668 CCIP-Readゲートウェイ間でレコードを同期するための�
 - [[glossary/CCIP-Read-gateway|CCIP-Read gateway]]
 - [[glossary/EIP-3668|EIP-3668]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

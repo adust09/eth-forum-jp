@@ -16,6 +16,10 @@ ETH転送の21,000ガスという上限によって固定される、最悪ケ�
 - [[glossary/gas-limit|gas limit]]
 - [[glossary/transfer-cap|transfer cap]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ TEEシステムにおいて、ハードウェアの物理的な制御者（カ�
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]]
 - [[glossary/Proof-of-Cloud|Proof of Cloud]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

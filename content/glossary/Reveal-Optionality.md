@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]]
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Reveal Optionality by the Transaction Sender

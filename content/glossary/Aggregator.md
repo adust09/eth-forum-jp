@@ -21,6 +21,10 @@ Post-Quantum Ethereumにおいて、BLS署名がより大きな耐量子ハッ�
 - [[glossary/validator-attestations|validator attestations]]
 - [[glossary/block-production|block production]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - PQ Attestation Aggregator

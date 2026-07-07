@@ -4,6 +4,7 @@
  *   - frontmatter: title, aliases, tags, date
  *   - body: Japanese display name + description
  *   - "## 関連用語" section: wikilinks to related terms
+ *   - "## この用語を使っている記事" section: wikilinks to posts referencing it
  *   - "## 元の表記" section: lists English aliases for searchability
  * Also writes content/glossary/index.md with a sorted list of all terms.
  */
@@ -16,6 +17,59 @@ import { loadGlossary, termToSlug, type GlossaryEntry } from "./lib/glossary.js"
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
+/** One post that references a glossary term, for the reverse-link section. */
+interface ReferencingPost {
+  /** Wikilink target relative to content/ (e.g. "posts/ethresear-…-24798"). */
+  target: string;
+  /** Japanese post title for the wikilink label. */
+  title: string;
+  /** Post date (YYYY-MM-DD) used to sort newest-first. */
+  date: string;
+}
+
+const GLOSSARY_LINK_RE = /\[\[glossary\/([^|\]]+)(?:\|[^\]]*)?\]\]/g;
+
+/**
+ * Scan content/posts and build a map from glossary slug to the posts that
+ * reference it (via `[[glossary/<slug>|…]]` wikilinks). Each post is listed
+ * once per term regardless of how many times it links, sorted by date desc.
+ */
+async function collectReferencingPosts(
+  rootDir: string,
+): Promise<Map<string, ReferencingPost[]>> {
+  const postsDir = path.join(rootDir, "content", "posts");
+  const files = (await fs.readdir(postsDir)).filter(
+    (f) => f.endsWith(".md") && f !== "index.md",
+  );
+
+  const bySlug = new Map<string, ReferencingPost[]>();
+  for (const file of files) {
+    const raw = await fs.readFile(path.join(postsDir, file), "utf8");
+    const { data, content } = matter(raw);
+    const title = typeof data.title === "string" ? data.title : file.replace(/\.md$/, "");
+    const target = `posts/${file.replace(/\.md$/, "")}`;
+    const date = normalizeDate(data.date);
+
+    const slugs = new Set<string>();
+    let m: RegExpExecArray | null;
+    GLOSSARY_LINK_RE.lastIndex = 0;
+    while ((m = GLOSSARY_LINK_RE.exec(content)) !== null) {
+      slugs.add(m[1]);
+    }
+
+    for (const slug of slugs) {
+      const list = bySlug.get(slug) ?? [];
+      list.push({ target, title, date });
+      bySlug.set(slug, list);
+    }
+  }
+
+  for (const list of bySlug.values()) {
+    list.sort((a, b) => b.date.localeCompare(a.date));
+  }
+  return bySlug;
+}
+
 /** Normalize a YAML `last_updated` (gray-matter yields a Date for bare dates) to YYYY-MM-DD. */
 function normalizeDate(value: unknown): string {
   if (value instanceof Date && !Number.isNaN(value.getTime())) {
@@ -27,7 +81,7 @@ function normalizeDate(value: unknown): string {
   throw new Error(`glossary.md frontmatter has a missing or invalid last_updated: ${String(value)}`);
 }
 
-function renderEntry(e: GlossaryEntry, date: string): string {
+function renderEntry(e: GlossaryEntry, date: string, posts: ReferencingPost[]): string {
   const front = matter.stringify("", {
     title: e.term,
     aliases: [e.ja, ...e.aliases.filter((a) => a !== e.ja)],
@@ -41,6 +95,10 @@ function renderEntry(e: GlossaryEntry, date: string): string {
 
   const aliasLines = e.aliases.length > 0 ? e.aliases.map((a) => `- ${a}`).join("\n") : "(なし)";
 
+  const postLines = posts
+    .map((p) => `- [[${p.target}|${p.title}]]（${p.date}）`)
+    .join("\n");
+
   return `${front}**${e.ja}**
 
 ${e.desc || ""}
@@ -48,6 +106,10 @@ ${e.desc || ""}
 ## 関連用語
 
 ${relatedLines || "(なし)"}
+
+## この用語を使っている記事
+
+${postLines || "(なし)"}
 
 ## 元の表記（英語）
 
@@ -87,10 +149,12 @@ export async function expandGlossary(rootDir: string): Promise<void> {
   const raw = await fs.readFile(path.join(rootDir, "glossary.md"), "utf8");
   const date = normalizeDate(matter(raw).data.last_updated);
 
+  const referencingPosts = await collectReferencingPosts(rootDir);
+
   // Render everything up front; any bad entry fails here, before touching disk.
   const pages = new Map<string, string>();
   for (const e of entries) {
-    pages.set(`${e.slug}.md`, renderEntry(e, date));
+    pages.set(`${e.slug}.md`, renderEntry(e, date, referencingPosts.get(e.slug) ?? []));
   }
   pages.set("index.md", renderIndex(entries, date));
 

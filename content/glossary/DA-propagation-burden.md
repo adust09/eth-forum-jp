@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/data-availability|data availability]]
 - [[glossary/payload-propagation|payload propagation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -17,6 +17,10 @@ ERC-4337スマートコントラクトウォレットの主要な関数。ユー
 - [[glossary/Smart-contract-wallet|Smart contract wallet]]
 - [[glossary/UserOperation|UserOperation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

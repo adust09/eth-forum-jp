@@ -16,6 +16,10 @@ Ethereumのコア開発者会議（All Core Devs Calls）の議事録や要約�
 - [[glossary/All-Core-Devs|All Core Devs]]
 - [[glossary/ACDT|ACDT]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

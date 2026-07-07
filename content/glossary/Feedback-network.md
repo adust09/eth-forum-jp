@@ -15,6 +15,10 @@ ERC-8004の評判システムにおいて、エージェント間の評判イン
 
 - [[glossary/reputation-system|reputation system]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

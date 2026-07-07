@@ -16,6 +16,10 @@ EIP-8141のフレームの一種で、UTXOの入出力、アカウントフロ�
 - [[glossary/Frame-Transactions|Frame Transactions]]
 - [[glossary/EIP-8141|EIP-8141]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

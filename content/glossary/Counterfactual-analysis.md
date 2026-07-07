@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Counterfactual-Rejection-Event-Log|Counterfactual Rejection Event Log]]
 - [[glossary/Counterfactual-replay|Counterfactual replay]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

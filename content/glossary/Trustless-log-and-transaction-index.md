@@ -15,6 +15,10 @@ Ethereumのログおよびトランザクションのインデックスを、信
 
 - [[glossary/Log-and-transaction-lookup|Log and transaction lookup]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]]
 - [[glossary/Manifest|Manifest]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

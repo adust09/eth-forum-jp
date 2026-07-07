@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]]
 - [[glossary/Risk-layer|Risk layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -18,6 +18,10 @@ Ethereumブロックチェーンの状態（アカウント残高、nonce、コ�
 - [[glossary/active-state|active state]]
 - [[glossary/dormant-state|dormant state]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

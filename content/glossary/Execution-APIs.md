@@ -16,6 +16,10 @@ Ethereumの実行層（Execution Layer）とやり取りするためのAPI群。
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]]
 - [[glossary/Execution-Layer|Execution Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

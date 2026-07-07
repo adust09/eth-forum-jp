@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Post-quantum-cryptography|Post-quantum cryptography]]
 - [[glossary/STARK-Aggregation|STARK Aggregation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

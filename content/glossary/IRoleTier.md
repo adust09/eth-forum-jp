@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Tiered-Permissions|Tiered Permissions]]
 - [[glossary/Role-based-access-control|Role-based access control (ERC-5982)]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-15-erc-xxxx-operation-restriction-policy-for-tiered-permissions-28793|ERC-XXXX: 階層型パーミッションの操作制限ポリシー]]（2026-06-15）
+
 ## 元の表記（英語）
 
 (なし)

@@ -19,6 +19,10 @@ EIP-8250で提案されている、トランザクションのリプレイ保護
 - [[glossary/Sync-nonce|Sync nonce]]
 - [[glossary/Frame-Transactions|Frame Transactions]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - EIP-8250 Keyed Nonces

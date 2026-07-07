@@ -17,6 +17,10 @@ AIが意思決定の内容を評価するのではなく、特定の決定が適
 - [[glossary/on-chain-mechanism-design|on-chain mechanism design]]
 - [[glossary/deterministic-verifier-runtime|deterministic verifier runtime]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-19-the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain-25236|レピュテーションウォレット：知識、倫理、道徳的判断がオンチェーンに属する理由]]（2026-06-19）
+
 ## 元の表記（英語）
 
 - AI as notary

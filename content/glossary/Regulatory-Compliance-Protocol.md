@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/minimal-enforcement-primitives|minimal enforcement primitives]]
 - [[glossary/regulatory-state-machine|regulatory state machine]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - RCP

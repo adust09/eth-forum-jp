@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/WOTS|WOTS+]]
 - [[glossary/quantum-resistant-signature|quantum-resistant signature]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

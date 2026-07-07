@@ -16,6 +16,10 @@ Ethereum 2.0（コンセンサス層）へのETHのステーキングに使用�
 - [[glossary/Deposit-Contract|Deposit Contract]]
 - [[glossary/Staking|Staking]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

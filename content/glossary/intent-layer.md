@@ -17,6 +17,10 @@ Protocol Interaction Manifest (PIM) の構成要素の一つで、ユーザー�
 - [[glossary/lookup-layer|lookup layer]]
 - [[glossary/execution-layer|execution layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

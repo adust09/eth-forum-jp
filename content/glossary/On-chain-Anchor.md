@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Merkle-Tree|Merkle Tree]]
 - [[glossary/Execution-Receipt|Execution Receipt]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

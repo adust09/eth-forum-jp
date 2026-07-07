@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Clear-Signing-descriptor|Clear Signing descriptor]]
 - [[glossary/ERC-7730|ERC-7730]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-01-draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody-28670|ドラフトERC: パーミッションレジストリ — カストディなしでエージェントに機能スコープの委任を]]（2026-06-01）
+
 ## 元の表記（英語）
 
 (なし)

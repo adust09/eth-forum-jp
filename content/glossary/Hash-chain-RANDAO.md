@@ -17,6 +17,10 @@ RANDAOの特定のバリアントで、BLS署名への直接的な依存を排�
 - [[glossary/BLS-signatures|BLS signatures]]
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ EIP-8188によって導入される、各アカウントとストレージスロ
 - [[glossary/EIP-8188|EIP-8188]]
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Ethereum Transparency Layer (ETL) のセマンティクスを運用し、リプ�
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]]
 - [[glossary/Replay-Certification-Layer|Replay Certification Layer]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

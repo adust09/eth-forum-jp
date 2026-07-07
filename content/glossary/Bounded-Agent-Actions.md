@@ -18,6 +18,10 @@ ERC-1833で提案されている、エージェントが持つ権限（マンデ
 - [[glossary/bounded-mandate|bounded mandate]]
 - [[glossary/cursor|cursor]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - ERC-1833

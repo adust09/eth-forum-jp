@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/canonical-chain-wins-model|canonical-chain-wins model]]
 - [[glossary/cross-chain-name-resolution|cross-chain name resolution]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

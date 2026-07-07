@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/opML|opML]]
 - [[glossary/AI-Inference-Proof-Verification-Interfaces|AI Inference Proof Verification Interfaces]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-02-gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol-28680|EIP-3668のためのゲートウェイ間連携 / メッシュ同期プロトコルの提案]]（2026-06-02）
+
 ## 元の表記（英語）
 
 - Zero-Knowledge Machine Learning

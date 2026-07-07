@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Time-based-cryptography|Time-based cryptography]]
 - [[glossary/Threshold-IBE|Threshold IBE]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

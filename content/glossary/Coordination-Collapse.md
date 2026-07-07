@@ -17,6 +17,10 @@ date: '2026-07-07'
 - [[glossary/Diversity-Weight|Diversity Weight]]
 - [[glossary/Effective-Stake|Effective Stake]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Autonomous-Agent|Autonomous Agent]]
 - [[glossary/Agents-Permission-Envelope|Agent's Permission Envelope]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

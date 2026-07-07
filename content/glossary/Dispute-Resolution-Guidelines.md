@@ -16,6 +16,10 @@ Ethereum Improvement Proposal (EIP) の策定プロセスにおいて発生す�
 - [[glossary/EIPIP|EIPIP]]
 - [[glossary/EIP|EIP]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-04-eipip-meeting-128-july-08-2026-28706|EIPIPミーティング #128、2026年7月8日]]（2026-06-04）
+
 ## 元の表記（英語）
 
 (なし)

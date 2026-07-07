@@ -16,6 +16,10 @@ Regulatory Compliance Protocol (RCP)内で定義される、トークン化さ�
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]]
 - [[glossary/regulatory-actions|regulatory actions]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

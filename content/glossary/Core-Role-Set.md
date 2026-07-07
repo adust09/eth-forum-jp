@@ -19,6 +19,10 @@ ERC-XXXXで定義される、プロトコル間で頻繁に登場し、誤用が
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]]
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Universal Roles

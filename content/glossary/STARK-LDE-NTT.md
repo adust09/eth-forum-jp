@@ -17,6 +17,10 @@ STARK証明システムにおける低次拡張（LDE）と数論変換（NTT）
 - [[glossary/Low-Degree-Extension|Low Degree Extension]]
 - [[glossary/Number-Theoretic-Transform|Number Theoretic Transform]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

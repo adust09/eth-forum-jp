@@ -18,6 +18,10 @@ date: '2026-07-07'
 - [[glossary/Sparse-Merkle-Tree|Sparse Merkle Tree]]
 - [[glossary/note-commitment|note commitment]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - frozenRoot

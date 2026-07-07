@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/coordination-failure|coordination failure]]
 - [[glossary/free-rider-problem|free-rider problem]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

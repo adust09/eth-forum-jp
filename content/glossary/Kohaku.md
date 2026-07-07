@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Decentralization|Decentralization]]
 - [[glossary/Privacy|Privacy]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-18-etherveil-an-ethereum-privacy-browser-25224|Etherveil - イーサリアムプライバシーブラウザ]]（2026-06-18）
+
 ## 元の表記（英語）
 
 (なし)

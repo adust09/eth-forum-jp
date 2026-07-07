@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]]
 - [[glossary/Batch-Auction|Batch Auction]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
+
 ## 元の表記（英語）
 
 (なし)

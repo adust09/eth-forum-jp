@@ -17,6 +17,10 @@ EthereumのProof-of-Stakeコンセンサスにおいて、ライトクライア�
 - [[glossary/light-client|light client]]
 - [[glossary/Proof-of-Stake|Proof-of-Stake]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

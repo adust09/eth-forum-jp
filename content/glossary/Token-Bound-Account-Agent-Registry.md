@@ -17,6 +17,10 @@ ERC-8171で提案されている、AIエージェントが自身のトークン�
 - [[glossary/Token-Bound-Account|Token Bound Account]]
 - [[glossary/AI-Agent|AI Agent]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

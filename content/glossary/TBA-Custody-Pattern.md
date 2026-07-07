@@ -17,6 +17,10 @@ Token Bound Account (TBA) が、そのバインド元となるNFT（ソースト
 - [[glossary/Token-Bound-Account|Token Bound Account]]
 - [[glossary/ERC-6551|ERC-6551]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Token Bound Account Custody Pattern

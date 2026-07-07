@@ -16,6 +16,10 @@ date: '2026-07-07'
 - [[glossary/AMM|AMM]]
 - [[glossary/Priority-Update-Registry|Priority Update Registry]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ MEVオークションにおいて、ビルダーが提出された入札やペ�
 - [[glossary/Builder-Defection|Builder Defection]]
 - [[glossary/MEV-Auction|MEV Auction]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

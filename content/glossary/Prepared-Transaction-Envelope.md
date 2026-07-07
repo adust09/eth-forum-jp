@@ -15,6 +15,10 @@ date: '2026-07-07'
 
 - [[glossary/Transaction-Envelope|Transaction Envelope]]
 
+## この用語を使っている記事
+
+- [[posts/magicians-2026-06-16-eip-editing-office-hour-eip-erc-meeting-102-june-16-2026-28803|EIP編集オフィスアワー (EIP + ERC) ミーティング #102、2026年6月16日]]（2026-06-16）
+
 ## 元の表記（英語）
 
 (なし)

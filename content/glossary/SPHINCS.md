@@ -19,6 +19,10 @@ EVM向けに最適化されたSPHINCS+の派生形であり、ステートレス
 - [[glossary/Hash-based-signatures|Hash-based signatures]]
 - [[glossary/EVM|EVM]]
 
+## この用語を使っている記事
+
+- [[posts/ethresear-2026-06-24-towards-native-post-quantum-private-eth-25291|ネイティブな量子耐性プライベートETHに向けて]]（2026-06-24）
+
 ## 元の表記（英語）
 
 - SPHINCS minus

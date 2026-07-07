@@ -17,6 +17,10 @@ PQ Attestation Aggregatorsの導入を含む、将来のイーサリアムのハ
 - [[glossary/PQ-Ethereum|PQ Ethereum]]
 - [[glossary/Aggregator|Aggregator]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 (なし)

@@ -16,6 +16,10 @@ Ethereumプロトコルにおいて、特定の固定アドレスに事前にデ
 
 - [[glossary/EIP|EIP]]
 
+## この用語を使っている記事
+
+(なし)
+
 ## 元の表記（英語）
 
 - Pre-deployed contracts
