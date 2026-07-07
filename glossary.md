@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5600,3 +5600,220 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/asset-anchor-registry-interface-candidate-erc/28934
 - desc: |
   トークン自身が、認識するレジストリとアンカーを宣言するために公開するインターフェース。これにより、コンシューマーはレジストリの記録とトークン自身の応答を比較し、相互宣言された関係を確認できる。
+
+## Augmented Mechanism Design
+- ja: 拡張メカニズム設計 (AMD)
+- aliases: [AMD]
+- related: [Mechanism Design, Structural Invariant, Economic Invariant, Temporal Invariant]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25379
+- auto_source_url: https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379
+- desc: |
+  既存のメカニズムの核となる特性を維持しつつ、既知の脆弱性を排除するために、境界のある数学的に強制された不変条件を追加する設計手法。管理者を導入せずにシステムの堅牢性を高めることを目的とする。
+
+## Structural Invariant
+- ja: 構造的不変条件
+- related: [Augmented Mechanism Design, Economic Invariant, Temporal Invariant]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25379
+- auto_source_url: https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379
+- desc: |
+  悪意のある状態がシステム内で表現不可能になるようにする不変条件。例えば、一様清算価格は注文ごとの価格が存在しないため、注文ごとに操作されることがない。
+
+## Economic Invariant
+- ja: 経済的不変条件
+- related: [Augmented Mechanism Design, Structural Invariant, Temporal Invariant]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25379
+- auto_source_url: https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379
+- desc: |
+  攻撃が経済的に不採算になるようにする不変条件。例えば、攻撃コストが利益を上回るように罰則（スラッシュ）を設けることで、攻撃を抑止する。
+
+## Temporal Invariant
+- ja: 時間的不変条件
+- related: [Augmented Mechanism Design, Structural Invariant, Economic Invariant]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25379
+- auto_source_url: https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379
+- desc: |
+  時間的な制約を設けることで、特定の攻撃（例：フロントランニング）の優位性を排除する不変条件。コミット・アンド・リビールスキームなどがこれに該当する。
+
+## Plutocratic Capture
+- ja: 金権的支配 (Plutocratic Capture)
+- related: [Stake-weighted Consensus, Anti-concentration Invariant, Consensus Layer]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25379
+- auto_source_url: https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379
+- desc: |
+  資本の重み付けされたコンセンサスシステムにおいて、十分な資本を持つアクターが単独でファイナライズを支配し、貢献が無視される状態。資本によるシステム乗っ取りを指し、分散化の原則に反する脆弱性の一つ。
+
+## Consensus homogeneity
+- ja: コンセンサス均一性
+- related: [Data homogeneity, Execution homogeneity]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25374
+- auto_source_url: https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374
+- desc: |
+  ブロックチェーンのコンセンサス層における均一性または同質性を指します。異なるシャードや実行環境間でのコンセンサスプロトコルの統一性を意味し、システム全体の整合性とシンプルさを保つ上で重要となります。
+
+## Data homogeneity
+- ja: データ均一性
+- related: [Consensus homogeneity, Execution homogeneity, Data availability]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25374
+- auto_source_url: https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374
+- desc: |
+  ブロックチェーンのデータ層における均一性または同質性を指します。特にデータ可用性（DA）レイヤーにおいて、異なるデータチャンクやシャード間でデータ構造やアクセス方法が統一されている状態を意味します。
+
+## Sub-rooted execution
+- ja: サブルート実行
+- related: [Execution sharding, Execution layer]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25374
+- auto_source_url: https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374
+- desc: |
+  実行環境がメインのコンセンサスルートとは異なる、独立した「サブルート」を持つアーキテクチャを指します。これにより、特定の実行ロジックや状態がメインチェーンから分離され、スケーラビリティやモジュール性が向上する可能性があります。
+
+## Execution homogeneity
+- ja: 実行均一性
+- related: [Consensus homogeneity, Data homogeneity, Execution layer]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25374
+- auto_source_url: https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374
+- desc: |
+  ブロックチェーンの実行層における均一性または同質性を指します。異なる実行環境やシャード間で、トランザクションの処理ロジックや仮想マシン（EVM）の動作が統一されている状態を意味し、開発の簡素化や互換性の向上に寄与します。
+
+## Universal coordination tree
+- ja: ユニバーサル調整ツリー
+- related: [Execution trees, Sharding]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25374
+- auto_source_url: https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374
+- desc: |
+  複数の実行シャードやコンポーネント間の調整と同期を可能にするための、普遍的なツリー構造を持つデータ構造またはプロトコルを指します。システム全体の状態整合性を維持し、分散された実行環境間の連携を効率化します。
+
+## STARK-LDE NTT
+- ja: STARK-LDE NTT (STARK低次拡張数論変換)
+- related: [STARK, Low Degree Extension, Number Theoretic Transform]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25373
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt/25373
+- desc: |
+  STARK証明システムにおける低次拡張（LDE）と数論変換（NTT）を組み合わせた演算。STARKの健全性を保証するために多項式の評価点を効率的に計算する際に用いられます。
+
+## domain_logn
+- ja: ドメインの対数サイズ (domain_logn)
+- related: [Number Theoretic Transform, Low Degree Extension]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25373
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt/25373
+- desc: |
+  数論変換（NTT）や低次拡張（LDE）において、演算が行われるドメインのサイズを2を底とする対数で表したもの。計算の複雑さやメモリ要件を示す指標となります。
+
+## STARK-style LDE
+- ja: STARK形式のLDE (STARK-style LDE)
+- related: [STARK, Low Degree Extension]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25373
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt/25373
+- desc: |
+  STARK（Scalable Transparent ARgument of Knowledge）証明システムに特有の低次拡張（LDE）の適用方法。STARKのプロトコル要件に合わせて多項式の評価点を拡張する手法を指します。
+
+## logical_logn
+- ja: 論理ドメインの対数サイズ (logical_logn)
+- related: [domain_logn, Low Degree Extension]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25373
+- auto_source_url: https://ethresear.ch/t/qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt/25373
+- desc: |
+  低次拡張（LDE）において、拡張前の元の多項式が定義される論理ドメインのサイズを2を底とする対数で表したもの。拡張後のドメインサイズ（domain_logn）と対比されます。
+
+## single-slot finality
+- ja: シングルスロットファイナリティ
+- related: [finalization, slot]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25369
+- auto_source_url: https://ethresear.ch/t/the-extremely-lean-chain/25369
+- desc: |
+  各スロットでブロックが即座にファイナライズされることを目指すEthereumのコンセンサスアップグレードの目標。これにより、トランザクションの確定性が大幅に向上する。
+
+## deposit tree
+- ja: デポジットツリー
+- related: [Merkle tree, validator deposit]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25369
+- auto_source_url: https://ethresear.ch/t/the-extremely-lean-chain/25369
+- desc: |
+  バリデータのデポジット情報が格納されるマークルツリー。バリデータの公開鍵や出金資格情報がこのツリーに記録される。
+
+## end-of-epoch processing
+- ja: エポック終了処理
+- related: [epoch, beacon chain]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25369
+- auto_source_url: https://ethresear.ch/t/the-extremely-lean-chain/25369
+- desc: |
+  Ethereumビーコンチェーンにおいて、各エポックの終わりに実行される、バリデータの報酬計算や状態更新などの集中的な処理。この処理はリソースを大量に消費する。
+
+## leanWOTS
+- ja: leanWOTS (署名アルゴリズム)
+- related: [WOTS+, quantum-resistant signature]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25369
+- auto_source_url: https://ethresear.ch/t/the-extremely-lean-chain/25369
+- desc: |
+  投稿で提案されている、量子耐性を持つ署名アルゴリズムの一種。バリデータの公開鍵を状態から削除し、署名に含めることで状態要件を削減する。
+
+## balance update proof
+- ja: 残高更新証明
+- related: [STARK, validator state]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25369
+- auto_source_url: https://ethresear.ch/t/the-extremely-lean-chain/25369
+- desc: |
+  バリデータが自身の参加状況をZK証明として提出し、それに基づいて残高を更新するメカニズム。ビーコンチェーンの状態遷移関数から報酬・ペナルティ処理を削除するために提案されている。
+
+## Native UTXOs
+- ja: ネイティブUTXO
+- related: [UTXO, Frame Transactions]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25368
+- auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
+- desc: |
+  EthereumにBitcoinのようなUTXOモデルを導入する提案。支払いワークロードにおいて永続的なステート使用量を大幅に削減し、アカウントモデルと共存可能。
+
+## account leaf
+- ja: アカウントリーフ
+- related: [account model, state tree]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25368
+- auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
+- desc: |
+  Ethereumのアカウントモデルにおいて、アドレスが初めてETHを受け取った際に作成される永続的なステート要素。アカウントの存在を示す。
+
+## openings root
+- ja: オープニングルート
+- related: [UTXO, commitment tree]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25368
+- auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
+- desc: |
+  EthereumのネイティブUTXOモデルにおいて、各ブロックで作成されたUTXOの「オープニング」（source, value, recipient）をハッシュ化したバイナリツリーのルート。UTXOの存在証明に用いられる。
+
+## spent bit
+- ja: 使用済みビット
+- related: [UTXO, spent set]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25368
+- auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
+- desc: |
+  EthereumのネイティブUTXOモデルにおいて、UTXOが使用済みであるか否かを示すためにステートに保持される単一のビット。二重支払いを防ぐためのメカニズム。
+
+## value-conserving frame
+- ja: 価値保存フレーム
+- related: [Frame Transactions, EIP-8141]
+- auto_added: 2026-07-07
+- auto_source_topic_id: 25368
+- auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
+- desc: |
+  EIP-8141のフレームの一種で、UTXOの入出力、アカウントフロー、ガス代を単一のトランジションにまとめ、価値の保存則を強制する。自己資金調達型支払いとトラストレスなスポンサーシップを可能にする。
