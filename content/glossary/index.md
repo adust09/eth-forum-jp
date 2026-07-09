@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -92,6 +92,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bounded-execution|bounded-execution]] — 制限付き実行
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
+- [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
@@ -142,6 +143,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Counterfactual-Rejection-Event-Log|Counterfactual Rejection Event Log]] — 反実仮想拒否イベントログ (CREL)
 - [[glossary/counterfactual-replay|counterfactual replay]] — 反実仮想リプレイ
 - [[glossary/Counterfactual-Transaction|Counterfactual Transaction]] — 反実仮想トランザクション
+- [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
@@ -166,6 +168,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
 - [[glossary/devnet|devnet]] — 開発ネットワーク (devnet)
+- [[glossary/Diamond|Diamond (pattern)]] — ダイヤモンド（パターン）
 - [[glossary/Diamond-Storage|Diamond Storage]] — ダイヤモンドストレージ
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]] — 方向性移転ドメインレジストリ
 - [[glossary/Disclosure-Contract|Disclosure Contract]] — 開示契約
@@ -197,6 +200,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
+- [[glossary/ePBS-circuit-breakers|ePBS circuit breakers]] — ePBSサーキットブレーカー
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
@@ -230,6 +234,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/existence-probes|existence probes]] — 存在確認プローブ
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
+- [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
@@ -398,6 +403,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Orchard-action-bundle|Orchard action bundle]] — Orchardアクションバンドル
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
 - [[glossary/Orchard-shielded-pool-model|Orchard shielded-pool model]] — Orchardシールドプールモデル
+- [[glossary/Orderflow|Orderflow]] — オーダーフロー
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
 - [[glossary/Ordinal-Scheduled-Supersession|Ordinal-Scheduled Supersession]] — 序数スケジュールによる置換 (Ordinal-Scheduled Supersession)
 - [[glossary/Ossification|Ossification]] — オシフィケーション (硬化)
@@ -449,6 +455,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
 - [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
+- [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
@@ -475,6 +482,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replay-Stable-Architecture|Replay-Stable Architecture]] — リプレイ安定性アーキテクチャ
 - [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
+- [[glossary/Replication-based-frontrunning|Replication-based frontrunning]] — 複製ベースのフロントランニング
 - [[glossary/repricing|repricing]] — 再価格設定
 - [[glossary/Reputation-Wallet|Reputation Wallet]] — レピュテーションウォレット
 - [[glossary/Request-Bus|Request Bus]] — リクエストバス
@@ -499,6 +507,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
+- [[glossary/Searcher|Searcher]] — サーチャー
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
@@ -528,6 +537,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
+- [[glossary/Smart-Contract-Oriented-Programming|Smart Contract Oriented Programming]] — スマートコントラクト指向プログラミング
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知

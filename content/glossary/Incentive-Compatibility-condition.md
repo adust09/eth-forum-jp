@@ -5,7 +5,7 @@ aliases:
   - IC condition
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **インセンティブ整合性条件 (IC条件)**
@@ -19,6 +19,7 @@ date: '2026-07-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）
 - [[posts/ethresear-2026-06-06-cooperative-capitalism-is-the-last-coherent-economic-path-crypto-has-left-25109|協調的資本主義は、暗号通貨に残された最後の首尾一貫した経済的道筋である]]（2026-06-06）
 

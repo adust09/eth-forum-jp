@@ -5,7 +5,7 @@ aliases:
   - RAM
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **関係性アンカー型マネー**

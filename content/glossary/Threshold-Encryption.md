@@ -4,7 +4,7 @@ aliases:
   - 閾値暗号
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **閾値暗号**
@@ -19,7 +19,7 @@ date: '2026-07-07'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 
 ## 元の表記（英語）
 

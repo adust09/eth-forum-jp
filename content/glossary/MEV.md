@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,7 @@ date: '2026-07-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-07-01-is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study-25338|スロット0のリオーグコストは修正可能か？ePBSアテステーションデッドライン調査]]（2026-07-01）
 - [[posts/ethresear-2026-06-24-properties-of-issuance-offsets-and-increased-penalties-under-low-zero-negative-issuance-policies-25292|低/ゼロ/マイナス発行ポリシー下での発行オフセットとペナルティ増加の特性]]（2026-06-24）

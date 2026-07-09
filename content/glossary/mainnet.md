@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **メインネット**
@@ -17,6 +17,7 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-08-all-core-devs-consensus-acdc-182-july-9-2026-28968|全コア開発者会議 - コンセンサス (ACDC) #182、2026年7月9日]]（2026-07-08）
 - [[posts/ethresear-2026-07-01-is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study-25338|スロット0のリオーグコストは修正可能か？ePBSアテステーションデッドライン調査]]（2026-07-01）
 - [[posts/ethresear-2026-06-30-does-erc-8004-form-an-agent-to-agent-trust-network-25322|ERC-8004はエージェント間の信頼ネットワークを形成しているか？]]（2026-06-30）
 - [[posts/ethresear-2026-06-29-the-anatomy-of-ethereum-s-state-access-25317|イーサリアムのステートアクセス解剖学]]（2026-06-29）
