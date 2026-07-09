@@ -6,7 +6,7 @@ aliases:
   - Proposer Builder Separation
 tags:
   - glossary
-date: '2026-07-07'
+date: '2026-07-09'
 ---
 
 **PBS（プロポーザー・ビルダー分離）**
@@ -23,6 +23,7 @@ mev-boost / enshrined PBS / ePBS などの段階的な実装が議論されて�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/ethresear-2026-05-27-building-towards-multi-party-block-construction-24975|マルチパーティ・ブロック構築に向けた取り組み]]（2026-05-27）
 - [[posts/2026-05-25-extraction-is-conserved-from-mev-to-gev-24953|抽出は保存される：MEVからGEVへ]]（2026-05-25）
 - [[posts/2026-05-18-mini-blocks-ssv-backed-sub-slot-auctions-for-ethereum-pbs-24898|ミニブロック: Ethereum PBSのためのSSV支援サブスロットオークション]]（2026-05-18）

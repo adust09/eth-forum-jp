@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-07
+last_updated: 2026-07-09
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5817,3 +5817,95 @@ description: |
 - auto_source_url: https://ethresear.ch/t/native-utxos-on-ethereum/25368
 - desc: |
   EIP-8141のフレームの一種で、UTXOの入出力、アカウントフロー、ガス代を単一のトランジションにまとめ、価値の保存則を強制する。自己資金調達型支払いとトラストレスなスポンサーシップを可能にする。
+
+## Searcher
+- ja: サーチャー
+- related: [MEV, Builder]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 25400
+- auto_source_url: https://ethresear.ch/t/builders-defection-and-incentive-compatibility/25400
+- desc: |
+  Ethereumなどのブロックチェーンにおいて、MEV（Maximal Extractable Value）の機会を特定し、それらを抽出するためのトランザクションバンドルを作成してビルダーに提出するエンティティ。
+
+## Bundle
+- ja: バンドル
+- related: [Searcher, Builder, MEV]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 25400
+- auto_source_url: https://ethresear.ch/t/builders-defection-and-incentive-compatibility/25400
+- desc: |
+  複数のトランザクションをまとめたもので、MEVサーチャーが特定の順序で実行されることを期待してビルダーに提出する。これにより、サーチャーはMEVを抽出し、ビルダーは報酬を得る。
+
+## Orderflow
+- ja: オーダーフロー
+- related: [Mempool, Searcher, Builder]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 25400
+- auto_source_url: https://ethresear.ch/t/builders-defection-and-incentive-compatibility/25400
+- desc: |
+  ブロックチェーンネットワークに送信されるトランザクションの連続的な流れ。特にMEVの文脈では、サーチャーからビルダーへ、あるいはユーザーからサーチャーへと流れるトランザクションの注文を指す。
+
+## Replication-based frontrunning
+- ja: 複製ベースのフロントランニング
+- related: [Frontrunning, MEV, Builder defection]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 25400
+- auto_source_url: https://ethresear.ch/t/builders-defection-and-incentive-compatibility/25400
+- desc: |
+  ビルダーがサーチャーから受け取った有利なトランザクションバンドルの内容を複製し、元のサーチャーの代わりに自分自身で実行することで利益を得る不正行為。ビルダーの裏切り（defection）の一種。
+
+## Credibly committing architecture
+- ja: 信頼できるコミットメントアーキテクチャ
+- related: [Proposer-Builder Separation (PBS), Trusted Execution Environment (TEE), Cryptographic order protection]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 25400
+- auto_source_url: https://ethresear.ch/t/builders-defection-and-incentive-compatibility/25400
+- desc: |
+  ビルダーが観察したトランザクション情報（入札やペイロード）を悪用できないように、構造的に設計されたブロックチェーンアーキテクチャ。これにより、ビルダーの不正行為（defection）のインセンティブを根本的に排除する。
+
+## Smart Contract Oriented Programming
+- ja: スマートコントラクト指向プログラミング
+- aliases: [SCOP]
+- related: [Diamond (pattern), Facet (smart contract), Modular smart contracts]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 28973
+- auto_source_url: https://ethereum-magicians.org/t/compose-whitepaper-a-composition-layer-for-on-chain-applications/28973
+- desc: |
+  スマートコントラクトのコード再利用をデプロイされたアーキテクチャ自体に組み込むためのプログラミングパラダイム。Composeプロジェクトによって提唱され、モジュール化されたオンチェーンシステムの構築を容易にする。
+
+## Diamond (pattern)
+- ja: ダイヤモンド（パターン）
+- aliases: [Diamond proxy, Diamond standard, EIP-2535]
+- related: [Facet (smart contract), Modular smart contracts, Proxy upgradeable system]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 28973
+- auto_source_url: https://ethereum-magicians.org/t/compose-whitepaper-a-composition-layer-for-on-chain-applications/28973
+- desc: |
+  Solidityにおけるスマートコントラクトのモジュール化およびアップグレードパターン。複数のファセット（機能を提供するコントラクト）を単一のダイヤモンドコントラクトアドレスから呼び出すことを可能にし、コントラクトのサイズ制限を回避する。
+
+## Facet (smart contract)
+- ja: ファセット（スマートコントラクト）
+- related: [Diamond (pattern), Modular smart contracts]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 28973
+- auto_source_url: https://ethereum-magicians.org/t/compose-whitepaper-a-composition-layer-for-on-chain-applications/28973
+- desc: |
+  ダイヤモンドパターンにおいて、特定の機能やロジックをカプセル化して提供する独立したスマートコントラクト。これらをダイヤモンドコントラクトに接続することで、機能の追加や更新を柔軟に行える。
+
+## ePBS circuit breakers
+- ja: ePBSサーキットブレーカー
+- related: [ePBS, circuit breaker]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 28968
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-182-july-9-2026/28968
+- desc: |
+  ePBS（Enshrined Proposer-Builder Separation）において、プロトコルの健全性を維持するために導入される安全装置。特定の異常な状態（例：ペイロードの欠落）が検出された場合に、システムが自動的に介入し、さらなる問題を防ぐためのメカニズム。
+
+## Progressive containers
+- ja: プログレッシブコンテナ
+- related: [EIP-7688]
+- auto_added: 2026-07-09
+- auto_source_topic_id: 28968
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-182-july-9-2026/28968
+- desc: |
+  EIP-7688で提案されている、Ethereumのデータ構造や処理に関する新しい概念。コンテナが段階的に構築または処理されることで、効率性や柔軟性を向上させることを目指す。
