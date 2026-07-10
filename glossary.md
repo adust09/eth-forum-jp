@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -5909,3 +5909,174 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-182-july-9-2026/28968
 - desc: |
   EIP-7688で提案されている、Ethereumのデータ構造や処理に関する新しい概念。コンテナが段階的に構築または処理されることで、効率性や柔軟性を向上させることを目指す。
+
+## Account level authorization
+- ja: アカウントレベル承認
+- related: [Account Abstraction, EIP-712, ERC-20]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28977
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-account-level-authorization/28977
+- desc: |
+  スマートコントラクトアカウントが、オフチェーンで署名されたEIP-712承認メッセージに基づいてERC-20トークンやネイティブETHの送金を実行する仕組み。これにより、トークンレベルではなくアカウント自体で送金承認を管理できる。これはERC-3009の機能に類似しているが、トークンレベルではなくアカウントレベルで実装される。
+
+## Physical Reserve Registry
+- ja: 物理的準備金レジストリ
+- related: [reserve-backed tokens, RWA instruments]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28964
+- auto_source_url: https://ethereum-magicians.org/t/erc-8332-physical-reserve-registry/28964
+- desc: |
+  物理的な準備金をオンチェーンで表現するための標準インターフェース。準備金に裏付けられたトークンやその他のRWA（実世界資産）商品の裏付けとして割り当てられることを目的とする。
+
+## reserveId
+- ja: 準備金ID
+- related: [Physical Reserve Registry, assetId]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28964
+- auto_source_url: https://ethereum-magicians.org/t/erc-8332-physical-reserve-registry/28964
+- desc: |
+  物理的な準備金、または保管/在庫のエントリを一意に識別するためのID。ERC-8332で定義される物理的準備金レジストリの主要な構成要素。
+
+## assetId
+- ja: 資産ID
+- related: [Physical Reserve Registry, reserveId]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28964
+- auto_source_url: https://ethereum-magicians.org/t/erc-8332-physical-reserve-registry/28964
+- desc: |
+  物理的な資産タイプを一意に識別するためのID。ERC-8332で定義される物理的準備金レジストリにおいて、特定の準備金がどの資産タイプに属するかを示す。
+
+## reserve states
+- ja: 準備金ステータス
+- related: [Physical Reserve Registry]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28964
+- auto_source_url: https://ethereum-magicians.org/t/erc-8332-physical-reserve-registry/28964
+- desc: |
+  物理的準備金レジストリ内で準備金が取りうる状態。PENDING、ACTIVE、SUSPENDED、CONSUMED、CANCELLEDなどのステータスが含まれ、準備金のライフサイクルを管理する。
+
+## accounting actions
+- ja: 会計アクション
+- related: [Physical Reserve Registry]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28964
+- auto_source_url: https://ethereum-magicians.org/t/erc-8332-physical-reserve-registry/28964
+- desc: |
+  物理的準備金レジストリにおける準備金の管理操作。割り当て（allocation）、解放（release）、消費（consumption）などが含まれ、準備金の数量と状態の変更を記録する。
+
+## Draft
+- ja: ドラフト (EIP/ERC)
+- related: [EIP, ERC, Review, Last Call, Final]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28963
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-105-july-7-2026/28963
+- desc: |
+  EIPまたはERCの提案が初期段階にあり、まだ変更が頻繁に行われる可能性がある状態。コミュニティからのフィードバックを募る段階です。
+
+## Review
+- ja: レビュー (EIP/ERC)
+- related: [EIP, ERC, Draft, Last Call, Final]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28963
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-105-july-7-2026/28963
+- desc: |
+  EIPまたはERCの提案がドラフト段階を終え、より広範なコミュニティやコア開発者による詳細な検討とフィードバックを受ける段階。この段階で大きな変更は少なくなることが期待されます。
+
+## Last Call
+- ja: ラストコール (EIP/ERC)
+- related: [EIP, ERC, Draft, Review, Final]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28963
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-105-july-7-2026/28963
+- desc: |
+  EIPまたはERCの提案が最終承認に向けて、最後のフィードバック期間に入る段階。この期間中に重大な問題が発見されなければ、最終段階に進むことになります。
+
+## Final
+- ja: ファイナル (EIP/ERC)
+- related: [EIP, ERC, Draft, Review, Last Call]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28963
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-105-july-7-2026/28963
+- desc: |
+  EIPまたはERCの提案が承認され、Ethereumプロトコルの一部として実装されるか、標準として確立された状態。この状態のEIP/ERCは変更されないことが期待されます。
+
+## EIP Board
+- ja: EIPボード
+- related: [EIP, EIP Editor]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28963
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-105-july-7-2026/28963
+- desc: |
+  Ethereum Improvement Proposal (EIP) のプロセスを監督し、EIPのステータス変更や承認に関する決定を行う委員会。EIPの品質と一貫性を維持する役割を担います。
+
+## manual merkle proofing
+- ja: 手動Merkle証明検証（manual Merkle proofing）
+- related: [Merkle proof, fraudulent fork]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28960
+- auto_source_url: https://ethereum-magicians.org/t/bounty-incentivised-manual-merkle-proofing-good-for-newcomers-and-extra-security/28960
+- desc: |
+  ユーザーが手動でMerkle証明を検証し、既存のブロックと他のユーザーのブロックをリンクするプロセス。不正なフォークを発見した場合に報酬を得るメカニズムと組み合わされることで、新規ユーザーのネットワークへの信頼構築とセキュリティ強化を目指す。
+
+## fraudulent fork
+- ja: 不正なフォーク（fraudulent fork）
+- related: [fork, censorship resistance]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28960
+- auto_source_url: https://ethereum-magicians.org/t/bounty-incentivised-manual-merkle-proofing-good-for-newcomers-and-extra-security/28960
+- desc: |
+  ブロックチェーンにおいて、悪意のある意図を持って作成された分岐。この投稿では、ユーザーが手動でMerkle証明を検証することで、このような不正なフォークを発見し、報告することで報酬を得るメカニズムが提案されている。
+
+## slashed collateral
+- ja: スラッシュされた担保（slashed collateral）
+- related: [slashing, collateral, Proof of Stake]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28960
+- auto_source_url: https://ethereum-magicians.org/t/bounty-incentivised-manual-merkle-proofing-good-for-newcomers-and-extra-security/28960
+- desc: |
+  EthereumのProof of Stake (PoS) システムにおいて、バリデーターがプロトコルルールに違反する不正行為（例: 二重署名、不適切な提案）を行った際に、その担保として預け入れたETHの一部または全部が没収されること。没収された担保は、不正行為の抑止とネットワークのセキュリティ維持に貢献する。
+
+## embedded wallets
+- ja: 組み込み型ウォレット
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28955
+- auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
+- desc: |
+  アプリケーションやウェブサイトに直接統合され、ユーザーが外部のウォレット拡張機能やアプリを必要とせずに暗号資産やブロックチェーン操作を行えるようにするウォレット。特に非クリプトネイティブユーザーのオンボーディングを容易にする。
+
+## WebAuthn PRF extension
+- ja: WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
+- aliases: [PRF extension]
+- related: [WebAuthn]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28955
+- auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
+- desc: |
+  W3Cによって提案され、主要なブラウザやモバイルOSでサポートされているWebAuthnの拡張機能。これにより、ブラウザ内でポータブルなネイティブEthereumキーを生成し、デバイス間でアクセスできるようになる。
+
+## signing kernel
+- ja: 署名カーネル
+- related: [embedded wallets, branding layer]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28955
+- auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
+- desc: |
+  組み込み型ウォレットのアーキテクチャにおける低レベルの署名ユーティリティの不変な実装。クレデンシャル作成とペイロードへの署名を処理し、ユーザーの秘密鍵はこのコンテキストから離れない。
+
+## branding layer
+- ja: ブランディング層
+- related: [embedded wallets, signing kernel]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28955
+- auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
+- desc: |
+  組み込み型ウォレットのアーキテクチャにおけるポリシー層で、ウォレットのビジネスロジックを決定し、ユーザーにインタラクティブなコンポーネントを提示する。署名カーネルのiframeをマウントし、JSON-RPCメソッドを実装する。
+
+## nested iframe pattern
+- ja: ネストされたiframeパターン
+- related: [embedded wallets, signing kernel, branding layer]
+- auto_added: 2026-07-10
+- auto_source_topic_id: 28955
+- auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
+- desc: |
+  組み込み型ウォレットの実装において、ウォレットの機能をサードパーティサイトでプロバイダーとして利用可能にするために、複数のiframeを階層的に埋め込むアーキテクチャパターン。

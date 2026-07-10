@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-07-09'
+date: '2026-07-10'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-07-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/magicians-2026-07-05-asset-anchor-registry-interface-candidate-erc-28934|資産アンカーレジストリインターフェース - 候補ERC]]（2026-07-05）

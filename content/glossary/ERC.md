@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-07-09'
+date: '2026-07-10'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-07-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）
 - [[posts/magicians-2026-07-05-asset-anchor-registry-interface-candidate-erc-28934|資産アンカーレジストリインターフェース - 候補ERC]]（2026-07-05）
 - [[posts/magicians-2026-07-05-directional-transfer-domain-registry-candidate-erc-28936|方向性のある転送ドメインレジストリ - 候補となるERC]]（2026-07-05）
 - [[posts/magicians-2026-07-05-subject-linked-compliance-event-log-candidate-erc-28937|主体リンク型コンプライアンスイベントログ - 候補ERC]]（2026-07-05）
