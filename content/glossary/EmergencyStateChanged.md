@@ -4,7 +4,7 @@ aliases:
   - EmergencyStateChanged（緊急状態変更イベント）
 tags:
   - glossary
-date: '2026-07-09'
+date: '2026-07-10'
 ---
 
 **EmergencyStateChanged（緊急状態変更イベント）**

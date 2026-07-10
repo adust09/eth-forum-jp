@@ -5,7 +5,7 @@ aliases:
   - Real World Asset platforms
 tags:
   - glossary
-date: '2026-07-09'
+date: '2026-07-10'
 ---
 
 **RWAプラットフォーム (Real World Assetプラットフォーム)**
@@ -18,6 +18,7 @@ date: '2026-07-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）
 - [[posts/magicians-2026-07-03-erc-8319-regulatory-compliance-protocol-28917|ERC-8319: 規制コンプライアンスプロトコル]]（2026-07-03）
 - [[posts/magicians-2026-07-02-proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review-28913|権原付き資産インフラストラクチャ向け候補ERCインターフェース群の提案 — アーキテクチャレビュー]]（2026-07-02）
 
