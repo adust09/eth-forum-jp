@@ -5,7 +5,7 @@ aliases:
   - Scalable Transparent ARgument of Knowledge
 tags:
   - glossary
-date: '2026-07-10'
+date: '2026-07-11'
 ---
 
 **STARK (スケーラブルで透過的な知識の引数)**
@@ -21,6 +21,7 @@ date: '2026-07-10'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-10-qingming-stark-g64-a-goldilocks-stark-backend-on-amd-rocm-hip-25417|Qingming-STARK-G64: AMD ROCm/HIP上のGoldilocks STARKバックエンド]]（2026-07-10）
 - [[posts/ethresear-2026-07-06-qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt-25373|Qingming-g64-ntt-cuda: ネイティブGoldilocks/G64 STARK-LDE NTTのRTX4090-24G結果レポート]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 

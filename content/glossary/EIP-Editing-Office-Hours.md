@@ -4,7 +4,7 @@ aliases:
   - EIP編集オフィスアワー
 tags:
   - glossary
-date: '2026-07-10'
+date: '2026-07-11'
 ---
 
 **EIP編集オフィスアワー**

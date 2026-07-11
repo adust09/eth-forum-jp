@@ -6,7 +6,7 @@ aliases:
   - Associate EIP Editors
 tags:
   - glossary
-date: '2026-07-10'
+date: '2026-07-11'
 ---
 
 **EIPエディター**
