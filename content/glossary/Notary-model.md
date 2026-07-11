@@ -5,7 +5,7 @@ aliases:
   - AI as notary
 tags:
   - glossary
-date: '2026-07-10'
+date: '2026-07-11'
 ---
 
 **公証人モデル (AIを公証人とする)**

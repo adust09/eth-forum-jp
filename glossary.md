@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6080,3 +6080,50 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/a-simple-open-source-embedded-wallet-pattern-for-ethereum/28955
 - desc: |
   組み込み型ウォレットの実装において、ウォレットの機能をサードパーティサイトでプロバイダーとして利用可能にするために、複数のiframeを階層的に埋め込むアーキテクチャパターン。
+
+## trace rows
+- ja: トレース行
+- related: [STARK, execution trace]
+- auto_added: 2026-07-11
+- auto_source_topic_id: 25417
+- auto_source_url: https://ethresear.ch/t/qingming-stark-g64-a-goldilocks-stark-backend-on-amd-rocm-hip/25417
+- desc: |
+  STARKなどのゼロ知識証明システムにおいて、証明対象となる計算の実行トレースを構成する個々の状態またはステップ。各行は計算のある時点でのシステムの状態を表します。
+
+## proof-carrying computation
+- ja: 証明付き計算 (Proof-Carrying Computation)
+- aliases: [PCC]
+- related: [zero-knowledge proof, verifiable computation, rollup]
+- auto_added: 2026-07-11
+- auto_source_topic_id: 25417
+- auto_source_url: https://ethresear.ch/t/qingming-stark-g64-a-goldilocks-stark-backend-on-amd-rocm-hip/25417
+- desc: |
+  計算結果にその正当性を保証する暗号学的証明を付与する計算パラダイム。これにより、結果の検証者は計算を再実行することなく、その正確性を信頼できます。
+
+## Osaka
+- ja: 大阪 (Osaka)
+- related: [bpo]
+- auto_added: 2026-07-11
+- auto_source_topic_id: 28981
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-30-july-13-2026/28981
+- desc: |
+  Ethereumの次期アップグレードのコードネームの一つ。特定のEIP群を導入し、ネットワークの機能や性能を向上させることを目的とする。
+
+## BPO
+- ja: BPO (Blob Pre-Confirmation)
+- aliases: [bpo1, bpo2]
+- related: [Osaka, blob]
+- auto_added: 2026-07-11
+- auto_source_topic_id: 28981
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-30-july-13-2026/28981
+- desc: |
+  EthereumのOsakaアップグレードに関連する機能またはフェーズの略称。Blob Pre-Confirmationの可能性があり、データ可用性レイヤーの改善やトランザクション処理の効率化に寄与すると考えられる。
+
+## debug_executionWitness
+- ja: debug_executionWitness (デバッグ実行証人)
+- related: [execution layer, RPC]
+- auto_added: 2026-07-11
+- auto_source_topic_id: 28981
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-30-july-13-2026/28981
+- desc: |
+  Ethereumの実行レイヤーAPIにおけるデバッグ用の仕様。トランザクションの実行過程や状態変化に関する詳細な情報を取得し、開発者が問題の特定や分析を行うのに役立つ。

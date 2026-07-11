@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-10'
+date: '2026-07-11'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -93,6 +93,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bounded-Agent-Actions|Bounded Agent Actions]] — 制限付きエージェントアクション (ERC-1833)
 - [[glossary/bounded-mandate|bounded mandate]] — 制限付きマンデート
 - [[glossary/bounded-execution|bounded-execution]] — 制限付き実行
+- [[glossary/BPO|BPO]] — BPO (Blob Pre-Confirmation)
 - [[glossary/branding-layer|branding layer]] — ブランディング層
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
@@ -159,6 +160,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
+- [[glossary/debugexecutionWitness|debug_executionWitness]] — debug_executionWitness (デバッグ実行証人)
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
@@ -418,6 +420,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Orderflow|Orderflow]] — オーダーフロー
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
 - [[glossary/Ordinal-Scheduled-Supersession|Ordinal-Scheduled Supersession]] — 序数スケジュールによる置換 (Ordinal-Scheduled Supersession)
+- [[glossary/Osaka|Osaka]] — 大阪 (Osaka)
 - [[glossary/Ossification|Ossification]] — オシフィケーション (硬化)
 - [[glossary/Ossification-resistant|Ossification-resistant]] — オシフィケーション耐性 (硬化耐性)
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
@@ -471,6 +474,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
+- [[glossary/proof-carrying-computation|proof-carrying computation]] — 証明付き計算 (Proof-Carrying Computation)
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/PropAMMs|PropAMMs]] — PropAMM (プロップAMM)
@@ -612,6 +616,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース
 - [[glossary/Token-weighted-governance|Token-weighted governance]] — トークン加重ガバナンス
 - [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
+- [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
