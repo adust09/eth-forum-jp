@@ -4,7 +4,7 @@ aliases:
   - 予約会計
 tags:
   - glossary
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 **予約会計**

@@ -4,7 +4,7 @@ aliases:
   - ラストコール (EIP/ERC)
 tags:
   - glossary
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 **ラストコール (EIP/ERC)**

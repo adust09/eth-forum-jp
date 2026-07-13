@@ -4,7 +4,7 @@ aliases:
   - 開示契約
 tags:
   - glossary
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 **開示契約**

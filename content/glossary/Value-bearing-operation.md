@@ -4,7 +4,7 @@ aliases:
   - 価値を持つ操作 (Value-bearing operation)
 tags:
   - glossary
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 **価値を持つ操作 (Value-bearing operation)**
