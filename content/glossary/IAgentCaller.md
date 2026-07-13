@@ -4,7 +4,7 @@ aliases:
   - IAgentCaller (インターフェース)
 tags:
   - glossary
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 **IAgentCaller (インターフェース)**

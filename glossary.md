@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-11
+last_updated: 2026-07-13
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6127,3 +6127,30 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-30-july-13-2026/28981
 - desc: |
   Ethereumの実行レイヤーAPIにおけるデバッグ用の仕様。トランザクションの実行過程や状態変化に関する詳細な情報を取得し、開発者が問題の特定や分析を行うのに役立つ。
+
+## AUCIL
+- ja: AUCIL (オークションベース・インクルージョンリスト)
+- related: [Inclusion list, PBS]
+- auto_added: 2026-07-13
+- auto_source_topic_id: 25447
+- auto_source_url: https://ethresear.ch/t/sybil-attacks-on-aucil/25447
+- desc: |
+  Proposer-Builder Separation (PBS)における検閲耐性プリミティブの一つで、経済的インセンティブと戦略的参加、価格形成に依存するオークションベースのインクルージョンリスト設計。Sybil攻撃や賄賂攻撃に対する堅牢性が研究されている。
+
+## Sybil attacks
+- ja: Sybil攻撃
+- related: [Sybil resistance, censorship resistance, DVT]
+- auto_added: 2026-07-13
+- auto_source_topic_id: 25447
+- auto_source_url: https://ethresear.ch/t/sybil-attacks-on-aucil/25447
+- desc: |
+  ネットワークの参加者が多数の偽のアイデンティティ（Sybil）を作成し、それらを利用してネットワークの合意形成やリソース配分を操作しようとする攻撃。ブロックチェーンの分散性や検閲耐性を脅かす可能性がある。
+
+## bribery attacks
+- ja: 賄賂攻撃
+- related: [censorship resistance, Sybil attacks, MEV]
+- auto_added: 2026-07-13
+- auto_source_topic_id: 25447
+- auto_source_url: https://ethresear.ch/t/sybil-attacks-on-aucil/25447
+- desc: |
+  ブロックチェーンシステムにおいて、悪意のあるアクターがプロトコルの参加者（例: ビルダー、バリデーター）に金銭的インセンティブを提供し、特定のトランザクションの包含や除外、あるいは特定の行動を強制しようとする攻撃。検閲耐性を損なう可能性がある。

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-11'
+date: '2026-07-13'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -66,6 +66,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/attestation-deadline|attestation deadline]] — アテステーション期限
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
+- [[glossary/AUCIL|AUCIL]] — AUCIL (オークションベース・インクルージョンリスト)
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
@@ -95,6 +96,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bounded-execution|bounded-execution]] — 制限付き実行
 - [[glossary/BPO|BPO]] — BPO (Blob Pre-Confirmation)
 - [[glossary/branding-layer|branding layer]] — ブランディング層
+- [[glossary/bribery-attacks|bribery attacks]] — 賄賂攻撃
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/Bundle|Bundle]] — バンドル
@@ -592,6 +594,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
+- [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
