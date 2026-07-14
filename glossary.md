@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6154,3 +6154,66 @@ description: |
 - auto_source_url: https://ethresear.ch/t/sybil-attacks-on-aucil/25447
 - desc: |
   ブロックチェーンシステムにおいて、悪意のあるアクターがプロトコルの参加者（例: ビルダー、バリデーター）に金銭的インセンティブを提供し、特定のトランザクションの包含や除外、あるいは特定の行動を強制しようとする攻撃。検閲耐性を損なう可能性がある。
+
+## executable skill
+- ja: 実行可能なスキル
+- related: [SkillBinding, SkillRoot, ERC-721]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29005
+- auto_source_url: https://ethereum-magicians.org/t/token-bound-executable-skills-the-artifact-identity-integrity-layer-under-skill-registries-erc-721-extension/29005
+- desc: |
+  オフチェーンのランタイム（LLMエージェントランタイムを含む）が、オンチェーンのアンカーに対してバイト単位で検証し、実行できるファイルパッケージ。ERC-721トークンにバインドされることで、そのアイデンティティと整合性が保証されます。
+
+## SkillBinding
+- ja: スキルバインディング
+- related: [executable skill, mdHash, packageHash, version]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29005
+- auto_source_url: https://ethereum-magicians.org/t/token-bound-executable-skills-the-artifact-identity-integrity-layer-under-skill-registries-erc-721-extension/29005
+- desc: |
+  実行可能なスキルをオンチェーンで表現するデータ構造。`mdHash`（プライマリ文書のSHA-256ハッシュ）、`packageHash`（SkillRootのSHA-256ハッシュ）、および契約によってインクリメントされる`version`で構成され、スキルの整合性と履歴をコミットします。
+
+## update authority
+- ja: 更新権限
+- related: [SkillBinding, ERC-721]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29005
+- auto_source_url: https://ethereum-magicians.org/t/token-bound-executable-skills-the-artifact-identity-integrity-layer-under-skill-registries-erc-721-extension/29005
+- desc: |
+  実行可能なスキルの`SkillBinding`を更新する権利。これはERC-721トークンの所有権とは別に定義され、スキルの発行権限として機能し、コンテンツの変更を管理します。
+
+## SkillRoot
+- ja: スキルルート
+- related: [executable skill, DAG-CBOR, packageHash]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29005
+- auto_source_url: https://ethereum-magicians.org/t/token-bound-executable-skills-the-artifact-identity-integrity-layer-under-skill-registries-erc-721-extension/29005
+- desc: |
+  実行可能なスキルのファイルパッケージ全体をカバーする、決定論的にエンコードされたコンテンツアドレス指定オブジェクトグラフ。`packageHash`によってその整合性が保証され、パッケージ内のすべてのファイルへの依存関係を定義します。
+
+## DAG-CBOR
+- ja: DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)
+- related: [SkillRoot, IPLD]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29005
+- auto_source_url: https://ethereum-magicians.org/t/token-bound-executable-skills-the-artifact-identity-integrity-layer-under-skill-registries-erc-721-extension/29005
+- desc: |
+  決定論的な有向非巡回グラフ形式のCBOR（Concise Binary Object Representation）。この提案では、実行可能なスキルのファイルパッケージ（SkillRoot）をエンコードするために使用され、バイト単位の整合性と再現性を保証します。
+
+## Checkpoint
+- ja: チェックポイント
+- related: [Epoch Boundary Block, Finalization]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29003
+- auto_source_url: https://ethereum-magicians.org/t/eip-8333-align-checkpoint-with-epoch-boundary-block/29003
+- desc: |
+  Ethereumのコンセンサス層において、特定の時点でのブロックチェーンの状態を確定させるための参照点。ファイナリティの達成や同期の効率化に利用されます。
+
+## Epoch Boundary Block
+- ja: エポック境界ブロック
+- related: [Epoch, Checkpoint]
+- auto_added: 2026-07-14
+- auto_source_topic_id: 29003
+- auto_source_url: https://ethereum-magicians.org/t/eip-8333-align-checkpoint-with-epoch-boundary-block/29003
+- desc: |
+  Ethereumのコンセンサス層において、エポックの開始または終了を示す特定のブロック。チェックポイントとして機能し、ファイナリティの決定やネットワークの同期に重要な役割を果たします。
