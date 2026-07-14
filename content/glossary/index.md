@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-13'
+date: '2026-07-14'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -109,6 +109,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
+- [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/claim-types|claim types]] — クレームタイプ
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
@@ -159,6 +160,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
 - [[glossary/DA-propagation-burden|DA-propagation burden]] — DA伝播負荷 (Data Availability Propagation Burden)
+- [[glossary/DAG-CBOR|DAG-CBOR]] — DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
@@ -213,6 +215,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/ePBS-circuit-breakers|ePBS circuit breakers]] — ePBSサーキットブレーカー
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
+- [[glossary/Epoch-Boundary-Block|Epoch Boundary Block]] — エポック境界ブロック
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
 - [[glossary/ERC-20-approved-spending|ERC-20 approved spending]] — ERC-20承認済み支出
@@ -236,6 +239,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
 - [[glossary/Exchange-channel-minting|Exchange-channel minting]] — 交換チャネルミント
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
+- [[glossary/executable-skill|executable skill]] — 実行可能なスキル
 - [[glossary/execution-anchor|execution anchor]] — 実行アンカー
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
@@ -556,6 +560,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/single-slot-finality|single-slot finality]] — シングルスロットファイナリティ
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
 - [[glossary/Single-successor-correction-chain|Single-successor correction chain]] — 単一後続修正チェーン
+- [[glossary/SkillBinding|SkillBinding]] — スキルバインディング
+- [[glossary/SkillRoot|SkillRoot]] — スキルルート
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
@@ -637,6 +643,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
+- [[glossary/update-authority|update authority]] — 更新権限
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)

@@ -5,7 +5,7 @@ aliases:
   - shards
 tags:
   - glossary
-date: '2026-07-13'
+date: '2026-07-14'
 ---
 
 **使い捨てステルスアカウント (Disposable Stealth Accounts)**
