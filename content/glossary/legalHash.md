@@ -4,7 +4,7 @@ aliases:
   - legalHash (法的ハッシュ)
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **legalHash (法的ハッシュ)**

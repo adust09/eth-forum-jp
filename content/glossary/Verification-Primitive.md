@@ -4,7 +4,7 @@ aliases:
   - 検証プリミティブ
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **検証プリミティブ**
@@ -19,7 +19,7 @@ date: '2026-07-14'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-14-the-authority-visibility-problem-in-ethereum-governance-25456|イーサリアムガバナンスにおける権限可視性問題]]（2026-07-14）
 
 ## 元の表記（英語）
 

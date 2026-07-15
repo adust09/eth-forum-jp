@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -68,7 +68,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
 - [[glossary/AUCIL|AUCIL]] — AUCIL (オークションベース・インクルージョンリスト)
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
+- [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
+- [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
@@ -101,9 +103,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
+- [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
+- [[glossary/Capacity-Assessment|Capacity Assessment]] — 能力評価
+- [[glossary/Capital-Allocation-DAO|Capital Allocation DAO]] — 資金配分DAO
 - [[glossary/Category-Action-Registry|Category-Action Registry]] — カテゴリ-アクションレジストリ
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
@@ -174,6 +179,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
@@ -192,6 +198,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
 - [[glossary/dormant-state|dormant state]] — 休眠状態
 - [[glossary/Draft|Draft]] — ドラフト (EIP/ERC)
+- [[glossary/Dynamic-Voting-Cap-Generation|Dynamic Voting Cap Generation]] — 動的投票上限生成
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
 - [[glossary/Economic-Invariant|Economic Invariant]] — 経済的不変条件
 - [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
@@ -237,6 +244,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
 - [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
+- [[glossary/EVM-Code|EVM Code]] — EVMコード
 - [[glossary/Exchange-channel-minting|Exchange-channel minting]] — 交換チャネルミント
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/executable-skill|executable skill]] — 実行可能なスキル
@@ -279,16 +287,19 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Goldilocks-field|Goldilocks field]] — ゴールディロックス体 (Goldilocks field)
+- [[glossary/gossipsub|gossipsub]] — ゴシップサブ
 - [[glossary/Governance-Reconstruction-Problem|Governance Reconstruction Problem]] — ガバナンス再構築問題
 - [[glossary/Graceful-Revocation|Graceful Revocation]] — グレースフル取り消し (Graceful Revocation)
 - [[glossary/Graffiti-Watermark|Graffiti Watermark]] — グラフィティ・ウォーターマーク
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
+- [[glossary/guardian-model|guardian model]] — ガーディアンモデル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
 - [[glossary/Hegota|Hegota]] — ヘゴタ
 - [[glossary/Hegot|Hegotá]] — ヘゴタ (Hegotá)
 - [[glossary/hexary-Patricia-tries|hexary Patricia tries]] — ヘキサリパトリシアトライ
+- [[glossary/hidden-watchtowers|hidden watchtowers]] — 隠されたウォッチタワー
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
 - [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
@@ -448,6 +459,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Physical-Reserve-Registry|Physical Reserve Registry]] — 物理的準備金レジストリ
+- [[glossary/Physical-Verification|Physical Verification]] — 物理的検証
 - [[glossary/pipelining|pipelining]] — パイプライニング
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
@@ -502,6 +514,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/regulatory-state-machine|regulatory state machine]] — 規制状態機械
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]] — 関係性アンカー型マネー
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
+- [[glossary/Replay-based-Verification|Replay-based Verification]] — リプレイベース検証
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replay-Stable-Architecture|Replay-Stable Architecture]] — リプレイ安定性アーキテクチャ
 - [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
@@ -599,6 +612,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
+- [[glossary/Subjective-Human-Oracle-Network|Subjective Human Oracle Network]] — 主観的ヒューマンオラクルネットワーク (SHON)
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
@@ -615,6 +629,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Time-Bound-Access-Control-Interface|Time-Bound Access Control Interface]] — 期限付きアクセス制御インターフェース
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
 - [[glossary/Time-locked-blind-sessions|Time-locked blind sessions]] — タイムロックされたブラインドセッション
+- [[glossary/Timelock-Account-recovery|Timelock Account recovery]] — タイムロックアカウントリカバリー
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
@@ -644,6 +659,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/update-authority|update authority]] — 更新権限
+- [[glossary/Validated-EVM-Code|Validated EVM Code]] — 検証済みEVMコード
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)

@@ -4,7 +4,7 @@ aliases:
   - 管理的無効化 (Administrative invalidation)
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **管理的無効化 (Administrative invalidation)**

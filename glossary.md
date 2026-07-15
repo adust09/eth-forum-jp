@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6217,3 +6217,148 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8333-align-checkpoint-with-epoch-boundary-block/29003
 - desc: |
   Ethereumのコンセンサス層において、エポックの開始または終了を示す特定のブロック。チェックポイントとして機能し、ファイナリティの決定やネットワークの同期に重要な役割を果たします。
+
+## Subjective Human Oracle Network
+- ja: 主観的ヒューマンオラクルネットワーク (SHON)
+- aliases: [SHON]
+- related: [Human Oracle, DAO, Oracle]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25459
+- auto_source_url: https://ethresear.ch/t/bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles/25459
+- desc: |
+  提案されたフレームワークにおいて、リアルワールドの物理的インフラストラクチャの資金吸収能力と正当性を検証するために導入される分散型ヒューマンオラクルネットワーク。悪意のあるアクターによるガバナンス攻撃を防ぐため、提案がオンチェーンガバナンス層に到達する前に投票配分の上限を動的に設定する。
+
+## Capital Allocation DAO
+- ja: 資金配分DAO
+- related: [DAO, Token-weighted voting, Plutocratic capture]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25459
+- auto_source_url: https://ethresear.ch/t/bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles/25459
+- desc: |
+  リアルワールドの物理的インフラストラクチャ（慈善事業、公共財など）への資金配分を管理する分散型自律組織。トークン加重投票の性質上、金権政治的支配や共謀攻撃に対して脆弱である。
+
+## Physical Verification
+- ja: 物理的検証
+- related: [Subjective Human Oracle Network, Real-world asset]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25459
+- auto_source_url: https://ethresear.ch/t/bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles/25459
+- desc: |
+  オンチェーンガバナンス層が物理的なオフラインエンティティの資金吸収能力と正当性を正確に検証するために、リアルワールドで行われる監査プロセス。提案されたSHONフレームワークでは、分散型ボランティアによって実施される。
+
+## Capacity Assessment
+- ja: 能力評価
+- related: [Physical Verification, Subjective Human Oracle Network]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25459
+- auto_source_url: https://ethresear.ch/t/bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles/25459
+- desc: |
+  物理的なオフラインエンティティが要求された資金を運用する能力を評価するプロセス。SHONフレームワークでは、物理的検証と合わせて、提案されたプロジェクトが実際にどれだけの資金を効果的に利用できるかを判断するために行われる。
+
+## Dynamic Voting Cap Generation
+- ja: 動的投票上限生成
+- related: [Subjective Human Oracle Network, Token-weighted voting, Plutocratic capture]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25459
+- auto_source_url: https://ethresear.ch/t/bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles/25459
+- desc: |
+  Subjective Human Oracle Network (SHON) による物理的検証と能力評価の結果に基づいて、提案に対する最大投票配分額を動的に設定するプロセス。これにより、金権政治的支配や共謀攻撃による過剰な資金抽出を防ぐ。
+
+## Authority Visibility Problem
+- ja: 権限可視性問題
+- related: [Deterministic Authority Reconstruction, Authority Continuity]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25456
+- auto_source_url: https://ethresear.ch/t/the-authority-visibility-problem-in-ethereum-governance/25456
+- desc: |
+  Ethereumガバナンスシステムにおいて、実行証拠は豊富に存在するものの、権限関係が直接的に観察しにくいという課題。権限の起源、伝播、永続性を完全に理解することが困難な状況を指す。
+
+## Deterministic Authority Reconstruction
+- ja: 決定論的権限再構築
+- related: [Authority Visibility Problem, Authority Continuity, Replay-based Verification]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25456
+- auto_source_url: https://ethresear.ch/t/the-authority-visibility-problem-in-ethereum-governance/25456
+- desc: |
+  公開されたガバナンス証拠から、権限関係を体系的かつ再現可能な手順で再構築するプロセス。これにより、異なるオブザーバー間でも一貫した分析結果が得られる基盤を提供する。
+
+## Authority Continuity
+- ja: 権限の継続性
+- related: [Authority Visibility Problem, Deterministic Authority Reconstruction]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25456
+- auto_source_url: https://ethresear.ch/t/the-authority-visibility-problem-in-ethereum-governance/25456
+- desc: |
+  ガバナンス権限が時間とともにどのように維持、変化、伝播していくかという特性。個々のイベントではなく、連続する制度的状態として権限の進化を捉える。
+
+## Replay-based Verification
+- ja: リプレイベース検証
+- related: [Deterministic Authority Reconstruction, Replay Equivalence]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 25456
+- auto_source_url: https://ethresear.ch/t/the-authority-visibility-problem-in-ethereum-governance/25456
+- desc: |
+  ガバナンス活動の実行証拠を再実行（リプレイ）することで、再構築された権限関係やその解釈が元の証拠と一貫しているかを評価する検証手法。
+
+## EVM Code
+- ja: EVMコード
+- related: [EVM, Bytecode]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29013
+- auto_source_url: https://ethereum-magicians.org/t/eip-8337-validated-evm-code/29013
+- desc: |
+  Ethereum Virtual Machine (EVM) が実行するバイトコード。スマートコントラクトのロジックを表現し、ブロックチェーン上で実行される。
+
+## Validated EVM Code
+- ja: 検証済みEVMコード
+- related: [EVM Code, EIP-8337]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29013
+- auto_source_url: https://ethereum-magicians.org/t/eip-8337-validated-evm-code/29013
+- desc: |
+  EIP-8337で提案されている、特定の検証ルールを満たすEthereum Virtual Machine (EVM) のバイトコード。これにより、コードの安全性や挙動の予測可能性が向上する。
+
+## Timelock Account recovery
+- ja: タイムロックアカウントリカバリー
+- related: [Smart Account, Account Abstraction, ERC-4337, ERC-7579]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29009
+- auto_source_url: https://ethereum-magicians.org/t/timelock-account-recovery-a-trust-minimized-recovery-system-for-smart-accounts/29009
+- desc: |
+  ERC-4337/7579スマートアカウント向けの、信頼を最小化したリカバリーシステム。信頼できる第三者にリカバリー権限を与える代わりに、誰でも参加できるパーミッションレスな経済ゲームとしてリカバリーを機能させる。
+
+## guardian model
+- ja: ガーディアンモデル
+- related: [Smart Account, Account Abstraction]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29009
+- auto_source_url: https://ethereum-magicians.org/t/timelock-account-recovery-a-trust-minimized-recovery-system-for-smart-accounts/29009
+- desc: |
+  スマートアカウントのリカバリーにおいて、信頼できる第三者（ガーディアン）にリカバリー権限を付与する方式。アカウント所有者が秘密鍵を紛失した場合などに、ガーディアンの承認によってアカウントを復旧させる。
+
+## hidden watchtowers
+- ja: 隠されたウォッチタワー
+- related: [watchtower, off-chain monitoring, censorship resistance]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29009
+- auto_source_url: https://ethereum-magicians.org/t/timelock-account-recovery-a-trust-minimized-recovery-system-for-smart-accounts/29009
+- desc: |
+  オフチェーンでブロックチェーンの状態を監視し、不正行為や特定のイベントを検知するエンティティ。特に、攻撃者からその存在や活動を隠蔽することで、検知能力を高めることを意図する。
+
+## Bundled Attestation Propagation
+- ja: バンドル化されたアッテステーション伝播
+- related: [Attestation, Bundle, gossipsub]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29008
+- auto_source_url: https://ethereum-magicians.org/t/eip-8334-bundled-attestation-propagation/29008
+- desc: |
+  複数のアッテステーションをバンドル（束ねる）して効率的に伝播させるシステム。EIP-8334で提案されており、gossipsubの部分メッセージ機能を利用してネットワーク負荷を軽減することを目指します。
+
+## gossipsub
+- ja: ゴシップサブ
+- related: [P2P network, Attestation]
+- auto_added: 2026-07-15
+- auto_source_topic_id: 29008
+- auto_source_url: https://ethereum-magicians.org/t/eip-8334-bundled-attestation-propagation/29008
+- desc: |
+  P2Pネットワークにおけるトピックベースのメッセージ伝播プロトコル。Ethereumのコンセンサス層で、アッテステーションなどの重要なメッセージを効率的かつスケーラブルにノード間で共有するために利用されます。

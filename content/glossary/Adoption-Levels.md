@@ -5,7 +5,7 @@ aliases:
   - Progressive Adoption
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **導入レベル**

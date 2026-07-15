@@ -4,7 +4,7 @@ aliases:
   - 金権的支配 (Plutocratic Capture)
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **金権的支配 (Plutocratic Capture)**
@@ -19,7 +19,7 @@ date: '2026-07-14'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-14-bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles-25459|主観的ヒューマンオラクルによる資金配分DAOにおける共謀の制限]]（2026-07-14）
 
 ## 元の表記（英語）
 
