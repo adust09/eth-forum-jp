@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-07-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-14-timelock-account-recovery-a-trust-minimized-recovery-system-for-smart-accounts-29009|タイムロックアカウントリカバリ: スマートアカウント向けの信頼最小化リカバリシステム]]（2026-07-14）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-06-30-rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems-25332|検証可能な分散型ブロックチェーンシステムのための協調的信頼の再考]]（2026-06-30）

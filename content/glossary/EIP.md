@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,9 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）
+- [[posts/magicians-2026-07-15-eipip-meeting-129-aug-12-2026-29015|EIPIPミーティング #129、2026年8月12日]]（2026-07-15）
+- [[posts/magicians-2026-07-14-eip-8337-validated-evm-code-29013|EIP-8337: 検証済みEVMコード]]（2026-07-14）
 - [[posts/magicians-2026-07-13-eip-8333-align-checkpoint-with-epoch-boundary-block-29003|EIP-8333: チェックポイントとエポック境界ブロックの整合]]（2026-07-13）
 - [[posts/magicians-2026-07-08-all-core-devs-consensus-acdc-182-july-9-2026-28968|全コア開発者会議 - コンセンサス (ACDC) #182、2026年7月9日]]（2026-07-08）
 - [[posts/magicians-2026-07-07-a-simple-open-source-embedded-wallet-pattern-for-ethereum-28955|イーサリアム向けシンプルでオープンソースな組み込みウォレットパターン]]（2026-07-07）

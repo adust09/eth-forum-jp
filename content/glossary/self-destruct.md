@@ -4,7 +4,7 @@ aliases:
   - self-destruct (自己破壊)
 tags:
   - glossary
-date: '2026-07-14'
+date: '2026-07-15'
 ---
 
 **self-destruct (自己破壊)**
