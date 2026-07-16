@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **グラムステルダム**
@@ -19,6 +19,8 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 - [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）
 - [[posts/magicians-2026-07-13-all-core-devs-consensus-acdc-183-july-23-2026-29002|全コア開発者会議 - コンセンサス (ACDC) #183、2026年7月23日]]（2026-07-13）
+- [[posts/magicians-2026-07-13-all-core-devs-execution-acde-241-july-16-2026-29001|全コア開発者会議 - 実行 (ACDE) #241、2026年7月16日]]（2026-07-13）
+- [[posts/magicians-2026-07-13-eip-editing-office-hour-eip-erc-meeting-106-july-14-2026-28998|EIP編集オフィスアワー (EIP + ERC) ミーティング #106、2026年7月14日]]（2026-07-13）
 - [[posts/magicians-2026-07-08-all-core-devs-consensus-acdc-182-july-9-2026-28968|全コア開発者会議 - コンセンサス (ACDC) #182、2026年7月9日]]（2026-07-08）
 - [[posts/magicians-2026-07-07-all-core-devs-testing-acdt-87-july-13-2026-28966|全コア開発者会議 - テスト (ACDT) #87、2026年7月13日]]（2026-07-07）
 - [[posts/magicians-2026-07-07-eip-editing-office-hour-eip-erc-meeting-105-july-7-2026-28963|EIP編集オフィスアワー (EIP + ERC) ミーティング #105、2026年7月7日]]（2026-07-07）

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -78,6 +78,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
+- [[glossary/Batch-FIFO|Batch-FIFO]] — バッチFIFO (Batch-FIFO)
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
@@ -105,12 +106,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
+- [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
 - [[glossary/Capacity-Assessment|Capacity Assessment]] — 能力評価
 - [[glossary/Capital-Allocation-DAO|Capital Allocation DAO]] — 資金配分DAO
 - [[glossary/Category-Action-Registry|Category-Action Registry]] — カテゴリ-アクションレジストリ
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
+- [[glossary/CBOR|CBOR]] — CBOR (Concise Binary Object Representation)
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
@@ -118,12 +121,15 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/claim-types|claim types]] — クレームタイプ
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
+- [[glossary/Cohort|Cohort]] — コホート
+- [[glossary/Cohort-Order-Book|Cohort Order Book]] — コホートオーダーブック
 - [[glossary/Cold-subtree|Cold subtree]] — コールドサブツリー
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
 - [[glossary/Collaboration-pools|Collaboration pools]] — コラボレーションプール
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]] — コミット＆リビール方式
 - [[glossary/commit-before-sign-durability-ordering|commit-before-sign durability ordering]] — 署名前コミット耐久性順序付け
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
+- [[glossary/commitment-digest|commitment digest]] — コミットメントダイジェスト
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/commutative-tier|commutative tier]] — 可換ティア
@@ -284,6 +290,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Function-Selector|Function Selector]] — 関数セレクター
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
+- [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Goldilocks-field|Goldilocks field]] — ゴールディロックス体 (Goldilocks field)
@@ -331,6 +338,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
 - [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
+- [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
@@ -373,6 +381,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/memory-layer|memory layer]] — メモリ層
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
+- [[glossary/Mempool-safe-Second-Factor|Mempool-safe Second Factor]] — メムプールセーフな第二要素
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
 - [[glossary/metering-layer|metering layer]] — 計測レイヤー
@@ -423,6 +432,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]] — オンチェーンメカニズム設計
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
+- [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
 - [[glossary/openings-root|openings root]] — オープニングルート
 - [[glossary/Operation-Restriction-Policy|Operation Restriction Policy]] — 操作制限ポリシー
@@ -463,6 +473,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/pipelining|pipelining]] — パイプライニング
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
+- [[glossary/Poisoned-Address|Poisoned Address]] — ポイズンドアドレス
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
@@ -544,11 +555,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
+- [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
 - [[glossary/Searcher|Searcher]] — サーチャー
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
+- [[glossary/selective-disclosure|selective disclosure]] — 選択的開示
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
 - [[glossary/Self-Declaration-Protocol|Self-Declaration Protocol]] — 自己申告プロトコル
 - [[glossary/self-destruct|self-destruct]] — self-destruct (自己破壊)
@@ -653,6 +666,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
 - [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
 - [[glossary/turnstiles|turnstiles]] — ターンスタイル
+- [[glossary/Two-Phase-Asset-Transfers|Two-Phase Asset Transfers]] — 二段階資産転送
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
@@ -674,6 +688,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/virtual-mempools|virtual mempools]] — 仮想メモリプール
 - [[glossary/VRF|VRF]] — 検証可能乱数関数 (VRF)
 - [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
+- [[glossary/Wallet-Call-Gas-Limit-Override-Capability|Wallet Call Gas Limit Override Capability]] — ウォレットコールガス制限上書き機能
 - [[glossary/Wallet-Title-Deeds|Wallet Title Deeds]] — ウォレット所有権証書
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6362,3 +6362,139 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8334-bundled-attestation-propagation/29008
 - desc: |
   P2Pネットワークにおけるトピックベースのメッセージ伝播プロトコル。Ethereumのコンセンサス層で、アッテステーションなどの重要なメッセージを効率的かつスケーラブルにノード間で共有するために利用されます。
+
+## CBOR
+- ja: CBOR (Concise Binary Object Representation)
+- related: [EIP-8130, ERC-8340]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29022
+- auto_source_url: https://ethereum-magicians.org/t/erc-8340-transaction-metadata-encoding/29022
+- desc: |
+  データ構造をコンパクトに表現するためのバイナリシリアライゼーションフォーマット。EthereumのEIPやERCにおいて、トランザクションメタデータなどのエンコーディングに利用される。
+
+## call scoping
+- ja: コールスコープ設定
+- related: [account abstraction, ERC-8130]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29022
+- auto_source_url: https://ethereum-magicians.org/t/erc-8340-transaction-metadata-encoding/29022
+- desc: |
+  トランザクション内の特定の関数呼び出し（call）に対して、権限や制約の範囲を設定する概念。アカウント抽象化の文脈で、きめ細やかなアクセス制御やセキュリティ強化のために用いられる。
+
+## selective disclosure
+- ja: 選択的開示
+- related: [zero-knowledge proof, privacy]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29022
+- auto_source_url: https://ethereum-magicians.org/t/erc-8340-transaction-metadata-encoding/29022
+- desc: |
+  プライバシー保護技術において、ある情報セットの中から、検証に必要な最小限の情報のみを選択的に開示するメカニズム。ゼロ知識証明などと組み合わせて、オンチェーンでのプライバシーを強化するために利用される。
+
+## commitment digest
+- ja: コミットメントダイジェスト
+- related: [commitment, salted commitment]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29022
+- auto_source_url: https://ethereum-magicians.org/t/erc-8340-transaction-metadata-encoding/29022
+- desc: |
+  あるデータに対するコミットメントのハッシュ値またはダイジェスト。データ自体を直接開示することなく、そのデータに対するコミットメントを表現し、後でデータを開示してコミットメントが正しかったことを証明するために使用される。
+
+## salted commitment
+- ja: ソルト付きコミットメント
+- related: [commitment, commitment digest]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29022
+- auto_source_url: https://ethereum-magicians.org/t/erc-8340-transaction-metadata-encoding/29022
+- desc: |
+  コミットメントを作成する際に、元のデータにランダムな値（ソルト）を追加してからハッシュ化する手法。これにより、同じデータに対するコミットメントが常に異なる値となり、ブルートフォース攻撃や辞書攻撃に対する耐性を高める。
+
+## Cohort Order Book
+- ja: コホートオーダーブック
+- related: [Cohort, Generational fungible liquidity, Batch-FIFO]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29018
+- auto_source_url: https://ethereum-magicians.org/t/cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity/29018
+- desc: |
+  各価格帯の注文を時間順の「コホート」にまとめることで、O(1)のフィルを可能にするオンチェーンの指値注文板。部分フィルが正確で、キャンセルも容易な設計が特徴です。
+
+## Cohort
+- ja: コホート
+- related: [Cohort Order Book, Staging cohort, Open cohort, Generational fungible liquidity]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29018
+- auto_source_url: https://ethereum-magicians.org/t/cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity/29018
+- desc: |
+  コホートオーダーブックにおいて、各価格帯の流動性をまとめるために使用される、時間順に並べられた代替可能なバッチ。新しい注文を受け付ける「Staging」と、現在フィルされている「Open」の2つの状態があります。
+
+## One-sided add
+- ja: 片側流動性追加 (One-sided add)
+- aliases: [one-sided liquidity add]
+- related: [Cohort Order Book, AMM]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29018
+- auto_source_url: https://ethereum-magicians.org/t/cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity/29018
+- desc: |
+  指値注文板やAMMにおいて、特定の価格帯で単一のトークンのみを追加して流動性を提供すること。部分的にフィルされた価格レベルで、プロラタAMMでは困難な操作であり、コホートオーダーブックが解決を目指す主要な課題の一つです。
+
+## Generational fungible liquidity
+- ja: 世代別代替可能流動性 (Generational fungible liquidity)
+- related: [Cohort Order Book, Cohort]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29018
+- auto_source_url: https://ethereum-magicians.org/t/cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity/29018
+- desc: |
+  コホートオーダーブックの核となる概念で、各価格帯の流動性が時間順の「コホート」として代替可能なバッチにまとめられること。これにより、O(1)のフィルと片側流動性追加のクリーンな処理が可能になります。
+
+## Batch-FIFO
+- ja: バッチFIFO (Batch-FIFO)
+- related: [Cohort Order Book, Cohort, FIFO]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29018
+- auto_source_url: https://ethereum-magicians.org/t/cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity/29018
+- desc: |
+  コホートオーダーブックで採用されている注文処理の順序付けメカニズム。コホート内ではプロラタ、コホート間ではFIFO（先入れ先出し）で処理されるため、粗い時間優先順位付けとなります。MEVやフロントランニングの懸念が指摘されています。
+
+## Two-Phase Asset Transfers
+- ja: 二段階資産転送
+- related: [ERC-8339, ITwoPhaseEscrow]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29017
+- auto_source_url: https://ethereum-magicians.org/t/erc-8339-two-phase-asset-transfers/29017
+- desc: |
+  送信者が転送を開始し、資産がエスクローにロックされ、指定された受信者が承認するまで決済されない資産転送の標準。受信者は承認するまでいつでも拒否でき、期限後は送信者が資産を取り戻せる。
+
+## ITwoPhaseEscrow
+- ja: ITwoPhaseEscrow（二段階エスクロー）
+- related: [Two-Phase Asset Transfers, ERC-8339]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29017
+- auto_source_url: https://ethereum-magicians.org/t/erc-8339-two-phase-asset-transfers/29017
+- desc: |
+  ERC-8339で定義される標準エスクローインターフェース。資産の二段階転送のライフサイクル（開始、承認、拒否、期限切れ後の回収）を管理する。
+
+## Mempool-safe Second Factor
+- ja: メムプールセーフな第二要素
+- related: [Two-Phase Asset Transfers, Mempool]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29017
+- auto_source_url: https://ethereum-magicians.org/t/erc-8339-two-phase-asset-transfers/29017
+- desc: |
+  ERC-8339の二段階資産転送で採用されている、メムプールでの情報漏洩リスクを考慮した第二要素認証メカニズム。秘密鍵そのものではなく、秘密鍵による署名を用いることで、トランザクションがリバートした場合でも秘密鍵がオンチェーンで公開されることを防ぐ。
+
+## Poisoned Address
+- ja: ポイズンドアドレス
+- related: [Address Spoofing, Phishing]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 29017
+- auto_source_url: https://ethereum-magicians.org/t/erc-8339-two-phase-asset-transfers/29017
+- desc: |
+  ユーザーを欺いて資金を送金させることを目的とした、悪意のあるアドレス。正規のアドレスと似た文字列を使用したり、アドレス帳を汚染したりする手法が用いられることがある。
+
+## Wallet Call Gas Limit Override Capability
+- ja: ウォレットコールガス制限上書き機能
+- related: [Account Abstraction, Smart Contract Wallet]
+- auto_added: 2026-07-16
+- auto_source_topic_id: 28998
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-106-july-14-2026/28998
+- desc: |
+  スマートコントラクトウォレットが、トランザクション実行時に設定されるガス制限を上書きできる機能。これにより、特定の操作に対して柔軟なガス管理が可能になり、ユーザーエクスペリエンスやプログラマビリティが向上します。

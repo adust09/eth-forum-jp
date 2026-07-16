@@ -5,7 +5,7 @@ aliases:
   - Asynchronous nonce
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **非同期Nonce (Async nonce)**

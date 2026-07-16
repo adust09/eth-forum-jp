@@ -4,7 +4,7 @@ aliases:
   - 分散型仲裁
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **分散型仲裁**

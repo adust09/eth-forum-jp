@@ -4,7 +4,7 @@ aliases:
   - バリデーターモジュール (Validator Module)
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **バリデーターモジュール (Validator Module)**

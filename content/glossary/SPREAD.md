@@ -5,7 +5,7 @@ aliases:
   - Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)**
@@ -19,7 +19,7 @@ EthereumのGossipSubプロトコルを拡張し、メッセージ送信者の匿
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-15-p2p-networking-4-july-15-2026-29021|P2Pネットワーキング #4 2026年7月15日]]（2026-07-15）
 
 ## 元の表記（英語）
 
