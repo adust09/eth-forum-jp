@@ -4,7 +4,7 @@ aliases:
   - 暗号的隔離
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **暗号的隔離**

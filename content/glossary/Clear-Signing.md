@@ -4,7 +4,7 @@ aliases:
   - クリア署名
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **クリア署名**
@@ -20,6 +20,7 @@ date: '2026-07-15'
 ## この用語を使っている記事
 
 - [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）
+- [[posts/magicians-2026-07-13-eip-editing-office-hour-eip-erc-meeting-106-july-14-2026-28998|EIP編集オフィスアワー (EIP + ERC) ミーティング #106、2026年7月14日]]（2026-07-13）
 - [[posts/magicians-2026-07-07-eip-editing-office-hour-eip-erc-meeting-105-july-7-2026-28963|EIP編集オフィスアワー (EIP + ERC) ミーティング #105、2026年7月7日]]（2026-07-07）
 - [[posts/magicians-2026-06-01-draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody-28670|ドラフトERC: パーミッションレジストリ — カストディなしでエージェントに機能スコープの委任を]]（2026-06-01）
 

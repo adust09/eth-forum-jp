@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **ブロック構築**
@@ -22,6 +22,7 @@ date: '2026-07-15'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-15-cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity-29018|コホートオーダーブック: 世代別ファンジブル流動性によるO(1)完全オンチェーン指値注文板]]（2026-07-15）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/magicians-2026-07-03-erc-priority-update-registry-pur-28921|ERC: プライオリティ更新レジストリ (PUR)]]（2026-07-03）
 - [[posts/ethresear-2026-07-01-is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study-25338|スロット0のリオーグコストは修正可能か？ePBSアテステーションデッドライン調査]]（2026-07-01）

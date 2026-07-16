@@ -5,7 +5,7 @@ aliases:
   - PCC
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **証明付き計算 (Proof-Carrying Computation)**

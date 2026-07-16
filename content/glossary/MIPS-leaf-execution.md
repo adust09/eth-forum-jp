@@ -4,7 +4,7 @@ aliases:
   - MIPSリーフ実行
 tags:
   - glossary
-date: '2026-07-15'
+date: '2026-07-16'
 ---
 
 **MIPSリーフ実行**
