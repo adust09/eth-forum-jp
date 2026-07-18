@@ -6,7 +6,7 @@ aliases:
   - EVM assembler
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **EVMアセンブリ**

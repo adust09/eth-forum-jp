@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-16
+last_updated: 2026-07-18
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6498,3 +6498,30 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-106-july-14-2026/28998
 - desc: |
   スマートコントラクトウォレットが、トランザクション実行時に設定されるガス制限を上書きできる機能。これにより、特定の操作に対して柔軟なガス管理が可能になり、ユーザーエクスペリエンスやプログラマビリティが向上します。
+
+## private payment mechanism
+- ja: プライベート決済メカニズム
+- related: [privacy primitive, shielded pool]
+- auto_added: 2026-07-18
+- auto_source_topic_id: 25471
+- auto_source_url: https://ethresear.ch/t/privacy-guardians-2-0/25471
+- desc: |
+  決済の送信者、受信者、金額などの情報を秘匿し、プライバシーを保護しながらブロックチェーン上での取引を可能にする仕組み。ゼロ知識証明などの暗号技術が用いられることが多い。
+
+## honeypot
+- ja: ハニーポット
+- related: [scam, exploit]
+- auto_added: 2026-07-18
+- auto_source_topic_id: 25471
+- auto_source_url: https://ethresear.ch/t/privacy-guardians-2-0/25471
+- desc: |
+  攻撃者を引き寄せて資金を盗もうとするように見せかけ、実際には攻撃者の資金を罠にかけるように設計されたスマートコントラクト。セキュリティ研究や詐欺対策で用いられる。
+
+## Partial Execution Payload Commitments
+- ja: 部分的実行ペイロードコミットメント
+- related: [Execution Payload, Commitment, EIP-8341]
+- auto_added: 2026-07-18
+- auto_source_topic_id: 29030
+- auto_source_url: https://ethereum-magicians.org/t/eip-8341-partial-execution-payload-commitments/29030
+- desc: |
+  EIP-8341で提案されている概念で、Ethereumの実行ペイロード全体ではなく、その一部に対して行われるコミットメントです。これにより、データ可用性や検証の効率化が図られる可能性があります。

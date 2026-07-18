@@ -4,7 +4,7 @@ aliases:
   - デポジットコントラクトアドレス (Deposit Contract Address)
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **デポジットコントラクトアドレス (Deposit Contract Address)**

@@ -5,7 +5,7 @@ aliases:
   - Proof of Work network
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **PoWネットワーク (Proof of Workネットワーク)**
@@ -19,6 +19,7 @@ date: '2026-07-16'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-17-privacy-guardians-2-0-25471|プライバシーガーディアンズ 2.0]]（2026-07-17）
 - [[posts/ethresear-2026-06-19-futarchy-is-insecure-without-a-proposal-gatekeeper-25235|提案ゲートキーパーなしではフューターキーは安全ではない]]（2026-06-19）
 
 ## 元の表記（英語）

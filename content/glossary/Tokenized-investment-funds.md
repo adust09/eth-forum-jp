@@ -5,7 +5,7 @@ aliases:
   - Tokenized funds
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **トークン化投資ファンド**
