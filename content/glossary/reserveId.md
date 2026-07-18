@@ -4,7 +4,7 @@ aliases:
   - 準備金ID
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **準備金ID**

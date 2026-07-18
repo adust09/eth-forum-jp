@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -308,6 +308,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/hexary-Patricia-tries|hexary Patricia tries]] — ヘキサリパトリシアトライ
 - [[glossary/hidden-watchtowers|hidden watchtowers]] — 隠されたウォッチタワー
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
+- [[glossary/honeypot|honeypot]] — ハニーポット
 - [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
 - [[glossary/http-outcalls|http outcalls]] — HTTPアウトコール
@@ -454,6 +455,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
+- [[glossary/Partial-Execution-Payload-Commitments|Partial Execution Payload Commitments]] — 部分的実行ペイロードコミットメント
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]] — パーティション化されたバイナリツリー
 - [[glossary/PASS-ASSET|PASS-ASSET]] — PASS-ASSET (可決時資産)
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
@@ -496,6 +498,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
+- [[glossary/private-payment-mechanism|private payment mechanism]] — プライベート決済メカニズム
 - [[glossary/Privileged-Role-Control-Framework|Privileged Role Control Framework]] — 特権ロール制御フレームワーク
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-17-eip-8341-partial-execution-payload-commitments-29030|EIP-8341: 部分実行ペイロードコミットメント]]（2026-07-17）
 - [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）
 - [[posts/magicians-2026-07-15-eipip-meeting-129-aug-12-2026-29015|EIPIPミーティング #129、2026年8月12日]]（2026-07-15）
 - [[posts/magicians-2026-07-14-eip-8337-validated-evm-code-29013|EIP-8337: 検証済みEVMコード]]（2026-07-14）

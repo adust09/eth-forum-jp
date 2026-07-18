@@ -4,7 +4,7 @@ aliases:
   - Jaccard類似度 (ジャカード類似度)
 tags:
   - glossary
-date: '2026-07-16'
+date: '2026-07-18'
 ---
 
 **Jaccard類似度 (ジャカード類似度)**
