@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-18'
+date: '2026-07-21'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -86,6 +86,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Binding|Binding]] — バインディング
 - [[glossary/Biometric-ZK-proof|Biometric ZK-proof]] — 生体認証ZK証明
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
+- [[glossary/Blind-Session|Blind Session]] — ブラインドセッション
 - [[glossary/blind-signing|blind signing]] — ブラインド署名
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
@@ -424,6 +425,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
 - [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
 - [[glossary/Observation-Scope|Observation Scope]] — 観測スコープ
+- [[glossary/Observer-Contamination|Observer Contamination]] — 観測者汚染
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/Offchain-orderbook|Offchain orderbook]] — オフチェーンオーダーブック
@@ -479,6 +481,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
+- [[glossary/Post-Quantum-transaction-signature|Post Quantum transaction signature]] — ポスト量子トランザクション署名 (PQTS)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
@@ -493,6 +496,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
 - [[glossary/Price-of-Forgery|Price of Forgery]] — 偽造の価格 (PoF)
 - [[glossary/Priority-Update-Registry|Priority Update Registry]] — プライオリティ更新レジストリ (PUR)
+- [[glossary/Privacy-as-Predicate|Privacy as Predicate]] — 述語としてのプライバシー
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
 - [[glossary/Privacy-Relay|Privacy Relay]] — プライバシーリレー
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
@@ -583,6 +587,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
+- [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
@@ -600,6 +605,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
+- [[glossary/Sovereign-Space|Sovereign Space]] — ソブリンスペース (主権空間)
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/spent-bit|spent bit]] — 使用済みビット
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
@@ -621,6 +627,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
+- [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件

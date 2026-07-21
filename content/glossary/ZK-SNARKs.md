@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Succinct Non-Interactive Argument of Knowledge
 tags:
   - glossary
-date: '2026-07-18'
+date: '2026-07-21'
 ---
 
 **ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)**
@@ -20,6 +20,7 @@ date: '2026-07-18'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-20-sovereign-space-when-values-need-architecture-25485|主権的空間：価値がアーキテクチャを必要とするとき]]（2026-07-20）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-07-02-designing-infrastructure-where-exploits-destroy-themselves-25348|エクスプロイトが自己破壊するインフラの設計]]（2026-07-02）
 
