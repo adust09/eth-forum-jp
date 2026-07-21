@@ -5,7 +5,7 @@ aliases:
   - Reveal Optionality by the Transaction Sender
 tags:
   - glossary
-date: '2026-07-18'
+date: '2026-07-21'
 ---
 
 **リビール選択性**
@@ -19,7 +19,7 @@ date: '2026-07-18'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-20-encrypt-the-mempool-7-july-22-2026-29042|メムプールの暗号化 #7、2026年7月22日]]（2026-07-20）
 
 ## 元の表記（英語）
 

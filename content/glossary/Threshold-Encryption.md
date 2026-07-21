@@ -4,7 +4,7 @@ aliases:
   - 閾値暗号
 tags:
   - glossary
-date: '2026-07-18'
+date: '2026-07-21'
 ---
 
 **閾値暗号**
@@ -19,6 +19,7 @@ date: '2026-07-18'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-20-encrypt-the-mempool-7-july-22-2026-29042|メムプールの暗号化 #7、2026年7月22日]]（2026-07-20）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 
 ## 元の表記（英語）

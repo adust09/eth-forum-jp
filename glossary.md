@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-18
+last_updated: 2026-07-21
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6525,3 +6525,67 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8341-partial-execution-payload-commitments/29030
 - desc: |
   EIP-8341で提案されている概念で、Ethereumの実行ペイロード全体ではなく、その一部に対して行われるコミットメントです。これにより、データ可用性や検証の効率化が図られる可能性があります。
+
+## Sovereign Space
+- ja: ソブリンスペース (主権空間)
+- related: [Privacy as Predicate, Observer Removal]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 25485
+- auto_source_url: https://ethresear.ch/t/sovereign-space-when-values-need-architecture/25485
+- desc: |
+  テクノロジーが提供する、組織の運営者や外部圧力に依存しない真の保証された空間を指します。特に、アーキテクチャの対称性に基づいて、システムの出力がオペレーターの変換に対して不変であるという原則に立脚します。
+
+## Privacy as Predicate
+- ja: 述語としてのプライバシー
+- related: [Sovereign Space, Cryptographic Model]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 25485
+- auto_source_url: https://ethresear.ch/t/sovereign-space-when-values-need-architecture/25485
+- desc: |
+  プライバシーを、プロトコルが誰によって操作されるか、規制圧力、あるいは創設組織の存続に関わらず成立する数学的特性として定義するモデルです。アクセス制御に依存する「ポリシーとしてのプライバシー」とは対照的です。
+
+## Observer Contamination
+- ja: 観測者汚染
+- related: [Observer Removal, Blind Session]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 25485
+- auto_source_url: https://ethresear.ch/t/sovereign-space-when-values-need-architecture/25485
+- desc: |
+  システム設計において、可視化された投票パターン、評判リスク、審議への社会的圧力などの中間シグナルが漏洩し、集団的意思決定を歪める失敗モードを指します。プロトコルレベルでの能動的な抑制が必要とされます。
+
+## Blind Session
+- ja: ブラインドセッション
+- related: [Observer Removal, Privacy as Predicate]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 25485
+- auto_source_url: https://ethresear.ch/t/sovereign-space-when-values-need-architecture/25485
+- desc: |
+  観測者汚染を防ぐための構造的原則として、暗号学的に強制されるセッションです。中間結果が同期復号化されるまでシステムオペレーターを含むすべての参加者から不可視となり、シグナル完全性を確保します。
+
+## Stochastic Exit
+- ja: 確率的脱出
+- related: [Consensus Threshold, Itô’s Equation, Wiener Process]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 25485
+- auto_source_url: https://ethresear.ch/t/sovereign-space-when-values-need-architecture/25485
+- desc: |
+  集団シグナルが合意閾値に達しない場合に活性化されるメカニズムです。形式論理が終了する局所的最小値からの脱出を可能にするため、決定論的探索とウィーナー過程（伊藤の式）を組み合わせます。
+
+## Silent, One-Shot threshold encryption
+- ja: サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
+- related: [Threshold encryption]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 29042
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-7-july-22-2026/29042
+- desc: |
+  閾値暗号の一種で、暗号文の復号鍵が複数の参加者に分散され、一定数以上の参加者が協力することで復号可能になる。特に「サイレント」は通信オーバーヘッドが低いことを、「ワンショット」は一度きりの使用を意味し、特定の暗号スキームを指す。
+
+## Post Quantum transaction signature
+- ja: ポスト量子トランザクション署名 (PQTS)
+- aliases: [PQTS]
+- related: [Post-Quantum Cryptography, Quantum-resistant signature, Transaction]
+- auto_added: 2026-07-21
+- auto_source_topic_id: 29041
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-transaction-signature-pqts-breakout-12/29041
+- desc: |
+  量子コンピュータによる攻撃に耐性を持つように設計されたトランザクション署名方式。Ethereumなどのブロックチェーンにおいて、将来的な量子脅威からトランザクションのセキュリティを確保するために研究・開発が進められている。
