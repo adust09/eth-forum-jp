@@ -5,7 +5,7 @@ aliases:
   - FCR
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **高速承認ルール**
@@ -18,7 +18,7 @@ Ethereumにおけるトランザクションの高速承認に関する特定の
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-21-fast-confirmation-rule-fcr-12-august-4-2026-29050|[[glossary/Fast-Confirmation-Rule|高速承認ルール (FCR)]] #12、2026年8月4日]]（2026-07-21）
 
 ## 元の表記（英語）
 

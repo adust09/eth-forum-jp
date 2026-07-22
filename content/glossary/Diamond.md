@@ -7,7 +7,7 @@ aliases:
   - EIP-2535
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **ダイヤモンド（パターン）**
@@ -22,7 +22,7 @@ Solidityにおけるスマートコントラクトのモジュール化および
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-21-erc-xxxx-cento-proxy-index-based-multi-facet-proxy-29054|ERC-XXXX: Cento Proxy – インデックスベースのマルチファセットプロキシ]]（2026-07-21）
 
 ## 元の表記（英語）
 

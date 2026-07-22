@@ -5,7 +5,7 @@ aliases:
   - causal coupling
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **状態の因果的結合**
@@ -19,7 +19,7 @@ date: '2026-07-21'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-21-a-mechanized-functor-tower-for-cross-domain-state-preservation-25491|クロスドメイン状態保存のための機械化されたファンクタタワー]]（2026-07-21）
 
 ## 元の表記（英語）
 

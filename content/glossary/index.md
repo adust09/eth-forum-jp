@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -38,6 +38,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agentic-Commerce|Agentic Commerce]] — エージェント型商取引 (Agentic Commerce)
 - [[glossary/Agentic-Onchain-Operations|Agentic Onchain Operations]] — エージェントによるオンチェーン操作
 - [[glossary/AgentTask|AgentTask]] — エージェントタスク
+- [[glossary/Aggregate-degrees|Aggregate degrees]] — 集約度 (Aggregate degrees)
 - [[glossary/Aggregator|Aggregator]] — アグリゲーター
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
@@ -119,6 +120,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
+- [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
 - [[glossary/claim-types|claim types]] — クレームタイプ
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
@@ -147,6 +149,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
+- [[glossary/Contract-Deactivation|Contract Deactivation]] — コントラクト非アクティブ化
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
 - [[glossary/Contract-Role-Naming-Pattern|Contract Role Naming Pattern]] — コントラクトロール命名パターン
 - [[glossary/Contract-Role-Semantics-Standard|Contract Role Semantics Standard]] — コントラクトロール意味論標準
@@ -163,9 +166,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Counterfactual-Rejection-Event-Log|Counterfactual Rejection Event Log]] — 反実仮想拒否イベントログ (CREL)
 - [[glossary/counterfactual-replay|counterfactual replay]] — 反実仮想リプレイ
 - [[glossary/Counterfactual-Transaction|Counterfactual Transaction]] — 反実仮想トランザクション
+- [[glossary/Coupling-Breadth|Coupling Breadth]] — 結合の広さ (Coupling Breadth)
 - [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
+- [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
 - [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
@@ -272,9 +277,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
+- [[glossary/finalizedBlockHash|finalizedBlockHash]] — ファイナライズされたブロックハッシュ
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]] — 固定カットオフ型ステート階層化
+- [[glossary/fixed-point-math|fixed-point math]] — 固定小数点演算
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
 - [[glossary/Forced-transaction-mechanism|Forced transaction mechanism]] — 強制トランザクションメカニズム
@@ -290,6 +297,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
 - [[glossary/Function-Selector|Function Selector]] — 関数セレクター
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
+- [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
@@ -355,6 +363,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Lamport-chain|Lamport chain]] — ランポートチェーン
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
+- [[glossary/launch-primitive|launch primitive]] — ローンチプリミティブ
 - [[glossary/Layer-1|Layer 1]] — レイヤー1
 - [[glossary/Layer-separation-enforcement|Layer separation enforcement]] — レイヤー分離の強制
 - [[glossary/Lean-Staking|Lean Staking]] — リーンステーキング
@@ -368,6 +377,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
+- [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
 - [[glossary/logicallogn|logical_logn]] — 論理ドメインの対数サイズ (logical_logn)
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
 - [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
@@ -380,6 +390,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Malleable-offchain-metadata|Malleable offchain metadata]] — 可変なオフチェーンメタデータ
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
+- [[glossary/Mechanized-Functor-Tower|Mechanized Functor Tower]] — 機械化された関手塔 (Mechanized Functor Tower)
 - [[glossary/memory-layer|memory layer]] — メモリ層
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
@@ -410,9 +421,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
 - [[glossary/Native-UTXOs|Native UTXOs]] — ネイティブUTXO
 - [[glossary/native-zkEVM|native zkEVM]] — ネイティブzkEVM
+- [[glossary/Natural-Transformation|Natural Transformation]] — 自然変換 (Natural Transformation)
 - [[glossary/NAV-basis|NAV basis]] — NAV基準 (NAV basis)
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/nested-iframe-pattern|nested iframe pattern]] — ネストされたiframeパターン
+- [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Nonzero-Evidence-Commitment|Nonzero Evidence Commitment]] — ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
@@ -436,12 +449,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
+- [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
 - [[glossary/openings-root|openings root]] — オープニングルート
 - [[glossary/Operation-Restriction-Policy|Operation Restriction Policy]] — 操作制限ポリシー
 - [[glossary/Operation-level-restrictions|Operation-level restrictions]] — 操作レベルの制限
 - [[glossary/Operator|Operator]] — オペレーター
 - [[glossary/opHash|opHash]] — opHash (操作ハッシュ)
+- [[glossary/optimistic-dispute-window|optimistic dispute window]] — オプティミスティック紛争期間
 - [[glossary/Optimistic-Handler|Optimistic Handler]] — オプティミスティックハンドラー
 - [[glossary/Oracle-Permissioned|Oracle-Permissioned]] — オラクル許可型
 - [[glossary/Orchard-action-bundle|Orchard action bundle]] — Orchardアクションバンドル
@@ -531,6 +546,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]] — 規制コンプライアンスプロトコル (RCP)
 - [[glossary/regulatory-state-machine|regulatory state machine]] — 規制状態機械
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]] — 関係性アンカー型マネー
+- [[glossary/renounce-upgrade-authority|renounce upgrade authority]] — アップグレード権限の放棄
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
 - [[glossary/Replay-based-Verification|Replay-based Verification]] — リプレイベース検証
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
@@ -559,6 +575,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Role-Based-Timelock-Operation|Role-Based Timelock Operation]] — ロールベース・タイムロック操作
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/Root-hashes-of-index-tables|Root hashes of index tables]] — インデックステーブルのルートハッシュ
+- [[glossary/routing-index|routing index]] — ルーティングインデックス
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
@@ -570,8 +587,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
 - [[glossary/selective-disclosure|selective disclosure]] — 選択的開示
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
+- [[glossary/selector-management|selector management]] — セレクター管理
 - [[glossary/Self-Declaration-Protocol|Self-Declaration Protocol]] — 自己申告プロトコル
 - [[glossary/self-destruct|self-destruct]] — self-destruct (自己破壊)
+- [[glossary/SELFDESTRUCT|SELFDESTRUCT]] — SELFDESTRUCT (自己破壊)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
 - [[glossary/sequencer|sequencer]] — シーケンサー
@@ -644,6 +663,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
 - [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
+- [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/threshold-ecdsa|threshold ecdsa]] — しきい値ECDSA (Threshold ECDSA)
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
