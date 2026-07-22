@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-07-21'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-21-a-mechanized-functor-tower-for-cross-domain-state-preservation-25491|クロスドメイン状態保存のための機械化されたファンクタタワー]]（2026-07-21）
+- [[posts/magicians-2026-07-21-erc-xxxx-cento-proxy-index-based-multi-facet-proxy-29054|ERC-XXXX: Cento Proxy – インデックスベースのマルチファセットプロキシ]]（2026-07-21）
 - [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）
 - [[posts/magicians-2026-07-15-erc-8339-two-phase-asset-transfers-29017|ERC-8339: 二段階資産転送]]（2026-07-15）
 - [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）

@@ -4,7 +4,7 @@ aliases:
   - サーチャー
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **サーチャー**

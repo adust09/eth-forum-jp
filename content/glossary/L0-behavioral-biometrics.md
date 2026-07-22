@@ -4,7 +4,7 @@ aliases:
   - L0行動生体認証
 tags:
   - glossary
-date: '2026-07-21'
+date: '2026-07-22'
 ---
 
 **L0行動生体認証**

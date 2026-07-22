@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-21
+last_updated: 2026-07-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6589,3 +6589,186 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/post-quantum-transaction-signature-pqts-breakout-12/29041
 - desc: |
   量子コンピュータによる攻撃に耐性を持つように設計されたトランザクション署名方式。Ethereumなどのブロックチェーンにおいて、将来的な量子脅威からトランザクションのセキュリティを確保するために研究・開発が進められている。
+
+## Mechanized Functor Tower
+- ja: 機械化された関手塔 (Mechanized Functor Tower)
+- related: [Coupling Breadth, Natural Transformation, Cross-Domain State Preservation]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 25491
+- auto_source_url: https://ethresear.ch/t/a-mechanized-functor-tower-for-cross-domain-state-preservation/25491
+- desc: |
+  異なる同期ドメイン間の状態保存を検証するための、形式的に機械化されたフレームワーク。状態の結合強度を階層化された関手としてモデル化し、各レベルが特定の結合の広さ（coupling breadth）に対応する。
+
+## Cross-Domain State Preservation
+- ja: クロスドメイン状態保存 (Cross-Domain State Preservation)
+- related: [Synchronization Domains, Mechanized Functor Tower]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 25491
+- auto_source_url: https://ethresear.ch/t/a-mechanized-functor-tower-for-cross-domain-state-preservation/25491
+- desc: |
+  複数の異なるブロックチェーン（ドメイン）間で、資産やデータの状態が整合性を保ちながら維持される特性。特に、あるドメインでの状態遷移が別のドメインでもその法的・意味的効果を維持することを指す。
+
+## Coupling Breadth
+- ja: 結合の広さ (Coupling Breadth)
+- related: [Mechanized Functor Tower, Synchronization Domains, Asset Degree]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 25491
+- auto_source_url: https://ethresear.ch/t/a-mechanized-functor-tower-for-cross-domain-state-preservation/25491
+- desc: |
+  資産の状態がいくつのチェーン（ドメイン）にまたがってサポートされているかを示す指標。この概念は、状態保存の強度を階層化する「関手塔」の各レベルを定義するために用いられる。
+
+## Natural Transformation
+- ja: 自然変換 (Natural Transformation)
+- related: [Functor, Category Theory, Mechanized Functor Tower]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 25491
+- auto_source_url: https://ethresear.ch/t/a-mechanized-functor-tower-for-cross-domain-state-preservation/25491
+- desc: |
+  カテゴリー理論における概念で、2つの関手間の構造を保存する写像。この文脈では、結合の広さの異なるレベル間で状態を「忘れる」操作が、規制上の状態遷移と可換であることを形式的に証明するために用いられる。
+
+## Aggregate degrees
+- ja: 集約度 (Aggregate degrees)
+- related: [Coupling Breadth, Asset Degree, Fungibility]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 25491
+- auto_source_url: https://ethresear.ch/t/a-mechanized-functor-tower-for-cross-domain-state-preservation/25491
+- desc: |
+  異なる宣言された結合の広さ（degree）を持つ単位が単一の表現を共有する場合に、それらをどのように保守的に集約するかという課題。資産の表現力や代替可能性に影響を与える。
+
+## selector management
+- ja: セレクター管理
+- related: [function selector, facet, modular proxy architectures]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29054
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-cento-proxy-index-based-multi-facet-proxy/29054
+- desc: |
+  モジュラープロキシアーキテクチャにおいて、スマートコントラクトの機能セレクターを登録、更新、削除するプロセス。デプロイ、アップグレード、プロトコル保守を通じて継続的な懸念事項となる。
+
+## routing index
+- ja: ルーティングインデックス
+- related: [Cento Proxy, facet, protocol routing]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29054
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-cento-proxy-index-based-multi-facet-proxy/29054
+- desc: |
+  Cento Proxyのようなモジュラープロキシアーキテクチャで、特定のファセット（実装モジュール）を一意に識別するために使用されるコンパクトなインデックス。関数セレクターとは独立して、プロトコルルーティングをファセット中心にするための仕組み。
+
+## Gas station network
+- ja: ガスステーションネットワーク (GSN)
+- aliases: [GSN]
+- related: [Account Abstraction]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29051
+- auto_source_url: https://ethereum-magicians.org/t/erc-1613-gas-station-network/29051
+- desc: |
+  ユーザーが直接ガス料金を支払うことなく、第三者（リレイヤー）がガス料金を肩代わりし、後でユーザーから回収する仕組みを提供するネットワーク。これにより、ユーザーはETHを保有していなくてもトランザクションを実行できる。
+
+## finalizedBlockHash
+- ja: ファイナライズされたブロックハッシュ
+- related: [finalization, safeBlockHash, consensus layer]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29050
+- auto_source_url: https://ethereum-magicians.org/t/fast-confirmation-rule-fcr-12-august-4-2026/29050
+- desc: |
+  Ethereumのコンセンサスレイヤーにおいて、ファイナライズされたと見なされるブロックのハッシュ。このブロックは、プロトコルによって不可逆であることが保証されます。
+
+## CL node
+- ja: CLノード (コンセンサスレイヤーノード)
+- aliases: [Consensus Layer node]
+- related: [Consensus Layer, EL node, validator]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29050
+- auto_source_url: https://ethereum-magicians.org/t/fast-confirmation-rule-fcr-12-august-4-2026/29050
+- desc: |
+  Ethereumのコンセンサスレイヤーを実行するノード。バリデータ機能を担い、ブロックの提案やアテステーションを行います。
+
+## Contract Deactivation
+- ja: コントラクト非アクティブ化
+- related: [Pause mechanisms, SELFDESTRUCT, terminal lifecycle events]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29049
+- auto_source_url: https://ethereum-magicians.org/t/contract-deactivation/29049
+- desc: |
+  スマートコントラクトが一時停止ではなく、永続的に非アクティブ化された状態であることを示す標準的なシグナルです。ウォレットやプロトコルがコントラクトの終焉を確実に検出できるようにすることを目的としています。
+
+## SELFDESTRUCT
+- ja: SELFDESTRUCT (自己破壊)
+- related: [EIP-6780, EVM]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29049
+- auto_source_url: https://ethereum-magicians.org/t/contract-deactivation/29049
+- desc: |
+  Ethereum Virtual Machine (EVM) のオペコードの一つで、コントラクトのコードとストレージを削除し、残りのEtherを転送する機能を持つものです。EIP-6780 (Dencun) 以降、その動作が変更され、コントラクトの完全な削除は特定の条件下でのみ可能となりました。
+
+## One-way state
+- ja: 一方向状態
+- related: [Contract Deactivation, terminal state]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29049
+- auto_source_url: https://ethereum-magicians.org/t/contract-deactivation/29049
+- desc: |
+  スマートコントラクトの状態が、一度ある状態に遷移すると元に戻せない性質を持つことを指します。コントラクトの永続的な非アクティブ化など、不可逆なライフサイクルイベントを表現する際に用いられます。
+
+## renounce upgrade authority
+- ja: アップグレード権限の放棄
+- related: [upgradeable proxies, immutable contract]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29049
+- auto_source_url: https://ethereum-magicians.org/t/contract-deactivation/29049
+- desc: |
+  アップグレード可能なプロキシコントラクトにおいて、将来のロジック変更権限を永続的に放棄する行為です。これにより、プロキシコントラクトの実装が事実上不変となり、セキュリティと信頼性が向上します。
+
+## terminal lifecycle events
+- ja: 終端ライフサイクルイベント
+- related: [Contract Deactivation, Pause mechanisms]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29049
+- auto_source_url: https://ethereum-magicians.org/t/contract-deactivation/29049
+- desc: |
+  スマートコントラクトの運用が永続的に終了するようなイベントを指します。一時的な停止とは異なり、コントラクトが二度とアクティブな状態に戻らないことを意味し、非アクティブ化などのメカニズムでシグナルされます。
+
+## NFT-Bound Prediction Markets
+- ja: NFT紐付け型予測市場
+- related: [ERC-721, Prediction Market]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29046
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
+- desc: |
+  ERC-721トークンと1対1で紐付けられたバイナリ（YES/NO）予測市場。市場の状態がオンチェーンに保存され、トークンのtokenURI SVGとしてレンダリングされるため、NFT自体が自己完結型の市場として機能する。
+
+## Logarithmic Market Scoring Rule
+- ja: 対数市場スコアリングルール (LMSR)
+- aliases: [LMSR]
+- related: [Prediction Market, Automated Market Maker]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29046
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
+- desc: |
+  予測市場における価格決定アルゴリズムの一つ。市場メーカーの損失を流動性パラメータbによって限定し、流動性に関わらず常に価格を提示できる特性を持つ。本提案では、ネイティブ通貨で決済されるオンチェーンLMSRが採用されている。
+
+## optimistic dispute window
+- ja: オプティミスティック紛争期間
+- related: [Oracle, Dispute Resolution]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29046
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
+- desc: |
+  予測市場の解決プロセスにおいて、オラクルによる結果提案後に設定される異議申し立てが可能な期間。この期間中に異議が申し立てられなければ、提案された結果が確定する。
+
+## launch primitive
+- ja: ローンチプリミティブ
+- related: [Token Launch, Memecoin]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29046
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
+- desc: |
+  新しいトークンやアプリケーションを立ち上げるための基本的な構成要素やメカニズム。本提案では、従来のミームコインのような不透明なトークンではなく、予測市場自体が次世代のローンチプリミティブとなる可能性を提唱している。
+
+## fixed-point math
+- ja: 固定小数点演算
+- related: [Smart Contract, Precision]
+- auto_added: 2026-07-22
+- auto_source_topic_id: 29046
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
+- desc: |
+  浮動小数点数ではなく、小数点以下の桁数を固定して数値を表現する演算方法。スマートコントラクトにおいて、浮動小数点演算の非決定性や精度問題を回避し、正確な計算を保証するために用いられる。
