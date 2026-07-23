@@ -4,7 +4,7 @@ aliases:
   - 自然変換 (Natural Transformation)
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **自然変換 (Natural Transformation)**

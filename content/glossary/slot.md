@@ -4,7 +4,7 @@ aliases:
   - '(subjectId, role) スロット'
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **(subjectId, role) スロット**

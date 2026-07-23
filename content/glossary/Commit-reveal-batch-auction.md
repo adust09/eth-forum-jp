@@ -4,7 +4,7 @@ aliases:
   - コミット・リビール型バッチオークション
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **コミット・リビール型バッチオークション**
@@ -19,7 +19,7 @@ date: '2026-07-22'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 
 ## 元の表記（英語）
 
