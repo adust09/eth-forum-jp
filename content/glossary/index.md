@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -41,6 +41,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Aggregate-degrees|Aggregate degrees]] — 集約度 (Aggregate degrees)
 - [[glossary/Aggregator|Aggregator]] — アグリゲーター
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
+- [[glossary/AI-agents|AI agents]] — AIエージェント
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
 - [[glossary/AI-Sentinel|AI Sentinel]] — AIセンチネル
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
@@ -134,6 +135,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
 - [[glossary/commitment-digest|commitment digest]] — コミットメントダイジェスト
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
+- [[glossary/Committee-Signature|Committee Signature]] — 委員会署名
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/commutative-tier|commutative tier]] — 可換ティア
 - [[glossary/Competing-correction-branches|Competing correction branches]] — 競合する修正ブランチ
@@ -332,11 +334,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/immutable-contract|immutable contract]] — 不変コントラクト
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Importance-score|Importance score]] — 重要度スコア
+- [[glossary/Impossibility-Triad|Impossibility Triad]] — 不可能性の三つ組 (インポッシビリティ・トライアド)
 - [[glossary/In-Protocol-Client-Reporting|In-Protocol Client Reporting]] — プロトコル内クライアント報告
 - [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
+- [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
+- [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
 - [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
 - [[glossary/instant-revoke|instant revoke]] — 即時取り消し
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
@@ -390,6 +395,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Malleable-offchain-metadata|Malleable offchain metadata]] — 可変なオフチェーンメタデータ
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
+- [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
+- [[glossary/Mechanism-design|Mechanism design]] — メカニズム設計
 - [[glossary/Mechanized-Functor-Tower|Mechanized Functor Tower]] — 機械化された関手塔 (Mechanized Functor Tower)
 - [[glossary/memory-layer|memory layer]] — メモリ層
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
@@ -402,6 +409,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Methodology-Versioning-Interface|Methodology-Versioning Interface]] — メソドロジーバージョン管理インターフェース
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MEV-opportunity-attribution-problem|MEV opportunity attribution problem]] — MEV機会帰属問題
+- [[glossary/Microstructure-Design|Microstructure Design]] — マイクロストラクチャー設計
 - [[glossary/mid-session-choice-mutability|mid-session choice mutability]] — セッション中選択変更可能性
 - [[glossary/minHash|minHash]] — minHash (ミニハッシュ)
 - [[glossary/minimal-enforcement-primitives|minimal enforcement primitives]] — 最小限の執行プリミティブ
@@ -464,6 +472,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Orchard-shielded-pool-model|Orchard shielded-pool model]] — Orchardシールドプールモデル
 - [[glossary/Orderflow|Orderflow]] — オーダーフロー
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
+- [[glossary/Ordering-Rent|Ordering Rent]] — オーダリング・レント
 - [[glossary/Ordinal-Scheduled-Supersession|Ordinal-Scheduled Supersession]] — 序数スケジュールによる置換 (Ordinal-Scheduled Supersession)
 - [[glossary/Osaka|Osaka]] — 大阪 (Osaka)
 - [[glossary/Ossification|Ossification]] — オシフィケーション (硬化)
@@ -495,6 +504,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Poisoned-Address|Poisoned Address]] — ポイズンドアドレス
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/populated-read|populated read]] — 値あり読み取り
+- [[glossary/Positive-Sum-Coordination|Positive-Sum Coordination]] — 正の和の協調 (ポジティブサム・コーディネーション)
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
 - [[glossary/Post-Quantum-transaction-signature|Post Quantum transaction signature]] — ポスト量子トランザクション署名 (PQTS)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
@@ -503,6 +513,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
 - [[glossary/pq-account|pq-account]] — 量子耐性アカウント (pq-account)
+- [[glossary/Pre-Mempool-Validation|Pre-Mempool Validation]] — プレ・メンプール検証
 - [[glossary/Precompile-target|Precompile target]] — プリコンパイルターゲット
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Precondition|Precondition]] — 前提条件
@@ -584,6 +595,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
 - [[glossary/Searcher|Searcher]] — サーチャー
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
+- [[glossary/Security-Manifest|Security Manifest]] — セキュリティマニフェスト
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
 - [[glossary/selective-disclosure|selective disclosure]] — 選択的開示
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
@@ -626,6 +638,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
 - [[glossary/Sovereign-Space|Sovereign Space]] — ソブリンスペース (主権空間)
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
+- [[glossary/Specialized-Builder-Network|Specialized Builder Network]] — 特殊化されたビルダーネットワーク
 - [[glossary/spent-bit|spent bit]] — 使用済みビット
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
@@ -678,6 +691,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
+- [[glossary/Token-engineering|Token engineering]] — トークンエンジニアリング
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]] — トークンプル承認
 - [[glossary/Token-bound-reservations|Token-bound reservations]] — トークンに紐づく予約
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース

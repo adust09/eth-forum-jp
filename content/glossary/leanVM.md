@@ -4,7 +4,7 @@ aliases:
   - leanVM
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **leanVM**
@@ -19,7 +19,7 @@ Ethereumのポスト量子署名検証のために特別に設計された、Cai
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-22-post-quantum-pq-interop-48-july-22-2026-29061|ポスト量子 (PQ) 相互運用性 #48、2026年7月22日]]（2026-07-22）
 
 ## 元の表記（英語）
 

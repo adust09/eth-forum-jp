@@ -4,7 +4,7 @@ aliases:
   - 自律エージェント
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **自律エージェント**
@@ -19,7 +19,7 @@ date: '2026-07-22'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-22-call-for-papers-blockchain-defi-and-ai-25496|論文募集: ブロックチェーン、DeFi、AI]]（2026-07-22）
 
 ## 元の表記（英語）
 

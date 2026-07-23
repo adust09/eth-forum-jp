@@ -6,7 +6,7 @@ aliases:
   - rt_frozen
 tags:
   - glossary
-date: '2026-07-22'
+date: '2026-07-23'
 ---
 
 **コンプライアンス凍結ルート**

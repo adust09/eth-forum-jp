@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6772,3 +6772,129 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-nft-bound-prediction-markets-lmsr-pricing-on-chain-state/29046
 - desc: |
   浮動小数点数ではなく、小数点以下の桁数を固定して数値を表現する演算方法。スマートコントラクトにおいて、浮動小数点演算の非決定性や精度問題を回避し、正確な計算を保証するために用いられる。
+
+## Positive-Sum Coordination
+- ja: 正の和の協調 (ポジティブサム・コーディネーション)
+- related: [Incentive Design, Microstructure Design]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25505
+- auto_source_url: https://ethresear.ch/t/positive-sum-microstructure-design-is-the-last-bottleneck/25505
+- desc: |
+  参加者全員が協力することで、個々の利益だけでなくシステム全体の利益も最大化されるような経済的インセンティブ設計。暗号経済システムにおいて、抽出的なゼロサムゲームではなく、協調的な成果を目指す上で重要な概念。
+
+## Incentive Design
+- ja: インセンティブ設計
+- related: [Positive-Sum Coordination, Mechanism Design]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25505
+- auto_source_url: https://ethresear.ch/t/positive-sum-microstructure-design-is-the-last-bottleneck/25505
+- desc: |
+  参加者の行動を特定の望ましい方向へ誘導するために、経済的報酬や罰則などのインセンティブ構造を設計すること。特にブロックチェーンや暗号経済システムにおいて、プロトコルの安全性や効率性、特定の行動パターンを促すために不可欠な研究分野。
+
+## Microstructure Design
+- ja: マイクロストラクチャー設計
+- related: [Incentive Design, Positive-Sum Coordination, MEV]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25505
+- auto_source_url: https://ethresear.ch/t/positive-sum-microstructure-design-is-the-last-bottleneck/25505
+- desc: |
+  金融市場における取引の仕組みやルール、参加者の行動パターンなどを設計すること。暗号資産の文脈では、オンチェーンの取引市場（AMMなど）やオークションメカニズムなど、特定の市場構造を構築し、望ましい経済的特性（例：正の和の協調）を実現するための設計を指す。
+
+## Ordering Rent
+- ja: オーダリング・レント
+- related: [MEV, Sandwich Attack]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25505
+- auto_source_url: https://ethresear.ch/t/positive-sum-microstructure-design-is-the-last-bottleneck/25505
+- desc: |
+  ブロックチェーンにおいて、トランザクションの順序を操作することで得られる超過利益。特にサンドイッチ攻撃などで、特定の取引の前後で売買を行うことで、被害者の価格インパクトを捕捉する形で発生するMEVの一種。
+
+## Impossibility Triad
+- ja: 不可能性の三つ組 (インポッシビリティ・トライアド)
+- related: [Mechanism Design, Game Theory]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25505
+- auto_source_url: https://ethresear.ch/t/positive-sum-microstructure-design-is-the-last-bottleneck/25505
+- desc: |
+  メカニズム設計において、同時に達成することが困難または不可能な複数の望ましい特性（例：効率性、戦略耐性、予算均衡など）の組み合わせを指す。ギバード-サタースウェイトの定理、グリーン-ラフォン/グローブスの定理、マイヤーソン-サタースウェイトの定理などが代表的。
+
+## Mechanism design
+- ja: メカニズム設計
+- related: [Incentive design, DeFi protocols]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25496
+- auto_source_url: https://ethresear.ch/t/call-for-papers-blockchain-defi-and-ai/25496
+- desc: |
+  参加者のインセンティブを調整し、望ましい結果を達成するためのルールや制度を設計する経済学の分野。DeFiプロトコルにおいて、ユーザーの行動を誘導し、システムの安定性や効率性を確保するために不可欠な概念です。
+
+## Token engineering
+- ja: トークンエンジニアリング
+- related: [Tokenomics, Mechanism design, Incentive design]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25496
+- auto_source_url: https://ethresear.ch/t/call-for-papers-blockchain-defi-and-ai/25496
+- desc: |
+  ブロックチェーンベースのシステムにおけるトークンの経済的、技術的、社会的な側面を設計・分析する学際的な分野。トークンエコノミクスの持続可能性と効率性を確保することを目的とします。
+
+## AI agents
+- ja: AIエージェント
+- related: [LLM trading agents, Decentralized markets]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25496
+- auto_source_url: https://ethresear.ch/t/call-for-papers-blockchain-defi-and-ai/25496
+- desc: |
+  自律的に環境を認識し、目標を達成するために行動する人工知能プログラム。分散型市場やDeFiにおいて、取引戦略の実行、プロトコル管理、データ分析など、様々な役割を果たすことが期待されています。
+
+## Market microstructure with on-chain data
+- ja: オンチェーンデータを用いた市場ミクロ構造分析
+- related: [Market microstructure, On-chain data, DeFi markets, MEV]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 25496
+- auto_source_url: https://ethresear.ch/t/call-for-papers-blockchain-defi-and-ai/25496
+- desc: |
+  金融市場における取引の仕組みや価格形成のプロセスを、ブロックチェーン上の公開データ（オンチェーンデータ）を用いて分析する研究分野。DeFi市場の効率性、流動性、MEVなどの特性を理解するために用いられます。
+
+## Security Manifest
+- ja: セキュリティマニフェスト
+- related: [Pre-Mempool Validation, State Invariants]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 29056
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
+- desc: |
+  スマートコントラクトの意図された挙動、状態の境界、制限された変更などを詳細に記述した標準化されたドキュメント。トランザクション実行前にコントラクトのセキュリティを強制するために使用されます。
+
+## Pre-Mempool Validation
+- ja: プレ・メンプール検証
+- related: [Security Manifest, Mempool]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 29056
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
+- desc: |
+  トランザクションが標準的なメンプールに入る前に、そのトランザクションがスマートコントラクトのセキュリティマニフェストに違反していないかを検証するプロセス。ゼロデイエクスプロイトを防ぐことを目的とします。
+
+## Infrastructure-Layer Gatekeeper
+- ja: インフラ層ゲートキーパー
+- related: [Security Manifest, Pre-Mempool Validation]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 29056
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
+- desc: |
+  スマートコントラクトの意図された挙動を強制し、不正なトランザクションが実行されるのを防ぐために、プロトコルレベルで機能するセキュリティメカニズム。プレ・メンプール検証を通じて機能します。
+
+## Specialized Builder Network
+- ja: 特殊化されたビルダーネットワーク
+- related: [Builder, Pre-Mempool Validation]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 29056
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
+- desc: |
+  保護されたスマートコントラクトをターゲットとするトランザクションに対し、高度な非決定論的チェック（AI/ML脅威モデリングなど）を実行するために設計された、通常のビルダーネットワークとは異なる専門のネットワークです。
+
+## Committee Signature
+- ja: 委員会署名
+- related: [Cryptographic Proof]
+- auto_added: 2026-07-23
+- auto_source_topic_id: 29056
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
+- desc: |
+  複数のエンティティ（委員会）が協力して生成する署名。この文脈では、特殊化されたネットワークのノードがトランザクションの安全性を検証した後、その検証結果を証明するために使用されます。
