@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -27,6 +27,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Administrative-invalidation|Administrative invalidation]] — 管理的無効化 (Administrative invalidation)
 - [[glossary/Adoption-Levels|Adoption Levels]] — 導入レベル
+- [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
 - [[glossary/agent-action|agent action]] — エージェントアクション
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
@@ -242,6 +243,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ERC-20-approved-spending|ERC-20 approved spending]] — ERC-20承認済み支出
 - [[glossary/ERC-5564|ERC-5564]] — ERC-5564
 - [[glossary/ERC-6538|ERC-6538]] — ERC-6538
+- [[glossary/ERC-7730-Descriptors|ERC-7730 Descriptors]] — ERC-7730記述子
 - [[glossary/ERC-8004|ERC-8004]] — ERC-8004 (エージェントIDレジストリ)
 - [[glossary/ERC-8263|ERC-8263]] — ERC-8263 (オンチェーン証明レイヤー)
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
@@ -280,6 +282,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/finalizedBlockHash|finalizedBlockHash]] — ファイナライズされたブロックハッシュ
+- [[glossary/Financial-Lease|Financial Lease]] — ファイナンシャルリース (オンチェーン)
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]] — 固定カットオフ型ステート階層化
@@ -332,6 +335,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IEmergencyState|IEmergencyState]] — IEmergencyState（緊急状態インターフェース）
 - [[glossary/IERC8060Reservable|IERC8060Reservable]] — IERC8060Reservable
 - [[glossary/immutable-contract|immutable contract]] — 不変コントラクト
+- [[glossary/Immutable-Cryptographic-Predicates|Immutable Cryptographic Predicates]] — 不変な暗号学的述語
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Importance-score|Importance score]] — 重要度スコア
 - [[glossary/Impossibility-Triad|Impossibility Triad]] — 不可能性の三つ組 (インポッシビリティ・トライアド)
@@ -378,6 +382,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanWOTS|leanWOTS]] — leanWOTS (署名アルゴリズム)
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
+- [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
@@ -420,6 +425,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
 - [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
 - [[glossary/Multi-block-Access-List-Warming|Multi-block Access List Warming]] — マルチブロック・アクセスリスト・ウォーミング
+- [[glossary/Multi-lingual-Clear-Signing|Multi-lingual Clear Signing]] — 多言語対応クリア署名
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
@@ -453,9 +459,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Omission|Omission]] — 省略（観測スコープからの）
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
+- [[glossary/On-chain-delinquency-tiers|On-chain delinquency tiers]] — オンチェーン延滞ティア
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]] — オンチェーンメカニズム設計
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
+- [[glossary/On-chain-safeguards|On-chain safeguards]] — オンチェーンセーフガード
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
 - [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
@@ -477,6 +485,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Osaka|Osaka]] — 大阪 (Osaka)
 - [[glossary/Ossification|Ossification]] — オシフィケーション (硬化)
 - [[glossary/Ossification-resistant|Ossification-resistant]] — オシフィケーション耐性 (硬化耐性)
+- [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
@@ -486,10 +495,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PASS-ASSET|PASS-ASSET]] — PASS-ASSET (可決時資産)
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
+- [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
+- [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
 - [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
@@ -543,6 +554,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proposal-Convexity-Maximisation|Proposal Convexity Maximisation]] — 提案の凸性最大化
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/protocol-enshrined-shielded-pool|protocol-enshrined shielded pool]] — プロトコルに組み込まれたシールドプール
+- [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
@@ -550,6 +562,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
+- [[glossary/Received-Floor|Received Floor]] — 受容された基盤
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
@@ -674,6 +687,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
+- [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
 - [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
 - [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
@@ -697,6 +711,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース
 - [[glossary/Token-weighted-governance|Token-weighted governance]] — トークン加重ガバナンス
 - [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
+- [[glossary/Tokenized-lessee-position|Tokenized lessee position]] — トークン化された借り手ポジション
+- [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
@@ -738,6 +754,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
+- [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層

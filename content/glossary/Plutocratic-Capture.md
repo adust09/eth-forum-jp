@@ -4,7 +4,7 @@ aliases:
   - 金権的支配 (Plutocratic Capture)
 tags:
   - glossary
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 **金権的支配 (Plutocratic Capture)**

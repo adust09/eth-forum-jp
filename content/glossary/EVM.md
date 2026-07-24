@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 **EVM (イーサリアム仮想マシン)**

@@ -4,7 +4,7 @@ aliases:
   - シビル耐性
 tags:
   - glossary
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 **シビル耐性**

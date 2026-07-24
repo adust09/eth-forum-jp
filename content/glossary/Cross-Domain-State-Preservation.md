@@ -4,7 +4,7 @@ aliases:
   - クロスドメイン状態保存 (Cross-Domain State Preservation)
 tags:
   - glossary
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 **クロスドメイン状態保存 (Cross-Domain State Preservation)**
@@ -18,7 +18,7 @@ date: '2026-07-23'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-22-mechanism-design-failure-modes-25503|メカニズム設計の失敗モード]]（2026-07-22）
 
 ## 元の表記（英語）
 
