@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-23
+last_updated: 2026-07-24
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -6898,3 +6898,159 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/idea-draft-protocol-level-smart-contract-invariant-protection-via-pre-mempool-validation-security-manifests/29056
 - desc: |
   複数のエンティティ（委員会）が協力して生成する署名。この文脈では、特殊化されたネットワークのノードがトランザクションの安全性を検証した後、その検証結果を証明するために使用されます。
+
+## Over-collateralization
+- ja: 過剰担保（過剰担保化）
+- related: [Collateral]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25510
+- auto_source_url: https://ethresear.ch/t/institutional-rwas-mitigating-t-0-risks-via-hardcoded-200-collateral/25510
+- desc: |
+  担保として提供される資産の価値が、借り入れた資産の価値を上回る状態を指します。DeFiプロトコルにおいて、価格変動リスクや流動性リスクを吸収するために用いられ、本稿ではRWAのT+0決済リスク軽減策として200%の比率が提案されています。
+
+## Protocol-level bank run
+- ja: プロトコルレベルの取り付け騒ぎ
+- related: [Bank run, Liquidity crisis]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25510
+- auto_source_url: https://ethresear.ch/t/institutional-rwas-mitigating-t-0-risks-via-hardcoded-200-collateral/25510
+- desc: |
+  分散型金融プロトコルにおいて、ユーザーが同時に大量の資産引き出し（償還）を要求することで、プロトコルの流動性準備が枯渇し、システムが機能不全に陥る現象です。特にRWAトークン化において、オンチェーンの即時決済と原資産の非流動性のミスマッチにより発生リスクが高まります。
+
+## T+0 settlement
+- ja: T+0決済（即時決済）
+- aliases: [Instant settlement]
+- related: [On-chain settlement, RWA tokenization]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25510
+- auto_source_url: https://ethresear.ch/t/institutional-rwas-mitigating-t-0-risks-via-hardcoded-200-collateral/25510
+- desc: |
+  取引が成立したその日のうちに決済が完了する方式を指します。オンチェーン環境では技術的に可能ですが、実世界の非流動性資産（RWA）をトークン化した場合、原資産の決済タイムラインとの間に「時間的デルタ」が生じ、流動性ミスマッチのリスクを引き起こします。
+
+## On-chain safeguards
+- ja: オンチェーンセーフガード
+- related: [Smart contract logic, Risk management]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25510
+- auto_source_url: https://ethresear.ch/t/institutional-rwas-mitigating-t-0-risks-via-hardcoded-200-collateral/25510
+- desc: |
+  ブロックチェーン上のスマートコントラクトロジックに直接組み込まれた、システムを保護するためのメカニズムやルールを指します。本稿では、RWAの流動性リスクを軽減するため、オフチェーンの現金バッファに代わる構造的な解決策として、決定論的な過剰担保化が提案されています。
+
+## Immutable Cryptographic Predicates
+- ja: 不変な暗号学的述語
+- related: [On-chain Governance]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25503
+- auto_source_url: https://ethresear.ch/t/mechanism-design-failure-modes/25503
+- desc: |
+  組織の運営者に関わらず保持されるよう、値を不変な暗号学的述語としてエンコードする設計。オンチェーンガバナンスにおいて、特定の価値やルールを数学的に強制するが、その述語自体の選択は初期の主観性を伴う。
+
+## Adversarially Reachable
+- ja: 敵対的に到達可能
+- related: [Mechanism Design, Vulnerability]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25503
+- auto_source_url: https://ethresear.ch/t/mechanism-design-failure-modes/25503
+- desc: |
+  システム内のラベルやプロパティが、敵対者によって自由に操作または影響を受け、その結果、システムの義務や挙動が意図せず変更されてしまう状態を指す。客観性が求められる場面で主観的なプロキシが使われた場合に発生する脆弱性。
+
+## Work-backed Conflict Resolution
+- ja: 作業担保型紛争解決
+- related: [Consensus, Proof of Work]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25503
+- auto_source_url: https://ethresear.ch/t/mechanism-design-failure-modes/25503
+- desc: |
+  コンセンサスシステムにおいて、紛争解決の客観的な根拠として、計算作業などの検証可能な「作業」を必要とするメカニズム。主観的な評判やネットワーク接続性に基づく解決策と対比され、より堅牢な客観性を提供する。
+
+## Received Floor
+- ja: 受容された基盤
+- related: [On-chain Governance, Mechanism Design]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25503
+- auto_source_url: https://ethresear.ch/t/mechanism-design-failure-modes/25503
+- desc: |
+  ガバナンスシステムにおいて、そのアーキテクチャが強制できるが、システム自体が生成できない根本的な価値や原則。システム外から「受容」される必要があり、自己完結的なガバナンス設計の限界を示す。
+
+## Per-lot Individuation
+- ja: ロットごとの個別化
+- related: [Cross-domain State, Asset Management]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 25503
+- auto_source_url: https://ethresear.ch/t/mechanism-design-failure-modes/25503
+- desc: |
+  異なる特性を持つ単位が混在する残高（例：異なる「度合い」を持つ資産）を扱う際に、それらを個別の「ロット」として区別し、それぞれの特性を維持するアプローチ。これにより、高コストな特性がそれを望む当事者に帰属し、敵対的な操作を防ぐ。
+
+## Financial Lease
+- ja: ファイナンシャルリース (オンチェーン)
+- related: [ERC-8348, Titled Asset]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29076
+- auto_source_url: https://ethereum-magicians.org/t/erc-8348-financial-lease/29076
+- desc: |
+  貸し手が資産を調達し、借り手が分割払いを支払い、通常は最終的に購入オプションを持つ信用供与契約を、ブロックチェーン上で標準化するための概念。NFTレンタルとは異なり、分割払い、延滞、購入オプション、譲渡の概念を含む。
+
+## Lessor position as ERC-721
+- ja: ERC-721としての貸し手ポジション
+- related: [Financial Lease, ERC-721]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29076
+- auto_source_url: https://ethereum-magicians.org/t/erc-8348-financial-lease/29076
+- desc: |
+  ファイナンシャルリース契約における貸し手の権利をERC-721トークンとして表現する設計パターン。これにより、リース契約の譲渡や証券化がNFTの転送として扱え、既存のマーケットプレイスやカストディツールとの互換性が生まれる。
+
+## On-chain delinquency tiers
+- ja: オンチェーン延滞ティア
+- aliases: [Delinquency tiers, InArrears, InDefault]
+- related: [Financial Lease]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29076
+- auto_source_url: https://ethereum-magicians.org/t/erc-8348-financial-lease/29076
+- desc: |
+  ファイナンシャルリース契約において、延滞状態をブロックチェーン上で管理するための二段階の分類。客観的に支払期日を過ぎた「InArrears」と、正式な宣言を必要とする「InDefault」があり、各管轄区域の法的要件を考慮して設計される。
+
+## Payment imputation
+- ja: 支払い充当 (オンチェーン)
+- related: [Financial Lease]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29076
+- auto_source_url: https://ethereum-magicians.org/t/erc-8348-financial-lease/29076
+- desc: |
+  オンチェーンのファイナンシャルリース契約において、受け取った支払いをペナルティ、利息、元本にどのように割り当てるかという会計処理。管轄区域によって強制される順序が異なるため、標準では順序を特定せず、オフチェーンでの再構築を可能にする設計が検討される。
+
+## Tokenized lessee position
+- ja: トークン化された借り手ポジション
+- aliases: [Lessee as a position]
+- related: [Financial Lease, ERC-721]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29076
+- auto_source_url: https://ethereum-magicians.org/t/erc-8348-financial-lease/29076
+- desc: |
+  ファイナンシャルリース契約における借り手の権利をトークンとして表現する概念。これにより、リース・トゥ・オウンのセカンダリマーケットを可能にするが、コンプライアンスの複雑さが増す可能性があるため、その導入が検討される。
+
+## Multi-lingual Clear Signing
+- ja: 多言語対応クリア署名
+- related: [Clear Signing]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29072
+- auto_source_url: https://ethereum-magicians.org/t/erc-8346-translation-files-for-erc-7730-descriptors/29072
+- desc: |
+  ERC-7730の記述子など、Ethereumトランザクションやメッセージの人間が読める形式の署名（クリア署名）を多言語で提供するための仕組み。ユーザーが署名内容を理解しやすくすることで、セキュリティとアクセシビリティを向上させることを目指します。
+
+## ERC-7730 Descriptors
+- ja: ERC-7730記述子
+- related: [ERC-7730]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29072
+- auto_source_url: https://ethereum-magicians.org/t/erc-8346-translation-files-for-erc-7730-descriptors/29072
+- desc: |
+  ERC-7730で定義される、スマートコントラクトやアカウント抽象化の文脈における特定のデータ構造やインターフェースを記述するための標準化された形式。ユーザーが署名する内容を明確に理解できるようにするための情報を提供します。
+
+## Top-up sync
+- ja: トップアップ同期
+- related: [sync, EIP]
+- auto_added: 2026-07-24
+- auto_source_topic_id: 29060
+- auto_source_url: https://ethereum-magicians.org/t/ssz-engine-api-call-3-july-24-2026/29060
+- desc: |
+  Ethereumクライアントの同期メカニズムの一つで、既存の同期プロセスを補完するために設計されたものです。プロトコルへの組み込みが検討されており、EIPとして提案される可能性があります。

@@ -6,7 +6,7 @@ aliases:
   - bpo2
 tags:
   - glossary
-date: '2026-07-23'
+date: '2026-07-24'
 ---
 
 **BPO (Blob Pre-Confirmation)**
