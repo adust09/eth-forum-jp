@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7054,3 +7054,102 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/ssz-engine-api-call-3-july-24-2026/29060
 - desc: |
   Ethereumクライアントの同期メカニズムの一つで、既存の同期プロセスを補完するために設計されたものです。プロトコルへの組み込みが検討されており、EIPとして提案される可能性があります。
+
+## Censorship Lever
+- ja: 検閲レバー
+- related: [Protocol Layer, Censorship Resistance, Governance]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 25531
+- auto_source_url: https://ethresear.ch/t/censoring-transactions-at-the-protocol-layer/25531
+- desc: |
+  Ethereumプロトコル層に実装されることが提案されている、特定の悪意あるスマートコントラクトやトランザクションを検閲するためのメカニズム。ガバナンスによって決定されたルールに基づき、プロトコル自体が検閲を実行する能力を持つことを指します。
+
+## liquidity layer
+- ja: 流動性レイヤー
+- related: [DeFi, Layer 2]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 25530
+- auto_source_url: https://ethresear.ch/t/1000-year-hyper-reality-stress-test-why-the-current-capitalist-system-programmatically-destroys-the-economy-and-how-shiono-os-defends-against-shocks-and-human-avarice/25530
+- desc: |
+  分散型金融（DeFi）プロトコルやレイヤー2ソリューションにおいて、資産の流動性を提供する基盤となる層。取引や貸し借りなどの金融活動を円滑に行うために不可欠な要素です。
+
+## Offline state migration
+- ja: オフライン状態移行
+- related: [Partitioned Binary Tree, Merkle Patricia Trie]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29089
+- auto_source_url: https://ethereum-magicians.org/t/eip-8347-offline-state-migration-to-the-pbt/29089
+- desc: |
+  Ethereumの状態を、コンセンサスに不可欠なパスから外れたオフライン環境で、あるデータ構造から別のデータ構造へ移行させるプロセス。これにより、メインチェーンの処理に影響を与えずに大規模な状態変更が可能となる。
+
+## PBT snapshot
+- ja: PBTスナップショット
+- related: [Partitioned Binary Tree, offline state migration]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29089
+- auto_source_url: https://ethereum-magicians.org/t/eip-8347-offline-state-migration-to-the-pbt/29089
+- desc: |
+  Partitioned Binary Tree (PBT) 形式で表現されたEthereumの完全な状態の検証可能なコピー。オフライン状態移行の成果物として配布され、チェーンの最新状態に追いつくために使用される。
+
+## shadow-root
+- ja: シャドウルート
+- related: [Partitioned Binary Tree, state migration, dual-check verification procedure]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29089
+- auto_source_url: https://ethereum-magicians.org/t/eip-8347-offline-state-migration-to-the-pbt/29089
+- desc: |
+  Ethereumの状態移行プロセスにおける監視概念。新しい状態ツリー（PBTなど）のルートハッシュを、メインのコンセンサスパスに影響を与えずに並行して計算・追跡することで、移行の健全性を検証するために用いられる。
+
+## dual-check verification procedure
+- ja: デュアルチェック検証手順
+- related: [PBT snapshot, shadow-root, offline state migration]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29089
+- auto_source_url: https://ethereum-magicians.org/t/eip-8347-offline-state-migration-to-the-pbt/29089
+- desc: |
+  オフラインで生成されたPBTスナップショットの正当性を確認するための検証プロセス。既存のMPTと新しいPBTの両方の状態を比較・検証することで、移行の正確性と安全性を保証する。
+
+## Confidential Agent Policy Verdicts
+- ja: 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
+- related: [autonomous agent, zero-knowledge proof, Policy Domain, Guard contract]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29088
+- auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
+- desc: |
+  自律エージェントのアクションに対して、実行前に許可/拒否を決定するインターフェース。ポリシーの内容をオンチェーンで開示することなく、ゼロ知識証明を用いてその決定の正当性を検証します。
+
+## Policy Domain
+- ja: ポリシードメイン (Policy Domain)
+- related: [Confidential Agent Policy Verdicts, Guard contract, policy interpreter]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29088
+- auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
+- desc: |
+  機密エージェントポリシー判定システムにおいて、エージェントのアクションを秘密のルールセットに対して評価し、ゼロ知識証明を生成するオフチェーンエンジンを管理するエンティティです。ポリシーの機密性を維持しつつ、オンチェーンでの検証を可能にします。
+
+## Guard contract
+- ja: ガードコントラクト (Guard contract)
+- related: [Confidential Agent Policy Verdicts, Policy Domain, zero-knowledge proof]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29088
+- auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
+- desc: |
+  機密エージェントポリシー判定システムにおいて、Policy Domainが生成したゼロ知識証明をオンチェーンで検証するスマートコントラクトです。証明が有効であればエージェントのアクションの実行を許可し、無効であれば拒否します。
+
+## Policy interpreter
+- ja: ポリシーインタープリター (Policy interpreter)
+- related: [zero-knowledge proof, Verification key churn, program commitment]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29088
+- auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
+- desc: |
+  ゼロ知識証明システムにおいて、ポリシー自体をコンパイルするのではなく、固定されたインタープリタープログラムの実行を証明する手法です。これにより、ポリシーの変更があっても検証キーを更新する必要がなく、ルールセットをプライベートな証人として渡すことで機密性を保ちます。
+
+## Verification key churn
+- ja: 検証キーの頻繁な更新 (Verification key churn)
+- related: [Policy interpreter, zero-knowledge proof, program commitment]
+- auto_added: 2026-07-25
+- auto_source_topic_id: 29088
+- auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
+- desc: |
+  ゼロ知識証明システムにおいて、ポリシーやプログラムが変更されるたびに新しい検証キーが生成され、それに伴いオンチェーンの検証コントラクトも頻繁にデプロイし直す必要がある問題です。ポリシーインタープリターの導入によりこの問題は回避されます。

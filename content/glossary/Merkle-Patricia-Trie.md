@@ -5,7 +5,7 @@ aliases:
   - MPT
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **マークルパトリシアトライ (MPT)**

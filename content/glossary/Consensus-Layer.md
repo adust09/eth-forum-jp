@@ -5,7 +5,7 @@ aliases:
   - CL
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **コンセンサス層**
@@ -18,6 +18,7 @@ Ethereumの2つの主要な層のうちの1つで、ブロックのファイナ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-24-censoring-transactions-at-the-protocol-layer-25531|プロトコル層でのトランザクション検閲]]（2026-07-24）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-07-02-spread-extending-gossipsub-with-efficient-anonymous-dissemination-25343|SPREAD: 効率的な匿名伝播でGossipSubを拡張する]]（2026-07-02）

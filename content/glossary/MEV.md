@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **MEV（最大抽出可能価値）**

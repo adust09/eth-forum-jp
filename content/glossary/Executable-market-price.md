@@ -4,7 +4,7 @@ aliases:
   - 実行可能な市場価格 (Executable market price)
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **実行可能な市場価格 (Executable market price)**

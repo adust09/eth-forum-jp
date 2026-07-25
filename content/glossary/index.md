@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -120,6 +120,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CBOR|CBOR]] — CBOR (Concise Binary Object Representation)
 - [[glossary/CCIP-Read|CCIP-Read]] — CCIP-Read
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
+- [[glossary/Censorship-Lever|Censorship Lever]] — 検閲レバー
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
@@ -144,6 +145,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/condorcet-winner|condorcet winner]] — コンドルセ勝者
+- [[glossary/Confidential-Agent-Policy-Verdicts|Confidential Agent Policy Verdicts]] — 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Consensus-homogeneity|Consensus homogeneity]] — コンセンサス均一性
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
@@ -213,6 +215,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
 - [[glossary/dormant-state|dormant state]] — 休眠状態
 - [[glossary/Draft|Draft]] — ドラフト (EIP/ERC)
+- [[glossary/dual-check-verification-procedure|dual-check verification procedure]] — デュアルチェック検証手順
 - [[glossary/Dynamic-Voting-Cap-Generation|Dynamic Voting Cap Generation]] — 動的投票上限生成
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
 - [[glossary/Economic-Invariant|Economic Invariant]] — 経済的不変条件
@@ -313,6 +316,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Graceful-Revocation|Graceful Revocation]] — グレースフル取り消し (Graceful Revocation)
 - [[glossary/Graffiti-Watermark|Graffiti Watermark]] — グラフィティ・ウォーターマーク
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
+- [[glossary/Guard-contract|Guard contract]] — ガードコントラクト (Guard contract)
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
@@ -385,6 +389,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
+- [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
@@ -456,6 +461,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
 - [[glossary/Offchain-orderbook|Offchain orderbook]] — オフチェーンオーダーブック
+- [[glossary/Offline-state-migration|Offline state migration]] — オフライン状態移行
 - [[glossary/Omission|Omission]] — 省略（観測スコープからの）
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
@@ -498,6 +504,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
+- [[glossary/PBT-snapshot|PBT snapshot]] — PBTスナップショット
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
 - [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
@@ -513,6 +520,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
 - [[glossary/Poisoned-Address|Poisoned Address]] — ポイズンドアドレス
+- [[glossary/Policy-Domain|Policy Domain]] — ポリシードメイン (Policy Domain)
+- [[glossary/Policy-interpreter|Policy interpreter]] — ポリシーインタープリター (Policy interpreter)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Positive-Sum-Coordination|Positive-Sum Coordination]] — 正の和の協調 (ポジティブサム・コーディネーション)
@@ -626,6 +635,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SETCODEFROM|SETCODEFROM]] — SETCODEFROM (EVM命令)
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
+- [[glossary/shadow-root|shadow-root]] — シャドウルート
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
@@ -743,6 +753,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/verifiable-claims|verifiable claims]] — 検証可能なクレーム
 - [[glossary/Verifiably-Decentralized-Blockchain-System|Verifiably Decentralized Blockchain System]] — 検証可能な分散型ブロックチェーンシステム
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
+- [[glossary/Verification-key-churn|Verification key churn]] — 検証キーの頻繁な更新 (Verification key churn)
 - [[glossary/Verification-Primitive|Verification Primitive]] — 検証プリミティブ
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
 - [[glossary/virtual-mempools|virtual mempools]] — 仮想メモリプール
