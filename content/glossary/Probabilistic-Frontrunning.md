@@ -4,7 +4,7 @@ aliases:
   - 確率的フロントランニング
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **確率的フロントランニング**
@@ -19,7 +19,7 @@ date: '2026-07-24'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-24-draft-idea-confidential-agent-policy-verdicts-29088|機密エージェントポリシー判定]]（2026-07-24）
 
 ## 元の表記（英語）
 

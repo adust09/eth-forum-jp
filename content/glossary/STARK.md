@@ -5,7 +5,7 @@ aliases:
   - Scalable Transparent ARgument of Knowledge
 tags:
   - glossary
-date: '2026-07-24'
+date: '2026-07-25'
 ---
 
 **STARK (スケーラブルで透過的な知識の引数)**
