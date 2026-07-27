@@ -4,7 +4,7 @@ aliases:
   - '(subjectId, role) スロット'
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **(subjectId, role) スロット**
@@ -18,6 +18,7 @@ date: '2026-07-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/ethresear-2026-07-01-is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study-25338|スロット0のリオーグコストは修正可能か？ePBSアテステーションデッドライン調査]]（2026-07-01）
 - [[posts/ethresear-2026-06-24-properties-of-issuance-offsets-and-increased-penalties-under-low-zero-negative-issuance-policies-25292|低/ゼロ/マイナス発行ポリシー下での発行オフセットとペナルティ増加の特性]]（2026-06-24）
 - [[posts/ethresear-2026-06-01-exploring-the-design-space-for-a-post-quantum-public-key-registry-for-ethereum-validators-25040|Ethereumバリデーター向けポスト量子公開鍵レジストリの設計空間を探る]]（2026-06-01）

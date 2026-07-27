@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-07-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/magicians-2026-07-24-draft-idea-confidential-agent-policy-verdicts-29088|機密エージェントポリシー判定]]（2026-07-24）
 - [[posts/magicians-2026-07-15-erc-8339-two-phase-asset-transfers-29017|ERC-8339: 二段階資産転送]]（2026-07-15）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）

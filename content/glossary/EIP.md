@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
+- [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/magicians-2026-07-23-all-core-devs-testing-acdt-89-july-27-2026-29069|全コア開発者会議 - テスト (ACDT) #89、2026年7月27日]]（2026-07-23）
 - [[posts/magicians-2026-07-22-ssz-engine-api-call-3-july-24-2026-29060|SSZエンジンAPIコール 3、2026年7月24日]]（2026-07-22）
 - [[posts/magicians-2026-07-17-eip-8341-partial-execution-payload-commitments-29030|EIP-8341: 部分実行ペイロードコミットメント]]（2026-07-17）

@@ -4,7 +4,7 @@ aliases:
   - 結合の広さ (Coupling Breadth)
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **結合の広さ (Coupling Breadth)**

@@ -7,7 +7,7 @@ aliases:
   - EIP-2535
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **ダイヤモンド（パターン）**

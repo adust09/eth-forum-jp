@@ -7,7 +7,7 @@ aliases:
   - DAS
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **データアベイラビリティ**
@@ -24,6 +24,7 @@ Danksharding/EIP-4844 では blob として実装され、DAS で全ダウンロ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 - [[posts/ethresear-2026-07-20-sovereign-space-when-values-need-architecture-25485|主権的空間：価値がアーキテクチャを必要とするとき]]（2026-07-20）
 - [[posts/ethresear-2026-07-06-lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer-25374|リーン実行：世界のコンピュータをスケールさせるための、安全で、効率的で、適応性があり、リソース効率の高い実行スループットへの包括的アプローチ]]（2026-07-06）
