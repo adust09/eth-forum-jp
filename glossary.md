@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-25
+last_updated: 2026-07-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7153,3 +7153,87 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-idea-confidential-agent-policy-verdicts/29088
 - desc: |
   ゼロ知識証明システムにおいて、ポリシーやプログラムが変更されるたびに新しい検証キーが生成され、それに伴いオンチェーンの検証コントラクトも頻繁にデプロイし直す必要がある問題です。ポリシーインタープリターの導入によりこの問題は回避されます。
+
+## Proprietary AMM
+- ja: プロプライエタリAMM (PropAMM)
+- aliases: [PropAMM]
+- related: [AMM, Request for Quotes (RFQ), Aggregator]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 25543
+- auto_source_url: https://ethresear.ch/t/proprietary-amms-and-ethereum/25543
+- desc: |
+  マーケットメーカーが積極的に流動性を管理し、オフチェーンの価格モデルに基づいて頻繁にパラメータを更新するスマートコントラクトベースのAMM。Solanaで普及しており、Ethereumでの導入も検討されている。
+
+## Application-Controlled Execution
+- ja: アプリケーション制御型実行 (ACE)
+- aliases: [ACE]
+- related: [Proposer-Builder Separation (PBS), MEV, Censorship Resistance]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 25543
+- auto_source_url: https://ethresear.ch/t/proprietary-amms-and-ethereum/25543
+- desc: |
+  プロトコルまたはコミットメントメカニズムによってトランザクションの順序付けが強制される仕組み。SolanaのPropAMMではその弱い形式が実現されており、Ethereumではプロトコルレベルでの導入が議論されている。
+
+## Loss-Versus-Rebalancing
+- ja: リバランス損失 (LVR)
+- aliases: [LVR]
+- related: [AMM, Arbitrage]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 25543
+- auto_source_url: https://ethresear.ch/t/proprietary-amms-and-ethereum/25543
+- desc: |
+  AMMの流動性プロバイダーが、外部市場（CEXなど）での価格変動により、アービトラージトレーダーによって被る損失。伝統的なAMMモデルの主要な欠点の一つとされる。
+
+## CEX-DEX arbitrage auction
+- ja: CEX-DEXアービトラージオークション
+- related: [Arbitrage, MEV, Proposer-Builder Separation (PBS)]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 25543
+- auto_source_url: https://ethresear.ch/t/proprietary-amms-and-ethereum/25543
+- desc: |
+  中央集権型取引所（CEX）と分散型取引所（DEX）間の価格差を利用したアービトラージ機会を、ブロックプロデューサーがオークションにかける行為。プロデューサーの利益最大化戦略として言及される。
+
+## Agent Memory State Registry
+- ja: エージェントメモリ状態レジストリ (ERC-8337)
+- related: [ERC-8337, Memory Space, ExperienceDelta]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 29098
+- auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
+- desc: |
+  自律エージェントのメモリ状態の検証可能なバージョン管理を可能にするERC-8337で定義されたシステム。メモリの内容自体はオンチェーンに置かず、その状態の進化の検証可能な履歴を管理します。
+
+## Memory Space
+- ja: メモリースペース
+- related: [Agent Memory State Registry, ExperienceDelta]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 29098
+- auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
+- desc: |
+  ERC-8337において、自律エージェントのメモリ状態を識別し、その進化を追跡するための論理的なコンテナ。各メモリースペースは、初期コントローラーに暗号学的にバインドされ、一意の線形履歴を持ちます。
+
+## ExperienceDelta
+- ja: エクスペリエンスデルタ
+- related: [Memory Space, Transition ID, deltaCommitment, provenanceCommitment, locatorCommitment]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 29098
+- auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
+- desc: |
+  ERC-8337で定義される、エージェントのメモリ状態の更新を表す固定幅の構造体。spaceId、sequence、prevStateRoot、deltaCommitmentなどのフィールドを含み、状態遷移の検証可能なコミットメントを提供します。
+
+## Sequenced State Machine
+- ja: シーケンス化された状態マシン
+- related: [flat anchor, state-transition rule]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 29098
+- auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
+- desc: |
+  ERC-8337の核となるメカニズムで、エージェントのメモリ状態の進化を監査可能な履歴として提供します。各状態コミットメントが前の状態に暗号学的にバインドされ、状態の巻き戻しやスキップ、矛盾する履歴の並行発生を検出できます。
+
+## Transition ID
+- ja: トランジションID
+- related: [ExperienceDelta, Next State Root]
+- auto_added: 2026-07-27
+- auto_source_topic_id: 29098
+- auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
+- desc: |
+  ERC-8337において、ExperienceDelta構造体のEIP-712 hashStructから導出される一意の識別子。このIDは、状態遷移の正当性を検証し、次の状態ルートを計算する際に使用されます。

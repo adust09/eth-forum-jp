@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -31,6 +31,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/agent-action|agent action]] — エージェントアクション
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
+- [[glossary/Agent-Memory-State-Registry|Agent Memory State Registry]] — エージェントメモリ状態レジストリ (ERC-8337)
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
@@ -53,6 +54,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/anchoring|anchoring]] — アンカリング
 - [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
+- [[glossary/Application-Controlled-Execution|Application-Controlled Execution]] — アプリケーション制御型実行 (ACE)
 - [[glossary/Asset-Anchor-Registry|Asset Anchor Registry]] — 資産アンカーレジストリ
 - [[glossary/Asset-Class|Asset Class]] — 資産クラス (Asset Class)
 - [[glossary/Asset-futarchy|Asset futarchy]] — アセット・フューチャーキー (資産フューチャーキー)
@@ -122,6 +124,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/cell-level-deltas|cell-level deltas]] — セルレベルデルタ
 - [[glossary/Censorship-Lever|Censorship Lever]] — 検閲レバー
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
+- [[glossary/CEX-DEX-arbitrage-auction|CEX-DEX arbitrage auction]] — CEX-DEXアービトラージオークション
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
 - [[glossary/claim-types|claim types]] — クレームタイプ
@@ -275,6 +278,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/existence-probes|existence probes]] — 存在確認プローブ
+- [[glossary/ExperienceDelta|ExperienceDelta]] — エクスペリエンスデルタ
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
@@ -395,6 +399,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
 - [[glossary/logicallogn|logical_logn]] — 論理ドメインの対数サイズ (logical_logn)
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
+- [[glossary/Loss-Versus-Rebalancing|Loss-Versus-Rebalancing]] — リバランス損失 (LVR)
 - [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
@@ -409,6 +414,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mechanism-design|Mechanism design]] — メカニズム設計
 - [[glossary/Mechanized-Functor-Tower|Mechanized Functor Tower]] — 機械化された関手塔 (Mechanized Functor Tower)
 - [[glossary/memory-layer|memory layer]] — メモリ層
+- [[glossary/Memory-Space|Memory Space]] — メモリースペース
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/Mempool-safe-Second-Factor|Mempool-safe Second Factor]] — メムプールセーフな第二要素
@@ -561,6 +567,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/PropAMMs|PropAMMs]] — PropAMM (プロップAMM)
 - [[glossary/Proposal-Convexity-Maximisation|Proposal Convexity Maximisation]] — 提案の凸性最大化
+- [[glossary/Proprietary-AMM|Proprietary AMM]] — プロプライエタリAMM (PropAMM)
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/protocol-enshrined-shielded-pool|protocol-enshrined shielded pool]] — プロトコルに組み込まれたシールドプール
 - [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
@@ -627,6 +634,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SELFDESTRUCT|SELFDESTRUCT]] — SELFDESTRUCT (自己破壊)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
+- [[glossary/Sequenced-State-Machine|Sequenced State Machine]] — シーケンス化された状態マシン
 - [[glossary/sequencer|sequencer]] — シーケンサー
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
 - [[glossary/Service-Object|Service Object]] — サービスオブジェクト
@@ -730,6 +738,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 - [[glossary/transfer-eligibility-gate|transfer-eligibility gate]] — 転送適格性ゲート
 - [[glossary/Transient-Storage|Transient Storage]] — トランジェントストレージ
+- [[glossary/Transition-ID|Transition ID]] — トランジションID
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）

@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-07-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/magicians-2026-07-24-draft-idea-confidential-agent-policy-verdicts-29088|機密エージェントポリシー判定]]（2026-07-24）
 - [[posts/ethresear-2026-07-14-bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles-25459|主観的ヒューマンオラクルによる資金配分DAOにおける共謀の制限]]（2026-07-14）
 - [[posts/magicians-2026-07-14-eip-8334-bundled-attestation-propagation-29008|EIP-8334: バンドル化されたアテステーション伝播]]（2026-07-14）

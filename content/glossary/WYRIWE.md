@@ -5,7 +5,7 @@ aliases:
   - What You Read Is What You Execute
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **WYRIWE (What You Read Is What You Execute)**
@@ -21,6 +21,7 @@ AI推論の入力来歴を検証可能にするための提案されたERC。ト
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/magicians-2026-07-01-receiptos-a-portable-proof-substrate-for-verifiable-agent-execution-28900|ReceiptOS: 検証可能なエージェント実行のためのポータブルな証明基盤]]（2026-07-01）
 - [[posts/magicians-2026-06-02-gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol-28680|EIP-3668のためのゲートウェイ間連携 / メッシュ同期プロトコルの提案]]（2026-06-02）
 - [[posts/ethresear-2026-05-31-evidential-survivability-ocp-and-ethereums-crops-direction-25012|証拠の生存可能性：OCPとEthereumのCROPS方向性]]（2026-05-31）

@@ -4,7 +4,7 @@ aliases:
   - サーチャー
 tags:
   - glossary
-date: '2026-07-25'
+date: '2026-07-27'
 ---
 
 **サーチャー**
@@ -18,6 +18,7 @@ Ethereumなどのブロックチェーンにおいて、MEV（Maximal Extractabl
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 
 ## 元の表記（英語）
