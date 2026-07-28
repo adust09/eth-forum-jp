@@ -4,7 +4,7 @@ aliases:
   - 不透明ドメイン (Opaque Domain)
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **不透明ドメイン (Opaque Domain)**

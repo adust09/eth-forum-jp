@@ -5,7 +5,7 @@ aliases:
   - PQ Attestation Aggregator
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **アグリゲーター**

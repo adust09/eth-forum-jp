@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-07-27'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/magicians-2026-07-24-draft-idea-confidential-agent-policy-verdicts-29088|機密エージェントポリシー判定]]（2026-07-24）
 - [[posts/magicians-2026-07-23-erc-8346-translation-files-for-erc-7730-descriptors-29072|ERC-8346: ERC-7730記述子用翻訳ファイル]]（2026-07-23）

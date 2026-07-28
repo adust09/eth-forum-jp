@@ -4,7 +4,7 @@ aliases:
   - グレースフル取り消し (Graceful Revocation)
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **グレースフル取り消し (Graceful Revocation)**

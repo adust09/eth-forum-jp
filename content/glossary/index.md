@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -114,6 +114,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
+- [[glossary/callTracer|callTracer]] — callTracer (コールトレーサー)
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
 - [[glossary/Capacity-Assessment|Capacity Assessment]] — 能力評価
 - [[glossary/Capital-Allocation-DAO|Capital Allocation DAO]] — 資金配分DAO
@@ -144,9 +145,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/commutative-tier|commutative tier]] — 可換ティア
 - [[glossary/Competing-correction-branches|Competing correction branches]] — 競合する修正ブランチ
+- [[glossary/Complete-set-operations|Complete-set operations]] — 完全セット操作
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
+- [[glossary/Conditional-Tokens-Framework|Conditional Tokens Framework]] — コンディショナル・トークン・フレームワーク (CTF)
 - [[glossary/condorcet-winner|condorcet winner]] — コンドルセ勝者
 - [[glossary/Confidential-Agent-Policy-Verdicts|Confidential Agent Policy Verdicts]] — 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
@@ -254,6 +257,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ERC-8263|ERC-8263]] — ERC-8263 (オンチェーン証明レイヤー)
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
 - [[glossary/ethbaseFee|eth_baseFee]] — eth_baseFee
+- [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]] — イーサリアム透明性レイヤー (ETL)
 - [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
@@ -337,6 +341,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hypertree|Hypertree]] — ハイパーツリー
 - [[glossary/IAgentCaller|IAgentCaller]] — IAgentCaller (インターフェース)
 - [[glossary/IAgentHandler|IAgentHandler]] — IAgentHandler (インターフェース)
+- [[glossary/ICTFWrapper|ICTFWrapper]] — ICTFラッパー
+- [[glossary/ICTFWrapperFactory|ICTFWrapperFactory]] — ICTFラッパーファクトリー
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
 - [[glossary/IDENTITYSENTINEL|IDENTITY_SENTINEL]] — IDENTITY_SENTINEL (アイデンティティ・センチネル)
 - [[glossary/Identity-splitting-attacks|Identity-splitting attacks]] — アイデンティティ分割攻撃
@@ -429,6 +435,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/mid-session-choice-mutability|mid-session choice mutability]] — セッション中選択変更可能性
 - [[glossary/minHash|minHash]] — minHash (ミニハッシュ)
 - [[glossary/minimal-enforcement-primitives|minimal enforcement primitives]] — 最小限の執行プリミティブ
+- [[glossary/Minimal-proxy-clones|Minimal-proxy clones]] — ミニマルプロキシクローン
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/mirror-payload|mirror payload]] — ミラーペイロード
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
@@ -709,6 +716,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
 - [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
 - [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
+- [[glossary/testingcommitBlockV1|testing_commitBlockV1]] — testing_commitBlockV1 (ブロックコミットテストV1)
 - [[glossary/testnet|testnet]] — テストネット
 - [[glossary/threshold-ecdsa|threshold ecdsa]] — しきい値ECDSA (Threshold ECDSA)
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
@@ -745,6 +753,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
 - [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
 - [[glossary/turnstiles|turnstiles]] — ターンスタイル
+- [[glossary/two-dimensional-gas|two-dimensional gas]] — 二次元ガス
 - [[glossary/Two-Phase-Asset-Transfers|Two-Phase Asset Transfers]] — 二段階資産転送
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)

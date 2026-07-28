@@ -6,7 +6,7 @@ aliases:
   - EIP-4361
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **Sign-In With Ethereum (SIWE)**
