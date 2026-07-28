@@ -1,0 +1,25 @@
+---
+title: eth_subscribe
+aliases:
+  - eth_subscribe (イーサリアム購読)
+tags:
+  - glossary
+date: '2026-07-28'
+---
+
+**eth_subscribe (イーサリアム購読)**
+
+EthereumのJSON-RPC APIで提供されるメソッドの一つで、クライアントがブロックの確定、ログイベント、新しいトランザクションなどの特定のイベントをリアルタイムで購読するために使用される。
+
+## 関連用語
+
+- [[glossary/RPC|RPC]]
+- [[glossary/event-subscription|event subscription]]
+
+## この用語を使っている記事
+
+(なし)
+
+## 元の表記（英語）
+
+(なし)

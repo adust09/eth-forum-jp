@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-27
+last_updated: 2026-07-28
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7237,3 +7237,89 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8337-agent-memory-state/29098
 - desc: |
   ERC-8337において、ExperienceDelta構造体のEIP-712 hashStructから導出される一意の識別子。このIDは、状態遷移の正当性を検証し、次の状態ルートを計算する際に使用されます。
+
+## Conditional Tokens Framework
+- ja: コンディショナル・トークン・フレームワーク (CTF)
+- aliases: [CTF]
+- related: [Prediction Market, Outcome Shares]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29106
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-prediction-market-ctf-wrapper/29106
+- desc: |
+  Gnosisが提供する、予測市場の成果物を表現するためのフレームワーク。特定の条件付きイベントの結果に基づいてトークン化されたポジションを作成・管理する。
+
+## ICTFWrapper
+- ja: ICTFラッパー
+- aliases: [Wrapper]
+- related: [ICTFWrapperFactory, ERC-20, ERC-1155]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29106
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-prediction-market-ctf-wrapper/29106
+- desc: |
+  Conditional Tokens Framework (CTF) のERC-1155ポジションをERC-20トークンとしてラップするための標準インターフェース。これにより、CTFポジションをDeFiプロトコルで利用しやすくなる。
+
+## ICTFWrapperFactory
+- ja: ICTFラッパーファクトリー
+- aliases: [Factory]
+- related: [ICTFWrapper, Conditional Tokens Framework]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29106
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-prediction-market-ctf-wrapper/29106
+- desc: |
+  ICTFWrapperコントラクトをデプロイ・登録し、CTFポジションの完全なセット操作（splitやmerge）を提供する標準インターフェース。各ラッパーのパラメータを管理する。
+
+## Complete-set operations
+- ja: 完全セット操作
+- aliases: [split, merge]
+- related: [Conditional Tokens Framework, ICTFWrapperFactory]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29106
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-prediction-market-ctf-wrapper/29106
+- desc: |
+  Conditional Tokens Framework (CTF) において、担保トークンを予測市場の全成果物シェア（完全セット）に分割したり、その完全セットを担保トークンに戻したりする操作。splitとmergeが代表的。
+
+## Minimal-proxy clones
+- ja: ミニマルプロキシクローン
+- aliases: [Minimal proxy, Clones]
+- related: [Smart Contract Deployment]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29106
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-prediction-market-ctf-wrapper/29106
+- desc: |
+  スマートコントラクトのデプロイコストを削減するためのパターン。マスターコントラクトのロジックを指し示す軽量なプロキシコントラクトを多数デプロイすることで、効率的なコントラクトインスタンスの作成を可能にする。
+
+## testing_commitBlockV1
+- ja: testing_commitBlockV1 (ブロックコミットテストV1)
+- related: [execution-apis, RPC]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29103
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-31-july-27-2026/29103
+- desc: |
+  Ethereumの実行レイヤーAPIで、テスト目的でブロックをコミットするためのRPCメソッドのバージョン1。テスト環境でのブロック処理の検証に使用される。
+
+## callTracer
+- ja: callTracer (コールトレーサー)
+- related: [tracing, debugging]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29103
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-31-july-27-2026/29103
+- desc: |
+  Ethereumのトランザクション実行を詳細に追跡し、その内部コール構造やガスの使用状況などを可視化するためのデバッグツール。開発者がスマートコントラクトの挙動を理解するのに役立つ。
+
+## two-dimensional gas
+- ja: 二次元ガス
+- related: [EIP-8037, gas]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29103
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-31-july-27-2026/29103
+- desc: |
+  EIP-8037で提案されている、Ethereumのガス計算モデル。従来の単一のガス消費量だけでなく、異なるリソース（例：CPU時間とストレージアクセス）を二次元的に考慮する。
+
+## eth_subscribe
+- ja: eth_subscribe (イーサリアム購読)
+- related: [RPC, event subscription]
+- auto_added: 2026-07-28
+- auto_source_topic_id: 29103
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-31-july-27-2026/29103
+- desc: |
+  EthereumのJSON-RPC APIで提供されるメソッドの一つで、クライアントがブロックの確定、ログイベント、新しいトランザクションなどの特定のイベントをリアルタイムで購読するために使用される。

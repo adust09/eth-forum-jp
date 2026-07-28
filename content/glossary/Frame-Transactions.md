@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **フレームトランザクション (Frame Transactions)**
@@ -19,6 +19,7 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
 - [[posts/magicians-2026-06-10-encrypt-the-mempool-6-june-24-2026-28765|Mempoolの暗号化 #6、2026年6月24日]]（2026-06-10）
 - [[posts/magicians-2026-06-04-encrypt-the-mempool-5-june-10-2026-28703|Mempoolの暗号化 #5、2026年6月10日]]（2026-06-04）

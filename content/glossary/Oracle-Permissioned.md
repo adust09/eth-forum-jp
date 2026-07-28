@@ -4,7 +4,7 @@ aliases:
   - オラクル許可型
 tags:
   - glossary
-date: '2026-07-27'
+date: '2026-07-28'
 ---
 
 **オラクル許可型**
@@ -18,6 +18,7 @@ date: '2026-07-27'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
 - [[posts/magicians-2026-07-05-subject-linked-nav-snapshot-oracle-candidate-erc-28939|主体リンク型NAVスナップショットオラクル - ERC候補]]（2026-07-05）
 
 ## 元の表記（英語）
