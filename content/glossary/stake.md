@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **ステーク**
@@ -19,6 +19,8 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/magicians-2026-07-14-timelock-account-recovery-a-trust-minimized-recovery-system-for-smart-accounts-29009|タイムロックアカウントリカバリ: スマートアカウント向けの信頼最小化リカバリシステム]]（2026-07-14）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）

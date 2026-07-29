@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **フォーク**
@@ -19,6 +19,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/magicians-2026-07-07-bounty-incentivised-manual-merkle-proofing-good-for-newcomers-and-extra-security-28960|バウンティでインセンティブ付けされた手動マークル証明（新規ユーザーと追加セキュリティに有効）]]（2026-07-07）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-07-01-is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study-25338|スロット0のリオーグコストは修正可能か？ePBSアテステーションデッドライン調査]]（2026-07-01）

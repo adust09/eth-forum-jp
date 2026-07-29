@@ -4,7 +4,7 @@ aliases:
   - 検証プリミティブ
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **検証プリミティブ**
@@ -19,6 +19,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/ethresear-2026-07-14-the-authority-visibility-problem-in-ethereum-governance-25456|イーサリアムガバナンスにおける権限可視性問題]]（2026-07-14）
 
 ## 元の表記（英語）

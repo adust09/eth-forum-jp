@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **レイヤー1**
@@ -20,6 +20,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/ethresear-2026-06-21-a-native-zkevm-scales-bandwidth-not-just-execution-25254|ネイティブzkEVMは実行だけでなく帯域幅もスケールする]]（2026-06-21）
 - [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）

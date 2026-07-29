@@ -5,7 +5,7 @@ aliases:
   - TBA
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **トークンバウンドアカウント (TBA)**

@@ -4,7 +4,7 @@ aliases:
   - 機械化された関手塔 (Mechanized Functor Tower)
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **機械化された関手塔 (Mechanized Functor Tower)**
@@ -19,7 +19,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 
 ## 元の表記（英語）
 

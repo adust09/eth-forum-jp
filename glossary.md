@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-28
+last_updated: 2026-07-29
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7323,3 +7323,183 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-31-july-27-2026/29103
 - desc: |
   EthereumのJSON-RPC APIで提供されるメソッドの一つで、クライアントがブロックの確定、ログイベント、新しいトランザクションなどの特定のイベントをリアルタイムで購読するために使用される。
+
+## Private sequencers
+- ja: プライベートシーケンサー
+- related: [Sequencer, MEV, L2 rollup, Order flow]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25562
+- auto_source_url: https://ethresear.ch/t/can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev/25562
+- desc: |
+  L2ロールアップにおいて、トランザクションの順序付けを特定のエンティティが管理し、通常はMEVの悪影響を軽減するために、ユーザーのトランザクションを非公開で処理するシーケンサー。
+
+## Validium
+- ja: Validium (バリディウム)
+- related: [L2 rollup, ZK rollup, Data availability]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25562
+- auto_source_url: https://ethresear.ch/t/can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev/25562
+- desc: |
+  データ可用性保証をオフチェーンに置くことで、ZKロールアップよりも高いスケーラビリティを実現するL2スケーリングソリューションの一種。データはオフチェーンで管理されるが、その正当性はオンチェーンのZK証明によって検証される。
+
+## Private order flow
+- ja: プライベートオーダーフロー
+- related: [Order flow, MEV, Sequencer, Mempool]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25562
+- auto_source_url: https://ethresear.ch/t/can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev/25562
+- desc: |
+  ユーザーがトランザクションを公開のMempoolに送信する代わりに、特定のエンティティ（例：ビルダーやシーケンサー）に直接送信するトランザクションの流れ。MEVの悪影響を軽減し、より良い執行を試みるために利用される。
+
+## CEX–DEX convergence
+- ja: CEX-DEXコンバージェンス (CEX-DEX収束)
+- related: [Arbitrage, Market microstructure, Decentralized exchange, Centralized exchange]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25562
+- auto_source_url: https://ethresear.ch/t/can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev/25562
+- desc: |
+  中央集権型取引所（CEX）と分散型取引所（DEX）間の価格差が、裁定取引などの市場メカニズムによって縮小し、最終的に収束する現象。効率的な市場形成の指標となる。
+
+## Periodically anchored to Ethereum
+- ja: 定期的にイーサリアムにアンカーされる
+- related: [Data availability, Proofs, Off-chain data, Hash chain]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25562
+- auto_source_url: https://ethresear.ch/t/can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev/25562
+- desc: |
+  オフチェーンで生成されたデータや証明の完全性を保証するため、そのハッシュや要約を定期的にイーサリアムブロックチェーンに記録するメカニズム。これにより、データの改ざんを検出し、信頼性を高める。
+
+## mixhash
+- ja: ミックスハッシュ
+- related: [RANDAO, BLS signature]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25556
+- auto_source_url: https://ethresear.ch/t/native-randomness-sourcing-with-looser-guarantees/25556
+- desc: |
+  Ethereumのコンセンサスレイヤーで乱数生成のために使用されるハッシュ値。RANDAOメカニズムの出力であり、ブロックプロポーザーのBLS署名から導出されます。
+
+## signidice
+- ja: サイニダイス (Signidice)
+- related: [commit-reveal scheme, RANDAO]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25556
+- auto_source_url: https://ethresear.ch/t/native-randomness-sourcing-with-looser-guarantees/25556
+- desc: |
+  複数の参加者が秘密の値をコミットし、後で公開して結合することで乱数を生成する方式。コミット＆リビールスキームの一種で、各参加者のバイアスを軽減するために使用されます。
+
+## withholding bias
+- ja: 意図的なブロック非提出によるバイアス (Withholding Bias)
+- related: [RANDAO, Selfish Mixing]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25556
+- auto_source_url: https://ethresear.ch/t/native-randomness-sourcing-with-looser-guarantees/25556
+- desc: |
+  ブロックプロポーザーが、生成される乱数が自分にとって不利な場合に、そのブロックの提出を意図的にスキップすることで乱数にバイアスをかける行為。これにより、プロポーザーはブロック報酬を犠牲にして、より有利な乱数を引き出す機会を得ます。
+
+## Selfish Mixing
+- ja: セルフィッシュミキシング (Selfish Mixing)
+- related: [RANDAO, withholding bias, MEV]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25556
+- auto_source_url: https://ethresear.ch/t/native-randomness-sourcing-with-looser-guarantees/25556
+- desc: |
+  プルーフ・オブ・ステーク（PoS）システムにおいて、バリデーターが乱数生成プロセスを自分に有利になるように操作する戦略。RANDAOのような乱数源の特性を利用し、ブロックの提出を戦略的に行わないことで、望ましい乱数結果を得ようとします。
+
+## RANDAO target slot attack
+- ja: RANDAOターゲットスロット攻撃
+- related: [RANDAO, withholding bias, Selfish Mixing, Tail run]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25556
+- auto_source_url: https://ethresear.ch/t/native-randomness-sourcing-with-looser-guarantees/25556
+- desc: |
+  攻撃者がRANDAO乱数源を操作し、特定の将来のスロットで望ましい乱数結果を得ようとする攻撃。複数の連続するプロポーザースロット（Tail run）を制御することで、乱数結果を特定の範囲に誘導する可能性が高まります。
+
+## Structural OEV Elimination
+- ja: 構造的OEV排除 (Oracle Extractable Value排除)
+- related: [Oracle Extractable Value, Atomic State Binding]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25555
+- auto_source_url: https://ethresear.ch/t/structural-oev-elimination-through-state-synchronization/25555
+- desc: |
+  オラクル更新とそれに続く状態変化を単一のアトミックなトランジションに結合することで、オラクル抽出可能価値（OEV）の発生源となる時間的ギャップを構造的に排除するアプローチ。これにより、更新の可視化と結果のコミットの間に抽出機会が存在しない状態を作り出す。
+
+## bind-verify-commit synchronization cycle
+- ja: バインド・検証・コミット同期サイクル
+- related: [Atomic State Binding, Cross-Domain State Synchronization]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25555
+- auto_source_url: https://ethresear.ch/t/structural-oev-elimination-through-state-synchronization/25555
+- desc: |
+  複数のドメイン間で状態をアトミックに同期させるためのサイクル。資産のロック、トランジションの検証、そして接続された全てのチェーンへの後続状態の書き込みを単一のステップで行い、部分的な状態が存在しないことを保証する。
+
+## internal extraction window
+- ja: 内部抽出ウィンドウ
+- related: [Oracle Extractable Value, MEV]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25555
+- auto_source_url: https://ethresear.ch/t/structural-oev-elimination-through-state-synchronization/25555
+- desc: |
+  オラクル更新がオンチェーンで公開されてから、その更新の結果（例：清算）が消費されるまでの時間間隔。この期間中に、MEVアクターは更新を先読みして利益を得る機会を持つ。
+
+## Update-timing extraction
+- ja: 更新タイミング抽出
+- related: [internal extraction window, Oracle Extractable Value]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25555
+- auto_source_url: https://ethresear.ch/t/structural-oev-elimination-through-state-synchronization/25555
+- desc: |
+  オラクル更新トランザクションが公開されてから、その結果が実行されるまでの間に発生する抽出。これは、更新をバックランすることで利益を得る典型的なOEV取引である。
+
+## Update-anticipation extraction
+- ja: 更新予測抽出
+- related: [pre-window, Oracle Extractable Value]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 25555
+- auto_source_url: https://ethresear.ch/t/structural-oev-elimination-through-state-synchronization/25555
+- desc: |
+  オラクル更新の閾値やハートビートにより、オフチェーンデータから次の更新が統計的に予測可能であるために、更新が実際にオンチェーンに到達する前に発生する抽出。
+
+## Staked Weighted Verification Gate
+- ja: ステーク型加重検証ゲート (Staked Weighted Verification Gate)
+- related: [Weighted endorsement, Measured verification, Slashing curves]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 29194
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
+- desc: |
+  提案されているERC標準であり、クレームの検証プロセスを標準化するゲートウェイです。クレームが信頼できるステータスを持つためには、第三者による検証が必要であり、その検証の重みは検証者の「検証済み深度」によって決定され、誤ったクレームに対してはクレーム作成者がステークを失う可能性があります。
+
+## Weighted endorsement
+- ja: 加重型承認 (Weighted endorsement)
+- related: [Staked Weighted Verification Gate, Measured verification]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 29194
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
+- desc: |
+  クレームや情報の承認において、承認者の信頼性や「検証済み深度」に基づいてその承認の重みを決定するメカニズムです。単なる承認数ではなく、承認の質を重視することで、シビル攻撃耐性を高めます。
+
+## Measured verification
+- ja: 測定型検証 (Measured verification)
+- related: [Staked Weighted Verification Gate, Weighted endorsement]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 29194
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
+- desc: |
+  クレームの検証において、宣言された信頼度や承認数に依存するのではなく、定量的な指標や検証者の「検証済み深度」に基づいて検証の有効性を評価するアプローチです。より客観的で信頼性の高い検証を目指します。
+
+## Slashing curves
+- ja: スラッシング曲線 (Slashing curves)
+- related: [Slashing, Staking]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 29194
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
+- desc: |
+  ステーキングシステムにおいて、バリデーターやクレーム作成者の不正行為に対するペナルティ（スラッシング）の量を決定するために使用される数学的な関数です。不正の度合いや期間などに応じて、スラッシングの計算方法を定義します。
+
+## Post-consumption falsifiability
+- ja: 消費後反証可能性 (Post-consumption falsifiability)
+- related: [Revocability, Finality]
+- auto_added: 2026-07-29
+- auto_source_topic_id: 29194
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
+- desc: |
+  クレームや情報が一度「消費」されたり、それに基づいて行動が実行されたりした後でも、そのクレームの真偽を反証できる（誤りであることを証明できる）特性です。システムの最終性や取り消し可能性の設計に関連します。
