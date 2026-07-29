@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **AIエージェント**
@@ -18,7 +18,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
 
 ## 元の表記（英語）
 

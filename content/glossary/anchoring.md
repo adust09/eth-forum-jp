@@ -4,7 +4,7 @@ aliases:
   - アンカリング
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **アンカリング**
@@ -18,7 +18,7 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-07-28-can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev-25562|CEXのミクロ構造シグナルはイーサリアムの実行遅延とMEVを乗り越えられるか？]]（2026-07-28）
 
 ## 元の表記（英語）
 

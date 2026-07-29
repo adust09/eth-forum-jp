@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,9 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev-25562|CEXのミクロ構造シグナルはイーサリアムの実行遅延とMEVを乗り越えられるか？]]（2026-07-28）
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
+- [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 - [[posts/ethresear-2026-07-22-call-for-papers-blockchain-defi-and-ai-25496|論文募集: ブロックチェーン、DeFi、AI]]（2026-07-22）
 - [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 - [[posts/magicians-2026-07-15-cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity-29018|コホートオーダーブック: 世代別ファンジブル流動性によるO(1)完全オンチェーン指値注文板]]（2026-07-15）

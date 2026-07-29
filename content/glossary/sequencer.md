@@ -4,7 +4,7 @@ aliases:
   - シーケンサー
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **シーケンサー**
@@ -19,6 +19,8 @@ date: '2026-07-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev-25562|CEXのミクロ構造シグナルはイーサリアムの実行遅延とMEVを乗り越えられるか？]]（2026-07-28）
+- [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 - [[posts/ethresear-2026-06-30-rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems-25332|検証可能な分散型ブロックチェーンシステムのための協調的信頼の再考]]（2026-06-30）
 
 ## 元の表記（英語）

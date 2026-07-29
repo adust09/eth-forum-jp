@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,7 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-07-03-in-protocol-client-data-reporting-25353|プロトコル内クライアントデータ報告]]（2026-07-03）
 - [[posts/ethresear-2026-07-02-spread-extending-gossipsub-with-efficient-anonymous-dissemination-25343|SPREAD: 効率的な匿名伝播でGossipSubを拡張する]]（2026-07-02）

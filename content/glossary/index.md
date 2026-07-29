@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-28'
+date: '2026-07-29'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -88,6 +88,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
+- [[glossary/bind-verify-commit-synchronization-cycle|bind-verify-commit synchronization cycle]] — バインド・検証・コミット同期サイクル
 - [[glossary/Binding|Binding]] — バインディング
 - [[glossary/Biometric-ZK-proof|Biometric ZK-proof]] — 生体認証ZK証明
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
@@ -126,6 +127,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Censorship-Lever|Censorship Lever]] — 検閲レバー
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
 - [[glossary/CEX-DEX-arbitrage-auction|CEX-DEX arbitrage auction]] — CEX-DEXアービトラージオークション
+- [[glossary/CEXDEX-convergence|CEX–DEX convergence]] — CEX-DEXコンバージェンス (CEX-DEX収束)
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
 - [[glossary/claim-types|claim types]] — クレームタイプ
@@ -366,6 +368,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
 - [[glossary/interface-discovery|interface discovery]] — インターフェース検出
+- [[glossary/internal-extraction-window|internal extraction window]] — 内部抽出ウィンドウ
 - [[glossary/Intra-cluster-communication|Intra-cluster communication]] — クラスター内通信
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
@@ -417,6 +420,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
 - [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
+- [[glossary/Measured-verification|Measured verification]] — 測定型検証 (Measured verification)
 - [[glossary/Mechanism-design|Mechanism design]] — メカニズム設計
 - [[glossary/Mechanized-Functor-Tower|Mechanized Functor Tower]] — 機械化された関手塔 (Mechanized Functor Tower)
 - [[glossary/memory-layer|memory layer]] — メモリ層
@@ -438,6 +442,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Minimal-proxy-clones|Minimal-proxy clones]] — ミニマルプロキシクローン
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/mirror-payload|mirror payload]] — ミラーペイロード
+- [[glossary/mixhash|mixhash]] — ミックスハッシュ
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
@@ -523,6 +528,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
 - [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
+- [[glossary/Periodically-anchored-to-Ethereum|Periodically anchored to Ethereum]] — 定期的にイーサリアムにアンカーされる
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
@@ -540,6 +546,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Positive-Sum-Coordination|Positive-Sum Coordination]] — 正の和の協調 (ポジティブサム・コーディネーション)
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
 - [[glossary/Post-Quantum-transaction-signature|Post Quantum transaction signature]] — ポスト量子トランザクション署名 (PQTS)
+- [[glossary/Post-consumption-falsifiability|Post-consumption falsifiability]] — 消費後反証可能性 (Post-consumption falsifiability)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
@@ -561,7 +568,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
+- [[glossary/Private-order-flow|Private order flow]] — プライベートオーダーフロー
 - [[glossary/private-payment-mechanism|private payment mechanism]] — プライベート決済メカニズム
+- [[glossary/Private-sequencers|Private sequencers]] — プライベートシーケンサー
 - [[glossary/Privileged-Role-Control-Framework|Privileged Role Control Framework]] — 特権ロール制御フレームワーク
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
@@ -582,6 +591,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
 - [[glossary/RANDAO|RANDAO]] — RANDAO
+- [[glossary/RANDAO-target-slot-attack|RANDAO target slot attack]] — RANDAOターゲットスロット攻撃
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
@@ -639,6 +649,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Self-Declaration-Protocol|Self-Declaration Protocol]] — 自己申告プロトコル
 - [[glossary/self-destruct|self-destruct]] — self-destruct (自己破壊)
 - [[glossary/SELFDESTRUCT|SELFDESTRUCT]] — SELFDESTRUCT (自己破壊)
+- [[glossary/Selfish-Mixing|Selfish Mixing]] — セルフィッシュミキシング (Selfish Mixing)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
 - [[glossary/Sequenced-State-Machine|Sequenced State Machine]] — シーケンス化された状態マシン
@@ -655,6 +666,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signers|signers]] — 署名者
+- [[glossary/signidice|signidice]] — サイニダイス (Signidice)
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
 - [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ
@@ -666,6 +678,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SkillBinding|SkillBinding]] — スキルバインディング
 - [[glossary/SkillRoot|SkillRoot]] — スキルルート
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
+- [[glossary/Slashing-curves|Slashing curves]] — スラッシング曲線 (Slashing curves)
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
@@ -682,6 +695,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/SPREAD|SPREAD]] — SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
 - [[glossary/stake|stake]] — ステーク
+- [[glossary/Staked-Weighted-Verification-Gate|Staked Weighted Verification Gate]] — ステーク型加重検証ゲート (Staked Weighted Verification Gate)
 - [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
 - [[glossary/STARK-LDE-NTT|STARK-LDE NTT]] — STARK-LDE NTT (STARK低次拡張数論変換)
@@ -701,6 +715,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
+- [[glossary/Structural-OEV-Elimination|Structural OEV Elimination]] — 構造的OEV排除 (Oracle Extractable Value排除)
 - [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
@@ -761,10 +776,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/update-authority|update authority]] — 更新権限
+- [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出
+- [[glossary/Update-timing-extraction|Update-timing extraction]] — 更新タイミング抽出
 - [[glossary/Validated-EVM-Code|Validated EVM Code]] — 検証済みEVMコード
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
+- [[glossary/Validium|Validium]] — Validium (バリディウム)
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行
@@ -781,8 +799,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Wallet-Title-Deeds|Wallet Title Deeds]] — ウォレット所有権証書
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
+- [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
+- [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)
 - [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
