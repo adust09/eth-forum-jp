@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-29
+last_updated: 2026-07-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7503,3 +7503,67 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-erc-staked-weighted-verification-gate/29194
 - desc: |
   クレームや情報が一度「消費」されたり、それに基づいて行動が実行されたりした後でも、そのクレームの真偽を反証できる（誤りであることを証明できる）特性です。システムの最終性や取り消し可能性の設計に関連します。
+
+## Substrate Incompleteness
+- ja: 基盤の不完全性（Substrate Incompleteness）
+- related: [Capture Surface, Gödel's incompleteness theorems]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 25572
+- auto_source_url: https://ethresear.ch/t/substrate-incompleteness/25572
+- desc: |
+  どんなに精巧な公平性メカニズムであっても、必ず悪用されうる抜け穴（capture surface）が存在するという、システム設計における構造的な特性。ゲーデルの不完全性定理に例えられ、メカニズムの完全性と実装可能性は両立しないとされる。
+
+## Capture Surface
+- ja: キャプチャ・サーフェス
+- related: [Substrate Incompleteness]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 25572
+- auto_source_url: https://ethresear.ch/t/substrate-incompleteness/25572
+- desc: |
+  公平性メカニズムやセキュリティメカニズムにおいて、洗練された攻撃者が悪用できる抜け穴や脆弱な側面を指す。新たなメカニズムを追加しても、既存のギャップを埋める一方で、新たなキャプチャ・サーフェスを生み出す可能性がある。
+
+## Off-chain coordination
+- ja: オフチェーン調整
+- aliases: [The coalition beyond mechanism reach]
+- related: [Capture Surface, MEV]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 25572
+- auto_source_url: https://ethresear.ch/t/substrate-incompleteness/25572
+- desc: |
+  ブロックチェーン上のメカニズムの範囲外で、参加者がチェーン外の手段（例：電話）を用いて合意形成や行動調整を行うこと。オンチェーンメカニズムからは検出が困難であり、意思決定を歪めるキャプチャ・サーフェスとなりうる。
+
+## v(S) estimation gap
+- ja: v(S)推定ギャップ
+- related: [Shapley value, Characteristic function, Capture Surface]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 25572
+- auto_source_url: https://ethresear.ch/t/substrate-incompleteness/25572
+- desc: |
+  協力ゲーム理論におけるシャープレイ値の計算に用いられる特性関数v(S)（特定の連合が生成する価値）の推定において生じる誤差。異なる観測者間で推定値に大きな乖離が生じ、シャープレイ値の計算結果に影響を与えるキャプチャ・サーフェスとなる。
+
+## Unmeasured contribution
+- ja: 未測定の貢献
+- related: [Capture Surface, Incentive design]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 25572
+- auto_source_url: https://ethresear.ch/t/substrate-incompleteness/25572
+- desc: |
+  メカニズムによって観測・記録されない、しかしシステムやコミュニティにとって価値のある貢献。例えば、火災の防止、継続性の維持、感情労働、ギャップの埋め合わせなどが挙げられる。インセンティブ設計において、これらの貢献が適切に評価されないことがキャプチャ・サーフェスとなる。
+
+## P2P networking
+- ja: P2Pネットワーキング
+- related: [gossipsub, mesh sync protocol]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 29200
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-5-july-29-2026/29200
+- desc: |
+  Ethereumクライアントがブロック、トランザクション、アッテステーションなどの情報を交換するために使用するピアツーピアネットワーク。分散型システムの基盤となる通信層。
+
+## Topic streams extension
+- ja: トピックストリーム拡張
+- related: [P2P networking, gossipsub]
+- auto_added: 2026-07-30
+- auto_source_topic_id: 29200
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-5-july-29-2026/29200
+- desc: |
+  EthereumのP2Pネットワークにおけるデータ伝播メカニズムであるトピックストリームを拡張する提案または機能。特定の種類の情報を効率的に共有するために使用される。

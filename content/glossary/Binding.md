@@ -7,7 +7,7 @@ aliases:
   - token-ID binding
 tags:
   - glossary
-date: '2026-07-29'
+date: '2026-07-30'
 ---
 
 **バインディング**

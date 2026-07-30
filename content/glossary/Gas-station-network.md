@@ -5,7 +5,7 @@ aliases:
   - GSN
 tags:
   - glossary
-date: '2026-07-29'
+date: '2026-07-30'
 ---
 
 **ガスステーションネットワーク (GSN)**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-29'
+date: '2026-07-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -119,6 +119,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
 - [[glossary/Capacity-Assessment|Capacity Assessment]] — 能力評価
 - [[glossary/Capital-Allocation-DAO|Capital Allocation DAO]] — 資金配分DAO
+- [[glossary/Capture-Surface|Capture Surface]] — キャプチャ・サーフェス
 - [[glossary/Category-Action-Registry|Category-Action Registry]] — カテゴリ-アクションレジストリ
 - [[glossary/Causal-Coupling-of-State|Causal Coupling of State]] — 状態の因果的結合
 - [[glossary/CBOR|CBOR]] — CBOR (Concise Binary Object Representation)
@@ -478,6 +479,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Observer-Contamination|Observer Contamination]] — 観測者汚染
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
+- [[glossary/Off-chain-coordination|Off-chain coordination]] — オフチェーン調整
 - [[glossary/Offchain-orderbook|Offchain orderbook]] — オフチェーンオーダーブック
 - [[glossary/Offline-state-migration|Offline state migration]] — オフライン状態移行
 - [[glossary/Omission|Omission]] — 省略（観測スコープからの）
@@ -512,6 +514,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
+- [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
 - [[glossary/Partial-Execution-Payload-Commitments|Partial Execution Payload Commitments]] — 部分的実行ペイロードコミットメント
@@ -721,6 +724,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
 - [[glossary/Subjective-Human-Oracle-Network|Subjective Human Oracle Network]] — 主観的ヒューマンオラクルネットワーク (SHON)
+- [[glossary/Substrate-Incompleteness|Substrate Incompleteness]] — 基盤の不完全性（Substrate Incompleteness）
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
@@ -754,6 +758,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
 - [[glossary/Tokenized-lessee-position|Tokenized lessee position]] — トークン化された借り手ポジション
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
+- [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
@@ -774,10 +779,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
+- [[glossary/Unmeasured-contribution|Unmeasured contribution]] — 未測定の貢献
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/update-authority|update authority]] — 更新権限
 - [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出
 - [[glossary/Update-timing-extraction|Update-timing extraction]] — 更新タイミング抽出
+- [[glossary/v-estimation-gap|v(S) estimation gap]] — v(S)推定ギャップ
 - [[glossary/Validated-EVM-Code|Validated EVM Code]] — 検証済みEVMコード
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
