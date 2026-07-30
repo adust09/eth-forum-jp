@@ -5,7 +5,7 @@ aliases:
   - RCP
 tags:
   - glossary
-date: '2026-07-29'
+date: '2026-07-30'
 ---
 
 **規制コンプライアンスプロトコル (RCP)**
