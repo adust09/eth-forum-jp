@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -12,6 +12,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/1-out-of-N-honesty|1-out-of-N honesty]] — N分の1の正直性
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
+- [[glossary/account-authenticator|account authenticator]] — アカウント認証器
+- [[glossary/account-code|account code]] — アカウントコード
 - [[glossary/account-headers|account headers]] — アカウントヘッダー
 - [[glossary/account-leaf|account leaf]] — アカウントリーフ
 - [[glossary/Account-level-authorization|Account level authorization]] — アカウントレベル承認
@@ -48,6 +50,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Sentinel|AI Sentinel]] — AIセンチネル
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
+- [[glossary/All-Core-Devs-Consensus|All Core Devs - Consensus]] — オールコア開発者会議 - コンセンサス
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
 - [[glossary/anchor-block|anchor block]] — アンカーブロック
@@ -220,6 +223,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Distributed-Validator-Technology|Distributed Validator Technology]] — 分散型バリデータ技術 (DVT)
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/domain-separation|domain separation]] — ドメイン分離
 - [[glossary/domainlogn|domain_logn]] — ドメインの対数サイズ (domain_logn)
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
 - [[glossary/dormant-state|dormant state]] — 休眠状態
@@ -375,6 +379,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
 - [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
+- [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
@@ -444,6 +449,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/mirror-payload|mirror payload]] — ミラーペイロード
 - [[glossary/mixhash|mixhash]] — ミックスハッシュ
+- [[glossary/ML-DSA|ML-DSA]] — ML-DSA (格子ベース署名アルゴリズム)
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)

@@ -5,7 +5,7 @@ aliases:
   - Role-Based Timelock
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **ロールベース・タイムロック操作**

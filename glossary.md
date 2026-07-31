@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7567,3 +7567,58 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/p2p-networking-5-july-29-2026/29200
 - desc: |
   EthereumのP2Pネットワークにおけるデータ伝播メカニズムであるトピックストリームを拡張する提案または機能。特定の種類の情報を効率的に共有するために使用される。
+
+## ML-DSA
+- ja: ML-DSA (格子ベース署名アルゴリズム)
+- related: [Post-quantum cryptography, Digital Signature Algorithm (DSA)]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29211
+- auto_source_url: https://ethereum-magicians.org/t/eip-8355-precompiles-for-ml-dsa-verification/29211
+- desc: |
+  NISTによって標準化された、量子耐性を持つデジタル署名アルゴリズム。Ethereumにおけるアカウント認証やトランザクション署名への導入が検討されている。
+
+## account authenticator
+- ja: アカウント認証器
+- related: [Account abstraction, Smart account, Signature verification]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29211
+- auto_source_url: https://ethereum-magicians.org/t/eip-8355-precompiles-for-ml-dsa-verification/29211
+- desc: |
+  アカウントの操作やトランザクションの正当性を検証する役割を持つコンポーネント。特にスマートアカウントやアカウント抽象化の文脈で、署名検証などを担当する。
+
+## ISZERO
+- ja: ISZERO (EVMオペコード)
+- related: [EVM, Opcode, Smart contract]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29211
+- auto_source_url: https://ethereum-magicians.org/t/eip-8355-precompiles-for-ml-dsa-verification/29211
+- desc: |
+  Ethereum Virtual Machine (EVM) のオペコードの一つ。スタックの最上位の値がゼロである場合に1を、それ以外の場合に0を返す。スマートコントラクトにおける条件分岐の実装に利用される。
+
+## account code
+- ja: アカウントコード
+- related: [Smart contract, EVM, Bytecode, Persistent state]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29211
+- auto_source_url: https://ethereum-magicians.org/t/eip-8355-precompiles-for-ml-dsa-verification/29211
+- desc: |
+  Ethereumブロックチェーン上の特定のアドレスにデプロイされたスマートコントラクトのバイトコード。コントラクトのロジックと機能を定義し、その実行を可能にする。
+
+## domain separation
+- ja: ドメイン分離
+- related: [Cryptographic security, Signature verification, Replay attack]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29211
+- auto_source_url: https://ethereum-magicians.org/t/eip-8355-precompiles-for-ml-dsa-verification/29211
+- desc: |
+  暗号学的操作（署名やハッシュなど）が、意図しない異なるコンテキストで有効と見なされることを防ぐためのセキュリティ手法。メッセージに特定のコンテキスト識別子を付加することで実現される。
+
+## All Core Devs - Consensus
+- ja: オールコア開発者会議 - コンセンサス
+- aliases: [ACDC]
+- related: [All Core Devs - Testing, EIP]
+- auto_added: 2026-07-31
+- auto_source_topic_id: 29209
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-184-august-6-2026/29209
+- desc: |
+  Ethereumのコンセンサス層に関する主要な開発者会議。プロトコルのアップグレードや研究課題について議論され、開発の方向性を決定する重要な場です。

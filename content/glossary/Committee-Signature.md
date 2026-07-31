@@ -4,7 +4,7 @@ aliases:
   - 委員会署名
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **委員会署名**
