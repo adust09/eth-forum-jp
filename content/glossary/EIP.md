@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-eip-8355-precompiles-for-ml-dsa-verification-29211|EIP-8355: ML-DSA検証用プリコンパイル]]（2026-07-31）
+- [[posts/magicians-2026-07-30-all-core-devs-consensus-acdc-184-august-6-2026-29209|全コア開発者会議 - コンセンサス (ACDC) #184、2026年8月6日]]（2026-07-30）
 - [[posts/magicians-2026-07-29-p2p-networking-5-july-29-2026-29200|P2Pネットワーキング #5、2026年7月29日]]（2026-07-29）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）

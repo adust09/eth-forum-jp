@@ -4,7 +4,7 @@ aliases:
   - 不正なフォーク（fraudulent fork）
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **不正なフォーク（fraudulent fork）**

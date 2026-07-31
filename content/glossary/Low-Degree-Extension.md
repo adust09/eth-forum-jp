@@ -5,7 +5,7 @@ aliases:
   - LDE
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **低次数拡張 (LDE)**

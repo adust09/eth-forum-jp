@@ -4,7 +4,7 @@ aliases:
   - 構造的OEV排除 (Oracle Extractable Value排除)
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **構造的OEV排除 (Oracle Extractable Value排除)**

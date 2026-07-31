@@ -5,7 +5,7 @@ aliases:
   - The coalition beyond mechanism reach
 tags:
   - glossary
-date: '2026-07-30'
+date: '2026-07-31'
 ---
 
 **オフチェーン調整**
