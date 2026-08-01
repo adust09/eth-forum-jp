@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-07-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature-29225|オンチェーンIDの耐量子移行：アンカーされた鍵バインディングとカットオフ、再計算による検証（セカンドシグネチャではない）]]（2026-07-31）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-06-24-towards-native-post-quantum-private-eth-25291|ネイティブな量子耐性プライベートETHに向けて]]（2026-06-24）

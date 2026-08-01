@@ -5,7 +5,7 @@ aliases:
   - isolation of unconnected domains
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **アセットごとの分離**

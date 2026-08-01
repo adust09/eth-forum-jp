@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-07-31
+last_updated: 2026-08-01
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7622,3 +7622,203 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-184-august-6-2026/29209
 - desc: |
   Ethereumのコンセンサス層に関する主要な開発者会議。プロトコルのアップグレードや研究課題について議論され、開発の方向性を決定する重要な場です。
+
+## Anchored key-binding
+- ja: アンカー型鍵バインディング
+- related: [Post-quantum migration, Consumer cutoff, Anchor time]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29225
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature/29225
+- desc: |
+  既存の古典的な公開鍵と新しいポスト量子公開鍵をオンチェーンで紐付けるメカニズム。これにより、古典的な鍵が破られた場合でも、新しいポスト量子鍵への安全な移行を可能にする。
+
+## Consumer cutoff
+- ja: コンシューマーカットオフ
+- related: [Post-quantum migration, Anchored key-binding, Anchor time]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29225
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature/29225
+- desc: |
+  ポスト量子移行戦略において、特定の時点（カットオフ）以降のアクションに対して、アンカー型鍵バインディングで紐付けられたポスト量子署名の検証を義務付けるルール。これにより、攻撃者が古典的な署名のみを提示して不正を行うことを防ぐ。
+
+## Anchor time
+- ja: アンカータイム
+- related: [Anchored key-binding, Consumer cutoff]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29225
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature/29225
+- desc: |
+  オンチェーンでのアクションが記録されたブロックのタイムスタンプ。署名が作成された時間ではなく、このアンカータイムに基づいてアクションの権限と有効性が判断される。過去の不正な署名によるバックデートを防ぐために重要となる。
+
+## Post-quantum migration
+- ja: ポスト量子移行
+- related: [Post-quantum, Anchored key-binding, Consumer cutoff]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29225
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature/29225
+- desc: |
+  量子コンピュータによる暗号解読の脅威に備え、既存の暗号システム（特に署名スキーム）を量子耐性のあるものに置き換えるプロセス。オンチェーンアイデンティティの文脈では、古典的な鍵からポスト量子鍵への安全な切り替えを指す。
+
+## Recovery-class taxonomy
+- ja: リカバリークラス分類
+- related: [Key rotation, Key revocation, On-chain identity]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29225
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature/29225
+- desc: |
+  オンチェーンアイデンティティの鍵管理において、鍵のローテーションや失効といった権限移行の種類を分類するためのフレームワーク。監査可能性を高め、どのような種類の移行が発生したかを第三者が独立して検証できるようにする。
+
+## Beacon Block Reporting Field
+- ja: ビーコンブロック報告フィールド
+- related: [Beacon Block, EIP-8359]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29224
+- auto_source_url: https://ethereum-magicians.org/t/eip-8359-beacon-block-reporting-field/29224
+- desc: |
+  EIP-8359で提案されている、ビーコンブロック内にクライアントデータを報告するためのフィールドです。プロトコル内でクライアントの挙動や状態に関する情報を収集することを目的としています。
+
+## EVM Verification Key Registry
+- ja: EVM検証鍵レジストリ
+- related: [EVM verification key, L1 feature fork]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29222
+- auto_source_url: https://ethereum-magicians.org/t/eip-8357-evm-verification-key-registry/29222
+- desc: |
+  L1の機能フォークごとに正規のEVM検証鍵を格納する固定アドレスのシステムコントラクト。各エントリは、特定のフォークに紐づくEVMプログラムの検証鍵とその有効化タイムスタンプをマッピングする。これにより、ロールアップがL1 EVMのアップグレードを追跡したり、特定のEVMフォークに留まったりすることが可能になる。
+
+## L1 feature fork
+- ja: L1機能フォーク
+- related: [EVM Verification Key Registry, EVM upgrade]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29222
+- auto_source_url: https://ethereum-magicians.org/t/eip-8357-evm-verification-key-registry/29222
+- desc: |
+  イーサリアムのレイヤー1（L1）プロトコルに新しい機能や変更を導入するために行われるハードフォークの一種。EVMの動作や機能に影響を与える更新を指すことが多い。
+
+## Fungible Agent Tokens
+- ja: ファンジブルエージェントトークン (FAT)
+- aliases: [FAT]
+- related: [FAT Agent, AI agent, on-chain economic entity]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29220
+- auto_source_url: https://ethereum-magicians.org/t/draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities/29220
+- desc: |
+  AIエージェントをオンチェーンの経済エンティティとして定義するための最小限の標準。エージェントが自身の経済活動における株式を発行し、自律的に行動し、その行動の改ざん防止可能な推論記録を残すことを可能にするプロトコルです。
+
+## FAT Agent
+- ja: FATエージェント
+- related: [Fungible Agent Tokens, AI agent, on-chain economic entity]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29220
+- auto_source_url: https://ethereum-magicians.org/t/draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities/29220
+- desc: |
+  Fungible Agent Tokens (FAT) プロトコルによって定義されるAIエージェント。自身の経済活動における株式を発行し、自律的に行動し、行動の推論記録を残すオンチェーンの経済エンティティとして機能します。
+
+## Reasoning Attestation
+- ja: 推論証明
+- related: [reasoningHash, reasoningURI, Agent URI, tamper-evident reasoning record]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29220
+- auto_source_url: https://ethereum-magicians.org/t/draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities/29220
+- desc: |
+  FATエージェントのオフチェーンメタデータと各アクションの推論記録を、エージェントのオンチェーンIDに紐付けるプロセス。改ざん防止可能な記録を通じて、エージェントのアイデンティティ、戦略、モデル、意思決定の根拠をオンチェーンで証明します。
+
+## Reasoned Settlement
+- ja: 推論に基づく決済
+- related: [settleMint, settleRedeem, reasoningHash, reasoningURI]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29220
+- auto_source_url: https://ethereum-magicians.org/t/draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities/29220
+- desc: |
+  FATエージェントが、ミントおよび償還のリクエストを承認、価格設定、または拒否する際に、自身の推論に基づいて決定を下すプロセス。各決済には改ざん防止可能な推論記録が添付され、エージェントの自律的な意思決定を標準化します。
+
+## Accept Token
+- ja: 受入トークン
+- related: [Shares, Equity Issuance]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29220
+- auto_source_url: https://ethereum-magicians.org/t/draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities/29220
+- desc: |
+  FATエージェントの株式購入に受け入れられ、償還時に支払われる、デプロイ時に選択された不変のERC-20トークン。株式の価格設定と償還を明確にするための固定された会計単位として機能します。
+
+## Purpose-Bound Third-Party Data Consent
+- ja: 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
+- related: [Data Consent, ERC-8356, Verifiable Credential]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29217
+- auto_source_url: https://ethereum-magicians.org/t/erc-8356-purpose-bound-third-party-data-consent/29217
+- desc: |
+  データ主体、データ利用を許可される受領者、受領者の代理として利用を実行するエージェントという三者間で、特定の目的に限定されたデータ利用の同意を管理するためのEthereum標準。データ主体が受益者ではない状況での同意の取り消しを、アクセス時に有効にすることを目的とする。
+
+## Consensus-ordered revocation
+- ja: コンセンサス順序付けされた取り消し
+- related: [Revocation Status, Verifiable Credential]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29217
+- auto_source_url: https://ethereum-magicians.org/t/erc-8356-purpose-bound-third-party-data-consent/29217
+- desc: |
+  ブロックチェーンのコンセンサス機構を利用して、データ利用の同意や資格情報の取り消しを記録するメカニズム。発行者が書き換えたりオフラインにしたりできない、公開され、否認不可能な取り消しステータスを提供する。
+
+## Bitstring Status List
+- ja: ビットストリングステータスリスト
+- related: [Revocation Status, Verifiable Credential]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29217
+- auto_source_url: https://ethereum-magicians.org/t/erc-8356-purpose-bound-third-party-data-consent/29217
+- desc: |
+  W3C Verifiable Credentialの取り消しステータスを管理するための一般的なメカニズムの一つ。発行者が制御するエンドポイントから取得されるビット列で、取り消し状態を示す。発行者による改ざんやオフライン化のリスクが指摘される。
+
+## NatSpec
+- ja: NatSpec
+- aliases: [Ethereum Natural Language Specification]
+- related: [Smart Contract, Solidity]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29217
+- auto_source_url: https://ethereum-magicians.org/t/erc-8356-purpose-bound-third-party-data-consent/29217
+- desc: |
+  Ethereumスマートコントラクトのコード内に自然言語でドキュメントを記述するための標準。関数、イベント、変数などの目的や動作を説明し、開発者や監査人がコードを理解しやすくするために使用される。
+
+## On-chain status anchor
+- ja: オンチェーンステータスアンカー
+- related: [Verifiable Credential, Off-chain data]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29217
+- auto_source_url: https://ethereum-magicians.org/t/erc-8356-purpose-bound-third-party-data-consent/29217
+- desc: |
+  オフチェーンで発行された資格情報やデータに対するステータス（特に取り消し状態）を、ブロックチェーン上に固定（アンカー）する設計パターン。ブロックチェーンの不変性とコンセンサスを利用して、オフチェーンデータの信頼性の高いステータス検証を可能にする。
+
+## reorg-resistant
+- ja: リorg耐性 (reorg-resistant)
+- related: [reorg, finality]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29208
+- auto_source_url: https://ethereum-magicians.org/t/deterministic-random-number-in-evm-for-independent-recomputability/29208
+- desc: |
+  ブロックチェーンの再編成（reorg）が発生しても、その影響を受けずにデータの整合性や有効性が保たれる性質。特に、トランザクションや状態の確定性において重要な特性とされる。
+
+## independently-recomputable identifier
+- ja: 独立して再計算可能な識別子
+- related: [off-chain verification, data availability]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29208
+- auto_source_url: https://ethereum-magicians.org/t/deterministic-random-number-in-evm-for-independent-recomputability/29208
+- desc: |
+  チェーン上のデータのみから、RPCやインデクサーなどの外部サービスに依存せずに、第三者が同じ識別子を再生成できる特性を持つ識別子。オフチェーンでの検証可能性を保証するために重要となる。
+
+## execution position
+- ja: 実行位置
+- related: [call depth, storage state, EVM]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29208
+- auto_source_url: https://ethereum-magicians.org/t/deterministic-random-number-in-evm-for-independent-recomputability/29208
+- desc: |
+  EVMトランザクションの実行中に、コードが実行されている特定の場所と、その時点で観測されるストレージ状態を指す概念。同じトランザクション内でも、異なる呼び出し深度や状態変化によって実行位置は区別される。
+
+## BLOCKID opcode
+- ja: BLOCKID オペコード
+- related: [EVM opcode, block.number, block.timestamp, chainid]
+- auto_added: 2026-08-01
+- auto_source_topic_id: 29208
+- auto_source_url: https://ethereum-magicians.org/t/deterministic-random-number-in-evm-for-independent-recomputability/29208
+- desc: |
+  提案されているEVMオペコードの一つで、ブロック固有の決定論的な識別子を生成することを目的とする。チェーンID、ブロック番号、タイムスタンプ、ベースフィー、ガスリミットなどのブロックヘッダー情報からハッシュ値を計算することが想定されている。

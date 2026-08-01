@@ -5,7 +5,7 @@ aliases:
   - L2 Rollup
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **ロールアップ**
@@ -21,6 +21,7 @@ L2 スケーリング手法。実行を L2 で行い、データ・証明・状�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）
 - [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 - [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 - [[posts/ethresear-2026-07-21-a-mechanized-functor-tower-for-cross-domain-state-preservation-25491|クロスドメイン状態保存のための機械化されたファンクタタワー]]（2026-07-21）

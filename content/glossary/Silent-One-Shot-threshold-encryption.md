@@ -4,7 +4,7 @@ aliases:
   - 'サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)'
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)**

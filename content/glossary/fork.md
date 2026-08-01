@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **フォーク**
@@ -19,6 +19,8 @@ date: '2026-07-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）
+- [[posts/magicians-2026-07-31-post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature-29225|オンチェーンIDの耐量子移行：アンカーされた鍵バインディングとカットオフ、再計算による検証（セカンドシグネチャではない）]]（2026-07-31）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/magicians-2026-07-07-bounty-incentivised-manual-merkle-proofing-good-for-newcomers-and-extra-security-28960|バウンティでインセンティブ付けされた手動マークル証明（新規ユーザーと追加セキュリティに有効）]]（2026-07-07）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）

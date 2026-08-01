@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -11,6 +11,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/slot|(subjectId, role) slot]] — (subjectId, role) スロット
 - [[glossary/1-out-of-N-honesty|1-out-of-N honesty]] — N分の1の正直性
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
+- [[glossary/Accept-Token|Accept Token]] — 受入トークン
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
 - [[glossary/account-authenticator|account authenticator]] — アカウント認証器
 - [[glossary/account-code|account code]] — アカウントコード
@@ -54,6 +55,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
 - [[glossary/anchor-block|anchor block]] — アンカーブロック
+- [[glossary/Anchor-time|Anchor time]] — アンカータイム
+- [[glossary/Anchored-key-binding|Anchored key-binding]] — アンカー型鍵バインディング
 - [[glossary/anchoring|anchoring]] — アンカリング
 - [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
@@ -87,6 +90,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
 - [[glossary/Batch-FIFO|Batch-FIFO]] — バッチFIFO (Batch-FIFO)
+- [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
@@ -95,12 +99,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Binding|Binding]] — バインディング
 - [[glossary/Biometric-ZK-proof|Biometric ZK-proof]] — 生体認証ZK証明
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
+- [[glossary/Bitstring-Status-List|Bitstring Status List]] — ビットストリングステータスリスト
 - [[glossary/Blind-Session|Blind Session]] — ブラインドセッション
 - [[glossary/blind-signing|blind signing]] — ブラインド署名
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
+- [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
@@ -162,8 +168,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Consensus-homogeneity|Consensus homogeneity]] — コンセンサス均一性
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
+- [[glossary/Consensus-ordered-revocation|Consensus-ordered revocation]] — コンセンサス順序付けされた取り消し
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
+- [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
 - [[glossary/Contract-Deactivation|Contract Deactivation]] — コントラクト非アクティブ化
@@ -278,6 +286,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
 - [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
 - [[glossary/EVM-Code|EVM Code]] — EVMコード
+- [[glossary/EVM-Verification-Key-Registry|EVM Verification Key Registry]] — EVM検証鍵レジストリ
 - [[glossary/Exchange-channel-minting|Exchange-channel minting]] — 交換チャネルミント
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/executable-skill|executable skill]] — 実行可能なスキル
@@ -285,6 +294,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
+- [[glossary/execution-position|execution position]] — 実行位置
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
@@ -296,6 +306,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
+- [[glossary/FAT-Agent|FAT Agent]] — FATエージェント
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
@@ -320,6 +331,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
 - [[glossary/Function-Selector|Function Selector]] — 関数セレクター
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
+- [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
@@ -365,6 +377,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/independently-recomputable-identifier|independently-recomputable identifier]] — 独立して再計算可能な識別子
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
 - [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
@@ -391,6 +404,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/KZG-commitment|KZG commitment]] — KZGコミットメント
 - [[glossary/L-hard-fork|L* hard fork]] — L* ハードフォーク
 - [[glossary/L0-behavioral-biometrics|L0 behavioral biometrics]] — L0行動生体認証
+- [[glossary/L1-feature-fork|L1 feature fork]] — L1機能フォーク
 - [[glossary/L1-zkEVM|L1-zkEVM]] — L1-zkEVM (レイヤー1 zkEVM)
 - [[glossary/Lamport-chain|Lamport chain]] — ランポートチェーン
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
@@ -465,6 +479,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
 - [[glossary/Native-UTXOs|Native UTXOs]] — ネイティブUTXO
 - [[glossary/native-zkEVM|native zkEVM]] — ネイティブzkEVM
+- [[glossary/NatSpec|NatSpec]] — NatSpec
 - [[glossary/Natural-Transformation|Natural Transformation]] — 自然変換 (Natural Transformation)
 - [[glossary/NAV-basis|NAV basis]] — NAV基準 (NAV basis)
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
@@ -496,6 +511,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/On-chain-safeguards|On-chain safeguards]] — オンチェーンセーフガード
+- [[glossary/On-chain-status-anchor|On-chain status anchor]] — オンチェーンステータスアンカー
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
 - [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
@@ -558,6 +574,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-consumption-falsifiability|Post-consumption falsifiability]] — 消費後反証可能性 (Post-consumption falsifiability)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
+- [[glossary/Post-quantum-migration|Post-quantum migration]] — ポスト量子移行
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
@@ -598,13 +615,17 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
+- [[glossary/Purpose-Bound-Third-Party-Data-Consent|Purpose-Bound Third-Party Data Consent]] — 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
 - [[glossary/RANDAO|RANDAO]] — RANDAO
 - [[glossary/RANDAO-target-slot-attack|RANDAO target slot attack]] — RANDAOターゲットスロット攻撃
+- [[glossary/Reasoned-Settlement|Reasoned Settlement]] — 推論に基づく決済
+- [[glossary/Reasoning-Attestation|Reasoning Attestation]] — 推論証明
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
 - [[glossary/Received-Floor|Received Floor]] — 受容された基盤
+- [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
@@ -613,6 +634,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/regulatory-state-machine|regulatory state machine]] — 規制状態機械
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]] — 関係性アンカー型マネー
 - [[glossary/renounce-upgrade-authority|renounce upgrade authority]] — アップグレード権限の放棄
+- [[glossary/reorg-resistant|reorg-resistant]] — リorg耐性 (reorg-resistant)
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
 - [[glossary/Replay-based-Verification|Replay-based Verification]] — リプレイベース検証
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離

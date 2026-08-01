@@ -4,7 +4,7 @@ aliases:
   - ブロブ
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **ブロブ**
