@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,9 @@ date: '2026-07-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities-29220|ファンジブルエージェントトークン (FAT) — オンチェーン経済エンティティとしてのAIエージェントの最小標準]]（2026-07-31）
+- [[posts/magicians-2026-07-31-erc-8356-purpose-bound-third-party-data-consent-29217|ERC-8356: 利用目的拘束型第三者データ同意]]（2026-07-31）
+- [[posts/magicians-2026-07-31-post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature-29225|オンチェーンIDの耐量子移行：アンカーされた鍵バインディングとカットオフ、再計算による検証（セカンドシグネチャではない）]]（2026-07-31）
 - [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
 - [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）

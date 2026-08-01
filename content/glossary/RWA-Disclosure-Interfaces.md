@@ -5,7 +5,7 @@ aliases:
   - ERC RWA Disclosure Interfaces
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **RWA開示インターフェース**

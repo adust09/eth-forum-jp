@@ -6,7 +6,7 @@ aliases:
   - Associate EIP Editors
 tags:
   - glossary
-date: '2026-07-31'
+date: '2026-08-01'
 ---
 
 **EIPエディター**
@@ -19,6 +19,7 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、および管理�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-07-31-erc-8356-purpose-bound-third-party-data-consent-29217|ERC-8356: 利用目的拘束型第三者データ同意]]（2026-07-31）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 - [[posts/magicians-2026-07-15-eipip-meeting-129-aug-12-2026-29015|EIPIPミーティング #129、2026年8月12日]]（2026-07-15）
 - [[posts/magicians-2026-07-02-proposing-a-family-of-candidate-erc-interfaces-for-titled-asset-infrastructure-architecture-review-28913|権原付き資産インフラストラクチャ向け候補ERCインターフェース群の提案 — アーキテクチャレビュー]]（2026-07-02）
