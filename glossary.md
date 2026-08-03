@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-01
+last_updated: 2026-08-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7822,3 +7822,40 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/deterministic-random-number-in-evm-for-independent-recomputability/29208
 - desc: |
   提案されているEVMオペコードの一つで、ブロック固有の決定論的な識別子を生成することを目的とする。チェーンID、ブロック番号、タイムスタンプ、ベースフィー、ガスリミットなどのブロックヘッダー情報からハッシュ値を計算することが想定されている。
+
+## Non-transferable credits
+- ja: 譲渡不可能なクレジット
+- related: [Credit decay, Public goods]
+- auto_added: 2026-08-03
+- auto_source_topic_id: 25602
+- auto_source_url: https://ethresear.ch/t/dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor/25602
+- desc: |
+  金銭的価値の蓄積や投機を防ぐため、個人間での譲渡ができないように設計されたクレジット。Ethereumエコシステムにおける公共財や評判システムで、インセンティブ設計の重要な要素となる。
+
+## Credit decay
+- ja: クレジットの減衰
+- aliases: [Decay (of credits)]
+- related: [Non-transferable credits, Decay-gaming]
+- auto_added: 2026-08-03
+- auto_source_topic_id: 25602
+- auto_source_url: https://ethresear.ch/t/dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor/25602
+- desc: |
+  未使用のクレジットが時間とともに価値を失ったり失効したりするメカニズム。投機的な蓄積を防ぎ、積極的な参加を促すことで、システムの目的とインセンティブを一致させる。
+
+## Decay-gaming
+- ja: 減衰ゲーミング
+- related: [Credit decay, Sybil resistance]
+- auto_added: 2026-08-03
+- auto_source_topic_id: 25602
+- auto_source_url: https://ethresear.ch/t/dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor/25602
+- desc: |
+  クレジットの減衰メカニズムを回避しようとする行為。例えば、最小限の労力で取引を行う、あるいは新しいアイデンティティを登録するなどして、実質的な参加なしにクレジットの有効期限をリセットし、蓄積を維持しようとする。
+
+## Multi-signal feedback loop
+- ja: マルチシグナルフィードバックループ
+- related: [Dynamic rate adjustment]
+- auto_added: 2026-08-03
+- auto_source_topic_id: 25602
+- auto_source_url: https://ethresear.ch/t/dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor/25602
+- desc: |
+  複数の異なるデータポイント（需給、離脱率、リピート率、アンケートなど）を用いて、システムパラメータ（労働の交換レートなど）を動的に調整する制御メカニズム。単一のシグナルに基づくシステムよりも、堅牢で繊細な調整を目指す。

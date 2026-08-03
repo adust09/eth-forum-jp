@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-01'
+date: '2026-08-03'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -194,6 +194,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Coupling-Breadth|Coupling Breadth]] — 結合の広さ (Coupling Breadth)
 - [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
+- [[glossary/Credit-decay|Credit decay]] — クレジットの減衰
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
@@ -207,6 +208,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/debugexecutionWitness|debug_executionWitness]] — debug_executionWitness (デバッグ実行証人)
+- [[glossary/Decay-gaming|Decay-gaming]] — 減衰ゲーミング
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
@@ -473,6 +475,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
+- [[glossary/Multi-signal-feedback-loop|Multi-signal feedback loop]] — マルチシグナルフィードバックループ
 - [[glossary/Multisig|Multisig]] — マルチシグ（マルチシグネチャ）
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/Namespaced-Storage|Namespaced Storage]] — 名前空間付きストレージ
@@ -486,6 +489,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/nested-iframe-pattern|nested iframe pattern]] — ネストされたiframeパターン
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
+- [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Nonzero-Evidence-Commitment|Nonzero Evidence Commitment]] — ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
 - [[glossary/Normalization-Profile|Normalization Profile]] — 正規化プロファイル
