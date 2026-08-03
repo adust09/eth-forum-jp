@@ -4,7 +4,7 @@ aliases:
   - 再帰的STARK
 tags:
   - glossary
-date: '2026-08-01'
+date: '2026-08-03'
 ---
 
 **再帰的STARK**
