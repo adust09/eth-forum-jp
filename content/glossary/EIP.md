@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-04-eip-8360-tcreate-opcode-29258|EIP-8360: TCREATE オペコード]]（2026-08-04）
 - [[posts/magicians-2026-07-31-eip-8355-precompiles-for-ml-dsa-verification-29211|EIP-8355: ML-DSA検証用プリコンパイル]]（2026-07-31）
 - [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）
 - [[posts/magicians-2026-07-31-eip-8359-beacon-block-reporting-field-29224|EIP-8359: ビーコンブロック報告フィールド]]（2026-07-31）

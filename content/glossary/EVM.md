@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,6 +21,7 @@ date: '2026-08-03'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-04-eip-8360-tcreate-opcode-29258|EIP-8360: TCREATE オペコード]]（2026-08-04）
 - [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
 - [[posts/magicians-2026-07-03-erc-priority-update-registry-pur-28921|ERC: プライオリティ更新レジストリ (PUR)]]（2026-07-03）
