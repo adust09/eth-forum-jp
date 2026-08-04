@@ -5,7 +5,7 @@ aliases:
   - TEE
 tags:
   - glossary
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 **トラステッド実行環境 (TEE)**
@@ -19,6 +19,7 @@ date: '2026-08-03'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-03-arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation-25614|Arcanum: ソースコード向けプライバシーファーストなコンパイラレイヤー — 現状はTEE、長期的にはZKを基盤に]]（2026-08-03）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
 - [[posts/ethresear-2026-06-08-trustless-payments-and-relays-25125|トラストレスな支払いとリレー]]（2026-06-08）

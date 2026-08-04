@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-03
+last_updated: 2026-08-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7859,3 +7859,30 @@ description: |
 - auto_source_url: https://ethresear.ch/t/dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor/25602
 - desc: |
   複数の異なるデータポイント（需給、離脱率、リピート率、アンケートなど）を用いて、システムパラメータ（労働の交換レートなど）を動的に調整する制御メカニズム。単一のシグナルに基づくシステムよりも、堅牢で繊細な調整を目指す。
+
+## Arithmetic Circuit
+- ja: 算術回路
+- related: [STARK, Zero-Knowledge Proof]
+- auto_added: 2026-08-04
+- auto_source_topic_id: 25614
+- auto_source_url: https://ethresear.ch/t/arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation/25614
+- desc: |
+  ゼロ知識証明システムにおいて、計算を表現するために使用される数学的な回路。加算と乗算のゲートで構成され、プログラムの実行を検証可能な形式に変換する。
+
+## Verifiable Execution
+- ja: 検証可能な実行
+- related: [ZKVM, Zero-Knowledge Proof, Trusted Execution Environment]
+- auto_added: 2026-08-04
+- auto_source_topic_id: 25614
+- auto_source_url: https://ethresear.ch/t/arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation/25614
+- desc: |
+  計算が正しく実行されたことを第三者が検証できる特性。特にゼロ知識証明やトラステッド実行環境の文脈で、計算の完全性と正確性を保証するために重要となる。
+
+## TCREATE
+- ja: TCREATEオペコード
+- related: [EVM opcode, CREATE opcode, temporary contracts]
+- auto_added: 2026-08-04
+- auto_source_topic_id: 29258
+- auto_source_url: https://ethereum-magicians.org/t/eip-8360-tcreate-opcode/29258
+- desc: |
+  EIP-8360で導入される新しいEVMオペコードです。一時的なコントラクトをガス効率よく、かつステートを認識した形でデプロイするための公式なメカニズムを提供します。

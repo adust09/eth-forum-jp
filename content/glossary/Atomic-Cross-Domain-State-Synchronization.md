@@ -6,7 +6,7 @@ aliases:
   - causally coupled bidirectional synchronization
 tags:
   - glossary
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 **アトミックなクロスドメイン状態同期**

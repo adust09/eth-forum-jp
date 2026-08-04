@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -61,6 +61,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
 - [[glossary/Application-Controlled-Execution|Application-Controlled Execution]] — アプリケーション制御型実行 (ACE)
+- [[glossary/Arithmetic-Circuit|Arithmetic Circuit]] — 算術回路
 - [[glossary/Asset-Anchor-Registry|Asset Anchor Registry]] — 資産アンカーレジストリ
 - [[glossary/Asset-Class|Asset Class]] — 資産クラス (Asset Class)
 - [[glossary/Asset-futarchy|Asset futarchy]] — アセット・フューチャーキー (資産フューチャーキー)
@@ -765,6 +766,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
+- [[glossary/TCREATE|TCREATE]] — TCREATEオペコード
 - [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
 - [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
 - [[glossary/testingcommitBlockV1|testing_commitBlockV1]] — testing_commitBlockV1 (ブロックコミットテストV1)
@@ -826,6 +828,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行
 - [[glossary/verifiable-claims|verifiable claims]] — 検証可能なクレーム
+- [[glossary/Verifiable-Execution|Verifiable Execution]] — 検証可能な実行
 - [[glossary/Verifiably-Decentralized-Blockchain-System|Verifiably Decentralized Blockchain System]] — 検証可能な分散型ブロックチェーンシステム
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verification-key-churn|Verification key churn]] — 検証キーの頻繁な更新 (Verification key churn)

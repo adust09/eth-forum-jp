@@ -5,7 +5,7 @@ aliases:
   - application-specific blockchain
 tags:
   - glossary
-date: '2026-08-03'
+date: '2026-08-04'
 ---
 
 **アプリケーションチェーン**
