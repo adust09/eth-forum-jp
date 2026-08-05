@@ -5,7 +5,7 @@ aliases:
   - MPT
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **マークルパトリシアトライ (MPT)**
@@ -20,6 +20,7 @@ Ethereumのステート、トランザクション、レシートを効率的か
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
 
 ## 元の表記（英語）

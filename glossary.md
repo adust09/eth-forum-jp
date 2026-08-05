@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -7886,3 +7886,206 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8360-tcreate-opcode/29258
 - desc: |
   EIP-8360で導入される新しいEVMオペコードです。一時的なコントラクトをガス効率よく、かつステートを認識した形でデプロイするための公式なメカニズムを提供します。
+
+## Decentralized State
+- ja: 分散型ステート
+- aliases: [DS]
+- related: [Stateless Clients, Full Node, State structure]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 25622
+- auto_source_url: https://ethresear.ch/t/why-decentralized-state-is-important-for-ethereum/25622
+- desc: |
+  Ethereumの今後のアップグレード、特にステートレスクライアントの導入に伴う課題（Mempoolの検証、フルノードの同期、自己主権的なアクセスなど）を解決するために提案されている概念。ネットワーク全体に最新のヘッドステートを分散して保存することで、これらの課題に対処することを目指す。
+
+## Stateless Clients
+- ja: ステートレスクライアント
+- aliases: [Stateless nodes]
+- related: [Execution Layer, Merkle Patricia Trie, Verkle Tree, Unified Binary Tree, Partitioned Binary Tree, Decentralized State]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 25622
+- auto_source_url: https://ethresear.ch/t/why-decentralized-state-is-important-for-ethereum/25622
+- desc: |
+  実行レイヤーのステートを完全に保存することなく、バリデータノードを実行できるクライアント。これにより、ノードのハードウェア要件を軽減し、スケーラビリティを向上させることを目指すが、Mempool検証やフルノード同期などの新たな課題も生じる。
+
+## Code chunking
+- ja: コードチャンキング
+- related: [EIP-2926, Stateless Clients, State tree migration]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 25622
+- auto_source_url: https://ethresear.ch/t/why-decentralized-state-is-important-for-ethereum/25622
+- desc: |
+  ステートレスクライアントを実現するための技術の一つで、スマートコントラクトのコードを小さなチャンクに分割し、必要に応じてオンデマンドで取得・検証する手法。EIP-2926などで提案されており、ステートツリーの移行と合わせて検討されることが多い。
+
+## Unified Binary Tree
+- ja: 統合バイナリツリー
+- aliases: [UBT]
+- related: [Merkle Patricia Trie, Partitioned Binary Tree, Verkle Tree, Stateless Clients, State structure]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 25622
+- auto_source_url: https://ethresear.ch/t/why-decentralized-state-is-important-for-ethereum/25622
+- desc: |
+  Ethereumの現在のMerkle Patricia Trieに代わる新しいステート構造として提案されているものの一つ。ステートレスクライアントやzkEVMなどの改善に適しており、特に分散型ステート（DS）設計において、ステートの均等な分散と効率的な部分ステート証明に非常に適しているとされる。
+
+## SSZ Compact Multiproofs
+- ja: SSZコンパクトマルチプルーフ
+- related: [SSZ]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29277
+- auto_source_url: https://ethereum-magicians.org/t/eip-8364-ssz-compact-multiproofs/29277
+- desc: |
+  SSZ (Simple Serialize) データ構造において、複数の要素に対する証明を効率的に行うための技術です。証明のサイズをコンパクトに保ちつつ、複数のデータ要素の検証を可能にすることで、データ可用性サンプリングなどのプロトコルにおける効率化を目指します。
+
+## Inheritable Agent Mandate
+- ja: 継承可能なエージェントマンデート
+- aliases: [Inheritable Mandate]
+- related: [AI agents, Mandate, Soulbound Identity]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29275
+- auto_source_url: https://ethereum-magicians.org/t/inheritable-agent-mandates-a-non-strippable-inherited-leash-for-on-chain-agents/29275
+- desc: |
+  オンチェーンエージェントが子エージェントを生成する際に、親エージェントの権限（キャップ、有効期限、複製予算、許可された受取人など）を子エージェントに継承させるメカニズム。子エージェントは親よりも能力が低い（または同等）でなければならず、このマンデートは剥奪不可能。
+
+## Telomere (reproduction counter)
+- ja: テロメア（複製カウンター）
+- aliases: [Generation counter]
+- related: [AI agents, Inheritable Agent Mandate]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29275
+- auto_source_url: https://ethereum-magicians.org/t/inheritable-agent-mandates-a-non-strippable-inherited-leash-for-on-chain-agents/29275
+- desc: |
+  オンチェーンエージェントが複製できる回数を制限するためのカウンター。生物学的なテロメアに例えられ、エージェントが子エージェントを生成するたびにカウントダウンされ、ゼロになると複製が停止する。
+
+## Cascading freeze
+- ja: カスケードフリーズ
+- related: [Inheritable Agent Mandate, AI agents]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29275
+- auto_source_url: https://ethereum-magicians.org/t/inheritable-agent-mandates-a-non-strippable-inherited-leash-for-on-chain-agents/29275
+- desc: |
+  親エージェントがフリーズ（機能停止）した場合、その状態が自動的にすべての子エージェントにも伝播し、子エージェントもフリーズするメカニズム。エージェントの制御を維持するための重要なガードレール。
+
+## Delegation tree
+- ja: デリゲーションツリー
+- related: [Mandate, AI agents]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29275
+- auto_source_url: https://ethereum-magicians.org/t/inheritable-agent-mandates-a-non-strippable-inherited-leash-for-on-chain-agents/29275
+- desc: |
+  権限や予算が階層的に委任される構造。親エンティティが子エンティティに特定の能力を委任し、その子がさらに下位に委任することで形成される。
+
+## Execution-gate substrate
+- ja: 実行ゲート基盤
+- related: [Custody, Mandate]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29275
+- auto_source_url: https://ethereum-magicians.org/t/inheritable-agent-mandates-a-non-strippable-inherited-leash-for-on-chain-agents/29275
+- desc: |
+  トランザクションや操作が実行される前に、特定の条件やポリシーを満たしているかを検証し、満たさない場合は実行を阻止する基盤レイヤー。エージェントの行動を強制的に制限する役割を持つ。
+
+## Unclonable Agent Execution Credentials
+- ja: アンクローン可能なエージェント実行クレデンシャル
+- related: [Zero Knowledge Nullifier, Autonomous Agent, Exactly Once Execution]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29274
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-erc-unclonable-agent-execution-credentials-via-zero-knowledge-nullifiers/29274
+- desc: |
+  自律エージェントが特定のタスクを実行するための、厳密に1回限りの事前実行認証メカニズム。ゼロ知識nullifierを用いて、侵害されたエージェントによるクレデンシャルのクローンやリプレイを防ぎ、実行の完全性と厳密な1回実行を保証する。
+
+## Exactly Once Execution
+- ja: 厳密な1回実行
+- related: [Unclonable Agent Execution Credentials, Zero Knowledge Nullifier]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29274
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-erc-unclonable-agent-execution-credentials-via-zero-knowledge-nullifiers/29274
+- desc: |
+  特定の操作やタスクが、システム内で正確に一度だけ実行されることを保証する特性。特に自律エージェントの認証において、不正なリプレイ攻撃を防ぐために重要となる。
+
+## Cross Chain Nullifier Synchronization
+- ja: クロスチェーンNullifier同期
+- related: [Nullifier, Cross-chain, Unclonable Agent Execution Credentials]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29274
+- auto_source_url: https://ethereum-magicians.org/t/idea-draft-erc-unclonable-agent-execution-credentials-via-zero-knowledge-nullifiers/29274
+- desc: |
+  複数のブロックチェーン間でNullifierの状態を同期させるプロセス。特に、あるチェーンで消費されたNullifierが、別のチェーンで不正に再利用されるのを防ぐために必要となる。
+
+## Transaction Validity Proofs
+- ja: トランザクション有効性証明
+- related: [Transaction, Proof, Validity, Zero-Knowledge Proof, Stateless Client, Rollup]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29265
+- auto_source_url: https://ethereum-magicians.org/t/eip-8361-transaction-validity-proofs/29265
+- desc: |
+  Ethereumプロトコルにおいて、特定のトランザクションが有効であること（例えば、署名が正しい、残高が十分である、状態遷移が正当であるなど）を簡潔に証明するメカニズム。ステートレスクライアントやL2ソリューションにおける効率的な検証に利用される。
+
+## Tapered Issuance Burn
+- ja: テーパー型発行量バーン
+- related: [ETH issuance curve, validator rewards, ETH burn]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29263
+- auto_source_url: https://ethereum-magicians.org/t/eip-8361-tapered-issuance-burn/29263
+- desc: |
+  イーサリアムのETH発行量を調整するメカニズムの一つで、バリデータ報酬の一部をバーンすることで、発行量を段階的に減少させることを目的とします。
+
+## ETH issuance curve
+- ja: ETH発行曲線
+- related: [ETH issuance, ETH burn, monetary policy]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29263
+- auto_source_url: https://ethereum-magicians.org/t/eip-8361-tapered-issuance-burn/29263
+- desc: |
+  イーサリアムネットワークにおける新規ETHの発行レートを決定する関数またはモデルです。ネットワークの経済的安定性とセキュリティに影響を与えます。
+
+## validator rewards
+- ja: バリデータ報酬
+- related: [validator, ETH issuance, staking]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29263
+- auto_source_url: https://ethereum-magicians.org/t/eip-8361-tapered-issuance-burn/29263
+- desc: |
+  イーサリアムのプルーフ・オブ・ステークネットワークにおいて、ブロックの提案やアテステーションなどの義務を果たすバリデータに支払われるインセンティブです。新規発行されたETHやトランザクション手数料の一部から構成されます。
+
+## partial burn
+- ja: 部分バーン
+- related: [ETH burn, ETH issuance curve]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29263
+- auto_source_url: https://ethereum-magicians.org/t/eip-8361-tapered-issuance-burn/29263
+- desc: |
+  トークンの総供給量を減らすために、発行されたトークンの一部を永久に利用不可能にすることです。特に、イーサリアムではトランザクション手数料やバリデータ報酬の一部がバーンされます。
+
+## Contract-Hosted Application HTML
+- ja: コントラクトホスト型アプリケーションHTML
+- related: [ERC]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29254
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026/29254
+- desc: |
+  コントラクトにホストされるアプリケーションのHTMLコンテンツに関するERC。オンチェーンでアプリケーションのフロントエンドを提供するための標準を定義します。
+
+## Clear Signing On-Chain Descriptors Registry
+- ja: クリア署名オンチェーン記述子レジストリ
+- related: [Clear Signing, ERC]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29254
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026/29254
+- desc: |
+  クリア署名のためのオンチェーン記述子を登録・管理するための標準を定義するERC。ユーザーが署名する内容を人間が読める形式で明確に表示することを目的とします。
+
+## Token-Bound Executable Skills
+- ja: トークン結合型実行可能スキル
+- related: [Token-Bound Account, Executable Skill, ERC]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29254
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026/29254
+- desc: |
+  トークンに紐付けられた実行可能なスキルを定義するERC。特定のトークンを所有することで、そのトークンが表すスキルや機能を実行できるメカニズムを提供します。
+
+## Index-Based Multi-Facet Proxy
+- ja: インデックスベース多面ファセットプロキシ
+- related: [Facet, Diamond Standard, Proxy]
+- auto_added: 2026-08-05
+- auto_source_topic_id: 29254
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026/29254
+- desc: |
+  複数のファセット（機能モジュール）をインデックスに基づいて管理するプロキシコントラクトのパターンを定義するERC。コントラクトのアップグレード可能性とモジュール性を高めます。

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,7 +20,11 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-eip-8364-ssz-compact-multiproofs-29277|EIP-8364: SSZコンパクトマルチプルーフ]]（2026-08-05）
+- [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/magicians-2026-08-04-eip-8360-tcreate-opcode-29258|EIP-8360: TCREATE オペコード]]（2026-08-04）
+- [[posts/magicians-2026-08-04-eip-8361-tapered-issuance-burn-29263|EIP-8361: テーパー型発行量バーン]]（2026-08-04）
+- [[posts/magicians-2026-08-03-eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026-29254|EIP編集オフィスアワー (EIP + ERC) 会議 #109、2026年8月4日]]（2026-08-03）
 - [[posts/magicians-2026-07-31-eip-8355-precompiles-for-ml-dsa-verification-29211|EIP-8355: ML-DSA検証用プリコンパイル]]（2026-07-31）
 - [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）
 - [[posts/magicians-2026-07-31-eip-8359-beacon-block-reporting-field-29224|EIP-8359: ビーコンブロック報告フィールド]]（2026-07-31）

@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,8 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
+- [[posts/magicians-2026-08-04-eip-8361-tapered-issuance-burn-29263|EIP-8361: テーパー型発行量バーン]]（2026-08-04）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-07-03-in-protocol-client-data-reporting-25353|プロトコル内クライアントデータ報告]]（2026-07-03）
