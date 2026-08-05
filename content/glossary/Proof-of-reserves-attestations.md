@@ -5,7 +5,7 @@ aliases:
   - Proof-of-reserves
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **準備金証明アテステーション**

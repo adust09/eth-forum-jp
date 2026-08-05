@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **zkEVM (ゼロ知識イーサリアム仮想マシン)**
@@ -20,6 +20,7 @@ date: '2026-08-04'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-06-21-a-native-zkevm-scales-bandwidth-not-just-execution-25254|ネイティブzkEVMは実行だけでなく帯域幅もスケールする]]（2026-06-21）
 - [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）
 

@@ -5,7 +5,7 @@ aliases:
   - ZK-nullifiers
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **ZKヌリファイア（ゼロ知識ヌリファイア）**
@@ -19,7 +19,7 @@ date: '2026-08-04'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-04-idea-draft-erc-unclonable-agent-execution-credentials-via-zero-knowledge-nullifiers-29274|[アイデア/ドラフト] ERC: ゼロ知識ヌリファイアによるアンクローナブルなエージェント実行クレデンシャル]]（2026-08-04）
 
 ## 元の表記（英語）
 

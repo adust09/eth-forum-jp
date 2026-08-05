@@ -4,7 +4,7 @@ aliases:
   - ブロック・イン・ブロブ (blocks-in-blobs)
 tags:
   - glossary
-date: '2026-08-04'
+date: '2026-08-05'
 ---
 
 **ブロック・イン・ブロブ (blocks-in-blobs)**
@@ -20,7 +20,7 @@ date: '2026-08-04'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 
 ## 元の表記（英語）
 
