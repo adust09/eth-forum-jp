@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,7 +20,13 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-eip-8358-net-gas-metering-for-account-changes-29304|EIP-8358 アカウント変更のためのネットガスメータリング]]（2026-08-05）
 - [[posts/magicians-2026-08-05-eip-8364-ssz-compact-multiproofs-29277|EIP-8364: SSZコンパクトマルチプルーフ]]（2026-08-05）
+- [[posts/magicians-2026-08-05-eip-8365-bls-withdrawal-credential-retirement-29284|EIP-8365: BLS引き出しクレデンシャルの廃止]]（2026-08-05）
+- [[posts/magicians-2026-08-05-eip-8367-balance-sunset-for-retired-bls-validators-29299|EIP-8367: 引退したBLSバリデータの残高サンセット]]（2026-08-05）
+- [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
+- [[posts/magicians-2026-08-05-native-eth-as-erc-20-system-contract-draft-for-feedback-29301|ネイティブETHをERC-20システムコントラクトとして — フィードバック募集ドラフト]]（2026-08-05）
+- [[posts/magicians-2026-08-05-preferential-gas-costs-for-native-eth-operations-draft-for-feedback-29302|ネイティブETH操作のガス代優遇 — フィードバック用ドラフト]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/magicians-2026-08-04-eip-8360-tcreate-opcode-29258|EIP-8360: TCREATE オペコード]]（2026-08-04）
 - [[posts/magicians-2026-08-04-eip-8361-tapered-issuance-burn-29263|EIP-8361: テーパー型発行量バーン]]（2026-08-04）

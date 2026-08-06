@@ -4,7 +4,7 @@ aliases:
   - オンチェーンレジストリ
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **オンチェーンレジストリ**
@@ -18,6 +18,7 @@ ERC-7730のクリア署名記述子を許可なく維持・更新できるスマ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-07-07-eip-editing-office-hour-eip-erc-meeting-105-july-7-2026-28963|EIP編集オフィスアワー (EIP + ERC) ミーティング #105、2026年7月7日]]（2026-07-07）
 - [[posts/magicians-2026-06-24-introducing-a-privileged-role-control-framework-28859|特権ロール制御フレームワークの紹介]]（2026-06-24）
 

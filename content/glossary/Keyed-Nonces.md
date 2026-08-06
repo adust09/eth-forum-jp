@@ -5,7 +5,7 @@ aliases:
   - EIP-8250 Keyed Nonces
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **キー付きNonce (Keyed Nonces)**
@@ -21,7 +21,7 @@ EIP-8250で提案されている、トランザクションのリプレイ保護
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - EIP-712アテステーションプロファイル
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **EIP-712アテステーションプロファイル**
@@ -19,6 +19,7 @@ EIP-712標準を利用して、AI推論の入力来歴や実行結果などの�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-06-01-draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody-28670|ドラフトERC: パーミッションレジストリ — カストディなしでエージェントに機能スコープの委任を]]（2026-06-01）
 - [[posts/magicians-2026-05-31-erc-8004-validation-network-interface-extension-for-multi-validator-networks-28669|ERC-8004検証ネットワークインターフェース — マルチ検証者ネットワークのための拡張]]（2026-05-31）
 
