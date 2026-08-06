@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-08-05'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
 
 ## 元の表記（英語）

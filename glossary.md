@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-05
+last_updated: 2026-08-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -8089,3 +8089,361 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-109-aug-04-2026/29254
 - desc: |
   複数のファセット（機能モジュール）をインデックスに基づいて管理するプロキシコントラクトのパターンを定義するERC。コントラクトのアップグレード可能性とモジュール性を高めます。
+
+## Net Gas Metering for Account Changes
+- ja: アカウント変更のネットガス計測
+- related: [EIP-8358, EIP-2200, Gas Metering]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29304
+- auto_source_url: https://ethereum-magicians.org/t/eip-8358-net-gas-metering-for-account-changes/29304
+- desc: |
+  EIP-8358で導入される、アカウントの残高やnonceの変更に対するガス計測スキーム。ストレージに対するEIP-2200のスキームと同様に、変更の正味（ネット）のコストに基づいてガスを計算する。
+
+## CALL_VALUE_BASE_GAS
+- ja: CALL_VALUEベースガス
+- related: [CALL_VALUE, CALL_STIPEND, EIP-8358, EIP-8038, EIP-7708]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29304
+- auto_source_url: https://ethereum-magicians.org/t/eip-8358-net-gas-metering-for-account-changes/29304
+- desc: |
+  EIP-8358で導入される、`CALL`および`CALLCODE`オペコードによる値転送の新しいガスコスト。EIP-8038で定義された`CALL_VALUE`を置き換え、stipendとEIP-7708の転送ログのコストを含む。
+
+## CLEAN_BALANCE_CHANGE_GAS
+- ja: クリーン残高変更ガス
+- related: [Net Gas Metering for Account Changes, EIP-8358]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29304
+- auto_source_url: https://ethereum-magicians.org/t/eip-8358-net-gas-metering-for-account-changes/29304
+- desc: |
+  EIP-8358で導入されるガス料金。トランザクション内でまだ残高またはnonceが変更されていないアカウントに対して、その残高またはnonceが変更された際に課される。既に変更されたアカウントには追加のガスは課されない。
+
+## BALANCE_RESET_REFUND
+- ja: 残高リセット返金
+- related: [Net Gas Metering for Account Changes, EIP-8358, Refund Counter]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29304
+- auto_source_url: https://ethereum-magicians.org/t/eip-8358-net-gas-metering-for-account-changes/29304
+- desc: |
+  EIP-8358で導入される返金メカニズム。アカウントの残高が元の値に戻り、かつnonceが変更されていない場合に、返金カウンターに追加されるガス量。
+
+## CALL_VALUE
+- ja: CALL値
+- related: [CALL_VALUE_BASE_GAS, ACCOUNT_WRITE, CALL_STIPEND, EIP-8038]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29304
+- auto_source_url: https://ethereum-magicians.org/t/eip-8358-net-gas-metering-for-account-changes/29304
+- desc: |
+  EIP-8038で定義された、`CALL`および`CALLCODE`オペコードによる値転送のガスコスト。EIP-8358によって`CALL_VALUE_BASE_GAS`に置き換えられる。`ACCOUNT_WRITE`と`CALL_STIPEND`の合計として定義されていた。
+
+## SELFBALANCE
+- ja: SELFBALANCE (EVMオペコード)
+- related: [BALANCE, CALLVALUE]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29302
+- auto_source_url: https://ethereum-magicians.org/t/preferential-gas-costs-for-native-eth-operations-draft-for-feedback/29302
+- desc: |
+  EVMのオペコードの一つで、現在実行中のコントラクト自身のETH残高を取得するために使用されます。EIP-8038などのガス料金変更の文脈で、そのコストが議論されることがあります。
+
+## Digital Reserve Currency
+- ja: デジタル基軸通貨 (Digital Reserve Currency)
+- related: [ETH]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29302
+- auto_source_url: https://ethereum-magicians.org/t/preferential-gas-costs-for-native-eth-operations-draft-for-feedback/29302
+- desc: |
+  イーサリアムのネイティブトークンであるETHが、ブロックチェーンエコシステム内での価値の保存、交換、計算の主要な媒体として機能する概念を指します。ETHの構造的な利点を強化することで、この役割を促進しようとする提案があります。
+
+## Value-transfer gas component
+- ja: 価値転送ガスコンポーネント
+- related: [CALL, CREATE, Gas Cost]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29302
+- auto_source_url: https://ethereum-magicians.org/t/preferential-gas-costs-for-native-eth-operations-draft-for-feedback/29302
+- desc: |
+  `CALL`や`CREATE`などのEVMオペコードにおいて、ETHの価値転送が発生する際に課されるガス料金の一部です。Yellow Paperの`G_callvalue`やEIP-8038の分解で定義されており、このコストを調整することでネイティブETHの利用を促進する提案があります。
+
+## Cold/Warm Access Costs
+- ja: コールド/ウォームアクセスコスト
+- aliases: [cold access costs, warm access costs]
+- related: [EIP-2929, State Access]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29302
+- auto_source_url: https://ethereum-magicians.org/t/preferential-gas-costs-for-native-eth-operations-draft-for-feedback/29302
+- desc: |
+  イーサリアムのステート（状態）にアクセスする際に発生するガス料金で、EIP-2929で導入されました。最近アクセスされていないステート（コールド）へのアクセスは高価であり、最近アクセスされたステート（ウォーム）へのアクセスは安価です。
+
+## Context Opcodes
+- ja: コンテキストオペコード
+- related: [EVM, Opcode]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29302
+- auto_source_url: https://ethereum-magicians.org/t/preferential-gas-costs-for-native-eth-operations-draft-for-feedback/29302
+- desc: |
+  EVMのオペコードのうち、現在の実行コンテキストに関する情報（例：`CALLER`、`ADDRESS`、`TIMESTAMP`など）を取得するために使用されるものを指します。これらのオペコードは通常、比較的低いガス料金で実行されます。
+
+## ERC-2612
+- ja: ERC-2612
+- related: [ERC-20, Permit]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29301
+- auto_source_url: https://ethereum-magicians.org/t/native-eth-as-erc-20-system-contract-draft-for-feedback/29301
+- desc: |
+  ERC-20トークンに「Permit」機能を追加する標準。これにより、ユーザーはガスを支払うことなくオフチェーンで署名し、その署名を使ってオンチェーンでトークンを承認（approve）できるようになります。
+
+## Preferential Gas Schedule
+- ja: 優遇ガススケジュール
+- related: [Gas Cost]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29301
+- auto_source_url: https://ethereum-magicians.org/t/native-eth-as-erc-20-system-contract-draft-for-feedback/29301
+- desc: |
+  特定の操作やシステムコントラクトに対して、通常の操作よりも低いガス料金を設定するメカニズム。これにより、特定のプロトコルレベルの機能の利用を促進します。
+
+## Balance Invariant
+- ja: 残高不変条件
+- related: [State Invariant]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29301
+- auto_source_url: https://ethereum-magicians.org/t/native-eth-as-erc-20-system-contract-draft-for-feedback/29301
+- desc: |
+  システム内の総資産（例: ETHやトークン）の残高が、トランザクションや操作を通じて常に一定に保たれるべきであるという特性。金融システムの健全性を保証するために重要です。
+
+## Selector-collision risk
+- ja: セレクター衝突リスク
+- related: [Function Selector, Diamond Standard]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29301
+- auto_source_url: https://ethereum-magicians.org/t/native-eth-as-erc-20-system-contract-draft-for-feedback/29301
+- desc: |
+  スマートコントラクトにおいて、異なる関数が同じ4バイトの関数セレクターを持つことで発生するリスク。特にプロキシコントラクトやモジュール化されたコントラクトで問題となる可能性があります。
+
+## Balance sunset
+- ja: 残高サンセット
+- related: [BLS withdrawal credential retirement, 0x00 validator]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29299
+- auto_source_url: https://ethereum-magicians.org/t/eip-8367-balance-sunset-for-retired-bls-validators/29299
+- desc: |
+  特定の条件（例：引退したBLSバリデータ）を満たすウォレットの残高を、一定期間をかけて徐々にゼロに減らしていくプロセス。これは、プロトコルの健全性を保ちつつ、将来的なアップグレードを円滑に進めるために提案される。
+
+## BLS withdrawal credential retirement
+- ja: BLS引き出しクレデンシャルの引退
+- related: [0x00 validator, Balance sunset, BLSToExecutionChange]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29299
+- auto_source_url: https://ethereum-magicians.org/t/eip-8367-balance-sunset-for-retired-bls-validators/29299
+- desc: |
+  BLS署名スキームを使用するバリデータの引き出しクレデンシャルを、プロトコル上で非推奨とし、そのバリデータに特定の義務（例：アテステーション）を免除するプロセス。これにより、これらのバリデータは引退状態となり、残高サンセットの対象となる。
+
+## 0x00 validator
+- ja: 0x00バリデータ
+- related: [BLS withdrawal credential retirement, Balance sunset, BLSToExecutionChange]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29299
+- auto_source_url: https://ethereum-magicians.org/t/eip-8367-balance-sunset-for-retired-bls-validators/29299
+- desc: |
+  レガシーなBLS引き出しクレデンシャルタイプ`0x00`を使用しているバリデータ。これらのバリデータは、プロトコルアップグレードにより特定の義務から引退し、残高のサンセット対象となることが提案されている。
+
+## BLSToExecutionChange
+- ja: BLSToExecutionChange
+- related: [0x00 validator, BLS withdrawal credential retirement]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29299
+- auto_source_url: https://ethereum-magicians.org/t/eip-8367-balance-sunset-for-retired-bls-validators/29299
+- desc: |
+  Ethereumのコンセンサスレイヤーにおけるメッセージタイプの一つ。BLS引き出しクレデンシャルを持つバリデータが、引き出し先をイーサリアム実行レイヤーのアドレスに変更するために使用する。このEIPでは、将来的にこのメカニズムが不要となる状態を目指す。
+
+## Post-quantum switch
+- ja: ポスト量子スイッチ
+- aliases: [PQ switch]
+- related: [Post-quantum]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29299
+- auto_source_url: https://ethereum-magicians.org/t/eip-8367-balance-sunset-for-retired-bls-validators/29299
+- desc: |
+  Ethereumプロトコルが、量子コンピュータの攻撃に耐性のある暗号方式（ポスト量子暗号）に完全に移行する将来のアップグレード。このEIPの目標は、このスイッチまでにレガシーなBLSバリデータの残高をゼロにすることである。
+
+## VOPS Profiles
+- ja: VOPSプロファイル (Validity-Only Partial Statelessness Profiles)
+- related: [Validity-Only Partial Statelessness, FOCIL]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29298
+- auto_source_url: https://ethereum-magicians.org/t/eip-8369-vops-profiles-for-focil-eligibility/29298
+- desc: |
+  Validity-Only Partial Statelessness (VOPS) の具体的な適用方法を定義するプロファイル。FOCILの適格性を判断するために、トランザクションの種類や検証ロジックに基づいて異なるプロファイルが設定される。
+
+## FOCIL Eligibility
+- ja: FOCIL適格性 (Fork-Choice Enforced Inclusion List Eligibility)
+- related: [FOCIL, Inclusion List, VOPS Profiles]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29298
+- auto_source_url: https://ethereum-magicians.org/t/eip-8369-vops-profiles-for-focil-eligibility/29298
+- desc: |
+  Fork-Choice Enforced Inclusion List (FOCIL) によって強制的にブロックに含められるトランザクションが満たすべき条件。主にトランザクションの検証コストや複雑性に基づいて判断される。
+
+## end-of-payload omission check
+- ja: ペイロード末尾省略チェック
+- related: [FOCIL, Omission Check]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29298
+- auto_source_url: https://ethereum-magicians.org/t/eip-8369-vops-profiles-for-focil-eligibility/29298
+- desc: |
+  FOCILのルールの一部で、ビルダーがインクルージョンリストのトランザクションを省略した場合に、そのトランザクションがペイロードの最後に付加されたと仮定して検証を行うチェック。主にガス、nonce、残高に基づいて行われる。
+
+## AA-VOPS state surface
+- ja: AA-VOPS状態空間 (Account Abstraction Validity-Only Partial Statelessness State Surface)
+- related: [Account Abstraction, Validity-Only Partial Statelessness, State Surface]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29298
+- auto_source_url: https://ethereum-magicians.org/t/eip-8369-vops-profiles-for-focil-eligibility/29298
+- desc: |
+  Account Abstraction (AA) を利用するトランザクションがValidity-Only Partial Statelessness (VOPS) の制約下で検証される際に、その検証が依存する状態の範囲。この状態空間が固定されていることで、検証コストを予測可能にする。
+
+## builder-claimed transaction index
+- ja: ビルダー主張トランザクションインデックス
+- related: [Builder, Transaction Index, Payload]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29298
+- auto_source_url: https://ethereum-magicians.org/t/eip-8369-vops-profiles-for-focil-eligibility/29298
+- desc: |
+  FOCILの文脈で、ビルダーがインクルージョンリストのトランザクションを省略した場合に、そのトランザクションがペイロード内の特定のインデックスに配置されたと仮定して検証を行う際の、ビルダーが主張するインデックス。
+
+## CPSB
+- ja: CPSB (ステートバイトあたりのコスト)
+- aliases: [cost per state byte]
+- related: [EIP-8037, gas limit, state]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29293
+- auto_source_url: https://ethereum-magicians.org/t/eip-8368-cpsb-recalibration-for-new-gas-limit/29293
+- desc: |
+  EIP-8037で導入された、Ethereumの新しいステートバイトを導入する際の単位ガス料金。参照ブロックガスリミットに基づいて再計算されます。
+
+## Reference-Relative Slippage Bounds
+- ja: 参照相対スリッページ制限
+- related: [Slippage policy, ERC-7726, minAmountOut, Sandwich attack]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29292
+- auto_source_url: https://ethereum-magicians.org/t/reference-relative-slippage-bounds/29292
+- desc: |
+  トークンスワップにおいて、実行時にERC-7726オラクルから取得した参照価格に基づいて許容される出力の下限を動的に計算し、スリッページを保護するメカニズム。静的なminAmountOutの課題を解決し、サンドイッチ攻撃のリスクを軽減します。
+
+## ERC-7726
+- ja: ERC-7726
+- related: [Quote oracle, Reference-Relative Slippage Bounds, TWAP]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29292
+- auto_source_url: https://ethereum-magicians.org/t/reference-relative-slippage-bounds/29292
+- desc: |
+  参照価格オラクルに関するEthereum Request for Comments。この提案では、トークンスワップのスリッページ保護のために、実行時に信頼できる参照価格を取得する手段として再利用されます。
+
+## Sandwich attack
+- ja: サンドイッチ攻撃
+- aliases: [Sandwiching]
+- related: [MEV, Front-running, Back-running]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29292
+- auto_source_url: https://ethereum-magicians.org/t/reference-relative-slippage-bounds/29292
+- desc: |
+  悪意のあるアクターが、ターゲットとなるトランザクションの前後で自身のトランザクションを挿入し、価格を操作することで利益を得るMEVの一種。この提案は、この攻撃による抽出可能な価値を狭めることを目的としています。
+
+## minAmountOut
+- ja: 最小出力量 (minAmountOut)
+- related: [Slippage, Sandwich attack, Reference-Relative Slippage Bounds]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29292
+- auto_source_url: https://ethereum-magicians.org/t/reference-relative-slippage-bounds/29292
+- desc: |
+  トークンスワップにおいて、トランザクションが成功するために最低限受け取るべき出力トークン量を指定するパラメータ。静的な値であるため、市場価格の変動やサンドイッチ攻撃によってユーザーが不利になる可能性があります。
+
+## Slippage policy
+- ja: スリッページポリシー
+- related: [Reference-Relative Slippage Bounds, ERC-7726, maxDeviationBps, hardFloor]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29292
+- auto_source_url: https://ethereum-magicians.org/t/reference-relative-slippage-bounds/29292
+- desc: |
+  トークンスワップにおけるスリッページ保護のルールを定義する構造体。参照価格オラクル、最大許容乖離率、絶対的な最低出力値を指定し、動的なスリッページ保護を可能にします。
+
+## Capella
+- ja: カペラ
+- aliases: [Shapella]
+- related: [Shanghai, withdrawal credential]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29284
+- auto_source_url: https://ethereum-magicians.org/t/eip-8365-bls-withdrawal-credential-retirement/29284
+- desc: |
+  EthereumのShapella（Shanghai + Capella）アップグレードの一部で、主にビーコンチェーンからのETH出金を可能にした。これにより、バリデータはステークしたETHを引き出すことができるようになった。
+
+## staged deprecation
+- ja: 段階的廃止
+- related: [BLS withdrawal credential retirement, balance drain]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29284
+- auto_source_url: https://ethereum-magicians.org/t/eip-8365-bls-withdrawal-credential-retirement/29284
+- desc: |
+  プロトコル内の特定の機能やコンポーネントを、複数の段階（例：廃止、排出、削除）を経て徐々に廃止していくプロセス。これにより、システムへの影響を最小限に抑えつつ、スムーズな移行を促進する。
+
+## balance drain
+- ja: 残高排出
+- related: [staged deprecation, BLS withdrawal credential retirement, 0x01 withdrawal credential type]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29284
+- auto_source_url: https://ethereum-magicians.org/t/eip-8365-bls-withdrawal-credential-retirement/29284
+- desc: |
+  段階的廃止プロセスの一環として、廃止されるバリデータやアカウントから残りのETH残高を、指定された有効な出金先アドレス（例：0x01出金資格タイプ）へ移動させるプロトコルアクション。
+
+## 0x01 withdrawal credential type
+- ja: 0x01出金資格タイプ
+- aliases: [Execution Layer withdrawal credential type]
+- related: [0x00 withdrawal credential type, withdrawal credential, BLSToExecutionChange]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29284
+- auto_source_url: https://ethereum-magicians.org/t/eip-8365-bls-withdrawal-credential-retirement/29284
+- desc: |
+  Ethereumのビーコンチェーンバリデータが出金先アドレスを指定する際に使用するタイプの一つ。これは実行層のアドレスを指し、バリデータ報酬やステークされたETHの引き出しをそのアドレスで管理できるようにする。
+
+## Zero-Knowledge Spending Policies
+- ja: ゼロ知識支出ポリシー
+- aliases: [ZKSP]
+- related: [Spending policy, Zero-knowledge proof, Account abstraction]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29281
+- auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
+- desc: |
+  ユーザーの資金を保持するコントラクトが、事前に登録された支出ポリシーを満たすゼロ知識証明がある場合にのみ資金を解放することを標準化する機能セット。ポリシーのパラメータはコミットメントとしてプライベートに保たれる。
+
+## Spending policy
+- ja: 支出ポリシー
+- related: [Zero-Knowledge Spending Policies, Commitment, Zero-knowledge proof]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29281
+- auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
+- desc: |
+  ユーザーが事前に登録する、資金の支出に関するルール。このポリシーはコミットメントとして登録され、そのパラメータはプライベートに保たれる。ゼロ知識証明によって、支払いがこのポリシーを満たすことが検証される。
+
+## Delegation by constraint
+- ja: 制約による委任
+- related: [Autonomous agents, Spending policy, Zero-Knowledge Spending Policies]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29281
+- auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
+- desc: |
+  資金の所有者が支払い条件を制約として設定し、エージェントはその制約内で自由に活動できるメカニズム。決済レイヤー自体が制約外の支払いを拒否することで、エージェントの自律性と安全性を両立させる。
+
+## Off-chain facts
+- ja: オフチェーンの事実
+- related: [Zero-knowledge proof, Policy circuit, Merchant-signed quote]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29281
+- auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
+- desc: |
+  ブロックチェーン上に直接存在しないが、ゼロ知識証明の入力として利用される情報。例えば、マーチャントが署名した見積もりなどがこれに該当し、オンチェーン状態のみでは評価できないポリシーの実現を可能にする。
+
+## Proof envelope
+- ja: 証明エンベロープ
+- related: [ERC-1271, isValidSignature, Digest binding]
+- auto_added: 2026-08-06
+- auto_source_topic_id: 29281
+- auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
+- desc: |
+  ゼロ知識証明とクリアテキストの支払い承認情報（authorization）をERC-1271の`signature`スロットにパッキングして渡すためのデータ構造。これにより、コントラクトの署名として証明を伝達できる。

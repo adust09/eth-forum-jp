@@ -4,7 +4,7 @@ aliases:
   - SELFDESTRUCT (自己破壊)
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **SELFDESTRUCT (自己破壊)**
@@ -18,7 +18,7 @@ Ethereum Virtual Machine (EVM) のオペコードの一つで、コントラク�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-05-preferential-gas-costs-for-native-eth-operations-draft-for-feedback-29302|ネイティブETH操作のガス代優遇 — フィードバック用ドラフト]]（2026-08-05）
 
 ## 元の表記（英語）
 

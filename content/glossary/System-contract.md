@@ -4,7 +4,7 @@ aliases:
   - システムコントラクト
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **システムコントラクト**
@@ -17,7 +17,7 @@ Ethereumプロトコル内で特別な役割や権限を持つコントラクト
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-05-native-eth-as-erc-20-system-contract-draft-for-feedback-29301|ネイティブETHをERC-20システムコントラクトとして — フィードバック募集ドラフト]]（2026-08-05）
 
 ## 元の表記（英語）
 

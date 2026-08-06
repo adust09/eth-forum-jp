@@ -4,7 +4,7 @@ aliases:
   - プルーバー
 tags:
   - glossary
-date: '2026-08-05'
+date: '2026-08-06'
 ---
 
 **プルーバー**
@@ -18,6 +18,7 @@ zkEVMのブロック検証フローにおいて、ブロックのトランザク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）
 
 ## 元の表記（英語）
