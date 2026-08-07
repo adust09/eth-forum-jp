@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,10 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
+- [[posts/ethresear-2026-08-06-pq-das-from-leanvm-design-and-benchmark-25642|LeanVMによるPQ-DAS：設計とベンチマーク]]（2026-08-06）
+- [[posts/magicians-2026-08-06-eip-8372-normalized-state-gas-limit-29332|EIP-8372: 正規化されたステートガス制限]]（2026-08-06）
+- [[posts/magicians-2026-08-06-is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229-29315|より安価なオンチェーンAOハッシュに需要はありますか？ (Ashlar 14,232 gas vs Poseidon 18,229)]]（2026-08-06）
 - [[posts/magicians-2026-08-05-eip-8358-net-gas-metering-for-account-changes-29304|EIP-8358 アカウント変更のためのネットガスメータリング]]（2026-08-05）
 - [[posts/magicians-2026-08-05-eip-8364-ssz-compact-multiproofs-29277|EIP-8364: SSZコンパクトマルチプルーフ]]（2026-08-05）
 - [[posts/magicians-2026-08-05-eip-8365-bls-withdrawal-credential-retirement-29284|EIP-8365: BLS引き出しクレデンシャルの廃止]]（2026-08-05）

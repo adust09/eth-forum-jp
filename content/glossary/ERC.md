@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-08-06'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-06-is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229-29315|より安価なオンチェーンAOハッシュに需要はありますか？ (Ashlar 14,232 gas vs Poseidon 18,229)]]（2026-08-06）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-08-05-native-eth-as-erc-20-system-contract-draft-for-feedback-29301|ネイティブETHをERC-20システムコントラクトとして — フィードバック募集ドラフト]]（2026-08-05）
 - [[posts/magicians-2026-08-05-preferential-gas-costs-for-native-eth-operations-draft-for-feedback-29302|ネイティブETH操作のガス代優遇 — フィードバック用ドラフト]]（2026-08-05）

@@ -4,7 +4,7 @@ aliases:
   - ブロブ
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **ブロブ**
@@ -18,6 +18,8 @@ EIP-4844 (Proto-Danksharding) で導入された、一時的に大量のデー�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
+- [[posts/magicians-2026-08-06-eip-8371-rowdas-distributed-blobspace-reconstruction-29320|EIP-8371: RowDAS - 分散型ブロブ空間再構築]]（2026-08-06）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
