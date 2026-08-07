@@ -4,7 +4,7 @@ aliases:
   - 大阪 (Osaka)
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **大阪 (Osaka)**

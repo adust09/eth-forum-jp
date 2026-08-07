@@ -5,7 +5,7 @@ aliases:
   - cost per state byte
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **CPSB (ステートバイトあたりのコスト)**
@@ -20,7 +20,7 @@ EIP-8037で導入された、Ethereumの新しいステートバイトを導入�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-06-eip-8372-normalized-state-gas-limit-29332|EIP-8372: 正規化されたステートガス制限]]（2026-08-06）
 
 ## 元の表記（英語）
 

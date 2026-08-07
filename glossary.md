@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-06
+last_updated: 2026-08-07
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -8447,3 +8447,333 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8366-zero-knowledge-spending-policies/29281
 - desc: |
   ゼロ知識証明とクリアテキストの支払い承認情報（authorization）をERC-1271の`signature`スロットにパッキングして渡すためのデータ構造。これにより、コントラクトの署名として証明を伝達できる。
+
+## Multi-dimensional metering
+- ja: 多次元メータリング
+- related: [Glamsterdam, EIP-8037, EIP-7999]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25644
+- auto_source_url: https://ethresear.ch/t/demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis/25644
+- desc: |
+  Ethereumのガス市場において、単一のガス単位ですべてのリソースを計測・価格設定するのではなく、複数の異なるリソース（ステート、データ、実行など）を個別に計測し、それぞれに価格を付ける設計。これにより、各リソースの需要と供給に応じたより効率的な価格設定が可能になる。
+
+## Resource-specific capacity rules
+- ja: リソース固有の容量ルール
+- related: [Multi-dimensional metering, Gas target, Gas limit]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25644
+- auto_source_url: https://ethresear.ch/t/demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis/25644
+- desc: |
+  Ethereumの多次元ガス市場において、各EVMリソース（ステート、データ、実行など）に対して個別に設定されるガス目標値（gas target）とガス上限値（gas limit）のこと。これにより、各リソースの消費を独立して管理し、市場の安定性を図る。
+
+## Metering multiplier
+- ja: メータリング乗数
+- related: [Glamsterdam, Gas accounting]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25644
+- auto_source_url: https://ethresear.ch/t/demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis/25644
+- desc: |
+  Glamsterdamのガス会計ルールにおいて、同じアクティビティに対する過去のガス単位を新しいGlamsterdamガス単位に変換するために使用される係数。これにより、各リソースの有効価格が再設定され、需要への影響が分析される。
+
+## Binding branch
+- ja: 結合ブランチ
+- related: [Glamsterdam, Shared base fee, Regular gas branch, State branch]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25644
+- auto_source_url: https://ethresear.ch/t/demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis/25644
+- desc: |
+  Glamsterdamの共有手数料市場において、レギュラーガス（実行とデータ）とステートガスという2つのブランチのうち、より多くのメータリングガスを消費し、共有ベースフィーを決定する側のブランチを指す。市場の均衡点と価格設定に直接影響を与える。
+
+## Independent-demand benchmark
+- ja: 独立需要ベンチマーク
+- related: [Own-price elasticity, Cross-price terms]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25644
+- auto_source_url: https://ethresear.ch/t/demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis/25644
+- desc: |
+  Ethereumのガス市場分析において、各リソース（実行、データ、ステート）の需要が他のリソースの価格に依存しないと仮定するモデル。この仮定は、過去の価格変動データから各リソースの自己価格弾力性を推定するための識別ギャップを埋めるために用いられる。
+
+## Wash-building
+- ja: ウォッシュビルディング
+- related: [Sybil problem, Wash tree, External value anchor]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25643
+- auto_source_url: https://ethresear.ch/t/wash-building-in-contribution-protocols-is-not-a-sybil-problem/25643
+- desc: |
+  貢献プロトコルにおいて、多数の真正な異なるアイデンティティが、互いの価値のないコンテンツに基づいて構築し、相互に承認し合う行為。シビル攻撃とは異なり、偽のアイデンティティは含まれない。
+
+## Wash tree
+- ja: ウォッシュツリー
+- related: [Wash-building, Genuine collaboration]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25643
+- auto_source_url: https://ethresear.ch/t/wash-building-in-contribution-protocols-is-not-a-sybil-problem/25643
+- desc: |
+  ウォッシュビルディングの一種で、真正なアイデンティティが互いの価値のないコンテンツに基づいて構築し、相互に承認し合う構造。正直な階層的作業と構造的に区別がつかない特徴を持つ。
+
+## External value anchor
+- ja: 外部価値アンカー
+- related: [Wash-building, Proof-of-work]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25643
+- auto_source_url: https://ethresear.ch/t/wash-building-in-contribution-protocols-is-not-a-sybil-problem/25643
+- desc: |
+  貢献プロトコルにおけるウォッシュビルディングに対抗するために必要な、疑わしい共謀セットの外部で生成される価値シグナル。独立した当事者による実際の利用、下流の資金提供、外部からの採用などがこれに該当する。
+
+## Contribution-denominated bond
+- ja: 貢献額建て債券 (Contribution-denominated bond)
+- related: [External value anchor, Vesting, Clawback]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25643
+- auto_source_url: https://ethresear.ch/t/wash-building-in-contribution-protocols-is-not-a-sybil-problem/25643
+- desc: |
+  ウォッシュビルディングを防ぐために提案されるメカニズム。将来の外部利用に対して貢献額で担保され、利用時に返還される。共謀の度合いに応じてリスクが増大する。
+
+## Myerson value
+- ja: マイアソン値
+- related: [Shapley value, Sybil problem]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25643
+- auto_source_url: https://ethresear.ch/t/wash-building-in-contribution-protocols-is-not-a-sybil-problem/25643
+- desc: |
+  シビル攻撃への耐性を持つ集計ルールとして言及される、グラフ接続された連合に限定されたシャプレー値。グラフ内で切断されたアイデンティティは価値をプールできないため、偽造されたアイデンティティの限界貢献はゼロに近くなる。
+
+## PQ-DAS
+- ja: 量子耐性データ可用性サンプリング (PQ-DAS)
+- aliases: [Post-Quantum Data Availability Sampling]
+- related: [Data Availability Sampling, Post-Quantum Security, KZG polynomial commitments]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25642
+- auto_source_url: https://ethresear.ch/t/pq-das-from-leanvm-design-and-benchmark/25642
+- desc: |
+  Ethereumのデータ可用性サンプリング(DAS)プロトコルにおいて、量子コンピュータの脅威に対応するために提案された、量子耐性のある代替手段。現在のKZGベースのDASプロトコルを置き換えることを目指す。
+
+## Encode + Prove DAS
+- ja: エンコード＋証明DAS
+- aliases: [Encode + Prove paradigm]
+- related: [Data Availability Sampling, SNARK proof system, Vector Commitment Scheme]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25642
+- auto_source_url: https://ethresear.ch/t/pq-das-from-leanvm-design-and-benchmark/25642
+- desc: |
+  データ可用性サンプリング(DAS)プロトコルの一種で、ビルダーがデータを符号化し、ベクトルコミットメントスキームでコミットし、コミットされたオブジェクトが有効なコードワードであることをSNARK証明システムで証明するパラダイム。
+
+## KoalaBear quintic extension field
+- ja: KoalaBear五次拡大体
+- related: [Reed-Solomon code, Finite field]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25642
+- auto_source_url: https://ethresear.ch/t/pq-das-from-leanvm-design-and-benchmark/25642
+- desc: |
+  リード・ソロモン符号の実装に使用される特定の有限体。この五次拡大体上で符号化と評価が行われる。
+
+## RS Membership Check Instantiations
+- ja: RSメンバーシップチェックの実装
+- related: [Reed-Solomon code, SNARK proof system, Barycentric check, Parity check]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25642
+- auto_source_url: https://ethresear.ch/t/pq-das-from-leanvm-design-and-benchmark/25642
+- desc: |
+  リード・ソロモン符号のコードワードが有効であることをSNARK証明システム内で検証するための具体的な手法。パリティチェック、汎用重心チェック、特殊重心チェックなどのアプローチがある。
+
+## Full DAS throughput
+- ja: フルDASスループット
+- related: [Data Availability Sampling, LeanVM proving throughput, Dpayload, Ttotal]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25642
+- auto_source_url: https://ethresear.ch/t/pq-das-from-leanvm-design-and-benchmark/25642
+- desc: |
+  ビルダーからバリデーターへのブロック承認パスにおいて、1秒あたりに処理できる有用なブロブペイロードの総データ量を示す主要な性能指標。ビルダー側の処理時間と検証者側の処理時間を合計して算出される。
+
+## Poseidon hash
+- ja: Poseidonハッシュ
+- related: [hash function, zero-knowledge proof]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25637
+- auto_source_url: https://ethresear.ch/t/poseidon-hash-for-ethereum-is-not-secure/25637
+- desc: |
+  暗号技術で用いられるハッシュ関数の一種。特にゼロ知識証明システムで効率的に計算できるよう設計されており、zk-SNARKsなどの文脈で利用されます。
+
+## Classical preimage
+- ja: 古典的原像（耐性）
+- related: [Preimage resistance, Quantum preimage, Hash function]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25637
+- auto_source_url: https://ethresear.ch/t/poseidon-hash-for-ethereum-is-not-secure/25637
+- desc: |
+  古典的な計算能力を持つ攻撃者が、ハッシュ値から元の入力（原像）を見つけることの困難さを示す指標。ビット数で表現され、この値が大きいほど安全性が高いとされます。
+
+## Quantum preimage
+- ja: 量子的原像（耐性）
+- related: [Preimage resistance, Classical preimage, Quantum computing]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25637
+- auto_source_url: https://ethresear.ch/t/poseidon-hash-for-ethereum-is-not-secure/25637
+- desc: |
+  量子コンピュータを持つ攻撃者が、ハッシュ値から元の入力（原像）を見つけることの困難さを示す指標。古典的な計算能力の場合よりも耐性ビット数が低下することが一般的です。
+
+## Ashlar
+- ja: アシュラー
+- related: [Arithmetization-Oriented Hash, Squaring Degree Engine, CICO Ideal Degree, R1CS Constraint]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25634
+- auto_source_url: https://ethresear.ch/t/ashlar-an-ao-hash-from-a-squaring-degree-engine-and-a-request-for-cryptanalysis/25634
+- desc: |
+  Squaring Degree Engineを基盤とする新しい算術化指向ハッシュ関数。FreeLunch攻撃に対する耐性を考慮し、R1CS制約あたりのCICO理想次数ビット数を最大化することを目指して設計された。
+
+## Arithmetization-Oriented Hash
+- ja: 算術化指向ハッシュ (AOハッシュ)
+- aliases: [AO hash]
+- related: [R1CS Constraint, ZK-SNARKs, STARKs, Poseidon, Rescue-Prime]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25634
+- auto_source_url: https://ethresear.ch/t/ashlar-an-ao-hash-from-a-squaring-degree-engine-and-a-request-for-cryptanalysis/25634
+- desc: |
+  算術回路（特にR1CSやAIR）での効率的な実装と検証を目的として設計されたハッシュ関数。ZK-SNARKsなどのゼロ知識証明システムにおいて、証明生成コストを低減するために重要となる。
+
+## CICO Ideal Degree
+- ja: CICO理想次数
+- related: [FreeLunch attack, Algebraic attack]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25634
+- auto_source_url: https://ethresear.ch/t/ashlar-an-ao-hash-from-a-squaring-degree-engine-and-a-request-for-cryptanalysis/25634
+- desc: |
+  暗号学的ハッシュ関数のセキュリティ分析、特に代数攻撃（FreeLunch攻撃など）の文脈で用いられる概念。入力-出力関係を記述する多項式系のイデアルの次数を指し、攻撃の計算量の下限を評価する指標となる。
+
+## Squaring Degree Engine
+- ja: 二乗次数エンジン
+- related: [Ashlar, Feistel Chain, R1CS Constraint]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25634
+- auto_source_url: https://ethresear.ch/t/ashlar-an-ao-hash-from-a-squaring-degree-engine-and-a-request-for-cryptanalysis/25634
+- desc: |
+  Ashlarハッシュ関数の中心的な設計要素。従来のべき乗マップの代わりに、フィールドの二乗演算をFeistelチェーンとして利用することで、R1CS制約あたりの理想次数ビット数を最大化することを目指す。
+
+## R1CS Constraint
+- ja: R1CS制約
+- aliases: [Rank-1 Constraint System constraint]
+- related: [Arithmetic Circuit, ZK-SNARKs]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 25634
+- auto_source_url: https://ethresear.ch/t/ashlar-an-ao-hash-from-a-squaring-degree-engine-and-a-request-for-cryptanalysis/25634
+- desc: |
+  Rank-1 Constraint Systemにおける制約。ゼロ知識証明システム（特にZK-SNARKs）において、計算の正当性を検証するために必要な算術回路の複雑さを測る基本的な単位。証明生成の計算コストに直結する。
+
+## Normalized state gas limit
+- ja: 正規化されたステートガス制限
+- related: [State gas, Execution gas, EIP-8037, EIP-8075, EIP-7999, Multidimensional fee market]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8372-normalized-state-gas-limit/29332
+- desc: |
+  EIP-8372で提案される、ステートガスと実行ガス利用のバランスを取るためにステートガス制限を調整するメカニズムです。ステートガスの利用量をブロックレベルで集計する前に正規化することで、ステート成長の目標を維持しつつ、ステートバイト価格が需要を反映するように調整します。
+
+## State gas
+- ja: ステートガス
+- aliases: [state-gas]
+- related: [Execution gas, Gas limit, CPSB, State growth, Multidimensional fee market]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8372-normalized-state-gas-limit/29332
+- desc: |
+  Ethereumにおいて、ブロックチェーンの状態（ステート）へのアクセスや変更にかかるコストを測定するためのガスです。実行ガスとは異なり、主にストレージの読み書きやアカウントの作成・削除に関連するリソース消費を反映します。
+
+## Execution gas
+- ja: 実行ガス
+- aliases: [execution-gas]
+- related: [State gas, Gas limit, EVM, Transaction]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8372-normalized-state-gas-limit/29332
+- desc: |
+  Ethereumにおいて、EVM上でのトランザクション実行にかかる計算コストを測定するためのガスです。スマートコントラクトのロジック処理や計算命令の実行に消費されるリソースを反映し、ステートガスとは区別されます。
+
+## Multidimensional fee market
+- ja: 多次元手数料市場
+- related: [EIP-7999, Fee market, State gas, Execution gas]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8372-normalized-state-gas-limit/29332
+- desc: |
+  Ethereumの長期的な方向性として提案されている、複数のリソース（例：実行ガス、ステートガス、データ可用性）に対してそれぞれ独立した料金メカニズムを持つ市場です。各リソースの需要と供給に基づいて料金が決定されることで、より効率的なリソース配分を目指します。
+
+## RowDAS
+- ja: RowDAS
+- related: [PeerDAS, DAS, blobspace]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8371-rowdas-distributed-blobspace-reconstruction/29320
+- desc: |
+  EIP-8371で提案されている、分散型ブロブスペース再構築を可能にするデータ可用性サンプリング（DAS）の新しいアプローチです。部分的なメッセージベースの行トピックを使用し、スーパーノードの負担を軽減します。
+
+## Distributed Blobspace Reconstruction
+- ja: 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
+- related: [RowDAS, PeerDAS, DAS, blobspace]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8371-rowdas-distributed-blobspace-reconstruction/29320
+- desc: |
+  RowDASによって実現される、ブロブスペースのデータを複数のノードが協力して再構築するプロセスです。スーパーノードへの集中負担を軽減し、DASの効率と回復力を向上させます。
+
+## supernodes
+- ja: スーパーノード
+- related: [PeerDAS, DAS]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8371-rowdas-distributed-blobspace-reconstruction/29320
+- desc: |
+  PeerDASのようなデータ可用性サンプリングの設計において、ブロブの再構築など特定の高負荷なタスクを担うノードです。その役割により、ブロブ数に応じて高い負担がかかる可能性があります。
+
+## partial message based row topics
+- ja: 部分メッセージベースの行トピック (partial message based row topics)
+- related: [RowDAS, DAS]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8371-rowdas-distributed-blobspace-reconstruction/29320
+- desc: |
+  RowDASが分散型ブロブスペース再構築を実現するために使用するメカニズムです。これにより、すべてのノードが再構築に貢献できるようになり、スーパーノードの負荷が大幅に軽減されます。
+
+## Merkle proof
+- ja: マークル証明
+- related: [Merkle tree, Merkle root, ZK proof, Storage proof]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29315
+- auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
+- desc: |
+  データがマークルツリーの特定のルートに含まれていることを簡潔に検証するための暗号学的証明。ブロックチェーンにおいて、特定のトランザクションやデータがブロックに含まれていることを効率的に検証するために広く利用されます。
+
+## Storage proof
+- ja: ストレージ証明
+- related: [Merkle proof, State proof, ZK proof]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29315
+- auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
+- desc: |
+  ブロックチェーンの特定のストレージスロットに格納されている値が、特定のブロックのステートルートに存在することを検証する証明。スマートコントラクトの状態の検証や、オフチェーンデータとの連携に用いられます。
+
+## Rollup withdrawal proof
+- ja: ロールアップ引き出し証明
+- related: [Rollup, ZK proof, Withdrawal]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29315
+- auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
+- desc: |
+  レイヤー2ロールアップからレイヤー1ブロックチェーンへ資産を引き出す際に、引き出しトランザクションがロールアップのルールに従って正しく実行されたことを証明するもの。通常、ZK証明やオプティミスティック証明の形式で提供されます。
+
+## BN254
+- ja: BN254 (楕円曲線)
+- related: [Elliptic curve, ZK-SNARK, Pairing-friendly curve]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29315
+- auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
+- desc: |
+  暗号学で広く用いられるペアリングフレンドリーな楕円曲線の一つ。特にゼロ知識証明システム（ZK-SNARKs）において、効率的な証明生成と検証を可能にするために利用されます。
+
+## Plonkish
+- ja: Plonkish (証明システム)
+- related: [ZK-SNARK, PLONK, STARK]
+- auto_added: 2026-08-07
+- auto_source_topic_id: 29315
+- auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
+- desc: |
+  PLONK証明システムに触発された、特定の構造を持つゼロ知識証明システムのファミリーを指します。柔軟なゲート制約とユニバーサルなセットアップにより、様々な計算を効率的に証明できる特徴を持ちます。

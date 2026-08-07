@@ -4,7 +4,7 @@ aliases:
   - シャプレー値
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **シャプレー値**
@@ -18,6 +18,7 @@ date: '2026-08-06'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-06-wash-building-in-contribution-protocols-is-not-a-sybil-problem-25643|貢献プロトコルにおけるウォッシュビルディングはシビル問題ではない]]（2026-08-06）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 - [[posts/ethresear-2026-06-30-rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems-25332|検証可能な分散型ブロックチェーンシステムのための協調的信頼の再考]]（2026-06-30）
 - [[posts/ethresear-2026-06-08-the-origins-of-mev-systematic-attribution-of-arbitrage-opportunity-creation-at-scale-25124|MEVの起源：大規模な裁定取引機会創出の体系的帰属]]（2026-06-08）

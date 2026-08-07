@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **ブロック構築**
@@ -22,6 +22,7 @@ date: '2026-08-06'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-06-pq-das-from-leanvm-design-and-benchmark-25642|LeanVMによるPQ-DAS：設計とベンチマーク]]（2026-08-06）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 - [[posts/magicians-2026-07-15-cohort-order-book-an-o-1-fully-on-chain-limit-order-book-via-generational-fungible-liquidity-29018|コホートオーダーブック: 世代別ファンジブル流動性によるO(1)完全オンチェーン指値注文板]]（2026-07-15）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）

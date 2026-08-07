@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-08-06'
+date: '2026-08-07'
 ---
 
 **レイヤー1**
@@ -20,6 +20,7 @@ date: '2026-08-06'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/ethresear-2026-06-21-a-native-zkevm-scales-bandwidth-not-just-execution-25254|ネイティブzkEVMは実行だけでなく帯域幅もスケールする]]（2026-06-21）
