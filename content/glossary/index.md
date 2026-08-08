@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -15,6 +15,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AA-VOPS-state-surface|AA-VOPS state surface]] — AA-VOPS状態空間 (Account Abstraction Validity-Only Partial Statelessness State Surface)
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
 - [[glossary/Accept-Token|Accept Token]] — 受入トークン
+- [[glossary/Accessed-Addresses|Accessed Addresses]] — アクセス済みアドレス
+- [[glossary/Accessed-Storage-Keys|Accessed Storage Keys]] — アクセス済みストレージキー
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
 - [[glossary/account-authenticator|account authenticator]] — アカウント認証器
 - [[glossary/account-code|account code]] — アカウントコード
@@ -29,6 +31,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/action-taxonomy|action taxonomy]] — アクション分類体系
 - [[glossary/Action-scoped|Action-scoped]] — アクションスコープ
 - [[glossary/Active-state|Active state]] — アクティブステート
+- [[glossary/adaptor-signatures|adaptor signatures]] — アダプター署名
 - [[glossary/Adjusted-reputation|Adjusted reputation]] — 調整済み評判
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Administrative-invalidation|Administrative invalidation]] — 管理的無効化 (Administrative invalidation)
@@ -124,6 +127,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BLS-withdrawal-credential-retirement|BLS withdrawal credential retirement]] — BLS引き出しクレデンシャルの引退
 - [[glossary/BLSToExecutionChange|BLSToExecutionChange]] — BLSToExecutionChange
 - [[glossary/BN254|BN254]] — BN254 (楕円曲線)
+- [[glossary/Bond-backed-delegation-capacity|Bond-backed delegation capacity]] — ボンド担保型デリゲーション容量
 - [[glossary/Bounded-Agent-Actions|Bounded Agent Actions]] — 制限付きエージェントアクション (ERC-1833)
 - [[glossary/bounded-mandate|bounded mandate]] — 制限付きマンデート
 - [[glossary/bounded-execution|bounded-execution]] — 制限付き実行
@@ -137,6 +141,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
+- [[glossary/Call-Frame|Call Frame]] — コールフレーム
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/CALLVALUE|CALL_VALUE]] — CALL値
 - [[glossary/CALLVALUEBASEGAS|CALL_VALUE_BASE_GAS]] — CALL_VALUEベースガス
@@ -186,6 +191,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
+- [[glossary/Concentration-sensitive-economics|Concentration-sensitive economics]] — 集中度感応型経済学
 - [[glossary/Conditional-Tokens-Framework|Conditional Tokens Framework]] — コンディショナル・トークン・フレームワーク (CTF)
 - [[glossary/condorcet-winner|condorcet winner]] — コンドルセ勝者
 - [[glossary/Confidential-Agent-Policy-Verdicts|Confidential Agent Policy Verdicts]] — 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
@@ -247,8 +253,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
 - [[glossary/Delegation-by-constraint|Delegation by constraint]] — 制約による委任
+- [[glossary/Delegation-domain|Delegation domain]] — デリゲーション・ドメイン
 - [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
 - [[glossary/Delegation-tree|Delegation tree]] — デリゲーションツリー
+- [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
@@ -349,6 +357,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/External-value-anchor|External value anchor]] — 外部価値アンカー
 - [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
+- [[glossary/fair-exchange-problem|fair exchange problem]] — フェアエクスチェンジ問題
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
@@ -393,6 +402,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
 - [[glossary/Guard-contract|Guard contract]] — ガードコントラクト (Guard contract)
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
+- [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
@@ -446,6 +456,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
+- [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
@@ -525,6 +536,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
 - [[glossary/Multi-block-Access-List-Warming|Multi-block Access List Warming]] — マルチブロック・アクセスリスト・ウォーミング
 - [[glossary/Multi-dimensional-metering|Multi-dimensional metering]] — 多次元メータリング
+- [[glossary/Multi-holder-semantics|Multi-holder semantics (for passes)]] — マルチホルダーセマンティクス（パス向け）
 - [[glossary/Multi-lingual-Clear-Signing|Multi-lingual Clear Signing]] — 多言語対応クリア署名
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
@@ -535,6 +547,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/Myerson-value|Myerson value]] — マイアソン値
 - [[glossary/Namespaced-Storage|Namespaced Storage]] — 名前空間付きストレージ
+- [[glossary/Native-Ethereum-Delegation|Native Ethereum Delegation]] — ネイティブ・イーサリアム・デリゲーション
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
 - [[glossary/Native-UTXOs|Native UTXOs]] — ネイティブUTXO
 - [[glossary/native-zkEVM|native zkEVM]] — ネイティブzkEVM
@@ -607,6 +620,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/partial-message-based-row-topics|partial message based row topics]] — 部分メッセージベースの行トピック (partial message based row topics)
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]] — パーティション化されたバイナリツリー
 - [[glossary/PASS-ASSET|PASS-ASSET]] — PASS-ASSET (可決時資産)
+- [[glossary/passURI|passURI]] — passURI (パスURI)
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
@@ -672,6 +686,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
 - [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
 - [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
+- [[glossary/proof-aggregation|proof aggregation]] — 証明集約
 - [[glossary/Proof-envelope|Proof envelope]] — 証明エンベロープ
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
@@ -686,6 +701,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
+- [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
 - [[glossary/Purpose-Bound-Third-Party-Data-Consent|Purpose-Bound Third-Party Data Consent]] — 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
 - [[glossary/Quantum-preimage|Quantum preimage]] — 量子的原像（耐性）
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
@@ -730,6 +746,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
 - [[glossary/Reveal-Optionality|Reveal Optionality]] — リビール選択性
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
+- [[glossary/Revert|Revert]] — リバート
 - [[glossary/Review|Review]] — レビュー (EIP/ERC)
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
@@ -797,6 +814,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
 - [[glossary/Smart-Contract-Oriented-Programming|Smart Contract Oriented Programming]] — スマートコントラクト指向プログラミング
+- [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
@@ -806,6 +824,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Spending-policy|Spending policy]] — 支出ポリシー
 - [[glossary/spent-bit|spent bit]] — 使用済みビット
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
+- [[glossary/Split-invariance-property|Split-invariance property]] — 分割不変性
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
 - [[glossary/SPREAD|SPREAD]] — SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
 - [[glossary/Squaring-Degree-Engine|Squaring Degree Engine]] — 二乗次数エンジン
@@ -901,6 +920,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
 - [[glossary/Unclonable-Agent-Execution-Credentials|Unclonable Agent Execution Credentials]] — アンクローン可能なエージェント実行クレデンシャル
+- [[glossary/Unguessable-Capability-URLs|Unguessable Capability URLs]] — 推測不可能なケイパビリティURL
 - [[glossary/Unified-Binary-Tree|Unified Binary Tree]] — 統合バイナリツリー
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
@@ -932,8 +952,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/VRF|VRF]] — 検証可能乱数関数 (VRF)
 - [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
 - [[glossary/Wallet-Call-Gas-Limit-Override-Capability|Wallet Call Gas Limit Override Capability]] — ウォレットコールガス制限上書き機能
+- [[glossary/Wallet-Pass-Extension-for-NFTs|Wallet Pass Extension for NFTs]] — NFT向けウォレットパス拡張
 - [[glossary/Wallet-Title-Deeds|Wallet Title Deeds]] — ウォレット所有権証書
 - [[glossary/Wallet-Scoped-Token-Pull-Execution|Wallet-Scoped Token Pull Execution]] — ウォレットスコープのトークンプル実行
+- [[glossary/Warm-Access-Sets|Warm Access Sets]] — ウォームアクセスセット
+- [[glossary/Wash-Launch|Wash Launch]] — ウォッシュローンチ
 - [[glossary/Wash-tree|Wash tree]] — ウォッシュツリー
 - [[glossary/Wash-building|Wash-building]] — ウォッシュビルディング
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
@@ -947,6 +970,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
 - [[glossary/Zero-Knowledge-Consensus-Layer|Zero-Knowledge Consensus Layer]] — ゼロ知識コンセンサス層 (zkCL)
+- [[glossary/Zero-Knowledge-Contingent-Payments|Zero-Knowledge Contingent Payments]] — ゼロ知識条件付き支払い
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/Zero-Knowledge-Spending-Policies|Zero-Knowledge Spending Policies]] — ゼロ知識支出ポリシー
 - [[glossary/ZIP-32-subaccounts|ZIP-32 subaccounts]] — ZIP-32サブアカウント

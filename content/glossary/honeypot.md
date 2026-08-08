@@ -4,7 +4,7 @@ aliases:
   - ハニーポット
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **ハニーポット**
@@ -18,7 +18,7 @@ date: '2026-08-07'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-07-erc-xxxx-token-launch-abuse-detection-and-remediation-29359|ERC-XXXX: トークンローンチにおける不正検出と是正]]（2026-08-07）
 
 ## 元の表記（英語）
 

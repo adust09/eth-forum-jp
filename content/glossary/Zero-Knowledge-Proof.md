@@ -6,7 +6,7 @@ aliases:
   - ZK proof
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **ゼロ知識証明**
@@ -21,6 +21,7 @@ date: '2026-08-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-07-atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design-25660|x402エージェント支払い向け[[glossary/Zero-Knowledge-Proof|ゼロ知識証明]]ゲート付きアトミック決済：測定されたリファレンスデザイン]]（2026-08-07）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/ethresear-2026-08-03-arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation-25614|Arcanum: ソースコード向けプライバシーファーストなコンパイラレイヤー — 現状はTEE、長期的にはZKを基盤に]]（2026-08-03）
 - [[posts/magicians-2026-07-31-post-quantum-migration-for-on-chain-identity-an-anchored-key-binding-a-cutoff-verified-by-recompute-not-a-second-signature-29225|オンチェーンIDの耐量子移行：アンカーされた鍵バインディングとカットオフ、再計算による検証（セカンドシグネチャではない）]]（2026-07-31）

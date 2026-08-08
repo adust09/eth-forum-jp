@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-07
+last_updated: 2026-08-08
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -8777,3 +8777,222 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229/29315
 - desc: |
   PLONK証明システムに触発された、特定の構造を持つゼロ知識証明システムのファミリーを指します。柔軟なゲート制約とユニバーサルなセットアップにより、様々な計算を効率的に証明できる特徴を持ちます。
+
+## Zero-Knowledge Contingent Payments
+- ja: ゼロ知識条件付き支払い
+- aliases: [ZKCP]
+- related: [Zero-Knowledge Proof, Fair Exchange Problem, Atomic Swap]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 25660
+- auto_source_url: https://ethresear.ch/t/atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design/25660
+- desc: |
+  ゼロ知識証明の検証が成功した場合にのみ支払いが実行されるように設計された支払いプロトコル。これにより、計算の正当性を検証するまで資金がロックされ、フェアな交換が保証されます。
+
+## fair exchange problem
+- ja: フェアエクスチェンジ問題
+- related: [Zero-Knowledge Contingent Payments, Atomic Swap]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 25660
+- auto_source_url: https://ethresear.ch/t/atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design/25660
+- desc: |
+  2者間でデジタルアイテムを交換する際に、どちらか一方が相手を欺くことなく、両者が同時にアイテムを受け取ることを保証する問題。信頼できる第三者なしでは解決が困難とされる古典的な問題です。
+
+## proof aggregation
+- ja: 証明集約
+- related: [Zero-Knowledge Proof, SNARK, STARK, Recursive SNARK]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 25660
+- auto_source_url: https://ethresear.ch/t/atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design/25660
+- desc: |
+  複数のゼロ知識証明を単一のより小さな証明にまとめる技術。これにより、オンチェーンでの検証コストを大幅に削減し、スケーラビリティを向上させることができます。
+
+## adaptor signatures
+- ja: アダプター署名
+- related: [Atomic Swap, Scriptless Script, Schnorr Signature]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 25660
+- auto_source_url: https://ethresear.ch/t/atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design/25660
+- desc: |
+  特定の秘密情報（アダプター）が公開された場合にのみ有効になるように設計された署名スキーム。アトミックスワップやスクリプトレススクリプトなど、オンチェーンでの複雑なロジックをオフチェーンで実現するために利用されます。
+
+## Hard Rug Pull
+- ja: ハードラグプル
+- related: [Soft Rug Pull, Deployer Abuse Patterns]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29359
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-token-launch-abuse-detection-and-remediation/29359
+- desc: |
+  トークン発行者が流動性プールから資金を全て引き抜き、トークンの価値をゼロにする悪質な行為。ERC-XXXXで定義されるデプロイヤーの不正パターンの一つ。
+
+## Soft Rug Pull
+- ja: ソフトラグプル
+- related: [Hard Rug Pull, Deployer Abuse Patterns]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29359
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-token-launch-abuse-detection-and-remediation/29359
+- desc: |
+  トークン発行者が大量のトークンを秘密裏に売却するなどして、徐々にトークンの価値を希薄化させる不正行為。ERC-XXXXで定義されるデプロイヤーの不正パターンの一つ。
+
+## Wash Launch
+- ja: ウォッシュローンチ
+- related: [Deployer Abuse Patterns, Wash Trading]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29359
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-token-launch-abuse-detection-and-remediation/29359
+- desc: |
+  トークン発行者が自身のウォレット間で取引を繰り返すことで、取引量や流動性を偽装し、トークンローンチを不正に操作する行為。ERC-XXXXで定義されるデプロイヤーの不正パターンの一つ。
+
+## Deployer Bond
+- ja: デプロイヤーボンド（発行者保証金）
+- related: [Escrow, Remediation]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29359
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-token-launch-abuse-detection-and-remediation/29359
+- desc: |
+  トークン発行者がローンチ前に預託する保証金。不正行為が検出された場合に、購入者への返金や賠償に充てられる。ERC-XXXXにおける不正対策の主要なメカニズム。
+
+## Pull-Refund Model
+- ja: プル型返金モデル
+- related: [Escrow, Pro-rata Refunds]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29359
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-token-launch-abuse-detection-and-remediation/29359
+- desc: |
+  トークン購入者が、不正が認定された場合にエスクローされた資金から自ら返金を引き出す形式の返金モデル。個別の請求や被害者の列挙が不要となる。
+
+## passURI
+- ja: passURI (パスURI)
+- related: [tokenURI, JSON pass manifest, IERC721WalletPass]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29358
+- auto_source_url: https://ethereum-magicians.org/t/wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes/29358
+- desc: |
+  ERC-721トークンに紐付けられたウォレットパスのJSONマニフェストを解決するURIを返す関数。ERC-721のtokenURIと同様に、トークンに関連する外部リソースへの標準的な参照方法を提供する。
+
+## JSON pass manifest
+- ja: JSONパスマニフェスト
+- related: [passURI, Wallet Pass Extension for NFTs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29358
+- auto_source_url: https://ethereum-magicians.org/t/wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes/29358
+- desc: |
+  passURIによって返されるURIが指すJSONデータ構造。Apple WalletやGoogle Walletなどのモバイルウォレットパスのフォーマットと、そのパスの最終更新時刻に関する情報を含む。
+
+## Unguessable Capability URLs
+- ja: 推測不可能なケイパビリティURL
+- aliases: [Capability URLs (for passes)]
+- related: [Wallet Pass Extension for NFTs, Bearer file]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29358
+- auto_source_url: https://ethereum-magicians.org/t/wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes/29358
+- desc: |
+  モバイルウォレットパスに埋め込まれる、状態変更アクションをトリガーするためのセキュリティ強化されたURL。パスの転送時にURLが更新され、推測困難な形式であることで、パスの保有者がトークン所有者として不正に振る舞うことを防ぐ。
+
+## Wallet Pass Extension for NFTs
+- ja: NFT向けウォレットパス拡張
+- related: [passURI, JSON pass manifest, Unguessable Capability URLs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29358
+- auto_source_url: https://ethereum-magicians.org/t/wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes/29358
+- desc: |
+  NFTをApple WalletやGoogle Walletなどのモバイルウォレットパスとして表示・管理するための標準化された仕組み。トークンのライブ状態をパス上にレンダリングし、オンチェーン取引をトリガーする機能を提供する。
+
+## Multi-holder semantics (for passes)
+- ja: マルチホルダーセマンティクス（パス向け）
+- related: [ERC-1155, Wallet Pass Extension for NFTs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29358
+- auto_source_url: https://ethereum-magicians.org/t/wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes/29358
+- desc: |
+  ERC-1155のような複数の保有者が存在するトークンにおいて、ウォレットパスが個々の保有者とどのように紐付けられ、その状態やアクションが管理されるかに関する設計上の課題。将来的なウォレットパス標準の拡張で考慮されるべき点。
+
+## Native Ethereum Delegation
+- ja: ネイティブ・イーサリアム・デリゲーション
+- aliases: [NED, Flanders Protocol]
+- related: [Delegation domain, Concentration-sensitive economics, Bond-backed delegation capacity]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29356
+- auto_source_url: https://ethereum-magicians.org/t/idea-native-ethereum-delegation-ned-a-protocol-level-delegation-market-with-diminishing-concentration-economics/29356
+- desc: |
+  イーサリアムのプロトコルレベルでデリゲーション市場を構築する提案。ETH保有者がETHの所有権を保持したまま、プロトコルを通じてバリデータにETHをデリゲートできるようにすることを目指す。既存の流動性ステーキングプロトコルや取引所によるデリゲーションの経済的影響をプロトコル内部に取り込み、競争を促進する。
+
+## Delegation domain
+- ja: デリゲーション・ドメイン
+- related: [Native Ethereum Delegation, Validator set, Operator economic commitment]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29356
+- auto_source_url: https://ethereum-magicians.org/t/idea-native-ethereum-delegation-ned-a-protocol-level-delegation-market-with-diminishing-concentration-economics/29356
+- desc: |
+  Native Ethereum Delegation (NED)において、デリゲーションの経済学が適用される経済単位。個々のバリデータキーではなく、複数のバリデータを束ねる論理的なグループとして機能し、委任されたETH、オペレーターの経済的コミットメント、パフォーマンス履歴などを集約する。
+
+## Concentration-sensitive economics
+- ja: 集中度感応型経済学
+- related: [Native Ethereum Delegation, Delegation domain, Bond-backed delegation capacity]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29356
+- auto_source_url: https://ethereum-magicians.org/t/idea-native-ethereum-delegation-ned-a-protocol-level-delegation-market-with-diminishing-concentration-economics/29356
+- desc: |
+  Native Ethereum Delegation (NED)の経済設計原則の一つで、デリゲーションドメインがネイティブにデリゲートされたETHのシェアを大きくするにつれて、追加のデリゲーションの経済的魅力が段階的に低下するように設計されたメカニズム。これにより、ステーキング市場における集中化を抑制し、競争を促進することを目指す。
+
+## Bond-backed delegation capacity
+- ja: ボンド担保型デリゲーション容量
+- related: [Native Ethereum Delegation, Split-invariance property, Operator economic commitment]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29356
+- auto_source_url: https://ethereum-magicians.org/t/idea-native-ethereum-delegation-ned-a-protocol-level-delegation-market-with-diminishing-concentration-economics/29356
+- desc: |
+  Native Ethereum Delegation (NED)において、オペレーターの経済的コミットメント（スラッシュ可能なボンド）に基づいて効率的なデリゲーション容量を決定するメカニズム。これにより、オペレーターが複数のドメインに分割してもデリゲーション効率が変化しない「分割不変性」を達成し、経済的アイデンティティの分割による報酬増加を防ぐ。
+
+## Split-invariance property
+- ja: 分割不変性
+- related: [Bond-backed delegation capacity, Sybil resistance, Economic identity splitting]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29356
+- auto_source_url: https://ethereum-magicians.org/t/idea-native-ethereum-delegation-ned-a-protocol-level-delegation-market-with-diminishing-concentration-economics/29356
+- desc: |
+  経済メカニズムの設計において、参加者が自身の資産や活動を複数の匿名エンティティに分割しても、全体としての経済的利益が変わらない、または悪化する特性。Native Ethereum Delegation (NED)では、オペレーターがデリゲーションドメインを分割しても報酬効率が向上しないように、この特性を持つメカニズムが求められる。
+
+## Warm Access Sets
+- ja: ウォームアクセスセット
+- related: [EIP-2929, Accessed Addresses, Accessed Storage Keys, Gas Costs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29341
+- auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
+- desc: |
+  EIP-2929で導入された概念で、トランザクション実行中にアクセスされたアドレスとストレージキーのセットです。これらのセットに含まれる要素へのアクセスは、ガス料金が安くなる「ウォーム」状態と見なされます。EIP-8374は、コールがリバートしてもウォーム状態が維持されるように変更を提案しています。
+
+## Accessed Addresses
+- ja: アクセス済みアドレス
+- related: [Warm Access Sets, EIP-2929, Gas Costs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29341
+- auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
+- desc: |
+  EIP-2929で導入された、トランザクション実行中にアクセスされたアドレスのセットです。このセットに含まれるアドレスへのアクセスは、ガス料金が安くなる「ウォーム」状態と見なされます。
+
+## Accessed Storage Keys
+- ja: アクセス済みストレージキー
+- related: [Warm Access Sets, EIP-2929, Gas Costs]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29341
+- auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
+- desc: |
+  EIP-2929で導入された、トランザクション実行中にアクセスされたストレージキーのセットです。このセットに含まれるストレージキーへのアクセスは、ガス料金が安くなる「ウォーム」状態と見なされます。
+
+## Call Frame
+- ja: コールフレーム
+- related: [EVM, Transaction Execution, Revert]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29341
+- auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
+- desc: |
+  EVMにおける関数呼び出しの実行コンテキストです。各コールは独自のコールフレームを持ち、その中でローカル変数、スタック、メモリなどが管理されます。コールがリバートすると、そのコールフレーム内で行われた状態変更は元に戻されます。
+
+## Revert
+- ja: リバート
+- related: [Call Frame, Transaction Execution, Exception Handling]
+- auto_added: 2026-08-08
+- auto_source_topic_id: 29341
+- auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
+- desc: |
+  EthereumトランザクションまたはEVMコールが失敗し、その実行によって行われたすべての状態変更が元に戻されるプロセスです。これにより、トランザクションはブロックチェーンの状態に影響を与えずに終了しますが、ガス料金は消費されます。
