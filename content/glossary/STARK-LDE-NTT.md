@@ -4,7 +4,7 @@ aliases:
   - STARK-LDE NTT (STARK低次拡張数論変換)
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **STARK-LDE NTT (STARK低次拡張数論変換)**

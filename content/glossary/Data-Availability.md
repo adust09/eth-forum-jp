@@ -7,7 +7,7 @@ aliases:
   - DAS
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **データアベイラビリティ**
@@ -24,6 +24,7 @@ Danksharding/EIP-4844 では blob として実装され、DAS で全ダウンロ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-07-atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design-25660|x402エージェント支払い向け[[glossary/Zero-Knowledge-Proof|ゼロ知識証明]]ゲート付きアトミック決済：測定されたリファレンスデザイン]]（2026-08-07）
 - [[posts/ethresear-2026-08-06-pq-das-from-leanvm-design-and-benchmark-25642|LeanVMによるPQ-DAS：設計とベンチマーク]]（2026-08-06）
 - [[posts/magicians-2026-08-06-eip-8371-rowdas-distributed-blobspace-reconstruction-29320|EIP-8371: RowDAS - 分散型ブロブ空間再構築]]（2026-08-06）
 - [[posts/ethresear-2026-07-28-can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev-25562|CEXのミクロ構造シグナルはイーサリアムの実行遅延とMEVを乗り越えられるか？]]（2026-07-28）

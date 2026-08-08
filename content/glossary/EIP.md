@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-07-eip-8374-persist-warm-access-sets-across-reverts-29341|EIP-8374: リバート後もウォームアクセスセットを保持]]（2026-08-07）
+- [[posts/magicians-2026-08-07-wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes-29358|NFT向けウォレットパス拡張機能：トークンをApple Wallet / Google Walletパスとして表示する]]（2026-08-07）
 - [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
 - [[posts/ethresear-2026-08-06-pq-das-from-leanvm-design-and-benchmark-25642|LeanVMによるPQ-DAS：設計とベンチマーク]]（2026-08-06）
 - [[posts/magicians-2026-08-06-eip-8372-normalized-state-gas-limit-29332|EIP-8372: 正規化されたステートガス制限]]（2026-08-06）

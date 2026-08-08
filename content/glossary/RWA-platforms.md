@@ -5,7 +5,7 @@ aliases:
   - Real World Asset platforms
 tags:
   - glossary
-date: '2026-08-07'
+date: '2026-08-08'
 ---
 
 **RWAプラットフォーム (Real World Assetプラットフォーム)**
@@ -18,6 +18,7 @@ date: '2026-08-07'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-07-wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes-29358|NFT向けウォレットパス拡張機能：トークンをApple Wallet / Google Walletパスとして表示する]]（2026-08-07）
 - [[posts/ethresear-2026-07-23-institutional-rwas-mitigating-t-0-risks-via-hardcoded-200-collateral-25510|機関投資家向けRWA：ハードコードされた200%担保によるT+0リスク軽減]]（2026-07-23）
 - [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）
 - [[posts/magicians-2026-07-03-erc-8319-regulatory-compliance-protocol-28917|ERC-8319: 規制コンプライアンスプロトコル]]（2026-07-03）
