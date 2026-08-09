@@ -4,7 +4,7 @@ aliases:
   - 暗号的隔離
 tags:
   - glossary
-date: '2026-08-08'
+date: '2026-08-09'
 ---
 
 **暗号的隔離**
@@ -18,7 +18,7 @@ date: '2026-08-08'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-08-the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment-25666|行動記録：時系列を証拠とする集合的判断におけるオラクル問題]]（2026-08-08）
 
 ## 元の表記（英語）
 

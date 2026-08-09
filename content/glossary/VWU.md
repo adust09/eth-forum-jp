@@ -5,7 +5,7 @@ aliases:
   - Vote Weight Unit
 tags:
   - glossary
-date: '2026-08-08'
+date: '2026-08-09'
 ---
 
 **VWU (Vote Weight Unit)**
@@ -19,6 +19,7 @@ BeTrueCoreシステムで提案された、投票権の重みを決定する単�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-08-the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment-25666|行動記録：時系列を証拠とする集合的判断におけるオラクル問題]]（2026-08-08）
 - [[posts/ethresear-2026-07-20-sovereign-space-when-values-need-architecture-25485|主権的空間：価値がアーキテクチャを必要とするとき]]（2026-07-20）
 - [[posts/ethresear-2026-07-02-designing-infrastructure-where-exploits-destroy-themselves-25348|エクスプロイトが自己破壊するインフラの設計]]（2026-07-02）
 - [[posts/ethresear-2026-06-19-the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain-25236|レピュテーションウォレット：知識、倫理、道徳的判断がオンチェーンに属する理由]]（2026-06-19）

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-08
+last_updated: 2026-08-09
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -8996,3 +8996,30 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8374-persist-warm-access-sets-across-reverts/29341
 - desc: |
   EthereumトランザクションまたはEVMコールが失敗し、その実行によって行われたすべての状態変更が元に戻されるプロセスです。これにより、トランザクションはブロックチェーンの状態に影響を与えずに終了しますが、ガス料金は消費されます。
+
+## Behavioral Record
+- ja: 行動記録
+- related: [Time-Series Features, Transaction History]
+- auto_added: 2026-08-09
+- auto_source_topic_id: 25666
+- auto_source_url: https://ethresear.ch/t/the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment/25666
+- desc: |
+  スマートコントラクトや参加者のトランザクション履歴など、ブロックチェーン上での行動の時系列データ。特に、詐欺検出や信頼性の評価において、宣言的な情報よりも信頼性が高いとされる。
+
+## Time-Series Features
+- ja: 時系列特徴量
+- related: [Behavioral Record, Ponzi Scheme Detection]
+- auto_added: 2026-08-09
+- auto_source_topic_id: 25666
+- auto_source_url: https://ethresear.ch/t/the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment/25666
+- desc: |
+  スマートコントラクトのライフサイクル全体にわたる行動を追跡するために抽出される、時間的要素を含むデータ特性。ポンジスキーム検出の精度向上に寄与する。
+
+## Ponzi Scheme Detection
+- ja: ポンジスキーム検出
+- related: [Behavioral Record, Time-Series Features]
+- auto_added: 2026-08-09
+- auto_source_topic_id: 25666
+- auto_source_url: https://ethresear.ch/t/the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment/25666
+- desc: |
+  イーサリアム上のスマートコントラクトがポンジスキームであるかどうかを識別するプロセス。特に、コード分析だけでなく、トランザクション履歴の時系列パターンを分析する手法が有効とされる。
