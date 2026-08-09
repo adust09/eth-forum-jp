@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-08'
+date: '2026-08-09'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -106,6 +106,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
+- [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bind-verify-commit-synchronization-cycle|bind-verify-commit synchronization cycle]] — バインド・検証・コミット同期サイクル
@@ -647,6 +648,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Policy-Domain|Policy Domain]] — ポリシードメイン (Policy Domain)
 - [[glossary/Policy-interpreter|Policy interpreter]] — ポリシーインタープリター (Policy interpreter)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
+- [[glossary/Ponzi-Scheme-Detection|Ponzi Scheme Detection]] — ポンジスキーム検出
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Poseidon-hash|Poseidon hash]] — Poseidonハッシュ
 - [[glossary/Positive-Sum-Coordination|Positive-Sum Coordination]] — 正の和の協調 (ポジティブサム・コーディネーション)
@@ -884,6 +886,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Time-Bound-Access-Control-Interface|Time-Bound Access Control Interface]] — 期限付きアクセス制御インターフェース
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
 - [[glossary/Time-locked-blind-sessions|Time-locked blind sessions]] — タイムロックされたブラインドセッション
+- [[glossary/Time-Series-Features|Time-Series Features]] — 時系列特徴量
 - [[glossary/Timelock-Account-recovery|Timelock Account recovery]] — タイムロックアカウントリカバリー
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ

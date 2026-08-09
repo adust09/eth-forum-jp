@@ -4,7 +4,7 @@ aliases:
   - 部分メッセージベースの行トピック (partial message based row topics)
 tags:
   - glossary
-date: '2026-08-08'
+date: '2026-08-09'
 ---
 
 **部分メッセージベースの行トピック (partial message based row topics)**
