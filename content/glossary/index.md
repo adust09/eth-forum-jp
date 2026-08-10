@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-09'
+date: '2026-08-10'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -107,6 +107,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
+- [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bind-verify-commit-synchronization-cycle|bind-verify-commit synchronization cycle]] — バインド・検証・コミット同期サイクル
@@ -597,6 +598,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Operation-level-restrictions|Operation-level restrictions]] — 操作レベルの制限
 - [[glossary/Operator|Operator]] — オペレーター
 - [[glossary/opHash|opHash]] — opHash (操作ハッシュ)
+- [[glossary/Optimality-of-Structured-Silence|Optimality of Structured Silence]] — 構造化された沈黙の最適性
 - [[glossary/optimistic-dispute-window|optimistic dispute window]] — オプティミスティック紛争期間
 - [[glossary/Optimistic-Handler|Optimistic Handler]] — オプティミスティックハンドラー
 - [[glossary/Oracle-Permissioned|Oracle-Permissioned]] — オラクル許可型
@@ -867,6 +869,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/supernodes|supernodes]] — スーパーノード
 - [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
+- [[glossary/Sybil-decorrelation-attack|Sybil-decorrelation attack]] — シビルデコレーション攻撃
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
@@ -963,6 +966,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Wash-tree|Wash tree]] — ウォッシュツリー
 - [[glossary/Wash-building|Wash-building]] — ウォッシュビルディング
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
+- [[glossary/Weighted-BFT|Weighted BFT]] — 加重ビザンチンフォールトトレランス (Weighted BFT)
 - [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
