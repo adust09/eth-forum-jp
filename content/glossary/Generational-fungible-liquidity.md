@@ -4,7 +4,7 @@ aliases:
   - 世代別代替可能流動性 (Generational fungible liquidity)
 tags:
   - glossary
-date: '2026-08-09'
+date: '2026-08-10'
 ---
 
 **世代別代替可能流動性 (Generational fungible liquidity)**

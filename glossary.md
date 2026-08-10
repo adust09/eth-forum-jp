@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-09
+last_updated: 2026-08-10
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9023,3 +9023,40 @@ description: |
 - auto_source_url: https://ethresear.ch/t/the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment/25666
 - desc: |
   イーサリアム上のスマートコントラクトがポンジスキームであるかどうかを識別するプロセス。特に、コード分析だけでなく、トランザクション履歴の時系列パターンを分析する手法が有効とされる。
+
+## Optimality of Structured Silence
+- ja: 構造化された沈黙の最適性
+- related: [Silent Oracle Strategy, Always-publish strategy, Coherence]
+- auto_added: 2026-08-10
+- auto_source_topic_id: 25674
+- auto_source_url: https://ethresear.ch/t/coordination-collapse-and-the-optimality-of-silence-two-result-that-break-standard-bft-and-oracle-design/25674
+- desc: |
+  入力シグナルを一時的に操作できる攻撃者に対して、定義可能な不確実性のもとで公開を差し控える戦略が、常に公開する戦略よりも厳密に低い期待損失を達成するという定理。オラクル設計における「常に公開する」という標準的な慣行に反し、堅牢なオラクルシステムの構築に不可欠な概念である。
+
+## Weighted BFT
+- ja: 加重ビザンチンフォールトトレランス (Weighted BFT)
+- related: [Byzantine Fault Tolerance, DW-BFT Weight, Coordination Collapse]
+- auto_added: 2026-08-10
+- auto_source_topic_id: 25674
+- auto_source_url: https://ethresear.ch/t/coordination-collapse-and-the-optimality-of-silence-two-result-that-break-standard-bft-and-oracle-design/25674
+- desc: |
+  各バリデーターが異なる投票ウェイトを持つビザンチンフォールトトレランスシステム。通常、ステーク量に基づいてウェイトが割り当てられるが、本稿では行動の多様性も考慮したウェイト付けが提案されており、より現実的なセキュリティモデルを提供する。
+
+## Behavioral vector
+- ja: 行動ベクトル
+- aliases: [M_j]
+- related: [Coordination Collapse, Diversity Weight]
+- auto_added: 2026-08-10
+- auto_source_topic_id: 25674
+- auto_source_url: https://ethresear.ch/t/coordination-collapse-and-the-optimality-of-silence-two-result-that-break-standard-bft-and-oracle-design/25674
+- desc: |
+  バリデーターの最近の行動（投票パターン、MEV行動、ブロックタイミング、プロポーザーブースト使用状況、オフチェーン通信シグナルなど）を要約した多次元ベクトル。バリデーターの行動特性を定量的に表現し、その独立性や相関性を評価するために用いられる。
+
+## Sybil-decorrelation attack
+- ja: シビルデコレーション攻撃
+- related: [DW-BFT Weight, Sybil attacks, Diversity Weight]
+- auto_added: 2026-08-10
+- auto_source_topic_id: 25674
+- auto_source_url: https://ethresear.ch/t/coordination-collapse-and-the-optimality-of-silence-two-result-that-break-standard-bft-and-oracle-design/25674
+- desc: |
+  DW-BFTシステムにおいて、攻撃者が意図的に複数のエンティティに分散し、それぞれがわずかに異なる行動をとることでダイバーシティウェイトを獲得し、その後攻撃時に再結託する可能性のある攻撃手法。DW-BFTの脆弱性として指摘されており、対策が求められる。
