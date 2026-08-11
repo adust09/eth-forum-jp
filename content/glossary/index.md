@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-10'
+date: '2026-08-11'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -487,6 +487,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
+- [[glossary/Liquidity-Consolidation|Liquidity Consolidation]] — 流動性統合
 - [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
@@ -562,6 +563,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
+- [[glossary/Non-Zero-Sum-Transfer|Non-Zero-Sum Transfer]] — 非ゼロサム転送 (Non-Zero-Sum Transfer)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
 - [[glossary/Nonzero-Evidence-Commitment|Nonzero Evidence Commitment]] — ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
 - [[glossary/Normalization-Profile|Normalization Profile]] — 正規化プロファイル
@@ -618,6 +620,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
+- [[glossary/Parametric-Token|Parametric Token]] — パラメトリックトークン
 - [[glossary/partial-burn|partial burn]] — 部分バーン
 - [[glossary/Partial-Execution-Payload-Commitments|Partial Execution Payload Commitments]] — 部分的実行ペイロードコミットメント
 - [[glossary/partial-message-based-row-topics|partial message based row topics]] — 部分メッセージベースの行トピック (partial message based row topics)
@@ -945,6 +948,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/Value-transfer-gas-component|Value-transfer gas component]] — 価値転送ガスコンポーネント
+- [[glossary/Velocity-Control|Velocity Control]] — 流動性速度制御
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行
 - [[glossary/verifiable-claims|verifiable claims]] — 検証可能なクレーム
 - [[glossary/Verifiable-Execution|Verifiable Execution]] — 検証可能な実行

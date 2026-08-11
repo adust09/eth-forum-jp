@@ -5,7 +5,7 @@ aliases:
   - Consensus Layer node
 tags:
   - glossary
-date: '2026-08-10'
+date: '2026-08-11'
 ---
 
 **CLノード (コンセンサスレイヤーノード)**
