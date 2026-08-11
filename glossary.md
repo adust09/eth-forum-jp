@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-10
+last_updated: 2026-08-11
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9060,3 +9060,40 @@ description: |
 - auto_source_url: https://ethresear.ch/t/coordination-collapse-and-the-optimality-of-silence-two-result-that-break-standard-bft-and-oracle-design/25674
 - desc: |
   DW-BFTシステムにおいて、攻撃者が意図的に複数のエンティティに分散し、それぞれがわずかに異なる行動をとることでダイバーシティウェイトを獲得し、その後攻撃時に再結託する可能性のある攻撃手法。DW-BFTの脆弱性として指摘されており、対策が求められる。
+
+## Parametric Token
+- ja: パラメトリックトークン
+- related: [ERC-20, fungible token]
+- auto_added: 2026-08-11
+- auto_source_topic_id: 29385
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-parametric-token/29385
+- desc: |
+  各アカウントが独自のパラメータセットを保持できる、ERC-20互換の新しいトークンタイプ。トークンが転送されると、パラメータは決定論的に更新され、流動性を維持しつつ状態を持つトークンを実現する。
+
+## Non-Zero-Sum Transfer
+- ja: 非ゼロサム転送 (Non-Zero-Sum Transfer)
+- aliases: [NZS Transfer]
+- related: [Parametric Token]
+- auto_added: 2026-08-11
+- auto_source_topic_id: 29385
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-parametric-token/29385
+- desc: |
+  Parametric Token標準で導入される、送金元と受取先の金額が一致しない（creditAmount != debitAmount）特殊な転送。適切な残高計算のためにオプションのインターフェース実装が必要となる。
+
+## Liquidity Consolidation
+- ja: 流動性統合
+- related: [Parametric Token, fragmented liquidity]
+- auto_added: 2026-08-11
+- auto_source_topic_id: 29385
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-parametric-token/29385
+- desc: |
+  パラメトリックトークンによって実現される、異なるパラメータを持つトークンが同じ流動性プールで取引されること。これにより、従来のステートフルなトークンで発生していた流動性の断片化を防ぐ。
+
+## Velocity Control
+- ja: 流動性速度制御
+- related: [Parametric Token]
+- auto_added: 2026-08-11
+- auto_source_topic_id: 29385
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-parametric-token/29385
+- desc: |
+  パラメトリックトークンを用いて、トークンの保有期間や年齢に基づいて手数料や報酬を設計し、トークンの回転率（流通速度）を効果的に制御する機能。トークン保有を奨励または抑制するために利用できる。

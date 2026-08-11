@@ -5,7 +5,7 @@ aliases:
   - M_j
 tags:
   - glossary
-date: '2026-08-10'
+date: '2026-08-11'
 ---
 
 **行動ベクトル**
