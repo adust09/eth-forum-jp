@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-11
+last_updated: 2026-08-12
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9097,3 +9097,59 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-parametric-token/29385
 - desc: |
   パラメトリックトークンを用いて、トークンの保有期間や年齢に基づいて手数料や報酬を設計し、トークンの回転率（流通速度）を効果的に制御する機能。トークン保有を奨励または抑制するために利用できる。
+
+## eMBER
+- ja: eMBER (ePBS実行報酬強制焼却)
+- aliases: [ePBS Mandatory Burn of Execution Rewards]
+- related: [ePBS, Burn, Execution Rewards]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29380
+- auto_source_url: https://ethereum-magicians.org/t/eip-8375-ember-epbs-mandatory-burn-of-execution-rewards/29380
+- desc: |
+  EIP-8375で提案されている、ePBS環境下での実行報酬の強制焼却メカニズム。プロトコルレベルで実行報酬を焼却することで、MEVの分配とプロトコルの健全性を改善することを目指します。
+
+## eth_simulateV1
+- ja: eth_simulateV1 (RPCメソッド)
+- related: [RPC, Execution API]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29377
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
+- desc: |
+  Ethereumの実行層APIにおけるRPCメソッドの一つで、トランザクションの実行をシミュレートするために使用されます。これにより、実際のオンチェーン実行前にトランザクションの結果やガス消費量を予測できます。
+
+## EIP-1898
+- ja: EIP-1898 (ブロック識別子)
+- related: [EIP, BlockNumberOrTagOrHash]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29377
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
+- desc: |
+  Ethereum Improvement Proposalの一つで、RPCメソッドにおいてブロックを識別するための標準的な方法を定義しています。ブロック番号、タグ（"latest"など）、またはハッシュ値を用いてブロックを指定することを可能にします。
+
+## BlockNumberOrTagOrHash
+- ja: BlockNumberOrTagOrHash (ブロック識別子型)
+- related: [EIP-1898, RPC]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29377
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
+- desc: |
+  EthereumのRPCメソッドでブロックを指定する際に用いられるデータ型です。ブロック番号、特定のタグ（例: "latest", "earliest", "pending"）、またはブロックハッシュのいずれかを使用してブロックを識別できます。
+
+## EIP-8037
+- ja: EIP-8037 (二次元ガス)
+- related: [EIP, two-dimensional gas]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29377
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
+- desc: |
+  Ethereum Improvement Proposalの一つで、トランザクションのガス消費量を二次元的に扱う概念を導入します。これにより、実行ガスとデータガスなど、異なるリソースに対する料金体系をより柔軟に設計できるようになります。
+
+## Transaction Validation
+- ja: トランザクション検証
+- aliases: [tx validation]
+- related: [Mempool, Block Building]
+- auto_added: 2026-08-12
+- auto_source_topic_id: 29377
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
+- desc: |
+  ブロックチェーンネットワークにおいて、受信したトランザクションがプロトコルのルール（署名の有効性、残高、nonceなど）に準拠しているかを確認するプロセスです。これにより、不正なトランザクションがブロックに含まれることを防ぎます。

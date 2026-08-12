@@ -4,7 +4,7 @@ aliases:
   - キー認識Mempool (Keyed-aware mempool)
 tags:
   - glossary
-date: '2026-08-11'
+date: '2026-08-12'
 ---
 
 **キー認識Mempool (Keyed-aware mempool)**

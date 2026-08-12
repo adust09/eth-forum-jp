@@ -4,7 +4,7 @@ aliases:
   - eth_subscribe (イーサリアム購読)
 tags:
   - glossary
-date: '2026-08-11'
+date: '2026-08-12'
 ---
 
 **eth_subscribe (イーサリアム購読)**
@@ -18,7 +18,7 @@ EthereumのJSON-RPC APIで提供されるメソッドの一つで、クライア
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-10-rpc-standards-32-august-10-2026-29377|RPC標準 #32、2026年8月10日]]（2026-08-10）
 
 ## 元の表記（英語）
 

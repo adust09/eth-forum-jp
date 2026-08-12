@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-11'
+date: '2026-08-12'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -123,6 +123,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
+- [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
@@ -296,10 +297,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-Editors|EIP Editors]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
 - [[glossary/EIP-tagging|EIP tagging]] — EIPタグ付け
+- [[glossary/EIP-1898|EIP-1898]] — EIP-1898 (ブロック識別子)
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
+- [[glossary/EIP-8037|EIP-8037]] — EIP-8037 (二次元ガス)
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/embedded-wallets|embedded wallets]] — 組み込み型ウォレット
+- [[glossary/eMBER|eMBER]] — eMBER (ePBS実行報酬強制焼却)
 - [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
 - [[glossary/Encode-Prove-DAS|Encode + Prove DAS]] — エンコード＋証明DAS
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
@@ -324,6 +328,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ETH-issuance-curve|ETH issuance curve]] — ETH発行曲線
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
 - [[glossary/ethbaseFee|eth_baseFee]] — eth_baseFee
+- [[glossary/ethsimulateV1|eth_simulateV1]] — eth_simulateV1 (RPCメソッド)
 - [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]] — イーサリアム透明性レイヤー (ETL)
@@ -913,6 +918,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
+- [[glossary/Transaction-Validation|Transaction Validation]] — トランザクション検証
 - [[glossary/Transaction-Validity-Proofs|Transaction Validity Proofs]] — トランザクション有効性証明
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 - [[glossary/transfer-eligibility-gate|transfer-eligibility gate]] — 転送適格性ゲート
