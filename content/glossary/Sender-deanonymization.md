@@ -5,7 +5,7 @@ aliases:
   - deanonymization
 tags:
   - glossary
-date: '2026-08-11'
+date: '2026-08-12'
 ---
 
 **送信者匿名性解除**
