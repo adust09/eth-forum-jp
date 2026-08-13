@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,7 +20,10 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
+- [[posts/magicians-2026-08-12-eip-0000-top-up-sync-29405|EIP-0000: トップアップ同期]]（2026-08-12）
 - [[posts/magicians-2026-08-10-eip-8375-ember-epbs-mandatory-burn-of-execution-rewards-29380|EIP-8375: eMBER、ePBSにおける実行報酬の強制バーン]]（2026-08-10）
+- [[posts/magicians-2026-08-10-idea-meta-eip-protocol-maturity-and-ossification-framework-29376|[アイデア / メタEIP] プロトコル成熟度とオシフィケーションフレームワーク]]（2026-08-10）
 - [[posts/magicians-2026-08-10-rpc-standards-32-august-10-2026-29377|RPC標準 #32、2026年8月10日]]（2026-08-10）
 - [[posts/magicians-2026-08-07-eip-8374-persist-warm-access-sets-across-reverts-29341|EIP-8374: リバート後もウォームアクセスセットを保持]]（2026-08-07）
 - [[posts/magicians-2026-08-07-wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes-29358|NFT向けウォレットパス拡張機能：トークンをApple Wallet / Google Walletパスとして表示する]]（2026-08-07）

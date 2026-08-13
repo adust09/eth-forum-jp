@@ -6,7 +6,7 @@ aliases:
   - Flanders Protocol
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **ネイティブ・イーサリアム・デリゲーション**
@@ -21,7 +21,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 
 ## 元の表記（英語）
 

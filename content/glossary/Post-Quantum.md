@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-12-ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding-25691|Poseidon2b向けに不揃いな複数インスタンスGKR：単一ウォーク、不均等領域、最大幅パディングなし]]（2026-08-12）
 - [[posts/magicians-2026-08-05-eip-8365-bls-withdrawal-credential-retirement-29284|EIP-8365: BLS引き出しクレデンシャルの廃止]]（2026-08-05）
 - [[posts/magicians-2026-08-05-eip-8367-balance-sunset-for-retired-bls-validators-29299|EIP-8367: 引退したBLSバリデータの残高サンセット]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）

@@ -5,7 +5,7 @@ aliases:
   - Forest of Random Subsets
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **FORS（フォレスト・オブ・ランダム・サブセット）**

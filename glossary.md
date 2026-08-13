@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-12
+last_updated: 2026-08-13
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9153,3 +9153,270 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-32-august-10-2026/29377
 - desc: |
   ブロックチェーンネットワークにおいて、受信したトランザクションがプロトコルのルール（署名の有効性、残高、nonceなど）に準拠しているかを確認するプロセスです。これにより、不正なトランザクションがブロックに含まれることを防ぎます。
+
+## Operator Family
+- ja: オペレーターファミリー
+- related: [Native Ethereum Delegation]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25699
+- auto_source_url: https://ethresear.ch/t/idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve/25699
+- desc: |
+  Native Ethereum Delegation (NED) における経済的単位。単一のバリデーターキーではなく、永続的な暗号学的アイデンティティとして機能し、複数のバリデーターを運用できる。
+
+## Quadratic Concentration Reserve
+- ja: 二次集中化準備金
+- related: [Native Ethereum Delegation, Operator Family, Sterile Operator Capital]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25699
+- auto_source_url: https://ethresear.ch/t/idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve/25699
+- desc: |
+  オペレーターファミリーが管理する委任されたETHの量に応じて、二次関数的に増加する非生産的な資本要件。オペレーターの集中度が高まるにつれて、追加の資本コストを課すことで集中化を抑制する。
+
+## Source-attributed Runoff
+- ja: ソース帰属型ランオフ
+- related: [Quadratic Concentration Reserve, Native Ethereum Delegation]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25699
+- auto_source_url: https://ethresear.ch/t/idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve/25699
+- desc: |
+  委任されたETHの再委任（redelegation）によって二次集中化準備金が減少する場合、その減少分を元のオペレーターファミリーのランオフ残高に加算する仕組み。資本の即時解放を防ぎ、シビル攻撃による集中化コストの回避を困難にする。
+
+## Sybil Boundary
+- ja: シビル境界
+- related: [Sybil Attack]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25699
+- auto_source_url: https://ethresear.ch/t/idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve/25699
+- desc: |
+  分散型システムにおいて、信頼できる認証局なしに複数の偽のアイデンティティ（シビル）を区別することが根本的に不可能であるという限界。Native Ethereum Delegation (NED) のようなプロトコル設計における基本的な制約として認識される。
+
+## Resource Vector
+- ja: リソースベクトル
+- related: [Multidimensional Fee Market, Execution Gas, State Gas, Data Resource]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25696
+- auto_source_url: https://ethresear.ch/t/designs-for-evm-gas-accounting-in-eip-7999/25696
+- desc: |
+  EVMの多次元料金市場において、実行ガス、ステートガス、データガスなど複数のリソースの予算や消費量をまとめて表現する概念です。新しいEVM設計では、このベクトルを直接操作することが提案されています。
+
+## Strict-Cap Call Opcode
+- ja: 厳格な上限付きコールオペコード
+- related: [Universal Overflow, CALL(g), Callee-Cap Compatibility]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25696
+- auto_source_url: https://ethresear.ch/t/designs-for-evm-gas-accounting-in-eip-7999/25696
+- desc: |
+  Universal overflowの設計パラダイムで提案されている、サブコールが消費できるリソース量を厳密に制限するための新しいEVMオペコードです。呼び出し元が、呼び出し先の実行、ステート、データ容量を個別に正確に制限することを可能にします。
+
+## Conservative Funding Check
+- ja: 保守的な資金調達チェック
+- related: [Aggregate EVM Gas, Funding Efficiency, Base Fee]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25696
+- auto_source_url: https://ethresear.ch/t/designs-for-evm-gas-accounting-in-eip-7999/25696
+- desc: |
+  多次元料金市場の設計において、トランザクションが消費する可能性のあるすべてのリソースに対して、最も高いベースフィーで資金を確保する必要がある事前チェックです。これにより、実際の消費量よりも多くのETHを一時的にロックする必要が生じ、資金効率が低下する可能性があります。
+
+## Funding Efficiency
+- ja: 資金効率
+- related: [Conservative Funding Check, Multidimensional Fee Market]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25696
+- auto_source_url: https://ethresear.ch/t/designs-for-evm-gas-accounting-in-eip-7999/25696
+- desc: |
+  トランザクションを実行するために必要なETHの事前ロック量と、実際に消費されるリソースのコストとの比率を示す指標です。多次元料金市場の設計において、ユーザーの資金調達負担を軽減するための重要な評価軸となります。
+
+## Callee-Cap Compatibility
+- ja: 被呼び出し元制限の互換性
+- related: [CALL(g), Universal Overflow, Strict-Cap Call Opcode]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25696
+- auto_source_url: https://ethresear.ch/t/designs-for-evm-gas-accounting-in-eip-7999/25696
+- desc: |
+  呼び出し元がサブコール（被呼び出し元）の実行を制限する機能が、新しいガス会計設計においてどの程度維持されるかを示す指標です。特に、レガシーなCALL(g)オペコードが持つサンドボックス化やリソース制限の機能が、多次元ガス市場でどのように扱われるかが重要となります。
+
+## Liquidator
+- ja: リクイデーター
+- related: [liquidation, over-collateralization]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25692
+- auto_source_url: https://ethresear.ch/t/the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution/25692
+- desc: |
+  DeFiプロトコルにおいて、担保価値が特定の閾値を下回った際に、担保を清算して債務を返済する役割を担うエンティティ。通常、自動化されたボットによって実行される。
+
+## UUPS Proxy
+- ja: UUPSプロキシ
+- aliases: [UUPS]
+- related: [proxy upgradeable system, smart contract upgrade]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25692
+- auto_source_url: https://ethresear.ch/t/the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution/25692
+- desc: |
+  アップグレード可能なスマートコントラクトの設計パターンの一つ。実装ロジックを別のコントラクトに委譲し、そのロジックコントラクトのアドレスをアップグレードすることで機能更新を可能にする。プロキシコントラクト自体は変更されず、ロジックコントラクトのみが更新される。
+
+## Maturity Settlement Queue
+- ja: 満期決済キュー
+- aliases: [T+n Maturity Settlement Queue]
+- related: [T+0 settlement, liquidity crisis, bank run]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25692
+- auto_source_url: https://ethresear.ch/t/the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution/25692
+- desc: |
+  金融システムにおいて、特定の条件下で即時決済（T+0）を停止し、引き出し要求を一定期間後に処理するキュー。流動性危機時に資産の投げ売りを防ぎ、秩序ある清算を可能にするためのメカニズム。
+
+## Dynamic Step-Function Penalty Curve
+- ja: 動的ステップ関数ペナルティカーブ
+- related: [bank run, mechanism design, swing pricing]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25692
+- auto_source_url: https://ethresear.ch/t/the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution/25692
+- desc: |
+  プロトコルの流動性枯渇速度などの動的な条件に基づいて、引き出し手数料やペナルティを段階的に増加させるメカニズム。銀行取り付け騒ぎのような状況で、先着者利益を排除し、引き出しを抑制することを目的とする。
+
+## Absolute Junior Subordination
+- ja: 絶対劣後（Absolute Junior Subordination）
+- related: [junior tranche, senior obligations, subordination ratio]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25692
+- auto_source_url: https://ethresear.ch/t/the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution/25692
+- desc: |
+  資本構造において、劣後トランシェ（ジュニア）が優先トランシェ（シニア）の債務が完全に履行されるまで、いかなる引き出しも許可されない厳格なルール。シニア債務のフロントランニングを防ぎ、システム全体の安定性を確保するために用いられる。
+
+## GKR
+- ja: GKR (Grand Product Argument)
+- aliases: [Grand Product Argument]
+- related: [Sumcheck protocol, ZKP]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25691
+- auto_source_url: https://ethresear.ch/t/ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding/25691
+- desc: |
+  複数の多項式の積の和を効率的に検証するためのゼロ知識証明プロトコル。特に、大規模な算術回路の検証コストを削減するために利用される。
+
+## Poseidon2b
+- ja: Poseidon2b
+- related: [Poseidon hash, ハッシュ関数, ZKP]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25691
+- auto_source_url: https://ethresear.ch/t/ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding/25691
+- desc: |
+  ZKPフレンドリーなハッシュ関数であるPoseidonの特定のバージョン。Ethereumの検証プロセスにおいて、特にポスト量子検証やGPUアクセラレーションの文脈でハッシュ計算の効率化に用いられる。
+
+## Ragged embedding
+- ja: ラギッド埋め込み
+- related: [GKR, Max-width padding]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25691
+- auto_source_url: https://ethresear.ch/t/ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding/25691
+- desc: |
+  GKRプロトコルにおいて、異なる論理幅（インスタンス数）を持つ複数の領域を効率的にバッチ処理するための手法。最大幅のパディングを物理的に行わずに、単一のGKRウォークで検証を可能にする。
+
+## Boolean width
+- ja: ブーリアン幅
+- aliases: [w_a]
+- related: [GKR, 算術回路]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25691
+- auto_source_url: https://ethresear.ch/t/ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding/25691
+- desc: |
+  GKRプロトコルにおける特定の計算領域やインスタンスセットのサイズを示す指標。領域を表現するために必要なブーリアン変数の数を指す。
+
+## Sumcheck degree
+- ja: Sumcheck次数
+- related: [Sumcheck protocol, GKR]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 25691
+- auto_source_url: https://ethresear.ch/t/ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding/25691
+- desc: |
+  Sumcheckプロトコルにおいて、検証対象となる多項式の最大次数。この次数はプロトコルの計算複雑性に影響を与える重要なパラメータである。
+
+## CL-driven EL synchronisation
+- ja: CL主導型EL同期
+- aliases: [CL-driven EL sync]
+- related: [Top-up Sync, Consensus Layer, Execution Layer]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29405
+- auto_source_url: https://ethereum-magicians.org/t/eip-0000-top-up-sync/29405
+- desc: |
+  Ethereumのコンセンサス層（CL）が実行層（EL）の同期を主導するプロセス。Top-up Syncの文脈で、この同期の具体的な方法を指す。
+
+## execution client head
+- ja: 実行クライアントヘッド
+- aliases: [EL client head]
+- related: [Execution Layer, block header, state root, Top-up Sync]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29405
+- auto_source_url: https://ethereum-magicians.org/t/eip-0000-top-up-sync/29405
+- desc: |
+  Ethereumの実行クライアントが認識している最新のブロックまたは状態。同期プロセスにおいて、クライアントがどの時点までデータを処理したかを示す。
+
+## missing state
+- ja: 不足状態
+- related: [state, state root, execution client head, missing history, Top-up Sync]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29405
+- auto_source_url: https://ethereum-magicians.org/t/eip-0000-top-up-sync/29405
+- desc: |
+  実行クライアントが同期中に必要とするが、まだ持っていないブロックチェーンの状態データ。ブロックの履歴とは区別され、Top-up Syncの主要な課題の一つ。
+
+## missing history
+- ja: 不足履歴
+- related: [block, execution client head, missing state, Top-up Sync]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29405
+- auto_source_url: https://ethereum-magicians.org/t/eip-0000-top-up-sync/29405
+- desc: |
+  実行クライアントが同期中に必要とするが、まだ持っていないブロックチェーンのブロック履歴。状態データとは区別され、Top-up Syncの主要な課題の一つ。
+
+## Waggle protocol
+- ja: ワグルプロトコル (Waggle protocol)
+- related: [P2P networking, Client]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29404
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-6-august-12-2026/29404
+- desc: |
+  EthereumのP2Pネットワーキングに関する議論で言及された特定のプロトコル。クライアント間のデータ交換や通信を効率化するために提案されている可能性があります。
+
+## Protocol Maturity and Ossification Framework
+- ja: プロトコル成熟度と骨化フレームワーク
+- related: [Protocol Maturity, Protocol Ossification, Protocol-Property Finality]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29376
+- auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
+- desc: |
+  Ethereumプロトコルの各要素が、活発な開発段階から成熟し、最終的に変更されない「骨化」状態へと移行するための、提案されたメタEIPフレームワーク。プロトコルの安定性と信頼性を高めることを目的とする。
+
+## Protocol-Property Finality
+- ja: プロトコルプロパティのファイナリティ
+- related: [Document Finality, Protocol Maturity, Protocol Ossification]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29376
+- auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
+- desc: |
+  Ethereumプロトコルの特定のプロパティが、将来にわたって変更されないという明確な意図と合意が確立された状態を指す。EIP文書の最終状態（Document Finality）とは異なり、プロトコル自体の安定性へのコミットメントを示す。
+
+## Protocol Maturity
+- ja: プロトコル成熟度
+- related: [Protocol Ossification, Protocol Maturity and Ossification Framework]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29376
+- auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
+- desc: |
+  Ethereumプロトコルの特定のプロパティが、活発な開発段階を終え、安定しており、将来のユーザーが信頼できる状態になったことを指す。変更の必要性が低くなり、収束と長期的な安定性が重視される段階。
+
+## Ossification Candidate
+- ja: 骨化候補
+- related: [Protocol Ossification, Protocol Maturity and Ossification Framework, Ossified (status)]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29376
+- auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
+- desc: |
+  Ethereumプロトコルの特定のプロパティが、十分に成熟したと見なされ、変更に対する正当化の負担が大幅に高まる段階。コミュニティがそのプロパティをEthereumの永続的な社会契約の一部とする準備ができているか議論する。
+
+## Ossified (status)
+- ja: 骨化済み（ステータス）
+- related: [Protocol Ossification, Ossification Candidate, Protocol Maturity and Ossification Framework]
+- auto_added: 2026-08-13
+- auto_source_topic_id: 29376
+- auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
+- desc: |
+  Ethereumプロトコルの特定のプロパティが、通常のプロトコル設計空間の一部ではなくなったという明確な社会的合意に達した状態。将来のプロトコルアップグレードで変更すべきではないという規範的なコミットメントとなる。

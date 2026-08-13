@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-07-30-substrate-incompleteness-25572|基盤の不完全性]]（2026-07-30）
 - [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）

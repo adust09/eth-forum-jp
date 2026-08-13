@@ -4,7 +4,7 @@ aliases:
   - 意図的なブロック非提出によるバイアス (Withholding Bias)
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **意図的なブロック非提出によるバイアス (Withholding Bias)**
