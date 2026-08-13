@@ -6,7 +6,7 @@ aliases:
   - Clones
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **ミニマルプロキシクローン**

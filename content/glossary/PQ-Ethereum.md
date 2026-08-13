@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Ethereum
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **耐量子イーサリアム (PQ Ethereum)**

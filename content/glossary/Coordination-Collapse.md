@@ -4,7 +4,7 @@ aliases:
   - 協調崩壊
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **協調崩壊**

@@ -4,7 +4,7 @@ aliases:
   - メカニズム設計
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **メカニズム設計**
@@ -18,6 +18,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-07-22-mechanism-design-failure-modes-25503|メカニズム設計の失敗モード]]（2026-07-22）
 
 ## 元の表記（英語）

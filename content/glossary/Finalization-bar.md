@@ -5,7 +5,7 @@ aliases:
   - finalization threshold
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **ファイナリティバー**

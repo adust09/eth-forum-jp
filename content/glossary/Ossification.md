@@ -4,7 +4,7 @@ aliases:
   - オシフィケーション (硬化)
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **オシフィケーション (硬化)**
@@ -19,7 +19,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-10-idea-meta-eip-protocol-maturity-and-ossification-framework-29376|[アイデア / メタEIP] プロトコル成熟度とオシフィケーションフレームワーク]]（2026-08-10）
 
 ## 元の表記（英語）
 

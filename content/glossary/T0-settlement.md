@@ -5,7 +5,7 @@ aliases:
   - Instant settlement
 tags:
   - glossary
-date: '2026-08-12'
+date: '2026-08-13'
 ---
 
 **T+0決済（即時決済）**
@@ -19,7 +19,7 @@ date: '2026-08-12'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-12-the-illusion-of-over-collateralization-why-static-c-ratios-fail-in-t-0-macro-panics-and-a-proposed-on-chain-solution-25692|過剰担保の幻想：T+0マクロパニック時に静的担保率が失敗する理由（および提案されたオンチェーンソリューション）]]（2026-08-12）
 
 ## 元の表記（英語）
 
