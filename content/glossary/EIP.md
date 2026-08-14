@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -21,6 +21,9 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
+- [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
+- [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
+- [[posts/magicians-2026-08-13-eipip-meeting-130-sep-16-2026-29418|EIPIPミーティング #130、2026年9月16日]]（2026-08-13）
 - [[posts/magicians-2026-08-12-eip-0000-top-up-sync-29405|EIP-0000: トップアップ同期]]（2026-08-12）
 - [[posts/magicians-2026-08-10-eip-8375-ember-epbs-mandatory-burn-of-execution-rewards-29380|EIP-8375: eMBER、ePBSにおける実行報酬の強制バーン]]（2026-08-10）
 - [[posts/magicians-2026-08-10-idea-meta-eip-protocol-maturity-and-ossification-framework-29376|[アイデア / メタEIP] プロトコル成熟度とオシフィケーションフレームワーク]]（2026-08-10）

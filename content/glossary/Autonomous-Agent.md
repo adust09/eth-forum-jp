@@ -4,7 +4,7 @@ aliases:
   - 自律エージェント
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **自律エージェント**
@@ -19,6 +19,7 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/ethresear-2026-07-22-call-for-papers-blockchain-defi-and-ai-25496|論文募集: ブロックチェーン、DeFi、AI]]（2026-07-22）
 
 ## 元の表記（英語）

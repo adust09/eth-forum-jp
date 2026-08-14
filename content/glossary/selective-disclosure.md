@@ -4,7 +4,7 @@ aliases:
   - 選択的開示
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **選択的開示**

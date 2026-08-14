@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/ethresear-2026-07-30-substrate-incompleteness-25572|基盤の不完全性]]（2026-07-30）
 - [[posts/magicians-2026-07-29-p2p-networking-5-july-29-2026-29200|P2Pネットワーキング #5、2026年7月29日]]（2026-07-29）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）

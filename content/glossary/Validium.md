@@ -4,7 +4,7 @@ aliases:
   - Validium (バリディウム)
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **Validium (バリディウム)**

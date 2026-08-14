@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -84,6 +84,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
+- [[glossary/attenuated-re-delegation|attenuated re-delegation]] — 減衰再委譲
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/attestation-deadline|attestation deadline]] — アテステーション期限
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
@@ -462,6 +463,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
+- [[glossary/intentsolver-layer|intent/solver layer]] — インテント/ソルバー層
 - [[glossary/interface-discovery|interface discovery]] — インターフェース検出
 - [[glossary/internal-extraction-window|internal extraction window]] — 内部抽出ウィンドウ
 - [[glossary/Intra-cluster-communication|Intra-cluster communication]] — クラスター内通信
@@ -518,6 +520,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/majority-trigger-mechanism|majority-trigger mechanism]] — 過半数トリガーメカニズム
 - [[glossary/Maker-checker|Maker-checker (on-chain)]] — メイカーチェッカー（オンチェーン）
 - [[glossary/Malleable-offchain-metadata|Malleable offchain metadata]] — 可変なオフチェーンメタデータ
+- [[glossary/mandate-inheritance|mandate inheritance]] — 委任の継承
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
 - [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
@@ -753,6 +756,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
+- [[glossary/Regulated-Agent-Mandate|Regulated Agent Mandate]] — 規制されたエージェントの委任 (ERC-8226)
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]] — 規制資産クレーム
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]] — 規制コンプライアンスプロトコル (RCP)
 - [[glossary/regulatory-state-machine|regulatory state machine]] — 規制状態機械
@@ -933,6 +937,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
 - [[glossary/Token-engineering|Token engineering]] — トークンエンジニアリング
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]] — トークンプル承認
+- [[glossary/token-based-role-access-control|token-based role access control]] — トークンベースのロールアクセス制御
 - [[glossary/Token-Bound-Executable-Skills|Token-Bound Executable Skills]] — トークン結合型実行可能スキル
 - [[glossary/Token-bound-reservations|Token-bound reservations]] — トークンに紐づく予約
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース

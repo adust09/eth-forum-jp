@@ -5,7 +5,7 @@ aliases:
   - RCP
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **規制コンプライアンスプロトコル (RCP)**
@@ -20,7 +20,7 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 
 ## 元の表記（英語）
 

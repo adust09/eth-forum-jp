@@ -5,7 +5,7 @@ aliases:
   - OCP
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **Observation Commitment Protocol (OCP)**
