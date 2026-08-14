@@ -4,7 +4,7 @@ aliases:
   - 絶対劣後（Absolute Junior Subordination）
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **絶対劣後（Absolute Junior Subordination）**

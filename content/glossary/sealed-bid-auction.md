@@ -5,7 +5,7 @@ aliases:
   - sealed-bid format
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **封印入札オークション**

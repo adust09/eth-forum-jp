@@ -4,7 +4,7 @@ aliases:
   - 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)**
@@ -20,6 +20,7 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-08-04-idea-draft-erc-unclonable-agent-execution-credentials-via-zero-knowledge-nullifiers-29274|[アイデア/ドラフト] ERC: ゼロ知識ヌリファイアによるアンクローナブルなエージェント実行クレデンシャル]]（2026-08-04）
 
 ## 元の表記（英語）

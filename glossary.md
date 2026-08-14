@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-13
+last_updated: 2026-08-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9420,3 +9420,49 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/idea-meta-eip-protocol-maturity-and-ossification-framework/29376
 - desc: |
   Ethereumプロトコルの特定のプロパティが、通常のプロトコル設計空間の一部ではなくなったという明確な社会的合意に達した状態。将来のプロトコルアップグレードで変更すべきではないという規範的なコミットメントとなる。
+
+## attenuated re-delegation
+- ja: 減衰再委譲
+- related: [mandate inheritance, autonomous agent, delegation]
+- auto_added: 2026-08-14
+- auto_source_topic_id: 29421
+- auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
+- desc: |
+  親エージェントによって既に制約が課せられた状態で子エージェントが生成され、その制約が剥奪不可能であるような再委譲の概念です。Ethereumエコシステムにおける自律エージェントの権限管理において、未解決の課題の一つとされています。
+
+## mandate inheritance
+- ja: 委任の継承
+- related: [attenuated re-delegation, autonomous agent, delegation]
+- auto_added: 2026-08-14
+- auto_source_topic_id: 29421
+- auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
+- desc: |
+  親エージェントから子エージェントへ、その権限や制約が引き継がれるメカニズムです。特に、子エージェントが親の制約をそのまま、あるいはさらに減衰された形で継承するシナリオがEthereumリサーチで議論されています。
+
+## intent/solver layer
+- ja: インテント/ソルバー層
+- related: [intent layer, MEV]
+- auto_added: 2026-08-14
+- auto_source_topic_id: 29421
+- auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
+- desc: |
+  ユーザーの意図（インテント）を表現し、それを最適な方法で実行する（ソルバー）ための抽象化レイヤーです。Ethereumエコシステムにおいて、より高度な自動化とユーザー体験の向上を目指す文脈で提案されています。
+
+## token-based role access control
+- ja: トークンベースのロールアクセス制御
+- related: [access control, ERC-721, ERC-20]
+- auto_added: 2026-08-14
+- auto_source_topic_id: 29421
+- auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
+- desc: |
+  特定のトークンを所有しているかどうかに基づいて、ユーザーやエージェントに特定のロール（役割）とそれに対応するアクセス権限を付与するメカニズムです。スマートコントラクトや分散型アプリケーションにおける権限管理に利用されます。
+
+## Regulated Agent Mandate
+- ja: 規制されたエージェントの委任 (ERC-8226)
+- aliases: [ERC-8226]
+- related: [autonomous agent, delegation, compliance]
+- auto_added: 2026-08-14
+- auto_source_topic_id: 29421
+- auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
+- desc: |
+  プリンシパルがエージェントに対して、スコープ、上限、時間制限を設けた委任を行うための標準です。規制されたトークンの既存の事前転送フック内でチェックされ、トランザクションごとおよび累積の上限、凍結、コンプライアンスプロバイダーの機能を含む概念です。

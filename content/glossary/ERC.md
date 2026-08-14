@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
+- [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-08-07-erc-xxxx-token-launch-abuse-detection-and-remediation-29359|ERC-XXXX: トークンローンチにおける不正検出と是正]]（2026-08-07）
 - [[posts/magicians-2026-08-07-wallet-pass-extension-for-nfts-surfacing-tokens-as-apple-wallet-google-wallet-passes-29358|NFT向けウォレットパス拡張機能：トークンをApple Wallet / Google Walletパスとして表示する]]（2026-08-07）
 - [[posts/magicians-2026-08-06-is-there-appetite-for-a-cheaper-on-chain-ao-hash-ashlar-14-232-gas-vs-poseidons-18-229-29315|より安価なオンチェーンAOハッシュに需要はありますか？ (Ashlar 14,232 gas vs Poseidon 18,229)]]（2026-08-06）

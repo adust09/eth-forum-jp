@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-08-13'
+date: '2026-08-14'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-08-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/ethresear-2026-08-08-the-behavioral-record-time-series-as-evidence-and-the-oracle-problem-in-collective-judgment-25666|行動記録：時系列を証拠とする集合的判断におけるオラクル問題]]（2026-08-08）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-07-29-draft-erc-staked-weighted-verification-gate-29194|[ERCドラフト] ステーク重み付け検証ゲート]]（2026-07-29）
