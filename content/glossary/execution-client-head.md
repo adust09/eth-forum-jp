@@ -5,7 +5,7 @@ aliases:
   - EL client head
 tags:
   - glossary
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 **実行クライアントヘッド**

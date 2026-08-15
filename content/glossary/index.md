@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -96,6 +96,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
+- [[glossary/BAL-data|BAL data]] — BALデータ (Bytecode Access Listデータ)
 - [[glossary/balance-drain|balance drain]] — 残高排出
 - [[glossary/Balance-Invariant|Balance Invariant]] — 残高不変条件
 - [[glossary/Balance-sunset|Balance sunset]] — 残高サンセット
@@ -182,6 +183,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
 - [[glossary/Cohort|Cohort]] — コホート
 - [[glossary/Cohort-Order-Book|Cohort Order Book]] — コホートオーダーブック
+- [[glossary/cold-storage-reads|cold storage reads]] — コールドストレージ読み取り
 - [[glossary/Cold-subtree|Cold subtree]] — コールドサブツリー
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
 - [[glossary/ColdWarm-Access-Costs|Cold/Warm Access Costs]] — コールド/ウォームアクセスコスト
@@ -250,6 +252,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/DA-propagation-burden|DA-propagation burden]] — DA伝播負荷 (Data Availability Propagation Burden)
 - [[glossary/DAG-CBOR|DAG-CBOR]] — DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
+- [[glossary/data-gas|data gas]] — データガス
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/debugexecutionWitness|debug_executionWitness]] — debug_executionWitness (デバッグ実行証人)
@@ -458,6 +461,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
 - [[glossary/Inheritable-Agent-Mandate|Inheritable Agent Mandate]] — 継承可能なエージェントマンデート
+- [[glossary/initcode|initcode]] — 初期化コード
 - [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
 - [[glossary/instant-revoke|instant revoke]] — 即時取り消し
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
@@ -798,6 +802,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/routing-index|routing index]] — ルーティングインデックス
 - [[glossary/RowDAS|RowDAS]] — RowDAS
 - [[glossary/RS-Membership-Check-Instantiations|RS Membership Check Instantiations]] — RSメンバーシップチェックの実装
+- [[glossary/runtime-code|runtime code]] — ランタイムコード
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション

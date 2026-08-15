@@ -5,7 +5,7 @@ aliases:
   - IL
 tags:
   - glossary
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 **インクルージョンリスト**
@@ -20,6 +20,7 @@ FOCILにおいて、特定のトランザクションをブロックに含める
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-14-preserving-censorship-resistance-for-bal-data-in-eip-7999-29427|EIP-7999におけるBALデータの検閲耐性維持]]（2026-08-14）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
