@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9466,3 +9466,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/a-map-of-the-agent-mandate-ercs-what-each-one-actually-does/29421
 - desc: |
   プリンシパルがエージェントに対して、スコープ、上限、時間制限を設けた委任を行うための標準です。規制されたトークンの既存の事前転送フック内でチェックされ、トランザクションごとおよび累積の上限、凍結、コンプライアンスプロバイダーの機能を含む概念です。
+
+## BAL data
+- ja: BALデータ (Bytecode Access Listデータ)
+- related: [Bytecode Access List, EIP-7928, EIP-7999]
+- auto_added: 2026-08-15
+- auto_source_topic_id: 29427
+- auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
+- desc: |
+  EIP-7928で導入された、トランザクション実行中にアクセスまたはデプロイされたバイトコードを記録するデータ。EIP-7999では、このデータもデータリソースの一部として扱われる。
+
+## data gas
+- ja: データガス
+- related: [EIP-7999, execution gas, calldata]
+- auto_added: 2026-08-15
+- auto_source_topic_id: 29427
+- auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
+- desc: |
+  EIP-7999で提案されている、トランザクションのデータリソース消費に対して課されるガス。EVMの実行ガスとは分離して扱われ、データ可用性の確保を目的とする。
+
+## runtime code
+- ja: ランタイムコード
+- related: [initcode, smart contract, EVM]
+- auto_added: 2026-08-15
+- auto_source_topic_id: 29427
+- auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
+- desc: |
+  スマートコントラクトがブロックチェーンにデプロイされた後に実行される実際のバイトコード。コントラクトの初期化コード（initcode）によって生成される。
+
+## initcode
+- ja: 初期化コード
+- related: [runtime code, smart contract, CREATE opcode]
+- auto_added: 2026-08-15
+- auto_source_topic_id: 29427
+- auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
+- desc: |
+  スマートコントラクトのデプロイ時に一度だけ実行され、コントラクトのランタイムコードをブロックチェーンに書き込むためのバイトコード。
+
+## cold storage reads
+- ja: コールドストレージ読み取り
+- related: [SLOAD, gas schedule, state access]
+- auto_added: 2026-08-15
+- auto_source_topic_id: 29427
+- auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
+- desc: |
+  EVM実行中に、現在のトランザクションでまだアクセスされていないストレージスロットからデータを読み取る操作。通常、ウォームストレージ読み取りよりも高いガス料金が課される。

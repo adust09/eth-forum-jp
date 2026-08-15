@@ -4,7 +4,7 @@ aliases:
   - IAgentHandler (インターフェース)
 tags:
   - glossary
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 **IAgentHandler (インターフェース)**

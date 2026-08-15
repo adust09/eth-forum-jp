@@ -5,7 +5,7 @@ aliases:
   - Modular accounts
 tags:
   - glossary
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 **モジュラー型スマートアカウント (Modular Smart Accounts)**

@@ -5,7 +5,7 @@ aliases:
   - Lessee as a position
 tags:
   - glossary
-date: '2026-08-14'
+date: '2026-08-15'
 ---
 
 **トークン化された借り手ポジション**
