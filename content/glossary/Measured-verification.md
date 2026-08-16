@@ -4,7 +4,7 @@ aliases:
   - 測定型検証 (Measured verification)
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **測定型検証 (Measured verification)**

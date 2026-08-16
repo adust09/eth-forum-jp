@@ -5,7 +5,7 @@ aliases:
   - ZKSP
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **ゼロ知識支出ポリシー**

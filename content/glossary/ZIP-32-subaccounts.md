@@ -4,7 +4,7 @@ aliases:
   - ZIP-32サブアカウント
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **ZIP-32サブアカウント**

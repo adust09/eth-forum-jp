@@ -5,7 +5,7 @@ aliases:
   - NZS Transfer
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **非ゼロサム転送 (Non-Zero-Sum Transfer)**

@@ -5,7 +5,7 @@ aliases:
   - one-sided liquidity add
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **片側流動性追加 (One-sided add)**

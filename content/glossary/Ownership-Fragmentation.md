@@ -4,7 +4,7 @@ aliases:
   - 所有権の断片化 (Ownership Fragmentation)
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **所有権の断片化 (Ownership Fragmentation)**

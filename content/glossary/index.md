@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -288,6 +288,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Distributed-Validator-Technology|Distributed Validator Technology]] — 分散型バリデータ技術 (DVT)
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/DMQ-framework|DMQ framework]] — DMQフレームワーク
 - [[glossary/domain-separation|domain separation]] — ドメイン分離
 - [[glossary/domainlogn|domain_logn]] — ドメインの対数サイズ (domain_logn)
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
@@ -390,6 +391,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]] — 固定カットオフ型ステート階層化
 - [[glossary/fixed-point-math|fixed-point math]] — 固定小数点演算
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
+- [[glossary/Flash-loan-manipulation|Flash-loan manipulation]] — フラッシュローン操作
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
 - [[glossary/FOCIL-Eligibility|FOCIL Eligibility]] — FOCIL適格性 (Fork-Choice Enforced Inclusion List Eligibility)
 - [[glossary/Forced-transaction-mechanism|Forced transaction mechanism]] — 強制トランザクションメカニズム
@@ -613,6 +615,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
 - [[glossary/On-chain-delinquency-tiers|On-chain delinquency tiers]] — オンチェーン延滞ティア
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]] — オンチェーンメカニズム設計
+- [[glossary/On-Chain-Penalty-Enforcement|On-Chain Penalty Enforcement]] — オンチェーンペナルティ執行
 - [[glossary/On-chain-Privacy|On-chain Privacy]] — オンチェーンプライバシー
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/On-chain-safeguards|On-chain safeguards]] — オンチェーンセーフガード
@@ -646,6 +649,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
+- [[glossary/Panic-State|Panic State]] — パニック状態
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
 - [[glossary/Parametric-Token|Parametric Token]] — パラメトリックトークン
@@ -906,6 +910,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
 - [[glossary/Subjective-Human-Oracle-Network|Subjective Human Oracle Network]] — 主観的ヒューマンオラクルネットワーク (SHON)
+- [[glossary/Subordination|Subordination]] — 従属（関係）
 - [[glossary/Substrate-Incompleteness|Substrate Incompleteness]] — 基盤の不完全性（Substrate Incompleteness）
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/Sumcheck-degree|Sumcheck degree]] — Sumcheck次数

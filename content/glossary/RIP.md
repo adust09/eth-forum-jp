@@ -5,7 +5,7 @@ aliases:
   - Rollup Improvement Proposal
 tags:
   - glossary
-date: '2026-08-15'
+date: '2026-08-16'
 ---
 
 **Rollup Improvement Proposal (RIP)**
