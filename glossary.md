@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9511,3 +9511,51 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/preserving-censorship-resistance-for-bal-data-in-eip-7999/29427
 - desc: |
   EVM実行中に、現在のトランザクションでまだアクセスされていないストレージスロットからデータを読み取る操作。通常、ウォームストレージ読み取りよりも高いガス料金が課される。
+
+## DMQ framework
+- ja: DMQフレームワーク
+- aliases: [DMQ]
+- related: [On-Chain Penalty Enforcement, Panic State, MEV Attack Vectors]
+- auto_added: 2026-08-16
+- auto_source_topic_id: 25725
+- auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
+- desc: |
+  オンチェーンでのペナルティ実行とMEV攻撃ベクトルに対処するために提案されたフレームワーク。パニック状態において、二次市場の流動性に依存せず、プログラムによって従属関係を強制することを目的としている。
+
+## On-Chain Penalty Enforcement
+- ja: オンチェーンペナルティ執行
+- aliases: [Penalty Execution]
+- related: [DMQ framework, Panic State, Subordination, Haircut]
+- auto_added: 2026-08-16
+- auto_source_topic_id: 25725
+- auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
+- desc: |
+  ブロックチェーン上で、特定の条件（例：パニック状態）がトリガーされた際に、スマートコントラクトによって自動的かつプログラム的にペナルティを適用・執行すること。二次市場の流動性に依存せず、強制的な従属関係を確立する。
+
+## Panic State
+- ja: パニック状態
+- related: [DMQ framework, On-Chain Penalty Enforcement, Subordination]
+- auto_added: 2026-08-16
+- auto_source_topic_id: 25725
+- auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
+- desc: |
+  DMQフレームワークにおいて、特定の条件（例：準備金の枯渇速度）が閾値を超えた際にシステムが移行する状態。この状態では、二次市場の流動性に依存しないプログラム的なペナルティ執行がトリガーされる。
+
+## Subordination
+- ja: 従属（関係）
+- related: [On-Chain Penalty Enforcement, Panic State, Haircut]
+- auto_added: 2026-08-16
+- auto_source_topic_id: 25725
+- auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
+- desc: |
+  DMQフレームワークにおいて、特定の条件下で、ある資産や請求権が他のものに対して優先順位が低く設定され、強制的に価値が減じられる状態。二次市場の流動性に依存せず、プログラムによってこの従属関係が執行される。
+
+## Flash-loan manipulation
+- ja: フラッシュローン操作
+- aliases: [Flash loan manipulation]
+- related: [Flash loan, Oracle, TWAP]
+- auto_added: 2026-08-16
+- auto_source_topic_id: 25725
+- auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
+- desc: |
+  ブロックチェーン上で、担保なしで瞬時に借り入れと返済を行うフラッシュローンを利用して、市場価格やオラクルデータを一時的に操作する攻撃手法。特にTWAPなどの時間加重平均価格に依存するシステムが脆弱となる可能性がある。
