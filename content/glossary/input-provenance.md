@@ -4,7 +4,7 @@ aliases:
   - 入力来歴 (input provenance)
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **入力来歴 (input provenance)**

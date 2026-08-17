@@ -4,7 +4,7 @@ aliases:
   - トラステッドセットアップ（信頼できる設定）
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **トラステッドセットアップ（信頼できる設定）**
@@ -19,6 +19,7 @@ date: '2026-08-16'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 
 ## 元の表記（英語）

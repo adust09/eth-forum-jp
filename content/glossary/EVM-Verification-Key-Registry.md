@@ -4,7 +4,7 @@ aliases:
   - EVM検証鍵レジストリ
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **EVM検証鍵レジストリ**

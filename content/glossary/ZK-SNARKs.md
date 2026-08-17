@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Succinct Non-Interactive Argument of Knowledge
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)**

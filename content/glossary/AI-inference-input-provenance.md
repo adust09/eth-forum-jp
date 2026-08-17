@@ -4,7 +4,7 @@ aliases:
   - AI推論入力の来歴
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **AI推論入力の来歴**

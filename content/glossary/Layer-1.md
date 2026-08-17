@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **レイヤー1**
@@ -20,6 +20,7 @@ date: '2026-08-16'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/ethresear-2026-08-07-atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design-25660|x402エージェント支払い向け[[glossary/Zero-Knowledge-Proof|ゼロ知識証明]]ゲート付きアトミック決済：測定されたリファレンスデザイン]]（2026-08-07）
 - [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
 - [[posts/ethresear-2026-07-28-native-randomness-sourcing-with-looser-guarantees-25556|より緩い保証付きのネイティブなランダム性ソース]]（2026-07-28）
