@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-16
+last_updated: 2026-08-17
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9559,3 +9559,48 @@ description: |
 - auto_source_url: https://ethresear.ch/t/dmq-framework-on-chain-penalty-execution-mev-attack-vectors/25725
 - desc: |
   ブロックチェーン上で、担保なしで瞬時に借り入れと返済を行うフラッシュローンを利用して、市場価格やオラクルデータを一時的に操作する攻撃手法。特にTWAPなどの時間加重平均価格に依存するシステムが脆弱となる可能性がある。
+
+## proof-native protocol
+- ja: プルーフネイティブプロトコル
+- related: [recursive validity, recursive proof, zero-knowledge proof]
+- auto_added: 2026-08-17
+- auto_source_topic_id: 25730
+- auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
+- desc: |
+  ブロックチェーンのアーキテクチャにおいて、トランザクションの実行ではなく、ゼロ知識証明などの暗号学的証明がシステムの中心的な検証メカニズムとなるプロトコル。これにより、ノードはトランザクションを再実行することなく状態の有効性を検証できる。
+
+## recursive validity
+- ja: 再帰的有効性
+- related: [recursive proof, state-validity verification, zero-knowledge proof]
+- auto_added: 2026-08-17
+- auto_source_topic_id: 25730
+- auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
+- desc: |
+  ブロックチェーンの状態が、ジェネシスブロックからの全履歴にわたって再帰的に証明されていること。これにより、新しいノードは全履歴を再実行することなく、現在の状態の有効性を効率的に検証できる。
+
+## recursive proof
+- ja: 再帰的証明
+- related: [zero-knowledge proof, proof aggregation, recursive validity]
+- auto_added: 2026-08-17
+- auto_source_topic_id: 25730
+- auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
+- desc: |
+  別の証明の有効性を検証する証明。これにより、複数の証明を単一の証明に集約したり、ブロックチェーンの全履歴の有効性を効率的に検証したりすることが可能になる。
+
+## Permanent compact headers
+- ja: 永続的コンパクトヘッダー
+- related: [block header, state expiry, light client]
+- auto_added: 2026-08-17
+- auto_source_topic_id: 25730
+- auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
+- desc: |
+  ブロックの完全なボディをプルーニングした後も、トランザクションの包含を検証するために永続的に保持されるコンパクトなヘッダー。これにより、ノードはストレージ要件を削減しつつ、過去のトランザクションの存在を独立して検証できる。
+
+## trace geometry
+- ja: トレースジオメトリ
+- related: [arithmetic circuit, computation trace, zero-knowledge proof]
+- auto_added: 2026-08-17
+- auto_source_topic_id: 25730
+- auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
+- desc: |
+  ゼロ知識証明システムにおける計算トレースの構造や形状。証明のサイズ、生成時間、検証時間など、証明システムの効率とパフォーマンスに大きく影響する。

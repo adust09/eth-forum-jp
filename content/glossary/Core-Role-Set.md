@@ -6,7 +6,7 @@ aliases:
   - Functionality-Conditional Roles
 tags:
   - glossary
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 **コアロールセット**

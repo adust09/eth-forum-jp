@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-16'
+date: '2026-08-17'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -671,6 +671,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
 - [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
 - [[glossary/Periodically-anchored-to-Ethereum|Periodically anchored to Ethereum]] — 定期的にイーサリアムにアンカーされる
+- [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
@@ -731,6 +732,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
 - [[glossary/proof-carrying-computation|proof-carrying computation]] — 証明付き計算 (Proof-Carrying Computation)
+- [[glossary/proof-native-protocol|proof-native protocol]] — プルーフネイティブプロトコル
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/PropAMMs|PropAMMs]] — PropAMM (プロップAMM)
@@ -760,7 +762,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
 - [[glossary/Received-Floor|Received Floor]] — 受容された基盤
 - [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
+- [[glossary/recursive-proof|recursive proof]] — 再帰的証明
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
+- [[glossary/recursive-validity|recursive validity]] — 再帰的有効性
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
@@ -956,6 +960,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Tokenized-lessee-position|Tokenized lessee position]] — トークン化された借り手ポジション
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
+- [[glossary/trace-geometry|trace geometry]] — トレースジオメトリ
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
