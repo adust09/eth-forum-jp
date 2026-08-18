@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-08-17'
+date: '2026-08-18'
 ---
 
 **開発ネットワーク (devnet)**
@@ -18,6 +18,7 @@ Ethereumのプロトコルアップグレードや新機能のテストのため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-18-all-core-devs-testing-acdt-93-august-24-2026-29450|全コア開発者会議 - テスト (ACDT) #93、2026年8月24日]]（2026-08-18）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-08-03-all-core-devs-testing-acdt-91-august-10-2026-29255|全コア開発者会議 - テスト (ACDT) #91、2026年8月10日]]（2026-08-03）
 - [[posts/magicians-2026-07-30-all-core-devs-consensus-acdc-184-august-6-2026-29209|全コア開発者会議 - コンセンサス (ACDC) #184、2026年8月6日]]（2026-07-30）

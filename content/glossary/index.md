@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-17'
+date: '2026-08-18'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -172,6 +172,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CEXDEX-convergence|CEX–DEX convergence]] — CEX-DEXコンバージェンス (CEX-DEX収束)
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/CICO-Ideal-Degree|CICO Ideal Degree]] — CICO理想次数
+- [[glossary/CL-Block-Retention-Window|CL Block Retention Window]] — CLブロック保持期間
 - [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
 - [[glossary/CL-driven-EL-synchronisation|CL-driven EL synchronisation]] — CL主導型EL同期
 - [[glossary/claim-types|claim types]] — クレームタイプ
@@ -322,6 +323,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
+- [[glossary/Enshrinement|Enshrinement]] — プロトコルへの組み込み (Enshrinement)
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/ePBS-circuit-breakers|ePBS circuit breakers]] — ePBSサーキットブレーカー
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
@@ -483,6 +485,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
+- [[glossary/Key-Selling|Key Selling]] — キー売却
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/KoalaBear-prime-field|KoalaBear prime field]] — KoalaBear素体
@@ -973,6 +976,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transition-ID|Transition ID]] — トランジションID
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
+- [[glossary/Trusted-Set|Trusted Set]] — 信頼された集合 (Trusted Set)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
 - [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
@@ -997,6 +1001,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/validator-rewards|validator rewards]] — バリデータ報酬
+- [[glossary/Validator-Whitelist|Validator Whitelist]] — バリデータホワイトリスト
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
 - [[glossary/Validium|Validium]] — Validium (バリディウム)
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
@@ -1029,6 +1034,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
+- [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)
 - [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39

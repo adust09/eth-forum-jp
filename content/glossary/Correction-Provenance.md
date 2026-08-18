@@ -4,7 +4,7 @@ aliases:
   - 修正履歴 (Correction Provenance)
 tags:
   - glossary
-date: '2026-08-17'
+date: '2026-08-18'
 ---
 
 **修正履歴 (Correction Provenance)**
