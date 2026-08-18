@@ -4,7 +4,7 @@ aliases:
   - ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
 tags:
   - glossary
-date: '2026-08-17'
+date: '2026-08-18'
 ---
 
 **ゼロでない証拠コミットメント (Nonzero Evidence Commitment)**

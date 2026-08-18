@@ -4,7 +4,7 @@ aliases:
   - testing_commitBlockV1 (ブロックコミットテストV1)
 tags:
   - glossary
-date: '2026-08-17'
+date: '2026-08-18'
 ---
 
 **testing_commitBlockV1 (ブロックコミットテストV1)**

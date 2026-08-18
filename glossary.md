@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-17
+last_updated: 2026-08-18
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9604,3 +9604,56 @@ description: |
 - auto_source_url: https://ethresear.ch/t/ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol/25730
 - desc: |
   ゼロ知識証明システムにおける計算トレースの構造や形状。証明のサイズ、生成時間、検証時間など、証明システムの効率とパフォーマンスに大きく影響する。
+
+## CL Block Retention Window
+- ja: CLブロック保持期間
+- related: [Consensus Layer, Block]
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29449
+- auto_source_url: https://ethereum-magicians.org/t/reduce-cl-block-retention-window/29449
+- desc: |
+  Ethereumのコンセンサスレイヤーにおいて、ノードがブロックを保持する期間を指します。この期間を調整することは、ノードのストレージ要件やネットワークの効率性に影響を与えます。
+
+## Enshrinement
+- ja: プロトコルへの組み込み (Enshrinement)
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29448
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
+- desc: |
+  特定の機能やメカニズムを、スマートコントラクトやレイヤー2ソリューションとしてではなく、Ethereumプロトコル自体に直接組み込むことを指します。これにより、その機能はプロトコルのセキュリティと信頼性を享受できます。
+
+## Validator Whitelist
+- ja: バリデータホワイトリスト
+- related: [Validator]
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29448
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
+- desc: |
+  特定の基準を満たす、または特定の承認プロセスを経たバリデータのみが参加を許可されるリストです。これは、プロトコルのセキュリティや特定の要件を強制するために使用されることがあります。
+
+## Withholding
+- ja: 意図的なブロック非公開（Withholding）
+- related: [Censorship Resistance, MEV]
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29448
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
+- desc: |
+  バリデータが、生成した有効なブロックやアッテステーションをネットワークに公開しない、または遅延させる悪意のある行為を指します。これは、検閲やMEV抽出戦略の一環として行われることがあります。
+
+## Key Selling
+- ja: キー売却
+- related: [Validator]
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29448
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
+- desc: |
+  バリデータが自身の秘密鍵を第三者に売却する行為を指します。これにより、鍵を購入した悪意のあるアクターが、元のバリデータになりすましてプロトコルに損害を与える可能性があります。
+
+## Trusted Set
+- ja: 信頼された集合 (Trusted Set)
+- related: [Encrypted Mempool]
+- auto_added: 2026-08-18
+- auto_source_topic_id: 29448
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
+- desc: |
+  特定のプロトコル機能やセキュリティメカニズムにおいて、信頼できると見なされるエンティティ（例：特定のバリデータ、署名者）のグループを指します。これらのエンティティは、特定の操作を実行する権限や責任を持ちます。
