@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Succinct Non-Interactive Argument of Knowledge
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)**
@@ -20,6 +20,7 @@ date: '2026-08-18'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-18-formally-verified-security-for-pq-das-leanda-25746|PQ-DAS / leanDA の形式検証されたセキュリティ]]（2026-08-18）
 - [[posts/ethresear-2026-08-07-atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design-25660|x402エージェント支払い向け[[glossary/Zero-Knowledge-Proof|ゼロ知識証明]]ゲート付きアトミック決済：測定されたリファレンスデザイン]]（2026-08-07）
 - [[posts/ethresear-2026-07-20-sovereign-space-when-values-need-architecture-25485|主権的空間：価値がアーキテクチャを必要とするとき]]（2026-07-20）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）

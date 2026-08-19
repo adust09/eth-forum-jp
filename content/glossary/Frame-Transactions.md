@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **フレームトランザクション (Frame Transactions)**

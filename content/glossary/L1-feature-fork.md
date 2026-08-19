@@ -4,7 +4,7 @@ aliases:
   - L1機能フォーク
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **L1機能フォーク**

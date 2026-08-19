@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-08-18'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-17-lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees-29441|Lineage Registry: オンチェーン系図ツリーのためのERC-721拡張]]（2026-08-17）
 - [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-08-07-erc-xxxx-token-launch-abuse-detection-and-remediation-29359|ERC-XXXX: トークンローンチにおける不正検出と是正]]（2026-08-07）
