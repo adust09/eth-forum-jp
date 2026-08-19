@@ -5,7 +5,7 @@ aliases:
   - approved spending
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **ERC-20承認済み支出**

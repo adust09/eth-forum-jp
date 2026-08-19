@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9657,3 +9657,175 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-9-august-19-2026/29448
 - desc: |
   特定のプロトコル機能やセキュリティメカニズムにおいて、信頼できると見なされるエンティティ（例：特定のバリデータ、署名者）のグループを指します。これらのエンティティは、特定の操作を実行する権限や責任を持ちます。
+
+## Runtime BAL
+- ja: ランタイムBAL (Runtime BAL)
+- related: [BAL, EIP-8279, Data Gas]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25747
+- auto_source_url: https://ethresear.ch/t/data-metering-bal-decomposition-and-bundle-pricing-under-eip-7999/25747
+- desc: |
+  EIP-8279で定義される、トランザクション実行中に発生するアカウントやストレージへのアクセスによって動的に生成されるバイト数。これはデータガスとして課金され、ブロックレベルのアクセスリストの一部を構成する。
+
+## Data Base Fee
+- ja: データベースフィー (Data Base Fee)
+- related: [Base Fee, EIP-7999, Execution Base Fee, State Base Fee, Multidimensional Fee Market]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25747
+- auto_source_url: https://ethresear.ch/t/data-metering-bal-decomposition-and-bundle-pricing-under-eip-7999/25747
+- desc: |
+  EIP-7999で導入される、データリソース次元に特化したベースフィー。これは、トランザクションの静的データやランタイムBALのコストを決定し、データ需要を調整する。
+
+## Static-Data Component
+- ja: 静的データコンポーネント (Static-Data Component)
+- related: [Calldata, Access List, Authorization Tuple, Blob-Versioned Hash, Data Gas]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25747
+- auto_source_url: https://ethresear.ch/t/data-metering-bal-decomposition-and-bundle-pricing-under-eip-7999/25747
+- desc: |
+  EIP-7999において、トランザクションの静的コンテンツ（calldata、アクセスリスト、承認タプル、ブロブバージョンハッシュなど）に割り当てられるデータガスの一部。これはランタイムBALとは異なり、独立した需要曲線を持つ。
+
+## BAL-Inclusive Parent Prices
+- ja: BAL込みの親価格 (BAL-Inclusive Parent Prices)
+- aliases: [BAL-inclusive execution price, BAL-inclusive state price]
+- related: [Runtime BAL, Data Base Fee, Execution Base Fee, State Base Fee, Bundle Pricing]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25747
+- auto_source_url: https://ethresear.ch/t/data-metering-bal-decomposition-and-bundle-pricing-under-eip-7999/25747
+- desc: |
+  EIP-7999の文脈で、実行活動やステート作成活動のコストに、それらが機械的に生成するランタイムBALのデータガス料金を含めた価格。ユーザーがトランザクションを行うかどうかの意思決定に影響する。
+
+## Bundle Pricing
+- ja: バンドル価格設定 (Bundle Pricing)
+- related: [BAL-Inclusive Parent Prices, EIP-7999, Data Base Fee]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25747
+- auto_source_url: https://ethresear.ch/t/data-metering-bal-decomposition-and-bundle-pricing-under-eip-7999/25747
+- desc: |
+  EIP-7999において、ランタイムBALのデータガス料金が、それを生成する親となる実行活動やステート作成活動の価格に組み込まれるメカニズム。これにより、データフィーの上昇が親活動の需要を抑制する。
+
+## Reed–Solomon codes
+- ja: リード・ソロモン符号
+- related: [Erasure code, Data availability sampling]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25746
+- auto_source_url: https://ethresear.ch/t/formally-verified-security-for-pq-das-leanda/25746
+- desc: |
+  データ可用性サンプリング (DAS) などで用いられる誤り訂正符号の一種です。元のデータを複数の断片に符号化し、一部の断片が失われても元のデータを復元できるようにします。
+
+## Vector commitment
+- ja: ベクトルコミットメント
+- related: [Commitment scheme, Merkle tree, KZG commitment]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25746
+- auto_source_url: https://ethresear.ch/t/formally-verified-security-for-pq-das-leanda/25746
+- desc: |
+  複数の要素からなるベクトル全体に対してコミットし、後からそのベクトルの特定の位置の要素とその開示を効率的に検証できる暗号プリミティブです。データ可用性サンプリングやZKロールアップなどで利用されます。
+
+## Erasure code commitment scheme
+- ja: 消去符号コミットメントスキーム
+- related: [Erasure code, Vector commitment, Data availability sampling]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25746
+- auto_source_url: https://ethresear.ch/t/formally-verified-security-for-pq-das-leanda/25746
+- desc: |
+  消去符号とコミットメントスキームを組み合わせたもので、符号化されたデータ全体にコミットし、そのデータが特定の消去符号のメンバーシップを満たしていることを証明できるスキームです。データ可用性サンプリングのセキュリティ基盤となります。
+
+## Position-binding
+- ja: 位置拘束性
+- related: [Vector commitment, Commitment scheme, Code-binding]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25746
+- auto_source_url: https://ethresear.ch/t/formally-verified-security-for-pq-das-leanda/25746
+- desc: |
+  ベクトルコミットメントのセキュリティ特性の一つです。コミットメントが与えられた場合、そのコミットメントが異なる位置に異なる値をコミットしていると主張することが計算量的に困難であることを保証します。
+
+## Code-binding
+- ja: コード拘束性
+- related: [Erasure code commitment scheme, Position-binding, Erasure code]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 25746
+- auto_source_url: https://ethresear.ch/t/formally-verified-security-for-pq-das-leanda/25746
+- desc: |
+  消去符号コミットメントスキームのセキュリティ特性の一つです。コミットメントが与えられた場合、そのコミットメントが消去符号のメンバーシップを満たさないデータにコミットしていると主張することが計算量的に困難であることを保証します。
+
+## Private Reference
+- ja: プライベート参照 (Private Reference)
+- related: [Reference Commitment, Selective Disclosure, Hidden State, Revealed State, ERC-721]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29442
+- auto_source_url: https://ethereum-magicians.org/t/erc-8382-private-referable-nfts/29442
+- desc: |
+  ERC-721トークンに、参照先のNFT、ラベル、重み、承認情報などを公開せずに、他のNFTへの参照をコミットする機能。これにより、商業的または社会的に機密性の高い情報を開示する前に、NFT間の関係を確立できます。
+
+## Reference Commitment
+- ja: 参照コミットメント (Reference Commitment)
+- related: [Private Reference, Opening, Proof Profile]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29442
+- auto_source_url: https://ethereum-magicians.org/t/erc-8382-private-referable-nfts/29442
+- desc: |
+  プライベート参照とそのプロファイルで要求されるバインディングコンテキスト全てに対する32バイトのコミットメント。参照先のNFTに関する情報を秘匿しつつ、その存在と特定の条件への準拠を証明するために使用されます。
+
+## Proof Profile
+- ja: 証明プロファイル (Proof Profile)
+- related: [Proof-Gated Minting, Policy Identifier, Zero-Knowledge Proof]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29442
+- auto_source_url: https://ethereum-magicians.org/t/erc-8382-private-referable-nfts/29442
+- desc: |
+  証明システム、曲線、ハッシュスイート、ドメイン分離タグ、エンコーディング、公開シグナル、コミットメント導出、nullifier導出など、コンセンサスに関連する全ての証明セマンティクスを識別する32バイトの識別子。異なる証明設定を抽象化し、互換性を保証します。
+
+## Proof-Gated Minting
+- ja: 証明ゲート付きミント (Proof-Gated Minting)
+- related: [Proof Profile, Private Reference Mint Request, Zero-Knowledge Proof]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29442
+- auto_source_url: https://ethereum-magicians.org/t/erc-8382-private-referable-nfts/29442
+- desc: |
+  プライベート参照を持つ子トークンをミントする際に、特定のプロファイルに準拠した暗号学的証明の検証を必須とするメカニズム。これにより、参照の正当性やポリシーへの準拠をオンチェーンで強制します。
+
+## Lineage Registry
+- ja: リネージレジストリ (Lineage Registry)
+- related: [ERC-721, genealogical tree]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29441
+- auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
+- desc: |
+  ERC-721の拡張として提案された標準で、オンチェーンで系図（血統登録）を管理するためのコントラクト。動物の血統証明など、検証可能な系図データを分散型で記録することを目的としている。
+
+## sexed DAG
+- ja: 性別付きDAG (sexed DAG)
+- related: [Lineage Registry, directed acyclic graph]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29441
+- auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
+- desc: |
+  Lineage Registryで採用されている、性別情報を持つERC-721トークンで構成される有向非巡回グラフ。各トークンは性別と生年月日を持ち、創始者であるか、または正確に1つの父（sire）と1つの母（dam）を持つ。
+
+## decentralized studbook
+- ja: 分散型血統登録簿 (decentralized studbook)
+- related: [Lineage Registry, studbook]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29441
+- auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
+- desc: |
+  従来の私的な血統登録簿（studbook）をブロックチェーンに置き換え、分散型で検証可能な形で動物の系図を記録・管理するシステム。中央集権的な管理者の失敗やデータの不整合のリスクを排除することを目的とする。
+
+## unbounded ancestor walks
+- ja: 無制限の祖先辿り (unbounded ancestor walks)
+- related: [gas limit, deep pedigree]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29441
+- auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
+- desc: |
+  オンチェーンの系図のような深いグラフ構造において、祖先を辿る操作がガスリミットによって制限されることなく、理論上無限に続く可能性がある問題。特に古い、深く文書化された系図において、この操作が永久に不可能になるリスクがある。
+
+## phantom placeholders
+- ja: ファントムプレースホルダー (phantom placeholders)
+- related: [founder, incomplete data]
+- auto_added: 2026-08-19
+- auto_source_topic_id: 29441
+- auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
+- desc: |
+  オンチェーン系図において、片方の親のみが記録されている場合に、もう一方の不明な親を補完するために作成される、空の名前を持つ架空の創始者トークン。これにより「両親またはどちらもなし」というルールを維持しつつ、不完全な系図データを表現する。

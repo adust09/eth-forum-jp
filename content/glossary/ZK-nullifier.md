@@ -5,7 +5,7 @@ aliases:
   - ZK-nullifiers
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **ZKヌリファイア（ゼロ知識ヌリファイア）**

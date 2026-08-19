@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-08-18'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-18-formally-verified-security-for-pq-das-leanda-25746|PQ-DAS / leanDA の形式検証されたセキュリティ]]（2026-08-18）
 - [[posts/magicians-2026-08-17-encrypt-the-mempool-9-august-19-2026-29448|メムプールの暗号化 #9、2026年8月19日]]（2026-08-17）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/ethresear-2026-08-12-ragged-multi-instance-gkr-for-poseidon2b-one-walk-unequal-regions-no-max-width-padding-25691|Poseidon2b向けに不揃いな複数インスタンスGKR：単一ウォーク、不均等領域、最大幅パディングなし]]（2026-08-12）

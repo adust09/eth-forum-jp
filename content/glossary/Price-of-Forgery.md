@@ -5,7 +5,7 @@ aliases:
   - PoF
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **偽造の価格 (PoF)**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -97,6 +97,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
 - [[glossary/BAL-data|BAL data]] — BALデータ (Bytecode Access Listデータ)
+- [[glossary/BAL-Inclusive-Parent-Prices|BAL-Inclusive Parent Prices]] — BAL込みの親価格 (BAL-Inclusive Parent Prices)
 - [[glossary/balance-drain|balance drain]] — 残高排出
 - [[glossary/Balance-Invariant|Balance Invariant]] — 残高不変条件
 - [[glossary/Balance-sunset|Balance sunset]] — 残高サンセット
@@ -146,6 +147,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
+- [[glossary/Bundle-Pricing|Bundle Pricing]] — バンドル価格設定 (Bundle Pricing)
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
 - [[glossary/Call-Frame|Call Frame]] — コールフレーム
@@ -181,6 +183,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/Clear-Signing-On-Chain-Descriptors-Registry|Clear Signing On-Chain Descriptors Registry]] — クリア署名オンチェーン記述子レジストリ
 - [[glossary/Code-chunking|Code chunking]] — コードチャンキング
+- [[glossary/Code-binding|Code-binding]] — コード拘束性
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
 - [[glossary/Cohort|Cohort]] — コホート
 - [[glossary/Cohort-Order-Book|Cohort Order Book]] — コホートオーダーブック
@@ -253,6 +256,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/DA-propagation-burden|DA-propagation burden]] — DA伝播負荷 (Data Availability Propagation Burden)
 - [[glossary/DAG-CBOR|DAG-CBOR]] — DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)
 - [[glossary/Data-Availability|Data Availability]] — データアベイラビリティ
+- [[glossary/Data-Base-Fee|Data Base Fee]] — データベースフィー (Data Base Fee)
 - [[glossary/data-gas|data gas]] — データガス
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
@@ -262,6 +266,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/Decentralized-State|Decentralized State]] — 分散型ステート
+- [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
@@ -329,6 +334,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Epoch-Boundary-Block|Epoch Boundary Block]] — エポック境界ブロック
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
+- [[glossary/Erasure-code-commitment-scheme|Erasure code commitment scheme]] — 消去符号コミットメントスキーム
 - [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
 - [[glossary/ERC-20-approved-spending|ERC-20 approved spending]] — ERC-20承認済み支出
 - [[glossary/ERC-2612|ERC-2612]] — ERC-2612
@@ -510,6 +516,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
+- [[glossary/Lineage-Registry|Lineage Registry]] — リネージレジストリ (Lineage Registry)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
 - [[glossary/Liquidator|Liquidator]] — リクイデーター
@@ -677,6 +684,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
+- [[glossary/phantom-placeholders|phantom placeholders]] — ファントムプレースホルダー (phantom placeholders)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
 - [[glossary/Physical-bus-interposition|Physical bus interposition]] — 物理バス介在攻撃
 - [[glossary/Physical-Reserve-Registry|Physical Reserve Registry]] — 物理的準備金レジストリ
@@ -693,6 +701,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Poseidon-hash|Poseidon hash]] — Poseidonハッシュ
 - [[glossary/Poseidon2b|Poseidon2b]] — Poseidon2b
+- [[glossary/Position-binding|Position-binding]] — 位置拘束性
 - [[glossary/Positive-Sum-Coordination|Positive-Sum Coordination]] — 正の和の協調 (ポジティブサム・コーディネーション)
 - [[glossary/Positive-sum-privacy-sets|Positive-sum privacy sets]] — ポジティブサム・プライバシーセット
 - [[glossary/Post-Quantum-transaction-signature|Post Quantum transaction signature]] — ポスト量子トランザクション署名 (PQTS)
@@ -724,6 +733,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
 - [[glossary/Private-order-flow|Private order flow]] — プライベートオーダーフロー
 - [[glossary/private-payment-mechanism|private payment mechanism]] — プライベート決済メカニズム
+- [[glossary/Private-Reference|Private Reference]] — プライベート参照 (Private Reference)
 - [[glossary/Private-sequencers|Private sequencers]] — プライベートシーケンサー
 - [[glossary/Privileged-Role-Control-Framework|Privileged Role Control Framework]] — 特権ロール制御フレームワーク
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
@@ -734,7 +744,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proof-envelope|Proof envelope]] — 証明エンベロープ
 - [[glossary/Proof-of-Cloud|Proof of Cloud]] — プルーフ・オブ・クラウド
 - [[glossary/Proof-of-Personhood|Proof of Personhood]] — 人間性証明 (Proof of Personhood)
+- [[glossary/Proof-Profile|Proof Profile]] — 証明プロファイル (Proof Profile)
 - [[glossary/proof-carrying-computation|proof-carrying computation]] — 証明付き計算 (Proof-Carrying Computation)
+- [[glossary/Proof-Gated-Minting|Proof-Gated Minting]] — 証明ゲート付きミント (Proof-Gated Minting)
 - [[glossary/proof-native-protocol|proof-native protocol]] — プルーフネイティブプロトコル
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
@@ -769,7 +781,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/recursive-validity|recursive validity]] — 再帰的有効性
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
+- [[glossary/ReedSolomon-codes|Reed–Solomon codes]] — リード・ソロモン符号
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
+- [[glossary/Reference-Commitment|Reference Commitment]] — 参照コミットメント (Reference Commitment)
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
 - [[glossary/Regulated-Agent-Mandate|Regulated Agent Mandate]] — 規制されたエージェントの委任 (ERC-8226)
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]] — 規制資産クレーム
@@ -813,6 +827,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/routing-index|routing index]] — ルーティングインデックス
 - [[glossary/RowDAS|RowDAS]] — RowDAS
 - [[glossary/RS-Membership-Check-Instantiations|RS Membership Check Instantiations]] — RSメンバーシップチェックの実装
+- [[glossary/Runtime-BAL|Runtime BAL]] — ランタイムBAL (Runtime BAL)
 - [[glossary/runtime-code|runtime code]] — ランタイムコード
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
@@ -845,6 +860,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SETCODEFROM|SETCODEFROM]] — SETCODEFROM (EVM命令)
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
+- [[glossary/sexed-DAG|sexed DAG]] — 性別付きDAG (sexed DAG)
 - [[glossary/shadow-root|shadow-root]] — シャドウルート
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
@@ -903,6 +919,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/state-tuple|state tuple]] — 状態タプル
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
+- [[glossary/Static-Data-Component|Static-Data Component]] — 静的データコンポーネント (Static-Data Component)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
@@ -985,6 +1002,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Two-Phase-Asset-Transfers|Two-Phase Asset Transfers]] — 二段階資産転送
 - [[glossary/Two-way-Fixed-Effects-Analysis|Two-way Fixed Effects Analysis]] — 双方向固定効果分析
 - [[glossary/txpool-namespace|txpool namespace]] — txpoolネームスペース (txpool namespace)
+- [[glossary/unbounded-ancestor-walks|unbounded ancestor walks]] — 無制限の祖先辿り (unbounded ancestor walks)
 - [[glossary/Unclonable-Agent-Execution-Credentials|Unclonable Agent Execution Credentials]] — アンクローン可能なエージェント実行クレデンシャル
 - [[glossary/Unguessable-Capability-URLs|Unguessable Capability URLs]] — 推測不可能なケイパビリティURL
 - [[glossary/Unified-Binary-Tree|Unified Binary Tree]] — 統合バイナリツリー
@@ -1007,6 +1025,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/Value-transfer-gas-component|Value-transfer gas component]] — 価値転送ガスコンポーネント
+- [[glossary/Vector-commitment|Vector commitment]] — ベクトルコミットメント
 - [[glossary/Velocity-Control|Velocity Control]] — 流動性速度制御
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行
 - [[glossary/verifiable-claims|verifiable claims]] — 検証可能なクレーム

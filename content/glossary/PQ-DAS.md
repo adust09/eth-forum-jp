@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Data Availability Sampling
 tags:
   - glossary
-date: '2026-08-18'
+date: '2026-08-19'
 ---
 
 **量子耐性データ可用性サンプリング (PQ-DAS)**
@@ -20,7 +20,7 @@ Ethereumのデータ可用性サンプリング(DAS)プロトコルにおいて�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-18-formally-verified-security-for-pq-das-leanda-25746|PQ-DAS / leanDA の形式検証されたセキュリティ]]（2026-08-18）
 
 ## 元の表記（英語）
 
