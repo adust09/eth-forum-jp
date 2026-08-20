@@ -4,7 +4,7 @@ aliases:
   - ファントムプレースホルダー (phantom placeholders)
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **ファントムプレースホルダー (phantom placeholders)**

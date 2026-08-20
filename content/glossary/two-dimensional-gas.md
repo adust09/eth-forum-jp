@@ -4,7 +4,7 @@ aliases:
   - 二次元ガス
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **二次元ガス**

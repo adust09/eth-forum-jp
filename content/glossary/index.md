@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -110,6 +110,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
+- [[glossary/Behavioral-Entity-Object|Behavioral Entity Object]] — 行動エンティティオブジェクト (BEO)
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
@@ -119,6 +120,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Binding-branch|Binding branch]] — 結合ブランチ
 - [[glossary/Biometric-ZK-proof|Biometric ZK-proof]] — 生体認証ZK証明
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
+- [[glossary/Bitmask|Bitmask]] — ビットマスク（挙動フラグの）
 - [[glossary/Bitstring-Status-List|Bitstring Status List]] — ビットストリングステータスリスト
 - [[glossary/Blind-Session|Blind Session]] — ブラインドセッション
 - [[glossary/blind-signing|blind signing]] — ブラインド署名
@@ -142,6 +144,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BPO|BPO]] — BPO (Blob Pre-Confirmation)
 - [[glossary/branding-layer|branding layer]] — ブランディング層
 - [[glossary/bribery-attacks|bribery attacks]] — 賄賂攻撃
+- [[glossary/BTCP-Zero-Bridge|BTCP Zero-Bridge]] — BTCPゼロブリッジ (Behavioral Transaction Continuity Protocol Zero-Bridge)
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
@@ -389,6 +392,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
 - [[glossary/FAT-Agent|FAT Agent]] — FATエージェント
+- [[glossary/Fee-on-transfer|Fee-on-transfer]] — 転送手数料（フィー・オン・トランスファー）
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
@@ -455,6 +459,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Identity-splitting-attacks|Identity-splitting attacks]] — アイデンティティ分割攻撃
 - [[glossary/IEmergencyState|IEmergencyState]] — IEmergencyState（緊急状態インターフェース）
 - [[glossary/IERC8060Reservable|IERC8060Reservable]] — IERC8060Reservable
+- [[glossary/Immutability-rule|Immutability rule]] — 不変性ルール（宣言の）
 - [[glossary/immutable-contract|immutable contract]] — 不変コントラクト
 - [[glossary/Immutable-Cryptographic-Predicates|Immutable Cryptographic Predicates]] — 不変な暗号学的述語
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
@@ -522,6 +527,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquidator|Liquidator]] — リクイデーター
 - [[glossary/Liquidity-Consolidation|Liquidity Consolidation]] — 流動性統合
 - [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
+- [[glossary/Liquidity-Ocean|Liquidity Ocean]] — リクイディティ・オーシャン
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
@@ -613,6 +619,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
 - [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
 - [[glossary/Observation-Scope|Observation Scope]] — 観測スコープ
+- [[glossary/Observation-Only-Anchoring|Observation-Only Anchoring]] — 観測のみアンカリング (OOA)
 - [[glossary/Observer-Contamination|Observer Contamination]] — 観測者汚染
 - [[glossary/OEV-Containment|OEV Containment]] — OEV封じ込め (OEV Containment)
 - [[glossary/off-chain-bisection|off-chain bisection]] — オフチェーン二分探索
@@ -772,6 +779,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RANDAO-target-slot-attack|RANDAO target slot attack]] — RANDAOターゲットスロット攻撃
 - [[glossary/Reasoned-Settlement|Reasoned Settlement]] — 推論に基づく決済
 - [[glossary/Reasoning-Attestation|Reasoning Attestation]] — 推論証明
+- [[glossary/Rebasing|Rebasing]] — リベース
 - [[glossary/Receipt-Layer|Receipt Layer]] — レシートレイヤー
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
@@ -967,6 +975,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
+- [[glossary/Token-Behavior-Declaration|Token Behavior Declaration]] — トークン挙動宣言
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
 - [[glossary/Token-engineering|Token engineering]] — トークンエンジニアリング

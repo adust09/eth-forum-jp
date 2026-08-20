@@ -5,7 +5,7 @@ aliases:
   - G64
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **ゴールディロックス体 (Goldilocks field)**

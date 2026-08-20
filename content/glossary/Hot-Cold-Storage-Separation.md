@@ -5,7 +5,7 @@ aliases:
   - Hot/Cold Storage Separation
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **ホット・コールドストレージ分離**

@@ -4,7 +4,7 @@ aliases:
   - 加重型承認 (Weighted endorsement)
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **加重型承認 (Weighted endorsement)**
