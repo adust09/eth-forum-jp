@@ -4,7 +4,7 @@ aliases:
   - 分割不変性
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **分割不変性**

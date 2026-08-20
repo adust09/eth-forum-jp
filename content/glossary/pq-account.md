@@ -5,7 +5,7 @@ aliases:
   - post-quantum account
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **量子耐性アカウント (pq-account)**

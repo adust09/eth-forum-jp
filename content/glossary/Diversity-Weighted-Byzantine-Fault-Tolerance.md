@@ -5,7 +5,7 @@ aliases:
   - DW-BFT
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **多様性重み付けビザンチン耐性 (DW-BFT)**
@@ -21,7 +21,7 @@ date: '2026-08-19'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 
 ## 元の表記（英語）
 

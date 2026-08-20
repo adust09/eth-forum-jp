@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-08-19'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）

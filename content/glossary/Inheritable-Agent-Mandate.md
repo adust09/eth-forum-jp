@@ -5,7 +5,7 @@ aliases:
   - Inheritable Mandate
 tags:
   - glossary
-date: '2026-08-19'
+date: '2026-08-20'
 ---
 
 **継承可能なエージェントマンデート**

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9829,3 +9829,87 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/lineage-registry-an-erc-721-extension-for-on-chain-genealogical-trees/29441
 - desc: |
   オンチェーン系図において、片方の親のみが記録されている場合に、もう一方の不明な親を補完するために作成される、空の名前を持つ架空の創始者トークン。これにより「両親またはどちらもなし」というルールを維持しつつ、不完全な系図データを表現する。
+
+## BTCP Zero-Bridge
+- ja: BTCPゼロブリッジ (Behavioral Transaction Continuity Protocol Zero-Bridge)
+- aliases: [Behavioral Transaction Continuity Protocol, BTCP]
+- related: [Cross-chain exchange, Wrapped token, Bridge contract]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 25764
+- auto_source_url: https://ethresear.ch/t/btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains/25764
+- desc: |
+  資産をネイティブチェーンから移動させずにクロスチェーン交換を行うメカニズム。ブリッジコントラクトに資産をロックしたり、ラップドトークンを発行したりする代わりに、同一エンティティが両チェーンのアドレスを制御していることを検証し、インテントの補完性を確認後、各チェーンで独立したアトミックリリースを調整する。これにより、ブリッジのハニーポットやラップドトークンのデペッグリスクを排除する。
+
+## Behavioral Entity Object
+- ja: 行動エンティティオブジェクト (BEO)
+- aliases: [BEO]
+- related: [Identity continuity, SHA3-256 normalization]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 25764
+- auto_source_url: https://ethresear.ch/t/btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains/25764
+- desc: |
+  BTCPにおいて、チェーンの種類やアドレス形式に依存せず、エンティティの永続的なアイデンティティを識別するためのオブジェクト。SHA3-256正規化によって生成され、異なるチェーン上のアドレスを制御する同一エンティティを単一の識別子として認識する。これにより、クロスチェーンでのアイデンティティの連続性を保証する。
+
+## Liquidity Ocean
+- ja: リクイディティ・オーシャン
+- related: [Form-equivalent representations, Cross-chain liquidity]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 25764
+- auto_source_url: https://ethresear.ch/t/btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains/25764
+- desc: |
+  BTCPにおいて、資産の「形態同等な表現」を複数のチェーンやプロトコル間で認識するメカニズム。例えば、USDCのネイティブ版、aUSDC、cUSDC、LPポジション内のUSDCなど、多様な形態を価値同等と見なし、直接的な流動性が不足している場合でも交換を可能にする。これにより、クロスチェーン取引における流動性不足の問題を解決する。
+
+## Observation-Only Anchoring
+- ja: 観測のみアンカリング (OOA)
+- aliases: [OOA]
+- related: [Two-state escrow primitive, Non-integrated chains]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 25764
+- auto_source_url: https://ethresear.ch/t/btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains/25764
+- desc: |
+  BTCPのルートタイプの一つで、二状態エスクロープリミティブをサポートしないチェーン（例：Bitcoin）向けに設計されている。TRIONが許可なく公開チェーンデータを読み取り、観測深度に応じて信頼度を漸近的に高めることで、非統合チェーンとの連携を可能にする。これにより、最小限のチェーンインターフェースでBTCPの機能を利用できる。
+
+## Token Behavior Declaration
+- ja: トークン挙動宣言
+- related: [ERC-XXXX, behaviorFlags]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 29464
+- auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
+- desc: |
+  トークンがERC-20やERC-721の標準的な挙動から逸脱する特定の特性や機能を、コントラクト自体が宣言する仕組み。これにより、統合者はトークンの振る舞いを事前に把握しやすくなる。
+
+## Fee-on-transfer
+- ja: 転送手数料（フィー・オン・トランスファー）
+- related: [Rebasing, Transfer hook]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 29464
+- auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
+- desc: |
+  トークンが転送される際に、その転送額の一部が手数料として徴収される挙動。これはERC-20などの標準的なトークン挙動からの逸脱であり、特定のトークン経済モデルで採用される。
+
+## Rebasing
+- ja: リベース
+- related: [Fee-on-transfer]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 29464
+- auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
+- desc: |
+  トークンの総供給量や各ウォレットの残高が、特定のプロトコルルールに基づいて動的に調整される挙動。これにより、トークンの価値や供給量が変動する。
+
+## Immutability rule
+- ja: 不変性ルール（宣言の）
+- related: [Upgradeable]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 29464
+- auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
+- desc: |
+  トークンの挙動宣言が、コントラクトのデプロイ時に固定され、後から変更できないという原則。これにより、一度読み取られた宣言は永続的な事実となり、統合者の信頼性が向上する。
+
+## Bitmask
+- ja: ビットマスク（挙動フラグの）
+- related: [behaviorFlags]
+- auto_added: 2026-08-20
+- auto_source_topic_id: 29464
+- auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
+- desc: |
+  複数の異なるトークン挙動の特性を、単一の整数値の各ビットに対応させて表現するデータ構造。これにより、効率的に複数の挙動を一度に宣言・読み取りできる。
