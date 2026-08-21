@@ -4,7 +4,7 @@ aliases:
   - レビュー (EIP/ERC)
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **レビュー (EIP/ERC)**

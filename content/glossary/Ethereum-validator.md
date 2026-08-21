@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,7 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-20-timing-the-head-in-ethereum-pos-25766|イーサリアムPoSにおけるヘッドのタイミング]]（2026-08-20）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-08-14-preserving-censorship-resistance-for-bal-data-in-eip-7999-29427|EIP-7999におけるBALデータの検閲耐性維持]]（2026-08-14）
 - [[posts/magicians-2026-08-05-eip-8365-bls-withdrawal-credential-retirement-29284|EIP-8365: BLS引き出しクレデンシャルの廃止]]（2026-08-05）

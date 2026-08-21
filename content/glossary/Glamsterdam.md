@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-20-all-core-devs-execution-acde-244-august-27-2026-29468|全コア開発者会議 - 実行 (ACDE) #244、2026年8月27日]]（2026-08-20）
 - [[posts/magicians-2026-08-18-all-core-devs-testing-acdt-93-august-24-2026-29450|全コア開発者会議 - テスト (ACDT) #93、2026年8月24日]]（2026-08-18）
 - [[posts/magicians-2026-08-11-all-core-devs-consensus-acdc-185-august-20-2026-29391|全コア開発者会議 - コンセンサス (ACDC) #185、2026年8月20日]]（2026-08-11）
 - [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）

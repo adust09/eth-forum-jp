@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-20
+last_updated: 2026-08-21
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9913,3 +9913,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/proposal-for-a-new-erc-token-behavior-declaration/29464
 - desc: |
   複数の異なるトークン挙動の特性を、単一の整数値の各ビットに対応させて表現するデータ構造。これにより、効率的に複数の挙動を一度に宣言・読み取りできる。
+
+## LMD-GHOST
+- ja: LMD-GHOST
+- related: [head votes, attestation]
+- auto_added: 2026-08-21
+- auto_source_topic_id: 25766
+- auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
+- desc: |
+  Ethereum PoSのフォーク選択ルールの一つ。最も重い（Longest Chain Ruleに似た）チェーンをヘッドとして選択する際に、アテステーションの重み付けを考慮する。
+
+## Proposer Boost
+- ja: プロポーザーブースト
+- related: [fork choice, reorg attack]
+- auto_added: 2026-08-21
+- auto_source_topic_id: 25766
+- auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
+- desc: |
+  Ethereum PoSにおいて、現在のスロットのブロックに追加の一時的なフォーク選択の重み（40%）を与えるメカニズム。リオーグ攻撃やバランシング攻撃を最小限に抑えることを目的としている。
+
+## Head-vote timing game
+- ja: ヘッド投票タイミングゲーム
+- related: [head votes, attestation deadline, reorganization attacks]
+- auto_added: 2026-08-21
+- auto_source_topic_id: 25766
+- auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
+- desc: |
+  悪意のあるプロポーザーがブロックのブロードキャストを遅延させ、アテステーション期限近くにリリースすることで、正直なバリデーターが古いブロックにヘッド投票し、報酬を失うように仕向ける攻撃シナリオ。
+
+## K-block attack
+- ja: Kブロック攻撃
+- related: [reorganization attacks, private branch, head votes]
+- auto_added: 2026-08-21
+- auto_source_topic_id: 25766
+- auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
+- desc: |
+  攻撃者がK個の連続するプロポーザースロットを制御し、正直なバリデーターからブロックを隠しながらプライベートなブランチを密かに延長する攻撃。これにより、正直なバリデーターのヘッド投票が無効になり、報酬が失われる可能性がある。
+
+## distance-weighted head reward
+- ja: 距離加重ヘッド報酬
+- related: [head votes, attestation rewards]
+- auto_added: 2026-08-21
+- auto_source_topic_id: 25766
+- auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
+- desc: |
+  ヘッド投票のタイミング操作による報酬損失を軽減するために提案されたメカニズム。最新のcanonical headへの投票には最高の報酬を与えつつ、最近のcanonical ancestorを指す適格なアテステーションにも部分的な報酬を与える。

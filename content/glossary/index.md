@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -293,6 +293,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Disclosure-Plane|Disclosure Plane]] — 開示プレーン (開示層)
 - [[glossary/Disposable-Stealth-Accounts|Disposable Stealth Accounts]] — 使い捨てステルスアカウント (Disposable Stealth Accounts)
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
+- [[glossary/distance-weighted-head-reward|distance-weighted head reward]] — 距離加重ヘッド報酬
 - [[glossary/Distributed-Blobspace-Reconstruction|Distributed Blobspace Reconstruction]] — 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
 - [[glossary/Distributed-Validator-Technology|Distributed Validator Technology]] — 分散型バリデータ技術 (DVT)
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
@@ -440,6 +441,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
+- [[glossary/Head-vote-timing-game|Head-vote timing game]] — ヘッド投票タイミングゲーム
 - [[glossary/Hegota|Hegota]] — ヘゴタ
 - [[glossary/Hegot|Hegotá]] — ヘゴタ (Hegotá)
 - [[glossary/hexary-Patricia-tries|hexary Patricia tries]] — ヘキサリパトリシアトライ
@@ -495,6 +497,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
+- [[glossary/K-block-attack|K-block attack]] — Kブロック攻撃
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Key-Selling|Key Selling]] — キー売却
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
@@ -528,6 +531,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquidity-Consolidation|Liquidity Consolidation]] — 流動性統合
 - [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
 - [[glossary/Liquidity-Ocean|Liquidity Ocean]] — リクイディティ・オーシャン
+- [[glossary/LMD-GHOST|LMD-GHOST]] — LMD-GHOST
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
@@ -759,6 +763,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
 - [[glossary/PropAMMs|PropAMMs]] — PropAMM (プロップAMM)
 - [[glossary/Proposal-Convexity-Maximisation|Proposal Convexity Maximisation]] — 提案の凸性最大化
+- [[glossary/Proposer-Boost|Proposer Boost]] — プロポーザーブースト
 - [[glossary/Proprietary-AMM|Proprietary AMM]] — プロプライエタリAMM (PropAMM)
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/Protocol-Maturity|Protocol Maturity]] — プロトコル成熟度

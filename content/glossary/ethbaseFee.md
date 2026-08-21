@@ -4,7 +4,7 @@ aliases:
   - eth_baseFee
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **eth_baseFee**

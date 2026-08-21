@@ -4,7 +4,7 @@ aliases:
   - IEmergencyState（緊急状態インターフェース）
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **IEmergencyState（緊急状態インターフェース）**
