@@ -4,7 +4,7 @@ aliases:
   - 静的データコンポーネント (Static-Data Component)
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **静的データコンポーネント (Static-Data Component)**

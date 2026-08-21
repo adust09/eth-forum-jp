@@ -4,7 +4,7 @@ aliases:
   - 機械化された関手塔 (Mechanized Functor Tower)
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **機械化された関手塔 (Mechanized Functor Tower)**

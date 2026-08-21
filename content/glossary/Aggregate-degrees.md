@@ -4,7 +4,7 @@ aliases:
   - 集約度 (Aggregate degrees)
 tags:
   - glossary
-date: '2026-08-20'
+date: '2026-08-21'
 ---
 
 **集約度 (Aggregate degrees)**
