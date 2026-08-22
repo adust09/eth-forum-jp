@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-21'
+date: '2026-08-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -931,6 +931,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-transition-function|State transition function]] — 状態遷移関数
 - [[glossary/state-tuple|state tuple]] — 状態タプル
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
+- [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
 - [[glossary/Static-Data-Component|Static-Data Component]] — 静的データコンポーネント (Static-Data Component)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
@@ -998,6 +999,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
+- [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
 - [[glossary/Transaction-Validation|Transaction Validation]] — トランザクション検証
 - [[glossary/Transaction-Validity-Proofs|Transaction Validity Proofs]] — トランザクション有効性証明

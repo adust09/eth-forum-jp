@@ -5,7 +5,7 @@ aliases:
   - PTC
 tags:
   - glossary
-date: '2026-08-21'
+date: '2026-08-22'
 ---
 
 **ペイロード適時性委員会**
