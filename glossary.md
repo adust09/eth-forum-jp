@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-21
+last_updated: 2026-08-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9958,3 +9958,21 @@ description: |
 - auto_source_url: https://ethresear.ch/t/timing-the-head-in-ethereum-pos/25766
 - desc: |
   ヘッド投票のタイミング操作による報酬損失を軽減するために提案されたメカニズム。最新のcanonical headへの投票には最高の報酬を与えつつ、最近のcanonical ancestorを指す適格なアテステーションにも部分的な報酬を与える。
+
+## Stateless Accounts
+- ja: ステートレスアカウント
+- related: [Account Abstraction, Stateless Clients]
+- auto_added: 2026-08-22
+- auto_source_topic_id: 29473
+- auto_source_url: https://ethereum-magicians.org/t/eip-8387-stateless-accounts/29473
+- desc: |
+  アカウントの状態をブロックチェーン上に直接保存せず、トランザクションごとに状態を証明するメカニズムを持つアカウント。これにより、プライバシーの向上やノードのストレージ要件の削減が期待されます。
+
+## Transaction Events View
+- ja: トランザクションイベントビュー (EIP-8386)
+- related: [EIP]
+- auto_added: 2026-08-22
+- auto_source_topic_id: 29472
+- auto_source_url: https://ethereum-magicians.org/t/eip-8386-transaction-events-view/29472
+- desc: |
+  EIP-8386で提案されている、Ethereumトランザクションによって発生するイベントを標準化された形式で表示・アクセスするための概念またはインターフェース。これにより、イベントデータの利用と解析が容易になることを目指します。

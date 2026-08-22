@@ -4,7 +4,7 @@ aliases:
   - 残高排出
 tags:
   - glossary
-date: '2026-08-21'
+date: '2026-08-22'
 ---
 
 **残高排出**

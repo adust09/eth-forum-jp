@@ -4,7 +4,7 @@ aliases:
   - 簡潔な証明
 tags:
   - glossary
-date: '2026-08-21'
+date: '2026-08-22'
 ---
 
 **簡潔な証明**

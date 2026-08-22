@@ -4,7 +4,7 @@ aliases:
   - ポリシードメイン (Policy Domain)
 tags:
   - glossary
-date: '2026-08-21'
+date: '2026-08-22'
 ---
 
 **ポリシードメイン (Policy Domain)**
