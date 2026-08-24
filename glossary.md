@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-22
+last_updated: 2026-08-24
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -9976,3 +9976,40 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8386-transaction-events-view/29472
 - desc: |
   EIP-8386で提案されている、Ethereumトランザクションによって発生するイベントを標準化された形式で表示・アクセスするための概念またはインターフェース。これにより、イベントデータの利用と解析が容易になることを目指します。
+
+## Sync Committee
+- ja: 同期委員会
+- related: [Beacon Chain, Light Client Protocol]
+- auto_added: 2026-08-24
+- auto_source_topic_id: 29486
+- auto_source_url: https://ethereum-magicians.org/t/eip-8390-remove-the-sync-committee/29486
+- desc: |
+  Beacon Chainにおいて、ライトクライアントの同期を支援するために、各エポックでランダムに選出されるバリデータのグループ。彼らは特定の期間、ブロックヘッダーに署名し、ライトクライアントがチェーンの進捗を効率的に検証できるようにする。
+
+## Subnets
+- ja: サブネット
+- related: [P2P Networking, Attestation]
+- auto_added: 2026-08-24
+- auto_source_topic_id: 29486
+- auto_source_url: https://ethereum-magicians.org/t/eip-8390-remove-the-sync-committee/29486
+- desc: |
+  EthereumのP2Pネットワークにおいて、特定の種類のメッセージ（例: アテステーション）を効率的に伝播させるために使用される論理的なグループ。これにより、ネットワーク全体の負荷を軽減し、特定の情報を必要なノードに迅速に配信できる。
+
+## Light Client Protocol
+- ja: ライトクライアントプロトコル
+- aliases: [Light Client]
+- related: [Sync Committee, Beacon Chain]
+- auto_added: 2026-08-24
+- auto_source_topic_id: 29486
+- auto_source_url: https://ethereum-magicians.org/t/eip-8390-remove-the-sync-committee/29486
+- desc: |
+  リソースが限られたデバイス（ライトクライアント）が、完全なノードを運用することなく、ブロックチェーンの状態を安全かつ効率的に検証できるようにする通信規約。通常、少数のブロックヘッダーや同期委員会の署名などを検証する。
+
+## Consensus Issuance
+- ja: コンセンサス層発行（量）
+- related: [Validator Rewards, ETH Issuance Curve]
+- auto_added: 2026-08-24
+- auto_source_topic_id: 29486
+- auto_source_url: https://ethereum-magicians.org/t/eip-8390-remove-the-sync-committee/29486
+- desc: |
+  Ethereumのコンセンサス層において、バリデータ報酬として新規に発行されるETHの量。これはネットワークのセキュリティを維持するためのインセンティブとして機能し、プロトコルによって定められたルールに基づいて計算される。

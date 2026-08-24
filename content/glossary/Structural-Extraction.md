@@ -4,7 +4,7 @@ aliases:
   - 構造的抽出
 tags:
   - glossary
-date: '2026-08-22'
+date: '2026-08-24'
 ---
 
 **構造的抽出**
