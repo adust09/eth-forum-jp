@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-22'
+date: '2026-08-24'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -214,6 +214,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Confidential-Agent-Policy-Verdicts|Confidential Agent Policy Verdicts]] — 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
 - [[glossary/Config-module|Config module]] — 設定モジュール (Config Module)
 - [[glossary/Consensus-homogeneity|Consensus homogeneity]] — コンセンサス均一性
+- [[glossary/Consensus-Issuance|Consensus Issuance]] — コンセンサス層発行（量）
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
 - [[glossary/Consensus-ordered-revocation|Consensus-ordered revocation]] — コンセンサス順序付けされた取り消し
@@ -524,6 +525,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
+- [[glossary/Light-Client-Protocol|Light Client Protocol]] — ライトクライアントプロトコル
 - [[glossary/Lineage-Registry|Lineage Registry]] — リネージレジストリ (Lineage Registry)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
@@ -948,6 +950,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
 - [[glossary/Subjective-Human-Oracle-Network|Subjective Human Oracle Network]] — 主観的ヒューマンオラクルネットワーク (SHON)
+- [[glossary/Subnets|Subnets]] — サブネット
 - [[glossary/Subordination|Subordination]] — 従属（関係）
 - [[glossary/Substrate-Incompleteness|Substrate Incompleteness]] — 基盤の不完全性（Substrate Incompleteness）
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
@@ -958,6 +961,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
 - [[glossary/Sybil-decorrelation-attack|Sybil-decorrelation attack]] — シビルデコレーション攻撃
 - [[glossary/Symbolization|Symbolization]] — 象徴化
+- [[glossary/Sync-Committee|Sync Committee]] — 同期委員会
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
