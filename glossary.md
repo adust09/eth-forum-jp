@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-24
+last_updated: 2026-08-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10013,3 +10013,149 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8390-remove-the-sync-committee/29486
 - desc: |
   Ethereumのコンセンサス層において、バリデータ報酬として新規に発行されるETHの量。これはネットワークのセキュリティを維持するためのインセンティブとして機能し、プロトコルによって定められたルールに基づいて計算される。
+
+## Free option problem
+- ja: フリーオプション問題
+- related: [ePBS, Delayed execution, Missed slots]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 25800
+- auto_source_url: https://ethresear.ch/t/epbs-distilled/25800
+- desc: |
+  ePBSの設計において、ビルダーが実行ペイロードの公開を遅らせることで、市場のボラティリティが高い期間に利益を得ようとするインセンティブが生じる問題。これにより、ブロックが欠落するリスクが高まり、プロトコルの安定性に影響を与える可能性がある。
+
+## Builder exposure
+- ja: ビルダーエクスポージャー (Builder exposure)
+- related: [ePBS, Payload-Timeliness Committee, Slot anatomy]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 25800
+- auto_source_url: https://ethresear.ch/t/epbs-distilled/25800
+- desc: |
+  ePBSにおいて、ビルダーが実行ペイロードを公開する際に直面するリスクと複雑さ。ビーコンブロックのattestation weightを迅速に評価し、ペイロードを厳格な期限内に公開する必要があるため、ペイロードがcanonicalにならないリスクを負う可能性がある。
+
+## Tokenized Vault
+- ja: トークン化されたボルト
+- related: [ERC-4626]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29492
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults/29492
+- desc: |
+  ERC-4626標準に準拠し、ユーザーの預け入れた資産をトークン化して表現するスマートコントラクト。預け入れ、引き出し、シェアの発行、償還などの機能を提供する。
+
+## Consent Registry
+- ja: 同意レジストリ
+- related: [ERC-4626 Tokenized Vault]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29492
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults/29492
+- desc: |
+  ユーザーが特定の契約や条件に同意した記録を保存し、その有効性を検証するためのスマートコントラクトインターフェース。ERC-4626トークン化ボルトの拡張として提案されている。
+
+## Agreement Hash
+- ja: 合意ハッシュ
+- related: [Consent Registry]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29492
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults/29492
+- desc: |
+  特定の契約や条件の内容を暗号学的にハッシュ化した値。これにより、ユーザーが同意した契約の正確なバージョンを一意に識別し、改ざんされていないことを保証する。
+
+## Signature Consent
+- ja: 署名による同意
+- related: [EIP-712, Consent Registry]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29492
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults/29492
+- desc: |
+  オフチェーンで生成された署名を用いて、ユーザーが特定の契約や条件に同意したことを証明するメカニズム。EIP-712標準を利用して、署名の整合性とリプレイ攻撃からの保護を確保する。
+
+## Agreement Versioning
+- ja: 合意のバージョン管理
+- related: [Agreement Hash, Consent Registry]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29492
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults/29492
+- desc: |
+  契約や条件の内容が更新された際に、その変更を識別し、ユーザーに新しいバージョンへの同意を求めるプロセス。合意ハッシュを用いて、ユーザーが同意した契約の正確なバージョンを追跡する。
+
+## Tokenized stocks
+- ja: トークン化された株式
+- related: [Tokenized assets, ERC-20]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29489
+- auto_source_url: https://ethereum-magicians.org/t/erc-8392-asset-status-interface-for-tokenized-assets/29489
+- desc: |
+  従来の株式市場の株式をブロックチェーン上で表現したトークン。24時間365日取引可能である一方、原資産市場の開閉や停止状態を反映するための特別なインターフェースが必要となる。
+
+## ERC-165-discoverable
+- ja: ERC-165で検出可能
+- related: [ERC-165, Interface detection]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29489
+- auto_source_url: https://ethereum-magicians.org/t/erc-8392-asset-status-interface-for-tokenized-assets/29489
+- desc: |
+  スマートコントラクトが特定のインターフェースを実装しているかどうかを、ERC-165標準に準拠した方法で検出できる特性。これにより、コントラクトがサポートする機能を動的に確認できる。
+
+## IAssetStatus
+- ja: IAssetStatus (資産ステータスインターフェース)
+- related: [ERC-8392, Tokenized assets, Interface]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29489
+- auto_source_url: https://ethereum-magicians.org/t/erc-8392-asset-status-interface-for-tokenized-assets/29489
+- desc: |
+  ERC-8392で提案されている、トークン化された資産のプログラムライフサイクルと運用ステータスを公開するための必須インターフェース。資産の安全な評価や担保としての利用可能性を判断する情報を提供する。
+
+## NAV cutoffs
+- ja: NAVカットオフ
+- aliases: [Net Asset Value cutoffs]
+- related: [NAV, Tokenized assets]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29489
+- auto_source_url: https://ethereum-magicians.org/t/erc-8392-asset-status-interface-for-tokenized-assets/29489
+- desc: |
+  投資信託などのファンドにおいて、その日の純資産価値（NAV）計算の基準となる取引締め切り時間。この時間以降に受け付けられた注文は、翌営業日のNAVで処理される。
+
+## Zeroed proxy storage
+- ja: ゼロ化されたプロキシストレージ
+- related: [Proxy contract, Storage slot]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29489
+- auto_source_url: https://ethereum-magicians.org/t/erc-8392-asset-status-interface-for-tokenized-assets/29489
+- desc: |
+  プロキシコントラクトのストレージスロットがゼロ値で初期化された状態。特に、enum値が0にマッピングされている場合、意図せず「不明」や「無効」な状態として解釈される可能性があるため、設計上の考慮が必要となる。
+
+## Tokenized Carbon Credits
+- ja: トークン化された炭素クレジット
+- related: [Carbon Credit, ERC-1155]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29488
+- auto_source_url: https://ethereum-magicians.org/t/erc-8393-tokenized-carbon-credits-with-retirement/29488
+- desc: |
+  炭素クレジットをERC-1155などのトークン標準を用いてブロックチェーン上で表現したもの。排出量オフセットの目的で利用され、その発行、移転、償却がオンチェーンで監査可能となる。
+
+## Retirement
+- ja: 償却（炭素クレジットの）
+- related: [Tokenized Carbon Credits, Retired balance]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29488
+- auto_source_url: https://ethereum-magicians.org/t/erc-8393-tokenized-carbon-credits-with-retirement/29488
+- desc: |
+  トークン化された炭素クレジットを排出量オフセットのために使用する行為。これにより、クレジットは保有者の移転可能な残高から減算され、永続的かつ移転不可能な償却済み残高として記録される。
+
+## Semi-fungible tokens
+- ja: 半代替性トークン
+- aliases: [SFT]
+- related: [ERC-1155, Fungible Token, Non-Fungible Token]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29488
+- auto_source_url: https://ethereum-magicians.org/t/erc-8393-tokenized-carbon-credits-with-retirement/29488
+- desc: |
+  一部の属性（例：ID）が異なるものの、それ以外の属性（例：タイプ）が同じである場合に代替性を持つトークン。ERC-1155標準で表現され、ゲームアイテムや炭素クレジットなど、多様な資産の表現に適している。
+
+## Retired balance
+- ja: 償却済み残高
+- related: [Retirement, Tokenized Carbon Credits]
+- auto_added: 2026-08-25
+- auto_source_topic_id: 29488
+- auto_source_url: https://ethereum-magicians.org/t/erc-8393-tokenized-carbon-credits-with-retirement/29488
+- desc: |
+  炭素クレジットの償却行為によって記録される、永続的かつ移転不可能な残高。この残高は、クレジットが排出量オフセットに使用されたことを示し、オンチェーンで監査可能である。

@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **レイヤー1**

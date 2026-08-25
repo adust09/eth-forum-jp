@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,8 @@ date: '2026-08-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
+- [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）
 - [[posts/ethresear-2026-08-20-timing-the-head-in-ethereum-pos-25766|イーサリアムPoSにおけるヘッドのタイミング]]（2026-08-20）
 - [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/ethresear-2026-07-30-substrate-incompleteness-25572|基盤の不完全性]]（2026-07-30）

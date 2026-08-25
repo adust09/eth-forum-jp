@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -52,6 +52,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AgentTask|AgentTask]] — エージェントタスク
 - [[glossary/Aggregate-degrees|Aggregate degrees]] — 集約度 (Aggregate degrees)
 - [[glossary/Aggregator|Aggregator]] — アグリゲーター
+- [[glossary/Agreement-Hash|Agreement Hash]] — 合意ハッシュ
+- [[glossary/Agreement-Versioning|Agreement Versioning]] — 合意のバージョン管理
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
 - [[glossary/AI-agents|AI agents]] — AIエージェント
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
@@ -147,6 +149,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BTCP-Zero-Bridge|BTCP Zero-Bridge]] — BTCPゼロブリッジ (Behavioral Transaction Continuity Protocol Zero-Bridge)
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
+- [[glossary/Builder-exposure|Builder exposure]] — ビルダーエクスポージャー (Builder exposure)
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
@@ -219,6 +222,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
 - [[glossary/Consensus-ordered-revocation|Consensus-ordered revocation]] — コンセンサス順序付けされた取り消し
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
+- [[glossary/Consent-Registry|Consent Registry]] — 同意レジストリ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Conservative-Funding-Check|Conservative Funding Check]] — 保守的な資金調達チェック
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
@@ -341,6 +345,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/Erasure-code-commitment-scheme|Erasure code commitment scheme]] — 消去符号コミットメントスキーム
 - [[glossary/ERC|ERC]] — Ethereum Request for Comments (ERC)
+- [[glossary/ERC-165-discoverable|ERC-165-discoverable]] — ERC-165で検出可能
 - [[glossary/ERC-20-approved-spending|ERC-20 approved spending]] — ERC-20承認済み支出
 - [[glossary/ERC-2612|ERC-2612]] — ERC-2612
 - [[glossary/ERC-5564|ERC-5564]] — ERC-5564
@@ -417,6 +422,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
 - [[glossary/Frame-type|Frame type]] — フレームタイプ
 - [[glossary/fraudulent-fork|fraudulent fork]] — 不正なフォーク（fraudulent fork）
+- [[glossary/Free-option-problem|Free option problem]] — フリーオプション問題
 - [[glossary/Full-DAS-throughput|Full DAS throughput]] — フルDASスループット
 - [[glossary/Full-target-approval|Full-target approval]] — フルターゲット承認
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
@@ -455,6 +461,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hypertree|Hypertree]] — ハイパーツリー
 - [[glossary/IAgentCaller|IAgentCaller]] — IAgentCaller (インターフェース)
 - [[glossary/IAgentHandler|IAgentHandler]] — IAgentHandler (インターフェース)
+- [[glossary/IAssetStatus|IAssetStatus]] — IAssetStatus (資産ステータスインターフェース)
 - [[glossary/ICTFWrapper|ICTFWrapper]] — ICTFラッパー
 - [[glossary/ICTFWrapperFactory|ICTFWrapperFactory]] — ICTFラッパーファクトリー
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
@@ -606,6 +613,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/NatSpec|NatSpec]] — NatSpec
 - [[glossary/Natural-Transformation|Natural Transformation]] — 自然変換 (Natural Transformation)
 - [[glossary/NAV-basis|NAV basis]] — NAV基準 (NAV basis)
+- [[glossary/NAV-cutoffs|NAV cutoffs]] — NAVカットオフ
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/nested-iframe-pattern|nested iframe pattern]] — ネストされたiframeパターン
 - [[glossary/Net-Gas-Metering-for-Account-Changes|Net Gas Metering for Account Changes]] — アカウント変更のネットガス計測
@@ -826,6 +834,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Resource-specific-capacity-rules|Resource-specific capacity rules]] — リソース固有の容量ルール
 - [[glossary/Restriction-Type|Restriction Type]] — 制限タイプ
 - [[glossary/resurrection-mechanism|resurrection mechanism]] — 復活メカニズム
+- [[glossary/Retired-balance|Retired balance]] — 償却済み残高
+- [[glossary/Retirement|Retirement]] — 償却（炭素クレジットの）
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
 - [[glossary/Reveal-Optionality|Reveal Optionality]] — リビール選択性
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
@@ -865,6 +875,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SELFDESTRUCT|SELFDESTRUCT]] — SELFDESTRUCT (自己破壊)
 - [[glossary/Selfish-Mixing|Selfish Mixing]] — セルフィッシュミキシング (Selfish Mixing)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
+- [[glossary/Semi-fungible-tokens|Semi-fungible tokens]] — 半代替性トークン
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
 - [[glossary/Sequenced-State-Machine|Sequenced State Machine]] — シーケンス化された状態マシン
 - [[glossary/sequencer|sequencer]] — シーケンサー
@@ -880,6 +891,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
+- [[glossary/Signature-Consent|Signature Consent]] — 署名による同意
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
@@ -995,8 +1007,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-bound-reservations|Token-bound reservations]] — トークンに紐づく予約
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース
 - [[glossary/Token-weighted-governance|Token-weighted governance]] — トークン加重ガバナンス
+- [[glossary/Tokenized-Carbon-Credits|Tokenized Carbon Credits]] — トークン化された炭素クレジット
 - [[glossary/Tokenized-investment-funds|Tokenized investment funds]] — トークン化投資ファンド
 - [[glossary/Tokenized-lessee-position|Tokenized lessee position]] — トークン化された借り手ポジション
+- [[glossary/Tokenized-stocks|Tokenized stocks]] — トークン化された株式
+- [[glossary/Tokenized-Vault|Tokenized Vault]] — トークン化されたボルト
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
 - [[glossary/trace-geometry|trace geometry]] — トレースジオメトリ
@@ -1084,6 +1099,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Zero-Knowledge-Contingent-Payments|Zero-Knowledge Contingent Payments]] — ゼロ知識条件付き支払い
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/Zero-Knowledge-Spending-Policies|Zero-Knowledge Spending Policies]] — ゼロ知識支出ポリシー
+- [[glossary/Zeroed-proxy-storage|Zeroed proxy storage]] — ゼロ化されたプロキシストレージ
 - [[glossary/ZIP-32-subaccounts|ZIP-32 subaccounts]] — ZIP-32サブアカウント
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
 - [[glossary/zk-shielding-layer|zk shielding layer]] — zkシーディング層 (zk shielding layer)

@@ -4,7 +4,7 @@ aliases:
   - 象徴化
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **象徴化**

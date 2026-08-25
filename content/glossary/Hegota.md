@@ -4,7 +4,7 @@ aliases:
   - ヘゴタ
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **ヘゴタ**
@@ -18,6 +18,7 @@ Glamsterdamの後にガスリミットのスケーリングを維持するため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-24-all-core-devs-consensus-acdc-186-september-3-2026-29496|全コア開発者会議 - コンセンサス (ACDC) #186、2026年9月3日]]（2026-08-24）
 - [[posts/magicians-2026-08-20-all-core-devs-execution-acde-244-august-27-2026-29468|全コア開発者会議 - 実行 (ACDE) #244、2026年8月27日]]（2026-08-20）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-07-13-all-core-devs-consensus-acdc-183-july-23-2026-29002|全コア開発者会議 - コンセンサス (ACDC) #183、2026年7月23日]]（2026-07-13）
