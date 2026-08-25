@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,7 @@ date: '2026-08-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 - [[posts/ethresear-2026-07-30-substrate-incompleteness-25572|基盤の不完全性]]（2026-07-30）
 - [[posts/ethresear-2026-07-28-can-a-cex-microstructure-signal-survive-ethereum-execution-latency-and-mev-25562|CEXのミクロ構造シグナルはイーサリアムの実行遅延とMEVを乗り越えられるか？]]（2026-07-28）

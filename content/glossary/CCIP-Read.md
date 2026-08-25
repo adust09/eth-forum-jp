@@ -5,7 +5,7 @@ aliases:
   - EIP-3668
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **CCIP-Read**

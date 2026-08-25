@@ -4,7 +4,7 @@ aliases:
   - 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)**

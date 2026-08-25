@@ -5,7 +5,7 @@ aliases:
   - T+n Maturity Settlement Queue
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **満期決済キュー**

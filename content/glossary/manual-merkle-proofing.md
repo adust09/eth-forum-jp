@@ -4,7 +4,7 @@ aliases:
   - 手動Merkle証明検証（manual Merkle proofing）
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **手動Merkle証明検証（manual Merkle proofing）**

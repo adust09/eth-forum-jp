@@ -5,7 +5,7 @@ aliases:
   - enshrined Proposer-Builder Separation
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **ePBS (enshrined Proposer-Builder Separation)**
@@ -19,6 +19,7 @@ date: '2026-08-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/magicians-2026-08-10-eip-8375-ember-epbs-mandatory-burn-of-execution-rewards-29380|EIP-8375: eMBER、ePBSにおける実行報酬の強制バーン]]（2026-08-10）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/magicians-2026-07-08-all-core-devs-consensus-acdc-182-july-9-2026-28968|全コア開発者会議 - コンセンサス (ACDC) #182、2026年7月9日]]（2026-07-08）

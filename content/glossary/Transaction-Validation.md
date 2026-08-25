@@ -5,7 +5,7 @@ aliases:
   - tx validation
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **トランザクション検証**

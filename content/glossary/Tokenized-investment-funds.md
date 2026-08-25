@@ -5,7 +5,7 @@ aliases:
   - Tokenized funds
 tags:
   - glossary
-date: '2026-08-24'
+date: '2026-08-25'
 ---
 
 **トークン化投資ファンド**
@@ -19,7 +19,7 @@ date: '2026-08-24'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-24-erc-8392-asset-status-interface-for-tokenized-assets-29489|ERC-8392: トークン化資産のアセットステータスインターフェース]]（2026-08-24）
 
 ## 元の表記（英語）
 
