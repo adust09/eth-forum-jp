@@ -5,7 +5,7 @@ aliases:
   - δ threshold exclusion
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **閾値除外**

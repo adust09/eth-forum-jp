@@ -5,7 +5,7 @@ aliases:
   - ERC RWA Disclosure Interfaces
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **RWA開示インターフェース**
@@ -20,7 +20,7 @@ date: '2026-08-25'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-25-pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history-29500|[Pre-ERC議論] RWA開示記録、証拠、および履歴のための共通インターフェース]]（2026-08-25）
 
 ## 元の表記（英語）
 

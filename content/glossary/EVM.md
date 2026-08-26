@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,6 +21,7 @@ date: '2026-08-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-25-draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds-29506|[ERCドラフト] IBond: 固定金利債券の標準インターフェース]]（2026-08-25）
 - [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-08-14-preserving-censorship-resistance-for-bal-data-in-eip-7999-29427|EIP-7999におけるBALデータの検閲耐性維持]]（2026-08-14）

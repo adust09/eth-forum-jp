@@ -5,7 +5,7 @@ aliases:
   - Ethereum Natural Language Specification
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **NatSpec**
@@ -19,6 +19,7 @@ Ethereumスマートコントラクトのコード内に自然言語でドキュ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-25-draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds-29506|[ERCドラフト] IBond: 固定金利債券の標準インターフェース]]（2026-08-25）
 - [[posts/magicians-2026-07-31-erc-8356-purpose-bound-third-party-data-consent-29217|ERC-8356: 利用目的拘束型第三者データ同意]]（2026-07-31）
 
 ## 元の表記（英語）

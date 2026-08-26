@@ -4,7 +4,7 @@ aliases:
   - ML-DSA (格子ベース署名アルゴリズム)
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **ML-DSA (格子ベース署名アルゴリズム)**
