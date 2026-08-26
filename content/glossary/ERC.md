@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-08-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-25-pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history-29500|[Pre-ERC議論] RWA開示記録、証拠、および履歴のための共通インターフェース]]（2026-08-25）
 - [[posts/magicians-2026-08-24-erc-8392-asset-status-interface-for-tokenized-assets-29489|ERC-8392: トークン化資産のアセットステータスインターフェース]]（2026-08-24）
 - [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）
 - [[posts/magicians-2026-08-19-proposal-for-a-new-erc-token-behavior-declaration-29464|新しいERCの提案：トークンの振る舞い宣言]]（2026-08-19）

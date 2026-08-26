@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-25'
+date: '2026-08-26'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -296,6 +296,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]] — 方向性移転ドメインレジストリ
 - [[glossary/Disclosure-Contract|Disclosure Contract]] — 開示契約
 - [[glossary/Disclosure-Plane|Disclosure Plane]] — 開示プレーン (開示層)
+- [[glossary/Disclosure-Record|Disclosure Record]] — 開示記録
+- [[glossary/Disclosure-Stream|Disclosure Stream]] — 開示ストリーム
+- [[glossary/Disclosure-Subject|Disclosure Subject]] — 開示対象
 - [[glossary/Disposable-Stealth-Accounts|Disposable Stealth Accounts]] — 使い捨てステルスアカウント (Disposable Stealth Accounts)
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
 - [[glossary/distance-weighted-head-reward|distance-weighted head reward]] — 距離加重ヘッド報酬
@@ -462,6 +465,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IAgentCaller|IAgentCaller]] — IAgentCaller (インターフェース)
 - [[glossary/IAgentHandler|IAgentHandler]] — IAgentHandler (インターフェース)
 - [[glossary/IAssetStatus|IAssetStatus]] — IAssetStatus (資産ステータスインターフェース)
+- [[glossary/IBond|IBond]] — IBond (固定金利債券標準インターフェース)
 - [[glossary/ICTFWrapper|ICTFWrapper]] — ICTFラッパー
 - [[glossary/ICTFWrapperFactory|ICTFWrapperFactory]] — ICTFラッパーファクトリー
 - [[glossary/Identity-Layer|Identity Layer]] — アイデンティティ層
@@ -532,6 +536,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
+- [[glossary/Lifecycle|Lifecycle (IBond enum)]] — ライフサイクル (IBond enum)
 - [[glossary/Light-Client-Protocol|Light Client Protocol]] — ライトクライアントプロトコル
 - [[glossary/Lineage-Registry|Lineage Registry]] — リネージレジストリ (Lineage Registry)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
@@ -630,6 +635,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Number-Theoretic-Transform|Number Theoretic Transform]] — 数論変換 (NTT)
 - [[glossary/oblivious-message-retrieval|oblivious message retrieval]] — 秘匿メッセージ検索 (OMR)
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
+- [[glossary/Observation|Observation]] — 観測
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
 - [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
 - [[glossary/Observation-Scope|Observation Scope]] — 観測スコープ
@@ -694,6 +700,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
+- [[glossary/PaymentStatus|PaymentStatus (IBond enum)]] — 支払いステータス (IBond enum)
 - [[glossary/PBS|PBS]] — PBS（プロポーザー・ビルダー分離）
 - [[glossary/PBT-snapshot|PBT snapshot]] — PBTスナップショット
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
@@ -745,6 +752,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Prepared-Transaction-Envelope|Prepared Transaction Envelope]] — 準備済みトランザクションエンベロープ
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
 - [[glossary/Price-of-Forgery|Price of Forgery]] — 偽造の価格 (PoF)
+- [[glossary/Principal-at-Maturity-profile|Principal-at-Maturity profile]] — 満期時元本償還型プロファイル
 - [[glossary/Priority-Update-Registry|Priority Update Registry]] — プライオリティ更新レジストリ (PUR)
 - [[glossary/Privacy-as-Predicate|Privacy as Predicate]] — 述語としてのプライバシー
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
@@ -855,6 +863,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Runtime-BAL|Runtime BAL]] — ランタイムBAL (Runtime BAL)
 - [[glossary/runtime-code|runtime code]] — ランタイムコード
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
+- [[glossary/RWA-Disclosure-Records|RWA Disclosure Records]] — RWA開示記録
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
@@ -1095,6 +1104,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
+- [[glossary/zero-coupon-bond|zero-coupon bond]] — ゼロクーポン債
 - [[glossary/Zero-Knowledge-Consensus-Layer|Zero-Knowledge Consensus Layer]] — ゼロ知識コンセンサス層 (zkCL)
 - [[glossary/Zero-Knowledge-Contingent-Payments|Zero-Knowledge Contingent Payments]] — ゼロ知識条件付き支払い
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明

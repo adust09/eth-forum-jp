@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10159,3 +10159,95 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8393-tokenized-carbon-credits-with-retirement/29488
 - desc: |
   炭素クレジットの償却行為によって記録される、永続的かつ移転不可能な残高。この残高は、クレジットが排出量オフセットに使用されたことを示し、オンチェーンで監査可能である。
+
+## IBond
+- ja: IBond (固定金利債券標準インターフェース)
+- related: [ERC-20, zero-coupon bond, fixed-rate bond]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29506
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds/29506
+- desc: |
+  Ethereumコミュニティが合意できる固定金利債券の標準インターフェースとして提案されているERC。ERC-20を拡張し、満期時にゼロクーポン支払いを行う債券トークンを定義する。ウォレットや第三者機関が債券を追跡し、EVMチェーン全体で取引可能な債券市場を普及させることを目的としている。
+
+## zero-coupon bond
+- ja: ゼロクーポン債
+- related: [IBond, fixed-rate bond, ERC-20]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29506
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds/29506
+- desc: |
+  満期時に額面金額が支払われるが、利息（クーポン）の支払いが一切ない債券。IBond標準では、最もシンプルな債券タイプとしてERC-20トークンとして実装され、満期時に自動的に元本が支払われる。
+
+## Lifecycle (IBond enum)
+- ja: ライフサイクル (IBond enum)
+- related: [IBond, PaymentStatus (IBond enum)]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29506
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds/29506
+- desc: |
+  IBondインターフェース内で定義されるenum（列挙型）で、オンチェーン債券の現在の状態を示す。`Created`（作成済み）、`Live`（発行中）、`Matured`（満期）、`Settled`（決済済み）の4つの状態がある。
+
+## PaymentStatus (IBond enum)
+- ja: 支払いステータス (IBond enum)
+- related: [IBond, Lifecycle (IBond enum)]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29506
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds/29506
+- desc: |
+  IBondインターフェース内で定義されるenum（列挙型）で、オンチェーン債券の元本支払い状況を示す。`Performing`（履行中）、`Late`（遅延）、`Default`（債務不履行）の3つの状態がある。
+
+## Principal-at-Maturity profile
+- ja: 満期時元本償還型プロファイル
+- related: [IBond, zero-coupon bond, ACTUS]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29506
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds/29506
+- desc: |
+  ACTUS金融契約標準で定義される金融商品のプロファイルの一つで、満期時に元本が償還されるタイプを指す。IBondは、このプロファイルをERC-20クレームトークンとしてオンチェーンで表現し、実行可能なファンディングとホルダー決済を可能にする。
+
+## RWA Disclosure Records
+- ja: RWA開示記録
+- related: [Real World Asset, Disclosure Record]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29500
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
+- desc: |
+  実世界資産（RWA）に関する情報開示を目的とした記録。資産の特性、権利、価値の裏付け、パフォーマンス、およびそれらを裏付ける証拠に関する構造化された情報を含む。
+
+## Disclosure Record
+- ja: 開示記録
+- related: [RWA Disclosure Records, Observation, Stream]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29500
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
+- desc: |
+  特定の観測（Observation）に対して登録された不変の表明。構造化された開示内容、提供者、有効期間、方法論、証拠セット、提供者の承認、登録の出所情報を含む。
+
+## Disclosure Subject
+- ja: 開示対象
+- aliases: [Subject]
+- related: [Disclosure Stream]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29500
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
+- desc: |
+  開示の対象となるエンティティ。発行者、資産、契約、投資持分、ローン、不動産、トークン表現などが含まれる。
+
+## Disclosure Stream
+- ja: 開示ストリーム
+- aliases: [Stream]
+- related: [Disclosure Subject, Observation]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29500
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
+- desc: |
+  特定のトピック、提供者、スコープ、方法論に関する比較可能な報告をグループ化したもの。例えば、管理者によって報告されるローンの支払い状況など。
+
+## Observation
+- ja: 観測
+- related: [Disclosure Stream, Disclosure Record]
+- auto_added: 2026-08-26
+- auto_source_topic_id: 29500
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
+- desc: |
+  開示ストリーム内で、特定の期間、イベント、または測定値を識別するもの。例えば、2026年6月に支払期限が到来するローン支払いなど。
