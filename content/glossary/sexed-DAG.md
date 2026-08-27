@@ -4,7 +4,7 @@ aliases:
   - 性別付きDAG (sexed DAG)
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **性別付きDAG (sexed DAG)**

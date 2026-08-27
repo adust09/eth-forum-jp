@@ -4,7 +4,7 @@ aliases:
   - 最終化権限の委任 (Delegation of finalization authority)
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **最終化権限の委任 (Delegation of finalization authority)**

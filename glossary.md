@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10251,3 +10251,185 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history/29500
 - desc: |
   開示ストリーム内で、特定の期間、イベント、または測定値を識別するもの。例えば、2026年6月に支払期限が到来するローン支払いなど。
+
+## Ephemeral accounts
+- ja: エフェメラルアカウント
+- related: [SELFDESTRUCT, CREATE, CREATE2, Account abstraction]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29524
+- auto_source_url: https://ethereum-magicians.org/t/arguments-for-ephemeral-accounts-and-implementation-approaches/29524
+- desc: |
+  トランザクションの終了時に削除される、一時的な実行コンテナとしてのみ機能するアカウントです。永続的な状態を導入することなく、プロトコルネイティブな一時的実行環境を提供します。
+
+## State-creation costs
+- ja: 状態作成コスト
+- related: [EIP-8037, Gas]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29524
+- auto_source_url: https://ethereum-magicians.org/t/arguments-for-ephemeral-accounts-and-implementation-approaches/29524
+- desc: |
+  Ethereumプロトコルにおいて、新しいアカウントやストレージスロットを作成する際に発生するガス料金です。エフェメラルアカウントの導入における主要な経済的障壁の一つとして議論されています。
+
+## Creation frame
+- ja: 作成フレーム
+- related: [CREATE, CREATE2, EVM]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29524
+- auto_source_url: https://ethereum-magicians.org/t/arguments-for-ephemeral-accounts-and-implementation-approaches/29524
+- desc: |
+  EVMにおいて、CREATEまたはCREATE2オペコードによって新しいコントラクトが作成される際の実行コンテキストです。このフレームの終了時にアカウント作成コストを課すかどうかが、エフェメラルアカウントの実装アプローチとして検討されています。
+
+## Execution hooks
+- ja: 実行フック
+- related: [Account abstraction, Ephemeral accounts]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29524
+- auto_source_url: https://ethereum-magicians.org/t/arguments-for-ephemeral-accounts-and-implementation-approaches/29524
+- desc: |
+  アカウント抽象化などの文脈で、特定の条件を検証したり、トランザクション固有のワークフロー調整を実行したりするために使用される、呼び出し可能なロジックです。エフェメラルアカウントの有用なユースケースの一つとして挙げられています。
+
+## PAY opcode
+- ja: PAYオペコード
+- related: [EIP-5920, SELFDESTRUCT]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29524
+- auto_source_url: https://ethereum-magicians.org/t/arguments-for-ephemeral-accounts-and-implementation-approaches/29524
+- desc: |
+  EIP-5920で定義されたオペコードで、アカウントの全残高を任意のアドレスに転送する機能を持つものです。EIP-4758によるSELFDESTRUCTの機能削除後、SELFDESTRUCTが実質的にこのオペコードと同等になると提案されています。
+
+## Recomputable Verification Receipts
+- ja: 再計算可能な検証レシート
+- aliases: [RVR]
+- related: [Verification Profile, Evidence closure, Canonical result]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29521
+- auto_source_url: https://ethereum-magicians.org/t/recomputable-verification-receipts-rvr/29521
+- desc: |
+  検証結果の独立した再計算を可能にするための、コンテンツアドレス指定された検証レシート。検証結果が同じ入力、ルール、外部コンテキストから導出可能であることを明示し、検証の透明性と再現性を高める。
+
+## Verification Profile
+- ja: 検証プロファイル
+- related: [Recomputable Verification Receipts, Evidence closure, Canonical result]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29521
+- auto_source_url: https://ethereum-magicians.org/t/recomputable-verification-receipts-rvr/29521
+- desc: |
+  特定の検証手順の権威を定義するオブジェクト。検証仕様、データ形式、結果のハッシュ化ルール、必要な外部コンテキストなど、検証の再現に必要な全ての要素を不変の形でコミットする。
+
+## Verification outcome
+- ja: 検証結果 (Verification outcome)
+- related: [Recomputation status, Verification Profile]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29521
+- auto_source_url: https://ethereum-magicians.org/t/recomputable-verification-receipts-rvr/29521
+- desc: |
+  特定の検証手順が完了した際に導き出される意味論的な結果。VERIFIED（検証済み）、REFUTED（反証済み）、UNVERIFIABLE（検証不能）のいずれかを示す。
+
+## Recomputation status
+- ja: 再計算ステータス (Recomputation status)
+- related: [Verification outcome, Recomputable Verification Receipts]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29521
+- auto_source_url: https://ethereum-magicians.org/t/recomputable-verification-receipts-rvr/29521
+- desc: |
+  独立した実装が検証手順を再実行し、元の結果と同一の正規結果を導出できたかを示すステータス。REPRODUCED（再現済み）、DIVERGED（乖離）、CANNOT_RECOMPUTE（再計算不能）のいずれかを示す。
+
+## Evidence closure
+- ja: エビデンスクロージャ
+- related: [Verification Profile, Recomputable Verification Receipts]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29521
+- auto_source_url: https://ethereum-magicians.org/t/recomputable-verification-receipts-rvr/29521
+- desc: |
+  検証結果に影響を与えうる全ての入力が、コミットされた証拠の集合に含まれるか、検証プロファイルによって不変に識別されるべきであるという原則。これにより、検証の再現性を保証する。
+
+## DOG protocol
+- ja: DOGプロトコル
+- related: [GossipSub]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29518
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-7-august-26-2026/29518
+- desc: |
+  P2Pネットワークにおけるプロトコルの一つ。GossipSubプロトコルと同様に、敵対的なシナリオにおける活性（liveness）が議論されている。
+
+## AUTHENTICATOR signature scheme
+- ja: AUTHENTICATOR署名スキーム
+- aliases: [AUTHENTICATOR (0x03)]
+- related: [frame transaction, EIP-8141]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29517
+- auto_source_url: https://ethereum-magicians.org/t/eip-8397-frame-authenticator-signatures/29517
+- desc: |
+  EIP-8397で導入される、フレームトランザクションにカスタム認証プルーフを付与するための署名スキームです。プロトコルによって暗号検証が実行され、その検証は固定されたガス制限内でステートに依存しないピュアコンテキストで行われます。
+
+## pure context
+- ja: ピュアコンテキスト
+- related: [AUTHENTICATOR signature scheme]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29517
+- auto_source_url: https://ethereum-magicians.org/t/eip-8397-frame-authenticator-signatures/29517
+- desc: |
+  AUTHENTICATOR署名スキームの暗号検証が実行される環境を指します。このコンテキストでは、ステートへのアクセスやブロック/環境変数の読み取りは許可されず、プリコンパイルされたSTATICCALLのみが可能です。これにより、検証の予測可能性と効率性が保証されます。
+
+## VERIFY frame
+- ja: VERIFYフレーム
+- related: [frame transaction, EIP-8141]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29517
+- auto_source_url: https://ethereum-magicians.org/t/eip-8397-frame-authenticator-signatures/29517
+- desc: |
+  EIP-8141のフレームトランザクションモデルにおける、アカウント認証のポリシー決定が行われるフェーズです。AUTHENTICATOR署名スキームによる高価な暗号検証とは分離され、アカウントのステートフルな承認ロジックが実行されます。
+
+## key_id
+- ja: キーID
+- related: [AUTHENTICATOR signature scheme, SIGDATACOPY]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29517
+- auto_source_url: https://ethereum-magicians.org/t/eip-8397-frame-authenticator-signatures/29517
+- desc: |
+  AUTHENTICATORが認証プロセス後に返す、認証されたクレデンシャルの識別子です。トランザクションの作成者による偽造を防ぐため、主張された値と一致することがプロトコルによって検証されます。アカウントコードは既存のSIGDATACOPYを通じてこのkey_idを読み取ることができます。
+
+## Permissionless authenticators
+- ja: パーミッションレス・オーセンティケーター
+- related: [AUTHENTICATOR signature scheme]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29517
+- auto_source_url: https://ethereum-magicians.org/t/eip-8397-frame-authenticator-signatures/29517
+- desc: |
+  EIP-8397によって可能になる、登録や許可リストを必要としないオーセンティケーターです。これにより、任意のオーセンティケーターが固定のコンセンサスコストで利用可能となり、多様な署名スキームの導入が促進されます。
+
+## recursive, attenuating EIP-712 Delegation Grants
+- ja: 再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)
+- related: [EIP-712, Delegation Grants, session keys, delegation chain]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29514
+- auto_source_url: https://ethereum-magicians.org/t/erc-8395-signed-http-requests-with-ethereum/29514
+- desc: |
+  EIP-712署名形式を利用して、権限を再帰的に委任する仕組みです。委任された権限は、その連鎖が深まるにつれて自動的に狭められ（減衰し）、元のルートアカウントの権限を逸脱しないように設計されています。これにより、セッションキーや自動化エージェントに安全に権限を付与できます。
+
+## session keys
+- ja: セッションキー
+- related: [account abstraction, delegation]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29514
+- auto_source_url: https://ethereum-magicians.org/t/erc-8395-signed-http-requests-with-ethereum/29514
+- desc: |
+  特定のセッションや期間、あるいは特定の操作のために発行される一時的な秘密鍵です。ルートキーを直接公開することなく、限定された権限でオンチェーン操作を実行するために使用され、セキュリティとユーザーエクスペリエンスの向上に貢献します。
+
+## delegation chain
+- ja: 委任チェーン (Delegation Chain)
+- related: [delegation, EIP-712 Delegation Grants]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29514
+- auto_source_url: https://ethereum-magicians.org/t/erc-8395-signed-http-requests-with-ethereum/29514
+- desc: |
+  権限が複数のエンティティ間で順次委任されていく連鎖です。各リクエストにはこの完全な委任チェーンが付随し、検証者は事前に許可を登録・保存することなく、チェーン全体を検証することで権限の正当性を確認できます。
+
+## replay posture
+- ja: リプレイポスチャ (Replay Posture)
+- related: [replay attack, EIP-712]
+- auto_added: 2026-08-27
+- auto_source_topic_id: 29514
+- auto_source_url: https://ethereum-magicians.org/t/erc-8395-signed-http-requests-with-ethereum/29514
+- desc: |
+  トランザクションやリクエストがリプレイ攻撃に対してどのような耐性を持つか、あるいはリプレイが許容される条件や振る舞いを定義する概念です。EIP-712署名では、各許可がリプレイポスチャを規定することで、リプレイ攻撃を防ぐための重要なセキュリティ要素となります。

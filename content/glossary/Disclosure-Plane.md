@@ -5,7 +5,7 @@ aliases:
   - Disclosure Layer
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **開示プレーン (開示層)**

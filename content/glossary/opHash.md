@@ -5,7 +5,7 @@ aliases:
   - operation hash
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **opHash (操作ハッシュ)**

@@ -5,7 +5,7 @@ aliases:
   - tx validation
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **トランザクション検証**
@@ -19,7 +19,7 @@ date: '2026-08-26'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 
 ## 元の表記（英語）
 

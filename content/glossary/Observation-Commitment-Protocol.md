@@ -5,7 +5,7 @@ aliases:
   - OCP
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **Observation Commitment Protocol (OCP)**
@@ -19,6 +19,7 @@ date: '2026-08-26'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）
 - [[posts/magicians-2026-06-02-gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol-28680|EIP-3668のためのゲートウェイ間連携 / メッシュ同期プロトコルの提案]]（2026-06-02）
 - [[posts/ethresear-2026-05-31-evidential-survivability-ocp-and-ethereums-crops-direction-25012|証拠の生存可能性：OCPとEthereumのCROPS方向性]]（2026-05-31）
 
