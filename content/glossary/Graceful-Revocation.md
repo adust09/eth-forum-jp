@@ -4,7 +4,7 @@ aliases:
   - グレースフル取り消し (Graceful Revocation)
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **グレースフル取り消し (Graceful Revocation)**
@@ -18,7 +18,7 @@ Directional Transfer Domain Registryにおける、時間ベースで将来的�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-26-erc-8395-signed-http-requests-with-ethereum-29514|ERC-8395: イーサリアムによる署名付きHTTPリクエスト]]（2026-08-26）
 
 ## 元の表記（英語）
 

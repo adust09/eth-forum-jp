@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -92,6 +92,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
 - [[glossary/AUCIL|AUCIL]] — AUCIL (オークションベース・インクルージョンリスト)
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
+- [[glossary/AUTHENTICATOR-signature-scheme|AUTHENTICATOR signature scheme]] — AUTHENTICATOR署名スキーム
 - [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
@@ -250,6 +251,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Counterfactual-Transaction|Counterfactual Transaction]] — 反実仮想トランザクション
 - [[glossary/Coupling-Breadth|Coupling Breadth]] — 結合の広さ (Coupling Breadth)
 - [[glossary/CPSB|CPSB]] — CPSB (ステートバイトあたりのコスト)
+- [[glossary/Creation-frame|Creation frame]] — 作成フレーム
 - [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/Credit-decay|Credit decay]] — クレジットの減衰
@@ -279,6 +281,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
 - [[glossary/Delegation-by-constraint|Delegation by constraint]] — 制約による委任
+- [[glossary/delegation-chain|delegation chain]] — 委任チェーン (Delegation Chain)
 - [[glossary/Delegation-domain|Delegation domain]] — デリゲーション・ドメイン
 - [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
 - [[glossary/Delegation-tree|Delegation tree]] — デリゲーションツリー
@@ -307,6 +310,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
 - [[glossary/DMQ-framework|DMQ framework]] — DMQフレームワーク
+- [[glossary/DOG-protocol|DOG protocol]] — DOGプロトコル
 - [[glossary/domain-separation|domain separation]] — ドメイン分離
 - [[glossary/domainlogn|domain_logn]] — ドメインの対数サイズ (domain_logn)
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
@@ -343,6 +347,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Enshrinement|Enshrinement]] — プロトコルへの組み込み (Enshrinement)
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/ePBS-circuit-breakers|ePBS circuit breakers]] — ePBSサーキットブレーカー
+- [[glossary/Ephemeral-accounts|Ephemeral accounts]] — エフェメラルアカウント
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Epoch-Boundary-Block|Epoch Boundary Block]] — エポック境界ブロック
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
@@ -370,6 +375,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/eviction-mechanism|eviction mechanism]] — 削除メカニズム
 - [[glossary/Evidence-Capsule|Evidence Capsule]] — エビデンスカプセル
 - [[glossary/Evidence-Capsule-Model|Evidence Capsule Model]] — エビデンスカプセルモデル
+- [[glossary/Evidence-closure|Evidence closure]] — エビデンスクロージャ
 - [[glossary/evidenceHash|evidenceHash]] — evidenceHash (証拠ハッシュ)
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
@@ -385,6 +391,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/execution-client-head|execution client head]] — 実行クライアントヘッド
 - [[glossary/Execution-gas|Execution gas]] — 実行ガス
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
+- [[glossary/Execution-hooks|Execution hooks]] — 実行フック
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
 - [[glossary/execution-position|execution position]] — 実行位置
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
@@ -512,6 +519,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/K-block-attack|K-block attack]] — Kブロック攻撃
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Key-Selling|Key Selling]] — キー売却
+- [[glossary/keyid|key_id]] — キーID
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/KoalaBear-prime-field|KoalaBear prime field]] — KoalaBear素体
@@ -696,6 +704,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Partitioned-Binary-Tree|Partitioned Binary Tree]] — パーティション化されたバイナリツリー
 - [[glossary/PASS-ASSET|PASS-ASSET]] — PASS-ASSET (可決時資産)
 - [[glossary/passURI|passURI]] — passURI (パスURI)
+- [[glossary/PAY-opcode|PAY opcode]] — PAYオペコード
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
@@ -711,6 +720,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Periodically-anchored-to-Ethereum|Periodically anchored to Ethereum]] — 定期的にイーサリアムにアンカーされる
 - [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
+- [[glossary/Permissionless-authenticators|Permissionless authenticators]] — パーミッションレス・オーセンティケーター
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/phantom-placeholders|phantom placeholders]] — ファントムプレースホルダー (phantom placeholders)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
@@ -792,6 +802,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
+- [[glossary/pure-context|pure context]] — ピュアコンテキスト
 - [[glossary/Purpose-Bound-Third-Party-Data-Consent|Purpose-Bound Third-Party Data Consent]] — 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
 - [[glossary/Quadratic-Concentration-Reserve|Quadratic Concentration Reserve]] — 二次集中化準備金
 - [[glossary/Quantum-preimage|Quantum preimage]] — 量子的原像（耐性）
@@ -807,10 +818,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
 - [[glossary/Received-Floor|Received Floor]] — 受容された基盤
+- [[glossary/Recomputable-Verification-Receipts|Recomputable Verification Receipts]] — 再計算可能な検証レシート
+- [[glossary/Recomputation-status|Recomputation status]] — 再計算ステータス (Recomputation status)
 - [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
 - [[glossary/recursive-proof|recursive proof]] — 再帰的証明
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
 - [[glossary/recursive-validity|recursive validity]] — 再帰的有効性
+- [[glossary/recursive-attenuating-EIP-712-Delegation-Grants|recursive, attenuating EIP-712 Delegation Grants]] — 再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/ReedSolomon-codes|Reed–Solomon codes]] — リード・ソロモン符号
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
@@ -824,6 +838,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/renounce-upgrade-authority|renounce upgrade authority]] — アップグレード権限の放棄
 - [[glossary/reorg-resistant|reorg-resistant]] — リorg耐性 (reorg-resistant)
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
+- [[glossary/replay-posture|replay posture]] — リプレイポスチャ (Replay Posture)
 - [[glossary/Replay-based-Verification|Replay-based Verification]] — リプレイベース検証
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replay-Stable-Architecture|Replay-Stable Architecture]] — リプレイ安定性アーキテクチャ
@@ -891,6 +906,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
 - [[glossary/Service-Object|Service Object]] — サービスオブジェクト
 - [[glossary/Service-Operator|Service Operator]] — サービスオペレーター
+- [[glossary/session-keys|session keys]] — セッションキー
 - [[glossary/Session-Root|Session Root]] — セッションルート
 - [[glossary/SETCODEFROM|SETCODEFROM]] — SETCODEFROM (EVM命令)
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
@@ -953,6 +969,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-Tiering-by-Periods|State Tiering by Periods]] — 期間別ステート階層化
 - [[glossary/State-transition-function|State transition function]] — 状態遷移関数
 - [[glossary/state-tuple|state tuple]] — 状態タプル
+- [[glossary/State-creation-costs|State-creation costs]] — 状態作成コスト
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
@@ -1077,7 +1094,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Verifiably-Decentralized-Blockchain-System|Verifiably Decentralized Blockchain System]] — 検証可能な分散型ブロックチェーンシステム
 - [[glossary/Verification-Invariant|Verification Invariant]] — 検証不変条件 (Verification Invariant)
 - [[glossary/Verification-key-churn|Verification key churn]] — 検証キーの頻繁な更新 (Verification key churn)
+- [[glossary/Verification-outcome|Verification outcome]] — 検証結果 (Verification outcome)
 - [[glossary/Verification-Primitive|Verification Primitive]] — 検証プリミティブ
+- [[glossary/Verification-Profile|Verification Profile]] — 検証プロファイル
+- [[glossary/VERIFY-frame|VERIFY frame]] — VERIFYフレーム
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
 - [[glossary/virtual-mempools|virtual mempools]] — 仮想メモリプール
 - [[glossary/VOPS-Profiles|VOPS Profiles]] — VOPSプロファイル (Validity-Only Partial Statelessness Profiles)

@@ -4,7 +4,7 @@ aliases:
   - 入力来歴 (input provenance)
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **入力来歴 (input provenance)**
@@ -18,7 +18,7 @@ date: '2026-08-26'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）
 
 ## 元の表記（英語）
 

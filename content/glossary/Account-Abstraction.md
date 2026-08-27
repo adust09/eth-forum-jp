@@ -5,7 +5,7 @@ aliases:
   - AA
 tags:
   - glossary
-date: '2026-08-26'
+date: '2026-08-27'
 ---
 
 **アカウント抽象化**
@@ -20,6 +20,7 @@ Ethereumにおけるユーザーアカウントの概念を抽象化し、スマ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
