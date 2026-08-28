@@ -4,7 +4,7 @@ aliases:
   - ヘゴタ
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **ヘゴタ**
@@ -19,6 +19,7 @@ Glamsterdamの後にガスリミットのスケーリングを維持するため
 ## この用語を使っている記事
 
 - [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-08-24-all-core-devs-consensus-acdc-186-september-3-2026-29496|全コア開発者会議 - コンセンサス (ACDC) #186、2026年9月3日]]（2026-08-24）
 - [[posts/magicians-2026-08-20-all-core-devs-execution-acde-244-august-27-2026-29468|全コア開発者会議 - 実行 (ACDE) #244、2026年8月27日]]（2026-08-20）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）

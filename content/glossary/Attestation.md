@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **アテステーション（証明）**
@@ -19,6 +19,7 @@ date: '2026-08-27'
 ## この用語を使っている記事
 
 - [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-08-25-pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history-29500|[Pre-ERC議論] RWA開示記録、証拠、および履歴のための共通インターフェース]]（2026-08-25）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）

@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **フォーク**
@@ -19,6 +19,7 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-08-10-idea-meta-eip-protocol-maturity-and-ossification-framework-29376|[アイデア / メタEIP] プロトコル成熟度とオシフィケーションフレームワーク]]（2026-08-10）
 - [[posts/magicians-2026-08-05-eip-8367-balance-sunset-for-retired-bls-validators-29299|EIP-8367: 引退したBLSバリデータの残高サンセット]]（2026-08-05）

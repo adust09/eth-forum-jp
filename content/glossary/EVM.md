@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,7 +21,9 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-08-25-draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds-29506|[ERCドラフト] IBond: 固定金利債券の標準インターフェース]]（2026-08-25）
 - [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）

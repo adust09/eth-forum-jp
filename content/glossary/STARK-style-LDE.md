@@ -4,7 +4,7 @@ aliases:
   - STARK形式のLDE (STARK-style LDE)
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **STARK形式のLDE (STARK-style LDE)**
