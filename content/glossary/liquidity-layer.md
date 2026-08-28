@@ -4,7 +4,7 @@ aliases:
   - 流動性レイヤー
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **流動性レイヤー**
@@ -18,7 +18,7 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-27-when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3-25823|複数のプールが1つのように振る舞うとき: Uniswap v3におけるインパクト制約付きキャパシティ集中]]（2026-08-27）
 
 ## 元の表記（英語）
 

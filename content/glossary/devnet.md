@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **開発ネットワーク (devnet)**
@@ -18,6 +18,7 @@ Ethereumのプロトコルアップグレードや新機能のテストのため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/ethresear-2026-08-19-btcp-zero-bridge-cross-chain-exchange-where-assets-never-leave-their-native-chains-25764|BTCPゼロブリッジ：資産がネイティブチェーンを離れないクロスチェーン交換]]（2026-08-19）
 - [[posts/magicians-2026-08-18-all-core-devs-testing-acdt-93-august-24-2026-29450|全コア開発者会議 - テスト (ACDT) #93、2026年8月24日]]（2026-08-18）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）

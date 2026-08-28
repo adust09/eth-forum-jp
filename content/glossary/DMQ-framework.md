@@ -5,7 +5,7 @@ aliases:
   - DMQ
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **DMQフレームワーク**

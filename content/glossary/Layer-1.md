@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **レイヤー1**
@@ -20,6 +20,8 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/ethresear-2026-08-07-atomic-zk-proof-gated-settlement-for-x402-agent-payments-a-measured-reference-design-25660|x402エージェント支払い向け[[glossary/Zero-Knowledge-Proof|ゼロ知識証明]]ゲート付きアトミック決済：測定されたリファレンスデザイン]]（2026-08-07）
 - [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）

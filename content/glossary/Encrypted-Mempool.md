@@ -4,7 +4,7 @@ aliases:
   - 暗号化メムプール
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **暗号化メムプール**
@@ -19,6 +19,7 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/ethresear-2026-07-08-builders-defection-and-incentive-compatibility-25400|ビルダーの逸脱とインセンティブ整合性]]（2026-07-08）
 - [[posts/ethresear-2026-06-16-a-criticism-of-lucid-and-encryption-scheme-agnostic-encrypted-mempool-designs-25210|LUCIDと暗号スキーム非依存の暗号化メムプール設計に対する批判]]（2026-06-16）
 

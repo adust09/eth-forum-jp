@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10433,3 +10433,124 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8395-signed-http-requests-with-ethereum/29514
 - desc: |
   トランザクションやリクエストがリプレイ攻撃に対してどのような耐性を持つか、あるいはリプレイが許容される条件や振る舞いを定義する概念です。EIP-712署名では、各許可がリプレイポスチャを規定することで、リプレイ攻撃を防ぐための重要なセキュリティ要素となります。
+
+## Homomorphic tallying
+- ja: 準同型集計 (Homomorphic tallying)
+- related: [Homomorphic encryption, Zero-knowledge proof]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25831
+- auto_source_url: https://ethresear.ch/t/proof-boundaries-in-a-minimal-homomorphic-tally-for-token-weighted-voting/25831
+- desc: |
+  暗号化された個々の票を復号せずに合計し、その合計結果のみを復号する暗号技術。プライバシーを保護しつつ、投票結果を集計する際に用いられる。
+
+## Token weighted voting
+- ja: トークン加重投票 (Token weighted voting)
+- related: [DAO, Governance]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25831
+- auto_source_url: https://ethresear.ch/t/proof-boundaries-in-a-minimal-homomorphic-tally-for-token-weighted-voting/25831
+- desc: |
+  参加者が保有するトークンの量に応じて投票の重みが決定される投票システム。ガバナンスや意思決定において、より多くの資産を持つ参加者に大きな影響力を持たせるために利用される。
+
+## BabyJubJub ElGamal
+- ja: BabyJubJubエルガマル暗号 (BabyJubJub ElGamal)
+- related: [ElGamal encryption, BabyJubJub curve, Zero-knowledge proof]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25831
+- auto_source_url: https://ethresear.ch/t/proof-boundaries-in-a-minimal-homomorphic-tally-for-token-weighted-voting/25831
+- desc: |
+  BabyJubJub楕円曲線上で実装されたエルガマル暗号方式。ゼロ知識証明システムで効率的に利用できるよう最適化されており、プライバシー保護型の投票システムなどで暗号化に用いられる。
+
+## Browser side proving
+- ja: ブラウザサイド証明生成 (Browser side proving)
+- related: [Zero-knowledge proof, Client-side proving]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25831
+- auto_source_url: https://ethresear.ch/t/proof-boundaries-in-a-minimal-homomorphic-tally-for-token-weighted-voting/25831
+- desc: |
+  ゼロ知識証明の生成処理をユーザーのウェブブラウザ内で実行する方式。これにより、ユーザーは自身のデバイスで証明を生成し、プライバシーを保護しつつ、ガス代を支払うことなくトランザクションをリレーできる。
+
+## Bounded BSGS discrete log
+- ja: 範囲限定BSGS離散対数 (Bounded BSGS discrete log)
+- related: [Discrete logarithm, Baby-step Giant-step algorithm, Homomorphic tallying]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25831
+- auto_source_url: https://ethresear.ch/t/proof-boundaries-in-a-minimal-homomorphic-tally-for-token-weighted-voting/25831
+- desc: |
+  Baby-step Giant-step (BSGS) アルゴリズムを応用し、特定の範囲内に限定された離散対数を効率的に計算する手法。準同型集計された暗号文の合計値を、その値が取りうる範囲内で復号する際に使用される。
+
+## ordering / blockspace layer
+- ja: オーダリング/ブロックスペースレイヤー (G_O)
+- aliases: [G_O]
+- related: [liquidity layer, settlement layer, MEV]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25823
+- auto_source_url: https://ethresear.ch/t/when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3/25823
+- desc: |
+  ブロックチェーンにおける3つの主要なレイヤーの一つで、トランザクションの順序付けとブロックへの組み込みが行われる層です。MEVの抽出機会が生まれる場所でもあります。
+
+## impact_bps
+- ja: インパクトbps (impact_bps)
+- related: [price impact, slippage]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25823
+- auto_source_url: https://ethresear.ch/t/when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3/25823
+- desc: |
+  取引が市場価格に与える影響をbps（ベーシスポイント、1bps=0.01%）単位で示す指標です。DeFiの流動性プールにおける大口取引のコストを評価する際に用いられます。
+
+## capacity-effective pool count
+- ja: 実効プール数 (N_eff)
+- aliases: [N_eff]
+- related: [Herfindahl–Hirschman index (HHI), capacity shares]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 25823
+- auto_source_url: https://ethresear.ch/t/when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3/25823
+- desc: |
+  流動性プールの集中度を測る指標で、Herfindahl–Hirschman index (HHI) の逆数として定義されます。複数のプールが存在しても、実質的に少数のプールに流動性が集中している状況を定量化します。
+
+## Portable Account Keystore
+- ja: ポータブルアカウントキーストア
+- aliases: [Portable Keystore]
+- related: [Account Abstraction, EIP-8398]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 29526
+- auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
+- desc: |
+  アカウントの認証情報（キー）を定義し、アカウントの作成、設定、および異なる環境間でのポータビリティを可能にするための仕組みです。EIP-8398で定義されており、アカウント抽象化の基盤となる重要なコンポーネントです。
+
+## Native AA transaction
+- ja: ネイティブAAトランザクション (Native AA transaction)
+- aliases: [native 0x79 transaction]
+- related: [Account Abstraction, EIP-8399]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 29526
+- auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
+- desc: |
+  EIP-8398で定義された認証モデルを使用し、バッチ処理、スポンサーシップ、キー付きシーケンシャルノンスなどの機能を持つ、プロトコルレベルでサポートされるアカウント抽象化トランザクションです。EIP-8399で導入される新しいトランザクションタイプを指します。
+
+## Sponsorship
+- ja: スポンサーシップ
+- related: [Account Abstraction, Gas Station Network]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 29526
+- auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
+- desc: |
+  アカウント抽象化において、トランザクションのガス代を送信者（ユーザー）以外の第三者が支払うことを可能にする機能です。これにより、ユーザーはETHを保有していなくてもトランザクションを実行できるようになります。
+
+## Nonce-free transactions
+- ja: ノンスフリー・トランザクション (Nonce-free transactions)
+- related: [Account Abstraction, EIP-8400, Nonce]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 29526
+- auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
+- desc: |
+  トランザクションの順序付けやリプレイ保護にノンスを使用しないトランザクションタイプです。EIP-8400で導入される高度な制御機能の一つであり、アカウント抽象化の柔軟性を高めます。
+
+## Account locking
+- ja: アカウントロック
+- related: [Account Abstraction, EIP-8400, Timelock]
+- auto_added: 2026-08-28
+- auto_source_topic_id: 29526
+- auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
+- desc: |
+  アカウントの操作を一時的に制限または停止する機能です。EIP-8400で導入される高度な制御機能の一つであり、特定の条件下でのアカウントのセキュリティや管理を強化するために利用されます。

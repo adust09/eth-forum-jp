@@ -5,7 +5,7 @@ aliases:
   - EIP-8184
 tags:
   - glossary
-date: '2026-08-27'
+date: '2026-08-28'
 ---
 
 **LUCID (EIP-8184)**
@@ -19,7 +19,7 @@ date: '2026-08-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 
 ## 元の表記（英語）
 
