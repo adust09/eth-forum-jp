@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **メインネット**
@@ -18,6 +18,7 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
+- [[posts/ethresear-2026-08-27-an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables-25828|EIP-8304とUTXO証明テーブルを用いた認証済みUTXO発見の評価]]（2026-08-27）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）
 - [[posts/magicians-2026-07-08-all-core-devs-consensus-acdc-182-july-9-2026-28968|全コア開発者会議 - コンセンサス (ACDC) #182、2026年7月9日]]（2026-07-08）

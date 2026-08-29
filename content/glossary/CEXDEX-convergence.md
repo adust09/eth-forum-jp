@@ -4,7 +4,7 @@ aliases:
   - CEX-DEXコンバージェンス (CEX-DEX収束)
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **CEX-DEXコンバージェンス (CEX-DEX収束)**

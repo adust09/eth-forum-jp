@@ -4,7 +4,7 @@ aliases:
   - 支払い経路
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **支払い経路**
