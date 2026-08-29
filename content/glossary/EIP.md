@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,7 +20,9 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-28-proposed-pq-upgrade-for-ecrecover-25844|ecrecoverに対する量子耐性ホットフィックスの提案]]（2026-08-28）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
+- [[posts/ethresear-2026-08-27-an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables-25828|EIP-8304とUTXO証明テーブルを用いた認証済みUTXO発見の評価]]（2026-08-27）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/magicians-2026-08-25-draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds-29506|[ERCドラフト] IBond: 固定金利債券の標準インターフェース]]（2026-08-25）

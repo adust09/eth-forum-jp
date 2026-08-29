@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **フレームトランザクション (Frame Transactions)**
@@ -19,6 +19,7 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-28-proposed-pq-upgrade-for-ecrecover-25844|ecrecoverに対する量子耐性ホットフィックスの提案]]（2026-08-28）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/magicians-2026-08-10-rpc-standards-32-august-10-2026-29377|RPC標準 #32、2026年8月10日]]（2026-08-10）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）

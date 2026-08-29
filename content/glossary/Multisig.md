@@ -5,7 +5,7 @@ aliases:
   - Multi-signature
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **マルチシグ（マルチシグネチャ）**
@@ -20,6 +20,7 @@ date: '2026-08-28'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-08-27-erc-8391-execution-delegation-framework-29527|ERC-8391: 実行委任フレームワーク]]（2026-08-27）
 - [[posts/ethresear-2026-06-15-perc20-private-token-standard-draft-25200|pERC20: プライベートトークン標準 (ドラフト)]]（2026-06-15）
 - [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）
 

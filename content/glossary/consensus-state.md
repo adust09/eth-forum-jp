@@ -4,7 +4,7 @@ aliases:
   - コンセンサス状態
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **コンセンサス状態**
@@ -18,6 +18,7 @@ date: '2026-08-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-27-an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables-25828|EIP-8304とUTXO証明テーブルを用いた認証済みUTXO発見の評価]]（2026-08-27）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-06-29-the-anatomy-of-ethereum-s-state-access-25317|イーサリアムのステートアクセス解剖学]]（2026-06-29）
 

@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **ブロック構築**
@@ -23,6 +23,7 @@ date: '2026-08-28'
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
+- [[posts/ethresear-2026-08-27-amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles-25826|AMMのイールド最大化：流動性プロバイダーとアービトラージャーの役割の収束]]（2026-08-27）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）

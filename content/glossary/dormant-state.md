@@ -4,7 +4,7 @@ aliases:
   - 休眠状態
 tags:
   - glossary
-date: '2026-08-28'
+date: '2026-08-29'
 ---
 
 **休眠状態**

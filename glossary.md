@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10554,3 +10554,170 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/composable-native-account-abstraction/29526
 - desc: |
   アカウントの操作を一時的に制限または停止する機能です。EIP-8400で導入される高度な制御機能の一つであり、特定の条件下でのアカウントのセキュリティや管理を強化するために利用されます。
+
+## ecrecover
+- ja: ecrecover (組み込み関数)
+- related: [ECDSA signature, EVM]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25844
+- auto_source_url: https://ethresear.ch/t/proposed-pq-upgrade-for-ecrecover/25844
+- desc: |
+  Ethereum Virtual Machine (EVM) の組み込み関数で、楕円曲線デジタル署名アルゴリズム (ECDSA) の署名から公開鍵と署名者のアドレスを復元するために使用されます。量子攻撃に対する脆弱性が指摘されており、本提案ではそのアップグレードが議論されています。
+
+## ECDSA signature
+- ja: ECDSA署名 (楕円曲線デジタル署名アルゴリズム署名)
+- aliases: [ECDSA]
+- related: [ecrecover, quantum attack]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25844
+- auto_source_url: https://ethresear.ch/t/proposed-pq-upgrade-for-ecrecover/25844
+- desc: |
+  楕円曲線暗号に基づくデジタル署名アルゴリズムで、Ethereumのトランザクション署名やコントラクトの認証に広く利用されています。量子コンピュータの発展により、そのセキュリティが脅かされる可能性があります。
+
+## quantum attack
+- ja: 量子攻撃
+- related: [post-quantum, ECDSA signature]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25844
+- auto_source_url: https://ethresear.ch/t/proposed-pq-upgrade-for-ecrecover/25844
+- desc: |
+  量子コンピュータの計算能力を利用して、現在の公開鍵暗号システム（ECDSAなど）のセキュリティを破ることを目指す攻撃です。Ethereumの既存の署名メカニズムに対する潜在的な脅威として認識されています。
+
+## sentinel value
+- ja: センチネル値
+- related: [ecrecover]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25844
+- auto_source_url: https://ethresear.ch/t/proposed-pq-upgrade-for-ecrecover/25844
+- desc: |
+  プログラムやプロトコルにおいて、特定の条件や新しい実行パスをトリガーするために使用される特殊な値です。本提案では、ecrecover 関数が量子耐性署名を処理するための新しいロジックを起動するために、特定の署名パラメータの組み合わせがセンチネル値として提案されています。
+
+## pure function
+- ja: pure関数 (純粋関数)
+- related: [EVM]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25844
+- auto_source_url: https://ethresear.ch/t/proposed-pq-upgrade-for-ecrecover/25844
+- desc: |
+  プログラミングにおいて、同じ入力に対して常に同じ出力を返し、外部の状態を変更したり、外部の状態に依存したりしない関数です。EVMの ecrecover は pure 関数として定義されており、その特性が本提案の設計上の重要な制約となっています。
+
+## UTXO Discovery
+- ja: UTXOディスカバリ
+- related: [UTXO Proof Table, EIP-8304, Native UTXO design]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25828
+- auto_source_url: https://ethresear.ch/t/an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables/25828
+- desc: |
+  ウォレットが、信頼できないRPCプロバイダーに依存せずに、自身に関連するUTXO（未使用トランザクション出力）を効率的かつ認証可能に発見するプロセス。EIP-8304とUTXO Proof Tableを組み合わせて実現される。
+
+## UTXO Proof Table
+- ja: UTXOプルーフテーブル (UPT)
+- aliases: [UPT]
+- related: [UTXO Discovery, Openings root, EIP-8304]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25828
+- auto_source_url: https://ethresear.ch/t/an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables/25828
+- desc: |
+  EthereumのネイティブUTXOモデルにおいて、UTXOの開設記録（opening records）とそのMerkleパスを格納し、EIP-8304と組み合わせてUTXOディスカバリを認証可能にするためのブロックごとのデータ構造。コンセンサス状態ではないが、ネイティブのopenings rootによってコミットされたデータを表現する。
+
+## Recipient-range proofs
+- ja: 受信者範囲証明
+- related: [EIP-8304, UTXO Discovery]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25828
+- auto_source_url: https://ethresear.ch/t/an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables/25828
+- desc: |
+  EIP-8304によって提供される証明システム。特定の受信者アドレスが言及されたすべてのイベントエントリの範囲を、その範囲内のエントリが省略されていないことを含めて認証する。UTXOディスカバリにおいて、特定の受信者宛てのUTXOイベントを効率的に検索するために使用される。
+
+## Dislocation value
+- ja: ディスロケーション・バリュー（乖離価値）
+- related: [Price dislocation, Arbitrage, MEV]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25826
+- auto_source_url: https://ethresear.ch/t/amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles/25826
+- desc: |
+  AMM市場における価格の非効率性から生じる総価値。プールの手数料収入とアービトラージャーの利益の合計として定義され、市場の非効率性が解消されることで解放される価値全体を指します。
+
+## AMM hooks
+- ja: AMMフック
+- aliases: [afterSwap hook]
+- related: [Internal arbitrage, Uniswap V4]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25826
+- auto_source_url: https://ethresear.ch/t/amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles/25826
+- desc: |
+  AMMのスマートコントラクトに、スワップなどの操作の前後でカスタムロジックを実行させるための機能。これにより、AMMは外部の介入なしに、スワップと同時に内部的なアービトラージを実行できるようになります。
+
+## Internal arbitrage
+- ja: 内部アービトラージ
+- related: [AMM hooks, Dislocation value, MEV]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25826
+- auto_source_url: https://ethresear.ch/t/amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles/25826
+- desc: |
+  AMMが自身のスマートコントラクト内のロジック（AMMフックなど）を用いて、市場の価格乖離を解消するために自律的に実行するアービトラージ。外部のサーチャーによるMEV抽出を防ぎ、乖離価値をプールに回収することを目的とします。
+
+## Zero-Fee Joint Optimum
+- ja: ゼロ手数料共同最適（命題1）
+- aliases: [Proposition 1]
+- related: [Dislocation value, AMM]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25826
+- auto_source_url: https://ethresear.ch/t/amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles/25826
+- desc: |
+  AMMの経済モデルにおける命題の一つで、アービトラージに対して手数料を課さない場合に、市場の非効率性から得られる総価値（ディスロケーション・バリュー）が最大化されるという原則です。
+
+## 50% Ceiling for Constant Product AMMs
+- ja: 定数積AMMにおける50%上限（命題2）
+- aliases: [Proposition 2]
+- related: [Constant-product AMM, Dislocation value]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 25826
+- auto_source_url: https://ethresear.ch/t/amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles/25826
+- desc: |
+  定数積AMMにおいて、流動性プロバイダーが自身のアービトラージ手数料収入を最大化するように手数料を調整した場合、その収入がゼロ手数料時の最大ディスロケーション・バリューの約50%に制限されるという命題です。
+
+## Execution Delegation Framework
+- ja: 実行委任フレームワーク
+- related: [Delegation Contract, Hot Key, Key Rotation, On-chain Execution Authority]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 29527
+- auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
+- desc: |
+  オンチェーンの実行権限を、ローテーション可能なオペレーションキーに委任するための標準コントラクトインターフェースを定義するフレームワークです。セキュリティと運用の柔軟性を向上させることを目的としています。
+
+## Hot Key
+- ja: ホットキー
+- related: [Cold Wallet, Key Rotation, Operational Key]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 29527
+- auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
+- desc: |
+  オンチェーン操作を日常的に実行するために使用される、オンラインに接続された秘密鍵です。コールドウォレットと比較して利便性が高い反面、セキュリティリスクも高いとされます。
+
+## Key Rotation
+- ja: キーローテーション
+- related: [Hot Key, Cold Wallet, Operational Key]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 29527
+- auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
+- desc: |
+  セキュリティリスクを軽減するために、定期的に、またはインシデント発生時に秘密鍵を新しい鍵に交換するプロセスです。このERCは、プロトコル変更なしでのキーローテーションを容易にすることを目指します。
+
+## Delegation Contract
+- ja: 委任コントラクト
+- related: [Execution Delegation Framework, On-chain Execution Authority]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 29527
+- auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
+- desc: |
+  特定のオンチェーン権限を別のエンティティ（この場合はホットキー）に委任することを可能にするスマートコントラクトです。権限の所有者と実行者を分離する役割を果たすことで、柔軟なキー管理を実現します。
+
+## On-chain Execution Authority
+- ja: オンチェーン実行権限
+- related: [Execution Delegation Framework, Delegation Contract]
+- auto_added: 2026-08-29
+- auto_source_topic_id: 29527
+- auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
+- desc: |
+  スマートコントラクトやプロトコル上で、特定の操作やトランザクションを実行する権限です。この権限は、通常、秘密鍵によって制御され、その委任がこのERCの主要な焦点です。
