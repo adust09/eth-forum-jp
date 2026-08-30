@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Machine Learning
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **ゼロ知識機械学習 (zkML)**

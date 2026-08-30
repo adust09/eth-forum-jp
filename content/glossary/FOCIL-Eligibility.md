@@ -4,7 +4,7 @@ aliases:
   - FOCIL適格性 (Fork-Choice Enforced Inclusion List Eligibility)
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **FOCIL適格性 (Fork-Choice Enforced Inclusion List Eligibility)**

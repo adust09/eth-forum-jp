@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,6 +21,7 @@ date: '2026-08-29'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-30-same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter-25856|命令数同一、実時間23倍：決定論的RISC-Vインタプリタにおけるワーキングセットの影響]]（2026-08-30）
 - [[posts/ethresear-2026-08-28-proposed-pq-upgrade-for-ecrecover-25844|ecrecoverに対する量子耐性ホットフィックスの提案]]（2026-08-28）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）

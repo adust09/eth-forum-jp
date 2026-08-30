@@ -4,7 +4,7 @@ aliases:
   - ERC-165で検出可能
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **ERC-165で検出可能**

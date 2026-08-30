@@ -5,7 +5,7 @@ aliases:
   - FAT
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **ファンジブルエージェントトークン (FAT)**
