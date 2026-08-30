@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -293,11 +293,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Delegation-domain|Delegation domain]] — デリゲーション・ドメイン
 - [[glossary/Delegation-of-finalization-authority|Delegation of finalization authority]] — 最終化権限の委任 (Delegation of finalization authority)
 - [[glossary/Delegation-tree|Delegation tree]] — デリゲーションツリー
+- [[glossary/delivery-ISA|delivery ISA]] — デリバリーISA（命令セットアーキテクチャ）
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
+- [[glossary/deterministic-RISC-V-interpreter|deterministic RISC-V interpreter]] — 決定論的RISC-Vインタープリタ
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
 - [[glossary/devnet|devnet]] — 開発ネットワーク (devnet)
@@ -601,6 +603,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Merkle-proof|Merkle proof]] — マークル証明
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
 - [[glossary/Mesh-sync-protocol|Mesh sync protocol]] — メッシュ同期プロトコル
+- [[glossary/metering-design|metering design]] — メータリング設計
 - [[glossary/metering-layer|metering layer]] — 計測レイヤー
 - [[glossary/Metering-multiplier|Metering multiplier]] — メータリング乗数
 - [[glossary/Methodology-Transition|Methodology Transition]] — メソドロジー移行
@@ -820,6 +823,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-Maturity-and-Ossification-Framework|Protocol Maturity and Ossification Framework]] — プロトコル成熟度と骨化フレームワーク
 - [[glossary/protocol-enshrined-shielded-pool|protocol-enshrined shielded pool]] — プロトコルに組み込まれたシールドプール
 - [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
+- [[glossary/protocol-level-execution-budget|protocol-level execution budget]] — プロトコルレベルの実行予算
 - [[glossary/Protocol-Property-Finality|Protocol-Property Finality]] — プロトコルプロパティのファイナリティ
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
@@ -1150,6 +1154,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)
 - [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
+- [[glossary/working-set-effects|working-set effects]] — ワーキングセット効果
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層

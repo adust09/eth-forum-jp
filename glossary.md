@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-29
+last_updated: 2026-08-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10721,3 +10721,49 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8391-execution-delegation-framework/29527
 - desc: |
   スマートコントラクトやプロトコル上で、特定の操作やトランザクションを実行する権限です。この権限は、通常、秘密鍵によって制御され、その委任がこのERCの主要な焦点です。
+
+## deterministic RISC-V interpreter
+- ja: 決定論的RISC-Vインタープリタ
+- related: [RISC-V, zkEVM, L1 execution target]
+- auto_added: 2026-08-30
+- auto_source_topic_id: 25856
+- auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
+- desc: |
+  ブロックチェーン環境において、与えられた入力に対して常に同じ結果と実行ステップ数を保証するRISC-V命令セットアーキテクチャのインタープリタ。EthereumのL1実行ターゲットとしてのRISC-Vの検討や、zkEVMの実装基盤として議論される。
+
+## protocol-level execution budget
+- ja: プロトコルレベルの実行予算
+- related: [gas, execution cost]
+- auto_added: 2026-08-30
+- auto_source_topic_id: 25856
+- auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
+- desc: |
+  Ethereumのようなブロックチェーンプロトコルにおいて、トランザクションやスマートコントラクトの実行に割り当てられる計算リソースの上限。ガス料金メカニズムを通じて管理され、ネットワークの健全性とセキュリティを維持するために重要。
+
+## working-set effects
+- ja: ワーキングセット効果
+- related: [memory-access behaviour, gas metering]
+- auto_added: 2026-08-30
+- auto_source_topic_id: 25856
+- auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
+- desc: |
+  プログラムがアクセスするメモリ領域（ワーキングセット）のサイズやアクセスパターンが、その実行パフォーマンスに与える影響。Ethereumのガス料金モデルにおいて、命令の種類だけでなくメモリの局所性が実行コストに大きく影響する可能性が指摘されている。
+
+## metering design
+- ja: メータリング設計
+- related: [gas metering, execution cost]
+- auto_added: 2026-08-30
+- auto_source_topic_id: 25856
+- auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
+- desc: |
+  ブロックチェーンプロトコルにおいて、スマートコントラクトの実行やリソース消費を測定し、それに基づいて料金を課すメカニズムの設計。EVMのガス料金システムがその代表例であり、公平性、予測可能性、およびDoS攻撃耐性を確保することが目的。
+
+## delivery ISA
+- ja: デリバリーISA（命令セットアーキテクチャ）
+- aliases: [delivery instruction set architecture]
+- related: [L1 execution target, RISC-V, WASM]
+- auto_added: 2026-08-30
+- auto_source_topic_id: 25856
+- auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
+- desc: |
+  スマートコントラクトの実行環境としてブロックチェーンが採用する命令セットアーキテクチャ。Ethereumの文脈では、EVM、eWASM、RISC-VなどがL1実行ターゲットとしての候補として議論され、その選択はメータリングの容易さやパフォーマンスに影響を与える。

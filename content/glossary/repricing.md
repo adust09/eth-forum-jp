@@ -4,7 +4,7 @@ aliases:
   - 再価格設定
 tags:
   - glossary
-date: '2026-08-29'
+date: '2026-08-30'
 ---
 
 **再価格設定**
@@ -18,6 +18,7 @@ Ethereumネットワークにおけるトランザクション手数料やリソ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-30-same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter-25856|命令数同一、実時間23倍：決定論的RISC-Vインタプリタにおけるワーキングセットの影響]]（2026-08-30）
 - [[posts/ethresear-2026-08-06-demand-model-with-elasticities-for-ethereum-state-data-and-execution-and-glamsterdam-fee-market-analysis-25644|Ethereumの状態、データ、実行に対する弾力性を持つ需要モデルとグラムステルダムの料金市場分析]]（2026-08-06）
 - [[posts/magicians-2026-08-06-eip-8372-normalized-state-gas-limit-29332|EIP-8372: 正規化されたステートガス制限]]（2026-08-06）
 - [[posts/ethresear-2026-06-19-scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth-25232|Hegotaにおけるスケーリング：ETH転送をアンカーとして実行と帯域幅を固定する]]（2026-06-19）
