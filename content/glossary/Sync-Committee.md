@@ -4,7 +4,7 @@ aliases:
   - 同期委員会
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **同期委員会**

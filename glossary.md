@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-08-30
+last_updated: 2026-09-02
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10767,3 +10767,94 @@ description: |
 - auto_source_url: https://ethresear.ch/t/same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter/25856
 - desc: |
   スマートコントラクトの実行環境としてブロックチェーンが採用する命令セットアーキテクチャ。Ethereumの文脈では、EVM、eWASM、RISC-VなどがL1実行ターゲットとしての候補として議論され、その選択はメータリングの容易さやパフォーマンスに影響を与える。
+
+## Execution–Data Fee-Floor Frontier
+- ja: 実行-データ手数料下限フロンティア
+- related: [EIP-7999, Multidimensional Fee Market, Execution-clearing boundary]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 25868
+- auto_source_url: https://ethresear.ch/t/equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier/25868
+- desc: |
+  EIP-7999の多次元手数料市場において、実行ガスとデータガスの目標値の組み合わせのうち、実行ベース手数料が1 weiを下回らずに完全に利用できる最大実行目標を定義する境界線です。
+
+## Runtime block-level access lists
+- ja: ランタイムブロックレベルアクセスリスト
+- aliases: [BALs]
+- related: [EIP-7999, Data gas, Execution gas, State gas]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 25868
+- auto_source_url: https://ethresear.ch/t/equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier/25868
+- desc: |
+  EIP-7999の下で、実行およびステートアクティビティによって生成され、データガスを消費するブロックレベルのアクセスリストです。多次元手数料市場におけるリソース間の結合要因となります。
+
+## Execution-clearing boundary
+- ja: 実行クリアリング境界
+- related: [Execution–Data Fee-Floor Frontier, EIP-7999, Fee-floor-bound]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 25868
+- auto_source_url: https://ethresear.ch/t/equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier/25868
+- desc: |
+  EIP-7999の多次元手数料市場において、実行ベース手数料が1 weiを下回らずに完全に利用できる最大実行目標を定義する境界です。この境界を超えると、実行は手数料下限に拘束され、設定された目標を下回ります。
+
+## Isoelastic demand curves
+- ja: 等弾力性需要曲線
+- related: [Elasticity, Gas demand]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 25868
+- auto_source_url: https://ethresear.ch/t/equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier/25868
+- desc: |
+  需要の価格弾力性が常に一定であると仮定した需要曲線です。EIP-7999のガス市場分析において、各リソース（実行、データ、ステート）の需要がBALインクルーシブな親価格にどのように反応するかをモデル化するために使用されます。
+
+## Fee-floor-bound
+- ja: 手数料下限拘束
+- related: [EIP-7999, Execution-clearing boundary]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 25868
+- auto_source_url: https://ethresear.ch/t/equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier/25868
+- desc: |
+  EIP-7999の多次元手数料市場において、リソースのベース手数料が設定された最小値（通常1 wei）に達し、それ以上下がらない状態です。この状態では、リソースの利用量が設定された目標を下回る可能性があります。
+
+## Procedure Manifest
+- ja: プロシージャマニフェスト
+- related: [LLM Judge, ERC-792, ERC-1497]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 29563
+- auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
+- desc: |
+  AIエージェント間の主観的な契約紛争を解決するために提案されたメカニズムの中心概念です。紛争解決のための完全な裁定手順を定義し、スマートコントラクトに直接埋め込むことで、予測可能な結果を保証します。
+
+## LLM Judge
+- ja: LLMジャッジ
+- related: [Procedure Manifest, AI agents]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 29563
+- auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
+- desc: |
+  プロシージャマニフェストによって定義された裁定手順を実行する、大規模言語モデル（LLM）の役割です。人間を介さずに契約紛争の評価と判断を行い、AIエージェント間の信頼性の高い自動紛争解決を目指します。
+
+## Validation Registry
+- ja: バリデーションレジストリ
+- related: [Agentic commerce, ERC-8004]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 29563
+- auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
+- desc: |
+  エージェントエコシステムにおける、AIエージェントの身元確認や検証メカニズムを管理する特定のレジストリです。主観的な紛争解決メカニズムがその上位に位置するとされ、エージェントの信頼性を確立する基盤となります。
+
+## Reputation Registries
+- ja: レピュテーションレジストリ
+- related: [Agentic commerce, Agent reputation]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 29563
+- auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
+- desc: |
+  エージェントエコシステムにおいて、AIエージェントの評判や過去の行動履歴を記録・管理するためのレジストリです。エージェント間の信頼構築に寄与し、将来の取引における意思決定の参考にされます。
+
+## Stake-secured re-execution
+- ja: ステーク担保型再実行
+- related: [TEE attestation, zkML]
+- auto_added: 2026-09-02
+- auto_source_topic_id: 29563
+- auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
+- desc: |
+  エージェントが主張するプロセスが実際に実行されたかを検証するためのメカニズムです。ステーク（担保）を預けることで、不正があった場合に再実行を通じてペナルティを課し、プロセスの信頼性を保証します。

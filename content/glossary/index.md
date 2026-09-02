@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -410,7 +410,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/execution-position|execution position]] — 実行位置
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
+- [[glossary/Execution-clearing-boundary|Execution-clearing boundary]] — 実行クリアリング境界
 - [[glossary/Execution-gate-substrate|Execution-gate substrate]] — 実行ゲート基盤
+- [[glossary/ExecutionData-Fee-Floor-Frontier|Execution–Data Fee-Floor Frontier]] — 実行-データ手数料下限フロンティア
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/existence-probes|existence probes]] — 存在確認プローブ
 - [[glossary/ExperienceDelta|ExperienceDelta]] — エクスペリエンスデルタ
@@ -423,6 +425,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
 - [[glossary/FAT-Agent|FAT Agent]] — FATエージェント
+- [[glossary/Fee-floor-bound|Fee-floor-bound]] — 手数料下限拘束
 - [[glossary/Fee-on-transfer|Fee-on-transfer]] — 転送手数料（フィー・オン・トランスファー）
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
@@ -529,6 +532,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
 - [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
+- [[glossary/Isoelastic-demand-curves|Isoelastic demand curves]] — 等弾力性需要曲線
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
@@ -572,6 +576,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquidity-Consolidation|Liquidity Consolidation]] — 流動性統合
 - [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
 - [[glossary/Liquidity-Ocean|Liquidity Ocean]] — リクイディティ・オーシャン
+- [[glossary/LLM-Judge|LLM Judge]] — LLMジャッジ
 - [[glossary/LMD-GHOST|LMD-GHOST]] — LMD-GHOST
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
@@ -802,6 +807,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Privileged-Role-Control-Framework|Privileged Role Control Framework]] — 特権ロール制御フレームワーク
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
+- [[glossary/Procedure-Manifest|Procedure Manifest]] — プロシージャマニフェスト
 - [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
 - [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
 - [[glossary/proof-aggregation|proof aggregation]] — 証明集約
@@ -874,6 +880,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Replicability-Fraction|Replicability Fraction]] — 複製可能性の割合
 - [[glossary/Replication-based-frontrunning|Replication-based frontrunning]] — 複製ベースのフロントランニング
 - [[glossary/repricing|repricing]] — 再価格設定
+- [[glossary/Reputation-Registries|Reputation Registries]] — レピュテーションレジストリ
 - [[glossary/Reputation-Wallet|Reputation Wallet]] — レピュテーションウォレット
 - [[glossary/Request-Bus|Request Bus]] — リクエストバス
 - [[glossary/Reservation-accounting|Reservation accounting]] — 予約会計
@@ -905,6 +912,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RowDAS|RowDAS]] — RowDAS
 - [[glossary/RS-Membership-Check-Instantiations|RS Membership Check Instantiations]] — RSメンバーシップチェックの実装
 - [[glossary/Runtime-BAL|Runtime BAL]] — ランタイムBAL (Runtime BAL)
+- [[glossary/Runtime-block-level-access-lists|Runtime block-level access lists]] — ランタイムブロックレベルアクセスリスト
 - [[glossary/runtime-code|runtime code]] — ランタイムコード
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-Disclosure-Records|RWA Disclosure Records]] — RWA開示記録
@@ -986,6 +994,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SSZ-Compact-Multiproofs|SSZ Compact Multiproofs]] — SSZコンパクトマルチプルーフ
 - [[glossary/staged-deprecation|staged deprecation]] — 段階的廃止
 - [[glossary/stake|stake]] — ステーク
+- [[glossary/Stake-secured-re-execution|Stake-secured re-execution]] — ステーク担保型再実行
 - [[glossary/Staked-Weighted-Verification-Gate|Staked Weighted Verification Gate]] — ステーク型加重検証ゲート (Staked Weighted Verification Gate)
 - [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
@@ -1112,6 +1121,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/v-estimation-gap|v(S) estimation gap]] — v(S)推定ギャップ
 - [[glossary/Validated-EVM-Code|Validated EVM Code]] — 検証済みEVMコード
 - [[glossary/validateUserOp|validateUserOp]] — validateUserOp (関数)
+- [[glossary/Validation-Registry|Validation Registry]] — バリデーションレジストリ
 - [[glossary/Validator-module|Validator module]] — バリデーターモジュール (Validator Module)
 - [[glossary/validator-rewards|validator rewards]] — バリデータ報酬
 - [[glossary/Validator-Whitelist|Validator Whitelist]] — バリデータホワイトリスト

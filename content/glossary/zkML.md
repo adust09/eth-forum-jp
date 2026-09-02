@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Machine Learning
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **ゼロ知識機械学習 (zkML)**
@@ -19,6 +19,7 @@ date: '2026-08-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-02-rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes-29563|RFC: プロシージャマニフェスト - AIエージェントが契約上の紛争を解決するためのメカニズム]]（2026-09-02）
 - [[posts/magicians-2026-06-02-gateway-to-gateway-coordination-for-eip-3668-proposing-a-mesh-sync-protocol-28680|EIP-3668のためのゲートウェイ間連携 / メッシュ同期プロトコルの提案]]（2026-06-02）
 
 ## 元の表記（英語）

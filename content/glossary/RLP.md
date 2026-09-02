@@ -5,7 +5,7 @@ aliases:
   - Recursive Length Prefix
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **RLP (Recursive Length Prefix)**
@@ -18,6 +18,7 @@ Ethereumでデータ構造（オブジェクト、リスト、文字列など）
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-08-31-equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier-25868|EIP-7999の多次元手数料市場における均衡：実行-データ手数料フロアのフロンティア]]（2026-08-31）
 - [[posts/ethresear-2026-07-06-native-utxos-on-ethereum-25368|イーサリアムにおけるネイティブUTXO]]（2026-07-06）
 - [[posts/ethresear-2026-06-19-scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth-25232|Hegotaにおけるスケーリング：ETH転送をアンカーとして実行と帯域幅を固定する]]（2026-06-19）
 

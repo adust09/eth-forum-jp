@@ -4,7 +4,7 @@ aliases:
   - 資金効率
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **資金効率**

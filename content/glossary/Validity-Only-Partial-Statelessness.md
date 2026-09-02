@@ -5,7 +5,7 @@ aliases:
   - VOPS
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **バリディティオンリー部分ステートレス性 (VOPS)**
