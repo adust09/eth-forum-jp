@@ -4,7 +4,7 @@ aliases:
   - 状態アクセス
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **状態アクセス**
@@ -20,7 +20,7 @@ Ethereumブロックチェーンの状態（アカウント残高、nonce、コ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-31-equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier-25868|EIP-7999の多次元手数料市場における均衡：実行-データ手数料フロアのフロンティア]]（2026-08-31）
 
 ## 元の表記（英語）
 

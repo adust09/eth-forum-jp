@@ -5,7 +5,7 @@ aliases:
   - Multi-Party Computation
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **MPC (マルチパーティ計算)**

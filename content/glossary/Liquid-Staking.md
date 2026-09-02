@@ -8,7 +8,7 @@ aliases:
   - LSD
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **リキッドステーキング**

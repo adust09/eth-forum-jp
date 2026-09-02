@@ -4,7 +4,7 @@ aliases:
   - Poseidonハッシュ
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **Poseidonハッシュ**
@@ -18,7 +18,7 @@ date: '2026-08-30'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-08-31-poseidon2b-is-secure-25865|Poseidon2bは安全である！]]（2026-08-31）
 
 ## 元の表記（英語）
 

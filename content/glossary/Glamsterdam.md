@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-08-30'
+date: '2026-09-02'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,8 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-01-all-core-devs-execution-acde-245-september-10-2026-29558|オールコア開発者会議 - 実行 (ACDE) #245、2026年9月10日]]（2026-09-01）
+- [[posts/magicians-2026-08-31-all-core-devs-testing-acdt-95-september-7th-2026-29548|全コア開発者会議 - テスト (ACDT) #95、2026年9月7日]]（2026-08-31）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
