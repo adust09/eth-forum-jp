@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-09-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-02-research-proposal-what-happens-to-validator-control-if-eip-8363-works-29568|研究提案: EIP-8363が機能した場合、バリデータの制御はどうなるか]]（2026-09-02）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-07-30-substrate-incompleteness-25572|基盤の不完全性]]（2026-07-30）

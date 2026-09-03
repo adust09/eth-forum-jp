@@ -5,7 +5,7 @@ aliases:
   - Vote Weight Unit
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **VWU (Vote Weight Unit)**

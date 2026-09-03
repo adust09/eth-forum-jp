@@ -4,7 +4,7 @@ aliases:
   - 状態成長
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **状態成長**

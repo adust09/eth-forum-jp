@@ -5,7 +5,7 @@ aliases:
   - Replay independence
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **リプレイドメイン分離**
