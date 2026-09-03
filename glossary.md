@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-02
+last_updated: 2026-09-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -10858,3 +10858,175 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes/29563
 - desc: |
   エージェントが主張するプロセスが実際に実行されたかを検証するためのメカニズムです。ステーク（担保）を預けることで、不正があった場合に再実行を通じてペナルティを課し、プロセスの信頼性を保証します。
+
+## MAX_VERIFY_GAS
+- ja: 検証ガス上限 (MAX_VERIFY_GAS)
+- related: [EIP-8141, frame transactions, gas limit, validation prefix]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 25889
+- auto_source_url: https://ethresear.ch/t/eip-8141-and-minimum-required-validation-budget-for-privacy-applications/25889
+- desc: |
+  EIP-8141フレームトランザクションの検証フェーズで許可される最大ガス量。プライバシーアプリケーションがパブリックメンプールを利用する際の重要な制約となる。
+
+## note commitment
+- ja: ノートコミットメント
+- related: [nullifier, privacy protocol, zero-knowledge proof]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 25889
+- auto_source_url: https://ethresear.ch/t/eip-8141-and-minimum-required-validation-budget-for-privacy-applications/25889
+- desc: |
+  プライバシープロトコルにおいて、ユーザーが所有する秘密の「ノート」の存在を暗号学的に証明するために使用されるコミットメント。トランザクションの匿名性を維持しつつ、二重使用を防ぐ。
+
+## Groth16 proof
+- ja: Groth16証明
+- aliases: [Groth16]
+- related: [SNARK, zero-knowledge proof, pairing check]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 25889
+- auto_source_url: https://ethresear.ch/t/eip-8141-and-minimum-required-validation-budget-for-privacy-applications/25889
+- desc: |
+  オンチェーン検証において最も費用対効果が高いとされるSNARKの一種。プライバシープロトコルなどで、トランザクションの正当性を簡潔に証明するために広く利用される。
+
+## validation prefix
+- ja: 検証プレフィックス
+- related: [EIP-8141, frame transactions, MAX_VERIFY_GAS]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 25889
+- auto_source_url: https://ethresear.ch/t/eip-8141-and-minimum-required-validation-budget-for-privacy-applications/25889
+- desc: |
+  EIP-8141フレームトランザクションにおいて、トランザクションの検証ロジックが実行される部分。この部分のガス消費はMAX_VERIFY_GASによって制限される。
+
+## sigHash
+- ja: sigHash
+- related: [transaction binding, proof malleability, EIP-712]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 25889
+- auto_source_url: https://ethresear.ch/t/eip-8141-and-minimum-required-validation-budget-for-privacy-applications/25889
+- desc: |
+  トランザクションの内容をzk-SNARK証明にバインドするために使用されるハッシュ値。これにより、証明が生成された後にトランザクションのパラメータが改ざんされるのを防ぎ、セキュリティを確保する。
+
+## Account Authority Lifecycle
+- ja: アカウント権限ライフサイクル
+- related: [Account Abstraction, Authority]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29570
+- auto_source_url: https://ethereum-magicians.org/t/erc-8403-account-authority-lifecycle/29570
+- desc: |
+  ネイティブなアカウント抽象化アカウントの権限（署名鍵や述語など）が、追加、ローテーション、失効される際の共有されたライフサイクルを定義する概念です。ERC-8403で提案されており、アカウント抽象化における権限管理の標準化を目指します。
+
+## code-is-authority account
+- ja: コードが権限となるアカウント
+- related: [Account Abstraction, Account Authority Lifecycle]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29570
+- auto_source_url: https://ethereum-magicians.org/t/erc-8403-account-authority-lifecycle/29570
+- desc: |
+  アカウント抽象化モデルの一種で、アカウントのコード自体がトランザクションの認証ロジックを直接定義し、実行するアカウントを指します。認証のために外部のキーストアやコントラクトに依存しない特徴があります。
+
+## keystore-backed account
+- ja: キーストアに裏打ちされたアカウント
+- related: [Account Abstraction, Account Authority Lifecycle, EIP-8130]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29570
+- auto_source_url: https://ethereum-magicians.org/t/erc-8403-account-authority-lifecycle/29570
+- desc: |
+  アカウント抽象化モデルの一種で、トランザクションの認証ロジックが外部のキーストアによって管理されるアカウントを指します。EIP-8130のキーストアファミリーに規範的にバインドされることが想定されています。
+
+## proof of chain
+- ja: チェーンの証明
+- related: [EIP-8130, Committed Root, Membership Proof]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29570
+- auto_source_url: https://ethereum-magicians.org/t/erc-8403-account-authority-lifecycle/29570
+- desc: |
+  EIP-8130のStateless Accounts提案において、アカウントの認証状態のコミットされたルートを指す「欠けているプリミティブ」として言及されている概念です。アカウントの権限状態の証明を可能にするために必要とされます。
+
+## EIP-8363
+- ja: EIP-8363
+- related: [Issuance, Staking Ratio, Validator Economics]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29568
+- auto_source_url: https://ethereum-magicians.org/t/research-proposal-what-happens-to-validator-control-if-eip-8363-works/29568
+- desc: |
+  Ethereum Improvement Proposal 8363。ステーキングされたETHの総量を削減することを目指す提案であり、バリデータのコントロール構造に与える影響が本研究の主題となっている。
+
+## Maximum Viable Security
+- ja: 最大実行可能セキュリティ
+- related: [Issuance, Validator Economics, Decentralization, Resistance to Capture]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29568
+- auto_source_url: https://ethereum-magicians.org/t/research-proposal-what-happens-to-validator-control-if-eip-8363-works/29568
+- desc: |
+  イーサリアムのセキュリティに関する新しいフレームワーク。発行量最小化ではなく、ネットワークのセキュリティを最大化することを目的とし、分散化やキャプチャ耐性などの高次プロパティを保護する視点を提供する。
+
+## Solo Staking
+- ja: ソロステーキング
+- related: [Staking Modes, Validator, Decentralization]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29568
+- auto_source_url: https://ethereum-magicians.org/t/research-proposal-what-happens-to-validator-control-if-eip-8363-works/29568
+- desc: |
+  個人が自身のETHを直接バリデータとして運用するステーキング形態。ステーキングプールやLSTを介さないため、分散化の重要な要素と見なされる。
+
+## Validator Control
+- ja: バリデータコントロール
+- related: [Decentralization, Operator Concentration, Custodial Concentration, Staking Modes]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29568
+- auto_source_url: https://ethereum-magicians.org/t/research-proposal-what-happens-to-validator-control-if-eip-8363-works/29568
+- desc: |
+  イーサリアムネットワークにおけるバリデータの運用や意思決定に対する影響力。EIP-8363のような変更が、このコントロールの集中度合いにどう影響するかが研究の焦点となる。
+
+## Pectra
+- ja: ペクトラ
+- related: [Staking Environment, Ethereum Upgrade]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29568
+- auto_source_url: https://ethereum-magicians.org/t/research-proposal-what-happens-to-validator-control-if-eip-8363-works/29568
+- desc: |
+  イーサリアムの今後のアップグレードの一つ。このアップグレード後のステーキング環境は、EIP-8363の影響を評価する上で重要な再調整ポイントとなる。
+
+## Extensible Contract Metadata
+- ja: 拡張可能なコントラクトメタデータ
+- related: [ERC-8407, Onchain metadata]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29565
+- auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
+- desc: |
+  デプロイ済みのコントラクトが、コード変更やアップグレードなしに新しいメタデータ規約を採用できるようにするための概念。汎用的なキー・バリュー形式のインターフェースを通じて、コントラクトの機能を拡張する。
+
+## Generic Key-Value String Surface
+- ja: 汎用キー・バリュー文字列インターフェース
+- related: [Extensible Contract Metadata]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29565
+- auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
+- desc: |
+  コントラクトが一度だけ公開する、キーと値が文字列形式の汎用的なインターフェース。これにより、デプロイ後に新しいメタデータ規約を、コントラクトのコードを変更することなく追加・更新できる。
+
+## Non-upgradeable contracts
+- ja: アップグレード不可能なコントラクト
+- related: [Contract upgrade]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29565
+- auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
+- desc: |
+  設計上、または統合の複雑さから、デプロイ後にコードの変更やアップグレードができないように意図された、あるいは事実上不可能なスマートコントラクト。新しい機能やメタデータ規約の採用を困難にする要因となる。
+
+## Contract-level metadata
+- ja: コントラクトレベルメタデータ
+- related: [Token-scoped metadata]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29565
+- auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
+- desc: |
+  特定のトークンIDではなく、コントラクト全体に適用されるメタデータ。このERCでは、汎用性を高めるために、トークンIDに紐づかないコントラクトレベルのメタデータに焦点を当てている。
+
+## Onchain metadata
+- ja: オンチェーンメタデータ
+- related: [Offchain metadata, Extensible Contract Metadata]
+- auto_added: 2026-09-03
+- auto_source_topic_id: 29565
+- auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
+- desc: |
+  スマートコントラクトのストレージに直接保存され、ブロックチェーン上で利用可能なメタデータ。このERCは、デプロイ後のコントラクトにおけるオンチェーンメタデータの柔軟な管理方法を提案する。

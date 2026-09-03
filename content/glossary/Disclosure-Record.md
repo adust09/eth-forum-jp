@@ -4,7 +4,7 @@ aliases:
   - 開示記録
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **開示記録**

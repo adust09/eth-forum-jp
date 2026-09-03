@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,7 @@ date: '2026-09-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-02-research-proposal-what-happens-to-validator-control-if-eip-8363-works-29568|研究提案: EIP-8363が機能した場合、バリデータの制御はどうなるか]]（2026-09-02）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/ethresear-2026-08-27-amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles-25826|AMMのイールド最大化：流動性プロバイダーとアービトラージャーの役割の収束]]（2026-08-27）
 - [[posts/ethresear-2026-08-27-when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3-25823|複数のプールが1つのように振る舞うとき: Uniswap v3におけるインパクト制約付きキャパシティ集中]]（2026-08-27）

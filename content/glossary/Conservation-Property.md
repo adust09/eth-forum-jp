@@ -4,7 +4,7 @@ aliases:
   - 保存の特性
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **保存の特性**

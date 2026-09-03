@@ -5,7 +5,7 @@ aliases:
   - nf
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **ナリファイア**
@@ -19,6 +19,7 @@ ZK-UTXOモデルにおいて、ノートが消費された際に公開される�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-02-eip-8141-and-minimum-required-validation-budget-for-privacy-applications-25889|EIP-8141とプライバシーアプリケーションに必要な最小検証予算]]（2026-09-02）
 - [[posts/ethresear-2026-07-02-designing-infrastructure-where-exploits-destroy-themselves-25348|エクスプロイトが自己破壊するインフラの設計]]（2026-07-02）
 - [[posts/ethresear-2026-06-15-perc20-private-token-standard-draft-25200|pERC20: プライベートトークン標準 (ドラフト)]]（2026-06-15）
 - [[posts/magicians-2026-06-15-perc20-private-token-standard-28796|pERC20: プライベートトークン標準]]（2026-06-15）

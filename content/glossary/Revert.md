@@ -4,7 +4,7 @@ aliases:
   - リバート
 tags:
   - glossary
-date: '2026-09-02'
+date: '2026-09-03'
 ---
 
 **リバート**
@@ -19,7 +19,7 @@ EthereumトランザクションまたはEVMコールが失敗し、その実行
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-02-erc-8407-extensible-contract-metadata-29565|ERC-8407: 拡張可能なコントラクトメタデータ]]（2026-09-02）
 
 ## 元の表記（英語）
 
