@@ -4,7 +4,7 @@ aliases:
   - 非アクティブステート
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **非アクティブステート**
@@ -21,6 +21,7 @@ EIP-8295において、定義された期間内に書き込みが行われなか
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-06-29-the-anatomy-of-ethereum-s-state-access-25317|イーサリアムのステートアクセス解剖学]]（2026-06-29）
 - [[posts/magicians-2026-06-11-eip-8296-fixed-cutoff-state-tiering-28772|EIP-8296: 固定カットオフによるステート階層化]]（2026-06-11）
 

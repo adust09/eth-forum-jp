@@ -4,7 +4,7 @@ aliases:
   - TCREATEオペコード
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **TCREATEオペコード**
@@ -19,7 +19,7 @@ EIP-8360で導入される新しいEVMオペコードです。一時的なコン
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 
 ## 元の表記（英語）
 

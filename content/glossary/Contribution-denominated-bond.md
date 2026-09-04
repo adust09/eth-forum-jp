@@ -4,7 +4,7 @@ aliases:
   - 貢献額建て債券 (Contribution-denominated bond)
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **貢献額建て債券 (Contribution-denominated bond)**

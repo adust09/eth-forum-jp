@@ -4,7 +4,7 @@ aliases:
   - 序数スケジュールによる置換 (Ordinal-Scheduled Supersession)
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **序数スケジュールによる置換 (Ordinal-Scheduled Supersession)**

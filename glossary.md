@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11030,3 +11030,193 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8407-extensible-contract-metadata/29565
 - desc: |
   スマートコントラクトのストレージに直接保存され、ブロックチェーン上で利用可能なメタデータ。このERCは、デプロイ後のコントラクトにおけるオンチェーンメタデータの柔軟な管理方法を提案する。
+
+## high-custody nodes
+- ja: 高カストディノード
+- related: [PeerDAS, RowDAS, reconstruction duty]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25897
+- auto_source_url: https://ethresear.ch/t/rowdas-eip-8371-distributed-blob-reconstruction-measured/25897
+- desc: |
+  ネットワーク内でブロブデータの半分以上のカラム（例: 128カラム中64カラム以上）を保持するノード。PeerDASでは、これらのノードが欠落したブロブの再構築義務を負い、CPU負荷が集中する原因となっていた。
+
+## reconstruction duty
+- ja: 再構築義務
+- related: [Data Availability Sampling, PeerDAS, RowDAS, high-custody nodes]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25897
+- auto_source_url: https://ethresear.ch/t/rowdas-eip-8371-distributed-blob-reconstruction-measured/25897
+- desc: |
+  データ可用性サンプリングプロトコルにおいて、欠落したブロブデータをイレイジャーコーディングの仕組みを用いて再構築するノードの役割と責任。RowDASはこの義務の分散化を目指す。
+
+## erasure-coding threshold
+- ja: イレイジャーコーディング閾値
+- aliases: [coding limit]
+- related: [Data Availability Sampling, erasure code commitment scheme]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25897
+- auto_source_url: https://ethresear.ch/t/rowdas-eip-8371-distributed-blob-reconstruction-measured/25897
+- desc: |
+  イレイジャーコーディングされたデータから元の情報を復元するために必要な、最小限のデータ断片数。例えば、128カラムのブロブデータの場合、64カラムがあれば元のブロブを再構築できる。
+
+## state roadmap
+- ja: ステートロードマップ
+- related: [state management, trie migration]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25895
+- auto_source_url: https://ethresear.ch/t/how-hegota-can-influence-the-state-roadmap/25895
+- desc: |
+  Ethereumのステート管理と、新しいステートトライへの移行に関する将来的な計画。ステートの管理可能性を維持し、スループットの向上に対応しつつ、安全な移行を準備することを目的とします。
+
+## trie migration
+- ja: トライ移行
+- related: [Partitioned Binary Tree, PBT, state trie]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25895
+- auto_source_url: https://ethresear.ch/t/how-hegota-can-influence-the-state-roadmap/25895
+- desc: |
+  Ethereumの現在のステートトライレイアウトを、Partitioned Binary Tree (PBT)のような新しい構造に置き換えるプロセス。より小さなプルーフと効率的な証明を可能にします。
+
+## online migration
+- ja: オンライン移行
+- related: [offline migration, trie migration, Partitioned Binary Tree]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25895
+- auto_source_url: https://ethresear.ch/t/how-hegota-can-influence-the-state-roadmap/25895
+- desc: |
+  Ethereumのステートトライ移行戦略の一つ。移行期間中、古いトライと新しいトライの両方に対してプルーフ生成を維持する必要がある方式です。オフライン移行の対義語として言及されます。
+
+## Frames
+- ja: フレーム (アカウント抽象化デザイン)
+- related: [account abstraction, frame transactions]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25895
+- auto_source_url: https://ethresear.ch/t/how-hegota-can-influence-the-state-roadmap/25895
+- desc: |
+  Hegotáで導入されるネイティブなアカウント抽象化デザイン。プログラマブルな検証がステートの限定された部分のみを読み取るように設計されており、検証ノードが全ステートを保持する必要がないようにします。
+
+## Formal Verification
+- ja: 形式検証
+- related: [Invariant]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25894
+- auto_source_url: https://ethresear.ch/t/formal-verification-of-execution-and-consensus-clients/25894
+- desc: |
+  ソフトウェアやシステムの設計・実装が、数学的に厳密な仕様に合致していることを証明する手法。特にEthereumのような高価値ネットワークにおいて、プロトコルのセキュリティと信頼性を確保するために重要視される。
+
+## Execution Client
+- ja: 実行クライアント
+- related: [Execution Layer, EVM, Consensus Client]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25894
+- auto_source_url: https://ethresear.ch/t/formal-verification-of-execution-and-consensus-clients/25894
+- desc: |
+  Ethereumノードの主要コンポーネントの一つで、Ethereum Virtual Machine (EVM) を実行し、トランザクションを処理してブロックチェーンの状態を管理するソフトウェア。Consensus Clientと連携してブロックを構築・検証する。
+
+## Consensus Client
+- ja: コンセンサスクライアント
+- related: [Consensus Layer, Beacon Chain, Execution Client]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25894
+- auto_source_url: https://ethresear.ch/t/formal-verification-of-execution-and-consensus-clients/25894
+- desc: |
+  Ethereumノードの主要コンポーネントの一つで、Proof-of-Stakeコンセンサスプロトコルを実装し、ビーコンチェーンの状態を管理し、バリデーターの役割（ブロック提案、アテステーションなど）を処理するソフトウェア。Execution Clientと連携してブロックのファイナリティを確保する。
+
+## Invariant
+- ja: 不変条件
+- related: [Formal Verification]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 25894
+- auto_source_url: https://ethresear.ch/t/formal-verification-of-execution-and-consensus-clients/25894
+- desc: |
+  システムの実行中、常に真であると期待される特性や条件。形式検証において、システムの正しい動作を数学的に証明するための基礎となる。Ethereumプロトコルでは、セキュリティや経済的安定性に関する様々な不変条件が設計される。
+
+## EOA
+- ja: EOA (Externally Owned Account)
+- related: [Smart Contract Account, Account Abstraction]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29577
+- auto_source_url: https://ethereum-magicians.org/t/erc-8409-signed-service-payment-quotes/29577
+- desc: |
+  秘密鍵によって直接制御されるEthereumアカウント。スマートコントラクトを持たず、トランザクションの送信や署名に用いられます。
+
+## ERC-1271
+- ja: ERC-1271
+- related: [Smart Contract Account, EOA, EIP-712]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29577
+- auto_source_url: https://ethereum-magicians.org/t/erc-8409-signed-service-payment-quotes/29577
+- desc: |
+  スマートコントラクトが署名を検証するための標準インターフェース。これにより、コントラクトウォレットなどのスマートコントラクトが、EOAと同様に署名者として機能できるようになります。
+
+## Settlement Chain
+- ja: 決済チェーン
+- related: [Settlement Layer, Rollup, L1, L2]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29577
+- auto_source_url: https://ethereum-magicians.org/t/erc-8409-signed-service-payment-quotes/29577
+- desc: |
+  トランザクションや状態の最終的な決済が行われるブロックチェーン。通常、L2ソリューションがそのトランザクションをL1の決済チェーンにロールアップする際に用いられる概念です。
+
+## Settlement Mechanism
+- ja: 決済メカニズム
+- related: [Settlement Chain, Finality, Consensus Protocol]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29577
+- auto_source_url: https://ethereum-magicians.org/t/erc-8409-signed-service-payment-quotes/29577
+- desc: |
+  支払い、トランザクション、または状態の最終的な確定と記録を保証するシステムやプロセス。ブロックチェーン環境では、通常、コンセンサスプロトコルとスマートコントラクトの組み合わせによって実現されます。
+
+## Replay Behavior
+- ja: リプレイ挙動
+- related: [Replay Attack, Domain Separation, EIP-712]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29577
+- auto_source_url: https://ethereum-magicians.org/t/erc-8409-signed-service-payment-quotes/29577
+- desc: |
+  過去に有効だったトランザクションや署名が、異なるコンテキストやチェーンで再度実行された場合の挙動。リプレイ攻撃を防ぐための対策がプロトコル設計において重要となります。
+
+## Indexed Cell Requests
+- ja: インデックス付きセルリクエスト
+- related: [Cell Mask, GetCells message, Cells message]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29575
+- auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
+- desc: |
+  eth/73プロトコルで提案される、複数の異なるセルマスクを効率的に要求するためのデータリクエスト形式です。各トランザクションハッシュがユニークなマスクをインデックスで参照することで、リクエストの効率化とデータ転送量の削減を図ります。
+
+## Cell Mask
+- ja: セルマスク
+- related: [Indexed Cell Requests, GetCells message, Data Availability Sampling]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29575
+- auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
+- desc: |
+  GetCellsメッセージにおいて、特定のトランザクションハッシュ内のどのセル（データチャンク）を要求するかを指定するために使用されるビットマスクです。データ可用性サンプリングなどで、必要なデータ部分を効率的に取得するために利用されます。
+
+## GetCells message
+- ja: GetCellsメッセージ
+- related: [Cells message, Cell Mask, eth/72]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29575
+- auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
+- desc: |
+  eth/72プロトコルで定義される、ピアに対して特定のトランザクションハッシュとセルマスクに基づいてセルデータを要求するためのメッセージです。データ可用性サンプリングの主要な構成要素の一つです。
+
+## Cells message
+- ja: Cellsメッセージ
+- related: [GetCells message, Cell Mask, eth/72]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29575
+- auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
+- desc: |
+  eth/72プロトコルで定義される、GetCellsメッセージに対する応答として、要求されたセルデータを提供するメッセージです。要求されたマスクのサブセットであるセルデータを含みます。
+
+## Custody Sampling
+- ja: カストディサンプリング
+- related: [Data Availability Sampling, Cell Mask]
+- auto_added: 2026-09-04
+- auto_source_topic_id: 29575
+- auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
+- desc: |
+  データ可用性層において、ノードが特定のデータチャンク（セル）を実際に保持していることを検証するために、ランダムにサンプリングを行うプロセスです。これにより、データがネットワーク上で利用可能であることを保証します。

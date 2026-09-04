@@ -4,7 +4,7 @@ aliases:
   - 閾値暗号
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **閾値暗号**

@@ -4,7 +4,7 @@ aliases:
   - パーティション化されたバイナリツリー
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **パーティション化されたバイナリツリー**
@@ -19,6 +19,7 @@ EIP-8297で提案されている、既存のヘキサリパトリシアトライ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 
 ## 元の表記（英語）

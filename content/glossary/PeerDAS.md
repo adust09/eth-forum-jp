@@ -4,7 +4,7 @@ aliases:
   - PeerDAS
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **PeerDAS**
@@ -19,6 +19,7 @@ EIP-7594で提案されているデータ可用性サンプリング（DAS）の
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/magicians-2026-08-06-eip-8371-rowdas-distributed-blobspace-reconstruction-29320|EIP-8371: RowDAS - 分散型ブロブ空間再構築]]（2026-08-06）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-07-06-lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer-25374|リーン実行：世界のコンピュータをスケールさせるための、安全で、効率的で、適応性があり、リソース効率の高い実行スループットへの包括的アプローチ]]（2026-07-06）
