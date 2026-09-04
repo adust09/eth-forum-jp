@@ -4,7 +4,7 @@ aliases:
   - ステートルート
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **ステートルート**
@@ -18,6 +18,7 @@ date: '2026-09-03'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）
 

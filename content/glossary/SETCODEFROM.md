@@ -4,7 +4,7 @@ aliases:
   - SETCODEFROM (EVM命令)
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **SETCODEFROM (EVM命令)**
@@ -20,7 +20,7 @@ date: '2026-09-03'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 
 ## 元の表記（英語）
 

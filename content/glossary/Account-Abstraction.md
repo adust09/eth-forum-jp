@@ -5,7 +5,7 @@ aliases:
   - AA
 tags:
   - glossary
-date: '2026-09-03'
+date: '2026-09-04'
 ---
 
 **アカウント抽象化**
@@ -20,6 +20,7 @@ Ethereumにおけるユーザーアカウントの概念を抽象化し、スマ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-09-02-eip-8141-and-minimum-required-validation-budget-for-privacy-applications-25889|EIP-8141とプライバシーアプリケーションに必要な最小検証予算]]（2026-09-02）
 - [[posts/magicians-2026-08-27-arguments-for-ephemeral-accounts-and-implementation-approaches-29524|エフェメラルアカウントの提唱と実装アプローチ]]（2026-08-27）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）
