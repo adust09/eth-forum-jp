@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-04'
+date: '2026-09-05'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -121,6 +121,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Behavioral-Entity-Object|Behavioral Entity Object]] — 行動エンティティオブジェクト (BEO)
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
+- [[glossary/Bid-commitment|Bid commitment]] — ビッドコミットメント (Bid commitment)
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bind-verify-commit-synchronization-cycle|bind-verify-commit synchronization cycle]] — バインド・検証・コミット同期サイクル
@@ -480,6 +481,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/GetCells-message|GetCells message]] — GetCellsメッセージ
 - [[glossary/GKR|GKR]] — GKR (Grand Product Argument)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
+- [[glossary/Gloas|Gloas]] — グロアス (Gloas)
 - [[glossary/Goldilocks-field|Goldilocks field]] — ゴールディロックス体 (Goldilocks field)
 - [[glossary/gossipsub|gossipsub]] — ゴシップサブ
 - [[glossary/Governance-Reconstruction-Problem|Governance Reconstruction Problem]] — ガバナンス再構築問題
@@ -779,6 +781,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
 - [[glossary/Permissionless-authenticators|Permissionless authenticators]] — パーミッションレス・オーセンティケーター
+- [[glossary/persistence-diagram|persistence diagram]] — パーシステンス図
+- [[glossary/persistent-homology|persistent homology]] — パーシステントホモロジー
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
 - [[glossary/phantom-placeholders|phantom placeholders]] — ファントムプレースホルダー (phantom placeholders)
 - [[glossary/Pheromone-Evaporation-Model|Pheromone Evaporation Model]] — フェロモン蒸発モデル
@@ -796,6 +800,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ponzi-Scheme-Detection|Ponzi Scheme Detection]] — ポンジスキーム検出
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Portable-Account-Keystore|Portable Account Keystore]] — ポータブルアカウントキーストア
+- [[glossary/Portable-Execution-Plan-Artifact|Portable Execution Plan Artifact]] — ポータブル実行計画アーティファクト
 - [[glossary/Poseidon-hash|Poseidon hash]] — Poseidonハッシュ
 - [[glossary/Poseidon2b|Poseidon2b]] — Poseidon2b
 - [[glossary/Position-binding|Position-binding]] — 位置拘束性
@@ -958,6 +963,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
 - [[glossary/Security-Manifest|Security Manifest]] — セキュリティマニフェスト
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
+- [[glossary/Segmented-diffusion|Segmented diffusion]] — セグメント化された拡散 (Segmented diffusion)
 - [[glossary/selective-disclosure|selective disclosure]] — 選択的開示
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
 - [[glossary/selector-management|selector management]] — セレクター管理
@@ -1118,6 +1124,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Tokenized-Vault|Tokenized Vault]] — トークン化されたボルト
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
+- [[glossary/Topological-Data-Analysis|Topological Data Analysis]] — 位相的データ解析 (TDA)
 - [[glossary/trace-geometry|trace geometry]] — トレースジオメトリ
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
@@ -1183,6 +1190,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Verification-Profile|Verification Profile]] — 検証プロファイル
 - [[glossary/VERIFY-frame|VERIFY frame]] — VERIFYフレーム
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
+- [[glossary/Vietoris-Rips-construction|Vietoris-Rips construction]] — ヴィエトリス・リップス構成
 - [[glossary/virtual-mempools|virtual mempools]] — 仮想メモリプール
 - [[glossary/VOPS-Profiles|VOPS Profiles]] — VOPSプロファイル (Validity-Only Partial Statelessness Profiles)
 - [[glossary/VRF|VRF]] — 検証可能乱数関数 (VRF)
@@ -1196,10 +1204,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Wash-Launch|Wash Launch]] — ウォッシュローンチ
 - [[glossary/Wash-tree|Wash tree]] — ウォッシュツリー
 - [[glossary/Wash-building|Wash-building]] — ウォッシュビルディング
+- [[glossary/Wasserstein-distance|Wasserstein distance]] — ワッサースタイン距離
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
 - [[glossary/Weighted-BFT|Weighted BFT]] — 加重ビザンチンフォールトトレランス (Weighted BFT)
 - [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
+- [[glossary/Whole-payload-gossip|Whole-payload gossip]] — ホールペイロードゴシップ (Whole-payload gossip)
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)

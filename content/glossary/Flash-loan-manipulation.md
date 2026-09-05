@@ -5,7 +5,7 @@ aliases:
   - Flash loan manipulation
 tags:
   - glossary
-date: '2026-09-04'
+date: '2026-09-05'
 ---
 
 **フラッシュローン操作**

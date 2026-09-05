@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-04
+last_updated: 2026-09-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11220,3 +11220,94 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8408-eth-73-indexed-cell-requests/29575
 - desc: |
   データ可用性層において、ノードが特定のデータチャンク（セル）を実際に保持していることを検証するために、ランダムにサンプリングを行うプロセスです。これにより、データがネットワーク上で利用可能であることを保証します。
+
+## Whole-payload gossip
+- ja: ホールペイロードゴシップ (Whole-payload gossip)
+- related: [Gossipsub, Payload broadcast]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25913
+- auto_source_url: https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913
+- desc: |
+  EthereumのP2Pネットワークにおいて、実行ペイロード全体を単一のゴシップメッセージとして伝播させる方式。ペイロードサイズが大きくなると、各ノードがペイロード全体を受信・検証してから転送するため、遅延が蓄積し、ネットワークのボトルネックとなる。
+
+## Segmented diffusion
+- ja: セグメント化された拡散 (Segmented diffusion)
+- related: [Whole-payload gossip, Bid commitment, Phase forwarding, Disciplined pulls]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25913
+- auto_source_url: https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913
+- desc: |
+  実行ペイロードを固定サイズのセグメントに分割し、それぞれを独立したゴシップメッセージとしてネットワークに拡散させる方式。各ホップで小さな単位を転送するため、パイプライン処理が可能となり、全体的な伝播遅延を大幅に削減できる。
+
+## Bid commitment
+- ja: ビッドコミットメント (Bid commitment)
+- related: [ExecutionPayloadBid, Merkle tree, Segmented diffusion]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25913
+- auto_source_url: https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913
+- desc: |
+  ビルダーが署名する`ExecutionPayloadBid`メッセージに追加されるフィールドで、ペイロードのセグメント化に関する情報（セグメント数、サイズ、Merkleルートなど）をコミットするもの。これにより、各セグメントがブロックのコミットされたセグメント化の一部であることを検証可能にする。
+
+## Gloas
+- ja: グロアス (Gloas)
+- related: [Hegota, ExecutionPayloadBid]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25913
+- auto_source_url: https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913
+- desc: |
+  Ethereumの将来のハードフォークのコードネーム。このハードフォークで、実行ペイロードがビーコンブロックから分離され、`ExecutionPayloadBid`が導入される予定。ペイロードのセグメント化に必要な「ビッドコミットメント」フィールドの追加が検討されている。
+
+## Topological Data Analysis
+- ja: 位相的データ解析 (TDA)
+- aliases: [TDA]
+- related: [persistence diagram, persistent homology, Wasserstein distance]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25902
+- auto_source_url: https://ethresear.ch/t/the-shape-of-ethereum-a-six-year-study-of-topological-anomalies/25902
+- desc: |
+  データセットの「形状」や「構造」を、代数位相幾何学の手法を用いて分析するデータサイエンスの手法。Ethereumのトランザクショングラフに適用することで、価格や取引量だけでは見えないネットワーク構造の変化を検出する。
+
+## persistence diagram
+- ja: パーシステンス図
+- related: [Topological Data Analysis, persistent homology, Wasserstein distance]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25902
+- auto_source_url: https://ethresear.ch/t/the-shape-of-ethereum-a-six-year-study-of-topological-anomalies/25902
+- desc: |
+  位相的データ解析 (TDA) において、データセットの位相的特徴（連結成分、ループ、ボイドなど）の「誕生」と「消滅」を2次元平面上にプロットした図。異なる距離スケールで特徴がどれだけ「持続」するかを示す。
+
+## Wasserstein distance
+- ja: ワッサースタイン距離
+- related: [persistence diagram, Topological Data Analysis]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25902
+- auto_source_url: https://ethresear.ch/t/the-shape-of-ethereum-a-six-year-study-of-topological-anomalies/25902
+- desc: |
+  確率分布間の距離を測るための数学的な指標で、特にパーシステンス図の比較に用いられる。Ethereumのトランザクショングラフの「形状」が、ある日から次の日でどれだけ変化したかを定量的に評価するために使用される。
+
+## persistent homology
+- ja: パーシステントホモロジー
+- related: [Topological Data Analysis, persistence diagram]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25902
+- auto_source_url: https://ethresear.ch/t/the-shape-of-ethereum-a-six-year-study-of-topological-anomalies/25902
+- desc: |
+  位相的データ解析 (TDA) の主要なツールであり、データセットの位相的特徴（穴や連結性など）が、異なるスケールでどのように変化し、どのスケールで「持続」するかを捉える。パーシステンス図の基礎となる概念。
+
+## Vietoris-Rips construction
+- ja: ヴィエトリス・リップス構成
+- related: [Topological Data Analysis, persistent homology]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 25902
+- auto_source_url: https://ethresear.ch/t/the-shape-of-ethereum-a-six-year-study-of-topological-anomalies/25902
+- desc: |
+  位相的データ解析 (TDA) において、点群データから位相空間（単体複体）を構築する一般的な手法の一つ。データ点間の距離に基づいて、どの点が連結しているかを定義し、様々なスケールでの位相的特徴を抽出する。
+
+## Portable Execution Plan Artifact
+- ja: ポータブル実行計画アーティファクト
+- related: [ERC-8410, Account Abstraction, Wallet]
+- auto_added: 2026-09-05
+- auto_source_topic_id: 29587
+- auto_source_url: https://ethereum-magicians.org/t/erc-8410-portable-execution-plan-artifact/29587
+- desc: |
+  鍵を持たないソフトウェアからウォレットへ、単一の送信者とチェーンに対する順序付けられた呼び出しシーケンスを伝達するJSONドキュメント。ブロードキャストされる内容を決定するフィールドのkeccak256ダイジェストを含みます。
