@@ -4,7 +4,7 @@ aliases:
   - 再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)
 tags:
   - glossary
-date: '2026-09-04'
+date: '2026-09-05'
 ---
 
 **再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)**

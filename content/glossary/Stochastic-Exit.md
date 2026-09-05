@@ -4,7 +4,7 @@ aliases:
   - 確率的脱出
 tags:
   - glossary
-date: '2026-09-04'
+date: '2026-09-05'
 ---
 
 **確率的脱出**

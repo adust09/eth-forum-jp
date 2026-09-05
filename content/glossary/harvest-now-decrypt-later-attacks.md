@@ -5,7 +5,7 @@ aliases:
   - HNDL attacks
 tags:
   - glossary
-date: '2026-09-04'
+date: '2026-09-05'
 ---
 
 **今すぐ収集し、後で解読する攻撃**
