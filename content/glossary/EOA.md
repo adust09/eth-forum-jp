@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **EOA (Externally Owned Account)**
@@ -18,6 +18,7 @@ date: '2026-09-05'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/magicians-2026-07-31-draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities-29220|ファンジブルエージェントトークン (FAT) — オンチェーン経済エンティティとしてのAIエージェントの最小標準]]（2026-07-31）
 - [[posts/magicians-2026-07-26-erc-8337-agent-memory-state-29098|ERC-8337: エージェントメモリ状態]]（2026-07-26）

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -17,6 +17,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Absolute-Junior-Subordination|Absolute Junior Subordination]] — 絶対劣後（Absolute Junior Subordination）
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
 - [[glossary/Accept-Token|Accept Token]] — 受入トークン
+- [[glossary/Acceptance-Authority|Acceptance Authority]] — 受諾権限
 - [[glossary/Accessed-Addresses|Accessed Addresses]] — アクセス済みアドレス
 - [[glossary/Accessed-Storage-Keys|Accessed Storage Keys]] — アクセス済みストレージキー
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
@@ -561,6 +562,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
+- [[glossary/Judgment-Window|Judgment Window]] — 判断期間
 - [[glossary/K-block-attack|K-block attack]] — Kブロック攻撃
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Key-Rotation|Key Rotation]] — キーローテーション
@@ -934,6 +936,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Retirement|Retirement]] — 償却（炭素クレジットの）
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
 - [[glossary/Reveal-Optionality|Reveal Optionality]] — リビール選択性
+- [[glossary/Reverse-Asset|Reverse Asset]] — リバースアセット
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
 - [[glossary/Revert|Revert]] — リバート
 - [[glossary/Review|Review]] — レビュー (EIP/ERC)
@@ -999,6 +1002,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
+- [[glossary/Silence-pays-the-fulfiller|Silence pays the fulfiller]] — 沈黙は履行者への支払いとなる
 - [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
@@ -1087,6 +1091,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/Tapered-Issuance-Burn|Tapered Issuance Burn]] — テーパー型発行量バーン
+- [[glossary/Task-Token|Task Token]] — タスクトークン
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
 - [[glossary/TCREATE|TCREATE]] — TCREATEオペコード
 - [[glossary/Telomere|Telomere (reproduction counter)]] — テロメア（複製カウンター）

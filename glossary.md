@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-05
+last_updated: 2026-09-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11311,3 +11311,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8410-portable-execution-plan-artifact/29587
 - desc: |
   鍵を持たないソフトウェアからウォレットへ、単一の送信者とチェーンに対する順序付けられた呼び出しシーケンスを伝達するJSONドキュメント。ブロードキャストされる内容を決定するフィールドのkeccak256ダイジェストを含みます。
+
+## Task Token
+- ja: タスクトークン
+- related: [ERC-8338, Reverse Asset, Token-Bound Executable Skills]
+- auto_added: 2026-09-06
+- auto_source_topic_id: 29597
+- auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
+- desc: |
+  ERC-721の拡張であり、タスクの需要側を表現するトークン。報酬が専用の「vault」アカウントに保持され、タスクの仕様、報酬、受諾条件がオンチェーンで管理されます。
+
+## Reverse Asset
+- ja: リバースアセット
+- related: [Task Token, Token-Bound Executable Skills]
+- auto_added: 2026-09-06
+- auto_source_topic_id: 29597
+- auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
+- desc: |
+  供給側の「Executable Skill」トークン（ERC-8338）と対をなす、需要側の資産としてのタスクトークンを指します。タスクの実行能力ではなく、タスクの実行要求とそれに紐づく報酬を表現します。
+
+## Acceptance Authority
+- ja: 受諾権限
+- related: [Task Token, Judgment Window]
+- auto_added: 2026-09-06
+- auto_source_topic_id: 29597
+- auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
+- desc: |
+  タスクトークンにおいて、提出された成果物がタスクの要件を満たしているかを判断する権限を持つエンティティ。EOA、検証コントラクト、またはK-of-Nマルチシグコントラクトなど、様々な形態を取りえます。
+
+## Judgment Window
+- ja: 判断期間
+- related: [Task Token, Acceptance Authority, Silence pays the fulfiller]
+- auto_added: 2026-09-06
+- auto_source_topic_id: 29597
+- auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
+- desc: |
+  タスクトークンにおいて、成果物が提出されてから、受諾権限者がその成果物に対する判断を下すまでの期間。この期間を過ぎると、提出者は自動的に報酬を請求できます。
+
+## Silence pays the fulfiller
+- ja: 沈黙は履行者への支払いとなる
+- related: [Task Token, Judgment Window, Acceptance Authority]
+- auto_added: 2026-09-06
+- auto_source_topic_id: 29597
+- auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
+- desc: |
+  タスクトークンにおけるルールの一つで、成果物が提出された後、設定された判断期間内に受諾権限者からの明示的な拒否がない場合、自動的に成果物が受諾されたとみなされ、履行者が報酬を請求できるメカニズムです。

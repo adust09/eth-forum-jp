@@ -4,7 +4,7 @@ aliases:
   - NAVの鮮度/陳腐度
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **NAVの鮮度/陳腐度**

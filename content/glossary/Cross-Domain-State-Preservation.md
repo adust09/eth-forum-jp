@@ -4,7 +4,7 @@ aliases:
   - クロスドメイン状態保存 (Cross-Domain State Preservation)
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **クロスドメイン状態保存 (Cross-Domain State Preservation)**

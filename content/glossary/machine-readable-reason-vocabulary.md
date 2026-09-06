@@ -6,7 +6,7 @@ aliases:
   - byte-pinned reason vocabulary
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **機械可読な理由語彙**

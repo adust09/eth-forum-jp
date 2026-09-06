@@ -4,7 +4,7 @@ aliases:
   - ノンスフリー・トランザクション (Nonce-free transactions)
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **ノンスフリー・トランザクション (Nonce-free transactions)**

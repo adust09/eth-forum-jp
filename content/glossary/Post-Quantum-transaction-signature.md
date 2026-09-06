@@ -5,7 +5,7 @@ aliases:
   - PQTS
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **ポスト量子トランザクション署名 (PQTS)**

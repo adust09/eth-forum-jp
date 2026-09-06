@@ -5,7 +5,7 @@ aliases:
   - ACDC
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **オールコア開発者会議 - コンセンサス**

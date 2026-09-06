@@ -4,7 +4,7 @@ aliases:
   - 可換ティア
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **可換ティア**
