@@ -5,7 +5,7 @@ aliases:
   - MPBC
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **マルチパーティブロック構築**

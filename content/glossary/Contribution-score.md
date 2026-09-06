@@ -5,7 +5,7 @@ aliases:
   - earned contribution score
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **貢献スコア**

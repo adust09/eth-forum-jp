@@ -5,7 +5,7 @@ aliases:
   - concentrated liquidity AMMs
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **集中流動性メカニズム**

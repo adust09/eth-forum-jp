@@ -4,7 +4,7 @@ aliases:
   - スキルルート
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **スキルルート**
@@ -19,7 +19,7 @@ date: '2026-09-05'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 
 ## 元の表記（英語）
 

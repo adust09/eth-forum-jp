@@ -4,7 +4,7 @@ aliases:
   - CBOR (Concise Binary Object Representation)
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **CBOR (Concise Binary Object Representation)**

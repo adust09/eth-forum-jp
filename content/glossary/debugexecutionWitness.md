@@ -4,7 +4,7 @@ aliases:
   - debug_executionWitness (デバッグ実行証人)
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **debug_executionWitness (デバッグ実行証人)**

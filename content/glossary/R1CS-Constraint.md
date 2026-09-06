@@ -5,7 +5,7 @@ aliases:
   - Rank-1 Constraint System constraint
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **R1CS制約**

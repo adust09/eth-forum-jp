@@ -4,7 +4,7 @@ aliases:
   - 検閲レバー
 tags:
   - glossary
-date: '2026-09-05'
+date: '2026-09-06'
 ---
 
 **検閲レバー**
