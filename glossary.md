@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-06
+last_updated: 2026-09-07
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11356,3 +11356,96 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/task-token-as-a-reverse-asset-token-bound-task-tenders/29597
 - desc: |
   タスクトークンにおけるルールの一つで、成果物が提出された後、設定された判断期間内に受諾権限者からの明示的な拒否がない場合、自動的に成果物が受諾されたとみなされ、履行者が報酬を請求できるメカニズムです。
+
+## Whole-standard assurance
+- ja: 全体標準保証
+- related: [Runtime-to-model proof, Obligation ledger]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 25926
+- auto_source_url: https://ethresear.ch/t/can-we-verify-an-erc-not-just-its-code/25926
+- desc: |
+  ERCのセマンティクス、生成されたインターフェース、参照実装、ランタイムバイト、適合性証拠、および残りの仮定を監査可能な単一のチェーンとして扱うアプローチ。ERCの包括的な検証を目指す。
+
+## Runtime-to-model proof
+- ja: ランタイム・モデル間証明
+- aliases: [runtime_link]
+- related: [Whole-standard assurance, formal verification]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 25926
+- auto_source_url: https://ethresear.ch/t/can-we-verify-an-erc-not-just-its-code/25926
+- desc: |
+  コンパイルされたランタイムコードの動作が抽象的な形式モデルに対応していることを示す証明。ERCの形式検証において、実装と仕様の間のギャップを埋めるための重要な要素。
+
+## Obligation ledger
+- ja: 義務台帳
+- aliases: [open-obligation ledger]
+- related: [Whole-standard assurance, conformance vectors]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 25926
+- auto_source_url: https://ethresear.ch/t/can-we-verify-an-erc-not-just-its-code/25926
+- desc: |
+  標準の抽象的な条件を、最終コードのコンシューマ、テスト、検出器、およびコンパイル済みまたはダウンストリームのコンシューマにリンクする機械可読な記録。検証のギャップを特定し、レビューを支援する。
+
+## Security token
+- ja: セキュリティトークン
+- related: [ERC-1400, ERC-7943, ERC-TRUST]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 25926
+- auto_source_url: https://ethresear.ch/t/can-we-verify-an-erc-not-just-its-code/25926
+- desc: |
+  株式や債券などの伝統的な金融資産に裏付けられた、またはそれらをデジタル化したトークン。規制当局の監視下にあり、複雑な法的・技術的要件を満たす必要がある。
+
+## Standards Track proposal
+- ja: 標準トラック提案
+- aliases: [Standards Track]
+- related: [EIP, informational EIP]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 25926
+- auto_source_url: https://ethresear.ch/t/can-we-verify-an-erc-not-just-its-code/25926
+- desc: |
+  Ethereum Improvement Proposal (EIP) の一種で、Ethereumプロトコルまたはアプリケーションレベルの新しい標準を定義する提案。EIP-1で定義された主要なカテゴリの一つ。
+
+## getLogs
+- ja: getLogs (RPCメソッド)
+- related: [event log, JSON-RPC]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 29605
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、指定されたブロック範囲、アドレス、トピックに基づいて、ブロックチェーン上のイベントログをフィルタリングして取得するために使用されます。
+
+## safe and finalized tags
+- ja: safeおよびfinalizedタグ
+- related: [finality, block tag, reorg]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 29605
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
+- desc: |
+  EthereumのJSON-RPCにおいて、ブロックの識別に使用される特別なタグです。`safe`は、再編成される可能性が低いとクライアントが判断したブロックを指し、`finalized`は、ファイナリティが確定し、再編成が不可能になったブロックを指します。
+
+## custody and cell bitarrays
+- ja: カストディおよびセルビット配列
+- related: [data availability sampling, DAS, cell, bitarray]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 29605
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
+- desc: |
+  Ethereumのコンセンサス層、特にデータ可用性サンプリング（DAS）に関連するデータ構造です。ブロックのデータ可用性を証明するために、特定のデータセルのカストディ（保管）状態や存在を示すビット配列として使用されます。
+
+## eth_getHeaderByHash
+- ja: eth_getHeaderByHash (RPCメソッド)
+- related: [block header, JSON-RPC, eth_getHeaderByNumber]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 29605
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、指定されたブロックハッシュに対応するブロックヘッダーの情報を取得するために使用されます。
+
+## debug_traceCall
+- ja: debug_traceCall (RPCメソッド)
+- related: [callTracer, execution trace, debugging]
+- auto_added: 2026-09-07
+- auto_source_topic_id: 29605
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、特定のトランザクションまたはコールがどのように実行されるかをシミュレートし、その実行トレース（ステップごとの状態変化、ガス消費など）を詳細にデバッグするために使用されます。

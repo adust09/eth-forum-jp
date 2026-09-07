@@ -4,7 +4,7 @@ aliases:
   - 形式検証
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **形式検証**
@@ -17,7 +17,7 @@ date: '2026-09-06'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-06-can-we-verify-an-erc-not-just-its-code-25926|ERCをコードだけでなく検証できるか？]]（2026-09-06）
 
 ## 元の表記（英語）
 

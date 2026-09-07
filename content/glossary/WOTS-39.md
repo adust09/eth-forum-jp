@@ -4,7 +4,7 @@ aliases:
   - WOTS-39
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **WOTS-39**

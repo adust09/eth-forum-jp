@@ -5,7 +5,7 @@ aliases:
   - BEO
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **行動エンティティオブジェクト (BEO)**
