@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -276,6 +276,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
 - [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
+- [[glossary/custody-and-cell-bitarrays|custody and cell bitarrays]] — カストディおよびセルビット配列
 - [[glossary/Custody-and-physical-integrity-endorsement|Custody and physical integrity endorsement]] — カストディおよび物理的完全性の保証
 - [[glossary/Custody-Sampling|Custody Sampling]] — カストディサンプリング
 - [[glossary/CUTOFFBLOCK|CUTOFF_BLOCK]] — カットオフブロック
@@ -287,6 +288,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/debugexecutionWitness|debug_executionWitness]] — debug_executionWitness (デバッグ実行証人)
+- [[glossary/debugtraceCall|debug_traceCall]] — debug_traceCall (RPCメソッド)
 - [[glossary/Decay-gaming|Decay-gaming]] — 減衰ゲーミング
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
@@ -391,6 +393,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ETH-issuance-curve|ETH issuance curve]] — ETH発行曲線
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
 - [[glossary/ethbaseFee|eth_baseFee]] — eth_baseFee
+- [[glossary/ethgetHeaderByHash|eth_getHeaderByHash]] — eth_getHeaderByHash (RPCメソッド)
 - [[glossary/ethsimulateV1|eth_simulateV1]] — eth_simulateV1 (RPCメソッド)
 - [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
@@ -480,6 +483,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Generic-Key-Value-String-Surface|Generic Key-Value String Surface]] — 汎用キー・バリュー文字列インターフェース
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/GetCells-message|GetCells message]] — GetCellsメッセージ
+- [[glossary/getLogs|getLogs]] — getLogs (RPCメソッド)
 - [[glossary/GKR|GKR]] — GKR (Grand Product Argument)
 - [[glossary/Glamsterdam|Glamsterdam]] — グラムステルダム
 - [[glossary/Gloas|Gloas]] — グロアス (Gloas)
@@ -698,6 +702,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/note-commitment|note commitment]] — ノートコミットメント
 - [[glossary/nullifier|nullifier]] — ナリファイア
 - [[glossary/Number-Theoretic-Transform|Number Theoretic Transform]] — 数論変換 (NTT)
+- [[glossary/Obligation-ledger|Obligation ledger]] — 義務台帳
 - [[glossary/oblivious-message-retrieval|oblivious message retrieval]] — 秘匿メッセージ検索 (OMR)
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
 - [[glossary/Observation|Observation]] — 観測
@@ -954,10 +959,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Runtime-BAL|Runtime BAL]] — ランタイムBAL (Runtime BAL)
 - [[glossary/Runtime-block-level-access-lists|Runtime block-level access lists]] — ランタイムブロックレベルアクセスリスト
 - [[glossary/runtime-code|runtime code]] — ランタイムコード
+- [[glossary/Runtime-to-model-proof|Runtime-to-model proof]] — ランタイム・モデル間証明
 - [[glossary/RWA-Disclosure-Interfaces|RWA Disclosure Interfaces]] — RWA開示インターフェース
 - [[glossary/RWA-Disclosure-Records|RWA Disclosure Records]] — RWA開示記録
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
+- [[glossary/safe-and-finalized-tags|safe and finalized tags]] — safeおよびfinalizedタグ
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
 - [[glossary/Sandwich-attack|Sandwich attack]] — サンドイッチ攻撃
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
@@ -966,6 +973,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
 - [[glossary/Security-Manifest|Security Manifest]] — セキュリティマニフェスト
 - [[glossary/Security-Semantics|Security Semantics]] — セキュリティセマンティクス
+- [[glossary/Security-token|Security token]] — セキュリティトークン
 - [[glossary/Segmented-diffusion|Segmented diffusion]] — セグメント化された拡散 (Segmented diffusion)
 - [[glossary/selective-disclosure|selective disclosure]] — 選択的開示
 - [[glossary/Selector-bundles|Selector bundles]] — セレクターバンドル
@@ -1042,6 +1050,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/Stake-secured-re-execution|Stake-secured re-execution]] — ステーク担保型再実行
 - [[glossary/Staked-Weighted-Verification-Gate|Staked Weighted Verification Gate]] — ステーク型加重検証ゲート (Staked Weighted Verification Gate)
+- [[glossary/Standards-Track-proposal|Standards Track proposal]] — 標準トラック提案
 - [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
 - [[glossary/STARK-LDE-NTT|STARK-LDE NTT]] — STARK-LDE NTT (STARK低次拡張数論変換)
@@ -1215,6 +1224,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Whole-payload-gossip|Whole-payload gossip]] — ホールペイロードゴシップ (Whole-payload gossip)
+- [[glossary/Whole-standard-assurance|Whole-standard assurance]] — 全体標準保証
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)

@@ -4,7 +4,7 @@ aliases:
   - debug_executionWitness (デバッグ実行証人)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **debug_executionWitness (デバッグ実行証人)**
@@ -18,6 +18,7 @@ Ethereumの実行レイヤーAPIにおけるデバッグ用の仕様。トラン
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）
 - [[posts/magicians-2026-07-27-rpc-standards-31-july-27-2026-29103|RPC標準 #31、2026年7月27日]]（2026-07-27）
 
 ## 元の表記（英語）

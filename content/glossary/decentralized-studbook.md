@@ -4,7 +4,7 @@ aliases:
   - 分散型血統登録簿 (decentralized studbook)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **分散型血統登録簿 (decentralized studbook)**

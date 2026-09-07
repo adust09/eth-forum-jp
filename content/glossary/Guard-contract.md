@@ -4,7 +4,7 @@ aliases:
   - ガードコントラクト (Guard contract)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **ガードコントラクト (Guard contract)**

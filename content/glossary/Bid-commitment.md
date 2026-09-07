@@ -4,7 +4,7 @@ aliases:
   - ビッドコミットメント (Bid commitment)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **ビッドコミットメント (Bid commitment)**

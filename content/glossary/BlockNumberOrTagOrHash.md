@@ -4,7 +4,7 @@ aliases:
   - BlockNumberOrTagOrHash (ブロック識別子型)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **BlockNumberOrTagOrHash (ブロック識別子型)**
@@ -18,7 +18,7 @@ EthereumのRPCメソッドでブロックを指定する際に用いられるデ
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）
 
 ## 元の表記（英語）
 

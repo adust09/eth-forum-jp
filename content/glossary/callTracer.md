@@ -4,7 +4,7 @@ aliases:
   - callTracer (コールトレーサー)
 tags:
   - glossary
-date: '2026-09-06'
+date: '2026-09-07'
 ---
 
 **callTracer (コールトレーサー)**
@@ -18,6 +18,7 @@ Ethereumのトランザクション実行を詳細に追跡し、その内部コ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）
 - [[posts/magicians-2026-08-10-rpc-standards-32-august-10-2026-29377|RPC標準 #32、2026年8月10日]]（2026-08-10）
 
 ## 元の表記（英語）
