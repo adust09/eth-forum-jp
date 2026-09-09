@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -137,7 +137,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/blob|blob]] — ブロブ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
+- [[glossary/Block-Ordering|Block Ordering]] — ブロック順序付け
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
+- [[glossary/BLOCKHASH|BLOCKHASH]] — BLOCKHASH (オペコード)
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
@@ -191,6 +193,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Censorship-Resistance|Censorship Resistance]] — 検閲耐性
 - [[glossary/CEX-DEX-arbitrage-auction|CEX-DEX arbitrage auction]] — CEX-DEXアービトラージオークション
 - [[glossary/CEXDEX-convergence|CEX–DEX convergence]] — CEX-DEXコンバージェンス (CEX-DEX収束)
+- [[glossary/charge|charge (MATCHA)]] — charge (MATCHAにおける)
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/CICO-Ideal-Degree|CICO Ideal Degree]] — CICO理想次数
 - [[glossary/CL-Block-Retention-Window|CL Block Retention Window]] — CLブロック保持期間
@@ -224,6 +227,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Complete-set-operations|Complete-set operations]] — 完全セット操作
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
+- [[glossary/Computed-versus-Judged|Computed versus Judged]] — 計算による検証と判断による検証
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/Concentration-sensitive-economics|Concentration-sensitive economics]] — 集中度感応型経済学
 - [[glossary/Conditional-Tokens-Framework|Conditional Tokens Framework]] — コンディショナル・トークン・フレームワーク (CTF)
@@ -241,6 +245,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Conservative-Funding-Check|Conservative Funding Check]] — 保守的な資金調達チェック
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
+- [[glossary/contention-classes|contention classes]] — 競合クラス
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Context-Opcodes|Context Opcodes]] — コンテキストオペコード
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
@@ -405,6 +410,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Evidence-Capsule|Evidence Capsule]] — エビデンスカプセル
 - [[glossary/Evidence-Capsule-Model|Evidence Capsule Model]] — エビデンスカプセルモデル
 - [[glossary/Evidence-closure|Evidence closure]] — エビデンスクロージャ
+- [[glossary/Evidence-Obligations|Evidence Obligations]] — 証拠義務
 - [[glossary/evidenceHash|evidenceHash]] — evidenceHash (証拠ハッシュ)
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
@@ -412,11 +418,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EVM-Code|EVM Code]] — EVMコード
 - [[glossary/EVM-Verification-Key-Registry|EVM Verification Key Registry]] — EVM検証鍵レジストリ
 - [[glossary/Exactly-Once-Execution|Exactly Once Execution]] — 厳密な1回実行
+- [[glossary/exactly-once-assertions|exactly-once assertions]] — 厳密に一度のアサーション
 - [[glossary/Exchange-channel-minting|Exchange-channel minting]] — 交換チャネルミント
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/executable-skill|executable skill]] — 実行可能なスキル
 - [[glossary/execution-anchor|execution anchor]] — 実行アンカー
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
+- [[glossary/execution-bid|execution bid]] — 実行入札
 - [[glossary/Execution-Client|Execution Client]] — 実行クライアント
 - [[glossary/execution-client-head|execution client head]] — 実行クライアントヘッド
 - [[glossary/Execution-Delegation-Framework|Execution Delegation Framework]] — 実行委任フレームワーク
@@ -427,6 +435,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/execution-position|execution position]] — 実行位置
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
 - [[glossary/execution-scaling|execution scaling]] — 実行スケーリング
+- [[glossary/executionpayloadchunks|execution_payload_chunks]] — 実行ペイロードチャンク
 - [[glossary/Execution-clearing-boundary|Execution-clearing boundary]] — 実行クリアリング境界
 - [[glossary/Execution-gate-substrate|Execution-gate substrate]] — 実行ゲート基盤
 - [[glossary/ExecutionData-Fee-Floor-Frontier|Execution–Data Fee-Floor Frontier]] — 実行-データ手数料下限フロンティア
@@ -555,6 +564,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Internal-arbitrage|Internal arbitrage]] — 内部アービトラージ
 - [[glossary/internal-extraction-window|internal extraction window]] — 内部抽出ウィンドウ
 - [[glossary/Intra-cluster-communication|Intra-cluster communication]] — クラスター内通信
+- [[glossary/intrinsic-gas|intrinsic gas]] — 固有ガス
 - [[glossary/Invariant|Invariant]] — 不変条件
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
@@ -608,6 +618,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquidity-Ocean|Liquidity Ocean]] — リクイディティ・オーシャン
 - [[glossary/LLM-Judge|LLM Judge]] — LLMジャッジ
 - [[glossary/LMD-GHOST|LMD-GHOST]] — LMD-GHOST
+- [[glossary/load|load (MATCHA)]] — load (MATCHAにおける)
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
@@ -626,6 +637,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
 - [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
+- [[glossary/MATCHA|MATCHA]] — MATCHA (Mempool Account Transaction Capacity from Historical Activity)
 - [[glossary/Maturity-Settlement-Queue|Maturity Settlement Queue]] — 満期決済キュー
 - [[glossary/MAXVERIFYGAS|MAX_VERIFY_GAS]] — 検証ガス上限 (MAX_VERIFY_GAS)
 - [[glossary/Maximum-Viable-Security|Maximum Viable Security]] — 最大実行可能セキュリティ
@@ -636,6 +648,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Memory-Space|Memory Space]] — メモリースペース
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
+- [[glossary/mempool-admission|mempool admission]] — メンプールアドミッション
 - [[glossary/Mempool-safe-Second-Factor|Mempool-safe Second Factor]] — メムプールセーフな第二要素
 - [[glossary/Merkle-proof|Merkle proof]] — マークル証明
 - [[glossary/Merkle-Patricia-Trie|Merkle-Patricia Trie]] — マークルパトリシアトライ (MPT)
@@ -746,6 +759,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Orchard-action-bundle|Orchard action bundle]] — Orchardアクションバンドル
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
 - [[glossary/Orchard-shielded-pool-model|Orchard shielded-pool model]] — Orchardシールドプールモデル
+- [[glossary/order-dependent-state|order-dependent state]] — 順序依存状態
 - [[glossary/Orderflow|Orderflow]] — オーダーフロー
 - [[glossary/ordering-blockspace-layer|ordering / blockspace layer]] — オーダリング/ブロックスペースレイヤー (G_O)
 - [[glossary/Ordering-discretion|Ordering discretion]] — 順序付け裁量
@@ -756,6 +770,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ossification-Candidate|Ossification Candidate]] — 骨化候補
 - [[glossary/Ossification-resistant|Ossification-resistant]] — オシフィケーション耐性 (硬化耐性)
 - [[glossary/Ossified|Ossified (status)]] — 骨化済み（ステータス）
+- [[glossary/Outcome-Switching|Outcome Switching]] — アウトカム・スイッチング（結果のすり替え）
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
@@ -772,6 +787,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/passURI|passURI]] — passURI (パスURI)
 - [[glossary/PAY-opcode|PAY opcode]] — PAYオペコード
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
+- [[glossary/payload-envelope|payload envelope]] — ペイロードエンベロープ
+- [[glossary/payloadchunksroot|payload_chunks_root]] — ペイロードチャンクルート
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
@@ -831,6 +848,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
 - [[glossary/Preferential-Gas-Schedule|Preferential Gas Schedule]] — 優遇ガススケジュール
 - [[glossary/Prepared-Transaction-Envelope|Prepared Transaction Envelope]] — 準備済みトランザクションエンベロープ
+- [[glossary/Preregistered-Acceptance-Criteria|Preregistered Acceptance Criteria]] — 事前登録された受入基準
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
 - [[glossary/Price-of-Forgery|Price of Forgery]] — 偽造の価格 (PoF)
 - [[glossary/Principal-at-Maturity-profile|Principal-at-Maturity profile]] — 満期時元本償還型プロファイル
@@ -862,6 +880,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/proof-native-protocol|proof-native protocol]] — プルーフネイティブプロトコル
 - [[glossary/Proof-of-Operation-Layer|Proof-of-Operation Layer]] — オペレーション証明レイヤー
 - [[glossary/Proof-of-reserves-attestations|Proof-of-reserves attestations]] — 準備金証明アテステーション
+- [[glossary/propagation-latency|propagation latency]] — 伝播遅延
 - [[glossary/PropAMMs|PropAMMs]] — PropAMM (プロップAMM)
 - [[glossary/Proposal-Convexity-Maximisation|Proposal Convexity Maximisation]] — 提案の凸性最大化
 - [[glossary/Proposer-Boost|Proposer Boost]] — プロポーザーブースト
@@ -894,6 +913,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
 - [[glossary/Received-Floor|Received Floor]] — 受容された基盤
+- [[glossary/recent-root-bound|recent-root-bound]] — 最近のルートにバインドされた状態
 - [[glossary/Recipient-range-proofs|Recipient-range proofs]] — 受信者範囲証明
 - [[glossary/Recomputable-Verification-Receipts|Recomputable Verification Receipts]] — 再計算可能な検証レシート
 - [[glossary/Recomputation-status|Recomputation status]] — 再計算ステータス (Recomputation status)
@@ -1023,6 +1043,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
 - [[glossary/Slashing-curves|Slashing curves]] — スラッシング曲線 (Slashing curves)
 - [[glossary/Slippage-policy|Slippage policy]] — スリッページポリシー
+- [[glossary/SLOAD|SLOAD]] — SLOAD (オペコード)
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
@@ -1119,6 +1140,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Timelock-Account-recovery|Timelock Account recovery]] — タイムロックアカウントリカバリー
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ
+- [[glossary/TLOAD|TLOAD]] — TLOAD (オペコード)
 - [[glossary/Toeplitz-matrix-multiplication|Toeplitz matrix multiplication]] — トープレット行列乗算
 - [[glossary/Token-Behavior-Declaration|Token Behavior Declaration]] — トークン挙動宣言
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
@@ -1158,6 +1180,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
 - [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
+- [[glossary/TSTORE|TSTORE]] — TSTORE (オペコード)
 - [[glossary/turnstiles|turnstiles]] — ターンスタイル
 - [[glossary/two-dimensional-gas|two-dimensional gas]] — 二次元ガス
 - [[glossary/Two-Phase-Asset-Transfers|Two-Phase Asset Transfers]] — 二段階資産転送
@@ -1225,6 +1248,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Whole-payload-gossip|Whole-payload gossip]] — ホールペイロードゴシップ (Whole-payload gossip)
 - [[glossary/Whole-standard-assurance|Whole-standard assurance]] — 全体標準保証
+- [[glossary/width|width (MATCHA)]] — width (MATCHAにおける)
+- [[glossary/width-draining|width draining]] — width枯渇攻撃
 - [[glossary/Winternitz-One-Time-Signatures|Winternitz One-Time Signatures]] — ウィンターニッツ・ワンタイム署名 (WOTS+)
 - [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)

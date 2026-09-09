@@ -5,7 +5,7 @@ aliases:
   - Scalable Transparent ARgument of Knowledge
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **STARK (スケーラブルで透過的な知識の引数)**
@@ -21,6 +21,7 @@ date: '2026-09-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 - [[posts/ethresear-2026-08-03-arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation-25614|Arcanum: ソースコード向けプライバシーファーストなコンパイラレイヤー — 現状はTEE、長期的にはZKを基盤に]]（2026-08-03）
 - [[posts/ethresear-2026-07-10-qingming-stark-g64-a-goldilocks-stark-backend-on-amd-rocm-hip-25417|Qingming-STARK-G64: AMD ROCm/HIP上のGoldilocks STARKバックエンド]]（2026-07-10）
 - [[posts/ethresear-2026-07-06-qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt-25373|Qingming-g64-ntt-cuda: ネイティブGoldilocks/G64 STARK-LDE NTTのRTX4090-24G結果レポート]]（2026-07-06）

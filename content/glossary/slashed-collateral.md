@@ -4,7 +4,7 @@ aliases:
   - スラッシュされた担保（slashed collateral）
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **スラッシュされた担保（slashed collateral）**
@@ -19,7 +19,7 @@ EthereumのProof of Stake (PoS) システムにおいて、バリデーターが
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 
 ## 元の表記（英語）
 

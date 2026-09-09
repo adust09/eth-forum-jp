@@ -4,7 +4,7 @@ aliases:
   - Plonkish (証明システム)
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **Plonkish (証明システム)**

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-07
+last_updated: 2026-09-09
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11449,3 +11449,229 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-34-september-7th-2026/29605
 - desc: |
   EthereumのJSON-RPCメソッドの一つで、特定のトランザクションまたはコールがどのように実行されるかをシミュレートし、その実行トレース（ステップごとの状態変化、ガス消費など）を詳細にデバッグするために使用されます。
+
+## MATCHA
+- ja: MATCHA (Mempool Account Transaction Capacity from Historical Activity)
+- aliases: [Mempool Account Transaction Capacity from Historical Activity]
+- related: [Frame Transaction, Keyed Nonces, FOCIL]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25949
+- auto_source_url: https://ethresear.ch/t/mempool-account-transaction-capacity-from-historical-activity-matcha/25949
+- desc: |
+  EIP-8141のFrame Transactionにおいて、共有のsenderから複数のトランザクションをmempoolに受け入れるためのローカルポリシー。DoS攻撃のリスクを抑制しつつ、プライバシーアプリケーションなどのユースケースをサポートする。
+
+## width (MATCHA)
+- ja: width (MATCHAにおける)
+- related: [MATCHA, Frame Transaction, sender]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25949
+- auto_source_url: https://ethresear.ch/t/mempool-account-transaction-capacity-from-historical-activity-matcha/25949
+- desc: |
+  MATCHAポリシーにおいて、senderがEIP-8141のベースラインを超える追加のFrame Transactionをmempoolに含めるために利用できる容量。トランザクションがファイナライズされたブロックで消費したガス量に基づいて獲得され、追加トランザクションの承認時に消費される。
+
+## charge (MATCHA)
+- ja: charge (MATCHAにおける)
+- related: [MATCHA, width, admission_gas]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25949
+- auto_source_url: https://ethresear.ch/t/mempool-account-transaction-capacity-from-historical-activity-matcha/25949
+- desc: |
+  MATCHAポリシーにおいて、追加のFrame Transactionをmempoolに承認する際に消費されるwidthの量。トランザクションデータ、署名、nonceチェック、支払い承認などの検証作業に予算化されたガス量に基づいて計算される。
+
+## load (MATCHA)
+- ja: load (MATCHAにおける)
+- related: [MATCHA, charge, priority fee]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25949
+- auto_source_url: https://ethresear.ch/t/mempool-account-transaction-capacity-from-historical-activity-matcha/25949
+- desc: |
+  MATCHAポリシーのオプション機能において、保留中の追加Frame Transactionのcharge値の合計。このloadに基づいて、新規追加トランザクションの最低優先手数料が線形に増加する。
+
+## width draining
+- ja: width枯渇攻撃
+- related: [MATCHA, width, FOCIL]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25949
+- auto_source_url: https://ethresear.ch/t/mempool-account-transaction-capacity-from-historical-activity-matcha/25949
+- desc: |
+  MATCHAポリシー下で、攻撃者が共有のsenderの利用可能なwidth容量を消費するために、非常に低い手数料で多数の有効なトランザクションを提出する攻撃。これにより、他の正当なユーザーがmempoolに入ることが妨げられる。
+
+## BLOCKHASH
+- ja: BLOCKHASH (オペコード)
+- related: [SLOAD, TLOAD, TSTORE, zkEVM]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25935
+- auto_source_url: https://ethresear.ch/t/how-hegota-should-approach-gas-repricing/25935
+- desc: |
+  EVMのオペコードの一つで、指定されたブロックハッシュを取得するために使用されます。zkEVMの文脈では、その実装を簡素化するために、ストレージからの値の取得に統合し、コストを更新する提案が議論されています。
+
+## SLOAD
+- ja: SLOAD (オペコード)
+- related: [BLOCKHASH, TLOAD, TSTORE, warm/cold accounting]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25935
+- auto_source_url: https://ethresear.ch/t/how-hegota-should-approach-gas-repricing/25935
+- desc: |
+  EVMのオペコードの一つで、スマートコントラクトのストレージから値を読み込むために使用されます。ウォーム/コールドアクセス料金が適用される対象であり、ガス料金の再設定の議論でそのコストが検討されることがあります。
+
+## TLOAD
+- ja: TLOAD (オペコード)
+- related: [TSTORE, transient storage]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25935
+- auto_source_url: https://ethresear.ch/t/how-hegota-should-approach-gas-repricing/25935
+- desc: |
+  EVMのオペコードの一つで、トランジェントストレージから値を読み込むために使用されます。トランジェントストレージは一時的なデータを保存するためのもので、そのガス料金の最適化が議論されています。
+
+## TSTORE
+- ja: TSTORE (オペコード)
+- related: [TLOAD, transient storage]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25935
+- auto_source_url: https://ethresear.ch/t/how-hegota-should-approach-gas-repricing/25935
+- desc: |
+  EVMのオペコードの一つで、トランジェントストレージに値を書き込むために使用されます。トランジェントストレージは一時的なデータを保存するためのもので、そのガス料金の最適化が議論されています。
+
+## intrinsic gas
+- ja: 固有ガス
+- related: [gas cost, transaction]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25935
+- auto_source_url: https://ethresear.ch/t/how-hegota-should-approach-gas-repricing/25935
+- desc: |
+  Ethereumトランザクションが実行される前に発生する固定のガス料金です。トランザクションの署名検証やデータ処理など、基本的な操作にかかるコストを含みます。
+
+## mempool admission
+- ja: メンプールアドミッション
+- related: [mempool, transaction validity]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25934
+- auto_source_url: https://ethresear.ch/t/order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission/25934
+- desc: |
+  トランザクションがブロックに含められる前に、ノードのメンプールに受け入れられるプロセス。特に、アカウント抽象化などの複雑なトランザクションにおいて、検証コストが非対称である場合に、無制限の検証作業を制限するためのルールやメカニズムを指す。
+
+## order-dependent state
+- ja: 順序依存状態
+- related: [order-independence, contention classes]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25934
+- auto_source_url: https://ethresear.ch/t/order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission/25934
+- desc: |
+  その有効性チェックがトランザクションの順序に依存する状態。例えば、共有AMM価格のように、その値がどのスワップが最初に処理されるかによって変わる場合など、競合する書き込みが存在する状態を指す。
+
+## contention classes
+- ja: 競合クラス
+- related: [single-writer, recent-root-bound, live-contended]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25934
+- auto_source_url: https://ethresear.ch/t/order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission/25934
+- desc: |
+  トランザクションが状態にアクセスする際の競合度合いに基づいて、状態アクセスを分類するシステム。シングルライター（Class 0）、最近のルートにバインドされ古い値が許容される（Class 1）、ライブで競合する（Class 2）の3つのクラスがある。この分類は、メンプールアドミッションのルール設計に利用される。
+
+## recent-root-bound
+- ja: 最近のルートにバインドされた状態
+- related: [contention classes, EIP-8272]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25934
+- auto_source_url: https://ethresear.ch/t/order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission/25934
+- desc: |
+  競合クラスのClass 1に分類される状態アクセスの一種。ライブの状態ではなく、保存されたルートに対して共有値を読み取るが、古い値が許容されるケースを指す。この概念は、Suiのようなバイナリ分割にはない中間的な競合レベルを導入する。
+
+## exactly-once assertions
+- ja: 厳密に一度のアサーション
+- related: [CALM theorem, Herlihy consensus hierarchy]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 25934
+- auto_source_url: https://ethresear.ch/t/order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission/25934
+- desc: |
+  元帳の不可欠で順序付けられたコアを構成するアサーション。例えば、「このナリファイアは未使用である」といった、並行トランザクションによって偽造されうる反単調な性質を持つ検証を指し、調整（coordination）を必要とする。
+
+## execution_payload_chunks
+- ja: 実行ペイロードチャンク
+- related: [execution payload, chunking, payload_chunks_root]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29613
+- auto_source_url: https://ethereum-magicians.org/t/eip-8411-fast-execution-payload-broadcast/29613
+- desc: |
+  EIP-8411で導入される、実行ペイロードを分割したデータチャンクです。これにより、ペイロードの伝播遅延を低減し、効率的なネットワーク転送と検証を可能にします。
+
+## payload envelope
+- ja: ペイロードエンベロープ
+- related: [execution payload, execution_payload_chunks]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29613
+- auto_source_url: https://ethereum-magicians.org/t/eip-8411-fast-execution-payload-broadcast/29613
+- desc: |
+  実行ペイロードの全体構造を指します。EIP-8411では、このエンベロープがチャンクに分割されることで、伝播効率の改善が図られます。
+
+## payload_chunks_root
+- ja: ペイロードチャンクルート
+- related: [execution_payload_chunks, Merkle root, execution bid]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29613
+- auto_source_url: https://ethereum-magicians.org/t/eip-8411-fast-execution-payload-broadcast/29613
+- desc: |
+  実行ペイロードチャンクのセットに対するMerkleルートです。EIP-8411では、ビルダーがこのルートを実行入札に含めることで、各チャンクの独立した検証を可能にします。
+
+## execution bid
+- ja: 実行入札
+- related: [proposer-builder separation, MEV]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29613
+- auto_source_url: https://ethereum-magicians.org/t/eip-8411-fast-execution-payload-broadcast/29613
+- desc: |
+  プロポーザー・ビルダー分離（PBS）モデルにおいて、ビルダーがブロックプロポーザーに提示する、ブロック内容と報酬に関する入札です。EIP-8411では、`payload_chunks_root` がこの入札に含まれます。
+
+## propagation latency
+- ja: 伝播遅延
+- related: [gossipsub, network latency]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29613
+- auto_source_url: https://ethereum-magicians.org/t/eip-8411-fast-execution-payload-broadcast/29613
+- desc: |
+  ネットワーク上でメッセージやデータがノード間を伝播するのにかかる時間です。EIP-8411は、大きな実行ペイロードによる伝播遅延の問題を解決するために提案されました。
+
+## Preregistered Acceptance Criteria
+- ja: 事前登録された受入基準
+- related: [Computed versus Judged, Outcome Switching, Evidence Obligations]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29609
+- auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
+- desc: |
+  成果物の受入基準を、証拠が存在する前にオンチェーンで登録する仕組み。これにより、後からの基準変更を防ぎ、客観的な検証を可能にします。
+
+## Computed versus Judged
+- ja: 計算による検証と判断による検証
+- related: [Preregistered Acceptance Criteria]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29609
+- auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
+- desc: |
+  ブロックチェーン上での成果物の検証方法における根本的な区別。バイト列のハッシュ比較などによる「計算」と、人間やAIによる基準に対する「判断」の対比を指します。
+
+## Outcome Switching
+- ja: アウトカム・スイッチング（結果のすり替え）
+- related: [Preregistered Acceptance Criteria]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29609
+- auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
+- desc: |
+  成果物の評価基準が、結果が出た後に都合よく変更されること。本提案では、事前登録された受入基準との比較をメカニズム化することで、この問題をブロックチェーン上で防ぎます。
+
+## Block Ordering
+- ja: ブロック順序付け
+- related: [consensus layer, transaction ordering]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29609
+- auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
+- desc: |
+  ブロックチェーンにおいて、トランザクションやイベントがブロック内で、またはブロック間で順序付けされること。これは、イベントの発生順序に関する信頼できる主張を可能にするための重要な概念です。
+
+## Evidence Obligations
+- ja: 証拠義務
+- related: [Preregistered Acceptance Criteria, acceptance criteria]
+- auto_added: 2026-09-09
+- auto_source_topic_id: 29609
+- auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
+- desc: |
+  事前登録された受入基準の一部として、成果物に対して満たすべき具体的な証拠要件。各義務は「必須」または「免除可能」として定義されます。
