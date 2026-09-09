@@ -5,7 +5,7 @@ aliases:
   - state-gas
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **ステートガス**
@@ -22,6 +22,7 @@ Ethereumにおいて、ブロックチェーンの状態（ステート）への
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 
 ## 元の表記（英語）

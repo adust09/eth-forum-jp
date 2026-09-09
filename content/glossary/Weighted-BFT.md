@@ -4,7 +4,7 @@ aliases:
   - 加重ビザンチンフォールトトレランス (Weighted BFT)
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **加重ビザンチンフォールトトレランス (Weighted BFT)**
@@ -19,7 +19,7 @@ date: '2026-09-07'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 
 ## 元の表記（英語）
 

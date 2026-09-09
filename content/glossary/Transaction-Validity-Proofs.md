@@ -4,7 +4,7 @@ aliases:
   - トランザクション有効性証明
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **トランザクション有効性証明**
@@ -22,7 +22,7 @@ Ethereumプロトコルにおいて、特定のトランザクションが有効
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 
 ## 元の表記（英語）
 

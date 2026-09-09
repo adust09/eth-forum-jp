@@ -4,7 +4,7 @@ aliases:
   - VOPSプロファイル (Validity-Only Partial Statelessness Profiles)
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **VOPSプロファイル (Validity-Only Partial Statelessness Profiles)**
@@ -18,7 +18,7 @@ Validity-Only Partial Statelessness (VOPS) の具体的な適用方法を定義�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 
 ## 元の表記（英語）
 

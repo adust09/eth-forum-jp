@@ -4,7 +4,7 @@ aliases:
   - 検証ガス上限 (MAX_VERIFY_GAS)
 tags:
   - glossary
-date: '2026-09-07'
+date: '2026-09-09'
 ---
 
 **検証ガス上限 (MAX_VERIFY_GAS)**
@@ -20,7 +20,7 @@ EIP-8141フレームトランザクションの検証フェーズで許可され
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 
 ## 元の表記（英語）
 
