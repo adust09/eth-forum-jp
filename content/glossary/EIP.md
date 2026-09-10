@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
+- [[posts/magicians-2026-09-09-p2p-networking-8-september-09-2026-29630|P2Pネットワーキング #8 2026年9月9日]]（2026-09-09）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/magicians-2026-09-07-eip-8411-fast-execution-payload-broadcast-29613|EIP-8411: 高速実行ペイロードブロードキャスト]]（2026-09-07）
 - [[posts/magicians-2026-09-07-eip-editing-office-hour-eip-erc-meeting-113-sep-15-2026-29618|EIP編集オフィスアワー (EIP + ERC) ミーティング #113、2026年9月15日]]（2026-09-07）

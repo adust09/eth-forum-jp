@@ -4,7 +4,7 @@ aliases:
   - バンドル
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **バンドル**
@@ -19,7 +19,7 @@ date: '2026-09-09'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-09-from-60m-to-200m-simulating-glamsterdam-s-fee-market-25957|Glamsterdamのガス制限を60Mから200Mにシミュレーション：手数料市場はどうなるか]]（2026-09-09）
 
 ## 元の表記（英語）
 

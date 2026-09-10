@@ -4,7 +4,7 @@ aliases:
   - 証拠義務
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **証拠義務**

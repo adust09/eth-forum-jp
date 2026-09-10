@@ -4,7 +4,7 @@ aliases:
   - ドラフト (EIP/ERC)
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **ドラフト (EIP/ERC)**

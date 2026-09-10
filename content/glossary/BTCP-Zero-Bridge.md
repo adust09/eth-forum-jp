@@ -6,7 +6,7 @@ aliases:
   - BTCP
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **BTCPゼロブリッジ (Behavioral Transaction Continuity Protocol Zero-Bridge)**

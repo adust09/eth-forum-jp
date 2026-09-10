@@ -4,7 +4,7 @@ aliases:
   - 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)**
@@ -20,7 +20,7 @@ RowDASによって実現される、ブロブスペースのデータを複数�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-09-p2p-networking-8-september-09-2026-29630|P2Pネットワーキング #8 2026年9月9日]]（2026-09-09）
 
 ## 元の表記（英語）
 

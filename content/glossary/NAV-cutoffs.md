@@ -5,7 +5,7 @@ aliases:
   - Net Asset Value cutoffs
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **NAVカットオフ**
