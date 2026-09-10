@@ -5,7 +5,7 @@ aliases:
   - L2 Rollup
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **ロールアップ**
@@ -21,6 +21,7 @@ L2 スケーリング手法。実行を L2 で行い、データ・証明・状�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-07-31-eip-8357-evm-verification-key-registry-29222|EIP-8357: EVM検証鍵レジストリ]]（2026-07-31）

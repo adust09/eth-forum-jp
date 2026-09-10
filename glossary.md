@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-09
+last_updated: 2026-09-10
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11675,3 +11675,130 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8412-preregistered-acceptance-criteria/29609
 - desc: |
   事前登録された受入基準の一部として、成果物に対して満たすべき具体的な証拠要件。各義務は「必須」または「免除可能」として定義されます。
+
+## Temporal Liquidity Authorization
+- ja: テンポラル・リクイディティ承認 (TLA)
+- aliases: [TLA]
+- related: [temporal liquidity funding leg, temporal liquidity supply leg, EIP-1559]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25958
+- auto_source_url: https://ethresear.ch/t/letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559/25958
+- desc: |
+  EIP-1559における取引の時系列的な優先度を調整するための署名付きフィールド。取引がブロック内でより早く処理されることを求める「ファンディングレッグ」と、より遅い処理を受け入れることで手数料割引の対象となる「サプライレッグ」の2つの側面を持つ。
+
+## temporal liquidity funding leg
+- ja: テンポラル・リクイディティ・ファンディングレッグ
+- related: [Temporal Liquidity Authorization, temporal liquidity supply leg]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25958
+- auto_source_url: https://ethresear.ch/t/letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559/25958
+- desc: |
+  Temporal Liquidity Authorization (TLA) の一部で、取引がブロック内でより早く処理されることを求める側。消費者は一括払いの承認額をブロックローカルプールに提供し、引き換えに優先的な処理バンドを受け取る。
+
+## temporal liquidity supply leg
+- ja: テンポラル・リクイディティ・サプライレッグ
+- related: [Temporal Liquidity Authorization, temporal liquidity funding leg]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25958
+- auto_source_url: https://ethresear.ch/t/letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559/25958
+- desc: |
+  Temporal Liquidity Authorization (TLA) の一部で、取引がブロック内でより遅い処理を受け入れることをコミットする側。これにより、取引はベースフィーを下回る手数料でブロックに含まれる資格を得る。
+
+## band (temporal ordering)
+- ja: バンド（時系列順序付け）
+- related: [Temporal Liquidity Authorization, execution ordering]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25958
+- auto_source_url: https://ethresear.ch/t/letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559/25958
+- desc: |
+  Temporal Liquidity Authorization (TLA) メカニズムにおいて、取引の実行順序を決定するために割り当てられる時間的区分。TLAの値に基づいて、取引はより早いバンドまたはより遅いバンドに配置され、ビルダーはそのバンド内での順序付けの自由を保持する。
+
+## Contextual validity
+- ja: 文脈的有効性
+- related: [Temporal Liquidity Authorization, block composition]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25958
+- auto_source_url: https://ethresear.ch/t/letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559/25958
+- desc: |
+  Temporal Liquidity Authorization (TLA) メカニズムによって導入される取引の有効性の一種。ベースフィーを下回る取引が、同じブロック内で十分な資金提供がある場合にのみ有効となる状態を指す。これにより、取引のインクルード可能性がブロックの構成に依存するようになる。
+
+## gas schedule
+- ja: ガススケジュール
+- related: [gas cost, EIP-1559]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25957
+- auto_source_url: https://ethresear.ch/t/from-60m-to-200m-simulating-glamsterdam-s-fee-market/25957
+- desc: |
+  Ethereumトランザクションの実行に必要なガス量を計算するためのルールセットです。アップグレードによって変更されることがあり、トランザクションコストに大きな影響を与えます。
+
+## effective tip
+- ja: 実効チップ
+- related: [base fee, priority fee, EIP-1559]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25957
+- auto_source_url: https://ethresear.ch/t/from-60m-to-200m-simulating-glamsterdam-s-fee-market/25957
+- desc: |
+  EIP-1559において、ユーザーがトランザクションの優先順位付けのために支払うチップです。ベースフィーと合わせて実効価格を構成し、ブロックビルダーがトランザクションを選択する際の重要な要素となります。
+
+## block utilisation
+- ja: ブロック利用率
+- related: [gas limit, EIP-1559, base fee]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25957
+- auto_source_url: https://ethresear.ch/t/from-60m-to-200m-simulating-glamsterdam-s-fee-market/25957
+- desc: |
+  ブロックのガスリミットに対して、実際に使用されたガスの割合です。EIP-1559では、この利用率が50%を上回るとベースフィーが上昇し、下回ると下降する仕組みになっています。
+
+## State Trie
+- ja: ステートツリー (State Trie)
+- related: [Merkle Patricia Trie, State Root]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25950
+- auto_source_url: https://ethresear.ch/t/bloom-filters-and-keyed-nonces/25950
+- desc: |
+  Ethereumの全アカウントの状態を効率的に保存・検証するために使用されるMerkle Patricia Trieの一種です。アカウントの残高、ストレージ、コード、nonceなどの情報がツリー構造で管理され、状態の変更を簡潔なルートハッシュで表現できます。
+
+## Bloom Filter
+- ja: ブルームフィルター
+- related: [VOPS, Binary Nonce, Stateless Node]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25950
+- auto_source_url: https://ethresear.ch/t/bloom-filters-and-keyed-nonces/25950
+- desc: |
+  ある要素が集合のメンバーであるかを高速にテストできる確率的データ構造です。誤陽性（false positive）は許容するが、誤陰性（false negative）は発生しません。Ethereumでは、ステートレスノードがVOPS状態の成長を抑制するために、特にバイナリノンスの存在確認に利用されることが提案されています。
+
+## NONCE_MANAGER
+- ja: ノンスマネージャー (NONCE_MANAGER)
+- related: [Keyed Nonces, EIP-8250, Frame Transaction]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25950
+- auto_source_url: https://ethresear.ch/t/bloom-filters-and-keyed-nonces/25950
+- desc: |
+  EIP-8250で導入されるシステムコントラクトです。フレームトランザクションで使用されるキー付きノンスを管理し、各送信者が複数の独立したノンスを持つことを可能にします。ノンスの値はリプレイ攻撃を防ぐために使用されます。
+
+## Binary Nonce
+- ja: バイナリノンス
+- related: [Keyed Nonces, NONCE_MANAGER, Bloom Filter, UTXO Model]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25950
+- auto_source_url: https://ethresear.ch/t/bloom-filters-and-keyed-nonces/25950
+- desc: |
+  キー付きノンスの一種で、値が0または1のみを取ることを意図しています。主にUTXOモデルを模倣したプライバシープロトコルなどで、使用済み（nullified）であることを示すために一度だけ使用されます。ブルームフィルターによる効率的な検証に適しています。
+
+## Non-Binary Nonce
+- ja: 非バイナリノンス
+- related: [Keyed Nonces, NONCE_MANAGER, Bloom Filter]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 25950
+- auto_source_url: https://ethresear.ch/t/bloom-filters-and-keyed-nonces/25950
+- desc: |
+  キー付きノンスの一種で、値が任意に増加するカウンターとして使用されます。複数の独立した送信者が同じアカウントを使用するシナリオなどで、各送信者が独自のリプレイ保護メカニズムを持つために利用されます。ブルームフィルターによる効率的な検証には適しません。
+
+## Ethp2p
+- ja: Ethp2p (イーサリアムP2Pプロトコル)
+- related: [P2P networking, Gossipsub]
+- auto_added: 2026-09-10
+- auto_source_topic_id: 29630
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-8-september-09-2026/29630
+- desc: |
+  EthereumのP2Pネットワーク層に関連するプロトコルまたは実装を指します。ノード間のデータ交換や情報伝播を担い、ネットワークの健全性と効率性を維持するために重要です。

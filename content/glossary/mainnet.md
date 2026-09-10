@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **メインネット**
@@ -17,6 +17,8 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
+- [[posts/ethresear-2026-09-09-from-60m-to-200m-simulating-glamsterdam-s-fee-market-25957|Glamsterdamのガス制限を60Mから200Mにシミュレーション：手数料市場はどうなるか]]（2026-09-09）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/ethresear-2026-08-27-an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables-25828|EIP-8304とUTXO証明テーブルを用いた認証済みUTXO発見の評価]]（2026-08-27）

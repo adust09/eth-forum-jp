@@ -4,7 +4,7 @@ aliases:
   - 委任チェーン (Delegation Chain)
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **委任チェーン (Delegation Chain)**

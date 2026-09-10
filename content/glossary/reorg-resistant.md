@@ -4,7 +4,7 @@ aliases:
   - リorg耐性 (reorg-resistant)
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **リorg耐性 (reorg-resistant)**

@@ -4,7 +4,7 @@ aliases:
   - スラッシング曲線 (Slashing curves)
 tags:
   - glossary
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 **スラッシング曲線 (Slashing curves)**

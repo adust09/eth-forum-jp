@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-09'
+date: '2026-09-10'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -112,6 +112,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Balance-sunset|Balance sunset]] — 残高サンセット
 - [[glossary/balance-update-proof|balance update proof]] — 残高更新証明
 - [[glossary/BALANCERESETREFUND|BALANCE_RESET_REFUND]] — 残高リセット返金
+- [[glossary/band|band (temporal ordering)]] — バンド（時系列順序付け）
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
@@ -123,6 +124,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
 - [[glossary/Bid-commitment|Bid commitment]] — ビッドコミットメント (Bid commitment)
+- [[glossary/Binary-Nonce|Binary Nonce]] — バイナリノンス
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/bind-to-lock-model|bind-to-lock model]] — バインド・トゥ・ロックモデル
 - [[glossary/bind-verify-commit-synchronization-cycle|bind-verify-commit synchronization cycle]] — バインド・検証・コミット同期サイクル
@@ -139,11 +141,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Block-Ordering|Block Ordering]] — ブロック順序付け
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
+- [[glossary/block-utilisation|block utilisation]] — ブロック利用率
 - [[glossary/BLOCKHASH|BLOCKHASH]] — BLOCKHASH (オペコード)
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
+- [[glossary/Bloom-Filter|Bloom Filter]] — ブルームフィルター
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
 - [[glossary/BLS-withdrawal-credential-retirement|BLS withdrawal credential retirement]] — BLS引き出しクレデンシャルの引退
 - [[glossary/BLSToExecutionChange|BLSToExecutionChange]] — BLSToExecutionChange
@@ -248,6 +252,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/contention-classes|contention classes]] — 競合クラス
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Context-Opcodes|Context Opcodes]] — コンテキストオペコード
+- [[glossary/Contextual-validity|Contextual validity]] — 文脈的有効性
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
 - [[glossary/Contract-Deactivation|Contract Deactivation]] — コントラクト非アクティブ化
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
@@ -352,6 +357,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ecrecover|ecrecover]] — ecrecover (組み込み関数)
 - [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
 - [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
+- [[glossary/effective-tip|effective tip]] — 実効チップ
 - [[glossary/EIP|EIP]] — EIP（Ethereum 改善提案）
 - [[glossary/EIP-Board|EIP Board]] — EIPボード
 - [[glossary/EIP-Editing-Office-Hours|EIP Editing Office Hours]] — EIP編集オフィスアワー
@@ -404,6 +410,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]] — イーサリアム透明性レイヤー (ETL)
 - [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
+- [[glossary/Ethp2p|Ethp2p]] — Ethp2p (イーサリアムP2Pプロトコル)
 - [[glossary/ETNL-Semantic-Layer|ETNL Semantic Layer]] — ETNLセマンティックレイヤー (実行トレース正規化レイヤー)
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/eviction-mechanism|eviction mechanism]] — 削除メカニズム
@@ -486,6 +493,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
 - [[glossary/Funding-Efficiency|Funding Efficiency]] — 資金効率
 - [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
+- [[glossary/gas-schedule|gas schedule]] — ガススケジュール
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
@@ -703,10 +711,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Net-Gas-Metering-for-Account-Changes|Net Gas Metering for Account Changes]] — アカウント変更のネットガス計測
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
+- [[glossary/Non-Binary-Nonce|Non-Binary Nonce]] — 非バイナリノンス
 - [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
 - [[glossary/Non-upgradeable-contracts|Non-upgradeable contracts]] — アップグレード不可能なコントラクト
 - [[glossary/Non-Zero-Sum-Transfer|Non-Zero-Sum Transfer]] — 非ゼロサム転送 (Non-Zero-Sum Transfer)
 - [[glossary/Nonce-front-running|Nonce front-running]] — ナンス・フロントランニング
+- [[glossary/NONCEMANAGER|NONCE_MANAGER]] — ノンスマネージャー (NONCE_MANAGER)
 - [[glossary/Nonce-free-transactions|Nonce-free transactions]] — ノンスフリー・トランザクション (Nonce-free transactions)
 - [[glossary/Nonzero-Evidence-Commitment|Nonzero Evidence Commitment]] — ゼロでない証拠コミットメント (Nonzero Evidence Commitment)
 - [[glossary/Normalization-Profile|Normalization Profile]] — 正規化プロファイル
@@ -1085,6 +1095,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-Root|State Root]] — ステートルート
 - [[glossary/State-Tiering-by-Periods|State Tiering by Periods]] — 期間別ステート階層化
 - [[glossary/State-transition-function|State transition function]] — 状態遷移関数
+- [[glossary/State-Trie|State Trie]] — ステートツリー (State Trie)
 - [[glossary/state-tuple|state tuple]] — 状態タプル
 - [[glossary/State-creation-costs|State-creation costs]] — 状態作成コスト
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
@@ -1126,6 +1137,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/TCREATE|TCREATE]] — TCREATEオペコード
 - [[glossary/Telomere|Telomere (reproduction counter)]] — テロメア（複製カウンター）
 - [[glossary/Temporal-Invariant|Temporal Invariant]] — 時間的不変条件
+- [[glossary/Temporal-Liquidity-Authorization|Temporal Liquidity Authorization]] — テンポラル・リクイディティ承認 (TLA)
+- [[glossary/temporal-liquidity-funding-leg|temporal liquidity funding leg]] — テンポラル・リクイディティ・ファンディングレッグ
+- [[glossary/temporal-liquidity-supply-leg|temporal liquidity supply leg]] — テンポラル・リクイディティ・サプライレッグ
 - [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
 - [[glossary/testingcommitBlockV1|testing_commitBlockV1]] — testing_commitBlockV1 (ブロックコミットテストV1)
 - [[glossary/testnet|testnet]] — テストネット
