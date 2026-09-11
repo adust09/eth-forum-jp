@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-10
+last_updated: 2026-09-11
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11802,3 +11802,156 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/p2p-networking-8-september-09-2026/29630
 - desc: |
   EthereumのP2Pネットワーク層に関連するプロトコルまたは実装を指します。ノード間のデータ交換や情報伝播を担い、ネットワークの健全性と効率性を維持するために重要です。
+
+## keccak256 hash
+- ja: Keccak-256ハッシュ
+- related: [hash, cryptographic hash function]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29639
+- auto_source_url: https://ethereum-magicians.org/t/b-l-o-h-ard-a-minimal-on-chain-message-board/29639
+- desc: |
+  Ethereumで広く利用されるハッシュ関数Keccak-256によって生成されたハッシュ値。データの整合性検証やアドレス生成などに用いられます。
+
+## ownerless contract
+- ja: オーナーレスコントラクト
+- related: [immutable contract, decentralized application]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29639
+- auto_source_url: https://ethereum-magicians.org/t/b-l-o-h-ard-a-minimal-on-chain-message-board/29639
+- desc: |
+  特定の所有者や管理者アドレスを持たないスマートコントラクト。一度デプロイされると、その動作はコードによってのみ決定され、外部からの変更や停止ができないため、高い分散性と耐検閲性を持つとされます。
+
+## gate
+- ja: ゲート (コントラクト)
+- related: [access control, smart contract]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29639
+- auto_source_url: https://ethereum-magicians.org/t/b-l-o-h-ard-a-minimal-on-chain-message-board/29639
+- desc: |
+  特定のオンチェーンアクション（例: メッセージへの返信）を実行する前に、アカウントがそのアクションを許可されているかを検証する役割を持つスマートコントラクト。ブロックリスト、フォロワー限定などのアクセスルールを適用できます。
+
+## read-only contract
+- ja: 読み取り専用コントラクト
+- related: [smart contract, state]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29639
+- auto_source_url: https://ethereum-magicians.org/t/b-l-o-h-ard-a-minimal-on-chain-message-board/29639
+- desc: |
+  その状態が一度デプロイされると変更できない、または意図的に状態変更機能を持たないスマートコントラクト。主にデータの参照や計算に利用され、高い信頼性と予測可能性を提供します。
+
+## Code Delegation
+- ja: コード委譲
+- related: [Account Abstraction, SETCODEFROM]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29638
+- auto_source_url: https://ethereum-magicians.org/t/partitioned-binary-trees-and-the-future-of-code-delegation/29638
+- desc: |
+  スマートコントラクトのコードを直接デプロイする代わりに、別のアドレスのコードを参照して実行するパターン。これにより、大規模なコードのデプロイコストを削減し、コードの再利用やアップグレードを可能にする。
+
+## Codehash
+- ja: コードハッシュ
+- related: [Partitioned Binary Tree, Code Immutability]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29638
+- auto_source_url: https://ethereum-magicians.org/t/partitioned-binary-trees-and-the-future-of-code-delegation/29638
+- desc: |
+  スマートコントラクトのバイトコードのハッシュ値。Partitioned Binary Treeの導入により、コード自体ではなくこのハッシュを介してコードを参照する仕組みが提案されており、コードの不変性を異なるレベルで保証する。
+
+## Code Immutability
+- ja: コードの不変性
+- related: [SETCODEFROM, Codehash]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29638
+- auto_source_url: https://ethereum-magicians.org/t/partitioned-binary-trees-and-the-future-of-code-delegation/29638
+- desc: |
+  Ethereumのスマートコントラクトにおいて、一度デプロイされたコントラクトのコードは変更できないというプロトコルの特性。SETCODEFROMのような提案により、この不変性の定義や適用範囲が議論されている。
+
+## Divergence
+- ja: ダイバージェンス（意見の相違）
+- related: [Vantage, Resolution Envelope]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29637
+- auto_source_url: https://ethereum-magicians.org/t/vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826/29637
+- desc: |
+  ERC-8309の文脈において、複数の「Vantage」が同じ観測について意見が一致しない状態を指します。これは、サイレントな重複排除ではなく、ファーストクラスのストア状態として保存され、解決ポリシーによって処理されます。
+
+## Vantage
+- ja: バンテージ
+- related: [Divergence]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29637
+- auto_source_url: https://ethereum-magicians.org/t/vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826/29637
+- desc: |
+  ERC-8309のコンパニオン仕様において、観測（observation）の特定の視点または情報源を指します。複数のバンテージからの観測が「Divergence」を引き起こす可能性があります。
+
+## Resolution Envelope
+- ja: レゾリューション・エンベロープ
+- related: [Divergence, Resolution Policy]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29637
+- auto_source_url: https://ethereum-magicians.org/t/vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826/29637
+- desc: |
+  ERC-8309のコンパニオン仕様で定義される、あらゆる解決ポリシーが満たすべき構造化された要件（E1-E6）です。合意内容、参加者、フォールトモデル、ファイナリティルール、評価期間、必要なエビデンスなどを規定します。
+
+## False Green
+- ja: 偽陽性合意（False Green）
+- related: [Divergence, False Red]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29637
+- auto_source_url: https://ethereum-magicians.org/t/vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826/29637
+- desc: |
+  ERC-8309のコンパニオン仕様における出力分類の禁止事項の一つです。解決された意見の相違（Divergence）を、合意（agreement）として報告してはならないというルールを意味します。
+
+## False Red
+- ja: 偽陰性相違（False Red）
+- related: [Divergence, False Green]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29637
+- auto_source_url: https://ethereum-magicians.org/t/vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826/29637
+- desc: |
+  ERC-8309のコンパニオン仕様における出力分類の禁止事項の一つです。未宣言の変換から意見の相違（Divergence）を捏造してはならないというルールを意味します。
+
+## Asynchronous Register Projection
+- ja: 非同期レジスタプロジェクション
+- related: [NFT, ERC-721, IRegisterProjection, IProjectionSettlement]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29634
+- auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
+- desc: |
+  ERC-721トークンの所有権が外部レジスタで更新される際に、オンチェーンでの記録と外部レジスタの更新の間の時間差を管理するための提案モデルです。過去の特定の時点での確定済み所有者を時間インデックス付きで提供します。
+
+## IRegisterProjection
+- ja: IRegisterProjection（レジスタプロジェクションインターフェース）
+- related: [Asynchronous Register Projection, NFT, ERC-165]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29634
+- auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
+- desc: |
+  非同期レジスタプロジェクションモデルのコアインターフェースです。トークンの履歴を辿ったり、特定の時点での所有者を検索したり、その情報が最終的であるかを確認したりするための関数を公開します。
+
+## IProjectionSettlement
+- ja: IProjectionSettlement（プロジェクション決済インターフェース）
+- related: [Asynchronous Register Projection, Open Projection Gap, ERC-165]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29634
+- auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
+- desc: |
+  非同期レジスタプロジェクションのオプションの決済インターフェースです。発見可能な権限、期限付きの決済デッドライン、トークンごとのオープンなプロジェクションギャップ、およびプルーフ検証済みの承認機能を追加します。
+
+## Open Projection Gap
+- ja: オープンプロジェクションギャップ
+- related: [Asynchronous Register Projection, IProjectionSettlement]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29634
+- auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
+- desc: |
+  非同期レジスタプロジェクションモデルにおいて、特定の時点でのトークン所有権の変更が進行中であり、まだオンチェーンで最終的に承認されていない状態を指します。このギャップは、決済インターフェースを通じて閉じられます。
+
+## Repeated Supersession
+- ja: 繰り返しの上書き（リピーテッド・スーパーセッション）
+- related: [Asynchronous Register Projection, Liveness]
+- auto_added: 2026-09-11
+- auto_source_topic_id: 29634
+- auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
+- desc: |
+  非同期レジスタプロジェクションモデルにおける懸念事項の一つです。外部レジスタがエントリーの発行を停止したり、頻繁に過去の記録を上書きしたりすることで、最近の時点での情報が確定せず、システムがライブネスを失う可能性を指します。

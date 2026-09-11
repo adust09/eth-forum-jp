@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-10'
+date: '2026-09-11'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -88,6 +88,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Association-Set-Provider|Association Set Provider]] — アソシエーションセットプロバイダー
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
 - [[glossary/async-sublayer|async sublayer]] — 非同期サブレイヤー
+- [[glossary/Asynchronous-Register-Projection|Asynchronous Register Projection]] — 非同期レジスタプロジェクション
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
@@ -209,9 +210,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/Clear-Signing-On-Chain-Descriptors-Registry|Clear Signing On-Chain Descriptors Registry]] — クリア署名オンチェーン記述子レジストリ
 - [[glossary/Code-chunking|Code chunking]] — コードチャンキング
+- [[glossary/Code-Delegation|Code Delegation]] — コード委譲
+- [[glossary/Code-Immutability|Code Immutability]] — コードの不変性
 - [[glossary/Code-binding|Code-binding]] — コード拘束性
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
 - [[glossary/code-is-authority-account|code-is-authority account]] — コードが権限となるアカウント
+- [[glossary/Codehash|Codehash]] — コードハッシュ
 - [[glossary/Cohort|Cohort]] — コホート
 - [[glossary/Cohort-Order-Book|Cohort Order Book]] — コホートオーダーブック
 - [[glossary/cold-storage-reads|cold storage reads]] — コールドストレージ読み取り
@@ -339,6 +343,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/distance-weighted-head-reward|distance-weighted head reward]] — 距離加重ヘッド報酬
 - [[glossary/Distributed-Blobspace-Reconstruction|Distributed Blobspace Reconstruction]] — 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
 - [[glossary/Distributed-Validator-Technology|Distributed Validator Technology]] — 分散型バリデータ技術 (DVT)
+- [[glossary/Divergence|Divergence]] — ダイバージェンス（意見の相違）
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
 - [[glossary/DMQ-framework|DMQ framework]] — DMQフレームワーク
@@ -456,6 +461,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/fair-exchange-problem|fair exchange problem]] — フェアエクスチェンジ問題
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
+- [[glossary/False-Green|False Green]] — 偽陽性合意（False Green）
+- [[glossary/False-Red|False Red]] — 偽陰性相違（False Red）
 - [[glossary/Fast-Confirmation-Rule|Fast Confirmation Rule]] — 高速承認ルール
 - [[glossary/Fast-Reed-Solomon-Interactive-Oracle-Proofs-of-Proximity|Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] — 高速リード・ソロモン対話型近接性オラクル証明 (FRI)
 - [[glossary/FAT-Agent|FAT Agent]] — FATエージェント
@@ -495,6 +502,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
 - [[glossary/gas-schedule|gas schedule]] — ガススケジュール
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
+- [[glossary/gate|gate]] — ゲート (コントラクト)
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
 - [[glossary/Generic-Key-Value-String-Surface|Generic Key-Value String Surface]] — 汎用キー・バリュー文字列インターフェース
@@ -575,6 +583,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/intrinsic-gas|intrinsic gas]] — 固有ガス
 - [[glossary/Invariant|Invariant]] — 不変条件
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
+- [[glossary/IProjectionSettlement|IProjectionSettlement]] — IProjectionSettlement（プロジェクション決済インターフェース）
+- [[glossary/IRegisterProjection|IRegisterProjection]] — IRegisterProjection（レジスタプロジェクションインターフェース）
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
 - [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
@@ -586,6 +596,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
 - [[glossary/Judgment-Window|Judgment Window]] — 判断期間
 - [[glossary/K-block-attack|K-block attack]] — Kブロック攻撃
+- [[glossary/keccak256-hash|keccak256 hash]] — Keccak-256ハッシュ
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Key-Rotation|Key Rotation]] — キーローテーション
 - [[glossary/Key-Selling|Key Selling]] — キー売却
@@ -756,6 +767,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/online-migration|online migration]] — オンライン移行
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
+- [[glossary/Open-Projection-Gap|Open Projection Gap]] — オープンプロジェクションギャップ
 - [[glossary/openings-root|openings root]] — オープニングルート
 - [[glossary/Operation-Restriction-Policy|Operation Restriction Policy]] — 操作制限ポリシー
 - [[glossary/Operation-level-restrictions|Operation-level restrictions]] — 操作レベルの制限
@@ -782,6 +794,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ossified|Ossified (status)]] — 骨化済み（ステータス）
 - [[glossary/Outcome-Switching|Outcome Switching]] — アウトカム・スイッチング（結果のすり替え）
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
+- [[glossary/ownerless-contract|ownerless contract]] — オーナーレスコントラクト
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
@@ -916,6 +929,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ragged-embedding|Ragged embedding]] — ラギッド埋め込み
 - [[glossary/RANDAO|RANDAO]] — RANDAO
 - [[glossary/RANDAO-target-slot-attack|RANDAO target slot attack]] — RANDAOターゲットスロット攻撃
+- [[glossary/read-only-contract|read-only contract]] — 読み取り専用コントラクト
 - [[glossary/Reasoned-Settlement|Reasoned Settlement]] — 推論に基づく決済
 - [[glossary/Reasoning-Attestation|Reasoning Attestation]] — 推論証明
 - [[glossary/Rebasing|Rebasing]] — リベース
@@ -945,6 +959,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Relationship-Anchored-Money|Relationship-Anchored Money]] — 関係性アンカー型マネー
 - [[glossary/renounce-upgrade-authority|renounce upgrade authority]] — アップグレード権限の放棄
 - [[glossary/reorg-resistant|reorg-resistant]] — リorg耐性 (reorg-resistant)
+- [[glossary/Repeated-Supersession|Repeated Supersession]] — 繰り返しの上書き（リピーテッド・スーパーセッション）
 - [[glossary/Replay-Behavior|Replay Behavior]] — リプレイ挙動
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
 - [[glossary/replay-posture|replay posture]] — リプレイポスチャ (Replay Posture)
@@ -962,6 +977,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reserve-backed-token|reserve-backed token]] — 準備金裏付けトークン
 - [[glossary/reserveId|reserveId]] — 準備金ID
 - [[glossary/Resistance-Contingent-Delivery|Resistance-Contingent Delivery]] — 抵抗依存型デリバリー
+- [[glossary/Resolution-Envelope|Resolution Envelope]] — レゾリューション・エンベロープ
 - [[glossary/Resolution-Layer|Resolution Layer]] — 解決層
 - [[glossary/Resource-Vector|Resource Vector]] — リソースベクトル
 - [[glossary/Resource-specific-capacity-rules|Resource-specific capacity rules]] — リソース固有の容量ルール
@@ -1228,6 +1244,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム
 - [[glossary/Value-transfer-gas-component|Value-transfer gas component]] — 価値転送ガスコンポーネント
+- [[glossary/Vantage|Vantage]] — バンテージ
 - [[glossary/Vector-commitment|Vector commitment]] — ベクトルコミットメント
 - [[glossary/Velocity-Control|Velocity Control]] — 流動性速度制御
 - [[glossary/verifiable-agent-execution|verifiable agent execution]] — 検証可能なエージェント実行

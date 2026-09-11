@@ -5,7 +5,7 @@ aliases:
   - L1 zkEVM
 tags:
   - glossary
-date: '2026-09-10'
+date: '2026-09-11'
 ---
 
 **L1-zkEVM (レイヤー1 zkEVM)**

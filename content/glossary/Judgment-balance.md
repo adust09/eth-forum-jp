@@ -4,7 +4,7 @@ aliases:
   - 判断残高
 tags:
   - glossary
-date: '2026-09-10'
+date: '2026-09-11'
 ---
 
 **判断残高**

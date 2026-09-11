@@ -5,7 +5,7 @@ aliases:
   - The coalition beyond mechanism reach
 tags:
   - glossary
-date: '2026-09-10'
+date: '2026-09-11'
 ---
 
 **オフチェーン調整**
@@ -19,7 +19,7 @@ date: '2026-09-10'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-10-b-l-o-h-ard-a-minimal-on-chain-message-board-29639|B(l)o(h)ard: 最小限のオンチェーンメッセージボード]]（2026-09-10）
 
 ## 元の表記（英語）
 
