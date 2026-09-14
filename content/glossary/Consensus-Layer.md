@@ -5,7 +5,7 @@ aliases:
   - CL
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **コンセンサス層**
@@ -18,6 +18,7 @@ Ethereumの2つの主要な層のうちの1つで、ブロックのファイナ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）

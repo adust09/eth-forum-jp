@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -28,6 +28,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/account-leaf|account leaf]] — アカウントリーフ
 - [[glossary/Account-level-authorization|Account level authorization]] — アカウントレベル承認
 - [[glossary/Account-locking|Account locking]] — アカウントロック
+- [[glossary/Account-Validation-Module|Account Validation Module]] — アカウント検証モジュール
 - [[glossary/Account-warming-charge|Account-warming charge]] — アカウントウォーミングチャージ
 - [[glossary/accounting-actions|accounting actions]] — 会計アクション
 - [[glossary/accounting-invariant|accounting invariant]] — 会計不変条件
@@ -41,6 +42,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Administrative-invalidation|Administrative invalidation]] — 管理的無効化 (Administrative invalidation)
 - [[glossary/Adoption-Levels|Adoption Levels]] — 導入レベル
+- [[glossary/Adversarial-Prompt-Injection-Attack|Adversarial Prompt Injection Attack]] — 敵対的プロンプトインジェクション攻撃
 - [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
 - [[glossary/agent-action|agent action]] — エージェントアクション
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
@@ -58,6 +60,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Aggregator|Aggregator]] — アグリゲーター
 - [[glossary/Agreement-Hash|Agreement Hash]] — 合意ハッシュ
 - [[glossary/Agreement-Versioning|Agreement Versioning]] — 合意のバージョン管理
+- [[glossary/AI-Agent-Proof-of-Safety-Attestation|AI Agent Proof-of-Safety Attestation]] — AIエージェントの安全性証明アテステーション
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
 - [[glossary/AI-agents|AI agents]] — AIエージェント
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
@@ -99,6 +102,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AUCIL|AUCIL]] — AUCIL (オークションベース・インクルージョンリスト)
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
 - [[glossary/AUTHENTICATOR-signature-scheme|AUTHENTICATOR signature scheme]] — AUTHENTICATOR署名スキーム
+- [[glossary/Authoritative-Finality|Authoritative Finality]] — 権威ある最終性
 - [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
@@ -322,6 +326,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/Deterministic-Auditability|Deterministic Auditability]] — 決定論的監査可能性
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
 - [[glossary/deterministic-RISC-V-interpreter|deterministic RISC-V interpreter]] — 決定論的RISC-Vインタープリタ
@@ -380,6 +385,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/eMBER|eMBER]] — eMBER (ePBS実行報酬強制焼却)
 - [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
 - [[glossary/Encode-Prove-DAS|Encode + Prove DAS]] — エンコード＋証明DAS
+- [[glossary/Encrypt-The-Mempool|Encrypt The Mempool]] — メムプール暗号化
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
 - [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
@@ -521,6 +527,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Groth16-proof|Groth16 proof]] — Groth16証明
 - [[glossary/Guard-contract|Guard contract]] — ガードコントラクト (Guard contract)
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
+- [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
@@ -601,6 +608,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Key-Rotation|Key Rotation]] — キーローテーション
 - [[glossary/Key-Selling|Key Selling]] — キー売却
 - [[glossary/keyid|key_id]] — キーID
+- [[glossary/key-reveal-allowlist|key-reveal allowlist]] — キー開示許可リスト
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/keystore-backed-account|keystore-backed account]] — キーストアに裏打ちされたアカウント
@@ -618,7 +626,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/launch-primitive|launch primitive]] — ローンチプリミティブ
 - [[glossary/Layer-1|Layer 1]] — レイヤー1
 - [[glossary/Layer-separation-enforcement|Layer separation enforcement]] — レイヤー分離の強制
+- [[glossary/Lean-4|Lean 4]] — Lean 4
 - [[glossary/Lean-Staking|Lean Staking]] — リーンステーキング
+- [[glossary/LeanSha256|LeanSha256]] — LeanSha256
 - [[glossary/leanSpec|leanSpec]] — leanSpec
 - [[glossary/leanSPHINCS|leanSPHINCS]] — leanSPHINCS（リーンSPHINCS）
 - [[glossary/leanVM|leanVM]] — leanVM
@@ -638,6 +648,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/LLM-Judge|LLM Judge]] — LLMジャッジ
 - [[glossary/LMD-GHOST|LMD-GHOST]] — LMD-GHOST
 - [[glossary/load|load (MATCHA)]] — load (MATCHAにおける)
+- [[glossary/Load-Leveling|Load Leveling]] — ロードレベリング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
@@ -723,6 +734,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Non-Binary-Nonce|Non-Binary Nonce]] — 非バイナリノンス
+- [[glossary/Non-Blocking-Settlement|Non-Blocking Settlement]] — 非ブロッキング決済
 - [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
 - [[glossary/Non-upgradeable-contracts|Non-upgradeable contracts]] — アップグレード不可能なコントラクト
 - [[glossary/Non-Zero-Sum-Transfer|Non-Zero-Sum Transfer]] — 非ゼロサム転送 (Non-Zero-Sum Transfer)
@@ -828,6 +840,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
 - [[glossary/Permissionless-authenticators|Permissionless authenticators]] — パーミッションレス・オーセンティケーター
+- [[glossary/permissionlessness|permissionlessness]] — パーミッションレス性
 - [[glossary/persistence-diagram|persistence diagram]] — パーシステンス図
 - [[glossary/persistent-homology|persistent homology]] — パーシステントホモロジー
 - [[glossary/Persistent-Identity-Token|Persistent Identity Token]] — 永続的アイデンティティトークン (PIP)
@@ -918,6 +931,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
+- [[glossary/Pure-Box|Pure Box]] — ピュアボックス
 - [[glossary/pure-context|pure context]] — ピュアコンテキスト
 - [[glossary/pure-function|pure function]] — pure関数 (純粋関数)
 - [[glossary/Purpose-Bound-Third-Party-Data-Consent|Purpose-Bound Third-Party Data Consent]] — 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
@@ -1064,6 +1078,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/single-slot-finality|single-slot finality]] — シングルスロットファイナリティ
 - [[glossary/single-source-hypothesis|single-source hypothesis]] — 単一ソース仮説
 - [[glossary/Single-successor-correction-chain|Single-successor correction chain]] — 単一後続修正チェーン
+- [[glossary/SizzLean|SizzLean]] — SizzLean
 - [[glossary/SkillBinding|SkillBinding]] — スキルバインディング
 - [[glossary/SkillRoot|SkillRoot]] — スキルルート
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
@@ -1071,6 +1086,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Slippage-policy|Slippage policy]] — スリッページポリシー
 - [[glossary/SLOAD|SLOAD]] — SLOAD (オペコード)
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
+- [[glossary/Slow-Verification-Layer|Slow Verification Layer]] — 低速検証レイヤー
+- [[glossary/Smart-Account|Smart Account]] — スマートアカウント
 - [[glossary/Smart-Contract-Emergency-Response|Smart Contract Emergency Response]] — スマートコントラクト緊急対応
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ

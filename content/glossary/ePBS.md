@@ -5,7 +5,7 @@ aliases:
   - enshrined Proposer-Builder Separation
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **ePBS (enshrined Proposer-Builder Separation)**
@@ -19,6 +19,7 @@ date: '2026-09-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/magicians-2026-08-10-eip-8375-ember-epbs-mandatory-burn-of-execution-rewards-29380|EIP-8375: eMBER、ePBSにおける実行報酬の強制バーン]]（2026-08-10）

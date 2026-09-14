@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,8 @@ date: '2026-09-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
+- [[posts/magicians-2026-09-11-encrypt-the-mempool-10-september-16-2026-29647|Encrypt The Mempool 第10回、2026年9月16日]]（2026-09-11）
 - [[posts/ethresear-2026-08-28-proposed-pq-upgrade-for-ecrecover-25844|ecrecoverに対する量子耐性ホットフィックスの提案]]（2026-08-28）
 - [[posts/ethresear-2026-08-18-formally-verified-security-for-pq-das-leanda-25746|PQ-DAS / leanDA の形式検証されたセキュリティ]]（2026-08-18）
 - [[posts/magicians-2026-08-17-encrypt-the-mempool-9-august-19-2026-29448|メムプールの暗号化 #9、2026年8月19日]]（2026-08-17）

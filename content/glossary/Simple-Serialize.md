@@ -5,7 +5,7 @@ aliases:
   - SSZ
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **シンプルシリアライズ**
@@ -18,7 +18,7 @@ Ethereumのコンセンサス層で広く使用されている、効率的で決
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 
 ## 元の表記（英語）
 
