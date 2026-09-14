@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-11
+last_updated: 2026-09-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -11955,3 +11955,159 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/working-draft-asynchronous-register-projection-for-nfts/29634
 - desc: |
   非同期レジスタプロジェクションモデルにおける懸念事項の一つです。外部レジスタがエントリーの発行を停止したり、頻繁に過去の記録を上書きしたりすることで、最近の時点での情報が確定せず、システムがライブネスを失う可能性を指します。
+
+## SizzLean
+- ja: SizzLean
+- related: [Lean 4, SSZ, Formal Verification]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 25988
+- auto_source_url: https://ethresear.ch/t/lean4-ssz-library-formally-verified-and-easy-to-use/25988
+- desc: |
+  Lean 4で実装された、EthereumのSSZ（Simple Serialize）スタックの形式検証済みライブラリです。SSZコーデックの主要な特性（Roundtrip、Non-malleability、Size bound）を機械的に証明し、コンセンサスプロトコルで使われる全てのSSZタイプをカバーします。
+
+## Lean 4
+- ja: Lean 4
+- related: [Formal Verification, SizzLean]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 25988
+- auto_source_url: https://ethresear.ch/t/lean4-ssz-library-formally-verified-and-easy-to-use/25988
+- desc: |
+  形式検証と定理証明のためのプログラミング言語および証明アシスタントです。Ethereumリサーチにおいて、プロトコル仕様や実装の正確性を数学的に証明するために利用されます。
+
+## LeanSha256
+- ja: LeanSha256
+- related: [SHA-256, SizzLean, Formal Verification]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 25988
+- auto_source_url: https://ethresear.ch/t/lean4-ssz-library-formally-verified-and-easy-to-use/25988
+- desc: |
+  Lean 4で完全に実装されたSHA-256ハッシュ関数ライブラリです。FIPS 180-4仕様に対して圧縮関数とメッセージスケジュールが形式的に証明されており、SizzLeanの信頼基盤として機能します。
+
+## Pure Box
+- ja: ピュアボックス
+- aliases: [Cached Box]
+- related: [SizzLean, Formal Verification]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 25988
+- auto_source_url: https://ethresear.ch/t/lean4-ssz-library-formally-verified-and-easy-to-use/25988
+- desc: |
+  SizzLeanライブラリにおける、値とそのハッシュツリーを抽象化する概念です。ピュアボックスはLeanカーネル下での証明に使用され、キャッシュボックスは実行時のパフォーマンス最適化に使用されます。これにより、検証パスとランタイムパス間のドリフトを防ぎます。
+
+## Load Leveling
+- ja: ロードレベリング
+- related: [Real-World Asset (RWA), ERC-8415, Asynchronous Compliance]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29660
+- auto_source_url: https://ethereum-magicians.org/t/load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput/29660
+- desc: |
+  Ethereumの高速なオンチェーン実行と、不動産登記などのオフチェーンの低速な法務レジストリのスループットの不一致を解消するための設計パターンです。非同期バッファゾーンを確立することで、決済速度とオフチェーンレジストリのスループットを分離します。
+
+## Slow Verification Layer
+- ja: 低速検証レイヤー
+- related: [Load Leveling, Fast Execution Layer, Real-World Asset (RWA)]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29660
+- auto_source_url: https://ethereum-magicians.org/t/load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput/29660
+- desc: |
+  ロードレベリング設計パターンにおける、オフチェーンの法務レジストリや規制機関の役割を指します。オンチェーンの高速な実行レイヤーとは異なり、転送エージェントや法務カストディアンが状態更新を自身の運用スループット上限で非同期に消費・監査・記録します。
+
+## Non-Blocking Settlement
+- ja: 非ブロッキング決済
+- related: [Load Leveling, Authoritative Finality, Deterministic Auditability]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29660
+- auto_source_url: https://ethereum-magicians.org/t/load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput/29660
+- desc: |
+  RWAプロトコルにおける重要な不変条件の一つです。オフチェーンのキュー混雑によってオンチェーンの流動性が停止することが決してないように保証します。これにより、オンチェーン市場はオフチェーンの処理速度に依存せず、高速に機能し続けることができます。
+
+## Authoritative Finality
+- ja: 権威ある最終性
+- related: [Load Leveling, Non-Blocking Settlement, Deterministic Auditability]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29660
+- auto_source_url: https://ethereum-magicians.org/t/load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput/29660
+- desc: |
+  RWAプロトコルにおける重要な不変条件の一つです。オフチェーンの機関が法的所有権に対して最終的な拒否権を保持することを保証します。オンチェーンの実行が先行しても、最終的な法務上の決定権はオフチェーンにあることを示します。
+
+## Deterministic Auditability
+- ja: 決定論的監査可能性
+- related: [Load Leveling, Non-Blocking Settlement, Authoritative Finality]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29660
+- auto_source_url: https://ethereum-magicians.org/t/load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput/29660
+- desc: |
+  RWAプロトコルにおける重要な不変条件の一つです。非同期境界を越えて、全ての中間状態遷移が検証可能であることを保証します。これにより、オンチェーンとオフチェーンの状態が最終的に整合し、監査が可能となります。
+
+## AI Agent Proof-of-Safety Attestation
+- ja: AIエージェントの安全性証明アテステーション
+- related: [AI Agent, Safety Attestation, EIP-712]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29658
+- auto_source_url: https://ethereum-magicians.org/t/erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard/29658
+- desc: |
+  自律型AIエージェントがスマートコントラクトアカウントを通じて金融取引を実行する際に、その取引ペイロードが安全であることを暗号学的に証明するアテステーション。不正なプロンプトインジェクション攻撃や幻覚による誤った取引を防ぐために使用されます。
+
+## Adversarial Prompt Injection Attack
+- ja: 敵対的プロンプトインジェクション攻撃
+- aliases: [Prompt Injection Attack]
+- related: [AI Agent, Smart Contract Account, Hallucinated Transaction Call]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29658
+- auto_source_url: https://ethereum-magicians.org/t/erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard/29658
+- desc: |
+  AIエージェントが意図しない動作をするように、悪意のある入力（プロンプト）を注入する攻撃。特に、信頼できない入力源を介して間接的に指示を乗っ取る「間接的指示ハイジャック」などが含まれ、AIエージェントのセキュリティ上の主要な懸念事項です。
+
+## Hallucinated Transaction Call
+- ja: 幻覚による取引呼び出し
+- related: [AI Agent, Adversarial Prompt Injection Attack, Smart Contract Account]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29658
+- auto_source_url: https://ethereum-magicians.org/t/erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard/29658
+- desc: |
+  自律型AIエージェントが、誤った情報に基づいて存在しない、または意図しないスマートコントラクトの取引呼び出しを生成してしまう現象。AIの「幻覚」が金融取引に与えるリスクを指し、その防止が本ERCの目的の一つです。
+
+## Smart Account
+- ja: スマートアカウント
+- aliases: [Smart Contract Account]
+- related: [Account Abstraction, ERC-4337]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29658
+- auto_source_url: https://ethereum-magicians.org/t/erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard/29658
+- desc: |
+  アカウント抽象化の概念を実装した、プログラム可能な機能を持つイーサリアムアカウント。EOAとは異なり、カスタムの検証ロジックやマルチシグ、ソーシャルリカバリーなどの高度な機能を提供でき、AIエージェントの取引実行基盤として利用されます。
+
+## Account Validation Module
+- ja: アカウント検証モジュール
+- related: [ERC-4337, Smart Account, IPaymaster]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29658
+- auto_source_url: https://ethereum-magicians.org/t/erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard/29658
+- desc: |
+  ERC-4337スマートアカウントにおいて、ユーザー操作（UserOperation）の検証ロジックを定義するモジュール。取引の実行前に、署名検証や追加のセキュリティチェックなどを行い、本ERCのトランザクションガード機能の統合点となります。
+
+## Encrypt The Mempool
+- ja: メムプール暗号化
+- related: [Mempool, MEV, Private Mempool]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29647
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-10-september-16-2026/29647
+- desc: |
+  MEVやフロントランニング攻撃を軽減するため、トランザクションがブロックに含まれるまでメムプール内の内容を暗号化する研究・提案。Ethereumにおける重要な研究課題の一つです。
+
+## key-reveal allowlist
+- ja: キー開示許可リスト
+- related: [Encrypt The Mempool, Transaction Privacy]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29647
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-10-september-16-2026/29647
+- desc: |
+  暗号化されたトランザクションのキー開示を許可するエンティティのリスト。メムプール暗号化の文脈で、特定の参加者のみにトランザクション内容の早期開示を許可するメカニズムを指します。
+
+## permissionlessness
+- ja: パーミッションレス性
+- related: [Censorship Resistance, Decentralization]
+- auto_added: 2026-09-14
+- auto_source_topic_id: 29647
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-10-september-16-2026/29647
+- desc: |
+  ネットワークへの参加やトランザクションの実行に許可や承認を必要としない特性。ブロックチェーンの主要な設計原則の一つであり、検閲耐性や分散化と密接に関連します。

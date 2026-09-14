@@ -5,7 +5,7 @@ aliases:
   - Recursive Length Prefix
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **RLP (Recursive Length Prefix)**

@@ -4,7 +4,7 @@ aliases:
   - 形式検証
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **形式検証**
@@ -17,6 +17,7 @@ date: '2026-09-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/ethresear-2026-09-06-can-we-verify-an-erc-not-just-its-code-25926|ERCをコードだけでなく検証できるか？]]（2026-09-06）
 
 ## 元の表記（英語）

@@ -5,7 +5,7 @@ aliases:
   - Token Bound Account Custody Pattern
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **TBAカストディパターン (Token Bound Account Custody Pattern)**

@@ -4,7 +4,7 @@ aliases:
   - シビル境界
 tags:
   - glossary
-date: '2026-09-11'
+date: '2026-09-14'
 ---
 
 **シビル境界**
