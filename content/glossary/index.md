@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -41,6 +41,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Adjusted-reputation|Adjusted reputation]] — 調整済み評判
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Administrative-invalidation|Administrative invalidation]] — 管理的無効化 (Administrative invalidation)
+- [[glossary/Admission-rule|Admission rule]] — アドミッションルール
 - [[glossary/Adoption-Levels|Adoption Levels]] — 導入レベル
 - [[glossary/Adversarial-Prompt-Injection-Attack|Adversarial Prompt Injection Attack]] — 敵対的プロンプトインジェクション攻撃
 - [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
@@ -930,6 +931,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-Property-Finality|Protocol-Property Finality]] — プロトコルプロパティのファイナリティ
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
+- [[glossary/Public-mempool-gas-sponsorship|Public-mempool gas sponsorship]] — パブリックメンプールガススポンサーシップ
 - [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
 - [[glossary/Pure-Box|Pure Box]] — ピュアボックス
 - [[glossary/pure-context|pure context]] — ピュアコンテキスト
@@ -1095,6 +1097,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
+- [[glossary/Solvency-without-escrow|Solvency without escrow]] — エスクローなしの支払い能力 (SwE)
 - [[glossary/Source-attributed-Runoff|Source-attributed Runoff]] — ソース帰属型ランオフ
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
@@ -1106,6 +1109,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SPHINCS|SPHINCS-]] — SPHINCS-（SPHINCSマイナス）
 - [[glossary/Split-invariance-property|Split-invariance property]] — 分割不変性
 - [[glossary/splitter-contract|splitter contract]] — スプリッターコントラクト
+- [[glossary/Sponsored-transaction|Sponsored transaction]] — スポンサードトランザクション
 - [[glossary/Sponsorship|Sponsorship]] — スポンサーシップ
 - [[glossary/SPREAD|SPREAD]] — SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)
 - [[glossary/Squaring-Degree-Engine|Squaring Degree Engine]] — 二乗次数エンジン
@@ -1157,6 +1161,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/supernodes|supernodes]] — スーパーノード
 - [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-Boundary|Sybil Boundary]] — シビル境界
+- [[glossary/Sybil-identity|Sybil identity]] — シビルアイデンティティ
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
 - [[glossary/Sybil-decorrelation-attack|Sybil-decorrelation attack]] — シビルデコレーション攻撃
 - [[glossary/Symbolization|Symbolization]] — 象徴化

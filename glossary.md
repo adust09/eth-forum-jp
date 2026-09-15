@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-14
+last_updated: 2026-09-15
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12111,3 +12111,51 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-10-september-16-2026/29647
 - desc: |
   ネットワークへの参加やトランザクションの実行に許可や承認を必要としない特性。ブロックチェーンの主要な設計原則の一つであり、検閲耐性や分散化と密接に関連します。
+
+## Public-mempool gas sponsorship
+- ja: パブリックメンプールガススポンサーシップ
+- related: [Mempool, Sponsored transaction, Denial-of-service attack]
+- auto_added: 2026-09-15
+- auto_source_topic_id: 25995
+- auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
+- desc: |
+  パブリックメンプールを介して他者のトランザクションのガス代を支払う行為。DoS攻撃のリスクがあるため、エスクロー、ボンド、またはオフチェーントラストが必要となる。
+
+## Sponsored transaction
+- ja: スポンサードトランザクション
+- aliases: [s]
+- related: [Mempool, Public-mempool gas sponsorship]
+- auto_added: 2026-09-15
+- auto_source_topic_id: 25995
+- auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
+- desc: |
+  ブロックに含まれた場合にのみ、指定された支払い者（P）がガス代を支払うトランザクション。送信者と支払い者が異なる点が特徴。
+
+## Admission rule
+- ja: アドミッションルール
+- aliases: [R]
+- related: [Mempool, Sponsored transaction]
+- auto_added: 2026-09-15
+- auto_source_topic_id: 25995
+- auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
+- desc: |
+  ノードがトランザクションをブロックに含める前に、そのトランザクションを受け入れて転送するかどうかを決定するためのルール。
+
+## Sybil identity
+- ja: シビルアイデンティティ
+- related: [Sybil attack, Denial-of-service attack]
+- auto_added: 2026-09-15
+- auto_source_topic_id: 25995
+- auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
+- desc: |
+  攻撃者がほとんどコストをかけずに作成できる新しいアカウント。レート制限やレピュテーションシステムを回避するために使用される。
+
+## Solvency without escrow
+- ja: エスクローなしの支払い能力 (SwE)
+- aliases: [SwE]
+- related: [Public-mempool gas sponsorship, Admission rule]
+- auto_added: 2026-09-15
+- auto_source_topic_id: 25995
+- auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
+- desc: |
+  スポンサーからのロックされた資金なしにスポンサードトランザクションを受け入れ、かつ攻撃コストが安価にならないようにするプロパティ。パブリックメンプールでは達成不可能であることが本稿で示されている。

@@ -4,7 +4,7 @@ aliases:
   - 形式検証
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **形式検証**

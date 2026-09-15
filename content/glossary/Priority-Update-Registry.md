@@ -5,7 +5,7 @@ aliases:
   - PUR
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **プライオリティ更新レジストリ (PUR)**

@@ -4,7 +4,7 @@ aliases:
   - Lean 4
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **Lean 4**
