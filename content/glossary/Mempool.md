@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-09-14'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/ethresear-2026-09-09-from-60m-to-200m-simulating-glamsterdam-s-fee-market-25957|Glamsterdamのガス制限を60Mから200Mにシミュレーション：手数料市場はどうなるか]]（2026-09-09）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）

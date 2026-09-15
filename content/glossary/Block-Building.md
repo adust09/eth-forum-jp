@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **ブロック構築**
@@ -22,6 +22,7 @@ date: '2026-09-14'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）

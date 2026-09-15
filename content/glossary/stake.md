@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-09-14'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/magicians-2026-09-02-research-proposal-what-happens-to-validator-control-if-eip-8363-works-29568|研究提案: EIP-8363が機能した場合、バリデータの制御はどうなるか]]（2026-09-02）

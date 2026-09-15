@@ -5,7 +5,7 @@ aliases:
   - Mempool Account Transaction Capacity from Historical Activity
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **MATCHA (Mempool Account Transaction Capacity from Historical Activity)**

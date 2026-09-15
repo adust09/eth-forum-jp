@@ -4,7 +4,7 @@ aliases:
   - 検証済みEVMコード
 tags:
   - glossary
-date: '2026-09-14'
+date: '2026-09-15'
 ---
 
 **検証済みEVMコード**
