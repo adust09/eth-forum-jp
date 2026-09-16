@@ -4,7 +4,7 @@ aliases:
   - フォークキャスト
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **フォークキャスト**
@@ -18,6 +18,7 @@ Ethereumのコア開発者会議（All Core Devs Calls）の議事録や要約�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-15-all-core-devs-testing-acdt-97-sept-21-2026-29686|全コア開発者会議 - テスト (ACDT) #97、2026年9月21日]]（2026-09-15）
 - [[posts/magicians-2026-08-31-all-core-devs-testing-acdt-95-september-7th-2026-29548|全コア開発者会議 - テスト (ACDT) #95、2026年9月7日]]（2026-08-31）
 
 ## 元の表記（英語）

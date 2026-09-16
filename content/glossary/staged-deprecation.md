@@ -4,7 +4,7 @@ aliases:
   - 段階的廃止
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **段階的廃止**

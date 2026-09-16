@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-15-all-core-devs-testing-acdt-97-sept-21-2026-29686|全コア開発者会議 - テスト (ACDT) #97、2026年9月21日]]（2026-09-15）
 - [[posts/magicians-2026-09-14-all-core-devs-consensus-acdc-187-september-17-2026-29676|全コア開発者会議 - コンセンサス (ACDC) #187、2026年9月17日]]（2026-09-14）
 - [[posts/magicians-2026-09-14-all-core-devs-execution-acde-246-september-24-2026-29677|全コア開発者会議 - 実行 (ACDE) #246、2026年9月24日]]（2026-09-14）
 - [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）

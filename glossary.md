@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-15
+last_updated: 2026-09-16
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12159,3 +12159,178 @@ description: |
 - auto_source_url: https://ethresear.ch/t/public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust/25995
 - desc: |
   スポンサーからのロックされた資金なしにスポンサードトランザクションを受け入れ、かつ攻撃コストが安価にならないようにするプロパティ。パブリックメンプールでは達成不可能であることが本稿で示されている。
+
+## SLH-DSA
+- ja: SLH-DSA (SPHINCS+)
+- aliases: [SPHINCS+, FIPS 205]
+- related: [ML-DSA, FN-DSA, Hash-based cryptography, Post-Quantum Cryptography]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26003
+- auto_source_url: https://ethresear.ch/t/post-quantum-lattice-or-hash-based-one-question-two-right-answers/26003
+- desc: |
+  NISTによって標準化されたハッシュベースのデジタル署名スキーム。SHA-2/SHAKEの特性のみにセキュリティが依存するため、最も保守的な選択肢とされます。署名サイズは大きいですが、公開鍵は小さいです。
+
+## FN-DSA
+- ja: FN-DSA (Falcon)
+- aliases: [Falcon, FIPS 206]
+- related: [ML-DSA, SLH-DSA, Lattice-based cryptography, Post-Quantum Cryptography]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26003
+- auto_source_url: https://ethresear.ch/t/post-quantum-lattice-or-hash-based-one-question-two-right-answers/26003
+- desc: |
+  NISTによって標準化がドラフト段階にある格子ベースのデジタル署名スキーム。3つの標準候補の中で最もコンパクトな署名サイズを持ちますが、浮動小数点演算に依存するため実装が複雑でサイドチャネル攻撃のリスクがあります。
+
+## EIP-8288
+- ja: EIP-8288
+- related: [Account Abstraction, Post-Quantum Cryptography, STARK, Rollup]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26003
+- auto_source_url: https://ethresear.ch/t/post-quantum-lattice-or-hash-based-one-question-two-right-answers/26003
+- desc: |
+  Ethereumの実行層におけるブロックレベルのトランザクション集約を提案するEIP。トランザクションの署名検証をオフチェーンで集約し、単一の再帰的STARKでその有効性を証明することで、個々の署名サイズの影響を軽減します。
+
+## Trustless Log Index
+- ja: トラストレスログインデックス
+- aliases: [TLI, EIP-8304]
+- related: [log query proofs, state tree, execution sharding]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26002
+- auto_source_url: https://ethresear.ch/t/scaling-ethereum-with-recursive-starks-and-the-trustless-log-index/26002
+- desc: |
+  EIP-8304で提案されている、ブロックのレシートセットから生成されるインデックステーブル。オンチェーンでの検証を可能にし、ログクエリ証明のコストを削減することで、クロスチェーンメッセージングや実行シャーディングを効率化する。
+
+## recursive STARK transaction pre-authorization
+- ja: 再帰的STARKトランザクション事前承認
+- related: [recursive STARKs, EIP-8288, PQ cryptography]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26002
+- auto_source_url: https://ethresear.ch/t/scaling-ethereum-with-recursive-starks-and-the-trustless-log-index/26002
+- desc: |
+  EIP-8288で提案されている、再帰的STARKを用いてトランザクションを事前に承認するメカニズム。PQ暗号への移行とPQ署名のサイズ増大に対応し、オンチェーンでの署名コストとステートレスな検証コストを大幅に削減する。
+
+## log query proofs
+- ja: ログクエリ証明
+- related: [Trustless Log Index, ZKP]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26002
+- auto_source_url: https://ethresear.ch/t/scaling-ethereum-with-recursive-starks-and-the-trustless-log-index/26002
+- desc: |
+  Trustless Log Index (EIP-8304) を利用して、特定のログセットがインデックスに含まれていることを証明するメカニズム。これにより、アプリケーション固有のインデクサーが関連するログのみを効率的に検証できるようになる。
+
+## cross-shard messaging
+- ja: クロスシャードメッセージング
+- related: [execution sharding, L2 messages]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26002
+- auto_source_url: https://ethresear.ch/t/scaling-ethereum-with-recursive-starks-and-the-trustless-log-index/26002
+- desc: |
+  シャード化された環境において、異なるシャード間でメッセージをやり取りするメカニズム。ログベースのメッセージングを安価にすることで、クロスシャードコントラクトの設計を簡素化し、実行シャーディングを容易にする。
+
+## soft consensus
+- ja: ソフトコンセンサス
+- related: [EIP-4444, table retention]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 26002
+- auto_source_url: https://ethresear.ch/t/scaling-ethereum-with-recursive-starks-and-the-trustless-log-index/26002
+- desc: |
+  EIP-4444のように、プロトコルの中核部分ではなく、ネットワーク参加者の間で緩やかに合意されるメカニズム。例えば、古いインデックステーブルの保持期間を決定する際に用いられ、ネットワークの柔軟性を高める。
+
+## Itemized Non-Fungible Token
+- ja: アイテム化非代替性トークン
+- aliases: [ERC-8418]
+- related: [ERC-721, ERC-1155, per-item cap]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29693
+- auto_source_url: https://ethereum-magicians.org/t/erc-8418-itemized-non-fungible-token/29693
+- desc: |
+  ERC-8418で提案されている、コレクション内の各アイテムに固有の識別子と供給上限を付与する非代替性トークンの形式。ゲームアイテムなどのオンチェーン表現に適しており、アイテムごとの希少性を保証します。
+
+## per-item cap
+- ja: アイテム別供給上限
+- related: [Itemized Non-Fungible Token, edition size, write-once cap]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29693
+- auto_source_url: https://ethereum-magicians.org/t/erc-8418-itemized-non-fungible-token/29693
+- desc: |
+  NFTコレクション内の個々のアイテム（種類）ごとに設定される供給上限。ERC-8418では、この上限がオンチェーンで強制され、発行者が設定した希少性を検証可能にします。
+
+## write-once cap
+- ja: 書き込み一度きりの供給上限
+- related: [per-item cap, immutability]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29693
+- auto_source_url: https://ethereum-magicians.org/t/erc-8418-itemized-non-fungible-token/29693
+- desc: |
+  一度設定された後は変更できない供給上限。ERC-8418のアイテム別供給上限に適用され、発行者が後から上限を引き上げてトークン価値を希薄化するのを防ぎ、信頼性を高めます。
+
+## edition numbers
+- ja: エディション番号
+- related: [Itemized Non-Fungible Token, per-item cap]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29693
+- auto_source_url: https://ethereum-magicians.org/t/erc-8418-itemized-non-fungible-token/29693
+- desc: |
+  NFTコレクション内の特定のアイテムにおいて、そのトークンが全体で何番目に発行されたものかを示す番号（例：「100個中42番目」）。ERC-8418ではオプションの拡張機能として提供され、個々のトークンの位置付けを明確にします。
+
+## burned tokenId reuse
+- ja: 焼却済みトークンIDの再利用
+- related: [tokenId, ERC-721]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29693
+- auto_source_url: https://ethereum-magicians.org/t/erc-8418-itemized-non-fungible-token/29693
+- desc: |
+  一度焼却されたNFTのトークンIDを、異なるアイテムの新しいトークンに再度割り当てて使用すること。ERC-8418ではこの再利用を禁止しないため、消費者はトークンIDのキャッシュが古くなる可能性に注意が必要です。
+
+## Sepolia
+- ja: Sepolia (テストネット)
+- related: [Testnet, Goerli, Mainnet]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29686
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-97-sept-21-2026/29686
+- desc: |
+  Ethereumの主要なテストネットの一つ。開発者がスマートコントラクトやプロトコルをデプロイし、本番環境に影響を与えることなくテストするために使用される。
+
+## Hoodi
+- ja: Hoodi (テストネット)
+- related: [Testnet, Sepolia, Goerli]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29686
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-97-sept-21-2026/29686
+- desc: |
+  Ethereumのテストネットの一つ。Sepoliaと同様に、開発者が新しいプロトコルやアプリケーションをテストするための環境を提供する。
+
+## Epoch-Based Fixed-Rate Vault
+- ja: エポックベース固定金利ボルト (Epoch-Based Fixed-Rate Vault)
+- related: [Vault, Epoch, ERC-4626, ERC-7540]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29669
+- auto_source_url: https://ethereum-magicians.org/t/erc-8416-epoch-based-fixed-rate-vault/29669
+- desc: |
+  特定のエポック（期間）に基づいて固定金利を提供するボルト（Vault）の標準。ボルトの存続期間とコンポーザビリティを向上させるため、単一または複数の連続した固定金利エポックを持つことができる。
+
+## Fixed-Period vault
+- ja: 固定期間ボルト (Fixed-Period vault)
+- related: [Vault, Epoch-Based Fixed-Rate Vault]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29669
+- auto_source_url: https://ethereum-magicians.org/t/erc-8416-epoch-based-fixed-rate-vault/29669
+- desc: |
+  特定の固定期間（エポック）が設定されたボルト。期間が終了すると利息の発生が停止するなど、期間に基づいて動作が定義される。
+
+## Fixed-Term vault
+- ja: 固定満期ボルト (Fixed-Term vault)
+- related: [Vault, Epoch-Based Fixed-Rate Vault]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29669
+- auto_source_url: https://ethereum-magicians.org/t/erc-8416-epoch-based-fixed-rate-vault/29669
+- desc: |
+  あらかじめ定められた満期日を持つボルト。満期に達すると、預け入れられた資産と発生した利息が引き出し可能になる。
+
+## Zero Knowledge Proof of Seed
+- ja: シードのゼロ知識証明 (Zero Knowledge Proof of Seed)
+- related: [Zero Knowledge Proof, Post Quantum Cryptography, Seed]
+- auto_added: 2026-09-16
+- auto_source_topic_id: 29668
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-transaction-signature-pqts-breakout-15/29668
+- desc: |
+  シード（乱数生成器の初期値など）を知っていることを、そのシード自体を明かすことなく証明するゼロ知識証明の一種です。特に、ポスト量子暗号や分散型IDシステムにおける鍵管理や認証の文脈で研究されています。

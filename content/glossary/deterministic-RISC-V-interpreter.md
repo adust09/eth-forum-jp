@@ -4,7 +4,7 @@ aliases:
   - 決定論的RISC-Vインタープリタ
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **決定論的RISC-Vインタープリタ**
