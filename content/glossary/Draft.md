@@ -4,7 +4,7 @@ aliases:
   - ドラフト (EIP/ERC)
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **ドラフト (EIP/ERC)**
@@ -21,6 +21,7 @@ EIPまたはERCの提案が初期段階にあり、まだ変更が頻繁に行�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-14-erc-8416-epoch-based-fixed-rate-vault-29669|ERC-8416: エポックベース固定金利ボルト]]（2026-09-14）
 - [[posts/magicians-2026-09-02-erc-8407-extensible-contract-metadata-29565|ERC-8407: 拡張可能なコントラクトメタデータ]]（2026-09-02）
 - [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）

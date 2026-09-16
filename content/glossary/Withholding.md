@@ -4,7 +4,7 @@ aliases:
   - 意図的なブロック非公開（Withholding）
 tags:
   - glossary
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 **意図的なブロック非公開（Withholding）**

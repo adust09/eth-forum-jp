@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-15'
+date: '2026-09-16'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -178,6 +178,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bundle-Pricing|Bundle Pricing]] — バンドル価格設定 (Bundle Pricing)
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
+- [[glossary/burned-tokenId-reuse|burned tokenId reuse]] — 焼却済みトークンIDの再利用
 - [[glossary/Call-Frame|Call Frame]] — コールフレーム
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/CALLVALUE|CALL_VALUE]] — CALL値
@@ -292,6 +293,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cross-Chain-Nullifier-Synchronization|Cross Chain Nullifier Synchronization]] — クロスチェーンNullifier同期
 - [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
+- [[glossary/cross-shard-messaging|cross-shard messaging]] — クロスシャードメッセージング
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
 - [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
@@ -366,6 +368,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
 - [[glossary/Economic-Invariant|Economic Invariant]] — 経済的不変条件
 - [[glossary/ecrecover|ecrecover]] — ecrecover (組み込み関数)
+- [[glossary/edition-numbers|edition numbers]] — エディション番号
 - [[glossary/Effective-Role-Evaluation-Module|Effective Role Evaluation Module]] — 実効ロール評価モジュール
 - [[glossary/Effective-Stake|Effective Stake]] — 実効ステーク
 - [[glossary/effective-tip|effective tip]] — 実効チップ
@@ -380,6 +383,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
 - [[glossary/EIP-8037|EIP-8037]] — EIP-8037 (二次元ガス)
+- [[glossary/EIP-8288|EIP-8288]] — EIP-8288
 - [[glossary/EIP-8363|EIP-8363]] — EIP-8363
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/embedded-wallets|embedded wallets]] — 組み込み型ウォレット
@@ -399,6 +403,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ephemeral-accounts|Ephemeral accounts]] — エフェメラルアカウント
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Epoch-Boundary-Block|Epoch Boundary Block]] — エポック境界ブロック
+- [[glossary/Epoch-Based-Fixed-Rate-Vault|Epoch-Based Fixed-Rate Vault]] — エポックベース固定金利ボルト (Epoch-Based Fixed-Rate Vault)
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/Erasure-code-commitment-scheme|Erasure code commitment scheme]] — 消去符号コミットメントスキーム
 - [[glossary/erasure-coding-threshold|erasure-coding threshold]] — イレイジャーコーディング閾値
@@ -483,9 +488,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fingerprint-Profile|Fingerprint Profile]] — フィンガープリントプロファイル
 - [[glossary/first-price-block-auction|first-price block auction]] — ファーストプライス・ブロックオークション
 - [[glossary/Fixed-Cutoff-State-Tiering|Fixed-Cutoff State Tiering]] — 固定カットオフ型ステート階層化
+- [[glossary/Fixed-Period-vault|Fixed-Period vault]] — 固定期間ボルト (Fixed-Period vault)
 - [[glossary/fixed-point-math|fixed-point math]] — 固定小数点演算
+- [[glossary/Fixed-Term-vault|Fixed-Term vault]] — 固定満期ボルト (Fixed-Term vault)
 - [[glossary/FK23|FK23]] — FK23 (高速償却KZG証明)
 - [[glossary/Flash-loan-manipulation|Flash-loan manipulation]] — フラッシュローン操作
+- [[glossary/FN-DSA|FN-DSA]] — FN-DSA (Falcon)
 - [[glossary/FOCIL|FOCIL]] — FOCIL (強制オンチェーンインクルージョンリスト)
 - [[glossary/FOCIL-Eligibility|FOCIL Eligibility]] — FOCIL適格性 (Fork-Choice Enforced Inclusion List Eligibility)
 - [[glossary/Forced-transaction-mechanism|Forced transaction mechanism]] — 強制トランザクションメカニズム
@@ -542,6 +550,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
 - [[glossary/Homomorphic-tallying|Homomorphic tallying]] — 準同型集計 (Homomorphic tallying)
 - [[glossary/honeypot|honeypot]] — ハニーポット
+- [[glossary/Hoodi|Hoodi]] — Hoodi (テストネット)
 - [[glossary/Hook-module|Hook module]] — フックモジュール (Hook Module)
 - [[glossary/Hot-Key|Hot Key]] — ホットキー
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
@@ -598,6 +607,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
 - [[glossary/Isoelastic-demand-curves|Isoelastic demand curves]] — 等弾力性需要曲線
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
+- [[glossary/Itemized-Non-Fungible-Token|Itemized Non-Fungible Token]] — アイテム化非代替性トークン
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
@@ -652,6 +662,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Load-Leveling|Load Leveling]] — ロードレベリング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
+- [[glossary/log-query-proofs|log query proofs]] — ログクエリ証明
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
 - [[glossary/logicallogn|logical_logn]] — 論理ドメインの対数サイズ (logical_logn)
 - [[glossary/lookup-layer|lookup layer]] — ルックアップレイヤー
@@ -834,6 +845,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pectra|Pectra]] — ペクトラ
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
+- [[glossary/per-item-cap|per-item cap]] — アイテム別供給上限
 - [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
 - [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
@@ -961,6 +973,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
 - [[glossary/recursive-proof|recursive proof]] — 再帰的証明
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
+- [[glossary/recursive-STARK-transaction-pre-authorization|recursive STARK transaction pre-authorization]] — 再帰的STARKトランザクション事前承認
 - [[glossary/recursive-validity|recursive validity]] — 再帰的有効性
 - [[glossary/recursive-attenuating-EIP-712-Delegation-Grants|recursive, attenuating EIP-712 Delegation Grants]] — 再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
@@ -1050,6 +1063,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Semi-fungible-tokens|Semi-fungible tokens]] — 半代替性トークン
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
 - [[glossary/sentinel-value|sentinel value]] — センチネル値
+- [[glossary/Sepolia|Sepolia]] — Sepolia (テストネット)
 - [[glossary/Sequenced-State-Machine|Sequenced State Machine]] — シーケンス化された状態マシン
 - [[glossary/sequencer|sequencer]] — シーケンサー
 - [[glossary/Service-Manifest|Service Manifest]] — サービスマニフェスト
@@ -1085,6 +1099,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SkillRoot|SkillRoot]] — スキルルート
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
 - [[glossary/Slashing-curves|Slashing curves]] — スラッシング曲線 (Slashing curves)
+- [[glossary/SLH-DSA|SLH-DSA]] — SLH-DSA (SPHINCS+)
 - [[glossary/Slippage-policy|Slippage policy]] — スリッページポリシー
 - [[glossary/SLOAD|SLOAD]] — SLOAD (オペコード)
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
@@ -1094,6 +1109,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
 - [[glossary/Smart-Contract-Oriented-Programming|Smart Contract Oriented Programming]] — スマートコントラクト指向プログラミング
+- [[glossary/soft-consensus|soft consensus]] — ソフトコンセンサス
 - [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
@@ -1232,6 +1248,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
 - [[glossary/trustless-builder-proposer-payments|trustless builder-proposer payments]] — トラストレスなビルダー・プロポーザー間支払い
 - [[glossary/Trustless-log-and-transaction-index|Trustless log and transaction index]] — トラストレスなログおよびトランザクションインデックス
+- [[glossary/Trustless-Log-Index|Trustless Log Index]] — トラストレスログインデックス
 - [[glossary/TSTORE|TSTORE]] — TSTORE (オペコード)
 - [[glossary/turnstiles|turnstiles]] — ターンスタイル
 - [[glossary/two-dimensional-gas|two-dimensional gas]] — 二次元ガス
@@ -1311,7 +1328,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
+- [[glossary/write-once-cap|write-once cap]] — 書き込み一度きりの供給上限
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
+- [[glossary/Zero-Knowledge-Proof-of-Seed|Zero Knowledge Proof of Seed]] — シードのゼロ知識証明 (Zero Knowledge Proof of Seed)
 - [[glossary/zero-coupon-bond|zero-coupon bond]] — ゼロクーポン債
 - [[glossary/Zero-Fee-Joint-Optimum|Zero-Fee Joint Optimum]] — ゼロ手数料共同最適（命題1）
 - [[glossary/Zero-Knowledge-Consensus-Layer|Zero-Knowledge Consensus Layer]] — ゼロ知識コンセンサス層 (zkCL)
