@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -13,11 +13,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/0x01-withdrawal-credential-type|0x01 withdrawal credential type]] — 0x01出金資格タイプ
 - [[glossary/1-out-of-N-honesty|1-out-of-N honesty]] — N分の1の正直性
 - [[glossary/50-Ceiling-for-Constant-Product-AMMs|50% Ceiling for Constant Product AMMs]] — 定数積AMMにおける50%上限（命題2）
+- [[glossary/A-tuned|A-tuned]] — A-tuned (エーチューンド)
 - [[glossary/AA-VOPS-state-surface|AA-VOPS state surface]] — AA-VOPS状態空間 (Account Abstraction Validity-Only Partial Statelessness State Surface)
 - [[glossary/Absolute-Junior-Subordination|Absolute Junior Subordination]] — 絶対劣後（Absolute Junior Subordination）
 - [[glossary/Absolute-quorum-floor|Absolute quorum floor]] — 絶対クォーラムフロア
 - [[glossary/Accept-Token|Accept Token]] — 受入トークン
 - [[glossary/Acceptance-Authority|Acceptance Authority]] — 受諾権限
+- [[glossary/Access-composition-shock|Access-composition shock]] — アクセス構成ショック
 - [[glossary/Accessed-Addresses|Accessed Addresses]] — アクセス済みアドレス
 - [[glossary/Accessed-Storage-Keys|Accessed Storage Keys]] — アクセス済みストレージキー
 - [[glossary/Account-Abstraction|Account Abstraction]] — アカウント抽象化
@@ -122,6 +124,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
+- [[glossary/Batch-Publishing|Batch Publishing]] — バッチパブリッシング
 - [[glossary/Batch-FIFO|Batch-FIFO]] — バッチFIFO (Batch-FIFO)
 - [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
@@ -160,6 +163,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BN254|BN254]] — BN254 (楕円曲線)
 - [[glossary/Bond-backed-delegation-capacity|Bond-backed delegation capacity]] — ボンド担保型デリゲーション容量
 - [[glossary/Boolean-width|Boolean width]] — ブーリアン幅
+- [[glossary/Bottleneck-handover-result|Bottleneck-handover result]] — ボトルネック引き継ぎ結果
 - [[glossary/Bounded-Agent-Actions|Bounded Agent Actions]] — 制限付きエージェントアクション (ERC-1833)
 - [[glossary/Bounded-BSGS-discrete-log|Bounded BSGS discrete log]] — 範囲限定BSGS離散対数 (Bounded BSGS discrete log)
 - [[glossary/bounded-mandate|bounded mandate]] — 制限付きマンデート
@@ -175,6 +179,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
+- [[glossary/Bundle-inclusion-rule|Bundle inclusion rule]] — バンドル包含ルール
 - [[glossary/Bundle-Pricing|Bundle Pricing]] — バンドル価格設定 (Bundle Pricing)
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
@@ -340,6 +345,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Diamond-Storage|Diamond Storage]] — ダイヤモンドストレージ
 - [[glossary/Digital-Reserve-Currency|Digital Reserve Currency]] — デジタル基軸通貨 (Digital Reserve Currency)
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]] — 方向性移転ドメインレジストリ
+- [[glossary/Disciplined-Pulls|Disciplined Pulls]] — 規律あるプル
 - [[glossary/Disclosure-Contract|Disclosure Contract]] — 開示契約
 - [[glossary/Disclosure-Plane|Disclosure Plane]] — 開示プレーン (開示層)
 - [[glossary/Disclosure-Record|Disclosure Record]] — 開示記録
@@ -452,6 +458,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-Client|Execution Client]] — 実行クライアント
 - [[glossary/execution-client-head|execution client head]] — 実行クライアントヘッド
 - [[glossary/Execution-Delegation-Framework|Execution Delegation Framework]] — 実行委任フレームワーク
+- [[glossary/Execution-fee-bounded-at-1-wei|Execution fee bounded at 1 wei]] — 1 weiに制限された実行手数料
 - [[glossary/Execution-gas|Execution gas]] — 実行ガス
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
 - [[glossary/Execution-hooks|Execution hooks]] — 実行フック
@@ -1154,10 +1161,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
+- [[glossary/Static-data|Static data]] — 静的データ
 - [[glossary/Static-Data-Component|Static-Data Component]] — 静的データコンポーネント (Static-Data Component)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
+- [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Storage-proof|Storage proof]] — ストレージ証明
 - [[glossary/Strict-Cap-Call-Opcode|Strict-Cap Call Opcode]] — 厳格な上限付きコールオペコード

@@ -5,7 +5,7 @@ aliases:
   - PTC
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **ペイロード適時性委員会**
@@ -19,6 +19,7 @@ ePBSにおいて、ビルダーがネットワークに公開・配信したペ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/ethresear-2026-06-19-scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth-25232|Hegotaにおけるスケーリング：ETH転送をアンカーとして実行と帯域幅を固定する]]（2026-06-19）

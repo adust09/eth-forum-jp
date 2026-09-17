@@ -5,7 +5,7 @@ aliases:
   - ePBS Mandatory Burn of Execution Rewards
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **eMBER (ePBS実行報酬強制焼却)**

@@ -4,7 +4,7 @@ aliases:
   - マークル証明
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **マークル証明**
@@ -20,6 +20,7 @@ date: '2026-09-16'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 
 ## 元の表記（英語）

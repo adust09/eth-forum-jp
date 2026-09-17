@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-09-16'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/magicians-2026-09-11-encrypt-the-mempool-10-september-16-2026-29647|Encrypt The Mempool 第10回、2026年9月16日]]（2026-09-11）
 - [[posts/ethresear-2026-08-28-proposed-pq-upgrade-for-ecrecover-25844|ecrecoverに対する量子耐性ホットフィックスの提案]]（2026-08-28）

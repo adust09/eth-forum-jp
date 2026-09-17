@@ -5,7 +5,7 @@ aliases:
   - DW-BFT
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **多様性重み付けビザンチン耐性 (DW-BFT)**

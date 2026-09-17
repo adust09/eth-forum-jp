@@ -5,7 +5,7 @@ aliases:
   - BALs
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **ランタイムブロックレベルアクセスリスト**

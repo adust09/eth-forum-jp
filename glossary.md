@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-16
+last_updated: 2026-09-17
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12334,3 +12334,85 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/post-quantum-transaction-signature-pqts-breakout-15/29668
 - desc: |
   シード（乱数生成器の初期値など）を知っていることを、そのシード自体を明かすことなく証明するゼロ知識証明の一種です。特に、ポスト量子暗号や分散型IDシステムにおける鍵管理や認証の文脈で研究されています。
+
+## Batch Publishing
+- ja: バッチパブリッシング
+- related: [Segmented Payload Diffusion]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26025
+- auto_source_url: https://ethresear.ch/t/eip-8411-what-segmented-payload-diffusion-is-made-of/26025
+- desc: |
+  セグメント化されたペイロードのピースを、発行元が異なるメッシュピアに同時に送信することで、アップリンクのボトルネックを解消し、拡散を高速化する手法。これにより、パイプライン処理がより効率的に機能する。
+
+## Disciplined Pulls
+- ja: 規律あるプル
+- related: [Gossipsub, Announce Instead of Push, Offer Table]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26025
+- auto_source_url: https://ethresear.ch/t/eip-8411-what-segmented-payload-diffusion-is-made-of/26025
+- desc: |
+  Gossipsubネットワークにおいて、メッセージ（セグメント）の重複を減らすために、IWANTリクエストの送信を制御するメカニズム。特定のピアからの応答を待つタイムアウトを設定し、応答がない場合は別のピアに切り替えることで、効率性と耐障害性を両立させる。
+
+## A-tuned
+- ja: A-tuned (エーチューンド)
+- related: [Segmented Payload Diffusion, Batch Publishing, Announce Instead of Push, Disciplined Pulls]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26025
+- auto_source_url: https://ethresear.ch/t/eip-8411-what-segmented-payload-diffusion-is-made-of/26025
+- desc: |
+  セグメント化ペイロード拡散における、バッチパブリッシング、プッシュの代わりにアナウンス、フェーズシフト、規律あるプルといった複数のネットワーク技術を組み合わせたポリシー。ペイロードの伝播を高速化し、重複トラフィックを削減することを目的とする。
+
+## Stop-pull
+- ja: ストッププル
+- related: [Erasure Coding, Disciplined Pulls, Segmented Payload Diffusion]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26025
+- auto_source_url: https://ethresear.ch/t/eip-8411-what-segmented-payload-diffusion-is-made-of/26025
+- desc: |
+  イレイジャーコーディングを使用するペイロード拡散において、ノードがペイロードを再構築するのに十分な数のセグメント（K個）を保持した時点で、それ以上セグメントの要求を停止するローカルポリシー。これにより、不要なトラフィックを削減し、ネットワークの効率を高める。
+
+## Execution fee bounded at 1 wei
+- ja: 1 weiに制限された実行手数料
+- related: [EIP-7999, Base fee, Data limit]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26018
+- auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
+- desc: |
+  EIP-7999の多次元手数料市場において、実行ベース手数料が1 weiの最低値に達し、プロトコルがそれ以上手数料を下げることができない状態。需要が低いか、他のリソース（特にデータ）の制約により実行活動が抑制される場合に発生します。
+
+## Bundle inclusion rule
+- ja: バンドル包含ルール
+- related: [EIP-7999, BAL, Data limit]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26018
+- auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
+- desc: |
+  EIP-7999において、データ制限が満たされた際に、バンドル内の親実行/ステート作成トランザクションとその生成されたBAL（Bundle Access List）がブロックから除外されるルール。これにより、データ制限が実行活動に影響を与えます。
+
+## Access-composition shock
+- ja: アクセス構成ショック
+- related: [EIP-7999, BAL, Demand shock]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26018
+- auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
+- desc: |
+  EIP-7999のシミュレーションにおいて、トランザクションの構成がブロック間で変化することによって生じる、BAL（Bundle Access List）生成量の変動を捉えるショック。同じ総実行量やステート作成量でも、トランザクションミックスによってBAL生成量が異なることを反映します。
+
+## Static data
+- ja: 静的データ
+- aliases: [Static transaction data]
+- related: [EIP-7999, Calldata, BAL]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26018
+- auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
+- desc: |
+  EIP-7999で導入される3つのリソース（実行、データ、ステート）のうちの「データ」リソースの一部。トランザクションのcalldataやその他の静的なコンテンツを指し、BAL（Bundle Access List）とは区別されます。
+
+## Bottleneck-handover result
+- ja: ボトルネック引き継ぎ結果
+- related: [EIP-7999, Data limit, Execution limit, Slot-time allocation]
+- auto_added: 2026-09-17
+- auto_source_topic_id: 26018
+- auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
+- desc: |
+  EIP-7999の動的シミュレーションにおいて、スロット時間の割り当て（伝播時間と実行時間）を変更することで、システム内の主要な制約（ボトルネック）がデータ制限から実行制限へと移行する現象。この結果は、EIP-7999の設計における重要な考慮事項となります。

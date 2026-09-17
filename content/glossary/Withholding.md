@@ -4,7 +4,7 @@ aliases:
   - 意図的なブロック非公開（Withholding）
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **意図的なブロック非公開（Withholding）**
@@ -18,7 +18,7 @@ date: '2026-09-16'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 
 ## 元の表記（英語）
 
