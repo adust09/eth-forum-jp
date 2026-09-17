@@ -4,7 +4,7 @@ aliases:
   - ゴシップサブ
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **ゴシップサブ**
@@ -18,6 +18,7 @@ P2Pネットワークにおけるトピックベースのメッセージ伝播�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/magicians-2026-09-07-eip-8411-fast-execution-payload-broadcast-29613|EIP-8411: 高速実行ペイロードブロードキャスト]]（2026-09-07）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/magicians-2026-08-26-p2p-networking-7-august-26-2026-29518|P2Pネットワーキング #7 2026年8月26日]]（2026-08-26）

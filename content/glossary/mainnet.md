@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **メインネット**
@@ -17,6 +17,7 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/magicians-2026-09-13-erc-ai-agent-proof-of-safety-attestation-transaction-guard-standard-iagenttransactionguard-29658|ERC: AIエージェントの安全証明アテステーションおよびトランザクションガード標準 (IAgentTransactionGuard)]]（2026-09-13）
 - [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）

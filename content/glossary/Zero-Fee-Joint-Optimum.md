@@ -5,7 +5,7 @@ aliases:
   - Proposition 1
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **ゼロ手数料共同最適（命題1）**

@@ -4,7 +4,7 @@ aliases:
   - evidenceHash (証拠ハッシュ)
 tags:
   - glossary
-date: '2026-09-16'
+date: '2026-09-17'
 ---
 
 **evidenceHash (証拠ハッシュ)**
