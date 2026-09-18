@@ -4,7 +4,7 @@ aliases:
   - LeanSha256
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **LeanSha256**

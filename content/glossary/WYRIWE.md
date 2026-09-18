@@ -5,7 +5,7 @@ aliases:
   - What You Read Is What You Execute
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **WYRIWE (What You Read Is What You Execute)**

@@ -4,7 +4,7 @@ aliases:
   - 証明プロファイル (Proof Profile)
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **証明プロファイル (Proof Profile)**
@@ -19,7 +19,7 @@ date: '2026-09-17'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-17-erc8415-kit-reference-implementation-now-public-cc0-29724|ERC8415-Kit: リファレンス実装が公開されました (CC0)]]（2026-09-17）
 
 ## 元の表記（英語）
 

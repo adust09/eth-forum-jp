@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -80,6 +80,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/anchoring|anchoring]] — アンカリング
 - [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
+- [[glossary/append-only-projection-engine|append-only projection engine]] — 追記専用プロジェクションエンジン
 - [[glossary/Application-Controlled-Execution|Application-Controlled Execution]] — アプリケーション制御型実行 (ACE)
 - [[glossary/Arithmetic-Circuit|Arithmetic Circuit]] — 算術回路
 - [[glossary/Arithmetization-Oriented-Hash|Arithmetization-Oriented Hash]] — 算術化指向ハッシュ (AOハッシュ)
@@ -95,6 +96,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Async-nonce|Async nonce]] — 非同期Nonce (Async nonce)
 - [[glossary/async-sublayer|async sublayer]] — 非同期サブレイヤー
 - [[glossary/Asynchronous-Register-Projection|Asynchronous Register Projection]] — 非同期レジスタプロジェクション
+- [[glossary/Asynchronous-Register-Projection-for-NFTs|Asynchronous Register Projection for NFTs]] — NFTの非同期レジスタプロジェクション
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
@@ -522,6 +524,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
 - [[glossary/Funding-Efficiency|Funding Efficiency]] — 資金効率
 - [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
+- [[glossary/Futarchy|Futarchy]] — フターキー
 - [[glossary/gas-schedule|gas schedule]] — ガススケジュール
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
 - [[glossary/gate|gate]] — ゲート (コントラクト)
@@ -555,6 +558,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/hidden-watchtowers|hidden watchtowers]] — 隠されたウォッチタワー
 - [[glossary/high-custody-nodes|high-custody nodes]] — 高カストディノード
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
+- [[glossary/holderAsOf|holderAsOf]] — 特定時点のホルダー
 - [[glossary/Homomorphic-tallying|Homomorphic tallying]] — 準同型集計 (Homomorphic tallying)
 - [[glossary/honeypot|honeypot]] — ハニーポット
 - [[glossary/Hoodi|Hoodi]] — Hoodi (テストネット)
@@ -612,6 +616,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
 - [[glossary/IRoleBasedTimelock|IRoleBasedTimelock]] — IRoleBasedTimelock (インターフェース)
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
+- [[glossary/isFinalAsOf|isFinalAsOf]] — 特定時点での最終性
 - [[glossary/Isoelastic-demand-curves|Isoelastic demand curves]] — 等弾力性需要曲線
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/Itemized-Non-Fungible-Token|Itemized Non-Fungible Token]] — アイテム化非代替性トークン
@@ -902,6 +907,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Precondition|Precondition]] — 前提条件
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
+- [[glossary/Prediction-markets|Prediction markets]] — 予測市場
 - [[glossary/Preferential-Gas-Schedule|Preferential Gas Schedule]] — 優遇ガススケジュール
 - [[glossary/Prepared-Transaction-Envelope|Prepared Transaction Envelope]] — 準備済みトランザクションエンベロープ
 - [[glossary/Preregistered-Acceptance-Criteria|Preregistered Acceptance Criteria]] — 事前登録された受入基準
@@ -988,6 +994,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
 - [[glossary/Reference-Commitment|Reference Commitment]] — 参照コミットメント (Reference Commitment)
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
+- [[glossary/register-confirmed-holder-record|register-confirmed holder record]] — レジスタで確認されたホルダー記録
 - [[glossary/Regulated-Agent-Mandate|Regulated Agent Mandate]] — 規制されたエージェントの委任 (ERC-8226)
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]] — 規制資産クレーム
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]] — 規制コンプライアンスプロトコル (RCP)
@@ -1007,6 +1014,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/repricing|repricing]] — 再価格設定
 - [[glossary/Reputation-Registries|Reputation Registries]] — レピュテーションレジストリ
 - [[glossary/Reputation-Wallet|Reputation Wallet]] — レピュテーションウォレット
+- [[glossary/Reputational-Futarchy|Reputational Futarchy]] — 評判フターキー
 - [[glossary/Request-Bus|Request Bus]] — リクエストバス
 - [[glossary/Reservation-accounting|Reservation accounting]] — 予約会計
 - [[glossary/reserve-states|reserve states]] — 準備金ステータス
@@ -1027,6 +1035,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
 - [[glossary/Revert|Revert]] — リバート
 - [[glossary/Review|Review]] — レビュー (EIP/ERC)
+- [[glossary/Reward-routing|Reward routing]] — 報酬ルーティング
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]] — ロール混同攻撃

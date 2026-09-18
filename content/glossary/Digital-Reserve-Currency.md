@@ -4,7 +4,7 @@ aliases:
   - デジタル基軸通貨 (Digital Reserve Currency)
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **デジタル基軸通貨 (Digital Reserve Currency)**
