@@ -5,7 +5,7 @@ aliases:
   - EIP-8250 Keyed Nonces
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **キー付きNonce (Keyed Nonces)**

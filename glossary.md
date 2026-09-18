@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12416,3 +12416,85 @@ description: |
 - auto_source_url: https://ethresear.ch/t/when-data-binds-execution-dynamic-simulation-of-eip-7999-s-multidimensional-fee-market/26018
 - desc: |
   EIP-7999の動的シミュレーションにおいて、スロット時間の割り当て（伝播時間と実行時間）を変更することで、システム内の主要な制約（ボトルネック）がデータ制限から実行制限へと移行する現象。この結果は、EIP-7999の設計における重要な考慮事項となります。
+
+## Futarchy
+- ja: フターキー
+- related: [Prediction markets, Governance]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 26030
+- auto_source_url: https://ethresear.ch/t/staking-rewards-as-venture-capital-governed-by-futarchy/26030
+- desc: |
+  意思決定メカニズムの一種で、市場が提案された政策の結果を予測し、最も良い結果を予測された政策が採択される。これにより、集合知を活用した効率的なガバナンスを目指す。
+
+## Reputational Futarchy
+- ja: 評判フターキー
+- related: [Futarchy, Prediction markets, Reputation system]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 26030
+- auto_source_url: https://ethresear.ch/t/staking-rewards-as-venture-capital-governed-by-futarchy/26030
+- desc: |
+  フターキーの一種で、参加者が自身の資本を予測に賭け、その予測の正確性に応じて評判が構築される。これにより、将来の意思決定における信頼性が可視化され、より質の高い判断が促される。
+
+## Prediction markets
+- ja: 予測市場
+- related: [Futarchy, Conditional tokens]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 26030
+- auto_source_url: https://ethresear.ch/t/staking-rewards-as-venture-capital-governed-by-futarchy/26030
+- desc: |
+  将来の出来事の結果を予測するために作られた市場。参加者はイベントの結果に関する自身の信念に基づいてトークンを取引し、市場価格が集合的な予測を示す。
+
+## Reward routing
+- ja: 報酬ルーティング
+- related: [Staking rewards, Staking]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 26030
+- auto_source_url: https://ethresear.ch/t/staking-rewards-as-venture-capital-governed-by-futarchy/26030
+- desc: |
+  ステーキング報酬を自動的に特定の宛先（例：別のプロトコル、金庫）に振り分けるメカニズム。これにより、報酬の再投資や異なる目的への活用が可能になる。
+
+## Asynchronous Register Projection for NFTs
+- ja: NFTの非同期レジスタプロジェクション
+- aliases: [ERC-8415]
+- related: [NFT, ERC-721, holderAsOf, isFinalAsOf, openGapOf]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 29724
+- auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
+- desc: |
+  ERC-8415で提案されている、NFTの取引可能なトークンポジションとレジスタで確認されたホルダー記録を分離し、非同期に管理する仕組みです。これにより、特定の時点でのホルダー情報や最終性を時間的に問い合わせることが可能になります。
+
+## append-only projection engine
+- ja: 追記専用プロジェクションエンジン
+- related: [Asynchronous Register Projection for NFTs, register-confirmed holder record]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 29724
+- auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
+- desc: |
+  ERC-8415の実装において、レジスタで確認されたNFTのホルダー記録を追記専用の形式で管理するためのエンジンです。過去の記録が変更されることなく、新しい情報が追加されていきます。
+
+## register-confirmed holder record
+- ja: レジスタで確認されたホルダー記録
+- related: [Asynchronous Register Projection for NFTs, tradeable token position]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 29724
+- auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
+- desc: |
+  ERC-8415の文脈で、NFTの実際の所有者（ホルダー）に関する公式な記録です。取引可能なトークンポジション（ownerOf）とは別に管理され、特定の時点での所有権の最終性を判断するために使用されます。
+
+## holderAsOf
+- ja: 特定時点のホルダー
+- related: [Asynchronous Register Projection for NFTs, Temporal query APIs]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 29724
+- auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
+- desc: |
+  ERC-8415で提供されるAPIの一つで、指定された過去の時点におけるNFTのホルダー（所有者）を問い合わせる機能です。これにより、非同期に更新されるホルダー記録の履歴を追跡できます。
+
+## isFinalAsOf
+- ja: 特定時点での最終性
+- related: [Asynchronous Register Projection for NFTs, Temporal query APIs, finality]
+- auto_added: 2026-09-18
+- auto_source_topic_id: 29724
+- auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
+- desc: |
+  ERC-8415で提供されるAPIの一つで、指定された過去の時点におけるNFTのホルダー記録が最終的であるかどうかを問い合わせる機能です。これにより、決済の確定状態を判断できます。

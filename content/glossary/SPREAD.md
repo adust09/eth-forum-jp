@@ -5,7 +5,7 @@ aliases:
   - Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **SPREAD (Secure Peer-to-Peer Relay for Efficient Anonymous Dissemination)**

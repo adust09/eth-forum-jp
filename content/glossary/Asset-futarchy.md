@@ -4,7 +4,7 @@ aliases:
   - アセット・フューチャーキー (資産フューチャーキー)
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **アセット・フューチャーキー (資産フューチャーキー)**
@@ -19,6 +19,7 @@ date: '2026-09-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-17-staking-rewards-as-venture-capital-governed-by-futarchy-26030|ステーキング報酬をベンチャーキャピタルに、フューチャーキーで統治]]（2026-09-17）
 - [[posts/ethresear-2026-06-19-futarchy-is-insecure-without-a-proposal-gatekeeper-25235|提案ゲートキーパーなしではフューターキーは安全ではない]]（2026-06-19）
 
 ## 元の表記（英語）

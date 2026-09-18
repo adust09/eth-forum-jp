@@ -4,7 +4,7 @@ aliases:
   - 偽陰性相違（False Red）
 tags:
   - glossary
-date: '2026-09-17'
+date: '2026-09-18'
 ---
 
 **偽陰性相違（False Red）**
