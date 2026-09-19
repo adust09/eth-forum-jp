@@ -4,7 +4,7 @@ aliases:
   - DA伝播負荷 (Data Availability Propagation Burden)
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **DA伝播負荷 (Data Availability Propagation Burden)**

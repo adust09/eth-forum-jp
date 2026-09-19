@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-18
+last_updated: 2026-09-19
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12498,3 +12498,93 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc8415-kit-reference-implementation-now-public-cc0/29724
 - desc: |
   ERC-8415で提供されるAPIの一つで、指定された過去の時点におけるNFTのホルダー記録が最終的であるかどうかを問い合わせる機能です。これにより、決済の確定状態を判断できます。
+
+## Structured Evidence Review
+- ja: 構造化された証拠レビュー
+- related: [Evidence Package, Attestable Outcomes]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 26048
+- auto_source_url: https://ethresear.ch/t/evidence-review-framework-for-project-applications-in-decentralized-guilds-agent-systems/26048
+- desc: |
+  分散型ギルドやエージェントシステムにおいて、プロジェクト申請時に提出される証拠（コード、監査、パフォーマンスデータなど）を体系的に評価するプロセスです。メンバーシップ、権限、資金などの付与前に信頼性を確立するために用いられます。
+
+## Decentralized Guilds
+- ja: 分散型ギルド
+- related: [Agent System, Account Authority Lifecycle]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 26048
+- auto_source_url: https://ethresear.ch/t/evidence-review-framework-for-project-applications-in-decentralized-guilds-agent-systems/26048
+- desc: |
+  Ethereum上のエージェントシステムや協調システムにおいて、プロジェクトやエージェントがメンバーシップ、権限、資金などを得るために証拠を提出し、レビューされる場となる分散型の組織形態です。
+
+## Evidence Package
+- ja: 証拠パッケージ
+- related: [Structured Evidence Review, Attestable Outcomes]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 26048
+- auto_source_url: https://ethresear.ch/t/evidence-review-framework-for-project-applications-in-decentralized-guilds-agent-systems/26048
+- desc: |
+  分散型ギルドやエージェントシステムへのプロジェクト申請時に提出される、コード、監査報告書、パフォーマンスデータ、コンプライアンス証明、プルリクエストなどの構造化された証拠の集合体です。
+
+## Attestable Outcomes
+- ja: 証明可能な結果
+- related: [Structured Evidence Review, Evidence Package, Attestation]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 26048
+- auto_source_url: https://ethresear.ch/t/evidence-review-framework-for-project-applications-in-decentralized-guilds-agent-systems/26048
+- desc: |
+  分散型ギルドにおける証拠レビュープロセスから得られる、検証可能または証明可能な結果です。これらは評判、アカウント権限、ポリシー判断、アクセス制御などに利用されます。
+
+## Agent Trust Systems
+- ja: エージェント信頼システム
+- related: [Autonomous Agent, Reputation Registries, Account Abstraction]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 26048
+- auto_source_url: https://ethresear.ch/t/evidence-review-framework-for-project-applications-in-decentralized-guilds-agent-systems/26048
+- desc: |
+  Ethereum上の自律型エージェントの信頼性、評判、相互作用を管理するためのシステムです。本フレームワークは、エージェントの信頼性を確立するための証拠レビュープロセスと統合されます。
+
+## Burn Record
+- ja: バーン記録
+- related: [ERC-721, burnedBy]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 29732
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
+- desc: |
+  ERC-721トークンがバーンされた際に、どのウォレットアドレスによってバーンされたかをオンチェーンで記録する仕組み。この記録は、トークンのバーン元を追跡するために利用される。
+
+## burnedBy
+- ja: burnedBy (関数)
+- related: [Burn Record, ERC-721]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 29732
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
+- desc: |
+  ERC-721 Burn Record Extensionで提案されている関数。指定されたトークンIDに対して、そのトークンをバーンしたウォレットアドレスを返す。バーン記録がない場合はaddress(0)を返す。
+
+## burn-to-mint flow
+- ja: バーン・トゥ・ミント・フロー
+- related: [tokenomics, minting, burning]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 29732
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
+- desc: |
+  既存のトークンをバーン（焼却）することで、新しいトークンをミント（発行）するプロセス。トークンの供給を管理したり、特定の行動をインセンティブ化するために用いられる一般的なトークン経済モデル。
+
+## destruction receipt
+- ja: 破壊証明 (destruction receipt)
+- related: [Burn Record, token burning]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 29732
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
+- desc: |
+  トークンがバーン（破壊）されたことを証明する記録。特定のトークンがシステムから削除されたことを示すために使用され、バーン・トゥ・ミント・フローなどで利用される。
+
+## one-directional guarantee
+- ja: 一方向保証
+- related: [burnedBy]
+- auto_added: 2026-09-19
+- auto_source_topic_id: 29732
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
+- desc: |
+  ある情報が存在する場合にのみ真実を保証し、情報が存在しない場合には何も証明しないという特性。burnedBy関数が非ゼロアドレスを返す場合にのみバーンを証明し、ゼロアドレスを返す場合はバーンされていないか、記録以前のバーンである可能性を残すことを指す。

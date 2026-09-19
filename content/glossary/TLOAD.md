@@ -4,7 +4,7 @@ aliases:
   - TLOAD (オペコード)
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **TLOAD (オペコード)**

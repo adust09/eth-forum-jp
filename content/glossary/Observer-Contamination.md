@@ -4,7 +4,7 @@ aliases:
   - 観測者汚染
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **観測者汚染**

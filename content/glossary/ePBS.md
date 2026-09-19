@@ -5,7 +5,7 @@ aliases:
   - enshrined Proposer-Builder Separation
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **ePBS (enshrined Proposer-Builder Separation)**

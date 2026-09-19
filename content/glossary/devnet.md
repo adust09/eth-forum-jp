@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **開発ネットワーク (devnet)**

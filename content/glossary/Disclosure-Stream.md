@@ -5,7 +5,7 @@ aliases:
   - Stream
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **開示ストリーム**
