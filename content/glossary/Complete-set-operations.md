@@ -6,7 +6,7 @@ aliases:
   - merge
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **完全セット操作**

@@ -5,7 +5,7 @@ aliases:
   - Instant settlement
 tags:
   - glossary
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 **T+0決済（即時決済）**

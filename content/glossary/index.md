@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-18'
+date: '2026-09-19'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -54,6 +54,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
+- [[glossary/Agent-Trust-Systems|Agent Trust Systems]] — エージェント信頼システム
 - [[glossary/Agent-Facing-Mechanism|Agent-Facing Mechanism]] — エージェント向けメカニズム
 - [[glossary/Agent-to-agent-trust-network|Agent-to-agent trust network]] — エージェント間信頼ネットワーク
 - [[glossary/Agentic-Commerce|Agentic Commerce]] — エージェント型商取引 (Agentic Commerce)
@@ -101,6 +102,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
 - [[glossary/attenuated-re-delegation|attenuated re-delegation]] — 減衰再委譲
+- [[glossary/Attestable-Outcomes|Attestable Outcomes]] — 証明可能な結果
 - [[glossary/Attestation|Attestation]] — アテステーション（証明）
 - [[glossary/attestation-deadline|attestation deadline]] — アテステーション期限
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
@@ -185,7 +187,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bundle-Pricing|Bundle Pricing]] — バンドル価格設定 (Bundle Pricing)
 - [[glossary/Bundled-Attestation-Propagation|Bundled Attestation Propagation]] — バンドル化されたアッテステーション伝播
 - [[glossary/burn-commitment|burn commitment]] — バーンコミットメント
+- [[glossary/Burn-Record|Burn Record]] — バーン記録
+- [[glossary/burn-to-mint-flow|burn-to-mint flow]] — バーン・トゥ・ミント・フロー
 - [[glossary/burned-tokenId-reuse|burned tokenId reuse]] — 焼却済みトークンIDの再利用
+- [[glossary/burnedBy|burnedBy]] — burnedBy (関数)
 - [[glossary/Call-Frame|Call Frame]] — コールフレーム
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/CALLVALUE|CALL_VALUE]] — CALL値
@@ -320,6 +325,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Decay-gaming|Decay-gaming]] — 減衰ゲーミング
 - [[glossary/Decaying-vote-weight|Decaying vote weight]] — 減衰する投票ウェイト
 - [[glossary/decentralized-arbitration|decentralized arbitration]] — 分散型仲裁
+- [[glossary/Decentralized-Guilds|Decentralized Guilds]] — 分散型ギルド
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/Decentralized-State|Decentralized State]] — 分散型ステート
 - [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
@@ -336,6 +342,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/destruction-receipt|destruction receipt]] — 破壊証明 (destruction receipt)
 - [[glossary/Deterministic-Auditability|Deterministic Auditability]] — 決定論的監査可能性
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
@@ -443,6 +450,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Evidence-Capsule-Model|Evidence Capsule Model]] — エビデンスカプセルモデル
 - [[glossary/Evidence-closure|Evidence closure]] — エビデンスクロージャ
 - [[glossary/Evidence-Obligations|Evidence Obligations]] — 証拠義務
+- [[glossary/Evidence-Package|Evidence Package]] — 証拠パッケージ
 - [[glossary/evidenceHash|evidenceHash]] — evidenceHash (証拠ハッシュ)
 - [[glossary/Evidential-Survivability|Evidential Survivability]] — 証拠の存続可能性 (Evidential Survivability)
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
@@ -799,6 +807,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-safeguards|On-chain safeguards]] — オンチェーンセーフガード
 - [[glossary/On-chain-status-anchor|On-chain status anchor]] — オンチェーンステータスアンカー
 - [[glossary/Onchain-metadata|Onchain metadata]] — オンチェーンメタデータ
+- [[glossary/one-directional-guarantee|one-directional guarantee]] — 一方向保証
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
 - [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/online-migration|online migration]] — オンライン移行
@@ -1182,6 +1191,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
 - [[glossary/Structural-OEV-Elimination|Structural OEV Elimination]] — 構造的OEV排除 (Oracle Extractable Value排除)
+- [[glossary/Structured-Evidence-Review|Structured Evidence Review]] — 構造化された証拠レビュー
 - [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
