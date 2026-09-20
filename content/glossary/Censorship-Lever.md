@@ -4,7 +4,7 @@ aliases:
   - 検閲レバー
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **検閲レバー**
@@ -19,7 +19,7 @@ Ethereumプロトコル層に実装されることが提案されている、特
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 
 ## 元の表記（英語）
 

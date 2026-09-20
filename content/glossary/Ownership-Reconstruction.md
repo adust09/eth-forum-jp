@@ -4,7 +4,7 @@ aliases:
   - 所有権の再構築 (Ownership Reconstruction)
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **所有権の再構築 (Ownership Reconstruction)**

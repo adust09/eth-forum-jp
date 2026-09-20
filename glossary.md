@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-19
+last_updated: 2026-09-20
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12588,3 +12588,132 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-721-burn-record-extension/29732
 - desc: |
   ある情報が存在する場合にのみ真実を保証し、情報が存在しない場合には何も証明しないという特性。burnedBy関数が非ゼロアドレスを返す場合にのみバーンを証明し、ゼロアドレスを返す場合はバーンされていないか、記録以前のバーンである可能性を残すことを指す。
+
+## Strict role alternation
+- ja: 厳格な役割交代
+- related: [Locomotive, Wagon, Role bit, Reciprocal broadcast]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26051
+- auto_source_url: https://ethresear.ch/t/strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet/26051
+- desc: |
+  EVMシールドプールにおいて、リレーヤーに依存せずトランザクションをブロードキャストするための提案されたメカニズム。各シールドノートに「locomotive」または「wagon」の役割ビットを持たせ、その役割に応じてトランザクションのブロードキャスト義務を交代させることで、相互的なガス代支払いを実現する。
+
+## Locomotive
+- ja: ロコモティブ (役割)
+- related: [Strict role alternation, Wagon, Role bit]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26051
+- auto_source_url: https://ethresear.ch/t/strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet/26051
+- desc: |
+  厳格な役割交代メカニズムにおけるシールドノートの役割の一つ。この役割を持つノートを消費するユーザーは、自身の証明と他者の「wagon」証明をバンドルしてブロードキャストし、両方のガス代を支払う義務がある。消費後、新しいノートは「wagon」として生成される。
+
+## Wagon
+- ja: ワゴン (役割)
+- related: [Strict role alternation, Locomotive, Role bit]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26051
+- auto_source_url: https://ethresear.ch/t/strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet/26051
+- desc: |
+  厳格な役割交代メカニズムにおけるシールドノートの役割の一つ。この役割を持つノートを消費するユーザーは、自身の証明をオフチェーンで公開し、「locomotive」がそれをバンドルしてブロードキャストするのを待つ。消費後、新しいノートは「locomotive」として生成される。
+
+## Role bit
+- ja: 役割ビット
+- related: [Strict role alternation, Locomotive, Wagon]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26051
+- auto_source_url: https://ethresear.ch/t/strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet/26051
+- desc: |
+  厳格な役割交代メカニズムにおいて、各シールドノートのコミットメント内に含まれるビット。このビットがノートの役割（「locomotive」または「wagon」）を識別し、トランザクションのブロードキャスト義務を決定する。役割はオンチェーンには現れない。
+
+## Drain
+- ja: ドレイン (厳格な役割交代におけるメカニズム)
+- related: [Strict role alternation, Locomotive, Wagon]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26051
+- auto_source_url: https://ethresear.ch/t/strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet/26051
+- desc: |
+  厳格な役割交代メカニズムにおいて、「locomotive」の枯渇による待ち時間の無制限な増加を防ぐためのバルブ機構。通常「wagon」であるノートが2倍のガス代を支払うことで「locomotive」に変化し、システム内の「locomotive」供給を補充する役割を果たす。
+
+## Transaction Ticket
+- ja: トランザクションチケット
+- aliases: [ticket]
+- related: [FOCIL, LUCID, Encrypted Mempool]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26040
+- auto_source_url: https://ethresear.ch/t/towards-encrypted-mempools-from-threshold-ibe-without-batching/26040
+- desc: |
+  暗号化されたトランザクションのオンチェーンでの実行を保証するために、送信者が事前に提出する特殊なトランザクション。特定の将来のブロックでのガス予約とインクルージョンを保証します。
+
+## Encrypted Transaction
+- ja: 暗号化されたトランザクション
+- aliases: [etx]
+- related: [Encrypted Mempool, Transaction Ticket, Transaction Envelope]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26040
+- auto_source_url: https://ethresear.ch/t/towards-encrypted-mempools-from-threshold-ibe-without-batching/26040
+- desc: |
+  トランザクションチケットがオンチェーンに記録された後に、送信者によって暗号化されブロードキャストされるトランザクション。ペイロードタイムリネス委員会によって可用性が確認され、最終的に復号されて実行されます。
+
+## etx_seen bitfield
+- ja: etx_seenビットフィールド
+- related: [Payload Timeliness Committee (PTC), Encrypted Transaction]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26040
+- auto_source_url: https://ethresear.ch/t/towards-encrypted-mempools-from-threshold-ibe-without-batching/26040
+- desc: |
+  ペイロードタイムリネス委員会（PTC）のメンバーが、特定のチケットに対応する暗号化されたトランザクション（etx）を期限までに確認したかどうかを示す投票結果をまとめたビットフィールド。コンセンサスによってコミットされ、etxの復号とインクルージョンを決定します。
+
+## Pending Transaction Privacy
+- ja: ペンディングトランザクションプライバシー
+- related: [Encrypted Mempool]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 26040
+- auto_source_url: https://ethresear.ch/t/towards-encrypted-mempools-from-threshold-ibe-without-batching/26040
+- desc: |
+  暗号化されたトランザクションがブロックチェーンにインクルードされ、実行されるまで、その内容（および場合によっては送信者）が他の参加者から隠蔽される状態。MEV対策の重要な要素です。
+
+## Know-Your-Agent Framework
+- ja: Know-Your-Agent (KYA) フレームワーク
+- aliases: [KYA Framework, KYA]
+- related: [ERC-8004, ZK-KYA profile, Agent]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 29735
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
+- desc: |
+  エージェントの信頼性に関する結論を標準化するためのフレームワーク。エージェントが特定の原則に基づいて検証され、発行者によって承認され、特定のレベルに達していることを示すアサーションのコンテナを定義する。
+
+## KYA Scheme
+- ja: KYAスキーム
+- related: [Know-Your-Agent Framework, KYA Registry, IKYAVerifier]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 29735
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
+- desc: |
+  KYAフレームワーク内で、エージェントの信頼性検証の具体的な方法を定義するスキーマ。検証内容、結果のレベル表現、証拠の種類、アサーションの承認方法などを規定する。
+
+## KYA Registry
+- ja: KYAレジストリ
+- related: [Know-Your-Agent Framework, KYA Scheme, Assertion]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 29735
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
+- desc: |
+  KYAフレームワークにおいて、エージェントの信頼性に関するアサーションを記録・管理するレジストリ。subjectKey, schemeId, issuer, levelなどの情報を含むアサーションを記録し、解決・チェック機能を提供する。
+
+## ZK-KYA profile
+- ja: ZK-KYAプロファイル
+- related: [Know-Your-Agent Framework, IKYAVerifier, Zero-Knowledge Proof]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 29735
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
+- desc: |
+  KYAフレームワークにおけるゼロ知識証明を活用したプロファイル。検証者コントラクト（IKYAVerifier）を通じて、エージェントの信頼性アサーションをゼロ知識証明を用いて発行・検証する仕組み。
+
+## KYA Bridge
+- ja: KYAブリッジ
+- related: [Know-Your-Agent Framework, ERC-8004, Validator]
+- auto_added: 2026-09-20
+- auto_source_topic_id: 29735
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
+- desc: |
+  KYAフレームワークとERC-8004を連携させるブリッジ。ERC-8004のバリデーターとして機能し、KYAの検証結果レベルをERC-8004のタグ付き検証結果としてミラーリングする。

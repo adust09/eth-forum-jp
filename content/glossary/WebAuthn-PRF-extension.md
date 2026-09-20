@@ -5,7 +5,7 @@ aliases:
   - PRF extension
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)**

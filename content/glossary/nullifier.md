@@ -5,7 +5,7 @@ aliases:
   - nf
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **ナリファイア**
@@ -19,6 +19,7 @@ ZK-UTXOモデルにおいて、ノートが消費された際に公開される�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-19-strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet-26051|厳格なロール交代：EVMシールドプール向けリレーヤー不要の相互ブロードキャスト（仕様＋個体群シミュレーション、コードは未実装）]]（2026-09-19）
 - [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-09-02-eip-8141-and-minimum-required-validation-budget-for-privacy-applications-25889|EIP-8141とプライバシーアプリケーションに必要な最小検証予算]]（2026-09-02）
