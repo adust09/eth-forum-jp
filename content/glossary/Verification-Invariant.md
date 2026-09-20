@@ -4,7 +4,7 @@ aliases:
   - 検証不変条件 (Verification Invariant)
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **検証不変条件 (Verification Invariant)**

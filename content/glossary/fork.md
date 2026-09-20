@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **フォーク**
@@ -19,6 +19,7 @@ date: '2026-09-19'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）

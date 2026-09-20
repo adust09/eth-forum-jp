@@ -4,7 +4,7 @@ aliases:
   - 閾値暗号
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **閾値暗号**
@@ -19,6 +19,7 @@ date: '2026-09-19'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/magicians-2026-09-11-encrypt-the-mempool-10-september-16-2026-29647|Encrypt The Mempool 第10回、2026年9月16日]]（2026-09-11）
 - [[posts/magicians-2026-08-27-tacet-a-trust-minimized-encrypted-mempool-for-the-op-stack-working-prototype-seeking-feedback-29529|Tacet: OP Stack向けトラストレス暗号化メムプール（動作プロトタイプ、フィードバック募集中）]]（2026-08-27）
 - [[posts/magicians-2026-07-20-encrypt-the-mempool-7-july-22-2026-29042|メムプールの暗号化 #7、2026年7月22日]]（2026-07-20）

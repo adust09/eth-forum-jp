@@ -4,7 +4,7 @@ aliases:
   - 不変条件
 tags:
   - glossary
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 **不変条件**
@@ -17,7 +17,7 @@ date: '2026-09-19'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-19-strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet-26051|厳格なロール交代：EVMシールドプール向けリレーヤー不要の相互ブロードキャスト（仕様＋個体群シミュレーション、コードは未実装）]]（2026-09-19）
 
 ## 元の表記（英語）
 

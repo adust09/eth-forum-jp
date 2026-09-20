@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-19'
+date: '2026-09-20'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -376,6 +376,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Domain-separated-scopes|Domain-separated scopes]] — ドメイン分離スコープ
 - [[glossary/dormant-state|dormant state]] — 休眠状態
 - [[glossary/Draft|Draft]] — ドラフト (EIP/ERC)
+- [[glossary/Drain|Drain]] — ドレイン (厳格な役割交代におけるメカニズム)
 - [[glossary/dual-check-verification-procedure|dual-check verification procedure]] — デュアルチェック検証手順
 - [[glossary/Dynamic-Step-Function-Penalty-Curve|Dynamic Step-Function Penalty Curve]] — 動的ステップ関数ペナルティカーブ
 - [[glossary/Dynamic-Voting-Cap-Generation|Dynamic Voting Cap Generation]] — 動的投票上限生成
@@ -407,6 +408,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Encode-Prove-DAS|Encode + Prove DAS]] — エンコード＋証明DAS
 - [[glossary/Encrypt-The-Mempool|Encrypt The Mempool]] — メムプール暗号化
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
+- [[glossary/Encrypted-Transaction|Encrypted Transaction]] — 暗号化されたトランザクション
 - [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
@@ -444,6 +446,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
 - [[glossary/Ethp2p|Ethp2p]] — Ethp2p (イーサリアムP2Pプロトコル)
 - [[glossary/ETNL-Semantic-Layer|ETNL Semantic Layer]] — ETNLセマンティックレイヤー (実行トレース正規化レイヤー)
+- [[glossary/etxseen-bitfield|etx_seen bitfield]] — etx_seenビットフィールド
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/eviction-mechanism|eviction mechanism]] — 削除メカニズム
 - [[glossary/Evidence-Capsule|Evidence Capsule]] — エビデンスカプセル
@@ -643,9 +646,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Keyed-Nonces|Keyed Nonces]] — キー付きNonce (Keyed Nonces)
 - [[glossary/Keyed-aware-mempool|Keyed-aware mempool]] — キー認識Mempool (Keyed-aware mempool)
 - [[glossary/keystore-backed-account|keystore-backed account]] — キーストアに裏打ちされたアカウント
+- [[glossary/Know-Your-Agent-Framework|Know-Your-Agent Framework]] — Know-Your-Agent (KYA) フレームワーク
 - [[glossary/KoalaBear-prime-field|KoalaBear prime field]] — KoalaBear素体
 - [[glossary/KoalaBear-quintic-extension-field|KoalaBear quintic extension field]] — KoalaBear五次拡大体
 - [[glossary/Kohaku|Kohaku]] — Kohaku
+- [[glossary/KYA-Bridge|KYA Bridge]] — KYAブリッジ
+- [[glossary/KYA-Registry|KYA Registry]] — KYAレジストリ
+- [[glossary/KYA-Scheme|KYA Scheme]] — KYAスキーム
 - [[glossary/KZG-commitment|KZG commitment]] — KZGコミットメント
 - [[glossary/L-hard-fork|L* hard fork]] — L* ハードフォーク
 - [[glossary/L0-behavioral-biometrics|L0 behavioral biometrics]] — L0行動生体認証
@@ -682,6 +689,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Load-Leveling|Load Leveling]] — ロードレベリング
 - [[glossary/locally-built-blocks|locally-built blocks]] — ローカル構築ブロック
 - [[glossary/Locked-value|Locked value]] — ロックされた価値
+- [[glossary/Locomotive|Locomotive]] — ロコモティブ (役割)
 - [[glossary/log-query-proofs|log query proofs]] — ログクエリ証明
 - [[glossary/Logarithmic-Market-Scoring-Rule|Logarithmic Market Scoring Rule]] — 対数市場スコアリングルール (LMSR)
 - [[glossary/logicallogn|logical_logn]] — 論理ドメインの対数サイズ (logical_logn)
@@ -865,6 +873,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PBT-snapshot|PBT snapshot]] — PBTスナップショット
 - [[glossary/Pectra|Pectra]] — ペクトラ
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
+- [[glossary/Pending-Transaction-Privacy|Pending Transaction Privacy]] — ペンディングトランザクションプライバシー
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
 - [[glossary/per-item-cap|per-item cap]] — アイテム別供給上限
 - [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
@@ -1047,6 +1056,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Reward-routing|Reward routing]] — 報酬ルーティング
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
+- [[glossary/Role-bit|Role bit]] — 役割ビット
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]] — ロール混同攻撃
 - [[glossary/Role-Tier-Derivation-Rules|Role Tier Derivation Rules]] — ロールティア導出ルール
 - [[glossary/Role-Based-Timelock-Operation|Role-Based Timelock Operation]] — ロールベース・タイムロック操作
@@ -1187,6 +1197,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Storage-proof|Storage proof]] — ストレージ証明
+- [[glossary/Strict-role-alternation|Strict role alternation]] — 厳格な役割交代
 - [[glossary/Strict-Cap-Call-Opcode|Strict-Cap Call Opcode]] — 厳格な上限付きコールオペコード
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
@@ -1263,6 +1274,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
+- [[glossary/Transaction-Ticket|Transaction Ticket]] — トランザクションチケット
 - [[glossary/Transaction-Validation|Transaction Validation]] — トランザクション検証
 - [[glossary/Transaction-Validity-Proofs|Transaction Validity Proofs]] — トランザクション有効性証明
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
@@ -1331,6 +1343,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/VRF|VRF]] — 検証可能乱数関数 (VRF)
 - [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
 - [[glossary/Waggle-protocol|Waggle protocol]] — ワグルプロトコル (Waggle protocol)
+- [[glossary/Wagon|Wagon]] — ワゴン (役割)
 - [[glossary/Wallet-Call-Gas-Limit-Override-Capability|Wallet Call Gas Limit Override Capability]] — ウォレットコールガス制限上書き機能
 - [[glossary/Wallet-Pass-Extension-for-NFTs|Wallet Pass Extension for NFTs]] — NFT向けウォレットパス拡張
 - [[glossary/Wallet-Title-Deeds|Wallet Title Deeds]] — ウォレット所有権証書
@@ -1370,6 +1383,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
 - [[glossary/zk-shielding-layer|zk shielding layer]] — zkシーディング層 (zk shielding layer)
 - [[glossary/ZK-state-channel|ZK state channel]] — ZKステートチャネル
+- [[glossary/ZK-KYA-profile|ZK-KYA profile]] — ZK-KYAプロファイル
 - [[glossary/ZK-nullifier|ZK-nullifier]] — ZKヌリファイア（ゼロ知識ヌリファイア）
 - [[glossary/ZK-SNARKs|ZK-SNARKs]] — ZK-SNARKs (ゼロ知識簡潔非対話型知識証明)
 - [[glossary/ZK-UTXO-note|ZK-UTXO note]] — ZK-UTXOノート
