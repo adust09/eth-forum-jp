@@ -4,7 +4,7 @@ aliases:
   - eth_subscribe (イーサリアム購読)
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **eth_subscribe (イーサリアム購読)**

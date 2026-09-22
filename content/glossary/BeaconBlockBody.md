@@ -4,7 +4,7 @@ aliases:
   - ビーコンブロックボディ
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **ビーコンブロックボディ**
@@ -17,6 +17,7 @@ Ethereumのビーコンチェーンにおけるブロックの主要な構成要
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/ethresear-2026-06-19-scaling-in-hegota-using-the-eth-transfer-to-anchor-execution-and-bandwidth-25232|Hegotaにおけるスケーリング：ETH転送をアンカーとして実行と帯域幅を固定する]]（2026-06-19）
 
 ## 元の表記（英語）

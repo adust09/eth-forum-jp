@@ -4,7 +4,7 @@ aliases:
   - getLogs (RPCメソッド)
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **getLogs (RPCメソッド)**
@@ -18,7 +18,7 @@ EthereumのJSON-RPCメソッドの一つで、指定されたブロック範囲�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-21-rpc-standards-35-september-21-2026-29742|RPC標準 #35、2026年9月21日]]（2026-09-21）
 
 ## 元の表記（英語）
 

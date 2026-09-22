@@ -4,7 +4,7 @@ aliases:
   - IDENTITY_SENTINEL (アイデンティティ・センチネル)
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **IDENTITY_SENTINEL (アイデンティティ・センチネル)**

@@ -5,7 +5,7 @@ aliases:
   - EIP-7805
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **FOCIL (強制オンチェーンインクルージョンリスト)**
@@ -19,6 +19,7 @@ Ethereumの検閲耐性強化を目的とした提案EIP-7805の略称。特定�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）

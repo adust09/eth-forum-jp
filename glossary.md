@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-20
+last_updated: 2026-09-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12717,3 +12717,93 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-erc-know-your-agent-kya-framework-trust-assertions-for-agents-zk-kya-profile-erc-8004-binding/29735
 - desc: |
   KYAフレームワークとERC-8004を連携させるブリッジ。ERC-8004のバリデーターとして機能し、KYAの検証結果レベルをERC-8004のタグ付き検証結果としてミラーリングする。
+
+## Executable Consensus Specs
+- ja: 実行可能なコンセンサス仕様
+- related: [Formal Verification, Consensus Layer]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 26063
+- auto_source_url: https://ethresear.ch/t/etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4/26063
+- desc: |
+  Ethereumのコンセンサスルールを、形式的に記述され、実行可能な形で表現したもの。テストベクターに対して実行し、その正確性を検証できます。
+
+## Machine-checked proofs
+- ja: 機械検証済み証明
+- related: [Formal Verification, Lean 4]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 26063
+- auto_source_url: https://ethresear.ch/t/etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4/26063
+- desc: |
+  形式検証ツール（Lean 4など）によってその正しさが検証された数学的証明。Ethereumプロトコルの安全性と正確性を保証するために用いられます。
+
+## Fork Container
+- ja: フォークコンテナ
+- related: [Consensus Specs, Data Structure]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 26063
+- auto_source_url: https://ethresear.ch/t/etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4/26063
+- desc: |
+  Ethereumのコンセンサス仕様をLean 4などの形式言語で記述する際に用いられる、フォーク固有のデータ構造を定義するための概念。各フォークの定数に基づいてサイズが決定されます。
+
+## Const Tier
+- ja: 定数層 (Const Tier)
+- related: [Consensus Specs, Fork]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 26063
+- auto_source_url: https://ethresear.ch/t/etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4/26063
+- desc: |
+  Ethereumの各フォークにおいて、そのフォーク固有の定数を管理するために用いられる概念。プリセットやフォーク自身の定数を定義し、仕様全体で利用されます。
+
+## Symbolic Backend
+- ja: 記号的バックエンド
+- related: [Formal Verification, BLS Signature, Cryptography]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 26063
+- auto_source_url: https://ethresear.ch/t/etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4/26063
+- desc: |
+  形式検証において、実際の暗号プリミティブ（BLS署名など）の具体的な実装を抽象化し、その特性を記号的に扱うための手法。これにより、暗号の信頼基盤から独立してプロトコルの証明が可能になります。
+
+## engine_forkchoiceUpdated
+- ja: engine_forkchoiceUpdated (Engine APIメソッド)
+- related: [Engine API, ForkchoiceStateV1, Execution Layer, Consensus Layer]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 29742
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
+- desc: |
+  Execution Layer (EL)クライアントがConsensus Layer (CL)クライアントにフォーク選択の状態を更新するために使用するEngine APIのメソッド。新しいブロックの提案や既存のブロックのファイナライズに関する情報が含まれます。
+
+## ForkchoiceStateV1
+- ja: ForkchoiceStateV1 (フォーク選択状態V1)
+- related: [engine_forkchoiceUpdated, Engine API, Consensus Layer]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 29742
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
+- desc: |
+  engine_forkchoiceUpdatedメソッドで使用されるデータ構造で、Consensus Layerのフォーク選択の状態を表現します。最新のヘッドブロック、セーフブロック、ファイナライズされたブロックのハッシュなどが含まれます。
+
+## eth_createAccessList
+- ja: eth_createAccessList (アクセスリスト作成RPC)
+- related: [Access List, EIP-2930, JSON-RPC]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 29742
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
+- desc: |
+  EIP-2930で導入されたトランザクションのアクセスリストを生成するためのJSON-RPCメソッド。トランザクションがアクセスするストレージキーとアドレスを事前に特定し、ガス料金を最適化するのに役立ちます。
+
+## eth_getHeaderByNumber
+- ja: eth_getHeaderByNumber (ブロックヘッダー取得RPC、番号指定)
+- related: [JSON-RPC, Block Header, eth_getHeaderByHash]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 29742
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
+- desc: |
+  指定されたブロック番号に対応するブロックのヘッダー情報を取得するためのJSON-RPCメソッド。ブロックの基本的なメタデータ（ハッシュ、親ハッシュ、タイムスタンプなど）を提供します。
+
+## targetGasLimit
+- ja: targetGasLimit (目標ガス制限)
+- related: [Gas Limit, EIP-1559, Block Builder]
+- auto_added: 2026-09-22
+- auto_source_topic_id: 29742
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
+- desc: |
+  Ethereumブロックのガス制限の目標値。EIP-1559で導入され、ブロックのガス制限がこの目標値に近づくように動的に調整されます。

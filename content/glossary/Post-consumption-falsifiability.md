@@ -4,7 +4,7 @@ aliases:
   - 消費後反証可能性 (Post-consumption falsifiability)
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **消費後反証可能性 (Post-consumption falsifiability)**

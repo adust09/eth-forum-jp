@@ -4,7 +4,7 @@ aliases:
   - 二次元ガス
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **二次元ガス**
@@ -18,6 +18,7 @@ EIP-8037で提案されている、Ethereumのガス計算モデル。従来の�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-21-rpc-standards-35-september-21-2026-29742|RPC標準 #35、2026年9月21日]]（2026-09-21）
 - [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）
 - [[posts/magicians-2026-08-10-rpc-standards-32-august-10-2026-29377|RPC標準 #32、2026年8月10日]]（2026-08-10）
 
