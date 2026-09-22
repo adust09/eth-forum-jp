@@ -4,7 +4,7 @@ aliases:
   - SizzLean
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **SizzLean**
@@ -19,7 +19,7 @@ Lean 4で実装された、EthereumのSSZ（Simple Serialize）スタックの�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - 状態遷移関数
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **状態遷移関数**
@@ -17,6 +17,7 @@ date: '2026-09-20'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
 - [[posts/ethresear-2026-06-19-repurposing-focil-as-an-l2-forced-transaction-mechanism-25233|FOCILをL2の強制トランザクションメカニズムとして再利用する]]（2026-06-19）
 

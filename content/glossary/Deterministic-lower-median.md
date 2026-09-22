@@ -5,7 +5,7 @@ aliases:
   - lower median
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **決定論的下位中央値 (Deterministic lower median)**

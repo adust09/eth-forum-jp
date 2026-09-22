@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-09-20'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/magicians-2026-09-02-rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes-29563|RFC: プロシージャマニフェスト - AIエージェントが契約上の紛争を解決するためのメカニズム]]（2026-09-02）
 - [[posts/magicians-2026-08-24-erc-8392-asset-status-interface-for-tokenized-assets-29489|ERC-8392: トークン化資産のアセットステータスインターフェース]]（2026-08-24）
 - [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）

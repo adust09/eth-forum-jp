@@ -4,7 +4,7 @@ aliases:
   - ファイナル (EIP/ERC)
 tags:
   - glossary
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 **ファイナル (EIP/ERC)**
@@ -21,6 +21,7 @@ EIPまたはERCの提案が承認され、Ethereumプロトコルの一部とし
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-21-eip-editing-office-hour-eip-erc-meeting-113-september-22-2026-29743|EIP編集オフィスアワー (EIP + ERC) ミーティング #113、2026年9月22日]]（2026-09-21）
 - [[posts/magicians-2026-08-24-erc-8392-asset-status-interface-for-tokenized-assets-29489|ERC-8392: トークン化資産のアセットステータスインターフェース]]（2026-08-24）
 - [[posts/magicians-2026-08-13-a-map-of-the-agent-mandate-ercs-what-each-one-actually-does-29421|エージェントマンデートERCのマップ — それぞれが実際に何をするのか]]（2026-08-13）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）

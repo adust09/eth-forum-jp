@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-20'
+date: '2026-09-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -270,6 +270,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Consent-Registry|Consent Registry]] — 同意レジストリ
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Conservative-Funding-Check|Conservative Funding Check]] — 保守的な資金調達チェック
+- [[glossary/Const-Tier|Const Tier]] — 定数層 (Const Tier)
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
 - [[glossary/contention-classes|contention classes]] — 競合クラス
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
@@ -413,6 +414,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
+- [[glossary/engineforkchoiceUpdated|engine_forkchoiceUpdated]] — engine_forkchoiceUpdated (Engine APIメソッド)
 - [[glossary/Enshrinement|Enshrinement]] — プロトコルへの組み込み (Enshrinement)
 - [[glossary/EOA|EOA]] — EOA (Externally Owned Account)
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
@@ -438,7 +440,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ETH-issuance-curve|ETH issuance curve]] — ETH発行曲線
 - [[glossary/Eth-RD|Eth R&D]] — イーサリアム研究開発
 - [[glossary/ethbaseFee|eth_baseFee]] — eth_baseFee
+- [[glossary/ethcreateAccessList|eth_createAccessList]] — eth_createAccessList (アクセスリスト作成RPC)
 - [[glossary/ethgetHeaderByHash|eth_getHeaderByHash]] — eth_getHeaderByHash (RPCメソッド)
+- [[glossary/ethgetHeaderByNumber|eth_getHeaderByNumber]] — eth_getHeaderByNumber (ブロックヘッダー取得RPC、番号指定)
 - [[glossary/ethsimulateV1|eth_simulateV1]] — eth_simulateV1 (RPCメソッド)
 - [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
@@ -463,6 +467,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Exactly-Once-Execution|Exactly Once Execution]] — 厳密な1回実行
 - [[glossary/exactly-once-assertions|exactly-once assertions]] — 厳密に一度のアサーション
 - [[glossary/Exchange-channel-minting|Exchange-channel minting]] — 交換チャネルミント
+- [[glossary/Executable-Consensus-Specs|Executable Consensus Specs]] — 実行可能なコンセンサス仕様
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/executable-skill|executable skill]] — 実行可能なスキル
 - [[glossary/execution-anchor|execution anchor]] — 実行アンカー
@@ -519,7 +524,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Forced-transaction-mechanism|Forced transaction mechanism]] — 強制トランザクションメカニズム
 - [[glossary/Forensic-Token|Forensic Token]] — フォレンジックトークン
 - [[glossary/fork|fork]] — フォーク
+- [[glossary/Fork-Container|Fork Container]] — フォークコンテナ
 - [[glossary/forkcast|forkcast]] — フォークキャスト
+- [[glossary/ForkchoiceStateV1|ForkchoiceStateV1]] — ForkchoiceStateV1 (フォーク選択状態V1)
 - [[glossary/Formal-Verification|Formal Verification]] — 形式検証
 - [[glossary/FORS|FORS]] — FORS（フォレスト・オブ・ランダム・サブセット）
 - [[glossary/Forward-compatible-consensus-data-structures|Forward compatible consensus data structures]] — 前方互換性のあるコンセンサスデータ構造
@@ -697,6 +704,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Loss-Versus-Rebalancing|Loss-Versus-Rebalancing]] — リバランス損失 (LVR)
 - [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
+- [[glossary/Machine-checked-proofs|Machine-checked proofs]] — 機械検証済み証明
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
@@ -1219,12 +1227,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sybil-identity|Sybil identity]] — シビルアイデンティティ
 - [[glossary/Sybil-resistance|Sybil resistance]] — シビル耐性
 - [[glossary/Sybil-decorrelation-attack|Sybil-decorrelation attack]] — シビルデコレーション攻撃
+- [[glossary/Symbolic-Backend|Symbolic Backend]] — 記号的バックエンド
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/Sync-Committee|Sync Committee]] — 同期委員会
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/Tapered-Issuance-Burn|Tapered Issuance Burn]] — テーパー型発行量バーン
+- [[glossary/targetGasLimit|targetGasLimit]] — targetGasLimit (目標ガス制限)
 - [[glossary/Task-Token|Task Token]] — タスクトークン
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
 - [[glossary/TCREATE|TCREATE]] — TCREATEオペコード
