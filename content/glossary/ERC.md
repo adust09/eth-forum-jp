@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-09-22'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-22-eipip-meeting-131-oct-20-2026-29748|EIPIPミーティング #131、2026年10月20日]]（2026-09-22）
 - [[posts/magicians-2026-09-17-erc8415-kit-reference-implementation-now-public-cc0-29724|ERC8415-Kit: リファレンス実装が公開されました (CC0)]]（2026-09-17）
 - [[posts/magicians-2026-09-14-erc-8416-epoch-based-fixed-rate-vault-29669|ERC-8416: エポックベース固定金利ボルト]]（2026-09-14）
 - [[posts/ethresear-2026-09-06-can-we-verify-an-erc-not-just-its-code-25926|ERCをコードだけでなく検証できるか？]]（2026-09-06）

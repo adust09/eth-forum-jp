@@ -6,7 +6,7 @@ aliases:
   - FIPS 206
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **FN-DSA (Falcon)**

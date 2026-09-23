@@ -5,7 +5,7 @@ aliases:
   - RVR
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **再計算可能な検証レシート**

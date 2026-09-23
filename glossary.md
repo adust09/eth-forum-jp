@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-22
+last_updated: 2026-09-23
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12807,3 +12807,57 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-35-september-21-2026/29742
 - desc: |
   Ethereumブロックのガス制限の目標値。EIP-1559で導入され、ブロックのガス制限がこの目標値に近づくように動的に調整されます。
+
+## fake-exponential update rule
+- ja: 擬似指数的更新ルール
+- related: [EIP-1559 update rule, EIP-7999]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 26062
+- auto_source_url: https://ethresear.ch/t/post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999/26062
+- desc: |
+  EIP-7999で提案されている、複数のリソース（実行、データ、ステート）のベースフィーを個別に調整するための更新ルールです。EIP-1559の線形的な更新ルールとは異なり、各リソースの需要に応じてベースフィーが擬似指数的に変動します。
+
+## cross-resource pricing constraints
+- ja: リソース間価格制約
+- related: [one-dimensional fee market, multi-dimensional fee market]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 26062
+- auto_source_url: https://ethresear.ch/t/post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999/26062
+- desc: |
+  複数の異なるリソース（例: 実行ガス、データガス、ステートガス）が存在する手数料市場において、あるリソースの価格設定が他のリソースの価格や利用に制約を与える問題です。特に単一の共有ベースフィーを持つ市場で顕著になります。
+
+## data reserve
+- ja: データリザーブ
+- related: [EIP-7999, blob, calldata]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 26062
+- auto_source_url: https://ethresear.ch/t/post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999/26062
+- desc: |
+  EIP-7999で提案されているメカニズムの一つで、ロールアップがcalldataの代わりにblobを使用することを奨励するために導入されます。データベースフィーが特定の閾値（blobベースフィーの1/12など）を下回ると、その使用量に応じてデータフィーが上昇します。
+
+## state-demand tail
+- ja: ステート需要の裾野
+- related: [state growth, demand elasticity]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 26062
+- auto_source_url: https://ethresear.ch/t/post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999/26062
+- desc: |
+  状態（ステート）の需要モデルにおいて、歴史的なアンカーポイントをはるかに超える低価格帯での需要の振る舞いを指します。モデルの予測が不確実になる領域であり、Ethereumのステート成長の持続可能性を評価する上で重要な考慮事項となります。
+
+## Auto Stagnant Bot
+- ja: 自動停滞ボット
+- related: [EIP, ERC]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 29748
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-131-oct-20-2026/29748
+- desc: |
+  Ethereum Improvement Proposal (EIP) リポジトリ内で、一定期間更新がない EIP のステータスを自動的に「Stagnant」（停滞）に更新するボットです。EIP のライフサイクル管理を支援します。
+
+## Rough Consensus
+- ja: 大まかな合意 (Rough Consensus)
+- related: [EIP, EIPIP]
+- auto_added: 2026-09-23
+- auto_source_topic_id: 29748
+- auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-131-oct-20-2026/29748
+- desc: |
+  Ethereum Improvement Proposal (EIP) の意思決定プロセスにおいて用いられる合意形成手法です。全ての参加者が完全に同意しなくても、異議を唱える人が少数であり、その異議が十分に議論されたと判断された場合に合意とみなされます。

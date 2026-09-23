@@ -4,7 +4,7 @@ aliases:
   - ブロブ
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **ブロブ**
@@ -18,6 +18,7 @@ EIP-4844 (Proto-Danksharding) で導入された、一時的に大量のデー�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
