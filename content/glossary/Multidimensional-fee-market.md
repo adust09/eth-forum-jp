@@ -4,7 +4,7 @@ aliases:
   - 多次元手数料市場
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **多次元手数料市場**
@@ -20,7 +20,7 @@ Ethereumの長期的な方向性として提案されている、複数のリソ
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 
 ## 元の表記（英語）
 

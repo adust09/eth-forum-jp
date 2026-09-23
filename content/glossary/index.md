@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -113,6 +113,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
+- [[glossary/Auto-Stagnant-Bot|Auto Stagnant Bot]] — 自動停滞ボット
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
 - [[glossary/Available-value|Available value]] — 利用可能な価値
@@ -306,6 +307,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cross-Chain-Nullifier-Synchronization|Cross Chain Nullifier Synchronization]] — クロスチェーンNullifier同期
 - [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
+- [[glossary/cross-resource-pricing-constraints|cross-resource pricing constraints]] — リソース間価格制約
 - [[glossary/cross-shard-messaging|cross-shard messaging]] — クロスシャードメッセージング
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
@@ -320,6 +322,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Data-Base-Fee|Data Base Fee]] — データベースフィー (Data Base Fee)
 - [[glossary/data-gas|data gas]] — データガス
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
+- [[glossary/data-reserve|data reserve]] — データリザーブ
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/debugexecutionWitness|debug_executionWitness]] — debug_executionWitness (デバッグ実行証人)
 - [[glossary/debugtraceCall|debug_traceCall]] — debug_traceCall (RPCメソッド)
@@ -497,6 +500,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
 - [[glossary/fair-exchange-problem|fair exchange problem]] — フェアエクスチェンジ問題
+- [[glossary/fake-exponential-update-rule|fake-exponential update rule]] — 擬似指数的更新ルール
 - [[glossary/Fallibility-Term|Fallibility Term]] — 誤謬項
 - [[glossary/False-Green|False Green]] — 偽陽性合意（False Green）
 - [[glossary/False-Red|False Red]] — 偽陰性相違（False Red）
@@ -1071,6 +1075,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Rollup|Rollup]] — ロールアップ
 - [[glossary/Rollup-withdrawal-proof|Rollup withdrawal proof]] — ロールアップ引き出し証明
 - [[glossary/Root-hashes-of-index-tables|Root hashes of index tables]] — インデックステーブルのルートハッシュ
+- [[glossary/Rough-Consensus|Rough Consensus]] — 大まかな合意 (Rough Consensus)
 - [[glossary/routing-index|routing index]] — ルーティングインデックス
 - [[glossary/RowDAS|RowDAS]] — RowDAS
 - [[glossary/RS-Membership-Check-Instantiations|RS Membership Check Instantiations]] — RSメンバーシップチェックの実装
@@ -1194,6 +1199,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-Trie|State Trie]] — ステートツリー (State Trie)
 - [[glossary/state-tuple|state tuple]] — 状態タプル
 - [[glossary/State-creation-costs|State-creation costs]] — 状態作成コスト
+- [[glossary/state-demand-tail|state-demand tail]] — ステート需要の裾野
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント

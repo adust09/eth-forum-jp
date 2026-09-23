@@ -4,7 +4,7 @@ aliases:
   - 伝播遅延
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **伝播遅延**
@@ -18,6 +18,7 @@ date: '2026-09-22'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/magicians-2026-09-07-eip-8411-fast-execution-payload-broadcast-29613|EIP-8411: 高速実行ペイロードブロードキャスト]]（2026-09-07）
 
 ## 元の表記（英語）

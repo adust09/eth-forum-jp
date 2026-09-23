@@ -5,7 +5,7 @@ aliases:
   - Penalty Execution
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **オンチェーンペナルティ執行**

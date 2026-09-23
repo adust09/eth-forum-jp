@@ -6,7 +6,7 @@ aliases:
   - Associate EIP Editors
 tags:
   - glossary
-date: '2026-09-22'
+date: '2026-09-23'
 ---
 
 **EIPエディター**
@@ -19,6 +19,7 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、および管理�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-22-eipip-meeting-131-oct-20-2026-29748|EIPIPミーティング #131、2026年10月20日]]（2026-09-22）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-08-13-eipip-meeting-130-sep-16-2026-29418|EIPIPミーティング #130、2026年9月16日]]（2026-08-13）
