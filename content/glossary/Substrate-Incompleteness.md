@@ -4,7 +4,7 @@ aliases:
   - 基盤の不完全性（Substrate Incompleteness）
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **基盤の不完全性（Substrate Incompleteness）**

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-23
+last_updated: 2026-09-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -12861,3 +12861,260 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eipip-meeting-131-oct-20-2026/29748
 - desc: |
   Ethereum Improvement Proposal (EIP) の意思決定プロセスにおいて用いられる合意形成手法です。全ての参加者が完全に同意しなくても、異議を唱える人が少数であり、その異議が十分に議論されたと判断された場合に合意とみなされます。
+
+## Gossip Stream Compression
+- ja: ゴシップストリーム圧縮（コンテキスト付き）
+- aliases: [Stream Compression (with context), Snappy-stream]
+- related: [Gossipsub, Snappy, LZ77, zstd]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26078
+- auto_source_url: https://ethresear.ch/t/snappy-with-a-memory-40-less-gossip-traffic/26078
+- desc: |
+  EthereumのP2Pネットワークにおけるゴシップメッセージのトラフィックを削減するため、メッセージ間のコンテキスト（履歴）を保持しながらストリーム全体を圧縮する手法。これにより、メッセージ間の冗長性が排除され、特にアテステーションなどのトラフィックを大幅に削減できる。
+
+## Attestation Subnets
+- ja: アテステーションサブネット
+- related: [Gossipsub, Beacon Chain, Attestation]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26078
+- auto_source_url: https://ethresear.ch/t/snappy-with-a-memory-40-less-gossip-traffic/26078
+- desc: |
+  Ethereumのコンセンサス層において、アテステーションメッセージを効率的に伝播させるために使用されるP2Pネットワークのサブネットワーク。バリデーターは特定のサブネットにサブスクライブし、関連するアテステーションを共有する。
+
+## All-Subnets Node
+- ja: 全サブネットノード
+- related: [Attestation Subnets, Gossipsub]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26078
+- auto_source_url: https://ethresear.ch/t/snappy-with-a-memory-40-less-gossip-traffic/26078
+- desc: |
+  EthereumのP2Pネットワークにおいて、すべてのアテステーションサブネットにサブスクライブしているノード。これにより、より広範なアテステーション情報を取得できるが、受信するゴシップトラフィック量も増加する。
+
+## AttestationData
+- ja: アテステーションデータ
+- related: [Attestation, Beacon Chain]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26078
+- auto_source_url: https://ethresear.ch/t/snappy-with-a-memory-40-less-gossip-traffic/26078
+- desc: |
+  Ethereumのコンセンサス層におけるアテステーションメッセージの主要な構成要素。これには、対象となるブロック、スロット、エポックなどの情報が含まれ、複数のアテステーションやアグリゲートで繰り返し出現する冗長なデータとなることがある。
+
+## ssz_snappy
+- ja: SSZ Snappy（エンコーディング）
+- related: [SSZ, Snappy, Gossipsub]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26078
+- auto_source_url: https://ethresear.ch/t/snappy-with-a-memory-40-less-gossip-traffic/26078
+- desc: |
+  EthereumのP2Pネットワークにおいて、ゴシップメッセージのペイロードをエンコードするために使用される形式。Simple Serialize (SSZ) で構造化されたデータをSnappy圧縮アルゴリズムでさらに圧縮する。
+
+## random churn
+- ja: ランダムチャーン
+- aliases: [induced churn, churn]
+- related: [protected peer pools, eclipse attack, ossification]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26074
+- auto_source_url: https://ethresear.ch/t/champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection/26074
+- desc: |
+  P2Pネットワークにおいて、ピアセットの固定化（ossification）を防ぎ、エクリプス攻撃への耐性を高めるために、定期的にランダムなピアを切断するメカニズム。CHAMPはこのメカニズムの上に保護層を追加します。
+
+## protected peer pools
+- ja: 保護されたピアプール
+- aliases: [protected set]
+- related: [CHAMP, random churn, multi-dimensional peer protection]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26074
+- auto_source_url: https://ethresear.ch/t/champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection/26074
+- desc: |
+  CHAMPシステムの中核をなす概念で、ピアの品質に基づいて選ばれた「チャンピオンピア」をランダムな切断から保護するためのピアの集合です。これにより、ネットワークの健全性を保ちつつ、有用な接続を維持します。
+
+## multi-dimensional peer protection
+- ja: 多次元ピア保護
+- related: [CHAMP, protected peer pools, peer quality]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26074
+- auto_source_url: https://ethresear.ch/t/champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection/26074
+- desc: |
+  ピアの品質を単一のスコアに集約するのではなく、複数の異なる基準（例：トランザクションのインクルージョン、ファイナライズ、リクエスト遅延）で独立して評価し、それぞれの次元で上位のピアを保護するアプローチです。
+
+## chain-anchored
+- ja: チェーンアンカー型
+- related: [CHAMP, off-chain accountability, recent-included EMA, recent-finalized EMA]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26074
+- auto_source_url: https://ethresear.ch/t/champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection/26074
+- desc: |
+  ピアの行動評価を、実際にブロックチェーン上で発生したイベント（トランザクションのインクルージョンやファイナライズなど）に紐付けること。これにより、オフチェーンの行動に対する客観的で偽造困難なアカウンタビリティを確立します。
+
+## Flock
+- ja: Flock (フロック)
+- related: [PQ proof system, LeanVM, zkVM]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26071
+- auto_source_url: https://ethresear.ch/t/post-poseidon-hash-function-variants-for-ethereum/26071
+- desc: |
+  バイナリ回路、特にハッシュ関数向けのPost-Quantum (PQ) 証明システム。Ethereumのプロトコルにおいて、計算の証明が必要な場合に利用される候補の一つであり、特に同一回路のバッチ証明に最適化されている。
+
+## Merkle-Damgard construction
+- ja: Merkle-Damgard構造 (マークル・ダムガード構造)
+- related: [Length-extension problem, SHA-2]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26071
+- auto_source_url: https://ethresear.ch/t/post-poseidon-hash-function-variants-for-ethereum/26071
+- desc: |
+  SHA-2などのハッシュ関数で用いられる設計構造。圧縮関数が衝突耐性や原像計算困難性を持つ場合、ハッシュ関数全体も同様のセキュリティ特性を持つことを証明できる。ただし、既知の長さ伸長攻撃の問題を抱えている。
+
+## Sponge mode
+- ja: スポンジ構造 (スポンジモード)
+- related: [Keccak, SHA-3, Indifferentiability proof]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26071
+- auto_source_url: https://ethresear.ch/t/post-poseidon-hash-function-variants-for-ethereum/26071
+- desc: |
+  SHA-3 (Keccak) で採用されているハッシュ関数の設計構造。大きな内部状態を可逆変換（パーミュテーション）とメッセージ注入を交互に行うことで更新する。ランダムパーミュテーションモデルにおけるindifferentiability proofを持つ。
+
+## Length-extension problem
+- ja: 長さ伸長攻撃 (長さ伸長問題)
+- related: [Merkle-Damgard construction]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26071
+- auto_source_url: https://ethresear.ch/t/post-poseidon-hash-function-variants-for-ethereum/26071
+- desc: |
+  Merkle-Damgard構造を持つハッシュ関数に存在する既知の脆弱性。ハッシュ値H(M1)が既知の場合、元のメッセージM1を知らなくてもH(pad(M1)||M2)を計算できてしまう問題。ランダムオラクルとしての利用を妨げる。
+
+## Segmented payload diffusion
+- ja: セグメント化されたペイロード拡散
+- related: [EIP-8411, payload, block propagation]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26070
+- auto_source_url: https://ethresear.ch/t/eip-8411-payload-segmentation-under-the-shadow-simulator/26070
+- desc: |
+  Ethereumのブロックペイロードを小さなセグメントに分割し、P2Pネットワークを通じて効率的に拡散させる手法です。EIP-8411で提案されており、ブロック伝播の遅延を削減し、ネットワークの混雑を軽減することを目的としています。
+
+## Partial-message extension
+- ja: 部分メッセージ拡張
+- related: [segmented payload diffusion, gossipsub]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 26070
+- auto_source_url: https://ethresear.ch/t/eip-8411-payload-segmentation-under-the-shadow-simulator/26070
+- desc: |
+  メッセージ全体が到着する前に、その一部（セグメント）を転送できるようにするP2Pプロトコルの拡張機能です。EIP-8411のセグメント化されたペイロード拡散において、ノードがペイロードの断片を早期に共有することを可能にします。
+
+## Confidential Real World Asset Token
+- ja: 機密性リアルワールドアセットトークン (Confidential RWA Token)
+- aliases: [Confidential RWA Token]
+- related: [Tokenized Real World Assets, Confidential Pointers]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29771
+- auto_source_url: https://ethereum-magicians.org/t/new-erc-confidential-real-world-asset-token/29771
+- desc: |
+  機密性を保持したまま、現実世界の資産（RWA）をブロックチェーン上で表現するトークン。所有者や取引の詳細などの機密情報が保護されます。
+
+## Tokenized Real World Assets
+- ja: トークン化されたリアルワールドアセット (Tokenized RWA)
+- aliases: [Tokenized RWA]
+- related: [Confidential Real World Asset Token]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29771
+- auto_source_url: https://ethereum-magicians.org/t/new-erc-confidential-real-world-asset-token/29771
+- desc: |
+  不動産、コモディティ、債券などの現実世界の資産を、ブロックチェーン上のデジタル表現であるトークンとして発行したもの。これにより、資産の流動性向上や所有権の移転が容易になります。
+
+## Confidential Pointers
+- ja: 機密ポインタ
+- related: [Pointer-based Confidentiality System, Confidential Real World Asset Token]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29771
+- auto_source_url: https://ethereum-magicians.org/t/new-erc-confidential-real-world-asset-token/29771
+- desc: |
+  トークンの金額やその他の機密情報を直接開示することなく、その存在や状態を示すために使用される抽象的な参照。これにより、取引のプライバシーが保護されます。
+
+## Pointer-based Confidentiality System
+- ja: ポインタベースの機密性システム
+- related: [Confidential Pointers, Confidential Real World Asset Token]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29771
+- auto_source_url: https://ethereum-magicians.org/t/new-erc-confidential-real-world-asset-token/29771
+- desc: |
+  機密情報を直接オンチェーンに保存せず、機密ポインタを用いてその存在や状態を管理することで、取引や資産のプライバシーを維持するシステム。ERC-7984で採用されているアプローチです。
+
+## Q-day
+- ja: Qデー (Q-day)
+- related: [Quantum emergency, Post-quantum cryptography]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29770
+- auto_source_url: https://ethereum-magicians.org/t/preparing-for-q-day-should-ethereum-standardize-account-freezing-and-recovery/29770
+- desc: |
+  量子コンピュータが現在の暗号技術（特にECDSA）を実用的に破ることができるようになる日を指す。Ethereumにおいては、ユーザーの資金が量子攻撃者によって危険に晒される可能性のある緊急事態の発生日として認識される。
+
+## Quantum emergency
+- ja: 量子緊急事態
+- related: [Q-day, Post-quantum cryptography]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29770
+- auto_source_url: https://ethereum-magicians.org/t/preparing-for-q-day-should-ethereum-standardize-account-freezing-and-recovery/29770
+- desc: |
+  量子コンピュータの脅威により、既存の暗号化された資産が危険に晒される状況を指す。Ethereumでは、特にECDSAベースの署名が破られることで、ユーザーの資金が盗まれるリスクが高まる。
+
+## Account freezing
+- ja: アカウント凍結
+- related: [Account recovery, Unmigrated accounts]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29770
+- auto_source_url: https://ethereum-magicians.org/t/preparing-for-q-day-should-ethereum-standardize-account-freezing-and-recovery/29770
+- desc: |
+  特定の条件（例: 量子攻撃の脅威）の下で、アカウントからの資金移動や操作を一時的または恒久的に停止する措置。これにより、危険に晒されたアカウントの資金を保護することを目指す。
+
+## Account recovery
+- ja: アカウント復旧
+- related: [Account freezing, Seed-based recovery]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29770
+- auto_source_url: https://ethereum-magicians.org/t/preparing-for-q-day-should-ethereum-standardize-account-freezing-and-recovery/29770
+- desc: |
+  凍結された、またはアクセスを失ったアカウントの正当な所有者が、事前に定義されたメカニズム（例: シードベースのゼロ知識証明）を用いてアカウントへのアクセスを回復するプロセス。量子緊急事態における資金保護の重要な要素となる。
+
+## Unmigrated accounts
+- ja: 未移行アカウント
+- related: [Account freezing, Scheduled migration cutoff]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29770
+- auto_source_url: https://ethereum-magicians.org/t/preparing-for-q-day-should-ethereum-standardize-account-freezing-and-recovery/29770
+- desc: |
+  量子耐性のある新しい暗号方式など、推奨されるセキュリティ標準へ移行していないアカウント。量子緊急事態が発生した場合、これらのアカウントは特に量子攻撃に対して脆弱であると見なされる。
+
+## Upgradeable Proxies
+- ja: アップグレード可能なプロキシ
+- related: [Proxy Upgradeable System, UUPS Proxy]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29769
+- auto_source_url: https://ethereum-magicians.org/t/standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks/29769
+- desc: |
+  スマートコントラクトのロジックを後から変更できるようにするための設計パターン。プロキシコントラクトが実装コントラクトへの呼び出しを委譲することで、ロジックのアップグレードを可能にする。セキュリティリスクと柔軟性のトレードオフが存在する。
+
+## Rug Vector
+- ja: ラグベクター（詐欺経路）
+- related: [Rug Pull, Soft Rug Pull, Hard Rug Pull]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29769
+- auto_source_url: https://ethereum-magicians.org/t/standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks/29769
+- desc: |
+  DeFiプロジェクトにおいて、開発者や特定の関係者が資金を引き抜くなどの詐欺行為（ラグプル）を実行するための具体的な経路や手段を指す。スマートコントラクトの設計上の脆弱性や管理権限の悪用などが含まれる。
+
+## One-sided Uniswap v4 Position
+- ja: 片側Uniswap v4ポジション
+- related: [Uniswap v4, Liquidity Pool, Concentrated Liquidity AMMs]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29769
+- auto_source_url: https://ethereum-magicians.org/t/standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks/29769
+- desc: |
+  Uniswap v4の流動性プールにおいて、単一の資産のみを提供して流動性を提供する戦略。通常はペアの資産を両方提供するが、特定の市場状況や戦略のために片側のみで流動性を提供する場合がある。
+
+## KYC Transfer Registry
+- ja: KYC移転登録簿
+- related: [KYC, Tokenized Real World Assets, Regulatory Compliance Protocol]
+- auto_added: 2026-09-25
+- auto_source_topic_id: 29769
+- auto_source_url: https://ethereum-magicians.org/t/standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks/29769
+- desc: |
+  トークン化された資産、特に規制対象となるRWAの移転（送金）を管理するためのシステム。KYC（顧客確認）要件を満たしたアドレスのみが資産を保有・移転できるように登録・管理することで、規制遵守を可能にする。

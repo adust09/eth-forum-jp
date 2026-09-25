@@ -4,7 +4,7 @@ aliases:
   - IProjectionSettlement（プロジェクション決済インターフェース）
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **IProjectionSettlement（プロジェクション決済インターフェース）**

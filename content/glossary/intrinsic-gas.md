@@ -4,7 +4,7 @@ aliases:
   - 固有ガス
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **固有ガス**
