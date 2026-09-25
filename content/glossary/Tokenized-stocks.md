@@ -4,7 +4,7 @@ aliases:
   - トークン化された株式
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **トークン化された株式**
@@ -18,7 +18,7 @@ date: '2026-09-23'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-24-standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks-29769|トークン化されたRWAにおける「任意のアドレスへの転送可能性」の標準？（トークン化された株式で引用されたロック済みv4プール）]]（2026-09-24）
 
 ## 元の表記（英語）
 

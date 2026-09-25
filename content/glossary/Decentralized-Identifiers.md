@@ -6,7 +6,7 @@ aliases:
   - W3C DID
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **分散型識別子 (DID)**

@@ -4,7 +4,7 @@ aliases:
   - Sybil攻撃
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **Sybil攻撃**
@@ -19,6 +19,7 @@ date: '2026-09-23'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-24-champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection-26074|CHAMP: チェーンアンカー型多次元ピア保護によるメムプールの強化]]（2026-09-24）
 - [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-07-14-bounding-collusion-in-capital-allocation-daos-via-subjective-human-oracles-25459|主観的ヒューマンオラクルによる資金配分DAOにおける共謀の制限]]（2026-07-14）
 

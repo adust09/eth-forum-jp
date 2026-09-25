@@ -5,7 +5,7 @@ aliases:
   - Real World Asset platforms
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **RWAプラットフォーム (Real World Assetプラットフォーム)**
@@ -18,6 +18,7 @@ date: '2026-09-23'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-24-standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks-29769|トークン化されたRWAにおける「任意のアドレスへの転送可能性」の標準？（トークン化された株式で引用されたロック済みv4プール）]]（2026-09-24）
 - [[posts/magicians-2026-09-13-load-leveling-why-erc-8415-decouples-settlement-speed-from-off-chain-registry-throughput-29660|ロードレベリング: ERC-8415が決済速度をオフチェーンレジストリスループットから分離する理由]]（2026-09-13）
 - [[posts/magicians-2026-08-25-draft-erc-ibond-a-standard-interface-for-fixed-rate-bonds-29506|[ERCドラフト] IBond: 固定金利債券の標準インターフェース]]（2026-08-25）
 - [[posts/magicians-2026-08-25-pre-erc-discussion-a-common-interface-for-rwa-disclosure-records-evidence-and-history-29500|[Pre-ERC議論] RWA開示記録、証拠、および履歴のための共通インターフェース]]（2026-08-25）

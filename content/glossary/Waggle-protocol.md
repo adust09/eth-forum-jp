@@ -4,7 +4,7 @@ aliases:
   - ワグルプロトコル (Waggle protocol)
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **ワグルプロトコル (Waggle protocol)**

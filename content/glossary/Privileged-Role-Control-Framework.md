@@ -5,7 +5,7 @@ aliases:
   - PRCF
 tags:
   - glossary
-date: '2026-09-23'
+date: '2026-09-25'
 ---
 
 **特権ロール制御フレームワーク**
