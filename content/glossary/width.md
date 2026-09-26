@@ -4,7 +4,7 @@ aliases:
   - width (MATCHAにおける)
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **width (MATCHAにおける)**

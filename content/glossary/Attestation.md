@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-09-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-09-25-ethereums-tcb-part-1-the-client-26086|イーサリアムのTCB、パート1：クライアント]]（2026-09-25）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 - [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）

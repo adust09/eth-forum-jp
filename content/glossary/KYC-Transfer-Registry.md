@@ -4,7 +4,7 @@ aliases:
   - KYC移転登録簿
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **KYC移転登録簿**

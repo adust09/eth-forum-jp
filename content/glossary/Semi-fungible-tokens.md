@@ -5,7 +5,7 @@ aliases:
   - SFT
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **半代替性トークン**

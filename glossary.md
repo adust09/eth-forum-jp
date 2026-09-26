@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-25
+last_updated: 2026-09-26
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13118,3 +13118,97 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks/29769
 - desc: |
   トークン化された資産、特に規制対象となるRWAの移転（送金）を管理するためのシステム。KYC（顧客確認）要件を満たしたアドレスのみが資産を保有・移転できるように登録・管理することで、規制遵守を可能にする。
+
+## Trusted Computing Base
+- ja: 信頼された計算基盤 (TCB)
+- aliases: [TCB]
+- related: [Formal Verification, Ethereum client]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 26086
+- auto_source_url: https://ethresear.ch/t/ethereums-tcb-part-1-the-client/26086
+- desc: |
+  システムのセキュリティを保証するために信頼され、証明されていないすべてのコンポーネント、仕様、ツール、仮定の集合。形式検証によって完全に排除することはできないが、その範囲を大幅に縮小できる。
+
+## End-to-end Formal Verification
+- ja: エンドツーエンド形式検証
+- aliases: [End-to-end FV]
+- related: [Formal Verification, Trusted Computing Base, Ethereum client]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 26086
+- auto_source_url: https://ethresear.ch/t/ethereums-tcb-part-1-the-client/26086
+- desc: |
+  形式検証の証明が、高レベルの仕様からユーザーが実行するバイナリコードまで、可能な限り深く到達することを目指す手法。Ethereumクライアントのセキュリティを保証する上で重要な目標となる。
+
+## Pure modules
+- ja: 純粋モジュール
+- related: [Dirty modules, Formal Verification]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 26086
+- auto_source_url: https://ethresear.ch/t/ethereums-tcb-part-1-the-client/26086
+- desc: |
+  形式検証が容易なソフトウェアモジュール。副作用がゼロまたは最小限で、数学的性質を持ち、クリーンなインターフェースを持つ。暗号化、SSZ、フォーク選択ルールなどが例として挙げられる。
+
+## Dirty modules
+- ja: 汚染モジュール
+- related: [Pure modules, Formal Verification, Untrusted-by-design]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 26086
+- auto_source_url: https://ethresear.ch/t/ethereums-tcb-part-1-the-client/26086
+- desc: |
+  形式検証が困難なソフトウェアモジュール。多くの副作用とI/Oを含み、ネットワークモジュールのようにメッセージの順序不同や接続切断などの複雑な挙動を持つ。
+
+## Untrusted-by-design
+- ja: 設計上信頼しない (Untrusted-by-design)
+- related: [Dirty modules, Formal Verification, Trusted Computing Base]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 26086
+- auto_source_url: https://ethresear.ch/t/ethereums-tcb-part-1-the-client/26086
+- desc: |
+  ソフトウェア設計の原則の一つで、特に「汚染モジュール」の出力を明示的に信頼しないものとして扱う。これにより、モジュール内のバグが敵対的なピアからの入力と同様に扱われ、形式検証の証明が堅牢になる。
+
+## Portable Spend Grants
+- ja: ポータブル・スペンド・グラント
+- aliases: [SpendGrant]
+- related: [Revocation Registry, Trailing-Window Cap, Delegate (Spend Grants), Principal (Spend Grants)]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 29776
+- auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
+- desc: |
+  プリンシパルがデリゲートに対して、呼び出しごと、ローリングウィンドウ、および生涯の制限の下で1つ以上の資産の繰り返し使用を許可する、署名付きのマルチアセット支出許可です。ウォレットやツールがハッシュ化、レンダリング、チェックできるポータブルな形式を持つため、様々なアプリケーションで利用可能です。
+
+## Revocation Registry
+- ja: 取り消しレジストリ
+- related: [Portable Spend Grants, Executor (Spend Grants)]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 29776
+- auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
+- desc: |
+  ポータブル・スペンド・グラントの残りの使用量と取り消しステータスを記録するレジストリです。資金の移動は行わず、グラントの有効性を管理し、プリンシパルがいつでもグラントを取り消せるようにします。
+
+## Trailing-Window Cap
+- ja: トレーリングウィンドウ・キャップ
+- aliases: [rolling window cap]
+- related: [Portable Spend Grants, per-call cap, lifetime cap]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 29776
+- auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
+- desc: |
+  支出許可において、現在時刻から一定期間（例：過去24時間）を遡って計算される支出上限です。この期間内の合計支出がキャップを超えないように制限し、カレンダー日ベースのキャップとは異なり、時間的な連続性に基づいて支出を管理します。
+
+## Executor (Spend Grants)
+- ja: エグゼキューター（スペンド・グラント）
+- related: [Portable Spend Grants, Revocation Registry, Delegate (Spend Grants)]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 29776
+- auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
+- desc: |
+  ポータブル・スペンド・グラントにおいて、プリンシパルによって（レジストリを介して）承認され、実際に価値を移動させ、使用量を更新する`consume`関数を呼び出す権限を持つコントラクトです。グラントの条件が満たされていることを確認し、トランザクションを実行します。
+
+## Delegate (Spend Grants)
+- ja: デリゲート（スペンド・グラント）
+- related: [Portable Spend Grants, Principal (Spend Grants), Executor (Spend Grants)]
+- auto_added: 2026-09-26
+- auto_source_topic_id: 29776
+- auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
+- desc: |
+  ポータブル・スペンド・グラントにおいて、プリンシパルから特定の資産の支出を許可されたエンティティです。グラントの条件に従って資金を使用する権限を持ち、ウォレットやエージェントなどがこの役割を担います。
