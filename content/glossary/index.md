@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -344,6 +344,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
+- [[glossary/Delegate|Delegate (Spend Grants)]] — デリゲート（スペンド・グラント）
 - [[glossary/Delegation-by-constraint|Delegation by constraint]] — 制約による委任
 - [[glossary/delegation-chain|delegation chain]] — 委任チェーン (Delegation Chain)
 - [[glossary/Delegation-Contract|Delegation Contract]] — 委任コントラクト
@@ -366,6 +367,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Diamond-Storage|Diamond Storage]] — ダイヤモンドストレージ
 - [[glossary/Digital-Reserve-Currency|Digital Reserve Currency]] — デジタル基軸通貨 (Digital Reserve Currency)
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]] — 方向性移転ドメインレジストリ
+- [[glossary/Dirty-modules|Dirty modules]] — 汚染モジュール
 - [[glossary/Disciplined-Pulls|Disciplined Pulls]] — 規律あるプル
 - [[glossary/Disclosure-Contract|Disclosure Contract]] — 開示契約
 - [[glossary/Disclosure-Plane|Disclosure Plane]] — 開示プレーン (開示層)
@@ -423,6 +425,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Encrypted-Transaction|Encrypted Transaction]] — 暗号化されたトランザクション
 - [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
+- [[glossary/End-to-end-Formal-Verification|End-to-end Formal Verification]] — エンドツーエンド形式検証
 - [[glossary/Endogeneity|Endogeneity]] — 内生性
 - [[glossary/Engine-API|Engine API]] — エンジンAPI
 - [[glossary/engineforkchoiceUpdated|engine_forkchoiceUpdated]] — engine_forkchoiceUpdated (Engine APIメソッド)
@@ -499,6 +502,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-clearing-boundary|Execution-clearing boundary]] — 実行クリアリング境界
 - [[glossary/Execution-gate-substrate|Execution-gate substrate]] — 実行ゲート基盤
 - [[glossary/ExecutionData-Fee-Floor-Frontier|Execution–Data Fee-Floor Frontier]] — 実行-データ手数料下限フロンティア
+- [[glossary/Executor|Executor (Spend Grants)]] — エグゼキューター（スペンド・グラント）
 - [[glossary/Executor-module|Executor module]] — エグゼキューターモジュール (Executor Module)
 - [[glossary/existence-probes|existence probes]] — 存在確認プローブ
 - [[glossary/ExperienceDelta|ExperienceDelta]] — エクスペリエンスデルタ
@@ -933,6 +937,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/populated-read|populated read]] — 値あり読み取り
 - [[glossary/Portable-Account-Keystore|Portable Account Keystore]] — ポータブルアカウントキーストア
 - [[glossary/Portable-Execution-Plan-Artifact|Portable Execution Plan Artifact]] — ポータブル実行計画アーティファクト
+- [[glossary/Portable-Spend-Grants|Portable Spend Grants]] — ポータブル・スペンド・グラント
 - [[glossary/Poseidon-hash|Poseidon hash]] — Poseidonハッシュ
 - [[glossary/Poseidon2b|Poseidon2b]] — Poseidon2b
 - [[glossary/Position-binding|Position-binding]] — 位置拘束性
@@ -1009,6 +1014,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pure-Box|Pure Box]] — ピュアボックス
 - [[glossary/pure-context|pure context]] — ピュアコンテキスト
 - [[glossary/pure-function|pure function]] — pure関数 (純粋関数)
+- [[glossary/Pure-modules|Pure modules]] — 純粋モジュール
 - [[glossary/Purpose-Bound-Third-Party-Data-Consent|Purpose-Bound Third-Party Data Consent]] — 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
 - [[glossary/Q-day|Q-day]] — Qデー (Q-day)
 - [[glossary/Quadratic-Concentration-Reserve|Quadratic Concentration Reserve]] — 二次集中化準備金
@@ -1086,6 +1092,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
 - [[glossary/Revert|Revert]] — リバート
 - [[glossary/Review|Review]] — レビュー (EIP/ERC)
+- [[glossary/Revocation-Registry|Revocation Registry]] — 取り消しレジストリ
 - [[glossary/Reward-routing|Reward routing]] — 報酬ルーティング
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
@@ -1312,6 +1319,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Topological-Data-Analysis|Topological Data Analysis]] — 位相的データ解析 (TDA)
 - [[glossary/trace-geometry|trace geometry]] — トレースジオメトリ
 - [[glossary/trace-rows|trace rows]] — トレース行
+- [[glossary/Trailing-Window-Cap|Trailing-Window Cap]] — トレーリングウィンドウ・キャップ
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)
@@ -1325,6 +1333,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transition-ID|Transition ID]] — トランジションID
 - [[glossary/trie-migration|trie migration]] — トライ移行
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
+- [[glossary/Trusted-Computing-Base|Trusted Computing Base]] — 信頼された計算基盤 (TCB)
 - [[glossary/Trusted-Execution-Environment|Trusted Execution Environment]] — トラステッド実行環境 (TEE)
 - [[glossary/Trusted-Set|Trusted Set]] — 信頼された集合 (Trusted Set)
 - [[glossary/trusted-setup|trusted setup]] — トラステッドセットアップ（信頼できる設定）
@@ -1345,6 +1354,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Unmeasured-contribution|Unmeasured contribution]] — 未測定の貢献
 - [[glossary/Unmigrated-accounts|Unmigrated accounts]] — 未移行アカウント
+- [[glossary/Untrusted-by-design|Untrusted-by-design]] — 設計上信頼しない (Untrusted-by-design)
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/update-authority|update authority]] — 更新権限
 - [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出

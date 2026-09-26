@@ -4,7 +4,7 @@ aliases:
   - 1 weiに制限された実行手数料
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **1 weiに制限された実行手数料**

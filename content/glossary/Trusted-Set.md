@@ -4,7 +4,7 @@ aliases:
   - 信頼された集合 (Trusted Set)
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **信頼された集合 (Trusted Set)**

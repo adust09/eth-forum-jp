@@ -4,7 +4,7 @@ aliases:
   - セッションキー
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **セッションキー**
@@ -18,7 +18,7 @@ date: '2026-09-25'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - Flock (フロック)
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **Flock (フロック)**

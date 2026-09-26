@@ -4,7 +4,7 @@ aliases:
   - Lean 4
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **Lean 4**
@@ -18,7 +18,7 @@ date: '2026-09-25'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-09-25-ethereums-tcb-part-1-the-client-26086|イーサリアムのTCB、パート1：クライアント]]（2026-09-25）
 
 ## 元の表記（英語）
 

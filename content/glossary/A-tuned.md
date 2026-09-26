@@ -4,7 +4,7 @@ aliases:
   - A-tuned (エーチューンド)
 tags:
   - glossary
-date: '2026-09-25'
+date: '2026-09-26'
 ---
 
 **A-tuned (エーチューンド)**
