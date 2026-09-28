@@ -4,7 +4,7 @@ aliases:
   - engine_forkchoiceUpdated (Engine APIメソッド)
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **engine_forkchoiceUpdated (Engine APIメソッド)**

@@ -5,7 +5,7 @@ aliases:
   - SHON
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **主観的ヒューマンオラクルネットワーク (SHON)**

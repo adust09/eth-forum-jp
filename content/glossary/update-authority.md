@@ -4,7 +4,7 @@ aliases:
   - 更新権限
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **更新権限**

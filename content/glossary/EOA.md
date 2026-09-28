@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **EOA (Externally Owned Account)**
@@ -18,6 +18,7 @@ date: '2026-09-26'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-27-l402-over-eth-layer2-29782|L402-over-eth-Layer2]]（2026-09-27）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）

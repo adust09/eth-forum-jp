@@ -4,7 +4,7 @@ aliases:
   - スロット0リorg
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **スロット0リorg**

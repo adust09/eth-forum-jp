@@ -4,7 +4,7 @@ aliases:
   - targetGasLimit (目標ガス制限)
 tags:
   - glossary
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 **targetGasLimit (目標ガス制限)**
