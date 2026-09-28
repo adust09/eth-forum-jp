@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-26
+last_updated: 2026-09-28
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13212,3 +13212,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-tbd-portable-spend-grants/29776
 - desc: |
   ポータブル・スペンド・グラントにおいて、プリンシパルから特定の資産の支出を許可されたエンティティです。グラントの条件に従って資金を使用する権限を持ち、ウォレットやエージェントなどがこの役割を担います。
+
+## L402-EL2
+- ja: L402-EL2 (Ethereum Layer 2版)
+- related: [L402 pattern, Unidirectional payment channel, Cumulative EIP-712 vouchers, Macaroons]
+- auto_added: 2026-09-28
+- auto_source_topic_id: 29782
+- auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
+- desc: |
+  BitcoinのLightning Networkで利用されるL402パターンをEthereumのLayer 2に適合させたプロトコルです。エージェントがプロバイダーに対して少額の支払いを頻繁に行う際のガス代とレイテンシーの問題を解決するために設計されています。
+
+## L402 pattern
+- ja: L402パターン
+- related: [L402-EL2, Macaroons, Lightning Network]
+- auto_added: 2026-09-28
+- auto_source_topic_id: 29782
+- auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
+- desc: |
+  HTTP 402 Payment Requiredチャレンジと、マカルーンおよび支払い証明を用いたリトライを組み合わせた、機械対機械の支払いプロトコルです。元々はBitcoinのLightning Networkで利用され、Ethereum L2に適用されています。
+
+## Unidirectional payment channel
+- ja: 単方向ペイメントチャネル
+- related: [Payment channel, L402-EL2, Escrow contract]
+- auto_added: 2026-09-28
+- auto_source_topic_id: 29782
+- auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
+- desc: |
+  一方の当事者から他方の当事者への支払いのみを可能にするオフチェーンチャネルです。L402-EL2では、エージェントがプロバイダーに事前に資金を供給し、オフチェーンで累積的な支払いを記録するために使用されます。
+
+## Cumulative EIP-712 vouchers
+- ja: 累積型EIP-712バウチャー
+- related: [EIP-712, L402-EL2, Voucher]
+- auto_added: 2026-09-28
+- auto_source_topic_id: 29782
+- auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
+- desc: |
+  L402-EL2プロトコルにおける支払い証明の形式です。各呼び出しで新しい累積合計額をEIP-712署名付きバウチャーとして発行し、リプレイ攻撃を防ぎつつ、サーバー側での検証を効率的に行います。
+
+## Macaroons
+- ja: マカルーン
+- related: [L402 pattern, Attenuation, HTTP credential]
+- auto_added: 2026-09-28
+- auto_source_topic_id: 29782
+- auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
+- desc: |
+  権限委譲と制限を可能にするベアラートークンの一種です。L402-EL2では、HTTPクレデンシャルとして使用され、エージェントがサブエージェントに権限を絞ったトークンを渡す「アッテネーション」機能を提供します。

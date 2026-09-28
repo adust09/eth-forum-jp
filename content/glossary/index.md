@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-26'
+date: '2026-09-28'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -318,6 +318,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/cross-resource-pricing-constraints|cross-resource pricing constraints]] — リソース間価格制約
 - [[glossary/cross-shard-messaging|cross-shard messaging]] — クロスシャードメッセージング
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
+- [[glossary/Cumulative-EIP-712-vouchers|Cumulative EIP-712 vouchers]] — 累積型EIP-712バウチャー
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
 - [[glossary/cursor|cursor]] — カーソル (オンチェーンオブジェクト)
 - [[glossary/custody-and-cell-bitarrays|custody and cell bitarrays]] — カストディおよびセルビット配列
@@ -684,6 +685,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/L0-behavioral-biometrics|L0 behavioral biometrics]] — L0行動生体認証
 - [[glossary/L1-feature-fork|L1 feature fork]] — L1機能フォーク
 - [[glossary/L1-zkEVM|L1-zkEVM]] — L1-zkEVM (レイヤー1 zkEVM)
+- [[glossary/L402-pattern|L402 pattern]] — L402パターン
+- [[glossary/L402-EL2|L402-EL2]] — L402-EL2 (Ethereum Layer 2版)
 - [[glossary/Lamport-chain|Lamport chain]] — ランポートチェーン
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
@@ -724,6 +727,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Loss-Versus-Rebalancing|Loss-Versus-Rebalancing]] — リバランス損失 (LVR)
 - [[glossary/Low-Degree-Extension|Low Degree Extension]] — 低次数拡張 (LDE)
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
+- [[glossary/Macaroons|Macaroons]] — マカルーン
 - [[glossary/Machine-checked-proofs|Machine-checked proofs]] — 機械検証済み証明
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
@@ -1349,6 +1353,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/unbounded-ancestor-walks|unbounded ancestor walks]] — 無制限の祖先辿り (unbounded ancestor walks)
 - [[glossary/Unclonable-Agent-Execution-Credentials|Unclonable Agent Execution Credentials]] — アンクローン可能なエージェント実行クレデンシャル
 - [[glossary/Unguessable-Capability-URLs|Unguessable Capability URLs]] — 推測不可能なケイパビリティURL
+- [[glossary/Unidirectional-payment-channel|Unidirectional payment channel]] — 単方向ペイメントチャネル
 - [[glossary/Unified-Binary-Tree|Unified Binary Tree]] — 統合バイナリツリー
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
