@@ -4,7 +4,7 @@ aliases:
   - 非権威的予約 (non-authoritative reservation)
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **非権威的予約 (non-authoritative reservation)**

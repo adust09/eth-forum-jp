@@ -5,7 +5,7 @@ aliases:
   - zkCL
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **ゼロ知識コンセンサス層 (zkCL)**

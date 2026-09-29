@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-28
+last_updated: 2026-09-29
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13257,3 +13257,113 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/l402-over-eth-layer2/29782
 - desc: |
   権限委譲と制限を可能にするベアラートークンの一種です。L402-EL2では、HTTPクレデンシャルとして使用され、エージェントがサブエージェントに権限を絞ったトークンを渡す「アッテネーション」機能を提供します。
+
+## Stealth Address Protocol
+- ja: ステルスアドレスプロトコル (SAP)
+- aliases: [SAP]
+- related: [Stealth Meta Address, One-time Stealth Address, Dual Key Stealth Address Protocol]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 26094
+- auto_source_url: https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+- desc: |
+  受信者が公開のステルスメタアドレスを登録し、送信者がそれと一時的な秘密（ノンス）を用いて受信者専用のワンタイムステルスアドレスを導出するプロトコルです。これにより、同じステルスメタアドレスへの複数の支払いがリンク不可能になり、プライバシーが向上します。
+
+## ML-KEM
+- ja: ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)
+- aliases: [Module-Lattice-Based Key-Encapsulation Mechanism]
+- related: [KEM, Post-quantum cryptography, FIPS 203]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 26094
+- auto_source_url: https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+- desc: |
+  NISTによって標準化された、モジュール格子ベースの鍵カプセル化メカニズムです。量子コンピュータによる攻撃に耐性を持つことを目的とした公開鍵暗号方式であり、共有秘密鍵の確立に用いられます。
+
+## Indistinguishability of keys
+- ja: 鍵の不可分性 (IK-CCA, ANO-CCA)
+- aliases: [IK-CCA, ANO-CCA]
+- related: [Key-Encapsulation Mechanism, Post-quantum anonymity]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 26094
+- auto_source_url: https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+- desc: |
+  鍵カプセル化メカニズム (KEM) のセキュリティ特性の一つで、攻撃者が与えられた暗号文がどの公開鍵でカプセル化されたかを区別できないことを意味します。ステルスアドレスプロトコルにおいて、量子攻撃者からの受信者匿名性を保護するために重要です。
+
+## Hybrid Combiner
+- ja: ハイブリッドコンバイナー
+- related: [Post-quantum cryptography, Scheme 3]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 26094
+- auto_source_url: https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+- desc: |
+  既存の暗号スキーム（例：ECDH）と新しい耐量子暗号スキーム（例：ML-KEM）を組み合わせて、両方のセキュリティ特性を活用する手法です。量子移行期間中のセキュリティを強化し、いずれかのスキームが破られた場合でも全体としての安全性を維持することを目指します。
+
+## Pair-wise-KEM-SAP
+- ja: ペアワイズKEM-SAP
+- related: [Stealth Address Protocol, ML-KEM, Scheme 4, Scheme 5]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 26094
+- auto_source_url: https://ethresear.ch/t/pq-anonymity-for-stealth-address-protocol/26094
+- desc: |
+  ML-KEMを利用して送信者と受信者の間でペアワイズの鍵交換を行うステルスアドレスプロトコルの拡張版です。一度鍵交換が確立されると、その後のトランザクションではML-KEMの暗号文を送信する必要がなくなり、ガスコストの削減とプライバシーの向上が期待されます。
+
+## Option Deterrence
+- ja: オプション抑止
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29793
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-11-october-14th-2026/29793
+- desc: |
+  ブロックの先頭での順序付けなどを通じて、特定のオプション（例：MEV機会）の実行を抑止する戦略またはメカニズム。
+
+## Top of Block ordering
+- ja: ブロック先頭順序付け
+- related: [Block ordering]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29793
+- auto_source_url: https://ethereum-magicians.org/t/encrypt-the-mempool-11-october-14th-2026/29793
+- desc: |
+  ブロック内のトランザクションが、特定の基準に基づいてブロックの先頭に配置される順序付けメカニズム。MEV戦略に関連して議論されることが多い。
+
+## Onchain IP Asset and License Registry
+- ja: オンチェーンIP資産・ライセンスレジストリ
+- related: [IP asset, license registry, ERC-8432]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
+- desc: |
+  IP資産とそのライセンス情報をオンチェーンで登録・管理するための標準。AIエージェントがライセンス条件を機械的に発見・利用できるように設計されており、IP資産の利用許諾を効率化することを目指す。
+
+## machine-readable license terms
+- ja: 機械可読ライセンス条件
+- related: [AI agent, Onchain IP Asset and License Registry]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
+- desc: |
+  コンピュータプログラム、特にAIエージェントが自動的に解釈・処理できる形式で記述されたライセンス条件。これにより、ライセンスの確認と利用許諾のプロセスが効率化される。
+
+## independently deployed registries
+- ja: 独立デプロイ型レジストリ
+- related: [multi-registry model, Onchain IP Asset and License Registry]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
+- desc: |
+  各々が独立してデプロイされ、運用されるレジストリ群。ERC-8432は、単一の中央集権的なレジストリではなく、複数の独立したレジストリが相互運用するモデルを前提としている。
+
+## content-addressed terms
+- ja: コンテンツアドレス型条件
+- related: [machine-readable license terms, IP asset]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
+- desc: |
+  ライセンス条件の内容そのものから導出されるハッシュ値などで参照される形式。これにより、条件の不変性と一意性が保証され、改ざん検出や効率的な参照が可能となる。
+
+## scoped cross-registry references
+- ja: スコープ付きクロスレジストリ参照
+- related: [independently deployed registries, chain ID]
+- auto_added: 2026-09-29
+- auto_source_topic_id: 29792
+- auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
+- desc: |
+  異なるレジストリやチェーン間でIP資産やライセンス契約を参照するメカニズム。参照は特定のスコープ（chainId, registry, id）によって限定され、相互運用性を確保しつつ、各レジストリの独立性を保つ。

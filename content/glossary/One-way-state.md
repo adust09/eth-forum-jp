@@ -4,7 +4,7 @@ aliases:
   - 一方向状態
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **一方向状態**

@@ -5,7 +5,7 @@ aliases:
   - LVR
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **リバランス損失 (LVR)**

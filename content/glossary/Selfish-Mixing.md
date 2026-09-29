@@ -4,7 +4,7 @@ aliases:
   - セルフィッシュミキシング (Selfish Mixing)
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **セルフィッシュミキシング (Selfish Mixing)**

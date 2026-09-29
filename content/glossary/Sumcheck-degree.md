@@ -4,7 +4,7 @@ aliases:
   - Sumcheck次数
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **Sumcheck次数**

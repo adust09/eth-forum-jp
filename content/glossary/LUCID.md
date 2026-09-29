@@ -5,7 +5,7 @@ aliases:
   - EIP-8184
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **LUCID (EIP-8184)**

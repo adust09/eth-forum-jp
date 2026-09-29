@@ -4,7 +4,7 @@ aliases:
   - 多様性重み
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **多様性重み**
