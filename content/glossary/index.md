@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -281,6 +281,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Conservative-Funding-Check|Conservative Funding Check]] — 保守的な資金調達チェック
 - [[glossary/Const-Tier|Const Tier]] — 定数層 (Const Tier)
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
+- [[glossary/content-addressed-terms|content-addressed terms]] — コンテンツアドレス型条件
 - [[glossary/contention-classes|contention classes]] — 競合クラス
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Context-Opcodes|Context Opcodes]] — コンテキストオペコード
@@ -603,6 +604,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hot-Key|Hot Key]] — ホットキー
 - [[glossary/Hot-Cold-Storage-Separation|Hot-Cold Storage Separation]] — ホット・コールドストレージ分離
 - [[glossary/http-outcalls|http outcalls]] — HTTPアウトコール
+- [[glossary/Hybrid-Combiner|Hybrid Combiner]] — ハイブリッドコンバイナー
 - [[glossary/Hypertree|Hypertree]] — ハイパーツリー
 - [[glossary/IAgentCaller|IAgentCaller]] — IAgentCaller (インターフェース)
 - [[glossary/IAgentHandler|IAgentHandler]] — IAgentHandler (インターフェース)
@@ -628,9 +630,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
 - [[glossary/Independent-demand-benchmark|Independent-demand benchmark]] — 独立需要ベンチマーク
+- [[glossary/independently-deployed-registries|independently deployed registries]] — 独立デプロイ型レジストリ
 - [[glossary/independently-recomputable-identifier|independently-recomputable identifier]] — 独立して再計算可能な識別子
 - [[glossary/Index-Based-Multi-Facet-Proxy|Index-Based Multi-Facet Proxy]] — インデックスベース多面ファセットプロキシ
 - [[glossary/Indexed-Cell-Requests|Indexed Cell Requests]] — インデックス付きセルリクエスト
+- [[glossary/Indistinguishability-of-keys|Indistinguishability of keys]] — 鍵の不可分性 (IK-CCA, ANO-CCA)
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
 - [[glossary/Inheritable-Agent-Mandate|Inheritable Agent Mandate]] — 継承可能なエージェントマンデート
@@ -729,6 +733,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/LUCID|LUCID]] — LUCID (EIP-8184)
 - [[glossary/Macaroons|Macaroons]] — マカルーン
 - [[glossary/Machine-checked-proofs|Machine-checked proofs]] — 機械検証済み証明
+- [[glossary/machine-readable-license-terms|machine-readable license terms]] — 機械可読ライセンス条件
 - [[glossary/machine-readable-reason-vocabulary|machine-readable reason vocabulary]] — 機械可読な理由語彙
 - [[glossary/MACI|MACI]] — MACI (Minimum Anti-Collusion Infrastructure)
 - [[glossary/mainnet|mainnet]] — メインネット
@@ -775,6 +780,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/missing-state|missing state]] — 不足状態
 - [[glossary/mixhash|mixhash]] — ミックスハッシュ
 - [[glossary/ML-DSA|ML-DSA]] — ML-DSA (格子ベース署名アルゴリズム)
+- [[glossary/ML-KEM|ML-KEM]] — ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
@@ -848,6 +854,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/on-chain-registry|on-chain registry]] — オンチェーンレジストリ
 - [[glossary/On-chain-safeguards|On-chain safeguards]] — オンチェーンセーフガード
 - [[glossary/On-chain-status-anchor|On-chain status anchor]] — オンチェーンステータスアンカー
+- [[glossary/Onchain-IP-Asset-and-License-Registry|Onchain IP Asset and License Registry]] — オンチェーンIP資産・ライセンスレジストリ
 - [[glossary/Onchain-metadata|Onchain metadata]] — オンチェーンメタデータ
 - [[glossary/one-directional-guarantee|one-directional guarantee]] — 一方向保証
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
@@ -865,6 +872,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Optimality-of-Structured-Silence|Optimality of Structured Silence]] — 構造化された沈黙の最適性
 - [[glossary/optimistic-dispute-window|optimistic dispute window]] — オプティミスティック紛争期間
 - [[glossary/Optimistic-Handler|Optimistic Handler]] — オプティミスティックハンドラー
+- [[glossary/Option-Deterrence|Option Deterrence]] — オプション抑止
 - [[glossary/Oracle-Permissioned|Oracle-Permissioned]] — オラクル許可型
 - [[glossary/Orchard-action-bundle|Orchard action bundle]] — Orchardアクションバンドル
 - [[glossary/Orchard-action-circuit|Orchard action circuit]] — Orchardアクション回路
@@ -886,6 +894,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
+- [[glossary/Pair-wise-KEM-SAP|Pair-wise-KEM-SAP]] — ペアワイズKEM-SAP
 - [[glossary/Panic-State|Panic State]] — パニック状態
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
@@ -1124,6 +1133,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
 - [[glossary/Sandwich-attack|Sandwich attack]] — サンドイッチ攻撃
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
+- [[glossary/scoped-cross-registry-references|scoped cross-registry references]] — スコープ付きクロスレジストリ参照
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
 - [[glossary/Searcher|Searcher]] — サーチャー
 - [[glossary/Securitization|Securitization (of money)]] — 貨幣の証券化
@@ -1241,6 +1251,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
 - [[glossary/Static-data|Static data]] — 静的データ
 - [[glossary/Static-Data-Component|Static-Data Component]] — 静的データコンポーネント (Static-Data Component)
+- [[glossary/Stealth-Address-Protocol|Stealth Address Protocol]] — ステルスアドレスプロトコル (SAP)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
@@ -1318,6 +1329,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Tokenized-Real-World-Assets|Tokenized Real World Assets]] — トークン化されたリアルワールドアセット (Tokenized RWA)
 - [[glossary/Tokenized-stocks|Tokenized stocks]] — トークン化された株式
 - [[glossary/Tokenized-Vault|Tokenized Vault]] — トークン化されたボルト
+- [[glossary/Top-of-Block-ordering|Top of Block ordering]] — ブロック先頭順序付け
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
 - [[glossary/Topological-Data-Analysis|Topological Data Analysis]] — 位相的データ解析 (TDA)

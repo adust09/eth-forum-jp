@@ -4,7 +4,7 @@ aliases:
   - 誤謬項
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **誤謬項**

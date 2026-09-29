@@ -5,7 +5,7 @@ aliases:
   - OMR
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **秘匿メッセージ検索 (OMR)**

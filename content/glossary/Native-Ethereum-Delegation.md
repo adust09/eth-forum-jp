@@ -6,7 +6,7 @@ aliases:
   - Flanders Protocol
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **ネイティブ・イーサリアム・デリゲーション**

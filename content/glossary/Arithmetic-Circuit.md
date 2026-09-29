@@ -4,7 +4,7 @@ aliases:
   - 算術回路
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **算術回路**

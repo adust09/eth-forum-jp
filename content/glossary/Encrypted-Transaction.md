@@ -5,7 +5,7 @@ aliases:
   - etx
 tags:
   - glossary
-date: '2026-09-28'
+date: '2026-09-29'
 ---
 
 **暗号化されたトランザクション**
