@@ -4,7 +4,7 @@ aliases:
   - Panini標準
 tags:
   - glossary
-date: '2026-09-29'
+date: '2026-09-30'
 ---
 
 **Panini標準**

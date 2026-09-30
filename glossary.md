@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13367,3 +13367,86 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8432-onchain-ip-asset-and-license-registry/29792
 - desc: |
   異なるレジストリやチェーン間でIP資産やライセンス契約を参照するメカニズム。参照は特定のスコープ（chainId, registry, id）によって限定され、相互運用性を確保しつつ、各レジストリの独立性を保つ。
+
+## Agent Identity
+- ja: エージェントID (AID)
+- aliases: [AID]
+- related: [ERC-8004, Autonomous Agent]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29805
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-identity-aid-address-anchored-identity-for-live-agents-over-erc-8004-assertion-registries/29805
+- desc: |
+  ブロックチェーンアドレスをアンカーとする自律エージェントのID。ERC-8004エージェントの登録、生存シグナル、オンチェーン行動に基づいて、アドレスが「アクティブ」なAIDとなる。エージェントの検証可能なプロファイルを提供する。
+
+## AID Document
+- ja: AIDドキュメント
+- related: [Agent Identity, Facet (AID Document)]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29805
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-identity-aid-address-anchored-identity-for-live-agents-over-erc-8004-assertion-registries/29805
+- desc: |
+  エージェントのステータスとプロファイルを記述する決定論的な解決モデル。複数の「ファセット」で構成され、それぞれにプロベナンスクラス、有効期間、ダイジェスト、アクセスモードがタグ付けされる。
+
+## Provenance Class
+- ja: プロベナンスクラス
+- related: [Facet (AID Document)]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29805
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-identity-aid-address-anchored-identity-for-live-agents-over-erc-8004-assertion-registries/29805
+- desc: |
+  AIDドキュメント内のファセットがどのように生成されたか、およびその信頼性を分類する。SELF（アンカー自身）、OBSERVED（オンチェーンイベントから再現可能）、ATTESTED（第三者発行者による証明）、PROVED（暗号学的証明）の4種類がある。
+
+## Liveness Window
+- ja: ライブネスウィンドウ
+- related: [Agent Identity, Heartbeat]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29805
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-identity-aid-address-anchored-identity-for-live-agents-over-erc-8004-assertion-registries/29805
+- desc: |
+  エージェントが「アクティブ」であると見なされる期間を定義する時間窓。エージェントの最終活動（heartbeat）とこのウィンドウに基づいて、その生存状態が決定される。
+
+## ARCOS
+- ja: ARCOS (アーコス)
+- related: [Module, Module Activation System]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29783
+- auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
+- desc: |
+  NFTの機能（所有権、利用権、利益享受権、委譲、カストディ、分割所有など）を調整するためのガバナンスされたコーディネーションレイヤー。既存のERCを置き換えるのではなく、不足している状態を生成し、共有レイヤーであるMASを通じて調整する。
+
+## Module
+- ja: モジュール
+- related: [ARCOS, Module Activation System, Governed State]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29783
+- auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
+- desc: |
+  ARCOSフレームワーク内で、特定の状態ドメインを管理するガバナンスされたステートマシン。定義された遷移を通じてのみ状態が変更され、Module Activation System (MAS) を通じてシステムと連携する。
+
+## Module Activation System
+- ja: モジュールアクティベーションシステム (MAS)
+- aliases: [MAS]
+- related: [ARCOS, Module]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29783
+- auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
+- desc: |
+  ARCOSフレームワークにおいて、モジュール間の連携を調整する共有レイヤー。システム全体がモジュールと排他的に連携するためのインターフェースとして機能し、コンフリクト解決の共有基盤を提供する。
+
+## Governed State
+- ja: ガバナンスされた状態
+- related: [Module, ARCOS]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29783
+- auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
+- desc: |
+  ARCOSのモジュール設計における状態管理モデル。特定の権限によって所有され、定義された遷移を通じてのみ変更される状態を指す。このモデルにより、モジュールの動作が予測可能かつ制御可能となる。
+
+## Ownership Module
+- ja: 所有権モジュール
+- related: [Module, ARCOS, Delegation, Shared Ownership, Custody, Rental]
+- auto_added: 2026-09-30
+- auto_source_topic_id: 29783
+- auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
+- desc: |
+  ARCOSフレームワークで最初に開発されたモジュールの一つ。NFTの所有権、利用権、利益享受権、移転、排他性といった基本的な側面をモデル化する。委譲、共有所有、カストディ、レンタルなどの具体的な機能を提供する。

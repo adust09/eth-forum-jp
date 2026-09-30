@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-09-29'
+date: '2026-09-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -51,6 +51,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
 - [[glossary/agent-action|agent action]] — エージェントアクション
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
+- [[glossary/Agent-Identity|Agent Identity]] — エージェントID (AID)
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
 - [[glossary/Agent-Memory-State-Registry|Agent Memory State Registry]] — エージェントメモリ状態レジストリ (ERC-8337)
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
@@ -73,6 +74,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Sentinel|AI Sentinel]] — AIセンチネル
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
+- [[glossary/AID-Document|AID Document]] — AIDドキュメント
 - [[glossary/All-Core-Devs-Consensus|All Core Devs - Consensus]] — オールコア開発者会議 - コンセンサス
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/All-Subnets-Node|All-Subnets Node]] — 全サブネットノード
@@ -86,6 +88,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
 - [[glossary/append-only-projection-engine|append-only projection engine]] — 追記専用プロジェクションエンジン
 - [[glossary/Application-Controlled-Execution|Application-Controlled Execution]] — アプリケーション制御型実行 (ACE)
+- [[glossary/ARCOS|ARCOS]] — ARCOS (アーコス)
 - [[glossary/Arithmetic-Circuit|Arithmetic Circuit]] — 算術回路
 - [[glossary/Arithmetization-Oriented-Hash|Arithmetization-Oriented Hash]] — 算術化指向ハッシュ (AOハッシュ)
 - [[glossary/Ashlar|Ashlar]] — アシュラー
@@ -578,6 +581,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Gossip-Stream-Compression|Gossip Stream Compression]] — ゴシップストリーム圧縮（コンテキスト付き）
 - [[glossary/gossipsub|gossipsub]] — ゴシップサブ
 - [[glossary/Governance-Reconstruction-Problem|Governance Reconstruction Problem]] — ガバナンス再構築問題
+- [[glossary/Governed-State|Governed State]] — ガバナンスされた状態
 - [[glossary/Graceful-Revocation|Graceful Revocation]] — グレースフル取り消し (Graceful Revocation)
 - [[glossary/Graffiti-Watermark|Graffiti Watermark]] — グラフィティ・ウォーターマーク
 - [[glossary/Grantor-Authorization-Pattern|Grantor Authorization Pattern]] — グラントール認証パターン
@@ -717,6 +721,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Liquidity-Consolidation|Liquidity Consolidation]] — 流動性統合
 - [[glossary/liquidity-layer|liquidity layer]] — 流動性レイヤー
 - [[glossary/Liquidity-Ocean|Liquidity Ocean]] — リクイディティ・オーシャン
+- [[glossary/Liveness-Window|Liveness Window]] — ライブネスウィンドウ
 - [[glossary/LLM-Judge|LLM Judge]] — LLMジャッジ
 - [[glossary/LMD-GHOST|LMD-GHOST]] — LMD-GHOST
 - [[glossary/load|load (MATCHA)]] — load (MATCHAにおける)
@@ -783,6 +788,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ML-KEM|ML-KEM]] — ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
+- [[glossary/Module|Module]] — モジュール
+- [[glossary/Module-Activation-System|Module Activation System]] — モジュールアクティベーションシステム (MAS)
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
 - [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
 - [[glossary/Multi-block-Access-List-Warming|Multi-block Access List Warming]] — マルチブロック・アクセスリスト・ウォーミング
@@ -892,6 +899,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
 - [[glossary/ownerless-contract|ownerless contract]] — オーナーレスコントラクト
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
+- [[glossary/Ownership-Module|Ownership Module]] — 所有権モジュール
 - [[glossary/Ownership-Reconstruction|Ownership Reconstruction]] — 所有権の再構築 (Ownership Reconstruction)
 - [[glossary/P2P-networking|P2P networking]] — P2Pネットワーキング
 - [[glossary/Pair-wise-KEM-SAP|Pair-wise-KEM-SAP]] — ペアワイズKEM-SAP
@@ -1020,6 +1028,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-level-bank-run|Protocol-level bank run]] — プロトコルレベルの取り付け騒ぎ
 - [[glossary/protocol-level-execution-budget|protocol-level execution budget]] — プロトコルレベルの実行予算
 - [[glossary/Protocol-Property-Finality|Protocol-Property Finality]] — プロトコルプロパティのファイナリティ
+- [[glossary/Provenance-Class|Provenance Class]] — プロベナンスクラス
 - [[glossary/prover|prover]] — プルーバー
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Public-mempool-gas-sponsorship|Public-mempool gas sponsorship]] — パブリックメンプールガススポンサーシップ
