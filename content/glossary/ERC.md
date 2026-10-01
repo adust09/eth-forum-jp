@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-09-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc-29797|モジュール：NFT機能全体で再利用可能な統制状態の規律（状態、権限、遷移、不変条件）を構築する]]（2026-09-29）
+- [[posts/magicians-2026-09-28-erc-8431-holding-time-auto-staking-for-nfts-29787|ERC-8431: NFT向け保有期間自動ステーキング]]（2026-09-28）
 - [[posts/magicians-2026-09-28-erc-8432-onchain-ip-asset-and-license-registry-29792|ERC-8432: オンチェーンIP資産およびライセンスレジストリ]]（2026-09-28）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 - [[posts/magicians-2026-09-22-eipip-meeting-131-oct-20-2026-29748|EIPIPミーティング #131、2026年10月20日]]（2026-09-22）

@@ -4,7 +4,7 @@ aliases:
   - Sepolia (テストネット)
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **Sepolia (テストネット)**
@@ -19,6 +19,7 @@ Ethereumの主要なテストネットの一つ。開発者がスマートコン
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-all-core-devs-testing-acdt-99-october-5-2026-29802|全コア開発者会議 - テスト (ACDT) #99、2026年10月5日]]（2026-09-29）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 - [[posts/magicians-2026-06-06-execution-receipts-for-ai-agents-off-chain-evidence-on-chain-roots-and-verifiable-session-proofs-28737|AIエージェント向け実行レシート：オフチェーン証拠、オンチェーンルート、検証可能なセッション証明]]（2026-06-06）
 

@@ -4,7 +4,7 @@ aliases:
   - コンセンサス状態
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **コンセンサス状態**
@@ -18,6 +18,7 @@ date: '2026-09-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）
 - [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
 - [[posts/ethresear-2026-08-27-an-evaluation-of-authenticated-utxo-discovery-with-eip-8304-and-utxo-proof-tables-25828|EIP-8304とUTXO証明テーブルを用いた認証済みUTXO発見の評価]]（2026-08-27）
 - [[posts/ethresear-2026-07-06-the-extremely-lean-chain-25369|極めてリーンなチェーン]]（2026-07-06）
