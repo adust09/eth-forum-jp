@@ -4,7 +4,7 @@ aliases:
   - 再帰的STARKトランザクション事前承認
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **再帰的STARKトランザクション事前承認**

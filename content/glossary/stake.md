@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-09-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）
 - [[posts/ethresear-2026-09-17-staking-rewards-as-venture-capital-governed-by-futarchy-26030|ステーキング報酬をベンチャーキャピタルに、フューチャーキーで統治]]（2026-09-17）
 - [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）

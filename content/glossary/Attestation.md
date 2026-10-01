@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-09-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc-29797|モジュール：NFT機能全体で再利用可能な統制状態の規律（状態、権限、遷移、不変条件）を構築する]]（2026-09-29）
 - [[posts/ethresear-2026-09-25-ethereums-tcb-part-1-the-client-26086|イーサリアムのTCB、パート1：クライアント]]（2026-09-25）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）

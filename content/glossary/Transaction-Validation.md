@@ -5,7 +5,7 @@ aliases:
   - tx validation
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **トランザクション検証**
@@ -19,6 +19,7 @@ date: '2026-09-30'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 
 ## 元の表記（英語）

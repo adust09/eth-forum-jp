@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-09-30'
+date: '2026-10-01'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,7 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-09-30-eip-8433-retire-0x00-validators-29808|EIP-8433: 0x00バリデータの引退]]（2026-09-30）
 - [[posts/ethresear-2026-09-17-staking-rewards-as-venture-capital-governed-by-futarchy-26030|ステーキング報酬をベンチャーキャピタルに、フューチャーキーで統治]]（2026-09-17）
 - [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）
 - [[posts/magicians-2026-09-09-eip-8413-decouple-stake-from-validator-registration-29628|EIP-8413: ステークとバリデータ登録の分離]]（2026-09-09）

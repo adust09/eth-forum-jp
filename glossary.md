@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-09-30
+last_updated: 2026-10-01
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13450,3 +13450,249 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/module-a-reusable-state-machine-framework-for-nft-capabilities-ownership-module-v0-5-v1-0/29783
 - desc: |
   ARCOSフレームワークで最初に開発されたモジュールの一つ。NFTの所有権、利用権、利益享受権、移転、排他性といった基本的な側面をモデル化する。委譲、共有所有、カストディ、レンタルなどの具体的な機能を提供する。
+
+## Sealed-Bid Award Mechanism
+- ja: 封印入札型落札メカニズム
+- related: [Task Tender, Agent Task Stack, ERC-8183, ERC-8195, ERC-8414]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29814
+- auto_source_url: https://ethereum-magicians.org/t/sealed-bid-award-mechanism-for-task-tenders-companion-to-erc-8183-8195-8414/29814
+- desc: |
+  Ethereumのエージェントタスクスタックにおいて、複数のエージェントが単一のタスクに入札する際の落札者と価格を決定するための標準化されたメカニズム。入札のコミット、公開、落札のプロセスと、入札保証金（bond）の仕組みを含む。
+
+## Task Tender
+- ja: タスクテンダー（タスク入札募集）
+- related: [Agent Task Stack, Sealed-Bid Award Mechanism, ERC-8183, ERC-8195, ERC-8414]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29814
+- auto_source_url: https://ethereum-magicians.org/t/sealed-bid-award-mechanism-for-task-tenders-companion-to-erc-8183-8195-8414/29814
+- desc: |
+  Ethereumのエージェントエコシステムにおいて、特定のタスクの実行者を募集するための公開入札プロセス。エージェントがタスクの実行を希望し、その対価を提示する。
+
+## Agent Task Stack
+- ja: エージェントタスクスタック
+- related: [ERC-8183, ERC-8195, ERC-8414, Sealed-Bid Award Mechanism]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29814
+- auto_source_url: https://ethereum-magicians.org/t/sealed-bid-award-mechanism-for-task-tenders-companion-to-erc-8183-8195-8414/29814
+- desc: |
+  Ethereum上で自律型エージェントがタスクを投稿、実行、決済するための一連のプロトコルや標準の集合体。ERC-8183、ERC-8195、ERC-8414などの関連するEIPを含む。
+
+## Revelation Principle
+- ja: 啓示原理
+- related: [Mechanism Design, Optimal Auction]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29814
+- auto_source_url: https://ethereum-magicians.org/t/sealed-bid-award-mechanism-for-task-tenders-companion-to-erc-8183-8195-8414/29814
+- desc: |
+  メカニズムデザインにおける原則で、任意の実行可能なメカニズムは、参加者が自身の真のタイプ（情報）を正直に報告する直接メカニズムと同等であるというもの。Ethereumのプロトコル設計において、オンチェーンインターフェースの設計根拠として用いられる。
+
+## Revenue Equivalence
+- ja: 収益等価原理
+- related: [Mechanism Design, Optimal Auction]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29814
+- auto_source_url: https://ethereum-magicians.org/t/sealed-bid-award-mechanism-for-task-tenders-companion-to-erc-8183-8195-8414/29814
+- desc: |
+  メカニズムデザインにおける原則で、特定の条件下（参加者がリスク中立、評価額が独立に引き出されるなど）において、配分ルールとリザーブ価格が同じであれば、異なるオークション形式でも売り手の期待収益は同じになるというもの。Ethereumのプロトコル設計において、価格決定ルールの柔軟性の根拠として用いられる。
+
+## AA Transaction Type
+- ja: AAトランザクションタイプ
+- related: [Account Abstraction, EIP-8430, EIP-8130]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29810
+- auto_source_url: https://ethereum-magicians.org/t/eip-8430-aa-transaction-type-split-out-from-8130/29810
+- desc: |
+  EIP-8430で提案されている、アカウント抽象化を可能にする新しいトランザクションタイプです。既存のEOAでも利用可能であり、キー管理の柔軟性を高めることを目的としています。
+
+## Keystore
+- ja: キーストア
+- related: [EIP-8130, Account Abstraction, Keystore Accounts]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29810
+- auto_source_url: https://ethereum-magicians.org/t/eip-8430-aa-transaction-type-split-out-from-8130/29810
+- desc: |
+  EIP-8130で定義されている、アカウントの秘密鍵や認証情報を管理するためのコンポーネントまたは標準です。アカウント抽象化の文脈で、より柔軟なキー管理と認証メカニズムを提供します。
+
+## standard exit churn
+- ja: 標準退出チャーン
+- related: [validator exit, churn]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29808
+- auto_source_url: https://ethereum-magicians.org/t/eip-8433-retire-0x00-validators/29808
+- desc: |
+  Ethereumのバリデータが自発的にネットワークから退出する際の通常のプロセスです。バリデータはキューに入れられ、一定のエポックごとに処理される退出率（チャーン）の制限に従って順次退出します。
+
+## forced-exit
+- ja: 強制退出
+- related: [validator exit, 0x00 validator]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29808
+- auto_source_url: https://ethereum-magicians.org/t/eip-8433-retire-0x00-validators/29808
+- desc: |
+  Ethereumネットワークにおいて、特定の条件（例: 0x00 withdrawal credentialを持つバリデータ）を満たすバリデータが、プロトコルによって強制的に退出させられるプロセスです。通常の自発的な退出とは異なり、プロトコルアップグレードなどによってトリガーされます。
+
+## withdrawal credential
+- ja: 出金資格情報
+- related: [0x00 withdrawal credential type, 0x01 withdrawal credential type, validator]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29808
+- auto_source_url: https://ethereum-magicians.org/t/eip-8433-retire-0x00-validators/29808
+- desc: |
+  Ethereumのバリデータが、そのステークされたETHを引き出すために使用する認証情報です。通常はBLS署名キー（0x00タイプ）またはExecution Layerアドレス（0x01タイプ）のいずれかを指します。
+
+## Alternative Mempools
+- ja: 代替メムプール
+- related: [Frame Transaction, ERC-7562, ERC-4337 UserOperations, Canonical Mempool, Reputation-based System]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29800
+- auto_source_url: https://ethereum-magicians.org/t/erc-8421-frame-transaction-alternative-mempools/29800
+- desc: |
+  コアプロトコルによって定義される「カノニカルメムプール」とは異なる検証ルールや優先順位付けメカニズムを持つメムプール。ERC-8421のようなFrame TransactionやERC-4337のUserOperationの検証において、評判ベースのシステムなどを採用し、より柔軟な処理を可能にする。
+
+## Reputation-based System
+- ja: 評判ベースシステム
+- aliases: [Reputation System]
+- related: [Alternative Mempools, MATCHA, ERC-7562, ERC-8421]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29800
+- auto_source_url: https://ethereum-magicians.org/t/erc-8421-frame-transaction-alternative-mempools/29800
+- desc: |
+  トランザクション（特にFrame TransactionやUserOperation）の検証や優先順位付けにおいて、送信者や関連エンティティの評判を考慮するシステム。代替メムプールにおいて、より柔軟なルールを適用し、悪意のある行為を抑制するために用いられる。
+
+## Canonical Mempool
+- ja: カノニカルメムプール
+- related: [Mempool, Alternative Mempools, Core Protocol]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29800
+- auto_source_url: https://ethereum-magicians.org/t/erc-8421-frame-transaction-alternative-mempools/29800
+- desc: |
+  Ethereumのコアプロトコルによって定義され、標準的な検証ルールに従うメムプール。代替メムプールとの対比で用いられ、通常はより厳格なルールが適用される。EIP-8141の文脈では、ERC-8421のようなより許容的な評判ベースのシステムと区別される。
+
+## Escalating gas for repeated calls
+- ja: 繰り返し呼び出しに対するガス料金エスカレーション
+- related: [gas pricing, anti-MEV]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29798
+- auto_source_url: https://ethereum-magicians.org/t/eip-8429-escalating-gas-for-repeated-calls/29798
+- desc: |
+  EIP-8429で提案されている、同一ブロック内でコントラクトへの呼び出しが繰り返されるたびにガス料金が二次関数的に増加するメカニズム。MEVの機会を減らし、特定の行動を抑制することを目的とします。
+
+## Opted-in contract
+- ja: オプトインコントラクト
+- related: [Escalating gas for repeated calls]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29798
+- auto_source_url: https://ethereum-magicians.org/t/eip-8429-escalating-gas-for-repeated-calls/29798
+- desc: |
+  EIP-8429のガス料金エスカレーションメカニズムに自ら登録し、繰り返し呼び出しに対して追加のガス料金が課されることを受け入れたスマートコントラクトです。
+
+## Gas ratchets (EIP-8429)
+- ja: ガスラチェット（EIP-8429）
+- aliases: [Ratchets (EIP-8429)]
+- related: [Escalating gas for repeated calls]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29798
+- auto_source_url: https://ethereum-magicians.org/t/eip-8429-escalating-gas-for-repeated-calls/29798
+- desc: |
+  EIP-8429において、コントラクトへの繰り返し呼び出しを追跡し、追加のガス料金を決定するために使用されるカウンターメカニズム。ブロックごとの高速なものと、発信者ごとの週単位の低速なものの2種類があります。
+
+## Staked gas (EIP-8429)
+- ja: ステークされたガス（EIP-8429）
+- related: [Escalating gas for repeated calls]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29798
+- auto_source_url: https://ethereum-magicians.org/t/eip-8429-escalating-gas-for-repeated-calls/29798
+- desc: |
+  EIP-8429で課される追加のガス料金の行先。その半分は引き出し不能なステークとして預けられ、残りの半分はオプトインコントラクトが指定する場所にステークされます。ブロックプロデューサーには支払われません。
+
+## Own-ordinal gate
+- ja: 自己順序ゲート
+- related: [Gas ratchets (EIP-8429)]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29798
+- auto_source_url: https://ethereum-magicians.org/t/eip-8429-escalating-gas-for-repeated-calls/29798
+- desc: |
+  EIP-8429の高速なガス料金サーチャージに適用される特定の条件またはフィルター。これにより、呼び出しの順序に基づいて料金が適用されるかどうかが決定され、特定の繰り返し行動を抑制します。
+
+## Six fixed questions
+- ja: 6つの固定質問
+- related: [Module, Authority Root, Invariant]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29797
+- auto_source_url: https://ethereum-magicians.org/t/module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc/29797
+- desc: |
+  ARCOSフレームワークにおけるモジュールの設計原則を構成する6つの必須のアーキテクチャ的問い。これらは、モジュールの状態、権限、遷移、不変条件、ライフサイクルと履歴、およびシステムとの相互作用を定義する。
+
+## Authority Root
+- ja: 権限ルート
+- related: [Module, Authority]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29797
+- auto_source_url: https://ethereum-magicians.org/t/module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc/29797
+- desc: |
+  ARCOSフレームワークにおいて、特定のアクションが現在誰によって正当であるかをリアルタイムで計算する参照点。すべての機能（Capability）は、この権限ルートに対して測定される。
+
+## Trace-and-verify approach
+- ja: トレース検証アプローチ
+- related: [Module, Formal Verification, Property-based Testing]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29797
+- auto_source_url: https://ethereum-magicians.org/t/module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc/29797
+- desc: |
+  モジュールが正しく構築されているかを検証するためのテスト手法。特定の資産のライフサイクル（ミント、委任、衝突、期限切れ、保管、回復など）をトレースし、各ステップでの状態変化や失敗時のロールバックを検証する。
+
+## Checks-before-effects
+- ja: 事前チェック・事後効果（Checks-before-effects）
+- related: [Invariant, Atomic Transaction]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29797
+- auto_source_url: https://ethereum-magicians.org/t/module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc/29797
+- desc: |
+  スマートコントラクト設計における原則で、状態変更を行う前にすべての検証（チェック）を完了させることを意味する。これにより、検証が失敗した場合に部分的な状態変更が発生せず、トランザクション全体がアトミックにロールバックされる。
+
+## Holding-Time Auto Staking
+- ja: ホールディングタイム自動ステーキング
+- aliases: [Auto Staking for NFTs, In-place Staking, Transfer-Derived Staking]
+- related: [ERC-721, NFT Staking]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29787
+- auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
+- desc: |
+  NFTをウォレットに保持しているだけでステーキング時間が自動的に蓄積される仕組み。別途ステーキングトランザクションやカストディ転送が不要で、ガス代やウォレットベースのユーティリティ中断のリスクを軽減する。
+
+## token-gated access
+- ja: トークンゲートアクセス
+- related: [NFT, ERC-721]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29787
+- auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
+- desc: |
+  特定のNFTやトークンを保有しているユーザーのみが、特定のコンテンツ、コミュニティ、または機能にアクセスできる仕組み。ウォレット内のトークン所有状況に基づいてアクセス権が付与される。
+
+## staking season
+- ja: ステーキングシーズン
+- related: [NFT Staking, ERC-8431]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29787
+- auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
+- desc: |
+  NFTのステーキング報酬が計算される特定の期間。この期間は`stakingBegin`と`stakingEnd`で定義され、期間ごとに`stakingId`が割り当てられる。
+
+## breaktime
+- ja: ブレイクタイム
+- related: [Holding-Time Auto Staking, NFT Staking]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29787
+- auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
+- desc: |
+  NFTが転送された後、一定期間（秒単位）ステーキング時間の蓄積が停止される期間。これにより、トークンが短期間に複数のウォレット間で転送され、不正に報酬を請求されるのを防ぐ。
+
+## lazily computed
+- ja: 遅延計算（レイジーコンピュテーション）
+- related: [View Function, Gas Optimization]
+- auto_added: 2026-10-01
+- auto_source_topic_id: 29787
+- auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
+- desc: |
+  NFTが転送されない限り、そのステーキング合計が即座に更新されず、ビュー関数が呼び出された際に初めて計算される方式。これにより、不要なオンチェーントランザクションとガス消費を削減する。
