@@ -5,7 +5,7 @@ aliases:
   - ASP
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **アソシエーションセットプロバイダー**

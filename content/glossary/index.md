@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -1478,6 +1478,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
 - [[glossary/write-once-cap|write-once cap]] — 書き込み一度きりの供給上限
 - [[glossary/WYRIWE|WYRIWE]] — WYRIWE (What You Read Is What You Execute)
+- [[glossary/x402|x402]] — x402 (エックス402)
 - [[glossary/Zero-Knowledge-Proof-of-Seed|Zero Knowledge Proof of Seed]] — シードのゼロ知識証明 (Zero Knowledge Proof of Seed)
 - [[glossary/zero-coupon-bond|zero-coupon bond]] — ゼロクーポン債
 - [[glossary/Zero-Fee-Joint-Optimum|Zero-Fee Joint Optimum]] — ゼロ手数料共同最適（命題1）

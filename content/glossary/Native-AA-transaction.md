@@ -5,7 +5,7 @@ aliases:
   - native 0x79 transaction
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **ネイティブAAトランザクション (Native AA transaction)**

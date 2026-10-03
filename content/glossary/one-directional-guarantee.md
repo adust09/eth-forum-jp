@@ -4,7 +4,7 @@ aliases:
   - 一方向保証
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **一方向保証**

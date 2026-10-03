@@ -4,7 +4,7 @@ aliases:
   - バッチFIFO (Batch-FIFO)
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **バッチFIFO (Batch-FIFO)**
