@@ -5,7 +5,7 @@ aliases:
   - AMD
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **拡張メカニズム設計 (AMD)**

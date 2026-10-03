@@ -5,7 +5,7 @@ aliases:
   - TDA
 tags:
   - glossary
-date: '2026-10-01'
+date: '2026-10-03'
 ---
 
 **位相的データ解析 (TDA)**

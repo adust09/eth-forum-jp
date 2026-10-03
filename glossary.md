@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-01
+last_updated: 2026-10-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13696,3 +13696,12 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8431-holding-time-auto-staking-for-nfts/29787
 - desc: |
   NFTが転送されない限り、そのステーキング合計が即座に更新されず、ビュー関数が呼び出された際に初めて計算される方式。これにより、不要なオンチェーントランザクションとガス消費を削減する。
+
+## x402
+- ja: x402 (エックス402)
+- related: [agent payments, ZK-Proof-Gated Settlement]
+- auto_added: 2026-10-03
+- auto_source_topic_id: 26109
+- auto_source_url: https://ethresear.ch/t/six-defects-in-one-signature-verification-tool-found-from-outside-in-six-rounds/26109
+- desc: |
+  エージェント決済におけるアトミックなZKプルーフゲート型決済の参照設計で言及される、特定のカタログまたは標準を指す識別子です。Ethereumエコシステム内のエージェント決済とZKプルーフの研究領域に特化した用語として使用されます。
