@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -51,6 +51,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Adversarial-Prompt-Injection-Attack|Adversarial Prompt Injection Attack]] — 敵対的プロンプトインジェクション攻撃
 - [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
 - [[glossary/agent-action|agent action]] — エージェントアクション
+- [[glossary/Agent-Collective-Decision-Framework|Agent Collective Decision Framework]] — エージェント集団意思決定フレームワーク (ACDF)
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-Identity|Agent Identity]] — エージェントID (AID)
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
@@ -121,10 +122,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
 - [[glossary/AUTHENTICATOR-signature-scheme|AUTHENTICATOR signature scheme]] — AUTHENTICATOR署名スキーム
 - [[glossary/Authoritative-Finality|Authoritative Finality]] — 権威ある最終性
+- [[glossary/Authority-Boundary|Authority Boundary]] — 権限境界
 - [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
 - [[glossary/Authority-Root|Authority Root]] — 権限ルート
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
+- [[glossary/Authority-Non-Expansive|Authority-Non-Expansive]] — 権限非拡大性
 - [[glossary/Auto-Stagnant-Bot|Auto Stagnant Bot]] — 自動停滞ボット
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
@@ -176,6 +179,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bloom-Filter|Bloom Filter]] — ブルームフィルター
 - [[glossary/BLS-keys|BLS keys]] — BLS鍵
 - [[glossary/BLS-withdrawal-credential-retirement|BLS withdrawal credential retirement]] — BLS引き出しクレデンシャルの引退
+- [[glossary/BLS12-Curves|BLS12 Curves]] — BLS12曲線
 - [[glossary/BLSToExecutionChange|BLSToExecutionChange]] — BLSToExecutionChange
 - [[glossary/BN254|BN254]] — BN254 (楕円曲線)
 - [[glossary/Bond-backed-delegation-capacity|Bond-backed delegation capacity]] — ボンド担保型デリゲーション容量
@@ -270,6 +274,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Complete-set-operations|Complete-set operations]] — 完全セット操作
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
+- [[glossary/Composition|Composition]] — 構成（ACDF）
 - [[glossary/Computed-versus-Judged|Computed versus Judged]] — 計算による検証と判断による検証
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/Concentration-sensitive-economics|Concentration-sensitive economics]] — 集中度感応型経済学
@@ -287,6 +292,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Consensus-ordered-revocation|Consensus-ordered revocation]] — コンセンサス順序付けされた取り消し
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
 - [[glossary/Consent-Registry|Consent Registry]] — 同意レジストリ
+- [[glossary/Consequential-State|Consequential State]] — 結果に影響を与える状態
 - [[glossary/Conservation-Property|Conservation Property]] — 保存の特性
 - [[glossary/Conservative-Funding-Check|Conservative Funding Check]] — 保守的な資金調達チェック
 - [[glossary/Const-Tier|Const Tier]] — 定数層 (Const Tier)
@@ -353,6 +359,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Decentralized-Identifiers|Decentralized Identifiers]] — 分散型識別子 (DID)
 - [[glossary/Decentralized-State|Decentralized State]] — 分散型ステート
 - [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
+- [[glossary/Decision-Policy|Decision Policy]] — 意思決定ポリシー
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
@@ -428,6 +435,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-8288|EIP-8288]] — EIP-8288
 - [[glossary/EIP-8363|EIP-8363]] — EIP-8363
 - [[glossary/EIPIP|EIPIP]] — EIPIP
+- [[glossary/Elligator-Squared|Elligator Squared]] — エリゲーター・スクエアード
 - [[glossary/embedded-wallets|embedded wallets]] — 組み込み型ウォレット
 - [[glossary/eMBER|eMBER]] — eMBER (ePBS実行報酬強制焼却)
 - [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
@@ -478,6 +486,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ethp2p|Ethp2p]] — Ethp2p (イーサリアムP2Pプロトコル)
 - [[glossary/ETNL-Semantic-Layer|ETNL Semantic Layer]] — ETNLセマンティックレイヤー (実行トレース正規化レイヤー)
 - [[glossary/etxseen-bitfield|etx_seen bitfield]] — etx_seenビットフィールド
+- [[glossary/Even-Cofactor-Curve|Even Cofactor Curve]] — 偶数コファクター曲線
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/eviction-mechanism|eviction mechanism]] — 削除メカニズム
 - [[glossary/Evidence-Capsule|Evidence Capsule]] — エビデンスカプセル
@@ -561,6 +570,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Formal-Verification|Formal Verification]] — 形式検証
 - [[glossary/FORS|FORS]] — FORS（フォレスト・オブ・ランダム・サブセット）
 - [[glossary/Forward-compatible-consensus-data-structures|Forward compatible consensus data structures]] — 前方互換性のあるコンセンサスデータ構造
+- [[glossary/Four-valued-semantics|Four-valued semantics]] — 四値セマンティクス
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
 - [[glossary/Frame-type|Frame type]] — フレームタイプ
 - [[glossary/Frames|Frames]] — フレーム (アカウント抽象化デザイン)
@@ -667,6 +677,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/intrinsic-gas|intrinsic gas]] — 固有ガス
 - [[glossary/Invariant|Invariant]] — 不変条件
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
+- [[glossary/Inverse-Isogeny-Bridge|Inverse Isogeny Bridge]] — 逆同種写像ブリッジ
 - [[glossary/IProjectionSettlement|IProjectionSettlement]] — IProjectionSettlement（プロジェクション決済インターフェース）
 - [[glossary/IRegisterProjection|IRegisterProjection]] — IRegisterProjection（レジスタプロジェクションインターフェース）
 - [[glossary/IRegistryAnchor|IRegistryAnchor]] — IRegistryAnchor（インターフェース）
@@ -674,6 +685,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/IRoleTier|IRoleTier]] — IRoleTier (ロール階層インターフェース)
 - [[glossary/isFinalAsOf|isFinalAsOf]] — 特定時点での最終性
 - [[glossary/Isoelastic-demand-curves|Isoelastic demand curves]] — 等弾力性需要曲線
+- [[glossary/Issue|Issue]] — 課題（ACDF）
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/Itemized-Non-Fungible-Token|Itemized Non-Fungible Token]] — アイテム化非代替性トークン
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
@@ -835,6 +847,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Non-Binary-Nonce|Non-Binary Nonce]] — 非バイナリノンス
 - [[glossary/Non-Blocking-Settlement|Non-Blocking Settlement]] — 非ブロッキング決済
+- [[glossary/Non-Self-Authorizing-State-Transitions|Non-Self-Authorizing State Transitions]] — 自己承認しない状態遷移
 - [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
 - [[glossary/Non-upgradeable-contracts|Non-upgradeable contracts]] — アップグレード不可能なコントラクト
 - [[glossary/Non-Zero-Sum-Transfer|Non-Zero-Sum Transfer]] — 非ゼロサム転送 (Non-Zero-Sum Transfer)
@@ -1116,6 +1129,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reserve-backed-token|reserve-backed token]] — 準備金裏付けトークン
 - [[glossary/reserveId|reserveId]] — 準備金ID
 - [[glossary/Resistance-Contingent-Delivery|Resistance-Contingent Delivery]] — 抵抗依存型デリバリー
+- [[glossary/Resolution|Resolution]] — レゾリューション
 - [[glossary/Resolution-Envelope|Resolution Envelope]] — レゾリューション・エンベロープ
 - [[glossary/Resolution-Layer|Resolution Layer]] — 解決層
 - [[glossary/Resource-Vector|Resource Vector]] — リソースベクトル
@@ -1286,6 +1300,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Address-Protocol|Stealth Address Protocol]] — ステルスアドレスプロトコル (SAP)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
+- [[glossary/Steganographic-Point-Obfuscation|Steganographic Point Obfuscation]] — ステガノグラフィック点難読化
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ

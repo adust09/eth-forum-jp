@@ -4,7 +4,7 @@ aliases:
   - EIP-712アテステーションプロファイル
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **EIP-712アテステーションプロファイル**
@@ -19,6 +19,7 @@ EIP-712標準を利用して、AI推論の入力来歴や実行結果などの�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/magicians-2026-06-01-draft-erc-permission-registry-function-scoped-delegation-for-agents-without-custody-28670|ドラフトERC: パーミッションレジストリ — カストディなしでエージェントに機能スコープの委任を]]（2026-06-01）

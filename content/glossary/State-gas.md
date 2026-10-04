@@ -5,7 +5,7 @@ aliases:
   - state-gas
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **ステートガス**

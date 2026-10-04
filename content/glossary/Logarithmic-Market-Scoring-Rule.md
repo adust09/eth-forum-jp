@@ -5,7 +5,7 @@ aliases:
   - LMSR
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **対数市場スコアリングルール (LMSR)**
