@@ -5,7 +5,7 @@ aliases:
   - open-obligation ledger
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **義務台帳**

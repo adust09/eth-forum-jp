@@ -4,7 +4,7 @@ aliases:
   - ペアワイズKEM-SAP
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **ペアワイズKEM-SAP**

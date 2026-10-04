@@ -4,7 +4,7 @@ aliases:
   - 検閲耐性
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **検閲耐性**
@@ -18,6 +18,7 @@ date: '2026-10-03'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-03-research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance-29849|BLS12曲線に対する逆2-アイソジェニーによるステガノグラフィック点難読化（DPI検閲耐性）]]（2026-10-03）
 - [[posts/ethresear-2026-08-27-when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3-25823|複数のプールが1つのように振る舞うとき: Uniswap v3におけるインパクト制約付きキャパシティ集中]]（2026-08-27）
 - [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）

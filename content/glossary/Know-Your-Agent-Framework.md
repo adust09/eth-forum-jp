@@ -6,7 +6,7 @@ aliases:
   - KYA
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **Know-Your-Agent (KYA) フレームワーク**
@@ -21,7 +21,7 @@ date: '2026-10-03'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 
 ## 元の表記（英語）
 

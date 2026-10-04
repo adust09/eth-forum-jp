@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-03
+last_updated: 2026-10-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13705,3 +13705,141 @@ description: |
 - auto_source_url: https://ethresear.ch/t/six-defects-in-one-signature-verification-tool-found-from-outside-in-six-rounds/26109
 - desc: |
   エージェント決済におけるアトミックなZKプルーフゲート型決済の参照設計で言及される、特定のカタログまたは標準を指す識別子です。Ethereumエコシステム内のエージェント決済とZKプルーフの研究領域に特化した用語として使用されます。
+
+## Agent Collective Decision Framework
+- ja: エージェント集団意思決定フレームワーク (ACDF)
+- aliases: [ACDF]
+- related: [Agent, Collective Decision]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29850
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality/29850
+- desc: |
+  エージェント、人間、またはコントラクトが、明確な承認の下で、定義された効果を持つ集団的な意思決定を行うためのフレームワーク。2つの共同デプロイ可能なレジストリを通じて機能し、意思決定ルールがパラメータとして固定される。
+
+## Decision Policy
+- ja: 意思決定ポリシー
+- aliases: [PolicySpec]
+- related: [ACDF, Policy family]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29850
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality/29850
+- desc: |
+  ACDFにおいて、意思決定のルール（意思決定体、閾値、構成グラフ、期間、異議申し立てルールなど）を定義する不変の仕様。コンテンツアドレス指定可能で、policyIdによって識別される。
+
+## Issue
+- ja: 課題（ACDF）
+- related: [ACDF, Consumer, Advisory issue, Binding issue]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29850
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality/29850
+- desc: |
+  ACDFにおける具体的な意思決定の単位。対象、質問、ポリシーバージョン、および最大1つのコンシューマー（依存するコントラクト）で構成される。
+
+## Composition
+- ja: 構成（ACDF）
+- related: [ACDF, Four-valued semantics]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29850
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality/29850
+- desc: |
+  ACDFにおいて、複数の意思決定体（Bodies）を組み合わせて最終的な意思決定を行うロジック。ALL / ANY / K-of-M / VETOなどのルールが適用され、投票結果をプールするのではなく論理的に結合する。
+
+## Four-valued semantics
+- ja: 四値セマンティクス
+- related: [ACDF, Composition]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29850
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality/29850
+- desc: |
+  ACDFの意思決定プロセス、特にCompositionにおいて使用される、4つの値（Pending / Yes / No / NoDecision）を持つセマンティクス。これにより、意思決定の状態と結果がより詳細に表現される。
+
+## Steganographic Point Obfuscation
+- ja: ステガノグラフィック点難読化
+- related: [Point-to-Uniform obfuscation, DPI Censorship Resistance, Elligator Squared]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29849
+- auto_source_url: https://ethereum-magicians.org/t/research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance/29849
+- desc: |
+  暗号化された公開鍵や署名などのデータを、ネットワーク層でのDPI検閲から隠蔽するために、一様ランダムな文字列の中に埋め込む技術。これにより、データの構造が隠され、検閲耐性が向上する。
+
+## Inverse Isogeny Bridge
+- ja: 逆同種写像ブリッジ
+- aliases: [Isogeny Bridge]
+- related: [Isogeny, Elligator Squared, BLS12 Curves]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29849
+- auto_source_url: https://ethereum-magicians.org/t/research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance/29849
+- desc: |
+  楕円曲線上の点難読化において、難読化された点を元の曲線上の点に復元するために使用される数学的な写像。特に、受信側での計算オーバーヘッドを削減するための最適化が本研究で提案されている。
+
+## Elligator Squared
+- ja: エリゲーター・スクエアード
+- related: [Point-to-Uniform obfuscation, Steganographic Point Obfuscation]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29849
+- auto_source_url: https://ethereum-magicians.org/t/research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance/29849
+- desc: |
+  楕円曲線上の点を一様ランダムな文字列に難読化（Point-to-Uniform obfuscation）するための具体的なアルゴリズム。DPI検閲耐性などの目的で、暗号データの構造を隠蔽するために用いられる。
+
+## BLS12 Curves
+- ja: BLS12曲線
+- related: [BLS signature, Elliptic Curve]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29849
+- auto_source_url: https://ethereum-magicians.org/t/research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance/29849
+- desc: |
+  BLS署名スキームに用いられる特定の種類の楕円曲線。Ethereumのコンセンサス層など、多くの暗号システムで利用されており、ペアリングフレンドリーな特性を持つ。
+
+## Even Cofactor Curve
+- ja: 偶数コファクター曲線
+- related: [Elliptic Curve, Isogeny]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29849
+- auto_source_url: https://ethereum-magicians.org/t/research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance/29849
+- desc: |
+  楕円曲線のコファクター（曲線の点の総数をその部分群の位数で割った値）が偶数である曲線。この特性は、特定の暗号操作、特に同種写像の実装において最適化を可能にする。
+
+## Resolution
+- ja: レゾリューション
+- related: [Authority Boundary, Consequential State, Non-Self-Authorizing State Transitions]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29846
+- auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
+- desc: |
+  Ethereumシステムにおいて、ある事柄が生産または証明された後、それが結果に影響を与える状態を変更する権限を獲得するまでの境界プロセス。計算、証拠、有効性が自動的に権限を付与しないことを保証する。
+
+## Non-Self-Authorizing State Transitions
+- ja: 自己承認しない状態遷移
+- related: [Resolution, Authority Boundary, Consequential State]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29846
+- auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
+- desc: |
+  状態遷移が、その遷移を生成または証明した行為自体によって自動的に権限を獲得しないという原則。Resolutionの概念を通じて、権限の独立した確立を要求する。
+
+## Authority Boundary
+- ja: 権限境界
+- related: [Resolution, Consequential State]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29846
+- auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
+- desc: |
+  Ethereumシステムにおいて、あるエンティティやプロセスが結果に影響を与える状態を変更する権限を持つ範囲を明確に区切る概念。Resolutionは、この権限境界を越えるためのプロセスを定義する。
+
+## Consequential State
+- ja: 結果に影響を与える状態
+- related: [Resolution, Authority Boundary, Successor State]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29846
+- auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
+- desc: |
+  Ethereumの状態のうち、システム全体の挙動や将来の結果に直接的かつ重要な影響を与える部分。Resolutionのプロセスは、この結果に影響を与える状態の変更に権限を付与する。
+
+## Authority-Non-Expansive
+- ja: 権限非拡大性
+- related: [Resolution, Authority Boundary]
+- auto_added: 2026-10-04
+- auto_source_topic_id: 29846
+- auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
+- desc: |
+  複数の有効な要素を組み合わせても、個々の要素や既存の承認済みルールが提供する以上の権限が生成されないという原則。権限の合成が自動的に権限を拡大しないことを保証する。

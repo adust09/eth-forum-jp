@@ -4,7 +4,7 @@ aliases:
   - ホールペイロードゴシップ (Whole-payload gossip)
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **ホールペイロードゴシップ (Whole-payload gossip)**

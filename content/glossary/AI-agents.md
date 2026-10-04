@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-10-03'
+date: '2026-10-04'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-10-03'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-09-28-erc-8432-onchain-ip-asset-and-license-registry-29792|ERC-8432: オンチェーンIP資産およびライセンスレジストリ]]（2026-09-28）
 - [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/magicians-2026-09-02-rfc-procedure-manifests-mechanism-for-ai-agents-to-resolve-contractual-disputes-29563|RFC: プロシージャマニフェスト - AIエージェントが契約上の紛争を解決するためのメカニズム]]（2026-09-02）
