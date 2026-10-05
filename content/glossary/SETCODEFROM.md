@@ -4,7 +4,7 @@ aliases:
   - SETCODEFROM (EVM命令)
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **SETCODEFROM (EVM命令)**

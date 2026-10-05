@@ -4,7 +4,7 @@ aliases:
   - P2Pネットワーキング
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **P2Pネットワーキング**
