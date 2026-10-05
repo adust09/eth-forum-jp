@@ -4,7 +4,7 @@ aliases:
   - 最終書き込みブロック
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **最終書き込みブロック**
@@ -18,6 +18,7 @@ EIP-8188で定義される、アカウントまたはストレージスロット
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-04-eip-8435-last-written-block-in-pbt-leaves-29860|EIP-8435: PBTリーフにおける最終書き込みブロック]]（2026-10-04）
 - [[posts/ethresear-2026-06-29-the-anatomy-of-ethereum-s-state-access-25317|イーサリアムのステートアクセス解剖学]]（2026-06-29）
 
 ## 元の表記（英語）

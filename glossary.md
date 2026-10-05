@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-04
+last_updated: 2026-10-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13843,3 +13843,67 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-tbd-resolution-non-self-authorizing-state-transitions/29846
 - desc: |
   複数の有効な要素を組み合わせても、個々の要素や既存の承認済みルールが提供する以上の権限が生成されないという原則。権限の合成が自動的に権限を拡大しないことを保証する。
+
+## Fulu types
+- ja: Fulu型
+- related: [SSZ, BeaconState, ExecutionPayload]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29861
+- auto_source_url: https://ethereum-magicians.org/t/bend-ssz-formally-proving-ssz/29861
+- desc: |
+  Ethereumのコンセンサス層において、Fuluアップグレード（またはその時点のメインネット）で定義されたデータ型。SSZ（Simple Serialize）の仕様に基づいてシリアライズ・デシリアライズされるオブジェクトの構造を指します。
+
+## hash_tree_root
+- ja: ハッシュツリールート
+- related: [SSZ, Merkle root]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29861
+- auto_source_url: https://ethereum-magicians.org/t/bend-ssz-formally-proving-ssz/29861
+- desc: |
+  SSZ（Simple Serialize）の仕様において、データ構造から決定論的にMerkle rootを計算する関数。Ethereumのコンセンサス層で、ブロックやステートの整合性を検証するために不可欠な要素です。
+
+## budgeted decode
+- ja: 予算付きデコード
+- aliases: [decode with a budget]
+- related: [decode memory amplification, SSZ]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29861
+- auto_source_url: https://ethereum-magicians.org/t/bend-ssz-formally-proving-ssz/29861
+- desc: |
+  SSZデコード処理において、事前に設定されたメモリや計算リソースの予算内で実行されるデコード手法。メモリ増幅攻撃などからシステムを保護するために、予算を超える入力はデコード前に拒否されます。
+
+## decode memory amplification
+- ja: デコード時のメモリ増幅
+- related: [budgeted decode, SSZ]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29861
+- auto_source_url: https://ethereum-magicians.org/t/bend-ssz-formally-proving-ssz/29861
+- desc: |
+  SSZデコード時に、入力バイトサイズと比較してデコードされたオブジェクトが大幅に多くのメモリを消費する現象。特に可変長要素が多い構造で発生しやすく、メモリ枯渇攻撃のリスクとなります。
+
+## storage-to-account cascade
+- ja: ストレージからアカウントへのカスケード
+- related: [Merkle Patricia Tree, Partitioned Binary Tree]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29860
+- auto_source_url: https://ethereum-magicians.org/t/eip-8435-last-written-block-in-pbt-leaves/29860
+- desc: |
+  Merkle Patricia Tree (MPT) の構造に起因する、ストレージスロットへの書き込みが、そのストレージルートを含むアカウントの`last_written_block`も更新する挙動。Partitioned Binary Tree (PBT) では、アカウントヘッダーとストレージが別々のリーフであるため、このカスケードは発生しない。
+
+## BASIC_DATA
+- ja: BASIC_DATA
+- related: [Partitioned Binary Tree, account leaf]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29860
+- auto_source_url: https://ethereum-magicians.org/t/eip-8435-last-written-block-in-pbt-leaves/29860
+- desc: |
+  Partitioned Binary Tree (PBT) のアカウントリーフ内に存在する、アカウントの基本情報（残高、nonce、コードサイズなど）を格納する固定オフセットのデータ領域。EIP-8435では、この領域に`last_written_block`が組み込まれる。
+
+## code_size
+- ja: コードサイズ
+- related: [account leaf, BASIC_DATA]
+- auto_added: 2026-10-05
+- auto_source_topic_id: 29860
+- auto_source_url: https://ethereum-magicians.org/t/eip-8435-last-written-block-in-pbt-leaves/29860
+- desc: |
+  Ethereumのアカウントが持つコードのサイズを示すフィールド。EIP-8435では、Partitioned Binary Tree (PBT) のアカウントリーフ内で、`last_written_block`のスペースを確保するために、このフィールドの幅が4バイトから3バイトに狭められることが提案されている。

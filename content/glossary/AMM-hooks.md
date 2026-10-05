@@ -5,7 +5,7 @@ aliases:
   - afterSwap hook
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **AMMフック**

@@ -4,7 +4,7 @@ aliases:
   - RANDAOターゲットスロット攻撃
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **RANDAOターゲットスロット攻撃**

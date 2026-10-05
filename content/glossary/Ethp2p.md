@@ -4,7 +4,7 @@ aliases:
   - Ethp2p (イーサリアムP2Pプロトコル)
 tags:
   - glossary
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 **Ethp2p (イーサリアムP2Pプロトコル)**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-04'
+date: '2026-10-05'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -144,6 +144,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
+- [[glossary/BASICDATA|BASIC_DATA]] — BASIC_DATA
 - [[glossary/Batch-Publishing|Batch Publishing]] — バッチパブリッシング
 - [[glossary/Batch-FIFO|Batch-FIFO]] — バッチFIFO (Batch-FIFO)
 - [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
@@ -195,6 +196,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/bribery-attacks|bribery attacks]] — 賄賂攻撃
 - [[glossary/Browser-side-proving|Browser side proving]] — ブラウザサイド証明生成 (Browser side proving)
 - [[glossary/BTCP-Zero-Bridge|BTCP Zero-Bridge]] — BTCPゼロブリッジ (Behavioral Transaction Continuity Protocol Zero-Bridge)
+- [[glossary/budgeted-decode|budgeted decode]] — 予算付きデコード
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/Builder-exposure|Builder exposure]] — ビルダーエクスポージャー (Builder exposure)
@@ -251,6 +253,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Code-chunking|Code chunking]] — コードチャンキング
 - [[glossary/Code-Delegation|Code Delegation]] — コード委譲
 - [[glossary/Code-Immutability|Code Immutability]] — コードの不変性
+- [[glossary/codesize|code_size]] — コードサイズ
 - [[glossary/Code-binding|Code-binding]] — コード拘束性
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
 - [[glossary/code-is-authority-account|code-is-authority account]] — コードが権限となるアカウント
@@ -360,6 +363,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Decentralized-State|Decentralized State]] — 分散型ステート
 - [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
 - [[glossary/Decision-Policy|Decision Policy]] — 意思決定ポリシー
+- [[glossary/decode-memory-amplification|decode memory amplification]] — デコード時のメモリ増幅
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
@@ -579,6 +583,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Full-DAS-throughput|Full DAS throughput]] — フルDASスループット
 - [[glossary/Full-target-approval|Full-target approval]] — フルターゲット承認
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
+- [[glossary/Fulu-types|Fulu types]] — Fulu型
 - [[glossary/Function-Selector|Function Selector]] — 関数セレクター
 - [[glossary/Function-scoped-delegation|Function-scoped delegation]] — 関数スコープの委任
 - [[glossary/Funding-Efficiency|Funding Efficiency]] — 資金効率
@@ -611,6 +616,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
+- [[glossary/hashtreeroot|hash_tree_root]] — ハッシュツリールート
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
 - [[glossary/Head-vote-timing-game|Head-vote timing game]] — ヘッド投票タイミングゲーム
@@ -1305,6 +1311,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Storage-proof|Storage proof]] — ストレージ証明
+- [[glossary/storage-to-account-cascade|storage-to-account cascade]] — ストレージからアカウントへのカスケード
 - [[glossary/Strict-role-alternation|Strict role alternation]] — 厳格な役割交代
 - [[glossary/Strict-Cap-Call-Opcode|Strict-Cap Call Opcode]] — 厳格な上限付きコールオペコード
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
