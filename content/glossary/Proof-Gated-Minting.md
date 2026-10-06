@@ -4,7 +4,7 @@ aliases:
   - 証明ゲート付きミント (Proof-Gated Minting)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **証明ゲート付きミント (Proof-Gated Minting)**

@@ -4,7 +4,7 @@ aliases:
   - キー売却
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **キー売却**

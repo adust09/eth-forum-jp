@@ -4,7 +4,7 @@ aliases:
   - ドラフト (EIP/ERC)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **ドラフト (EIP/ERC)**
@@ -21,6 +21,7 @@ EIPまたはERCの提案が初期段階にあり、まだ変更が頻繁に行�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-05-eip-editing-office-hour-eip-erc-meeting-115-october-07-2026-29876|EIP編集オフィスアワー (EIP + ERC) ミーティング #115、2026年10月7日]]（2026-10-05）
 - [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-09-21-eip-editing-office-hour-eip-erc-meeting-113-september-22-2026-29743|EIP編集オフィスアワー (EIP + ERC) ミーティング #113、2026年9月22日]]（2026-09-21）
 - [[posts/magicians-2026-09-14-erc-8416-epoch-based-fixed-rate-vault-29669|ERC-8416: エポックベース固定金利ボルト]]（2026-09-14）

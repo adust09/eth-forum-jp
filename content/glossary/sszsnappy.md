@@ -4,7 +4,7 @@ aliases:
   - SSZ Snappy（エンコーディング）
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **SSZ Snappy（エンコーディング）**

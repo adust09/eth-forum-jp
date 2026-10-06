@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-05
+last_updated: 2026-10-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -13907,3 +13907,120 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8435-last-written-block-in-pbt-leaves/29860
 - desc: |
   Ethereumのアカウントが持つコードのサイズを示すフィールド。EIP-8435では、Partitioned Binary Tree (PBT) のアカウントリーフ内で、`last_written_block`のスペースを確保するために、このフィールドの幅が4バイトから3バイトに狭められることが提案されている。
+
+## Partial Decoder Box
+- ja: 部分復号器ボックス
+- related: [Traceable Threshold Encryption, Traitor Tracing]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 26123
+- auto_source_url: https://ethresear.ch/t/accountability-for-encrypted-mempools/26123
+- desc: |
+  閾値暗号スキームにおいて、少数の共謀者が秘密鍵の共有をプールして作成する、部分的な復号能力を持つアルゴリズムまたはプログラム。外部の追加共有と組み合わせることで、暗号文を復号できる。漏洩した復号能力を抽象的にモデル化するために用いられる。
+
+## Traceable Threshold Encryption
+- ja: トレーサブル閾値暗号（追跡可能閾値暗号）
+- related: [Threshold Encryption, Traitor Tracing, Partial Decoder Box]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 26123
+- auto_source_url: https://ethresear.ch/t/accountability-for-encrypted-mempools/26123
+- desc: |
+  閾値暗号スキームに、漏洩した秘密鍵情報（部分復号能力）を追跡し、共謀者を特定する機能を追加したもの。暗号文の早期復号を試みる不正な委員会メンバーを特定することを目的とする。
+
+## Traitor Tracing
+- ja: トレイター・トレーシング（裏切り者追跡）
+- related: [Traceable Threshold Encryption, Partial Decoder Box]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 26123
+- auto_source_url: https://ethresear.ch/t/accountability-for-encrypted-mempools/26123
+- desc: |
+  暗号システムにおいて、秘密鍵や復号能力を不正に漏洩または販売した「裏切り者」を特定するための暗号技術。特に、部分的な復号能力が漏洩した場合でも、その出所を追跡できるように設計される。
+
+## Tracing Authority
+- ja: トレーシング機関（追跡機関）
+- related: [Traceable Threshold Encryption, Trusted Setup]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 26123
+- auto_source_url: https://ethresear.ch/t/accountability-for-encrypted-mempools/26123
+- desc: |
+  トレーサブル閾値暗号スキームにおいて、トレーシングキーを管理し、不正な復号能力の漏洩があった場合に追跡アルゴリズムを実行する役割を担う主体。その権限の分散や信頼性の確保が重要な課題となる。
+
+## Reveal/Non-Reveal Option Problem
+- ja: 公開/非公開選択問題
+- related: [Encrypted Mempools]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 26123
+- auto_source_url: https://ethresear.ch/t/accountability-for-encrypted-mempools/26123
+- desc: |
+  暗号化Mempoolにおいて、ユーザーが自身のトランザクションの復号に直接参加する場合に生じる問題。ユーザーが復号することが不利になった際に、復号を拒否する選択肢を持つことで、プロトコルの意図する動作が妨げられる可能性がある。
+
+## Descriptor Attestations
+- ja: ディスクリプタ・アッテステーション
+- related: [ERC-7730, Attestation]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29876
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-115-october-07-2026/29876
+- desc: |
+  ERC-7730で定義されるディスクリプタに関連するアッテステーションの一種です。特定のスマートコントラクトの機能やプロパティに関する検証可能な主張を指し、オンチェーンでの信頼性と相互運用性の向上を目的としています。
+
+## Encrypted Token
+- ja: 暗号化トークン
+- related: [Privacy Token]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29876
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-115-october-07-2026/29876
+- desc: |
+  トークンの所有権、残高、またはその他のメタデータが暗号化された状態で保持されるトークンです。プライバシー保護や機密性の高い資産の管理を目的としており、特定の条件下でのみ情報が復号されるように設計されています。
+
+## Cryptographic Amnesia
+- ja: 暗号学的健忘
+- related: [State Expiry, Privacy]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29876
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-115-october-07-2026/29876
+- desc: |
+  過去の特定の情報や状態を、暗号学的に検証可能な形で「忘れる」ことを可能にする概念です。ブロックチェーンの履歴サイズ削減やプライバシー保護の文脈で研究されており、不要なデータを安全に破棄するメカニズムを提供します。
+
+## FHE Computation Verification
+- ja: FHE計算検証 (Fully Homomorphic Encryption 計算検証)
+- related: [Fully Homomorphic Encryption, FHE, Zero-Knowledge Proof]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29876
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-115-october-07-2026/29876
+- desc: |
+  完全準同型暗号（FHE）を用いて暗号化されたデータ上で行われた計算が、正しく実行されたことを検証するプロセスです。プライバシーを保護しながらオフチェーン計算の信頼性を確保するために重要であり、特に機密性の高いデータ処理に適用されます。
+
+## eth_getLogsV2
+- ja: eth_getLogsV2 (RPCメソッド)
+- related: [getLogs, RPC]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29875
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-36-october-05-2026/29875
+- desc: |
+  Ethereumの実行層APIにおけるログ取得RPCメソッドのバージョン2。既存のeth_getLogsメソッドの改善版として提案されており、より柔軟なフィルタリングやデータ取得機能を提供する可能性がある。
+
+## state override
+- ja: ステートオーバーライド
+- related: [eth_simulateV1, RPC]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29875
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-36-october-05-2026/29875
+- desc: |
+  Ethereum RPCシミュレーションにおいて、一時的にアカウントの残高、ストレージ、コードなどのブロックチェーンの状態を上書きする機能。実際のブロックチェーンの状態を変更することなく、特定のシナリオをテストするために使用される。
+
+## code overrides
+- ja: コードオーバーライド
+- related: [state override, eth_simulateV1, RPC]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29875
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-36-october-05-2026/29875
+- desc: |
+  Ethereum RPCシミュレーションにおけるステートオーバーライドの一種で、特定のアドレスに関連付けられたスマートコントラクトのバイトコードを一時的に上書きする機能。これにより、デプロイされていないコントラクトの動作や、既存コントラクトの変更をシミュレートできる。
+
+## eth_getRawTransactionBy* methods
+- ja: eth_getRawTransactionBy* メソッド
+- related: [RPC, transaction]
+- auto_added: 2026-10-06
+- auto_source_topic_id: 29875
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-36-october-05-2026/29875
+- desc: |
+  Ethereumの実行層APIにおいて、ハッシュやブロック番号とインデックスなどのパラメータを使用して、署名済みトランザクションの生データ（raw transaction data）を取得するための一連のRPCメソッド。トランザクションの詳細な検証や再構築に利用される。

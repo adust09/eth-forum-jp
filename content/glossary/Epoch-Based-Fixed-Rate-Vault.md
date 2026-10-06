@@ -4,7 +4,7 @@ aliases:
   - エポックベース固定金利ボルト (Epoch-Based Fixed-Rate Vault)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **エポックベース固定金利ボルト (Epoch-Based Fixed-Rate Vault)**

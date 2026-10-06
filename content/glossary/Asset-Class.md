@@ -4,7 +4,7 @@ aliases:
   - 資産クラス (Asset Class)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **資産クラス (Asset Class)**
