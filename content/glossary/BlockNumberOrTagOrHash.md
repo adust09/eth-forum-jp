@@ -4,7 +4,7 @@ aliases:
   - BlockNumberOrTagOrHash (ブロック識別子型)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **BlockNumberOrTagOrHash (ブロック識別子型)**

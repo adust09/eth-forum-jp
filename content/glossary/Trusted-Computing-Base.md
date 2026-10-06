@@ -5,7 +5,7 @@ aliases:
   - TCB
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **信頼された計算基盤 (TCB)**

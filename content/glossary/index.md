@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -253,6 +253,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Code-chunking|Code chunking]] — コードチャンキング
 - [[glossary/Code-Delegation|Code Delegation]] — コード委譲
 - [[glossary/Code-Immutability|Code Immutability]] — コードの不変性
+- [[glossary/code-overrides|code overrides]] — コードオーバーライド
 - [[glossary/codesize|code_size]] — コードサイズ
 - [[glossary/Code-binding|Code-binding]] — コード拘束性
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
@@ -337,6 +338,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
 - [[glossary/cross-resource-pricing-constraints|cross-resource pricing constraints]] — リソース間価格制約
 - [[glossary/cross-shard-messaging|cross-shard messaging]] — クロスシャードメッセージング
+- [[glossary/Cryptographic-Amnesia|Cryptographic Amnesia]] — 暗号学的健忘
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Cumulative-EIP-712-vouchers|Cumulative EIP-712 vouchers]] — 累積型EIP-712バウチャー
 - [[glossary/Curious-Nodes|Curious Nodes]] — 好奇心旺盛なノード (Honest-but-Curious Observers)
@@ -378,6 +380,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/Descriptor-Attestations|Descriptor Attestations]] — ディスクリプタ・アッテステーション
 - [[glossary/destruction-receipt|destruction receipt]] — 破壊証明 (destruction receipt)
 - [[glossary/Deterministic-Auditability|Deterministic Auditability]] — 決定論的監査可能性
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
@@ -446,6 +449,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Encode-Prove-DAS|Encode + Prove DAS]] — エンコード＋証明DAS
 - [[glossary/Encrypt-The-Mempool|Encrypt The Mempool]] — メムプール暗号化
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
+- [[glossary/Encrypted-Token|Encrypted Token]] — 暗号化トークン
 - [[glossary/Encrypted-Transaction|Encrypted Transaction]] — 暗号化されたトランザクション
 - [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
@@ -482,6 +486,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ethcreateAccessList|eth_createAccessList]] — eth_createAccessList (アクセスリスト作成RPC)
 - [[glossary/ethgetHeaderByHash|eth_getHeaderByHash]] — eth_getHeaderByHash (RPCメソッド)
 - [[glossary/ethgetHeaderByNumber|eth_getHeaderByNumber]] — eth_getHeaderByNumber (ブロックヘッダー取得RPC、番号指定)
+- [[glossary/ethgetLogsV2|eth_getLogsV2]] — eth_getLogsV2 (RPCメソッド)
+- [[glossary/ethgetRawTransactionBy-methods|eth_getRawTransactionBy* methods]] — eth_getRawTransactionBy* メソッド
 - [[glossary/ethsimulateV1|eth_simulateV1]] — eth_simulateV1 (RPCメソッド)
 - [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
@@ -548,6 +554,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fee-floor-bound|Fee-floor-bound]] — 手数料下限拘束
 - [[glossary/Fee-on-transfer|Fee-on-transfer]] — 転送手数料（フィー・オン・トランスファー）
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
+- [[glossary/FHE-Computation-Verification|FHE Computation Verification]] — FHE計算検証 (Fully Homomorphic Encryption 計算検証)
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/finalizedBlockHash|finalizedBlockHash]] — ファイナライズされたブロックハッシュ
@@ -942,6 +949,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
 - [[glossary/Parametric-Token|Parametric Token]] — パラメトリックトークン
 - [[glossary/partial-burn|partial burn]] — 部分バーン
+- [[glossary/Partial-Decoder-Box|Partial Decoder Box]] — 部分復号器ボックス
 - [[glossary/Partial-Execution-Payload-Commitments|Partial Execution Payload Commitments]] — 部分的実行ペイロードコミットメント
 - [[glossary/partial-message-based-row-topics|partial message based row topics]] — 部分メッセージベースの行トピック (partial message based row topics)
 - [[glossary/Partial-message-extension|Partial-message extension]] — 部分メッセージ拡張
@@ -1146,6 +1154,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Retirement|Retirement]] — 償却（炭素クレジットの）
 - [[glossary/Retroactive-security|Retroactive security]] — 事後的なセキュリティ
 - [[glossary/Reveal-Optionality|Reveal Optionality]] — リビール選択性
+- [[glossary/RevealNon-Reveal-Option-Problem|Reveal/Non-Reveal Option Problem]] — 公開/非公開選択問題
 - [[glossary/Revelation-Principle|Revelation Principle]] — 啓示原理
 - [[glossary/Revenue-Equivalence|Revenue Equivalence]] — 収益等価原理
 - [[glossary/Reverse-Asset|Reverse Asset]] — リバースアセット
@@ -1289,6 +1298,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/state-expiry|state expiry]] — ステート有効期限
 - [[glossary/State-gas|State gas]] — ステートガス
 - [[glossary/state-growth|state growth]] — 状態成長
+- [[glossary/state-override|state override]] — ステートオーバーライド
 - [[glossary/State-Preservation|State Preservation]] — 状態保存 (State Preservation)
 - [[glossary/state-roadmap|state roadmap]] — ステートロードマップ
 - [[glossary/State-Root|State Root]] — ステートルート
@@ -1392,7 +1402,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/trace-geometry|trace geometry]] — トレースジオメトリ
 - [[glossary/trace-rows|trace rows]] — トレース行
 - [[glossary/Trace-and-verify-approach|Trace-and-verify approach]] — トレース検証アプローチ
+- [[glossary/Traceable-Threshold-Encryption|Traceable Threshold Encryption]] — トレーサブル閾値暗号（追跡可能閾値暗号）
+- [[glossary/Tracing-Authority|Tracing Authority]] — トレーシング機関（追跡機関）
 - [[glossary/Trailing-Window-Cap|Trailing-Window Cap]] — トレーリングウィンドウ・キャップ
+- [[glossary/Traitor-Tracing|Traitor Tracing]] — トレイター・トレーシング（裏切り者追跡）
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)

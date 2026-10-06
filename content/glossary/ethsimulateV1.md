@@ -4,7 +4,7 @@ aliases:
   - eth_simulateV1 (RPCメソッド)
 tags:
   - glossary
-date: '2026-10-05'
+date: '2026-10-06'
 ---
 
 **eth_simulateV1 (RPCメソッド)**
@@ -18,6 +18,7 @@ Ethereumの実行層APIにおけるRPCメソッドの一つで、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-05-rpc-standards-36-october-05-2026-29875|RPC標準 #36、2026年10月5日]]（2026-10-05）
 - [[posts/magicians-2026-09-21-rpc-standards-35-september-21-2026-29742|RPC標準 #35、2026年9月21日]]（2026-09-21）
 - [[posts/magicians-2026-09-06-rpc-standards-34-september-7th-2026-29605|RPC標準 #34、2026年9月7日]]（2026-09-06）
 
