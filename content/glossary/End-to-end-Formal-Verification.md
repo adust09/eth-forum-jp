@@ -5,7 +5,7 @@ aliases:
   - End-to-end FV
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **エンドツーエンド形式検証**

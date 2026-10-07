@@ -4,7 +4,7 @@ aliases:
   - 不変条件
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **不変条件**
@@ -17,6 +17,7 @@ date: '2026-10-06'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-06-ownership-module-29894|所有権モジュール]]（2026-10-06）
 - [[posts/ethresear-2026-10-02-six-defects-in-one-signature-verification-tool-found-from-outside-in-six-rounds-26109|6ラウンドの外部検証で発見された、ある署名検証ツールの6つの欠陥]]（2026-10-02）
 - [[posts/ethresear-2026-09-19-strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet-26051|厳格なロール交代：EVMシールドプール向けリレーヤー不要の相互ブロードキャスト（仕様＋個体群シミュレーション、コードは未実装）]]（2026-09-19）
 

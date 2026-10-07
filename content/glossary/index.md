@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -451,6 +451,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
 - [[glossary/Encrypted-Token|Encrypted Token]] — 暗号化トークン
 - [[glossary/Encrypted-Transaction|Encrypted Transaction]] — 暗号化されたトランザクション
+- [[glossary/Encumbered|Encumbered]] — エンカンバード (ARCOS)
 - [[glossary/end-of-epoch-processing|end-of-epoch processing]] — エポック終了処理
 - [[glossary/end-of-payload-omission-check|end-of-payload omission check]] — ペイロード末尾省略チェック
 - [[glossary/End-to-end-Formal-Verification|End-to-end Formal Verification]] — エンドツーエンド形式検証
@@ -620,6 +621,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Groth16-proof|Groth16 proof]] — Groth16証明
 - [[glossary/Guard-contract|Guard contract]] — ガードコントラクト (Guard contract)
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
+- [[glossary/guardian-quorum|guardian quorum]] — ガーディアンクォーラム
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃

@@ -4,7 +4,7 @@ aliases:
   - Sepolia (テストネット)
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **Sepolia (テストネット)**

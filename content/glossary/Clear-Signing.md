@@ -4,7 +4,7 @@ aliases:
   - クリア署名
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **クリア署名**
