@@ -4,7 +4,7 @@ aliases:
   - 機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **機密エージェントポリシー判定 (Confidential Agent Policy Verdicts)**

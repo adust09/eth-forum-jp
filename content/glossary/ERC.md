@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-10-06'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-06-ownership-module-29894|所有権モジュール]]（2026-10-06）
 - [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-09-29-module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc-29797|モジュール：NFT機能全体で再利用可能な統制状態の規律（状態、権限、遷移、不変条件）を構築する]]（2026-09-29）
 - [[posts/magicians-2026-09-28-erc-8431-holding-time-auto-staking-for-nfts-29787|ERC-8431: NFT向け保有期間自動ステーキング]]（2026-09-28）

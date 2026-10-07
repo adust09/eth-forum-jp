@@ -4,7 +4,7 @@ aliases:
   - v(S)推定ギャップ
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **v(S)推定ギャップ**

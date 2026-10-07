@@ -4,7 +4,7 @@ aliases:
   - BALデータ (Bytecode Access Listデータ)
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **BALデータ (Bytecode Access Listデータ)**

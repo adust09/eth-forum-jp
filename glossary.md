@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-06
+last_updated: 2026-10-07
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14024,3 +14024,21 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/rpc-standards-36-october-05-2026/29875
 - desc: |
   Ethereumの実行層APIにおいて、ハッシュやブロック番号とインデックスなどのパラメータを使用して、署名済みトランザクションの生データ（raw transaction data）を取得するための一連のRPCメソッド。トランザクションの詳細な検証や再構築に利用される。
+
+## guardian quorum
+- ja: ガーディアンクォーラム
+- related: [Ownership Module, Recovery]
+- auto_added: 2026-10-07
+- auto_source_topic_id: 29894
+- auto_source_url: https://ethereum-magicians.org/t/ownership-module/29894
+- desc: |
+  Ownership Moduleにおけるリカバリー（復旧）を承認するための特定のメカニズム。主要な権限が失われた場合に備え、Sharesの過半数とは独立した第二の権限として機能する。
+
+## Encumbered
+- ja: エンカンバード (ARCOS)
+- related: [Ownership Module, Lifecycle]
+- auto_added: 2026-10-07
+- auto_source_topic_id: 29894
+- auto_source_url: https://ethereum-magicians.org/t/ownership-module/29894
+- desc: |
+  ARCOSのOwnership Moduleにおけるデジタル資産のライフサイクル状態の一つ。資産が何らかの制約や負担を負っている状態を示す。

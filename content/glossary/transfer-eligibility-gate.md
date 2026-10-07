@@ -5,7 +5,7 @@ aliases:
   - spend gate
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **転送適格性ゲート**

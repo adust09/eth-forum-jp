@@ -5,7 +5,7 @@ aliases:
   - decode with a budget
 tags:
   - glossary
-date: '2026-10-06'
+date: '2026-10-07'
 ---
 
 **予算付きデコード**
