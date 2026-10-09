@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -110,6 +110,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Asynchronous-Register-Projection-for-NFTs|Asynchronous Register Projection for NFTs]] — NFTの非同期レジスタプロジェクション
 - [[glossary/atomic-arbitrage-transaction|atomic arbitrage transaction]] — アトミック裁定取引
 - [[glossary/Atomic-Cross-Domain-State-Synchronization|Atomic Cross-Domain State Synchronization]] — アトミックなクロスドメイン状態同期
+- [[glossary/Atomic-package|Atomic package]] — アトミック・パッケージ
 - [[glossary/Atomic-Settlement|Atomic Settlement]] — アトミック決済 (Atomic Settlement)
 - [[glossary/attenuated-re-delegation|attenuated re-delegation]] — 減衰再委譲
 - [[glossary/Attestable-Outcomes|Attestable Outcomes]] — 証明可能な結果
@@ -219,6 +220,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Callee-Cap-Compatibility|Callee-Cap Compatibility]] — 被呼び出し元制限の互換性
 - [[glossary/callTracer|callTracer]] — callTracer (コールトレーサー)
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
+- [[glossary/Canonical-exit|Canonical exit]] — カノニカル・イグジット
 - [[glossary/Canonical-Mempool|Canonical Mempool]] — カノニカルメムプール
 - [[glossary/Capacity-Assessment|Capacity Assessment]] — 能力評価
 - [[glossary/capacity-effective-pool-count|capacity-effective pool count]] — 実効プール数 (N_eff)
@@ -491,6 +493,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ethgetRawTransactionBy-methods|eth_getRawTransactionBy* methods]] — eth_getRawTransactionBy* メソッド
 - [[glossary/ethsimulateV1|eth_simulateV1]] — eth_simulateV1 (RPCメソッド)
 - [[glossary/ethsubscribe|eth_subscribe]] — eth_subscribe (イーサリアム購読)
+- [[glossary/Ethereum-Economic-Zone|Ethereum Economic Zone]] — イーサリアム経済圏 (EEZ)
 - [[glossary/Ethereum-JSON-RPC-Specification|Ethereum JSON-RPC Specification]] — Ethereum JSON-RPC仕様
 - [[glossary/Ethereum-Transparency-Layer|Ethereum Transparency Layer]] — イーサリアム透明性レイヤー (ETL)
 - [[glossary/Ethereum-validator|Ethereum validator]] — イーサリアムバリデータ
@@ -1251,9 +1254,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SkillRoot|SkillRoot]] — スキルルート
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
 - [[glossary/Slashing-curves|Slashing curves]] — スラッシング曲線 (Slashing curves)
+- [[glossary/Slashing-backed-finality|Slashing-backed finality]] — スラッシング担保型ファイナリティ
 - [[glossary/SLH-DSA|SLH-DSA]] — SLH-DSA (SPHINCS+)
 - [[glossary/Slippage-policy|Slippage policy]] — スリッページポリシー
 - [[glossary/SLOAD|SLOAD]] — SLOAD (オペコード)
+- [[glossary/Slot-time|Slot time]] — スロット時間
 - [[glossary/slot-0-reorg|slot-0 reorg]] — スロット0リorg
 - [[glossary/Slow-Verification-Layer|Slow Verification Layer]] — 低速検証レイヤー
 - [[glossary/Smart-Account|Smart Account]] — スマートアカウント

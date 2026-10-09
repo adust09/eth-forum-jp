@@ -5,7 +5,7 @@ aliases:
   - ACE
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **アプリケーション制御型実行 (ACE)**

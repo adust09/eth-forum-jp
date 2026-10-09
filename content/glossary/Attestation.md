@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-10-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-10-02-six-defects-in-one-signature-verification-tool-found-from-outside-in-six-rounds-26109|6ラウンドの外部検証で発見された、ある署名検証ツールの6つの欠陥]]（2026-10-02）
 - [[posts/magicians-2026-09-29-module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc-29797|モジュール：NFT機能全体で再利用可能な統制状態の規律（状態、権限、遷移、不変条件）を構築する]]（2026-09-29）
 - [[posts/ethresear-2026-09-25-ethereums-tcb-part-1-the-client-26086|イーサリアムのTCB、パート1：クライアント]]（2026-09-25）
