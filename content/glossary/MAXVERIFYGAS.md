@@ -4,7 +4,7 @@ aliases:
   - 検証ガス上限 (MAX_VERIFY_GAS)
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **検証ガス上限 (MAX_VERIFY_GAS)**

@@ -6,7 +6,7 @@ aliases:
   - causally coupled bidirectional synchronization
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **アトミックなクロスドメイン状態同期**
@@ -22,6 +22,7 @@ date: '2026-10-07'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 - [[posts/ethresear-2026-07-21-a-mechanized-functor-tower-for-cross-domain-state-preservation-25491|クロスドメイン状態保存のための機械化されたファンクタタワー]]（2026-07-21）
 

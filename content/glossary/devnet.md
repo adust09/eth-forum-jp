@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **開発ネットワーク (devnet)**
@@ -18,6 +18,7 @@ Ethereumのプロトコルアップグレードや新機能のテストのため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-07-all-core-devs-testing-acdt-100-october-12-2026-29903|全コア開発者会議 - テスト (ACDT) #100、2026年10月12日]]（2026-10-07）
 - [[posts/magicians-2026-09-29-all-core-devs-testing-acdt-99-october-5-2026-29802|全コア開発者会議 - テスト (ACDT) #99、2026年10月5日]]（2026-09-29）
 - [[posts/magicians-2026-09-15-all-core-devs-testing-acdt-97-sept-21-2026-29686|全コア開発者会議 - テスト (ACDT) #97、2026年9月21日]]（2026-09-15）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）

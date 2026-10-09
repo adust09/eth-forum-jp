@@ -4,7 +4,7 @@ aliases:
   - コンセンサスクライアント
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **コンセンサスクライアント**
@@ -19,6 +19,7 @@ Ethereumノードの主要コンポーネントの一つで、Proof-of-Stakeコ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-09-06-can-we-verify-an-erc-not-just-its-code-25926|ERCをコードだけでなく検証できるか？]]（2026-09-06）
 
 ## 元の表記（英語）

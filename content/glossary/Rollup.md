@@ -5,7 +5,7 @@ aliases:
   - L2 Rollup
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **ロールアップ**
@@ -21,6 +21,7 @@ L2 スケーリング手法。実行を L2 で行い、データ・証明・状�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-09-24-champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection-26074|CHAMP: チェーンアンカー型多次元ピア保護によるメムプールの強化]]（2026-09-24）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-09-10-letting-the-base-fee-be-a-midpoint-a-temporal-liquidity-authorization-for-eip-1559-25958|ベースフィーを中間点とする: EIP-1559のための時間的流動性承認]]（2026-09-10）

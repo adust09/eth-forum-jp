@@ -5,7 +5,7 @@ aliases:
   - Tokenized RWA
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **トークン化されたリアルワールドアセット (Tokenized RWA)**

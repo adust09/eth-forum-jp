@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-07
+last_updated: 2026-10-09
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14042,3 +14042,49 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/ownership-module/29894
 - desc: |
   ARCOSのOwnership Moduleにおけるデジタル資産のライフサイクル状態の一つ。資産が何らかの制約や負担を負っている状態を示す。
+
+## Ethereum Economic Zone
+- ja: イーサリアム経済圏 (EEZ)
+- aliases: [EEZ]
+- related: [Rollup, Base layer, Cross-layer payment]
+- auto_added: 2026-10-09
+- auto_source_topic_id: 26133
+- auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
+- desc: |
+  GnosisとZisKがEthereum Foundationの共同出資で構築している、ロールアップ間の共有ゾーン。ロールアップとベースレイヤー間のブリッジを不要にし、単一のブロックでクロスレイヤー決済を可能にする。
+
+## Canonical exit
+- ja: カノニカル・イグジット
+- related: [Rollup, Bridge]
+- auto_added: 2026-10-09
+- auto_source_topic_id: 26133
+- auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
+- desc: |
+  ロールアップからベースレイヤーへ資金を引き出すための公式でトラストレスなメカニズム。通常、チャレンジ期間を伴い、数分から最大1週間かかる場合がある。
+
+## Slashing-backed finality
+- ja: スラッシング担保型ファイナリティ
+- related: [Finality, Slashing, Fast Confirmation Rule (FCR)]
+- auto_added: 2026-10-09
+- auto_source_topic_id: 26133
+- auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
+- desc: |
+  イーサリアムのコンセンサス層における、バリデーターのスラッシングによってセキュリティが保証される最終性。ブロックが一度ファイナライズされると、その状態は不可逆となり、悪意のある行為は経済的ペナルティを伴う。
+
+## Atomic package
+- ja: アトミック・パッケージ
+- related: [Ethereum Economic Zone (EEZ), Atomic transaction]
+- auto_added: 2026-10-09
+- auto_source_topic_id: 26133
+- auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
+- desc: |
+  ロールアップのアクションとベースレイヤーのアクションを単一のイーサリアムブロックにまとめてパッケージ化する仕組み。これにより、クロスレイヤーの操作が「オール・オア・ナッシング」で実行され、中間状態に陥ることなく信頼不要な決済が可能になる。
+
+## Slot time
+- ja: スロット時間
+- related: [Slot, Block time]
+- auto_added: 2026-10-09
+- auto_source_topic_id: 26133
+- auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
+- desc: |
+  イーサリアムのProof-of-Stakeコンセンサスにおいて、新しいブロックが提案されるまでの時間間隔。現在のイーサリアムでは約12秒だが、将来的に短縮されることがロードマップで検討されている。

@@ -6,7 +6,7 @@ aliases:
   - Ethereum Research and Development
 tags:
   - glossary
-date: '2026-10-07'
+date: '2026-10-09'
 ---
 
 **イーサリアム研究開発**
@@ -20,7 +20,7 @@ Ethereumプロトコルの将来的な改善、アップグレード、および
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 
 ## 元の表記（英語）
 
