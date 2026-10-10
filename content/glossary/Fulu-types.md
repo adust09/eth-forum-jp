@@ -4,7 +4,7 @@ aliases:
   - Fulu型
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **Fulu型**

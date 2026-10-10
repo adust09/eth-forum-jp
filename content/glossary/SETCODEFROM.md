@@ -4,7 +4,7 @@ aliases:
   - SETCODEFROM (EVM命令)
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **SETCODEFROM (EVM命令)**
@@ -20,6 +20,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 
 ## 元の表記（英語）

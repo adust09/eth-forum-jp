@@ -5,7 +5,7 @@ aliases:
   - PropAMM
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **プロプライエタリAMM (PropAMM)**
@@ -20,7 +20,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-07-ethereum-propamms-today-and-tomorrow-26129|イーサリアムのPropAMM：現在と未来]]（2026-10-07）
 
 ## 元の表記（英語）
 

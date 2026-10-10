@@ -7,7 +7,7 @@ aliases:
   - InDefault
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **オンチェーン延滞ティア**

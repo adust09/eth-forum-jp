@@ -4,7 +4,7 @@ aliases:
   - 支払いステータス (IBond enum)
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **支払いステータス (IBond enum)**

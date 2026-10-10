@@ -5,7 +5,7 @@ aliases:
   - Scalable Transparent ARgument of Knowledge
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **STARK (スケーラブルで透過的な知識の引数)**
@@ -21,6 +21,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 - [[posts/ethresear-2026-08-03-arcanum-a-privacy-first-compiler-layer-for-source-code-tee-now-zk-as-the-long-term-foundation-25614|Arcanum: ソースコード向けプライバシーファーストなコンパイラレイヤー — 現状はTEE、長期的にはZKを基盤に]]（2026-08-03）
 - [[posts/ethresear-2026-07-10-qingming-stark-g64-a-goldilocks-stark-backend-on-amd-rocm-hip-25417|Qingming-STARK-G64: AMD ROCm/HIP上のGoldilocks STARKバックエンド]]（2026-07-10）

@@ -5,7 +5,7 @@ aliases:
   - SPHINCS minus
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **SPHINCS-（SPHINCSマイナス）**

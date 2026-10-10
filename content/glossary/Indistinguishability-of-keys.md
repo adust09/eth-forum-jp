@@ -6,7 +6,7 @@ aliases:
   - ANO-CCA
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **鍵の不可分性 (IK-CCA, ANO-CCA)**
@@ -20,7 +20,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
 
 ## 元の表記（英語）
 

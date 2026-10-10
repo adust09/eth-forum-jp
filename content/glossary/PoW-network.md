@@ -5,7 +5,7 @@ aliases:
   - Proof of Work network
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **PoWネットワーク (Proof of Workネットワーク)**
@@ -19,6 +19,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-06-breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture-26125|非同期パイプラインコンセンサスアーキテクチャによる逐次検証ループの打破]]（2026-10-06）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 - [[posts/ethresear-2026-07-17-privacy-guardians-2-0-25471|プライバシーガーディアンズ 2.0]]（2026-07-17）
 - [[posts/ethresear-2026-06-19-futarchy-is-insecure-without-a-proposal-gatekeeper-25235|提案ゲートキーパーなしではフューターキーは安全ではない]]（2026-06-19）
