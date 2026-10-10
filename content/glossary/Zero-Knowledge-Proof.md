@@ -6,7 +6,7 @@ aliases:
   - ZK proof
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **ゼロ知識証明**
@@ -21,6 +21,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-09-19-strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet-26051|厳格なロール交代：EVMシールドプール向けリレーヤー不要の相互ブロードキャスト（仕様＋個体群シミュレーション、コードは未実装）]]（2026-09-19）
 - [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）

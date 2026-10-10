@@ -6,7 +6,7 @@ aliases:
     Surface)
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **AA-VOPS状態空間 (Account Abstraction Validity-Only Partial Statelessness State Surface)**
@@ -21,7 +21,7 @@ Account Abstraction (AA) を利用するトランザクションがValidity-Only
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 
 ## 元の表記（英語）
 

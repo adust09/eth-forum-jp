@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **フレームトランザクション (Frame Transactions)**
@@ -19,6 +19,7 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）

@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-09-24-champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection-26074|CHAMP: チェーンアンカー型多次元ピア保護によるメムプールの強化]]（2026-09-24）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）

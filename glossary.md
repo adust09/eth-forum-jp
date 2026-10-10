@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-09
+last_updated: 2026-10-10
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14088,3 +14088,335 @@ description: |
 - auto_source_url: https://ethresear.ch/t/the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example/26133
 - desc: |
   イーサリアムのProof-of-Stakeコンセンサスにおいて、新しいブロックが提案されるまでの時間間隔。現在のイーサリアムでは約12秒だが、将来的に短縮されることがロードマップで検討されている。
+
+## Private Stablecoin
+- ja: プライベートステーブルコイン
+- aliases: [privacy stablecoin]
+- related: [Stablecoin, Private transaction, Anonymous transaction, DeFi Composability]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26140
+- auto_source_url: https://ethresear.ch/t/private-stablecoin-on-ethereum/26140
+- desc: |
+  Ethereum上で発行され、USDC/USDTなどの既存のステーブルコインに裏付けられつつ、トランザクションのプライバシー（機密性または匿名性）を内蔵したステーブルコインプロトコル。オンチェーン金融システムの基盤となる可能性を秘めています。
+
+## DeFi Composability
+- ja: DeFiコンポーザビリティ
+- related: [DeFi, Smart contract, Interoperability]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26140
+- auto_source_url: https://ethresear.ch/t/private-stablecoin-on-ethereum/26140
+- desc: |
+  分散型金融（DeFi）プロトコルやアプリケーションが相互に連携し、組み合わせて新しい機能やサービスを構築できる特性。Ethereumエコシステムにおける重要な設計原則の一つであり、イノベーションを促進します。
+
+## Anonymous transaction
+- ja: 匿名トランザクション
+- related: [Private transaction, Privacy, Zero-knowledge proof, Unlinkability]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26140
+- auto_source_url: https://ethresear.ch/t/private-stablecoin-on-ethereum/26140
+- desc: |
+  送信者や受信者の身元、またはトランザクションの他の詳細が、外部の観察者からリンクできないように設計されたトランザクション。プライバシー保護の形態の一つであり、ユーザーの行動履歴の追跡を防ぎます。
+
+## BRO-AMM
+- ja: BRO-AMM（Bonded Reconciliation Oracle AMM）
+- aliases: [Bonded Reconciliation Oracle AMM]
+- related: [AMM, Oracle, DeFi Primitive]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26138
+- auto_source_url: https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+- desc: |
+  投稿で提案されている、低リスクなDeFiプリミティブとしてのAMMの一種。トレーダーが預託金を差し入れることで、裁定取引による流動性提供者への損失を軽減し、価格の最終性を事後的に調整する仕組みを持つ。
+
+## Low-Risk DeFi Primitive
+- ja: 低リスクDeFiプリミティブ
+- related: [DeFi, AMM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26138
+- auto_source_url: https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+- desc: |
+  Vitalik ButerinがEthereumの重要な要素として提唱する、リスクが低いDeFiの基本的な構成要素。流動性提供者が予測可能かつ安定したリターンを得られるような金融インフラを指す。
+
+## Passive Liquidity Provision
+- ja: 受動的流動性提供
+- related: [Liquidity Provider, AMM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26138
+- auto_source_url: https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+- desc: |
+  DeFiプロトコル、特にAMMにおいて、ユーザーが資金をプールに預け入れた後、積極的に管理することなく受動的にリターンを得ようとする行為。本稿では、裁定取引による損失のため、この形態が困難になっていると指摘されている。
+
+## Bidding War for Block Position
+- ja: ブロックポジション獲得競争
+- related: [MEV, Block Ordering, Arbitrageur]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26138
+- auto_source_url: https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+- desc: |
+  Ethereumなどのブロックチェーンにおいて、特に裁定取引を行うトレーダーが、自身のトランザクションをブロック内の有利な位置（通常は先頭）に含めるために、互いに高いガス料金を支払って競争する現象。MEVの一形態であり、流動性提供者の損失の一因となる。
+
+## Price Reconciliation
+- ja: 価格調整（リコンシリエーション）
+- aliases: [Reconciliation]
+- related: [BRO-AMM, Oracle, Finality]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26138
+- auto_source_url: https://ethresear.ch/t/bro-amm-a-bonded-reconciliation-oracle-amm-as-a-low-risk-defi-primitive/26138
+- desc: |
+  BRO-AMMにおいて、取引が実行された後に、実際の市場価格とプール内の価格との差を事後的に評価し、調整するプロセス。これにより、流動性提供者への裁定取引による損失を軽減し、価格の最終性を確立する。
+
+## post-quantum signatures
+- ja: 量子耐性署名 (post-quantum signatures)
+- aliases: [PQS]
+- related: [leanSPHINCS, EIP-8288]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26136
+- auto_source_url: https://ethresear.ch/t/exposing-an-isa-for-post-quantum-proofs-on-ethereum/26136
+- desc: |
+  量子コンピュータによる攻撃に対して安全であるように設計されたデジタル署名方式。Ethereumでは、EIP-8288を通じて、量子耐性署名（leanSPHINCSなど）をトランザクションの依存関係として検証する仕組みが検討されている。これにより、将来の量子コンピュータの脅威からトランザクションのセキュリティを保護することを目指す。
+
+## zkVM
+- ja: zkVM (Zero-Knowledge Virtual Machine)
+- aliases: [Zero-Knowledge Virtual Machine]
+- related: [ZK-STARK, ZK-EVM, leanVM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26136
+- auto_source_url: https://ethresear.ch/t/exposing-an-isa-for-post-quantum-proofs-on-ethereum/26136
+- desc: |
+  ゼロ知識証明を生成・検証するために設計された仮想マシン。プログラムの実行が正しく行われたことを、そのプログラムの内容や入力データを明かすことなく証明できる。Ethereumのスケーリングやプライバシーソリューションにおいて重要な技術であり、leanVMなどがその一例。
+
+## eISA
+- ja: eISA (Ethereum Instruction Set Architecture)
+- aliases: [Ethereum Instruction Set Architecture]
+- related: [ISA, leanISA, RISC-V, EVM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26136
+- auto_source_url: https://ethresear.ch/t/exposing-an-isa-for-post-quantum-proofs-on-ethereum/26136
+- desc: |
+  Ethereumがゼロ知識証明の文脈で、証明効率を最大化するために設計する可能性のある命令セットアーキテクチャ。既存のEVMやRISC-Vとは異なり、プロバーの特性に最適化された命令セットを提供することで、証明生成のコスト削減や新しい暗号プリミティブの迅速な導入を目指す。
+
+## dependency frame
+- ja: 依存関係フレーム (dependency frame)
+- related: [EIP-8141, frame transaction]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26136
+- auto_source_url: https://ethresear.ch/t/exposing-an-isa-for-post-quantum-proofs-on-ethereum/26136
+- desc: |
+  EIP-8141フレームトランザクションにおいて、トランザクションが外部の証明やデータに依存することを示すために使用される特別なフレーム。このフレームを通じて、トランザクションはEVM外で検証される量子耐性署名やSTARK証明などの依存関係を宣言し、ノードがトランザクションを転送する前にそれらをチェックする。
+
+## privacy pool
+- ja: プライバシープール (privacy pool)
+- related: [Groth16, EIP-8288, zero-knowledge proof]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26136
+- auto_source_url: https://ethresear.ch/t/exposing-an-isa-for-post-quantum-proofs-on-ethereum/26136
+- desc: |
+  ユーザーが資金を預け入れ、匿名で引き出すことを可能にするプライバシー保護アプリケーション。通常、ゼロ知識証明（例: Groth16証明）を利用して、資金の出所や所有者の身元を隠しながらトランザクションの正当性を検証する。EIP-8288は、このようなプライバシープールが量子耐性証明を利用できるようにすることを目指している。
+
+## maker priority
+- ja: メーカー優先
+- related: [PropAMM, maker freshness, conditional inclusion]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26129
+- auto_source_url: https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129
+- desc: |
+  PropAMMにおいて、特定のブロック内でテイカーの取引よりもマーケットメーカーの更新トランザクションが優先的に含まれることを保証するメカニズム。ビルダーが提供する明示的な順序付け保証として機能します。
+
+## maker freshness
+- ja: メーカー鮮度
+- related: [PropAMM, maker priority, last look]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26129
+- auto_source_url: https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129
+- desc: |
+  PropAMMにおいて、テイカーの取引が有効であるためには、マーケットメーカーの最新の更新トランザクションよりも一定時間（例: 50ms）以上古い必要があるという条件。これにより、マーケットメーカーはテイカーの取引が実行される前に流動性情報を更新する「ラストルック」の機会を得ます。
+
+## conditional inclusion
+- ja: 条件付きインクルージョン
+- related: [PropAMM, maker priority, maker freshness]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26129
+- auto_source_url: https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129
+- desc: |
+  PropAMMにおいて、マーケットメーカーの更新トランザクションが、対応するテイカーの取引がブロックに含まれる場合にのみオンチェーンに含められるという保証。Ethereumの高いトランザクション手数料環境下で、無駄なブロック空間の消費を抑え、スループット問題を緩和するために考案されました。
+
+## last look
+- ja: ラストルック
+- related: [maker freshness, PropAMM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26129
+- auto_source_url: https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129
+- desc: |
+  金融市場の概念で、取引相手が提示された価格で取引を実行する前に、最終的に取引を拒否または再提示する機会を持つこと。PropAMMの文脈では、「メーカー鮮度」のメカニズムを通じて、マーケットメーカーがテイカーの取引に先立って流動性情報を更新する機会を指します。
+
+## economic censorship
+- ja: 経済的検閲
+- related: [censorship resistance, PropAMM]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26129
+- auto_source_url: https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129
+- desc: |
+  悪意のあるブロックプロデューサーによるトランザクションの不包含といった従来の検閲とは異なり、経済的な要因（例: 最高の取引価格へのアクセス格差）によって特定の金融サービスへのアクセスが制限される状態。PropAMMの普及が、オンチェーン取引の実行品質において、許可制のエンティティへの集中を招き、結果として生じる可能性のある問題として議論されています。
+
+## dangling bytecode
+- ja: 宙吊りバイトコード
+- related: [SETCODEFROM, partitioned binary tree, state root]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26127
+- auto_source_url: https://ethresear.ch/t/who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices/26127
+- desc: |
+  どのEthereumアカウントからも参照されなくなったコントラクトのバイトコード。現在のクライアント実装では、リオーグや一部のトランザクション処理によって、このコードがストレージ内に残り続けることがあり、PBTの導入によりその影響が大きくなる。
+
+## reference count
+- ja: 参照カウント
+- related: [dangling bytecode, SETCODEFROM, partitioned binary tree]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26127
+- auto_source_url: https://ethresear.ch/t/who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices/26127
+- desc: |
+  あるデータ（この文脈ではコントラクトのバイトコード）がいくつのエンティティから参照されているかを追跡する仕組み。Ethereumクライアントは現在、コードハッシュに対して参照カウントを保持していないため、宙吊りバイトコードの削除が困難であり、PBTのような設計では状態の永続的な肥大化につながる可能性がある。
+
+## BAL replay
+- ja: BALリプレイ (Block Access List リプレイ)
+- related: [Block Access List, client synchronization]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26127
+- auto_source_url: https://ethresear.ch/t/who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices/26127
+- desc: |
+  Ethereumクライアントがブロックアクセスリスト（BAL）の考慮事項を含めてトランザクションやブロックを再実行するプロセス。ノードが状態を同期し、新しいEIPの変更に追従する際の方法の一つとして言及される。
+
+## Serial Verification Loop
+- ja: シリアル検証ループ
+- related: [Asynchronous Pipeline Consensus Architecture, Serial Verification Model]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26125
+- auto_source_url: https://ethresear.ch/t/breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture/26125
+- desc: |
+  多くのブロックチェーン設計において、ブロックn+1の生成がブロックnの伝播と検証に密接に結合しているという根本的な制約を指します。この時間的依存関係を解消することが、伝播遅延やリorg率の増加、セキュリティ予算の低下につながると考えられています。
+
+## Asynchronous Pipeline Consensus Architecture
+- ja: 非同期パイプラインコンセンサスアーキテクチャ
+- related: [Serial Verification Loop, Compact Block, Delayed Validation]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26125
+- auto_source_url: https://ethresear.ch/t/breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture/26125
+- desc: |
+  ブロック生成と即時の完全なトランザクション検証を分離することで、コンセンサスエンジン内で「レイテンシー隠蔽」を実現する構造的な設計図です。これにより、シリアルなボトルネックを解消し、スケーラビリティを向上させることを目指します。
+
+## Compact Block
+- ja: コンパクトブロック
+- related: [Asynchronous Pipeline Consensus Architecture, Delayed Validation]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26125
+- auto_source_url: https://ethresear.ch/t/breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture/26125
+- desc: |
+  非同期パイプラインコンセンサスアーキテクチャにおいて、ノードが伝播する最小限のペイロードを指します。これには、後続のブロック/スロット生成を即座にトリガーするための6バイトの圧縮されたトランザクション識別子リストが含まれます。
+
+## Delayed Validation
+- ja: 遅延検証
+- aliases: [n_k_declaration]
+- related: [Asynchronous Pipeline Consensus Architecture, Compact Block]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26125
+- auto_source_url: https://ethresear.ch/t/breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture/26125
+- desc: |
+  ブロックnの実際の状態検証を、ヘッダーに埋め込まれた1ビットの検証フィールドを介してブロックn+kまで遅らせるメカニズムです。これにより、ブロック生成と検証の間の結合を緩和し、パイプライン処理を可能にします。
+
+## Dual-Coinbase
+- ja: デュアルコインベース
+- related: [Asynchronous Pipeline Consensus Architecture, Economic Incentives]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 26125
+- auto_source_url: https://ethresear.ch/t/breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture/26125
+- desc: |
+  提案された非同期パイプラインコンセンサスアーキテクチャにおける経済的インセンティブメカニズムの一つです。強制的な凍結を排除し、アーキテクチャの分離がPoW設定を超えて適用可能であることを示唆しています。
+
+## devp2p
+- ja: devp2p (Ethereum P2Pネットワークプロトコル)
+- related: [p2p networking, gossipsub]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29934
+- auto_source_url: https://ethereum-magicians.org/t/eip-8437-proof-object-transport-over-devp2p/29934
+- desc: |
+  Ethereumクライアント間の通信に使用される基盤となるピアツーピアネットワークプロトコル。ノード間のブロック、トランザクション、その他のデータの交換を可能にします。
+
+## Proof Object Transport
+- ja: プルーフオブジェクト転送
+- related: [zero-knowledge proof, data availability sampling]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29934
+- auto_source_url: https://ethereum-magicians.org/t/eip-8437-proof-object-transport-over-devp2p/29934
+- desc: |
+  暗号学的プルーフ（例：ゼロ知識証明）をネットワーク上で効率的に伝送するメカニズム。EIP-8437ではdevp2p上での転送方法が提案されています。
+
+## Execution Chain Proofs
+- ja: 実行チェーン証明 (Execution Chain Proofs)
+- related: [recursive proof, execution layer, beacon chain]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29930
+- auto_source_url: https://ethereum-magicians.org/t/eip-8440-execution-chain-proofs/29930
+- desc: |
+  EIP-8440で提案されている、実行レイヤーのチェーン同期を定数時間で行うための仕組みです。ノードは単一の再帰的証明を検証することで、ヘッドビーコンブロックから証明の起点までの全てのペイロードの有効な実行と、それらのビーコンチェーンへのバインディングを確立できます。これにより、過去のブロックの再実行が不要になります。
+
+## Execution-layer chain sync
+- ja: 実行レイヤーチェーン同期
+- related: [execution layer, beacon chain, weak subjectivity checkpoint, Execution Chain Proofs]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29930
+- auto_source_url: https://ethereum-magicians.org/t/eip-8440-execution-chain-proofs/29930
+- desc: |
+  Ethereumノードが実行レイヤーのブロックチェーンの状態を最新に保つためのプロセスです。通常は過去のブロックのトランザクションを再実行することで行われますが、Execution Chain Proofsのような新しいメカニズムによって効率化が図られています。
+
+## Re-execution
+- ja: 再実行
+- related: [execution-layer chain sync, weak subjectivity checkpoint, Execution Chain Proofs]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29930
+- auto_source_url: https://ethereum-magicians.org/t/eip-8440-execution-chain-proofs/29930
+- desc: |
+  ブロックチェーンノードが過去のブロックに含まれるトランザクションを再度処理し、その時点のブロックチェーンの状態を検証する行為です。特に新しいノードがネットワークに同期する際や、既存のノードが過去の履歴を検証する際に必要となります。Execution Chain Proofsは、この時間のかかるプロセスを置き換えることを目指しています。
+
+## Ancestor-Indexed BALs
+- ja: 祖先インデックス付きBALs
+- related: [BALs, EIP-8247]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29926
+- auto_source_url: https://ethereum-magicians.org/t/eip-8247-ancestor-indexed-bals/29926
+- desc: |
+  EIP-8247で提案された、ブロックの祖先に基づいてインデックス付けされるブロックアクセスリストの形式です。これにより、特定のブロックのアクセスリストを効率的に参照できるようになります。
+
+## ML-KEM-768
+- ja: ML-KEM-768
+- related: [Key Encapsulation Mechanism, post-quantum cryptography]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29923
+- auto_source_url: https://ethereum-magicians.org/t/erc-8441-hybrid-post-quantum-stealth-address-scheme/29923
+- desc: |
+  NISTによって標準化された、耐量子計算機暗号の鍵カプセル化メカニズム（KEM）の一種。768はセキュリティレベルを示すパラメータであり、量子コンピュータの脅威に対抗するために設計されています。
+
+## ECDH
+- ja: 楕円曲線ディフィー・ヘルマン鍵共有 (ECDH)
+- aliases: [Elliptic Curve Diffie-Hellman]
+- related: [secp256k1, shared secret]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29923
+- auto_source_url: https://ethereum-magicians.org/t/erc-8441-hybrid-post-quantum-stealth-address-scheme/29923
+- desc: |
+  楕円曲線暗号に基づく鍵共有プロトコル。盗聴者が通信を傍受しても、共有された秘密鍵を特定できないようにします。現在のイーサリアムの多くの暗号化スキームで利用されています。
+
+## discrete logarithm
+- ja: 離散対数
+- related: [post-quantum cryptography, elliptic curve cryptography]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29923
+- auto_source_url: https://ethereum-magicians.org/t/erc-8441-hybrid-post-quantum-stealth-address-scheme/29923
+- desc: |
+  有限群における指数関数の逆関数。多くの公開鍵暗号システムのセキュリティ基盤となっており、量子コンピュータはこの問題を効率的に解くことができるとされるため、耐量子暗号の研究が進められています。
+
+## schemeId
+- ja: スキームID
+- related: [ERC-5564, stealth address]
+- auto_added: 2026-10-10
+- auto_source_topic_id: 29923
+- auto_source_url: https://ethereum-magicians.org/t/erc-8441-hybrid-post-quantum-stealth-address-scheme/29923
+- desc: |
+  ERC-5564などのEIPで定義されるステルスアドレスのスキームを識別するためのID。異なる暗号方式やセキュリティ特性を持つスキームを区別し、将来的な拡張性や耐量子移行を可能にするために使用されます。

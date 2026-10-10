@@ -4,7 +4,7 @@ aliases:
   - ステルスメタアドレス
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **ステルスメタアドレス**
@@ -19,6 +19,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
 - [[posts/magicians-2026-06-13-draft-proposal-stealth-name-resolution-stealth-meta-address-names-across-asynchronous-chains-28787|ドラフト提案: ステルスネーム解決（非同期チェーン間でのステルスメタアドレス名）]]（2026-06-13）
 
 ## 元の表記（英語）

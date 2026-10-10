@@ -4,7 +4,7 @@ aliases:
   - プリコンパイルターゲット
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **プリコンパイルターゲット**
@@ -18,6 +18,7 @@ EthereumのEVMに組み込まれた特殊なコントラクト（プリコンパ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/magicians-2026-08-05-native-eth-as-erc-20-system-contract-draft-for-feedback-29301|ネイティブETHをERC-20システムコントラクトとして — フィードバック募集ドラフト]]（2026-08-05）
 
 ## 元の表記（英語）

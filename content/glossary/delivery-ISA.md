@@ -5,7 +5,7 @@ aliases:
   - delivery instruction set architecture
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **デリバリーISA（命令セットアーキテクチャ）**

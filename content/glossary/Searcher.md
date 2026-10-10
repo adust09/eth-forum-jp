@@ -4,7 +4,7 @@ aliases:
   - サーチャー
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **サーチャー**
@@ -18,6 +18,7 @@ Ethereumなどのブロックチェーンにおいて、MEV（Maximal Extractabl
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-09-private-stablecoin-on-ethereum-26140|イーサリアム上のプライベートステーブルコイン]]（2026-10-09）
 - [[posts/ethresear-2026-08-27-amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles-25826|AMMのイールド最大化：流動性プロバイダーとアービトラージャーの役割の収束]]（2026-08-27）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,10 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-09-eip-8247-ancestor-indexed-bals-29926|EIP-8247: 祖先インデックス付きBAL]]（2026-10-09）
+- [[posts/magicians-2026-10-09-eip-8440-execution-chain-proofs-29930|EIP-8440: 実行チェーン証明]]（2026-10-09）
+- [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
+- [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 - [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-09-30-eip-8433-retire-0x00-validators-29808|EIP-8433: 0x00バリデータの引退]]（2026-09-30）
 - [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）

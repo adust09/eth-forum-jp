@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-10-09'
+date: '2026-10-10'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-10-09'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）
 - [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
