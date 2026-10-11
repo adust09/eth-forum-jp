@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-10
+last_updated: 2026-10-11
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14420,3 +14420,188 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8441-hybrid-post-quantum-stealth-address-scheme/29923
 - desc: |
   ERC-5564などのEIPで定義されるステルスアドレスのスキームを識別するためのID。異なる暗号方式やセキュリティ特性を持つスキームを区別し、将来的な拡張性や耐量子移行を可能にするために使用されます。
+
+## Post-Quantum Key
+- ja: 耐量子鍵
+- aliases: [PQ Key]
+- related: [Post-Quantum Cryptography, Hash-Based Signatures, EIP-8288]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 26147
+- auto_source_url: https://ethresear.ch/t/erc-8403-an-account-as-one-hash-and-post-quantum-keys/26147
+- desc: |
+  量子コンピュータによる攻撃に耐性を持つように設計された暗号鍵。Ethereumにおけるアカウントのセキュリティを将来にわたって確保するために研究されており、ハッシュベース署名などが候補となる。
+
+## Program Key
+- ja: プログラムキー
+- related: [STARK, Verification Key Hash, LeanVM]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 26147
+- auto_source_url: https://ethresear.ch/t/erc-8403-an-account-as-one-hash-and-post-quantum-keys/26147
+- desc: |
+  STARK証明システムにおいて、特定のプログラムの検証キーのハッシュを指す。アカウントがこのハッシュを保存することで、オフチェーンで実行されたプログラムの正当性を検証できる。
+
+## Privacy of Account Policy
+- ja: アカウントポリシーのプライバシー
+- related: [Account Abstraction, Zero-Knowledge Proofs]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 26147
+- auto_source_url: https://ethresear.ch/t/erc-8403-an-account-as-one-hash-and-post-quantum-keys/26147
+- desc: |
+  アカウントの署名ポリシーやキー管理方法といった情報が、オンチェーンで公開されずにプライベートに保たれること。ゼロ知識証明などの技術を用いて実現が目指されており、アカウント抽象化の重要な目標の一つ。
+
+## Account Root
+- ja: アカウントルート
+- related: [Merkle Tree, Account Abstraction]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 26147
+- auto_source_url: https://ethresear.ch/t/erc-8403-an-account-as-one-hash-and-post-quantum-keys/26147
+- desc: |
+  アカウントがその権限（キーやルール）の集合をMerkle Treeとしてコミットし、そのルートハッシュをアカウントの状態として保持するもの。これにより、アカウントの権限管理を効率的かつセキュアに行うことができる。
+
+## All Core Devs - Execution
+- ja: All Core Devs - Execution (ACDE)
+- aliases: [ACDE]
+- related: [All Core Devs - Consensus, All Core Devs - Testing]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29937
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-execution-acde-248-october-22-2026/29937
+- desc: |
+  Ethereumの実行層（Execution Layer）に関する主要な開発者会議です。プロトコルの変更、改善、バグ修正など、実行クライアントの技術的な議論が行われます。
+
+## Agent Service Order Amendments
+- ja: エージェントサービス注文修正
+- related: [Agent Coordination Framework, Token-Bound Task Tenders, Preregistered Acceptance Criteria]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29936
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-discussion-agent-service-order-amendments/29936
+- desc: |
+  エージェントサービスプロバイダーと買い手の間で合意された既存のサービス注文の範囲、価格、期限、または受入基準を変更するための合意された修正。以前の合意を失ったり、意図しない追加支出を承認したりすることなく、変更を安全に行うためのプロトコルを指します。
+
+## MATMUL Opcode
+- ja: MATMULオペコード
+- aliases: [0x0C]
+- related: [EVM, Sharded Tensor State Transition Engine, Tensor Cache, Pointer Map]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29920
+- auto_source_url: https://ethereum-magicians.org/t/eip-8301-matmul-opcode-sharded-tensor-state-transition-engine/29920
+- desc: |
+  EVMに導入される新しいネイティブ命令で、行列乗算を直接実行します。これにより、EVMの計算効率が大幅に向上し、テンソルベースの計算を可能にします。
+
+## Sharded Tensor State Transition Engine
+- ja: シャード型テンソル状態遷移エンジン
+- related: [MATMUL Opcode, Stoichiometry-Constrained Recurrent Neural Networks, Distributed Tensor Swarm, EVM]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29920
+- auto_source_url: https://ethereum-magicians.org/t/eip-8301-matmul-opcode-sharded-tensor-state-transition-engine/29920
+- desc: |
+  EVMのメモリとスタックを再構築し、MATMULオペコードと分散型テンソル計算を組み合わせた新しいアーキテクチャです。グローバルバリデータ群が協調してSCRNNsのような複雑な計算をネイティブに実行することを目指します。
+
+## Stoichiometry-Constrained Recurrent Neural Networks
+- ja: 化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)
+- aliases: [SCRNNs]
+- related: [Recurrent Neural Network, Sharded Tensor State Transition Engine]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29920
+- auto_source_url: https://ethereum-magicians.org/t/eip-8301-matmul-opcode-sharded-tensor-state-transition-engine/29920
+- desc: |
+  化学量論的制約を持つリカレントニューラルネットワークの一種で、提案されるシャード型テンソル状態遷移エンジン上でネイティブに実行されることを想定しています。Ethereumの状態遷移と数学的に同型であると説明されています。
+
+## Tensor Cache
+- ja: テンソルキャッシュ
+- related: [EVM, Memory, Weight Tensor Buffer]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29920
+- auto_source_url: https://ethereum-magicians.org/t/eip-8301-matmul-opcode-sharded-tensor-state-transition-engine/29920
+- desc: |
+  提案されるEVMアーキテクチャにおいて、従来のメモリの役割を再定義したものです。事前にロードされた重み行列や履歴隠れ状態を保持する連続的なバッファとして機能し、マーシャリングのオーバーヘッドを排除します。
+
+## Pointer Map
+- ja: ポインタマップ
+- related: [EVM, Stack]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29920
+- auto_source_url: https://ethereum-magicians.org/t/eip-8301-matmul-opcode-sharded-tensor-state-transition-engine/29920
+- desc: |
+  提案されるEVMアーキテクチャにおいて、従来のスタックの役割を再定義したものです。算術演算を行わず、次元やメモリバイトオフセットなどの軽量なルーティング情報を保持する層として機能します。
+
+## Settlement-Decoupled Nanopayment Ledger
+- ja: 決済分離型ナノペイメント台帳
+- related: [Nanopayment, Three-party authorization, Independently signed batching, Independent statement closing]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8439-settlement-decoupled-nanopayment-ledger/29919
+- desc: |
+  オフチェーンの既存決済システムを通じて法定通貨の決済を処理しながら、法定通貨建てのナノペイメントをオンチェーンで記録するための提案されたERC。支払いネットワーク、支払い機関、受取機関のための共有会計インターフェースを定義します。
+
+## Nanopayment
+- ja: ナノペイメント
+- related: [Settlement-Decoupled Nanopayment Ledger]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8439-settlement-decoupled-nanopayment-ledger/29919
+- desc: |
+  法定通貨の最小単位よりも小さい個々の請求を指します。これらの少額の支払いを高精度で記録し、既存の法定通貨システムで処理できる金額に変換する前に累積・調整することを目的としています。
+
+## Three-party authorization
+- ja: 三者承認
+- related: [Settlement-Decoupled Nanopayment Ledger, EIP-712]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8439-settlement-decoupled-nanopayment-ledger/29919
+- desc: |
+  支払いまたは払い戻しに、支払いネットワーク、支払い機関、受取機関の3者すべてからの明示的な承認を必要とするメカニズムです。3者すべてが同じEIP-712型リクエストに個別に署名します。
+
+## Independently signed batching
+- ja: 個別署名バッチ処理
+- related: [Settlement-Decoupled Nanopayment Ledger]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8439-settlement-decoupled-nanopayment-ledger/29919
+- desc: |
+  個別に署名された有効な未実行リクエストを、関係者が再度署名することなく、同じ機関ペアに対してバッチとしてまとめることができる機能です。バッチ実行では、リクエストごとの署名検証、識別子、状態、イベントが保持されます。
+
+## Independent statement closing
+- ja: 独立した明細書締め処理
+- related: [Settlement-Decoupled Nanopayment Ledger]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29919
+- auto_source_url: https://ethereum-magicians.org/t/erc-8439-settlement-decoupled-nanopayment-ledger/29919
+- desc: |
+  各機関が自身の現在の明細書を独立して締め処理できる機能です。これにより、支払いネットワークは対応する集計を減らし、機関の明細書識別子を進めます。機関は同時に明細書を締め処理する必要がありません。
+
+## EIP-8411
+- ja: EIP-8411
+- aliases: [8411]
+- related: [EIP, Gas Ratchets]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29902
+- auto_source_url: https://ethereum-magicians.org/t/p2p-networking-9-october-07-2026/29902
+- desc: |
+  Ethereum Improvement Proposal (EIP) の一つで、ガス料金の調整メカニズムであるガスラチェットに関する提案です。これは、ネットワークの混雑状況に応じてガス価格を動的に調整する仕組みを導入することを目的としています。
+
+## The Invariant Boundary Theorem
+- ja: 不変境界定理
+- related: [Perfect Indistinguishability, Resource Exhaustion Resistance]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29893
+- auto_source_url: https://ethereum-magicians.org/t/the-invariant-boundary-theorem/29893
+- desc: |
+  パーミッションレスシステムにおいて、データの完全な不可分性とリソース枯渇戦略への耐性を同時に保証することは数学的に不可能である、と述べる定理。データが完全にランダムに見える場合、悪意のあるアクターは計算コストの非対称性を利用してリソースを枯渇させることができ、逆にリソース枯渇を防ぐにはデータに不変量が必要となり、検閲を可能にする。
+
+## Perfect Indistinguishability
+- ja: 完全な不可分性
+- related: [The Invariant Boundary Theorem, Resource Exhaustion Resistance, Censorship Resistance]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29893
+- auto_source_url: https://ethereum-magicians.org/t/the-invariant-boundary-theorem/29893
+- desc: |
+  プロトコルにおいて、外部の観察者（検閲者など）にとって、転送されるデータストリームが真のホワイトノイズ（一様ランダム性）と統計的または計算的に区別できない状態を指す。観測データに容易に計算可能な不変量が存在しないことを意味し、検閲耐性の理想的な特性とされる。
+
+## Resource Exhaustion Resistance
+- ja: リソース枯渇耐性
+- related: [The Invariant Boundary Theorem, Perfect Indistinguishability]
+- auto_added: 2026-10-11
+- auto_source_topic_id: 29893
+- auto_source_url: https://ethereum-magicians.org/t/the-invariant-boundary-theorem/29893
+- desc: |
+  プロトコルにおいて、受信エンティティが計算コストの高い操作を実行する前に、無効なデータをO(1)時間でアルゴリズム的に破棄できる能力を指す。これにより、悪意のあるアクターによるリソース枯渇攻撃を防ぎ、システムの安定性と可用性を維持する。

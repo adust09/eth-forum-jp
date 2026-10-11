@@ -4,7 +4,7 @@ aliases:
   - グロアス (Gloas)
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **グロアス (Gloas)**
@@ -18,6 +18,7 @@ Ethereumの将来のハードフォークのコードネーム。このハード
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-07-p2p-networking-9-october-07-2026-29902|P2Pネットワーキング #9 2026年10月7日]]（2026-10-07）
 - [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 

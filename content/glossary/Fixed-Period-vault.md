@@ -4,7 +4,7 @@ aliases:
   - 固定期間ボルト (Fixed-Period vault)
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **固定期間ボルト (Fixed-Period vault)**

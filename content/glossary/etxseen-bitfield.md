@@ -4,7 +4,7 @@ aliases:
   - etx_seenビットフィールド
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **etx_seenビットフィールド**

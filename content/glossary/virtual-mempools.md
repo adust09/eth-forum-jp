@@ -5,7 +5,7 @@ aliases:
   - sharded mempools
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **仮想メモリプール**

@@ -4,7 +4,7 @@ aliases:
   - ドメイン分離
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **ドメイン分離**
@@ -19,6 +19,7 @@ date: '2026-10-10'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）
 - [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）
 
 ## 元の表記（英語）

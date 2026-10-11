@@ -4,7 +4,7 @@ aliases:
   - 実行均一性
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **実行均一性**

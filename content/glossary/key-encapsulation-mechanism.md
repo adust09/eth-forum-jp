@@ -5,7 +5,7 @@ aliases:
   - KEM
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **鍵カプセル化メカニズム (KEM)**

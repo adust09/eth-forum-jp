@@ -4,7 +4,7 @@ aliases:
   - 骨化候補
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **骨化候補**
