@@ -5,7 +5,7 @@ aliases:
   - EEZ
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **イーサリアム経済圏 (EEZ)**

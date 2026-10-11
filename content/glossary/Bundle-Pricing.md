@@ -4,7 +4,7 @@ aliases:
   - バンドル価格設定 (Bundle Pricing)
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **バンドル価格設定 (Bundle Pricing)**

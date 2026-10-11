@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -33,6 +33,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Account-level-authorization|Account level authorization]] — アカウントレベル承認
 - [[glossary/Account-locking|Account locking]] — アカウントロック
 - [[glossary/Account-recovery|Account recovery]] — アカウント復旧
+- [[glossary/Account-Root|Account Root]] — アカウントルート
 - [[glossary/Account-Validation-Module|Account Validation Module]] — アカウント検証モジュール
 - [[glossary/Account-warming-charge|Account-warming charge]] — アカウントウォーミングチャージ
 - [[glossary/accounting-actions|accounting actions]] — 会計アクション
@@ -59,6 +60,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
+- [[glossary/Agent-Service-Order-Amendments|Agent Service Order Amendments]] — エージェントサービス注文修正
 - [[glossary/Agent-Task-Stack|Agent Task Stack]] — エージェントタスクスタック
 - [[glossary/Agent-Trust-Systems|Agent Trust Systems]] — エージェント信頼システム
 - [[glossary/Agent-Facing-Mechanism|Agent-Facing Mechanism]] — エージェント向けメカニズム
@@ -79,6 +81,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/AID-Document|AID Document]] — AIDドキュメント
 - [[glossary/All-Core-Devs-Consensus|All Core Devs - Consensus]] — オールコア開発者会議 - コンセンサス
+- [[glossary/All-Core-Devs-Execution|All Core Devs - Execution]] — All Core Devs - Execution (ACDE)
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/All-Subnets-Node|All-Subnets Node]] — 全サブネットノード
 - [[glossary/Alternative-Mempools|Alternative Mempools]] — 代替メムプール
@@ -460,6 +463,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-8037|EIP-8037]] — EIP-8037 (二次元ガス)
 - [[glossary/EIP-8288|EIP-8288]] — EIP-8288
 - [[glossary/EIP-8363|EIP-8363]] — EIP-8363
+- [[glossary/EIP-8411|EIP-8411]] — EIP-8411
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/eISA|eISA]] — eISA (Ethereum Instruction Set Architecture)
 - [[glossary/Elligator-Squared|Elligator Squared]] — エリゲーター・スクエアード
@@ -692,8 +696,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/Independent-statement-closing|Independent statement closing]] — 独立した明細書締め処理
 - [[glossary/Independent-demand-benchmark|Independent-demand benchmark]] — 独立需要ベンチマーク
 - [[glossary/independently-deployed-registries|independently deployed registries]] — 独立デプロイ型レジストリ
+- [[glossary/Independently-signed-batching|Independently signed batching]] — 個別署名バッチ処理
 - [[glossary/independently-recomputable-identifier|independently-recomputable identifier]] — 独立して再計算可能な識別子
 - [[glossary/Index-Based-Multi-Facet-Proxy|Index-Based Multi-Facet Proxy]] — インデックスベース多面ファセットプロキシ
 - [[glossary/Indexed-Cell-Requests|Indexed Cell Requests]] — インデックス付きセルリクエスト
@@ -817,6 +823,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
 - [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
 - [[glossary/MATCHA|MATCHA]] — MATCHA (Mempool Account Transaction Capacity from Historical Activity)
+- [[glossary/MATMUL-Opcode|MATMUL Opcode]] — MATMULオペコード
 - [[glossary/Maturity-Settlement-Queue|Maturity Settlement Queue]] — 満期決済キュー
 - [[glossary/MAXVERIFYGAS|MAX_VERIFY_GAS]] — 検証ガス上限 (MAX_VERIFY_GAS)
 - [[glossary/Maximum-Viable-Security|Maximum Viable Security]] — 最大実行可能セキュリティ
@@ -874,6 +881,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
 - [[glossary/Myerson-value|Myerson value]] — マイアソン値
 - [[glossary/Namespaced-Storage|Namespaced Storage]] — 名前空間付きストレージ
+- [[glossary/Nanopayment|Nanopayment]] — ナノペイメント
 - [[glossary/Native-AA-transaction|Native AA transaction]] — ネイティブAAトランザクション (Native AA transaction)
 - [[glossary/Native-Ethereum-Delegation|Native Ethereum Delegation]] — ネイティブ・イーサリアム・デリゲーション
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
@@ -1005,6 +1013,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Per-lot-Individuation|Per-lot Individuation]] — ロットごとの個別化
 - [[glossary/Per-session-proofs|Per-session proofs]] — セッションごとの証明
 - [[glossary/per-transaction-cap|per-transaction cap]] — トランザクションごとの上限
+- [[glossary/Perfect-Indistinguishability|Perfect Indistinguishability]] — 完全な不可分性
 - [[glossary/Periodically-anchored-to-Ethereum|Periodically anchored to Ethereum]] — 定期的にイーサリアムにアンカーされる
 - [[glossary/Permanent-compact-headers|Permanent compact headers]] — 永続的コンパクトヘッダー
 - [[glossary/Permanent-Provenance|Permanent Provenance]] — 永続的な来歴
@@ -1022,6 +1031,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Plonkish|Plonkish]] — Plonkish (証明システム)
 - [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
+- [[glossary/Pointer-Map|Pointer Map]] — ポインタマップ
 - [[glossary/Pointer-based-Confidentiality-System|Pointer-based Confidentiality System]] — ポインタベースの機密性システム
 - [[glossary/Poisoned-Address|Poisoned Address]] — ポイズンドアドレス
 - [[glossary/Policy-Domain|Policy Domain]] — ポリシードメイン (Policy Domain)
@@ -1041,6 +1051,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-consumption-falsifiability|Post-consumption falsifiability]] — 消費後反証可能性 (Post-consumption falsifiability)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
+- [[glossary/Post-Quantum-Key|Post-Quantum Key]] — 耐量子鍵
 - [[glossary/Post-quantum-migration|Post-quantum migration]] — ポスト量子移行
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
 - [[glossary/post-quantum-signatures|post-quantum signatures]] — 量子耐性署名 (post-quantum signatures)
@@ -1064,6 +1075,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Principal-at-Maturity-profile|Principal-at-Maturity profile]] — 満期時元本償還型プロファイル
 - [[glossary/Priority-Update-Registry|Priority Update Registry]] — プライオリティ更新レジストリ (PUR)
 - [[glossary/Privacy-as-Predicate|Privacy as Predicate]] — 述語としてのプライバシー
+- [[glossary/Privacy-of-Account-Policy|Privacy of Account Policy]] — アカウントポリシーのプライバシー
 - [[glossary/privacy-pool|privacy pool]] — プライバシープール (privacy pool)
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
 - [[glossary/Privacy-Relay|Privacy Relay]] — プライバシーリレー
@@ -1079,6 +1091,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Probabilistic-Backrunners|Probabilistic Backrunners]] — 確率的バックランナー
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
 - [[glossary/Procedure-Manifest|Procedure Manifest]] — プロシージャマニフェスト
+- [[glossary/Program-Key|Program Key]] — プログラムキー
 - [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
 - [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
 - [[glossary/proof-aggregation|proof aggregation]] — 証明集約
@@ -1184,6 +1197,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Resolution|Resolution]] — レゾリューション
 - [[glossary/Resolution-Envelope|Resolution Envelope]] — レゾリューション・エンベロープ
 - [[glossary/Resolution-Layer|Resolution Layer]] — 解決層
+- [[glossary/Resource-Exhaustion-Resistance|Resource Exhaustion Resistance]] — リソース枯渇耐性
 - [[glossary/Resource-Vector|Resource Vector]] — リソースベクトル
 - [[glossary/Resource-specific-capacity-rules|Resource-specific capacity rules]] — リソース固有の容量ルール
 - [[glossary/Restriction-Type|Restriction Type]] — 制限タイプ
@@ -1265,9 +1279,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Settlement-Mechanism|Settlement Mechanism]] — 決済メカニズム
 - [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
+- [[glossary/Settlement-Decoupled-Nanopayment-Ledger|Settlement-Decoupled Nanopayment Ledger]] — 決済分離型ナノペイメント台帳
 - [[glossary/sexed-DAG|sexed DAG]] — 性別付きDAG (sexed DAG)
 - [[glossary/shadow-root|shadow-root]] — シャドウルート
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
+- [[glossary/Sharded-Tensor-State-Transition-Engine|Sharded Tensor State Transition Engine]] — シャード型テンソル状態遷移エンジン
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/sigHash|sigHash]] — sigHash
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
@@ -1360,6 +1376,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Steganographic-Point-Obfuscation|Steganographic Point Obfuscation]] — ステガノグラフィック点難読化
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
+- [[glossary/Stoichiometry-Constrained-Recurrent-Neural-Networks|Stoichiometry-Constrained Recurrent Neural Networks]] — 化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
 - [[glossary/Storage-proof|Storage proof]] — ストレージ証明
@@ -1403,9 +1420,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Temporal-Liquidity-Authorization|Temporal Liquidity Authorization]] — テンポラル・リクイディティ承認 (TLA)
 - [[glossary/temporal-liquidity-funding-leg|temporal liquidity funding leg]] — テンポラル・リクイディティ・ファンディングレッグ
 - [[glossary/temporal-liquidity-supply-leg|temporal liquidity supply leg]] — テンポラル・リクイディティ・サプライレッグ
+- [[glossary/Tensor-Cache|Tensor Cache]] — テンソルキャッシュ
 - [[glossary/terminal-lifecycle-events|terminal lifecycle events]] — 終端ライフサイクルイベント
 - [[glossary/testingcommitBlockV1|testing_commitBlockV1]] — testing_commitBlockV1 (ブロックコミットテストV1)
 - [[glossary/testnet|testnet]] — テストネット
+- [[glossary/The-Invariant-Boundary-Theorem|The Invariant Boundary Theorem]] — 不変境界定理
+- [[glossary/Three-party-authorization|Three-party authorization]] — 三者承認
 - [[glossary/threshold-ecdsa|threshold ecdsa]] — しきい値ECDSA (Threshold ECDSA)
 - [[glossary/Threshold-Encryption|Threshold Encryption]] — 閾値暗号
 - [[glossary/Threshold-Exclusion|Threshold Exclusion]] — 閾値除外

@@ -4,7 +4,7 @@ aliases:
   - NFT向けウォレットパス拡張
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **NFT向けウォレットパス拡張**

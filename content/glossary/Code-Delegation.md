@@ -4,7 +4,7 @@ aliases:
   - コード委譲
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **コード委譲**

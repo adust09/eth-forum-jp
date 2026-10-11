@@ -4,7 +4,7 @@ aliases:
   - ML-KEM-768
 tags:
   - glossary
-date: '2026-10-10'
+date: '2026-10-11'
 ---
 
 **ML-KEM-768**
