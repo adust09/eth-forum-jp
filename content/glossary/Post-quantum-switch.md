@@ -5,7 +5,7 @@ aliases:
   - PQ switch
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **ポスト量子スイッチ**

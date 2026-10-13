@@ -4,7 +4,7 @@ aliases:
   - 予測市場
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **予測市場**
@@ -18,6 +18,7 @@ date: '2026-10-11'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-12-private-stablecoin-on-ethereum-29946|イーサリアム上のプライベートステーブルコイン]]（2026-10-12）
 - [[posts/ethresear-2026-10-09-private-stablecoin-on-ethereum-26140|イーサリアム上のプライベートステーブルコイン]]（2026-10-09）
 
 ## 元の表記（英語）

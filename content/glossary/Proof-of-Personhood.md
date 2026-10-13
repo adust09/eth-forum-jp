@@ -4,7 +4,7 @@ aliases:
   - 人間性証明 (Proof of Personhood)
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **人間性証明 (Proof of Personhood)**

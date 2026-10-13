@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -1443,6 +1443,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-Bound-Account|Token Bound Account]] — トークンバウンドアカウント (TBA)
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
 - [[glossary/Token-engineering|Token engineering]] — トークンエンジニアリング
+- [[glossary/Token-Launch-Abuse-Detection-and-Remediation|Token Launch Abuse Detection and Remediation]] — トークンローンチ不正検出および是正
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]] — トークンプル承認
 - [[glossary/Token-weighted-voting|Token weighted voting]] — トークン加重投票 (Token weighted voting)
 - [[glossary/token-based-role-access-control|token-based role access control]] — トークンベースのロールアクセス制御
@@ -1584,6 +1585,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/Zero-Knowledge-Spending-Policies|Zero-Knowledge Spending Policies]] — ゼロ知識支出ポリシー
 - [[glossary/Zeroed-proxy-storage|Zeroed proxy storage]] — ゼロ化されたプロキシストレージ
+- [[glossary/Zilkworm|Zilkworm]] — Zilkworm
 - [[glossary/ZIP-32-subaccounts|ZIP-32 subaccounts]] — ZIP-32サブアカウント
 - [[glossary/ZK-Fraud-Proof|ZK Fraud Proof]] — ZK不正証明
 - [[glossary/zk-shielding-layer|zk shielding layer]] — zkシーディング層 (zk shielding layer)

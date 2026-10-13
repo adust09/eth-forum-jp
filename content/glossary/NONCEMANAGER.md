@@ -4,7 +4,7 @@ aliases:
   - ノンスマネージャー (NONCE_MANAGER)
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **ノンスマネージャー (NONCE_MANAGER)**

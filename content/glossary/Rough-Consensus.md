@@ -4,7 +4,7 @@ aliases:
   - 大まかな合意 (Rough Consensus)
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **大まかな合意 (Rough Consensus)**

@@ -5,7 +5,7 @@ aliases:
   - privacy stablecoin
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **プライベートステーブルコイン**
@@ -21,7 +21,7 @@ Ethereum上で発行され、USDC/USDTなどの既存のステーブルコイン
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-12-private-stablecoin-on-ethereum-29946|イーサリアム上のプライベートステーブルコイン]]（2026-10-12）
 
 ## 元の表記（英語）
 
