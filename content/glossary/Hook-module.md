@@ -4,7 +4,7 @@ aliases:
   - フックモジュール (Hook Module)
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **フックモジュール (Hook Module)**

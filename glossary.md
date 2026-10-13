@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-11
+last_updated: 2026-10-13
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14605,3 +14605,21 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/the-invariant-boundary-theorem/29893
 - desc: |
   プロトコルにおいて、受信エンティティが計算コストの高い操作を実行する前に、無効なデータをO(1)時間でアルゴリズム的に破棄できる能力を指す。これにより、悪意のあるアクターによるリソース枯渇攻撃を防ぎ、システムの安定性と可用性を維持する。
+
+## Token Launch Abuse Detection and Remediation
+- ja: トークンローンチ不正検出および是正
+- related: [Token Launch, ERC]
+- auto_added: 2026-10-13
+- auto_source_topic_id: 29956
+- auto_source_url: https://ethereum-magicians.org/t/eip-editing-office-hour-eip-erc-meeting-116-october-14-2026/29956
+- desc: |
+  トークンローンチにおける不正行為（例：ラグプル、ポンプ＆ダンプ）を検出し、それらを是正するためのメカニズムやプロトコルを指します。ERCとして提案されており、投資家保護や市場の健全性維持を目的としています。
+
+## Zilkworm
+- ja: Zilkworm
+- related: [zkEVM, L1-zkEVM]
+- auto_added: 2026-10-13
+- auto_source_topic_id: 29953
+- auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-09-october-14-2026/29953
+- desc: |
+  L1-zkEVMのブレイクアウトミーティングで言及されたプロジェクトまたは実装名。zkEVMに関連する特定の研究開発の取り組みを指す可能性がある。

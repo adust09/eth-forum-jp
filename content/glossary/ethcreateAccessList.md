@@ -4,7 +4,7 @@ aliases:
   - eth_createAccessList (アクセスリスト作成RPC)
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **eth_createAccessList (アクセスリスト作成RPC)**

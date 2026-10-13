@@ -4,7 +4,7 @@ aliases:
   - 量子耐性公開鍵レジストリ
 tags:
   - glossary
-date: '2026-10-11'
+date: '2026-10-13'
 ---
 
 **量子耐性公開鍵レジストリ**
@@ -19,6 +19,7 @@ Ethereumバリデーターが量子コンピュータの脅威からネットワ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-12-eip-editing-office-hour-eip-erc-meeting-116-october-14-2026-29956|EIP編集オフィスアワー (EIP + ERC) ミーティング #116、2026年10月14日]]（2026-10-12）
 - [[posts/magicians-2026-06-03-post-quantum-pq-interop-42-june-3-2026-28694|ポスト量子 (PQ) 相互運用性 #42、2026年6月3日]]（2026-06-03）
 
 ## 元の表記（英語）
