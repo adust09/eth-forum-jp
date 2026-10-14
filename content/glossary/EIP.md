@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/magicians-2026-10-09-eip-8247-ancestor-indexed-bals-29926|EIP-8247: 祖先インデックス付きBAL]]（2026-10-09）
 - [[posts/magicians-2026-10-09-eip-8440-execution-chain-proofs-29930|EIP-8440: 実行チェーン証明]]（2026-10-09）
 - [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）

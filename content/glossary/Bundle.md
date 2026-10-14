@@ -4,7 +4,7 @@ aliases:
   - バンドル
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **バンドル**
@@ -19,6 +19,7 @@ date: '2026-10-13'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/ethresear-2026-09-19-strict-role-alternation-reciprocal-broadcast-without-relayers-for-evm-shielded-pools-spec-population-simulation-no-code-yet-26051|厳格なロール交代：EVMシールドプール向けリレーヤー不要の相互ブロードキャスト（仕様＋個体群シミュレーション、コードは未実装）]]（2026-09-19）
 - [[posts/ethresear-2026-09-09-from-60m-to-200m-simulating-glamsterdam-s-fee-market-25957|Glamsterdamのガス制限を60Mから200Mにシミュレーション：手数料市場はどうなるか]]（2026-09-09）
 

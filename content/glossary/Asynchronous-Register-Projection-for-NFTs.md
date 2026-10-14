@@ -5,7 +5,7 @@ aliases:
   - ERC-8415
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **NFTの非同期レジスタプロジェクション**
@@ -22,7 +22,7 @@ ERC-8415で提案されている、NFTの取引可能なトークンポジショ
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-11-8415wallet-an-erc-8415-based-wallet-now-available-for-beta-testing-29945|8415Wallet: [[glossary/Asynchronous-Register-Projection-for-NFTs|ERC-8415 (NFTの非同期レジスタプロジェクション)]]ベースのウォレット、ベータテスト版が利用可能に]]（2026-10-11）
 
 ## 元の表記（英語）
 

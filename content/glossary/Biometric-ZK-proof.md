@@ -4,7 +4,7 @@ aliases:
   - 生体認証ZK証明
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **生体認証ZK証明**

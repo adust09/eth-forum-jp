@@ -5,7 +5,7 @@ aliases:
   - PQS
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **量子耐性署名 (post-quantum signatures)**
@@ -19,7 +19,7 @@ date: '2026-10-13'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-13-informed-diffusion-making-home-builders-publish-fast-26151|Informed Diffusion: ホームビルダーが高速に公開できるようにする]]（2026-10-13）
 
 ## 元の表記（英語）
 
