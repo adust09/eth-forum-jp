@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **メインネット**
@@ -17,6 +17,8 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-13-informed-diffusion-making-home-builders-publish-fast-26151|Informed Diffusion: ホームビルダーが高速に公開できるようにする]]（2026-10-13）
+- [[posts/ethresear-2026-10-13-rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks-26152|Rapidblocks、テイク2：独立したブロックのためのパイプライン化されたコンセンサス]]（2026-10-13）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-10-07-ethereum-propamms-today-and-tomorrow-26129|イーサリアムのPropAMM：現在と未来]]（2026-10-07）
 - [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）

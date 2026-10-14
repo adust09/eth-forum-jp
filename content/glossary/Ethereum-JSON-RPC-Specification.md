@@ -4,7 +4,7 @@ aliases:
   - Ethereum JSON-RPC仕様
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **Ethereum JSON-RPC仕様**
@@ -18,7 +18,7 @@ Ethereumクライアントが外部アプリケーションと通信するため
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-13-frame-transaction-breakout-7-oct-20-2026-29961|フレームトランザクション分科会 #7、2026年10月20日]]（2026-10-13）
 
 ## 元の表記（英語）
 

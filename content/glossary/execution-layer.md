@@ -4,7 +4,7 @@ aliases:
   - 実行レイヤー
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **実行レイヤー**
@@ -19,6 +19,7 @@ Protocol Interaction Manifest (PIM) の構成要素の一つで、ユーザー�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 - [[posts/ethresear-2026-08-31-equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier-25868|EIP-7999の多次元手数料市場における均衡：実行-データ手数料フロアのフロンティア]]（2026-08-31）
 - [[posts/magicians-2026-07-01-receiptos-a-portable-proof-substrate-for-verifiable-agent-execution-28900|ReceiptOS: 検証可能なエージェント実行のためのポータブルな証明基盤]]（2026-07-01）

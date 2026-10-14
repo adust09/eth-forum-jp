@@ -4,7 +4,7 @@ aliases:
   - 受諾権限
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **受諾権限**

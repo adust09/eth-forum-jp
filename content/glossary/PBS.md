@@ -6,7 +6,7 @@ aliases:
   - Proposer Builder Separation
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **PBS（プロポーザー・ビルダー分離）**
@@ -23,6 +23,7 @@ mev-boost / enshrined PBS / ePBS などの段階的な実装が議論されて�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/ethresear-2026-08-27-when-multiple-pools-behave-like-one-impact-constrained-capacity-concentration-in-uniswap-v3-25823|複数のプールが1つのように振る舞うとき: Uniswap v3におけるインパクト制約付きキャパシティ集中]]（2026-08-27）
 - [[posts/ethresear-2026-08-24-epbs-distilled-25800|ePBS、その本質]]（2026-08-24）
 - [[posts/ethresear-2026-07-26-proprietary-amms-and-ethereum-25543|プロプライエタリAMMとイーサリアム]]（2026-07-26）

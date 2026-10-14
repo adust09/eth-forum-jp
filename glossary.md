@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-13
+last_updated: 2026-10-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14623,3 +14623,180 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/l1-zkevm-breakout-09-october-14-2026/29953
 - desc: |
   L1-zkEVMのブレイクアウトミーティングで言及されたプロジェクトまたは実装名。zkEVMに関連する特定の研究開発の取り組みを指す可能性がある。
+
+## Zero-tip transactions
+- ja: ゼロチップトランザクション
+- aliases: [Zero tip]
+- related: [priority fee, EIP-1559, MEV-Boost, builder]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26156
+- auto_source_url: https://ethresear.ch/t/measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026/26156
+- desc: |
+  EIP-1559導入後、優先手数料（priority fee）を支払わないトランザクション。ビルダーへの直接支払い、バンドル内の他のトランザクションによる支払い、またはビルダー自身の排他的なフローである可能性がある。
+
+## Public flow
+- ja: パブリックフロー
+- related: [private order flow, mempool, MEV]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26156
+- auto_source_url: https://ethresear.ch/t/measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026/26156
+- desc: |
+  公開されたメンプールを通じてすべての参加者が利用できるトランザクションの流れ。プライベートオーダーフローと対比され、MEVの機会を巡る競争の場となる。
+
+## Rapidblocks
+- ja: Rapidblocks（ラピッドブロック）
+- related: [Pipelined consensus, Independent blocks]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26152
+- auto_source_url: https://ethresear.ch/t/rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks/26152
+- desc: |
+  ブロックが直前のブロックに依存しないように構築することで、マージ競合を最小限に抑え、スロット時間を短縮することを目指すパイプライン化されたコンセンサスプロトコル。ブロックi+1はi-1の状態に基づいて構築され、iのBMF（変更されたキーのブルームフィルター）を尊重する。
+
+## Pipelined consensus
+- ja: パイプライン化されたコンセンサス
+- related: [Rapidblocks, Independent blocks]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26152
+- auto_source_url: https://ethresear.ch/t/rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks/26152
+- desc: |
+  ブロック生成プロセスをパイプライン化し、複数のブロックが同時に処理されることを可能にするコンセンサス設計。これにより、スロット時間の短縮やスループットの向上が期待される。
+
+## Independent blocks
+- ja: 独立ブロック
+- related: [Rapidblocks, Pipelined consensus, State edges, Filter edges]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26152
+- auto_source_url: https://ethresear.ch/t/rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks/26152
+- desc: |
+  直前のブロックの状態に直接依存せず、特定のウィンドウ内の以前のブロックの状態とフィルターを尊重して構築されるブロック。これにより、ブロックのスキップやスロット時間の短縮が可能になる。
+
+## Canonical set
+- ja: カノニカルセット
+- related: [Horizon]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26152
+- auto_source_url: https://ethresear.ch/t/rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks/26152
+- desc: |
+  特定のコンセンサスプロトコルにおいて、スロットごとのヘッダーハッシュまたは⊥の値によって決定される、合意されたブロックの集合。以前のスロットが競合に勝利し、古いブロックは「ホライズン」によって固定される。
+
+## Horizon
+- ja: ホライズン
+- related: [Canonical set]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26152
+- auto_source_url: https://ethresear.ch/t/rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks/26152
+- desc: |
+  カノニカルセットにおいて、特定のブロックよりも古いすべてのブロックが固定され、変更されないと見なされる境界。今日の親ハッシュが過去を固定するのと同様に機能する。
+
+## Informed Diffusion
+- ja: Informed Diffusion（インフォームド・ディフュージョン）
+- related: [segmented payload diffusion, home builder, datacenter builder]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26151
+- auto_source_url: https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151
+- desc: |
+  Ethereumのペイロード伝播を高速化し、帯域幅利用を削減するために設計されたプロトコル。ペイロードをチャンクに分割し、各ノードが隣接ノードの保有状況に基づいて転送を最適化する多層メカニズムを採用している。
+
+## home builder
+- ja: ホームビルダー
+- aliases: [solo staker building its own payload]
+- related: [datacenter builder, all-home network, solo staking]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26151
+- auto_source_url: https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151
+- desc: |
+  自宅のインターネット接続（低帯域幅のアップリンク）を利用してブロックペイロードを構築・公開するバリデーター。Informed Diffusionは、このような環境下でのペイロード伝播の遅延を大幅に改善することを目指している。
+
+## datacenter builder
+- ja: データセンタービルダー
+- related: [home builder, mixed-bandwidth network]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26151
+- auto_source_url: https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151
+- desc: |
+  データセンターの高速なインターネット接続（高帯域幅のアップリンク）を利用してブロックペイロードを構築・公開するビルダー。現在のEthereumメインネットでは、ペイロード伝播においてホームビルダーよりも有利な立場にある。
+
+## all-home network
+- ja: オールホームネットワーク
+- related: [mixed-bandwidth network, home builder]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26151
+- auto_source_url: https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151
+- desc: |
+  シミュレーションで用いられるネットワーク構成の一つで、すべてのノード（ビルダーを含む）が家庭用インターネット接続（例: 50 Mbpsアップリンク、100 Mbpsダウンリンク）を持つと仮定したもの。プロトコルの堅牢性と分散化能力を評価するための挑戦的なシナリオ。
+
+## HAVE bitmaps
+- ja: HAVEビットマップ
+- related: [partial-messages extension, gossipsub]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 26151
+- auto_source_url: https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151
+- desc: |
+  Informed DiffusionのTier 4で導入される、各ペイロードについてピアがどのチャンクを保有しているかを示すコンパクトなビットマップ。Gossipsubの既存の制御メッセージで伝送され、重複プッシュのキャンセルやプッシュのターゲット設定に利用される。
+
+## Agentic Resource Discovery Onchain
+- ja: オンチェーン型エージェントリソース発見 (ARD Onchain)
+- aliases: [ARD Onchain]
+- related: [Agentic Resource Discovery, CAIP-19, CAIP-10]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29963
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agentic-resource-discovery-ard-onchain-an-address-rooted-value-registry-whose-records-are-ard-entries/29963
+- desc: |
+  Googleが提唱するAgentic Resource Discovery (ARD) のオープン仕様をEthereumブロックチェーン上に実装したフレームワーク。アドレスを権限の根源（バリュー・ルート）とし、ドメインを承認として扱うことで、エージェントがMCPサーバー、A2Aエージェント、スキル、APIなどを発見できるようにする。価格、支払い、決済、エスクロー、信用といった価値レイヤーをARDに追加する。
+
+## Value root
+- ja: バリュー・ルート
+- aliases: [settlement root]
+- related: [Agentic Resource Discovery Onchain]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29963
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agentic-resource-discovery-ard-onchain-an-address-rooted-value-registry-whose-records-are-ard-entries/29963
+- desc: |
+  Agentic Resource Discovery (ARD) Onchainフレームワークにおける、レコードの権限の根源となるアドレス。支払いの対象となるアドレスが権限を持ち、ドメインはアドレスが収集する承認として扱われる。これは決済の根源（settlement root）と同一視される。
+
+## ARD Onchain Kind
+- ja: ARD Onchainの種別
+- aliases: [Kind]
+- related: [Agentic Resource Discovery Onchain, skill, task, agent, registry]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29963
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agentic-resource-discovery-ard-onchain-an-address-rooted-value-registry-whose-records-are-ard-entries/29963
+- desc: |
+  Agentic Resource Discovery (ARD) Onchainフレームワークにおける、レコードの分類。`skill` (提供)、`task` (募集)、`agent` (主体)、`registry` (インデックス) の4種類が定義されている。ARDの`type`とは直交する概念であり、レコードの振る舞いや役割を示す。
+
+## CAIP-19 anchor
+- ja: CAIP-19アンカー
+- related: [CAIP-10 anchor, Agentic Resource Discovery Onchain, URN]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29963
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agentic-resource-discovery-ard-onchain-an-address-rooted-value-registry-whose-records-are-ard-entries/29963
+- desc: |
+  Agentic Resource Discovery (ARD) Onchainフレームワークにおいて、レコードを識別するために使用されるCAIP-19標準に基づく識別子。コントローラーのURNが検証済みのバインディングの下でのみ正規となるのに対し、アンカーは転送後も変わらずレコードの識別子として機能する。これにより、レコードの永続的な識別が可能となる。
+
+## Descriptor hash
+- ja: ディスクリプタ・ハッシュ
+- aliases: [content hash of the descriptor]
+- related: [Agentic Resource Discovery Onchain, JCS, SHA-256]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29963
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agentic-resource-discovery-ard-onchain-an-address-rooted-value-registry-whose-records-are-ard-entries/29963
+- desc: |
+  Agentic Resource Discovery (ARD) Onchainフレームワークにおいて、レコードの記述子（descriptor）の内容をコミットするために使用されるハッシュ値。JCS (JSON Canonicalization Scheme) とSHA-256を用いて計算される。ゲートウェイのエイリアスが同じコミットメントに対して検証されるように、ARDエンベロープはハッシュから除外される。
+
+## eth_estimateGas
+- ja: eth_estimateGas (ガス見積もり)
+- related: [JSON-RPC, gas]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29961
+- auto_source_url: https://ethereum-magicians.org/t/frame-transaction-breakout-7-oct-20-2026/29961
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、特定のトランザクションが消費するであろうガス量を推定するために使用されます。スマートコントラクトの実行や送金前に、必要な手数料を把握するのに役立ちます。
+
+## eth_fillTransaction
+- ja: eth_fillTransaction (トランザクション補完)
+- related: [JSON-RPC, nonce, gas price, gas limit]
+- auto_added: 2026-10-14
+- auto_source_topic_id: 29961
+- auto_source_url: https://ethereum-magicians.org/t/frame-transaction-breakout-7-oct-20-2026/29961
+- desc: |
+  EthereumのJSON-RPCメソッドの一つで、ユーザーが提供した不完全なトランザクションオブジェクトに対し、ノンス、ガス価格、ガスリミットなどの不足しているフィールドを自動的に補完するために使用されます。これにより、トランザクションの準備が簡素化されます。

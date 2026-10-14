@@ -4,7 +4,7 @@ aliases:
   - 実行クライアント
 tags:
   - glossary
-date: '2026-10-13'
+date: '2026-10-14'
 ---
 
 **実行クライアント**
@@ -19,6 +19,7 @@ Ethereumノードの主要コンポーネントの一つで、Ethereum Virtual M
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）
 - [[posts/ethresear-2026-09-06-can-we-verify-an-erc-not-just-its-code-25926|ERCをコードだけでなく検証できるか？]]（2026-09-06）
 
