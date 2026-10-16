@@ -5,7 +5,7 @@ aliases:
   - PQS
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **量子耐性署名 (post-quantum signatures)**
@@ -19,6 +19,7 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-13-informed-diffusion-making-home-builders-publish-fast-26151|Informed Diffusion: ホームビルダーが高速に公開できるようにする]]（2026-10-13）
 
 ## 元の表記（英語）

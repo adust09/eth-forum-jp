@@ -6,7 +6,7 @@ aliases:
   - FIPS 205
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **SLH-DSA (SPHINCS+)**
@@ -22,7 +22,7 @@ NISTによって標準化されたハッシュベースのデジタル署名ス�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 
 ## 元の表記（英語）
 

@@ -7,7 +7,7 @@ aliases:
   - DAS
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **データアベイラビリティ**
@@ -24,6 +24,7 @@ Danksharding/EIP-4844 では blob として実装され、DAS で全ダウンロ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 - [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）

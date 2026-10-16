@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **レイヤー1**
@@ -20,6 +20,8 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
+- [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-10-06-breaking-the-serial-verification-loop-via-an-asynchronous-pipeline-consensus-architecture-26125|非同期パイプラインコンセンサスアーキテクチャによる逐次検証ループの打破]]（2026-10-06）
 - [[posts/ethresear-2026-08-30-same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter-25856|命令数同一、実時間23倍：決定論的RISC-Vインタプリタにおけるワーキングセットの影響]]（2026-08-30）

@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **ステーク**
@@ -19,6 +19,8 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-13-rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks-26152|Rapidblocks、テイク2：独立したブロックのためのパイプライン化されたコンセンサス]]（2026-10-13）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-14
+last_updated: 2026-10-16
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -14800,3 +14800,222 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/frame-transaction-breakout-7-oct-20-2026/29961
 - desc: |
   EthereumのJSON-RPCメソッドの一つで、ユーザーが提供した不完全なトランザクションオブジェクトに対し、ノンス、ガス価格、ガスリミットなどの不足しているフィールドを自動的に補完するために使用されます。これにより、トランザクションの準備が簡素化されます。
+
+## Stale quote
+- ja: ステーブクオート（古い引用価格）
+- related: [Automated Market Maker, Liquidity Provider]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26158
+- auto_source_url: https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158
+- desc: |
+  流動性提供者（LP）が提示する価格が、外部市場の価格変動に対して更新されずに古い状態になっていること。特にAMMでは、取引が発生するまで価格が更新されないため、ブロックチェーンの離散的なブロック決済と相まって、この問題が顕著になる。
+
+## Screening informed flow
+- ja: 情報保有フローの選別
+- related: [Informed trader, Stale quote]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26158
+- auto_source_url: https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158
+- desc: |
+  流動性提供者が、価格変動に関する情報を持つトレーダーからの注文を選別し、拒否する戦略。これにより、情報を持つトレーダーによる損失を軽減し、収益性を向上させることを目指す。
+
+## Constant-function pool
+- ja: 定数関数型プール
+- related: [Automated Market Maker, Liquidity Pool]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26158
+- auto_source_url: https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158
+- desc: |
+  準備金に基づいて決定論的な価格を提示し、取引が行われるまで価格を更新しないタイプの自動マーケットメーカー（AMM）プール。価格が取引量に依存する定数関数によって定義される。
+
+## Zero atom
+- ja: ゼロアトム
+- related: [Price innovation, Cadence]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26158
+- auto_source_url: https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158
+- desc: |
+  価格変動の統計において、特定の時間枠で価格が全く変化しない事象の割合を指す。特にブロックチェーン上では、価格更新が離散的であるため、多くの秒数で価格変化がないという「ゼロアトム」が観察される。
+
+## Pick-off gap
+- ja: ピックオフギャップ
+- related: [Stale quote, Trending markets, Effective spread]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26158
+- auto_source_url: https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158
+- desc: |
+  トレンド市場において、トレンドに沿った約定とトレンドに逆らった約定の間で観察される実効スプレッドの差。古い引用価格がトレンド方向の価格変動によって情報を持つトレーダーに利用されることで発生する損失を定量的に示す。
+
+## Split proofs
+- ja: 分割証明 (Split proofs)
+- related: [Execution proof, Merkle work, Input rule]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26157
+- auto_source_url: https://ethresear.ch/t/rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state/26157
+- desc: |
+  ブロックの実行証明を3つの部分に分割する方式。\Pi_Tはトランザクションがブロックの入力に対して実行された結果として出力を生成したことを証明し、\Pi_inと\Pi_outは入力と出力をステートルートに紐付ける役割を果たす。
+
+## Proofs over committed inputs
+- ja: コミットされた入力に対する証明 (Proofs over committed inputs)
+- related: [Split proofs, Input rule]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26157
+- auto_source_url: https://ethresear.ch/t/rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state/26157
+- desc: |
+  ブロックヘッダーがプリステートルートの代わりにブロックの入力にコミットする証明方式。これにより、トランザクションとコンテキストが固定されていれば、入力に影響しないステート変更があっても\Pi_Tはスロット間で有効なままとなる。
+
+## Input rule
+- ja: 入力ルール (Input rule)
+- related: [Hist rule, Split proofs, Proofs over committed inputs]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26157
+- auto_source_url: https://ethresear.ch/t/rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state/26157
+- desc: |
+  ブロックの新しい有効性ルール。ブロックがそのスロットの値であり、証明が有効で、入力が最新（スロット直前のステートと一致）であり、コンテキストがホライズンと一致する場合にのみ、そのブロックが「in」であると定義する。
+
+## Block track
+- ja: ブロックトラック (Block track)
+- related: [State track, Window vote]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26157
+- auto_source_url: https://ethresear.ch/t/rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state/26157
+- desc: |
+  ブロックに関する合意形成を毎スロット行うためのトラック。投票者はヘッダーの適時性、ボディの可用性、\Pi_Tの有効性、および入力の最新性をチェックする。
+
+## State track
+- ja: ステートトラック (State track)
+- related: [Block track, Recursive proof]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 26157
+- auto_source_url: https://ethresear.ch/t/rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state/26157
+- desc: |
+  ステートルートに関する合意形成をホライズンスロットごとに行うためのトラック。決定されたプレフィックスに基づいて正しいステートルートを確定し、\Pi_outによる再帰的な証明を通じてステートルートを検証する。
+
+## 64-bit Opcodes
+- ja: 64ビットオペコード (EVM)
+- related: [EVM, EIP-8442, EVM64 instruction set]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29982
+- auto_source_url: https://ethereum-magicians.org/t/eip-8442-64-bit-opcodes-for-the-evm/29982
+- desc: |
+  Ethereum Virtual Machine (EVM) において、256ビットではなく64ビット幅のデータに特化した演算を行うための命令セット。EIP-8442で提案され、カウンターやオフセットなどの計算コストを削減し、実行効率を向上させることを目的とします。
+
+## EVM64 instruction set
+- ja: EVM64命令セット
+- related: [64-bit Opcodes, EIP-7937, EVM]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29982
+- auto_source_url: https://ethereum-magicians.org/t/eip-8442-64-bit-opcodes-for-the-evm/29982
+- desc: |
+  EIP-7937で定義された、Ethereum Virtual Machine (EVM) が64ビット幅のデータに対して演算を行うための命令セット。EIP-8442では、この命令セットのオペコードが追加され、EVMの効率向上を目指します。
+
+## Twin (of an existing instruction)
+- ja: ツイン（既存命令の）
+- related: [64-bit Opcodes, EVM]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29982
+- auto_source_url: https://ethereum-magicians.org/t/eip-8442-64-bit-opcodes-for-the-evm/29982
+- desc: |
+  EIP-8442で導入される64ビットオペコードが、既存の256ビットオペコードと同じ機能を64ビットデータに対して実行する「対」として設計されていることを指します。新しいオペコードは既存オペコードに0xC0を加算した値でエンコードされます。
+
+## Static control flow
+- ja: 静的制御フロー
+- related: [EVM, RISC-V]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29982
+- auto_source_url: https://ethereum-magicians.org/t/eip-8442-64-bit-opcodes-for-the-evm/29982
+- desc: |
+  プログラムの実行パスがコンパイル時または静的解析時に決定される制御の流れ。EVMの最適化において、64ビットオペコードと組み合わせることで、スタックスロットを機械レジスタとして効率的に利用できるようになり、命令数を大幅に削減できます。
+
+## Machine register
+- ja: 機械レジスタ (EVM文脈)
+- related: [EVM, RISC-V, Stack slot]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29982
+- auto_source_url: https://ethereum-magicians.org/t/eip-8442-64-bit-opcodes-for-the-evm/29982
+- desc: |
+  RISC-Vのようなレジスタベースのアーキテクチャにおける、CPUがデータを一時的に保持する高速な記憶領域。EVMのスタックベースの設計において、静的なオフセットと値がレジスタに収まる場合に、スタックスロットが機械レジスタとして扱われることで効率が向上します。
+
+## Execution batches
+- ja: 実行バッチ
+- related: [EIP-7732, Execution payload]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29981
+- auto_source_url: https://ethereum-magicians.org/t/execution-batches-of-multiple-blocks-under-eip-7732/29981
+- desc: |
+  EIP-7732のペイロードを複数の実行ブロックの集合として扱う仕組み。これにより、1つのスロットでN倍のガス処理能力を持つことが可能になる。
+
+## Batch hash
+- ja: バッチハッシュ
+- related: [Execution batches, blockHash]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29981
+- auto_source_url: https://ethereum-magicians.org/t/execution-batches-of-multiple-blocks-under-eip-7732/29981
+- desc: |
+  複数の実行ブロックのハッシュ値を辞書順にソートしてKeccak256でハッシュ化した値。EIP-7732の`block_hash`として使用され、次のバッチの`parent_block_hash`となる。
+
+## Intra-batch dependency field
+- ja: バッチ内依存関係フィールド
+- related: [Execution batches, blockHash]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29981
+- auto_source_url: https://ethereum-magicians.org/t/execution-batches-of-multiple-blocks-under-eip-7732/29981
+- desc: |
+  同じバッチ内の実行ブロック間で、読み書きの競合がある場合に順序を記録するためのフィールド。これにより、ブロックは`parentHash`で連結されずに並列実行が可能となる。
+
+## Account list (in transaction payload)
+- ja: アカウントリスト（トランザクションペイロード内）
+- aliases: [Client-submitted account list]
+- related: [EIP-2930, EIP-7928, ACCESS_LIST_MISS]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29981
+- auto_source_url: https://ethereum-magicians.org/t/execution-batches-of-multiple-blocks-under-eip-7732/29981
+- desc: |
+  クライアントがトランザクションの署名済みペイロード内に記述する、そのトランザクションがアクセスするアカウントとストレージスロットのリスト。読み書きのモードを区別し、リストにないオブジェクトへのアクセスはトランザクションの実行を拒否する。
+
+## Scheduler (for virtual machines)
+- ja: スケジューラ（仮想マシン用）
+- related: [Execution batches, Intra-batch dependency field, Virtual machine]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29981
+- auto_source_url: https://ethereum-magicians.org/t/execution-batches-of-multiple-blocks-under-eip-7732/29981
+- desc: |
+  ビルダーの実行ノード内で、バッチ内のブロックとバッチ内依存関係に基づいて、複数の仮想マシンインスタンスにブロックをディスパッチする役割を持つコンポーネント。
+
+## Quantum Bridge Shield
+- ja: 量子ブリッジシールド
+- aliases: [ERC-8443]
+- related: [Post-quantum cryptography, Bridge, Hash-based signatures]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29969
+- auto_source_url: https://ethereum-magicians.org/t/erc-8443-quantum-bridge-shield/29969
+- desc: |
+  量子コンピュータによる攻撃からイーサリアム上のブリッジを保護するためのERC提案。ハッシュベース署名を利用し、クロスチェーンメッセージの承認を量子耐性のある委員会署名に限定する。
+
+## Shor's algorithm
+- ja: ショアのアルゴリズム
+- related: [Post-quantum cryptography, ECDSA, BLS12 381]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29969
+- auto_source_url: https://ethereum-magicians.org/t/erc-8443-quantum-bridge-shield/29969
+- desc: |
+  量子コンピュータ上で実行される素因数分解アルゴリズム。公開鍵暗号（RSA、楕円曲線暗号など）の安全性を脅かすため、量子耐性のある暗号方式への移行が求められている。
+
+## LMS key
+- ja: LMSキー (Leighton-Micali Signature key)
+- aliases: [Leighton-Micali Signature key]
+- related: [Hash-based signatures, Post-quantum cryptography, Winternitz parameters]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29969
+- auto_source_url: https://ethereum-magicians.org/t/erc-8443-quantum-bridge-shield/29969
+- desc: |
+  RFC 8554で規定された、量子耐性を持つハッシュベース署名方式の一つであるLeighton-Micali Signature (LMS) で使用される鍵。SHA-256などのハッシュ関数に基づき、量子コンピュータによる偽造が困難とされる。
+
+## Leaf reuse (hash-based signatures)
+- ja: リーフ再利用 (ハッシュベース署名)
+- related: [Hash-based signatures, LMS key, Key state (hash-based signatures), Monotonic high water mark]
+- auto_added: 2026-10-16
+- auto_source_topic_id: 29969
+- auto_source_url: https://ethereum-magicians.org/t/erc-8443-quantum-bridge-shield/29969
+- desc: |
+  ステートフルなハッシュベース署名方式において、一度使用した署名鍵の「リーフ」を誤って再利用してしまう脆弱性。これにより、攻撃者が有効な署名を偽造できるようになる可能性があるため、厳格な鍵状態管理が必要とされる。

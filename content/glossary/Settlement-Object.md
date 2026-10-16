@@ -4,7 +4,7 @@ aliases:
   - 決済オブジェクト (Settlement Object)
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **決済オブジェクト (Settlement Object)**

@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -23,6 +23,7 @@ date: '2026-10-14'
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-13-rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks-26152|Rapidblocks、テイク2：独立したブロックのためのパイプライン化されたコンセンサス]]（2026-10-13）
 - [[posts/magicians-2026-09-02-research-proposal-what-happens-to-validator-control-if-eip-8363-works-29568|研究提案: EIP-8363が機能した場合、バリデータの制御はどうなるか]]（2026-09-02）
 - [[posts/ethresear-2026-08-28-temporal-liquidity-heterogeneous-demand-and-ethereums-single-execution-lane-25840|時間的流動性: 異質な需要とイーサリアムの単一実行レーン]]（2026-08-28）

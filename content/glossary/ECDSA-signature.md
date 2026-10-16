@@ -5,7 +5,7 @@ aliases:
   - ECDSA
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **ECDSA署名 (楕円曲線デジタル署名アルゴリズム署名)**
@@ -19,6 +19,7 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 
 ## 元の表記（英語）

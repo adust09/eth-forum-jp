@@ -4,7 +4,7 @@ aliases:
   - スラッシュされた担保（slashed collateral）
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **スラッシュされた担保（slashed collateral）**

@@ -4,7 +4,7 @@ aliases:
   - BLS12曲線
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **BLS12曲線**
@@ -18,7 +18,7 @@ BLS署名スキームに用いられる特定の種類の楕円曲線。Ethereum
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 
 ## 元の表記（英語）
 
