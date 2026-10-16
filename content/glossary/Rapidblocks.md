@@ -4,7 +4,7 @@ aliases:
   - Rapidblocks（ラピッドブロック）
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **Rapidblocks（ラピッドブロック）**
@@ -18,7 +18,7 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 
 ## 元の表記（英語）
 

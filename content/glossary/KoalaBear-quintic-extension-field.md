@@ -4,7 +4,7 @@ aliases:
   - KoalaBear五次拡大体
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **KoalaBear五次拡大体**

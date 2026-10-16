@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,6 +21,8 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-13-rapidblocks-take-two-a-pipelined-consensus-for-independent-blocks-26152|Rapidblocks、テイク2：独立したブロックのためのパイプライン化されたコンセンサス]]（2026-10-13）
 - [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）

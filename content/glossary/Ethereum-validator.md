@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,9 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-15-how-much-screening-buys-a-second-speed-selection-and-the-makers-spread-26158|スクリーニングはどれだけの時間を稼ぐか？スピード、選択、そしてメイカーのスプレッド]]（2026-10-15）
+- [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/magicians-2026-09-30-eip-8433-retire-0x00-validators-29808|EIP-8433: 0x00バリデータの引退]]（2026-09-30）
 - [[posts/ethresear-2026-09-17-staking-rewards-as-venture-capital-governed-by-futarchy-26030|ステーキング報酬をベンチャーキャピタルに、フューチャーキーで統治]]（2026-09-17）

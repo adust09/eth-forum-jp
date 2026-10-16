@@ -6,7 +6,7 @@ aliases:
   - ZK proof
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **ゼロ知識証明**

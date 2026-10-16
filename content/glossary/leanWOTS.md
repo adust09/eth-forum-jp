@@ -4,7 +4,7 @@ aliases:
   - leanWOTS (署名アルゴリズム)
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **leanWOTS (署名アルゴリズム)**

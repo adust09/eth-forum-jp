@@ -5,7 +5,7 @@ aliases:
   - Light Client
 tags:
   - glossary
-date: '2026-10-14'
+date: '2026-10-16'
 ---
 
 **ライトクライアントプロトコル**
@@ -19,6 +19,7 @@ date: '2026-10-14'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-09-13-lean4-ssz-library-formally-verified-and-easy-to-use-25988|Lean4 SSZライブラリ: 形式検証済みで使いやすい]]（2026-09-13）
 
 ## 元の表記（英語）
