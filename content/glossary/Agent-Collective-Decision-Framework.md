@@ -5,7 +5,7 @@ aliases:
   - ACDF
 tags:
   - glossary
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 **エージェント集団意思決定フレームワーク (ACDF)**

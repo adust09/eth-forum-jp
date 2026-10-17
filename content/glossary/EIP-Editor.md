@@ -6,7 +6,7 @@ aliases:
   - Associate EIP Editors
 tags:
   - glossary
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 **EIPエディター**
@@ -19,6 +19,7 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、および管理�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-17-dividend-paying-equity-token-29991|配当支払い型エクイティトークン]]（2026-10-17）
 - [[posts/magicians-2026-09-28-erc-8431-holding-time-auto-staking-for-nfts-29787|ERC-8431: NFT向け保有期間自動ステーキング]]（2026-09-28）
 - [[posts/magicians-2026-09-22-eipip-meeting-131-oct-20-2026-29748|EIPIPミーティング #131、2026年10月20日]]（2026-09-22）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）

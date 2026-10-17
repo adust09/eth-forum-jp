@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15019,3 +15019,86 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8443-quantum-bridge-shield/29969
 - desc: |
   ステートフルなハッシュベース署名方式において、一度使用した署名鍵の「リーフ」を誤って再利用してしまう脆弱性。これにより、攻撃者が有効な署名を偽造できるようになる可能性があるため、厳格な鍵状態管理が必要とされる。
+
+## Dividend-paying equity token
+- ja: 配当支払い型株式トークン
+- aliases: [Equity token, ERC-20 share token]
+- related: [ERC-20, Dividend asset]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29991
+- auto_source_url: https://ethereum-magicians.org/t/dividend-paying-equity-token/29991
+- desc: |
+  ERC-20標準を実装し、保有者に対して固定された単一の配当資産を、その保有期間と株式保有割合に応じて分配するトークン。配当の会計処理と引き出しメカニズムが定義されている。
+
+## Dividend asset
+- ja: 配当資産
+- related: [Dividend-paying equity token, ETH, ERC-20]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29991
+- auto_source_url: https://ethereum-magicians.org/t/dividend-paying-equity-token/29991
+- desc: |
+  配当支払い型株式トークンによって保有者に分配される資産。構築時に固定され、ETH（アドレス0）または単一のERC-20トークンのいずれかである。
+
+## Reentrancy
+- ja: 再入可能性 (リエントランシー)
+- related: [Smart contract security, Vulnerability]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29991
+- auto_source_url: https://ethereum-magicians.org/t/dividend-paying-equity-token/29991
+- desc: |
+  スマートコントラクトの一般的な脆弱性の一つ。悪意のある外部コントラクトが、呼び出し元のコントラクトの処理が完了する前に再度呼び出しを行い、意図しない状態変更や資金の流出を引き起こす可能性がある。
+
+## Overflow
+- ja: オーバーフロー
+- related: [Underflow, Smart contract security, Vulnerability]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29991
+- auto_source_url: https://ethereum-magicians.org/t/dividend-paying-equity-token/29991
+- desc: |
+  数値計算がデータ型の最大値を超えた場合に発生する脆弱性。スマートコントラクトでは、特にトークン残高や金額の計算において、意図しない大きな値が生じ、資金の損失や不正な操作につながる可能性がある。
+
+## dividendPerShare
+- ja: 1株当たり配当額 (スケール込み)
+- aliases: [Per-share dividend]
+- related: [Dividend-paying equity token, dividendScale, undistributedDividend]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29991
+- auto_source_url: https://ethereum-magicians.org/t/dividend-paying-equity-token/29991
+- desc: |
+  配当支払い型株式トークンにおいて、各株に累積的に割り当てられた配当の価値を示す値。配当スケール（dividendScale）を乗じた形で記録され、未分配の配当を計算する際の基準となる。
+
+## Solver
+- ja: ソルバー
+- related: [User Intent, Intent-based execution]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29989
+- auto_source_url: https://ethereum-magicians.org/t/erc-8420-aa-compatible-solver/29989
+- desc: |
+  ユーザーの意図（User Intent）の実行を調整する汎用的なエンティティ。トランザクションの構築と署名に関するポリシーに従い、既存のスマートウォレットとの後方互換性を保ちながらIntentベースの実行を可能にする。
+
+## User Intent
+- ja: ユーザーインテント
+- related: [Solver, Intent-based execution]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29989
+- auto_source_url: https://ethereum-magicians.org/t/erc-8420-aa-compatible-solver/29989
+- desc: |
+  ユーザーがブロックチェーン上で行いたい操作の意図を抽象的に表現したもの。具体的なトランザクションデータではなく、達成したい結果を記述する。Solverによってこれらの意図が実行される。
+
+## Intent-based execution
+- ja: インテントベース実行
+- related: [Solver, User Intent]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29989
+- auto_source_url: https://ethereum-magicians.org/t/erc-8420-aa-compatible-solver/29989
+- desc: |
+  ユーザーの意図（User Intent）に基づいてトランザクションが構築・実行されるモデル。ユーザーは具体的なトランザクションを直接指定するのではなく、達成したい結果を表明し、Solverなどのシステムがその実現を調整する。
+
+## UserEnvelopeTx
+- ja: ユーザーエンベロープトランザクション
+- related: [envelopeTx, User Intent]
+- auto_added: 2026-10-17
+- auto_source_topic_id: 29989
+- auto_source_url: https://ethereum-magicians.org/t/erc-8420-aa-compatible-solver/29989
+- desc: |
+  ERC-8420で提案される、ユーザーがSolverに提出するオブジェクト。ウォレットの署名済みトランザクションデータを含む`envelopeTx`を格納し、ユーザーの意図をSolverに伝達する役割を果たす。
