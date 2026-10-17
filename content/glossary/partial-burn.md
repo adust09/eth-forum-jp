@@ -4,7 +4,7 @@ aliases:
   - 部分バーン
 tags:
   - glossary
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 **部分バーン**

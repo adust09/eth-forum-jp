@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-10-16'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-17-dividend-paying-equity-token-29991|配当支払い型エクイティトークン]]（2026-10-17）
+- [[posts/magicians-2026-10-16-erc-8420-aa-compatible-solver-29989|ERC-8420: AA互換ソルバー]]（2026-10-16）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 - [[posts/magicians-2026-10-12-eip-editing-office-hour-eip-erc-meeting-116-october-14-2026-29956|EIP編集オフィスアワー (EIP + ERC) ミーティング #116、2026年10月14日]]（2026-10-12）
 - [[posts/magicians-2026-10-11-8415wallet-an-erc-8415-based-wallet-now-available-for-beta-testing-29945|8415Wallet: [[glossary/Asynchronous-Register-Projection-for-NFTs|ERC-8415 (NFTの非同期レジスタプロジェクション)]]ベースのウォレット、ベータテスト版が利用可能に]]（2026-10-11）

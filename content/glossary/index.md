@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -440,6 +440,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Divergence|Divergence]] — ダイバージェンス（意見の相違）
 - [[glossary/Diversity-Weight|Diversity Weight]] — 多様性重み
 - [[glossary/Diversity-Weighted-Byzantine-Fault-Tolerance|Diversity-Weighted Byzantine Fault Tolerance]] — 多様性重み付けビザンチン耐性 (DW-BFT)
+- [[glossary/Dividend-asset|Dividend asset]] — 配当資産
+- [[glossary/Dividend-paying-equity-token|Dividend-paying equity token]] — 配当支払い型株式トークン
+- [[glossary/dividendPerShare|dividendPerShare]] — 1株当たり配当額 (スケール込み)
 - [[glossary/DMQ-framework|DMQ framework]] — DMQフレームワーク
 - [[glossary/DOG-protocol|DOG protocol]] — DOGプロトコル
 - [[glossary/domain-separation|domain separation]] — ドメイン分離
@@ -735,6 +738,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
+- [[glossary/Intent-based-execution|Intent-based execution]] — インテントベース実行
 - [[glossary/intentsolver-layer|intent/solver layer]] — インテント/ソルバー層
 - [[glossary/interface-discovery|interface discovery]] — インターフェース検出
 - [[glossary/Internal-arbitrage|Internal arbitrage]] — 内部アービトラージ
@@ -1001,6 +1005,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ossified|Ossified (status)]] — 骨化済み（ステータス）
 - [[glossary/Outcome-Switching|Outcome Switching]] — アウトカム・スイッチング（結果のすり替え）
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
+- [[glossary/Overflow|Overflow]] — オーバーフロー
 - [[glossary/Own-ordinal-gate|Own-ordinal gate]] — 自己順序ゲート
 - [[glossary/ownerless-contract|ownerless contract]] — オーナーレスコントラクト
 - [[glossary/Ownership-Fragmentation|Ownership Fragmentation]] — 所有権の断片化 (Ownership Fragmentation)
@@ -1194,6 +1199,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/recursive-attenuating-EIP-712-Delegation-Grants|recursive, attenuating EIP-712 Delegation Grants]] — 再帰的減衰型EIP-712委任許可 (EIP-712 Delegation Grants)
 - [[glossary/redirect-rate|redirect rate]] — リダイレクト率
 - [[glossary/ReedSolomon-codes|Reed–Solomon codes]] — リード・ソロモン符号
+- [[glossary/Reentrancy|Reentrancy]] — 再入可能性 (リエントランシー)
 - [[glossary/Referable-NFTs-Authorization|Referable NFTs Authorization]] — 参照可能NFT承認
 - [[glossary/Reference-Commitment|Reference Commitment]] — 参照コミットメント (Reference Commitment)
 - [[glossary/reference-count|reference count]] — 参照カウント
@@ -1357,6 +1363,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Solvency-without-escrow|Solvency without escrow]] — エスクローなしの支払い能力 (SwE)
+- [[glossary/Solver|Solver]] — ソルバー
 - [[glossary/Source-attributed-Runoff|Source-attributed Runoff]] — ソース帰属型ランオフ
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
@@ -1550,6 +1557,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出
 - [[glossary/Update-timing-extraction|Update-timing extraction]] — 更新タイミング抽出
 - [[glossary/Upgradeable-Proxies|Upgradeable Proxies]] — アップグレード可能なプロキシ
+- [[glossary/User-Intent|User Intent]] — ユーザーインテント
+- [[glossary/UserEnvelopeTx|UserEnvelopeTx]] — ユーザーエンベロープトランザクション
 - [[glossary/UTXO-Discovery|UTXO Discovery]] — UTXOディスカバリ
 - [[glossary/UTXO-Proof-Table|UTXO Proof Table]] — UTXOプルーフテーブル (UPT)
 - [[glossary/UUPS-Proxy|UUPS Proxy]] — UUPSプロキシ

@@ -4,7 +4,7 @@ aliases:
   - 課題（ACDF）
 tags:
   - glossary
-date: '2026-10-16'
+date: '2026-10-17'
 ---
 
 **課題（ACDF）**
