@@ -5,7 +5,7 @@ aliases:
   - Elliptic Curve Diffie-Hellman
 tags:
   - glossary
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 **楕円曲線ディフィー・ヘルマン鍵共有 (ECDH)**
@@ -19,7 +19,7 @@ date: '2026-10-17'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 
 ## 元の表記（英語）
 

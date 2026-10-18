@@ -5,7 +5,7 @@ aliases:
   - SCRNNs
 tags:
   - glossary
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 **化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)**

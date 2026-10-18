@@ -5,7 +5,7 @@ aliases:
   - KEM
 tags:
   - glossary
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 **鍵カプセル化メカニズム (KEM)**
@@ -20,6 +20,7 @@ date: '2026-10-17'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
 
 ## 元の表記（英語）

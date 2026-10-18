@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-17
+last_updated: 2026-10-18
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15102,3 +15102,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8420-aa-compatible-solver/29989
 - desc: |
   ERC-8420で提案される、ユーザーがSolverに提出するオブジェクト。ウォレットの署名済みトランザクションデータを含む`envelopeTx`を格納し、ユーザーの意図をSolverに伝達する役割を果たす。
+
+## Post-Quantum Stateless Steganography
+- ja: 量子耐性ステートレス・ステガノグラフィ
+- related: [Post-Quantum Cryptography, Censorship Resistance, Steganography]
+- auto_added: 2026-10-18
+- auto_source_topic_id: 29995
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
+- desc: |
+  量子コンピュータ時代において、P2P通信の検閲耐性を維持するために提案された、状態を持たないステガノグラフィ技術。通信内容を隠蔽し、検閲者が通信自体を識別・ブロックすることを困難にする。
+
+## Modulo Bias Invariant
+- ja: モジュロバイアス不変量
+- related: [Lattice-based Cryptography, ML-KEM, Deep Packet Inspection]
+- auto_added: 2026-10-18
+- auto_source_topic_id: 29995
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
+- desc: |
+  格子ベースの鍵交換メカニズム（KEM）が素数モジュラス（q ≠ 2^k）を使用する際に発生する、暗号文の統計的バイアス。このバイアスは、情報理論的な観点からディープパケットインスペクション（DPI）による識別を可能にし、検閲耐性を損なう。
+
+## MTU Fragmentation Trap
+- ja: MTUフラグメンテーション・トラップ
+- related: [MTU, DoS Attack, P2P Protocols]
+- auto_added: 2026-10-18
+- auto_source_topic_id: 29995
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
+- desc: |
+  ポスト量子暗号のペイロードサイズがネットワークの最大転送単位（MTU）を超過し、IP/UDPフラグメンテーションを引き起こす問題。これにより、状態を持つIP/UDP再構成バッファの割り当てが必要となり、メモリ枯渇DoS攻撃やマルチパケットのフィンガープリントによる識別が可能になる。
+
+## Algebraic Uniformization
+- ja: 代数的均一化
+- related: [Learning With Rounding (LWR), Inverse Rejection Sampling, Steganography]
+- auto_added: 2026-10-18
+- auto_source_topic_id: 29995
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
+- desc: |
+  素数モジュラスで生成された暗号文を、統計的に均一なビット列に変換する技術。Learning With Rounding (LWR)格子や逆棄却サンプリングを利用し、暗号文の統計的バイアスを排除することで、サイドチャネル攻撃やDPIによる識別を防ぐ。
+
+## Sub-MTU 0-RTT Envelope Architectures
+- ja: サブMTU 0-RTTエンベロープアーキテクチャ
+- related: [0-RTT, MTU Fragmentation Trap, Post-Quantum Cryptography]
+- auto_added: 2026-10-18
+- auto_source_topic_id: 29995
+- auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
+- desc: |
+  ネットワークの最大転送単位（MTU）以下に収まるように設計された、0-RTT（ラウンドトリップタイムなし）のポスト量子暗号エンベロープ。フラグメンテーションを回避し、ネットワーク効率とセキュリティを向上させることで、DoS攻撃耐性と検閲耐性を高める。

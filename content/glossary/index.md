@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -83,6 +83,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/AID-Document|AID Document]] — AIDドキュメント
+- [[glossary/Algebraic-Uniformization|Algebraic Uniformization]] — 代数的均一化
 - [[glossary/All-Core-Devs-Consensus|All Core Devs - Consensus]] — オールコア開発者会議 - コンセンサス
 - [[glossary/All-Core-Devs-Execution|All Core Devs - Execution]] — All Core Devs - Execution (ACDE)
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
@@ -895,7 +896,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/Module|Module]] — モジュール
 - [[glossary/Module-Activation-System|Module Activation System]] — モジュールアクティベーションシステム (MAS)
+- [[glossary/Modulo-Bias-Invariant|Modulo Bias Invariant]] — モジュロバイアス不変量
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
+- [[glossary/MTU-Fragmentation-Trap|MTU Fragmentation Trap]] — MTUフラグメンテーション・トラップ
 - [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
 - [[glossary/Multi-block-Access-List-Warming|Multi-block Access List Warming]] — マルチブロック・アクセスリスト・ウォーミング
 - [[glossary/Multi-dimensional-metering|Multi-dimensional metering]] — 多次元メータリング
@@ -1088,6 +1091,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-quantum-migration|Post-quantum migration]] — ポスト量子移行
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
 - [[glossary/post-quantum-signatures|post-quantum signatures]] — 量子耐性署名 (post-quantum signatures)
+- [[glossary/Post-Quantum-Stateless-Steganography|Post-Quantum Stateless Steganography]] — 量子耐性ステートレス・ステガノグラフィ
 - [[glossary/Post-quantum-switch|Post-quantum switch]] — ポスト量子スイッチ
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
@@ -1433,6 +1437,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
 - [[glossary/Structural-OEV-Elimination|Structural OEV Elimination]] — 構造的OEV排除 (Oracle Extractable Value排除)
 - [[glossary/Structured-Evidence-Review|Structured Evidence Review]] — 構造化された証拠レビュー
+- [[glossary/Sub-MTU-0-RTT-Envelope-Architectures|Sub-MTU 0-RTT Envelope Architectures]] — サブMTU 0-RTTエンベロープアーキテクチャ
 - [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)

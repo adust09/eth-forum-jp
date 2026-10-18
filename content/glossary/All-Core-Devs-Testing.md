@@ -5,7 +5,7 @@ aliases:
   - ACDT
 tags:
   - glossary
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 **全コア開発者会議 - テスト (ACDT)**
