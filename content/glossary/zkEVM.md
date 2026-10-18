@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-10-17'
+date: '2026-10-18'
 ---
 
 **zkEVM (ゼロ知識イーサリアム仮想マシン)**
