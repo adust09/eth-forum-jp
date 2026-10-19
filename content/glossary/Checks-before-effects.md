@@ -4,7 +4,7 @@ aliases:
   - 事前チェック・事後効果（Checks-before-effects）
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **事前チェック・事後効果（Checks-before-effects）**

@@ -6,7 +6,7 @@ aliases:
   - Snappy-stream
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **ゴシップストリーム圧縮（コンテキスト付き）**

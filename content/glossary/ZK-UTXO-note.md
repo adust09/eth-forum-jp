@@ -5,7 +5,7 @@ aliases:
   - note
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **ZK-UTXOノート**

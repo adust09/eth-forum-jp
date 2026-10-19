@@ -4,7 +4,7 @@ aliases:
   - Informed Diffusion（インフォームド・ディフュージョン）
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **Informed Diffusion（インフォームド・ディフュージョン）**
