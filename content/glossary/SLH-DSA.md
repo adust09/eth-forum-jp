@@ -6,7 +6,7 @@ aliases:
   - FIPS 205
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **SLH-DSA (SPHINCS+)**

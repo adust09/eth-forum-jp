@@ -4,7 +4,7 @@ aliases:
   - IRegisterProjection（レジスタプロジェクションインターフェース）
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **IRegisterProjection（レジスタプロジェクションインターフェース）**

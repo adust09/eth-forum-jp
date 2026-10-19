@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -482,6 +482,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-8411|EIP-8411]] — EIP-8411
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/eISA|eISA]] — eISA (Ethereum Instruction Set Architecture)
+- [[glossary/Eligibility-Module|Eligibility Module]] — 適格性モジュール
 - [[glossary/Elligator-Squared|Elligator Squared]] — エリゲーター・スクエアード
 - [[glossary/embedded-wallets|embedded wallets]] — 組み込み型ウォレット
 - [[glossary/eMBER|eMBER]] — eMBER (ePBS実行報酬強制焼却)
@@ -1093,6 +1094,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/post-quantum-signatures|post-quantum signatures]] — 量子耐性署名 (post-quantum signatures)
 - [[glossary/Post-Quantum-Stateless-Steganography|Post-Quantum Stateless Steganography]] — 量子耐性ステートレス・ステガノグラフィ
 - [[glossary/Post-quantum-switch|Post-quantum switch]] — ポスト量子スイッチ
+- [[glossary/Posture|Posture (Swarm AI)]] — ポスチャー (Swarm AI)
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
 - [[glossary/pq-account|pq-account]] — 量子耐性アカウント (pq-account)
@@ -1449,6 +1451,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/Sumcheck-degree|Sumcheck degree]] — Sumcheck次数
 - [[glossary/supernodes|supernodes]] — スーパーノード
+- [[glossary/Swarm|Swarm]] — スウォーム (AIエージェント)
+- [[glossary/Swarm-Pack|Swarm Pack]] — スウォームパック (Swarm Pack)
+- [[glossary/SwarmSpec|SwarmSpec]] — スウォーム仕様 (SwarmSpec)
 - [[glossary/Sybil-attacks|Sybil attacks]] — Sybil攻撃
 - [[glossary/Sybil-Boundary|Sybil Boundary]] — シビル境界
 - [[glossary/Sybil-identity|Sybil identity]] — シビルアイデンティティ

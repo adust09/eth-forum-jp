@@ -4,7 +4,7 @@ aliases:
   - 不足履歴
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **不足履歴**

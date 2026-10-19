@@ -4,7 +4,7 @@ aliases:
   - 範囲限定BSGS離散対数 (Bounded BSGS discrete log)
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **範囲限定BSGS離散対数 (Bounded BSGS discrete log)**

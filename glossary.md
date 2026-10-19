@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-18
+last_updated: 2026-10-19
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15147,3 +15147,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks/29995
 - desc: |
   ネットワークの最大転送単位（MTU）以下に収まるように設計された、0-RTT（ラウンドトリップタイムなし）のポスト量子暗号エンベロープ。フラグメンテーションを回避し、ネットワーク効率とセキュリティを向上させることで、DoS攻撃耐性と検閲耐性を高める。
+
+## Swarm
+- ja: スウォーム (AIエージェント)
+- related: [Autonomous Agent]
+- auto_added: 2026-10-19
+- auto_source_topic_id: 29998
+- auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
+- desc: |
+  目的、メンバーシップ境界、達成ルール、協調構造が明示された、オンチェーンオブジェクトとして記録される自律エージェントの集合体です。このERC-8447で提案されています。
+
+## SwarmSpec
+- ja: スウォーム仕様 (SwarmSpec)
+- related: [Swarm]
+- auto_added: 2026-10-19
+- auto_source_topic_id: 29998
+- auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
+- desc: |
+  Swarmの実行される側面（役割、フェーズ、権限、活性化ルールなど）を定義する構造体です。形成時にハッシュ化され固定されます。
+
+## Swarm Pack
+- ja: スウォームパック (Swarm Pack)
+- related: [Swarm]
+- auto_added: 2026-10-19
+- auto_source_topic_id: 29998
+- auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
+- desc: |
+  Swarmの記述される側面（憲章テキスト、目的記述子、割り当てルール、リソースマニフェストなど）を定義するオフチェーンオブジェクトです。バージョン管理されます。
+
+## Posture (Swarm AI)
+- ja: ポスチャー (Swarm AI)
+- related: [Swarm]
+- auto_added: 2026-10-19
+- auto_source_topic_id: 29998
+- auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
+- desc: |
+  Swarmの各フェーズにおける動作モードや構造を記述する座標です。境界、参加、報酬、トポロジー、協調などの次元で構成され、レジストリによって管理される用語として宣言されます。
+
+## Eligibility Module
+- ja: 適格性モジュール
+- related: [Swarm, Autonomous Agent]
+- auto_added: 2026-10-19
+- auto_source_topic_id: 29998
+- auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
+- desc: |
+  Swarmのメンバーが特定の役割や参加条件を満たしているかを判断するためのモジュールです。オンチェーンレジストリからライブで読み取られる述語として機能します。

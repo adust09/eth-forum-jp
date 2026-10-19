@@ -5,7 +5,7 @@ aliases:
   - WOTS+
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **ウィンターニッツ・ワンタイム署名 (WOTS+)**

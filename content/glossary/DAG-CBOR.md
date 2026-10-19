@@ -4,7 +4,7 @@ aliases:
   - DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)
 tags:
   - glossary
-date: '2026-10-18'
+date: '2026-10-19'
 ---
 
 **DAG-CBOR (Directed Acyclic Graph - Concise Binary Object Representation)**
