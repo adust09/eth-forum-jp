@@ -6,7 +6,7 @@ aliases:
     Surface)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **AA-VOPS状態空間 (Account Abstraction Validity-Only Partial Statelessness State Surface)**

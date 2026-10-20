@@ -4,7 +4,7 @@ aliases:
   - 三者承認
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **三者承認**

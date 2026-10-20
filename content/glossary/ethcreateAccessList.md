@@ -4,7 +4,7 @@ aliases:
   - eth_createAccessList (アクセスリスト作成RPC)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **eth_createAccessList (アクセスリスト作成RPC)**
@@ -19,7 +19,7 @@ EIP-2930で導入されたトランザクションのアクセスリストを生
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-19-rpc-standards-37-october-19-2026-30008|RPC標準 #37、2026年10月19日]]（2026-10-19）
 
 ## 元の表記（英語）
 

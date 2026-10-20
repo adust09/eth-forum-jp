@@ -4,7 +4,7 @@ aliases:
   - セグメント化された拡散 (Segmented diffusion)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **セグメント化された拡散 (Segmented diffusion)**

@@ -5,7 +5,7 @@ aliases:
   - Smart Contract Account
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **スマートアカウント**
@@ -19,6 +19,7 @@ date: '2026-10-19'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-idea-unified-wallet-aggregator-with-multi-token-gas-payment-30013|アイデア：マルチトークンガス支払い対応の統合ウォレットアグリゲーター]]（2026-10-20）
 - [[posts/magicians-2026-10-16-erc-8420-aa-compatible-solver-29989|ERC-8420: AA互換ソルバー]]（2026-10-16）
 - [[posts/magicians-2026-09-29-module-making-governed-state-discipline-state-authority-transitions-invariants-reusable-across-nft-capabilities-instead-of-reinvented-per-erc-29797|モジュール：NFT機能全体で再利用可能な統制状態の規律（状態、権限、遷移、不変条件）を構築する]]（2026-09-29）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）

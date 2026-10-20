@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -183,6 +183,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Blind-Session|Blind Session]] — ブラインドセッション
 - [[glossary/blind-signing|blind signing]] — ブラインド署名
 - [[glossary/blob|blob]] — ブロブ
+- [[glossary/blobVersionedHashes|blobVersionedHashes]] — ブロブバージョン付きハッシュ
 - [[glossary/Block-Access-List-Byte-Floor|Block Access List Byte Floor]] — ブロックアクセスリストのバイトフロア
 - [[glossary/Block-Building|Block Building]] — ブロック構築
 - [[glossary/Block-Ordering|Block Ordering]] — ブロック順序付け
@@ -192,6 +193,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/BLOCKHASH|BLOCKHASH]] — BLOCKHASH (オペコード)
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
+- [[glossary/BlockOverrides|BlockOverrides]] — ブロックオーバーライド
 - [[glossary/blocks-in-blobs|blocks-in-blobs]] — ブロック・イン・ブロブ (blocks-in-blobs)
 - [[glossary/Blockspace-Demand|Blockspace Demand]] — ブロック空間需要
 - [[glossary/Bloom-Filter|Bloom Filter]] — ブルームフィルター
@@ -301,6 +303,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/compliance-frozen-root|compliance frozen root]] — コンプライアンス凍結ルート
 - [[glossary/Compliance-Oracle|Compliance Oracle]] — コンプライアンスオラクル
 - [[glossary/Composition|Composition]] — 構成（ACDF）
+- [[glossary/Computational-Opcodes|Computational Opcodes]] — 計算オペコード
+- [[glossary/Computational-Unit|Computational Unit]] — 計算単位
 - [[glossary/Computed-versus-Judged|Computed versus Judged]] — 計算による検証と判断による検証
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/Concentration-sensitive-economics|Concentration-sensitive economics]] — 集中度感応型経済学
@@ -352,6 +356,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/counterfactual-replay|counterfactual replay]] — 反実仮想リプレイ
 - [[glossary/Counterfactual-Transaction|Counterfactual Transaction]] — 反実仮想トランザクション
 - [[glossary/Coupling-Breadth|Coupling Breadth]] — 結合の広さ (Coupling Breadth)
+- [[glossary/CPCU|CPCU]] — CPCU（計算単位あたりのコスト）
 - [[glossary/CPSB|CPSB]] — CPSB (ステートバイトあたりのコスト)
 - [[glossary/Creation-frame|Creation frame]] — 作成フレーム
 - [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
@@ -631,6 +636,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/FORS|FORS]] — FORS（フォレスト・オブ・ランダム・サブセット）
 - [[glossary/Forward-compatible-consensus-data-structures|Forward compatible consensus data structures]] — 前方互換性のあるコンセンサスデータ構造
 - [[glossary/Four-valued-semantics|Four-valued semantics]] — 四値セマンティクス
+- [[glossary/Frame-reverts|Frame reverts]] — フレームリバート
 - [[glossary/Frame-Transactions|Frame Transactions]] — フレームトランザクション (Frame Transactions)
 - [[glossary/Frame-type|Frame type]] — フレームタイプ
 - [[glossary/Frames|Frames]] — フレーム (アカウント抽象化デザイン)
@@ -910,6 +916,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
 - [[glossary/Multi-Scalar-Multiplication|Multi-Scalar Multiplication]] — 多点スカラー乗算 (MSM)
 - [[glossary/Multi-signal-feedback-loop|Multi-signal feedback loop]] — マルチシグナルフィードバックループ
+- [[glossary/Multi-Token-Gas-Payment|Multi-Token Gas Payment]] — マルチトークンガス支払い
 - [[glossary/Multidimensional-fee-market|Multidimensional fee market]] — 多次元手数料市場
 - [[glossary/Multisig|Multisig]] — マルチシグ（マルチシグネチャ）
 - [[glossary/Mutualized-risk-pools|Mutualized risk pools]] — 相互化されたリスクプール
@@ -980,6 +987,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/One-way-state|One-way state]] — 一方向状態
 - [[glossary/online-migration|online migration]] — オンライン移行
 - [[glossary/Opaque-Domain|Opaque Domain]] — 不透明ドメイン (Opaque Domain)
+- [[glossary/Opcode-tracer|Opcode tracer]] — オペコードトレーサー
 - [[glossary/Open-Projection-Gap|Open Projection Gap]] — オープンプロジェクションギャップ
 - [[glossary/openings-root|openings root]] — オープニングルート
 - [[glossary/Operation-Restriction-Policy|Operation Restriction Policy]] — 操作制限ポリシー
@@ -1021,6 +1029,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
 - [[glossary/Parametric-Token|Parametric Token]] — パラメトリックトークン
+- [[glossary/Parity-trace-APIs|Parity trace APIs]] — ParityトレースAPI
 - [[glossary/partial-burn|partial burn]] — 部分バーン
 - [[glossary/Partial-Decoder-Box|Partial Decoder Box]] — 部分復号器ボックス
 - [[glossary/Partial-Execution-Payload-Commitments|Partial Execution Payload Commitments]] — 部分的実行ペイロードコミットメント
@@ -1035,6 +1044,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/payload-envelope|payload envelope]] — ペイロードエンベロープ
 - [[glossary/payloadchunksroot|payload_chunks_root]] — ペイロードチャンクルート
 - [[glossary/Payload-Timeliness-Committee|Payload-Timeliness Committee]] — ペイロード適時性委員会
+- [[glossary/Paymaster|Paymaster]] — ペイマスター
 - [[glossary/Payment-imputation|Payment imputation]] — 支払い充当 (オンチェーン)
 - [[glossary/Payment-Route|Payment Route]] — 支払い経路
 - [[glossary/PaymentStatus|PaymentStatus (IBond enum)]] — 支払いステータス (IBond enum)
@@ -1087,6 +1097,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-Quantum-transaction-signature|Post Quantum transaction signature]] — ポスト量子トランザクション署名 (PQTS)
 - [[glossary/Post-consumption-falsifiability|Post-consumption falsifiability]] — 消費後反証可能性 (Post-consumption falsifiability)
 - [[glossary/Post-Quantum|Post-Quantum]] — ポスト量子 (PQ)
+- [[glossary/Post-quantum-binary-field-SNARK|Post-quantum binary-field SNARK]] — ポスト量子バイナリフィールドSNARK
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Post-Quantum-Key|Post-Quantum Key]] — 耐量子鍵
 - [[glossary/Post-quantum-migration|Post-quantum migration]] — ポスト量子移行
@@ -1197,6 +1208,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Recomputable-Verification-Receipts|Recomputable Verification Receipts]] — 再計算可能な検証レシート
 - [[glossary/Recomputation-status|Recomputation status]] — 再計算ステータス (Recomputation status)
 - [[glossary/reconstruction-duty|reconstruction duty]] — 再構築義務
+- [[glossary/Recovery-protocol|Recovery protocol]] — リカバリプロトコル
+- [[glossary/Recovery-verifier|Recovery verifier]] — リカバリ検証者
 - [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
 - [[glossary/recursive-proof|recursive proof]] — 再帰的証明
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
@@ -1364,6 +1377,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Smart-Contract-Emergency-States|Smart Contract Emergency States]] — スマートコントラクト緊急状態
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
 - [[glossary/Smart-Contract-Oriented-Programming|Smart Contract Oriented Programming]] — スマートコントラクト指向プログラミング
+- [[glossary/Smart-Wallet|Smart Wallet]] — スマートウォレット
 - [[glossary/soft-consensus|soft consensus]] — ソフトコンセンサス
 - [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング
@@ -1427,6 +1441,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Steganographic-Point-Obfuscation|Steganographic Point Obfuscation]] — ステガノグラフィック点難読化
+- [[glossary/Stepwise-approach|Stepwise approach]] — ステップワイズアプローチ
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
 - [[glossary/Stoichiometry-Constrained-Recurrent-Neural-Networks|Stoichiometry-Constrained Recurrent Neural Networks]] — 化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
@@ -1526,6 +1541,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Trailing-Window-Cap|Trailing-Window Cap]] — トレーリングウィンドウ・キャップ
 - [[glossary/Traitor-Tracing|Traitor Tracing]] — トレイター・トレーシング（裏切り者追跡）
 - [[glossary/transaction-assertions|transaction assertions]] — トランザクションアサーション
+- [[glossary/Transaction-Batching|Transaction Batching]] — トランザクションバッチ処理
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
@@ -1608,6 +1624,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/VWU|VWU]] — VWU (Vote Weight Unit)
 - [[glossary/Waggle-protocol|Waggle protocol]] — ワグルプロトコル (Waggle protocol)
 - [[glossary/Wagon|Wagon]] — ワゴン (役割)
+- [[glossary/Wallet-Aggregator|Wallet Aggregator]] — ウォレットアグリゲーター
 - [[glossary/Wallet-Call-Gas-Limit-Override-Capability|Wallet Call Gas Limit Override Capability]] — ウォレットコールガス制限上書き機能
 - [[glossary/Wallet-Pass-Extension-for-NFTs|Wallet Pass Extension for NFTs]] — NFT向けウォレットパス拡張
 - [[glossary/Wallet-Title-Deeds|Wallet Title Deeds]] — ウォレット所有権証書

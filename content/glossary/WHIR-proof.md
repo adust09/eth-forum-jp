@@ -4,7 +4,7 @@ aliases:
   - WHIR証明
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **WHIR証明**

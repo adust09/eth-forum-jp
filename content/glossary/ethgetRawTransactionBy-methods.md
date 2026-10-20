@@ -4,7 +4,7 @@ aliases:
   - eth_getRawTransactionBy* メソッド
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **eth_getRawTransactionBy* メソッド**

@@ -5,7 +5,7 @@ aliases:
   - ERC-8443
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **量子ブリッジシールド**

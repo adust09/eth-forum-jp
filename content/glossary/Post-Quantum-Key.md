@@ -5,7 +5,7 @@ aliases:
   - PQ Key
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **耐量子鍵**

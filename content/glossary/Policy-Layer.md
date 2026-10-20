@@ -4,7 +4,7 @@ aliases:
   - ポリシー層
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **ポリシー層**
