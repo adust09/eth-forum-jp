@@ -5,7 +5,7 @@ aliases:
   - DS
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **分散型ステート**

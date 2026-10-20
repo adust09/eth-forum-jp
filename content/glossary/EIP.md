@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-idea-unified-wallet-aggregator-with-multi-token-gas-payment-30013|アイデア：マルチトークンガス支払い対応の統合ウォレットアグリゲーター]]（2026-10-20）
+- [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）
 - [[posts/magicians-2026-10-17-dividend-paying-equity-token-29991|配当支払い型エクイティトークン]]（2026-10-17）
 - [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）

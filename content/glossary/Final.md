@@ -4,7 +4,7 @@ aliases:
   - ファイナル (EIP/ERC)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **ファイナル (EIP/ERC)**

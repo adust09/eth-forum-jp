@@ -4,7 +4,7 @@ aliases:
   - EVM64命令セット
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **EVM64命令セット**

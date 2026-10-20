@@ -4,7 +4,7 @@ aliases:
   - PropAMM (プロップAMM)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **PropAMM (プロップAMM)**

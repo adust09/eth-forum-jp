@@ -4,7 +4,7 @@ aliases:
   - FHE計算検証 (Fully Homomorphic Encryption 計算検証)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **FHE計算検証 (Fully Homomorphic Encryption 計算検証)**
@@ -19,6 +19,7 @@ date: '2026-10-19'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）
 - [[posts/magicians-2026-10-12-eip-editing-office-hour-eip-erc-meeting-116-october-14-2026-29956|EIP編集オフィスアワー (EIP + ERC) ミーティング #116、2026年10月14日]]（2026-10-12）
 
 ## 元の表記（英語）

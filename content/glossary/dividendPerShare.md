@@ -5,7 +5,7 @@ aliases:
   - Per-share dividend
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **1株当たり配当額 (スケール込み)**

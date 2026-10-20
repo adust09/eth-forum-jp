@@ -4,7 +4,7 @@ aliases:
   - 証明プロファイル (Proof Profile)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **証明プロファイル (Proof Profile)**

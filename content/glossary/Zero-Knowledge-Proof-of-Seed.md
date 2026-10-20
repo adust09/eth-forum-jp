@@ -4,7 +4,7 @@ aliases:
   - シードのゼロ知識証明 (Zero Knowledge Proof of Seed)
 tags:
   - glossary
-date: '2026-10-19'
+date: '2026-10-20'
 ---
 
 **シードのゼロ知識証明 (Zero Knowledge Proof of Seed)**

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-19
+last_updated: 2026-10-20
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15192,3 +15192,159 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8447-swarm-ai-framework/29998
 - desc: |
   Swarmのメンバーが特定の役割や参加条件を満たしているかを判断するためのモジュールです。オンチェーンレジストリからライブで読み取られる述語として機能します。
+
+## Post-quantum binary-field SNARK
+- ja: ポスト量子バイナリフィールドSNARK
+- related: [SNARK, Flock, Post-quantum cryptography]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 26163
+- auto_source_url: https://ethresear.ch/t/faster-aggregatable-and-quantum-safe-privacy-pools/26163
+- desc: |
+  量子コンピュータの攻撃に耐性を持つように設計された、バイナリフィールド上で動作するゼロ知識簡潔非対話型知識証明（SNARK）。Flockはこのカテゴリに属する。
+
+## Recovery protocol
+- ja: リカバリプロトコル
+- related: [Privacy pool, Post-quantum cryptography, Tornado Cash]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 26163
+- auto_source_url: https://ethresear.ch/t/faster-aggregatable-and-quantum-safe-privacy-pools/26163
+- desc: |
+  量子コンピュータによる暗号解読の脅威からプライバシープールを保護するための手順。ユーザーがシードからノートシークレットを導出することで、将来的にポスト量子証明システムで再証明可能にする。
+
+## Recovery verifier
+- ja: リカバリ検証者
+- related: [Recovery protocol, Privacy pool, zkSNARK]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 26163
+- auto_source_url: https://ethresear.ch/t/faster-aggregatable-and-quantum-safe-privacy-pools/26163
+- desc: |
+  プライバシープールが量子攻撃の脅威に直面し凍結された後、ユーザーが資産を引き出す際に、ポスト量子zkSNARKを用いて引き出しの正当性を検証するエンティティ。
+
+## Stepwise approach
+- ja: ステップワイズアプローチ
+- related: [Flock, Circuit design, SHA-256 compression]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 26163
+- auto_source_url: https://ethresear.ch/t/faster-aggregatable-and-quantum-safe-privacy-pools/26163
+- desc: |
+  Flockにおける回路設計手法の一つ。単一の大きな回路ではなく、小さな回路の多数の呼び出しを証明することで、SNARKの証明生成性能を大幅に向上させる。
+
+## Paymaster
+- ja: ペイマスター
+- related: [Account Abstraction, Smart Wallet]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30013
+- auto_source_url: https://ethereum-magicians.org/t/idea-unified-wallet-aggregator-with-multi-token-gas-payment/30013
+- desc: |
+  アカウント抽象化（EIP-4337）において、ユーザーに代わってガス料金を支払うスマートコントラクト。これにより、ユーザーはETH以外のERC-20トークンでガス料金を支払うことが可能になる。
+
+## Transaction Batching
+- ja: トランザクションバッチ処理
+- related: [Gas Reduction, Rollup]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30013
+- auto_source_url: https://ethereum-magicians.org/t/idea-unified-wallet-aggregator-with-multi-token-gas-payment/30013
+- desc: |
+  複数のトランザクションを一つにまとめて処理する技術。これにより、個々のトランザクションのガスオーバーヘッドを削減し、全体的なガスコストを低減できる。
+
+## Multi-Token Gas Payment
+- ja: マルチトークンガス支払い
+- related: [Paymaster, ERC-20]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30013
+- auto_source_url: https://ethereum-magicians.org/t/idea-unified-wallet-aggregator-with-multi-token-gas-payment/30013
+- desc: |
+  ユーザーがETH以外の様々なERC-20トークンを使用して、トランザクションのガス料金を支払うことを可能にする機能。ペイマスターメカニズムによって実現されることが多い。
+
+## Wallet Aggregator
+- ja: ウォレットアグリゲーター
+- aliases: [Unified Wallet Aggregator]
+- related: [Smart Wallet]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30013
+- auto_source_url: https://ethereum-magicians.org/t/idea-unified-wallet-aggregator-with-multi-token-gas-payment/30013
+- desc: |
+  複数の異なるウォレットやアカウントの資産、活動、トランザクション履歴を単一のインターフェースで統合管理するプラットフォームまたはプロトコル。ユーザーエクスペリエンスの向上を目的とする。
+
+## Smart Wallet
+- ja: スマートウォレット
+- related: [Account Abstraction, Paymaster]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30013
+- auto_source_url: https://ethereum-magicians.org/t/idea-unified-wallet-aggregator-with-multi-token-gas-payment/30013
+- desc: |
+  スマートコントラクトによって制御されるウォレット。アカウント抽象化の概念に基づき、柔軟な認証ロジックやガス支払い方法、バッチ処理などの高度な機能を提供する。
+
+## Parity trace APIs
+- ja: ParityトレースAPI
+- related: [tracecall, debug_tracecall, calltracer]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30008
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-37-october-19-2026/30008
+- desc: |
+  Parityクライアントに由来し、現在標準化が進められている一連のRPCトレースAPI。EVMの実行フローや状態変化を詳細に追跡するために使用される。
+
+## Opcode tracer
+- ja: オペコードトレーサー
+- related: [EVM, debug_tracecall, calltracer]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30008
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-37-october-19-2026/30008
+- desc: |
+  EVMの実行を個々のオペコードレベルで追跡するためのツールまたは機能。デバッグやスマートコントラクトの挙動分析に用いられる。
+
+## Frame reverts
+- ja: フレームリバート
+- related: [call frame, creation frame, revert]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30008
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-37-october-19-2026/30008
+- desc: |
+  EVMの実行において、特定のコールまたは作成フレームがエラーにより状態変更を元に戻すこと。デバッグ時に重要な挙動を示す。
+
+## BlockOverrides
+- ja: ブロックオーバーライド
+- related: [RPC, simulation]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30008
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-37-october-19-2026/30008
+- desc: |
+  Ethereum RPCメソッドにおいて、トランザクションのシミュレーションやテストのために、ブロックヘッダーの特定のフィールド（例: prevRandao）を一時的に上書きするためのパラメータ。
+
+## blobVersionedHashes
+- ja: ブロブバージョン付きハッシュ
+- related: [blob, EIP-4844, transaction]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30008
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-37-october-19-2026/30008
+- desc: |
+  EIP-4844で導入されたトランザクションペイロード内のフィールドで、関連するデータブロブのバージョン付きハッシュの配列を含む。ブロブトランザクションの識別と検証に用いられる。
+
+## CPCU
+- ja: CPCU（計算単位あたりのコスト）
+- aliases: [Cost Per Computational Unit]
+- related: [Common Computational Gas Scaling Factor, Computational Opcodes, Computational Unit, Gas Costs, EIP-8445]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30002
+- auto_source_url: https://ethereum-magicians.org/t/eip-8445-common-computational-gas-scaling-factor/30002
+- desc: |
+  EIP-8445で導入された、EVMにおける計算オペコードのガス価格を決定するための共通スケーリングファクター。これにより、計算オペコードの相対的なガスコストを維持しつつ、絶対的なガス価格をハードフォークごとに調整することが可能になる。
+
+## Computational Opcodes
+- ja: 計算オペコード
+- related: [EVM, Opcode, Gas Costs, CPCU]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30002
+- auto_source_url: https://ethereum-magicians.org/t/eip-8445-common-computational-gas-scaling-factor/30002
+- desc: |
+  Ethereum Virtual Machine (EVM) 内で計算処理を実行するオペコードのカテゴリ。EIP-8445では、これらのオペコードのガス価格を共通スケーリングファクターCPCUによって調整することで、スケーリングの柔軟性を高める。
+
+## Computational Unit
+- ja: 計算単位
+- aliases: [CU]
+- related: [CPCU, Computational Opcodes, Gas Costs]
+- auto_added: 2026-10-20
+- auto_source_topic_id: 30002
+- auto_source_url: https://ethereum-magicians.org/t/eip-8445-common-computational-gas-scaling-factor/30002
+- desc: |
+  EIP-8445で導入された、EVMにおける計算処理の量を測るための単位（CU）。CPCUはこの計算単位あたりのガスコストを定義し、計算リソースの価格設定を抽象化する。
