@@ -4,7 +4,7 @@ aliases:
   - 準同型集計 (Homomorphic tallying)
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **準同型集計 (Homomorphic tallying)**

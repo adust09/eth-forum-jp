@@ -4,7 +4,7 @@ aliases:
   - 賄賂攻撃
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **賄賂攻撃**

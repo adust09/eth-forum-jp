@@ -5,7 +5,7 @@ aliases:
   - ETL
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **イーサリアム透明性レイヤー (ETL)**

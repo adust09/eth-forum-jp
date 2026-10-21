@@ -4,7 +4,7 @@ aliases:
   - engine_forkchoiceUpdated (Engine APIメソッド)
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **engine_forkchoiceUpdated (Engine APIメソッド)**
@@ -20,7 +20,7 @@ Execution Layer (EL)クライアントがConsensus Layer (CL)クライアント�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 
 ## 元の表記（英語）
 
