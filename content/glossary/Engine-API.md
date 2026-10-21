@@ -4,7 +4,7 @@ aliases:
   - エンジンAPI
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **エンジンAPI**
@@ -18,6 +18,7 @@ EthereumのExecution LayerクライアントとConsensus Layerクライアント
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/magicians-2026-10-19-rpc-standards-37-october-19-2026-30008|RPC標準 #37、2026年10月19日]]（2026-10-19）
 - [[posts/magicians-2026-08-12-eip-0000-top-up-sync-29405|EIP-0000: トップアップ同期]]（2026-08-12）
 - [[posts/magicians-2026-07-22-ssz-engine-api-call-3-july-24-2026-29060|SSZエンジンAPIコール 3、2026年7月24日]]（2026-07-22）

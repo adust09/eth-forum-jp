@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15348,3 +15348,277 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8445-common-computational-gas-scaling-factor/30002
 - desc: |
   EIP-8445で導入された、EVMにおける計算処理の量を測るための単位（CU）。CPCUはこの計算単位あたりのガスコストを定義し、計算リソースの価格設定を抽象化する。
+
+## ERC-8451
+- ja: ERC-8451
+- related: [ERC-6982, Lockable Tokens, Permanent Locks]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30030
+- auto_source_url: https://ethereum-magicians.org/t/erc-8451-permanent-locks-for-lockable-tokens-erc-6982-extension/30030
+- desc: |
+  ERC-6982を拡張し、トークンに永続的なロック機能を追加するEthereum Improvement Proposal。これにより、マーケットプレイスやウォレットは一時的な取引停止と永続的に譲渡不可能なコレクションを区別できるようになります。
+
+## Lockable Tokens
+- ja: ロック可能なトークン
+- related: [ERC-6982, ERC-8451, Permanent Locks]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30030
+- auto_source_url: https://ethereum-magicians.org/t/erc-8451-permanent-locks-for-lockable-tokens-erc-6982-extension/30030
+- desc: |
+  ERC-6982によって定義される、コントラクトがトークンの譲渡を一時的または永続的に停止できる機能を持つトークン。これにより、特定の条件下での取引を制御できます。
+
+## Permanent Locks
+- ja: 永続的なロック
+- related: [ERC-8451, Lockable Tokens, Soulbound Tokens]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30030
+- auto_source_url: https://ethereum-magicians.org/t/erc-8451-permanent-locks-for-lockable-tokens-erc-6982-extension/30030
+- desc: |
+  ERC-8451によって導入される、トークンを永続的に譲渡不可能な状態にする機能。一度永続的にロックされると、その状態は解除できず、ソウルバウンドトークンなどのユースケースに利用されます。
+
+## ERC-6982
+- ja: ERC-6982
+- related: [ERC-8451, Lockable Tokens, DefaultLocked event]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30030
+- auto_source_url: https://ethereum-magicians.org/t/erc-8451-permanent-locks-for-lockable-tokens-erc-6982-extension/30030
+- desc: |
+  コントラクトがトークン全体または個々のトークンの譲渡を一時的にロックまたはアンロックできる機能を提供するEthereum Improvement Proposal。ERC-8451はこの標準を拡張します。
+
+## ERC-5192
+- ja: ERC-5192
+- related: [Permanent Locks, Soulbound Tokens]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30030
+- auto_source_url: https://ethereum-magicians.org/t/erc-8451-permanent-locks-for-lockable-tokens-erc-6982-extension/30030
+- desc: |
+  個々のトークンに対して永続的なロック（ソウルバウンド）機能を提供するEthereum Improvement Proposal。ERC-8451はコレクション全体に対する永続的なロックに焦点を当てる点で異なります。
+
+## Liquidity Locks
+- ja: 流動性ロック
+- related: [Locker, Pool liquidity]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30028
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-liquidity-locks/30028
+- desc: |
+  DeFiプロトコルにおいて、特定の期間、流動性プロバイダー（LP）トークンやAMMポジションをスマートコントラクトに預け入れ、引き出し不能にする仕組みです。プロジェクトの信頼性を示すために利用されることが多いです。
+
+## Locker
+- ja: ロッカー
+- related: [Liquidity Locks]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30028
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-liquidity-locks/30028
+- desc: |
+  流動性ロック機能を提供するスマートコントラクトまたはサービスを指します。プロジェクトが流動性をロックするために利用し、スキャナーやローンチパッドによってその信頼性が評価されます。
+
+## Creator Fee Rights
+- ja: クリエイターフィー権
+- related: [creator fee stream]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30027
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-creator-fee-rights/30027
+- desc: |
+  トークン発行者がトークンローンチから継続的に受け取る手数料に関する権利。このERCドラフトでは、手数料の受取人、発生額、請求可能性、および受取人の変更に関するルールを定義する。これにより、クリエイターへの報酬メカニズムが標準化される。
+
+## Creator Fee Stream
+- ja: クリエイターフィー・ストリーム
+- related: [Creator Fee Rights, pledgeable stream]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30027
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-creator-fee-rights/30027
+- desc: |
+  トークン発行者がトークンローンチ後に継続的に受け取る手数料の流れ。このストリームは、受取人、発生した総額、請求可能な額、および受取人の変更ルールを含む。その履歴は透明に記録され、誰でも再計算可能である。
+
+## Pledgeable Stream
+- ja: 担保可能なストリーム (Pledgeable Stream)
+- aliases: [pledgeable creator fee stream]
+- related: [Creator Fee Rights, creator fee stream]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30027
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-creator-fee-rights/30027
+- desc: |
+  クリエイターフィー・ストリームのように、特定の受取人に向けられ、その受取人のみが変更できる特性を持つストリーム。この設計により、ストリームを貸し手への担保として利用することが可能となり、金融的な柔軟性が生まれる。
+
+## Agent Default Registry
+- ja: エージェントデフォルトレジストリ
+- related: [agent identity, ERC-8452]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30026
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-default-registry/30026
+- desc: |
+  エージェントのローンデフォルトを記録するためのオンチェーンコントラクト。貸し手はエージェントIDと所有者アドレスをキーとして、資産、元本、ローン参照、および回復された金額を含むデフォルトと返済の記録を行う。このレジストリは、エージェントエコシステムにおける信用評価の透明性向上を目指す。
+
+## per-chain singleton
+- ja: チェーンごとのシングルトン
+- related: [cross-chain reads]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30026
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-default-registry/30026
+- desc: |
+  各ブロックチェーン上に単一のインスタンスとしてデプロイされるコントラクトまたはサービス。マルチチェーン環境において、特定の機能やデータが各チェーンで独立して存在する必要がある場合に採用されるデプロイモデル。クロスチェーンでのデータ連携の必要性と対比して議論される。
+
+## cross-chain reads
+- ja: クロスチェーンリード
+- related: [per-chain singleton]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30026
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-default-registry/30026
+- desc: |
+  異なるブロックチェーン間でデータを読み取る操作。L2やマルチチェーン環境において、コントラクトやアプリケーションが他のチェーンの状態や情報を参照する必要がある場合に重要となる。これにより、チェーン間の相互運用性とデータ連携が可能になる。
+
+## cure
+- ja: 返済（キュア）
+- related: [Agent Default Registry, default]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30026
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-default-registry/30026
+- desc: |
+  ローンのデフォルト状態からの回復、または返済を指す。Agent Default Registryでは、デフォルトが記録されたローンに対して、回復された金額とともに返済が記録される。これにより、エージェントの信用履歴が更新される。
+
+## ERC-7254
+- ja: ERC-7254 (収益分配トークン)
+- related: [Revenue-sharing token]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30025
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-repay-first-payees/30025
+- desc: |
+  エージェントが債権者への支払いの後に、残りの収益をトークン保有者に分配するために使用できる収益分配トークンの標準。このトークンは受取人の受益者として機能し、債権者ではないため、貸し手は優先順位を維持し、保有者は最後に支払われる。
+
+## ERC-8278
+- ja: ERC-8278 (サービス支払いルート)
+- related: [Service payment route]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30025
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-repay-first-payees/30025
+- desc: |
+  エージェントのアイデンティティから受取人（payee）を発見可能にするための標準。サービス支払いルートのメカニズムを提供し、エージェントがその支払い先を公開・管理できるようにする。
+
+## Repay-First Payee
+- ja: 返済優先受取人 (Repay-First Payee)
+- aliases: [Agent Repay-First Payee]
+- related: [Revenue Address, Agent Identity, Creditor]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30025
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-repay-first-payees/30025
+- desc: |
+  エージェントの収入を管理するアドレスで、所有者よりも先に登録された債権者に返済を行うメカニズム。このアドレスに資金が送られると、最も優先順位の高い債権者から順に、合意された割合で返済が行われ、残りが所有者の受益者に支払われる。
+
+## Sweep
+- ja: スウィープ (Sweep)
+- related: [Repay-First Payee]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30025
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-repay-first-payees/30025
+- desc: |
+  Repay-First Payeeアドレスから資金を回収し、そのアドレスに登録された債権者への自動的な返済プロセスをトリガーする行為。このアクションにより、債権者は優先順位に従って支払われ、残りの資金が所有者の受益者に分配される。
+
+## ABI
+- ja: ABI (Application Binary Interface)
+- related: [Smart Contract, EVM]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30023
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-lines/30023
+- desc: |
+  スマートコントラクトの関数呼び出しやイベントのエンコード・デコード方法を定義するインターフェース。外部アプリケーションがEVM上のコントラクトと対話するための標準的な手段を提供します。
+
+## Agent Credit Lines
+- ja: エージェント信用枠
+- related: [Account Abstraction, ERC-8004, Revolving Credit]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30023
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-lines/30023
+- desc: |
+  Ethereumエコシステム内のエージェント（スマートアカウントなど）に対して提供される信用供与の仕組み。エージェントが担保なしで資金を借り入れ、返済できる枠を指します。
+
+## Revolving Credit
+- ja: リボルビング信用（リボルビング・クレジット）
+- related: [Agent Credit Lines, Credit Line]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30023
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-lines/30023
+- desc: |
+  借り手が一定の信用枠内で繰り返し借り入れと返済を行える信用供与の形態。Ethereumエコシステムでは、スマートコントラクトを通じてエージェントなどのオンチェーンエンティティに提供されます。
+
+## ERC-7565
+- ja: ERC-7565
+- related: [NFT, Collateral]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30023
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-lines/30023
+- desc: |
+  NFTを担保としてロックし、デフォルト時に貸し手に譲渡する形式の貸付に関するEthereum改善提案。本投稿で言及されている信用枠とは異なる担保モデルを持ちます。
+
+## ERC-3156
+- ja: ERC-3156
+- related: [Flash Loan]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30023
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-lines/30023
+- desc: |
+  フラッシュローン（単一トランザクション内で借り入れと返済を完結させる無担保ローン）の標準インターフェースを定義するEthereum改善提案。
+
+## Adoption Profile
+- ja: アダプションプロファイル（コード採用プロファイル）
+- related: [EIP-8298, EOA, Account Abstraction]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30020
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-adoption-profile-and-reference-kernel-for-eoas-adopting-code-via-setcodefrom/30020
+- desc: |
+  EOAが自身のアドレスにコードを採用する際に、そのコードが満たすべき一連の要件を定義したもの。セキュリティと相互運用性を確保し、一般的な失敗モードを防ぐことを目的とします。
+
+## Migration Guard
+- ja: マイグレーションガード
+- aliases: [MigrationCheck]
+- related: [EIP-8298, EIP-8151, Adoption Profile]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30020
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-adoption-profile-and-reference-kernel-for-eoas-adopting-code-via-setcodefrom/30020
+- desc: |
+  EOAがコードを採用する（マイグレーションする）プロセスにおいて、特定のセキュリティ要件が満たされていることをオンチェーンで検証するメカニズム。旧鍵の制御喪失やコードの正しい初期化などを確認します。
+
+## Reference Kernel
+- ja: 参照カーネル
+- related: [Adoption Profile, ERC-7913, Account Abstraction]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30020
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-adoption-profile-and-reference-kernel-for-eoas-adopting-code-via-setcodefrom/30020
+- desc: |
+  EOAがコードを採用する際に使用できる、アダプションプロファイルに準拠した最小限の規範的なアカウントコード実装。主にポスト量子鍵の検証機能を含みます。
+
+## Failure Mode
+- ja: 失敗モード
+- aliases: [FM]
+- related: [Adoption Profile, Migration Guard]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30020
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-adoption-profile-and-reference-kernel-for-eoas-adopting-code-via-setcodefrom/30020
+- desc: |
+  EOAがコードを採用するプロセスにおいて発生しうる、特定の脆弱性や望ましくない結果につながる具体的なパターン。この提案では7つの失敗モードが特定され、それぞれに対する要件やガードが提案されています。
+
+## Execution-capable Authority
+- ja: 実行可能権限
+- related: [Account Abstraction, EIP-8141, Relay Path]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30020
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-adoption-profile-and-reference-kernel-for-eoas-adopting-code-via-setcodefrom/30020
+- desc: |
+  アカウント自身の行動（トランザクションの開始や承認など）を許可する権限。アカウント抽象化において、ウォレットがアカウントの操作を承認するために必要な能力を指します。
+
+## Proposal Lookahead
+- ja: プロポーザル・ルックアヘッド
+- related: [Engine API, Execution Client, Consensus Client, Block Building, MEV]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30016
+- auto_source_url: https://ethereum-magicians.org/t/eip-8449-engine-api-proposal-lookahead/30016
+- desc: |
+  コンセンサス層クライアントが、今後のブロック提案に関する情報（スロット、タイムスタンプ、手数料受取人、ターゲットガス制限など）を実行層クライアントに事前に通知するメカニズム。これにより、実行層クライアントはブロック構築の準備を最適化し、効率を向上させることができる。
+
+## engine_exchangeCapabilities
+- ja: engine_exchangeCapabilities (Engine API)
+- related: [Engine API, Execution Client, Consensus Client]
+- auto_added: 2026-10-21
+- auto_source_topic_id: 30016
+- auto_source_url: https://ethereum-magicians.org/t/eip-8449-engine-api-proposal-lookahead/30016
+- desc: |
+  Engine API のメソッドの一つで、実行層クライアントがサポートする機能（APIメソッドなど）をコンセンサス層クライアントに通知するために使用される。これにより、クライアント間の互換性と機能発見が可能になり、新しい機能の導入が容易になる。

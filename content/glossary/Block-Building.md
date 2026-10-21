@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **ブロック構築**
@@ -22,6 +22,8 @@ date: '2026-10-20'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
+- [[posts/magicians-2026-10-20-erc-tba-creator-fee-rights-30027|ERC-TBA: クリエイター手数料の権利]]（2026-10-20）
 - [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）

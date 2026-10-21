@@ -4,7 +4,7 @@ aliases:
   - ブロブ
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **ブロブ**
@@ -18,6 +18,7 @@ EIP-4844 (Proto-Danksharding) で導入された、一時的に大量のデー�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
 - [[posts/ethresear-2026-09-24-champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection-26074|CHAMP: チェーンアンカー型多次元ピア保護によるメムプールの強化]]（2026-09-24）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）

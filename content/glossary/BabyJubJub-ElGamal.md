@@ -4,7 +4,7 @@ aliases:
   - BabyJubJubエルガマル暗号 (BabyJubJub ElGamal)
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **BabyJubJubエルガマル暗号 (BabyJubJub ElGamal)**

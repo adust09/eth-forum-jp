@@ -5,7 +5,7 @@ aliases:
   - AID
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **エージェントID (AID)**
@@ -19,7 +19,7 @@ date: '2026-10-20'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-20-erc-tba-agent-repay-first-payees-30025|ERC-TBA: エージェントの返済優先受取人]]（2026-10-20）
 
 ## 元の表記（英語）
 

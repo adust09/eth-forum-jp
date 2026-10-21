@@ -5,7 +5,7 @@ aliases:
   - ERC-8316
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **プログラマブル決済ロック (Programmable Settlement Locks)**

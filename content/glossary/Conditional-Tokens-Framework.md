@@ -5,7 +5,7 @@ aliases:
   - CTF
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **コンディショナル・トークン・フレームワーク (CTF)**

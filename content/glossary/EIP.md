@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/magicians-2026-10-20-idea-unified-wallet-aggregator-with-multi-token-gas-payment-30013|アイデア：マルチトークンガス支払い対応の統合ウォレットアグリゲーター]]（2026-10-20）
 - [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）
 - [[posts/magicians-2026-10-17-dividend-paying-equity-token-29991|配当支払い型エクイティトークン]]（2026-10-17）

@@ -4,7 +4,7 @@ aliases:
   - スパースブロブプール
 tags:
   - glossary
-date: '2026-10-20'
+date: '2026-10-21'
 ---
 
 **スパースブロブプール**
@@ -19,6 +19,7 @@ EthereumのP2Pネットワークにおいて、ブロブ（EIP-4844で導入さ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/ethresear-2026-09-24-champ-hardening-the-mempool-with-chain-anchored-multi-dimensional-peer-protection-26074|CHAMP: チェーンアンカー型多次元ピア保護によるメムプールの強化]]（2026-09-24）
 - [[posts/ethresear-2026-09-03-rowdas-eip-8371-distributed-blob-reconstruction-measured-25897|RowDAS (EIP-8371): 分散型ブロブ再構築、測定済み]]（2026-09-03）
 
