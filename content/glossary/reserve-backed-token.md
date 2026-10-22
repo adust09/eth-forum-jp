@@ -4,7 +4,7 @@ aliases:
   - 準備金裏付けトークン
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **準備金裏付けトークン**
@@ -18,6 +18,7 @@ date: '2026-10-21'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-07-07-erc-8332-physical-reserve-registry-28964|ERC-8332: 物理準備金レジストリ]]（2026-07-07）
 
 ## 元の表記（英語）

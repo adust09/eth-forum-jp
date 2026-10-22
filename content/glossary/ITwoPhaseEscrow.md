@@ -4,7 +4,7 @@ aliases:
   - ITwoPhaseEscrow（二段階エスクロー）
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **ITwoPhaseEscrow（二段階エスクロー）**

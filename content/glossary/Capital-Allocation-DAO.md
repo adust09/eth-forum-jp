@@ -4,7 +4,7 @@ aliases:
   - 資金配分DAO
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **資金配分DAO**

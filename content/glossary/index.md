@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -87,6 +87,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-Native-NFT|AI-Native NFT]] — AIネイティブNFT
 - [[glossary/AID-Document|AID Document]] — AIDドキュメント
+- [[glossary/AIFi-Unit-Framework|AIFi Unit Framework]] — AIFiユニットフレームワーク (AUF)
 - [[glossary/Algebraic-Uniformization|Algebraic Uniformization]] — 代数的均一化
 - [[glossary/All-Core-Devs-Consensus|All Core Devs - Consensus]] — オールコア開発者会議 - コンセンサス
 - [[glossary/All-Core-Devs-Execution|All Core Devs - Execution]] — All Core Devs - Execution (ACDE)
@@ -136,6 +137,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AttestationData|AttestationData]] — アテステーションデータ
 - [[glossary/attestor-proposer-separation|attestor-proposer separation]] — アテスター・プロポーザー分離
 - [[glossary/AUCIL|AUCIL]] — AUCIL (オークションベース・インクルージョンリスト)
+- [[glossary/AUFAssertionRegistry|AUFAssertionRegistry]] — AUFアサーションレジストリ
+- [[glossary/AUFUnitRegistry|AUFUnitRegistry]] — AUFユニットレジストリ
 - [[glossary/Augmented-Mechanism-Design|Augmented Mechanism Design]] — 拡張メカニズム設計 (AMD)
 - [[glossary/AUTHENTICATOR-signature-scheme|AUTHENTICATOR signature scheme]] — AUTHENTICATOR署名スキーム
 - [[glossary/Authoritative-Finality|Authoritative Finality]] — 権威ある最終性
@@ -368,6 +371,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Credibly-committing-architecture|Credibly committing architecture]] — 信頼できるコミットメントアーキテクチャ
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/Credit-decay|Credit decay]] — クレジットの減衰
+- [[glossary/Credit-Matched-Liquidity|Credit-Matched Liquidity]] — クレジットマッチ型流動性
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cross-Chain-Nullifier-Synchronization|Cross Chain Nullifier Synchronization]] — クロスチェーンNullifier同期
 - [[glossary/cross-chain-reads|cross-chain reads]] — クロスチェーンリード
@@ -583,6 +587,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Executable-Consensus-Specs|Executable Consensus Specs]] — 実行可能なコンセンサス仕様
 - [[glossary/Executable-market-price|Executable market price]] — 実行可能な市場価格 (Executable market price)
 - [[glossary/executable-skill|executable skill]] — 実行可能なスキル
+- [[glossary/executable-specification|executable specification]] — 実行可能な仕様
 - [[glossary/execution-anchor|execution anchor]] — 実行アンカー
 - [[glossary/Execution-APIs|Execution APIs]] — 実行API (Execution APIs)
 - [[glossary/Execution-batches|Execution batches]] — 実行バッチ
@@ -661,6 +666,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/fraudulent-fork|fraudulent fork]] — 不正なフォーク（fraudulent fork）
 - [[glossary/Free-option-problem|Free option problem]] — フリーオプション問題
 - [[glossary/Full-DAS-throughput|Full DAS throughput]] — フルDASスループット
+- [[glossary/full-scalar-cofactor-blindingclearing|full-scalar cofactor blinding/clearing]] — フルスカラコファクタブラインディング/クリアリング
 - [[glossary/Full-target-approval|Full-target approval]] — フルターゲット承認
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
 - [[glossary/Fulu-types|Fulu types]] — Fulu型
@@ -787,6 +793,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Itemized-Non-Fungible-Token|Itemized Non-Fungible Token]] — アイテム化非代替性トークン
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
+- [[glossary/Jacobi-Quartic|Jacobi Quartic]] — ヤコビ四次曲線 (Jacobi Quartic)
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
 - [[glossary/Judgment-balance|Judgment balance]] — 判断残高
 - [[glossary/Judgment-Window|Judgment Window]] — 判断期間
@@ -820,7 +827,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
 - [[glossary/last-look|last look]] — ラストルック
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
+- [[glossary/Launch-Declarations|Launch Declarations]] — ローンチ宣言
 - [[glossary/launch-primitive|launch primitive]] — ローンチプリミティブ
+- [[glossary/Launchpad|Launchpad]] — ローンチパッド
 - [[glossary/Layer-1|Layer 1]] — レイヤー1
 - [[glossary/Layer-separation-enforcement|Layer separation enforcement]] — レイヤー分離の強制
 - [[glossary/lazily-computed|lazily computed]] — 遅延計算（レイジーコンピュテーション）
@@ -926,6 +935,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Module|Module]] — モジュール
 - [[glossary/Module-Activation-System|Module Activation System]] — モジュールアクティベーションシステム (MAS)
 - [[glossary/Modulo-Bias-Invariant|Modulo Bias Invariant]] — モジュロバイアス不変量
+- [[glossary/Montgomery-Batch-Inversion|Montgomery Batch Inversion]] — モンゴメリバッチ逆元計算 (Montgomery Batch Inversion)
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
 - [[glossary/MTU-Fragmentation-Trap|MTU Fragmentation Trap]] — MTUフラグメンテーション・トラップ
 - [[glossary/multi-agent-accountability|multi-agent accountability]] — マルチエージェントの説明責任
@@ -1376,6 +1386,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Shors-algorithm|Shor's algorithm]] — ショアのアルゴリズム
 - [[glossary/sigHash|sigHash]] — sigHash
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
+- [[glossary/signature-aggregation|signature aggregation]] — 署名集約
 - [[glossary/Signature-Consent|Signature Consent]] — 署名による同意
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
@@ -1485,6 +1496,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Structured-Evidence-Review|Structured Evidence Review]] — 構造化された証拠レビュー
 - [[glossary/Sub-MTU-0-RTT-Envelope-Architectures|Sub-MTU 0-RTT Envelope Architectures]] — サブMTU 0-RTTエンベロープアーキテクチャ
 - [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
+- [[glossary/subgroup-membership-leakage|subgroup membership leakage]] — サブグループメンバーシップ漏洩
 - [[glossary/Subject-Linked-Compliance-Event-Log|Subject-Linked Compliance Event Log]] — 主体紐付け型コンプライアンスイベントログ
 - [[glossary/Subject-Linked-Impact-Snapshot-Log|Subject-Linked Impact Snapshot Log]] — 主題紐付けインパクトスナップショットログ (ERC)
 - [[glossary/Subject-Linked-NAV-Snapshot-Oracle|Subject-Linked NAV Snapshot Oracle]] — 主体リンク型NAVスナップショットオラクル
@@ -1604,10 +1616,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Unidirectional-payment-channel|Unidirectional payment channel]] — 単方向ペイメントチャネル
 - [[glossary/Unified-Binary-Tree|Unified Binary Tree]] — 統合バイナリツリー
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
+- [[glossary/Unit-Definition|Unit Definition]] — ユニット定義
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Unmeasured-contribution|Unmeasured contribution]] — 未測定の貢献
 - [[glossary/Unmigrated-accounts|Unmigrated accounts]] — 未移行アカウント
 - [[glossary/Untrusted-by-design|Untrusted-by-design]] — 設計上信頼しない (Untrusted-by-design)
+- [[glossary/Unwind|Unwind (position)]] — ポジションの解消（アンワインド）
 - [[glossary/Upala-protocol|Upala protocol]] — ウパラプロトコル
 - [[glossary/update-authority|update authority]] — 更新権限
 - [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出
@@ -1629,6 +1643,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Validator-Whitelist|Validator Whitelist]] — バリデータホワイトリスト
 - [[glossary/Validity-Only-Partial-Statelessness|Validity-Only Partial Statelessness]] — バリディティオンリー部分ステートレス性 (VOPS)
 - [[glossary/Validium|Validium]] — Validium (バリディウム)
+- [[glossary/Valuation-receipts|Valuation receipts]] — 評価レシート
 - [[glossary/Value-root|Value root]] — バリュー・ルート
 - [[glossary/Value-bearing-operation|Value-bearing operation]] — 価値を持つ操作 (Value-bearing operation)
 - [[glossary/value-conserving-frame|value-conserving frame]] — 価値保存フレーム

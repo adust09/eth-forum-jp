@@ -5,7 +5,7 @@ aliases:
   - Isogeny Bridge
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **逆同種写像ブリッジ**
@@ -20,7 +20,7 @@ date: '2026-10-21'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-21-research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics-30041|[研究] Jacobi Quarticsを用いたBLS曲線向けElligator Squaredの最適化]]（2026-10-21）
 
 ## 元の表記（英語）
 
