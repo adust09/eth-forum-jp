@@ -4,7 +4,7 @@ aliases:
   - EIP-712アテステーションプロファイル
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **EIP-712アテステーションプロファイル**
@@ -19,6 +19,8 @@ EIP-712標準を利用して、AI推論の入力来歴や実行結果などの�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
+- [[posts/magicians-2026-10-21-erc-tba-launch-declarations-an-extension-of-erc-8376-30038|ERC-TBA: ローンチ宣言、ERC-8376の拡張]]（2026-10-21）
 - [[posts/magicians-2026-10-08-erc-8439-settlement-decoupled-nanopayment-ledger-29919|ERC-8439: 決済分離型ナノペイメント台帳]]（2026-10-08）
 - [[posts/magicians-2026-10-04-draft-erc-agent-collective-decision-framework-acdf-authorized-composable-collective-decisions-with-procedural-finality-29850|[ドラフトERC] エージェント集合意思決定フレームワーク (ACDF) — 手続き的ファイナリティを持つ、認可され構成可能な集合意思決定]]（2026-10-04）
 - [[posts/magicians-2026-08-24-erc-xxxx-consent-verification-extension-for-erc-4626-tokenized-vaults-29492|ERC-XXXX: ERC-4626トークン化ボルト向け同意検証拡張]]（2026-08-24）

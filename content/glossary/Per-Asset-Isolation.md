@@ -5,7 +5,7 @@ aliases:
   - isolation of unconnected domains
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **アセットごとの分離**
@@ -18,7 +18,7 @@ date: '2026-10-21'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 
 ## 元の表記（英語）
 

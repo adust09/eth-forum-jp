@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15622,3 +15622,141 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8449-engine-api-proposal-lookahead/30016
 - desc: |
   Engine API のメソッドの一つで、実行層クライアントがサポートする機能（APIメソッドなど）をコンセンサス層クライアントに通知するために使用される。これにより、クライアント間の互換性と機能発見が可能になり、新しい機能の導入が容易になる。
+
+## executable specification
+- ja: 実行可能な仕様
+- related: [Formal Model, Formal Verification, Consensus Specification]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 26167
+- auto_source_url: https://ethresear.ch/t/seacast-fast-lean-broadcast-for-ethereum-with-an-executable-spec-and-a-formal-model/26167
+- desc: |
+  プロトコルやシステムの動作を、Pythonのようなコード形式で記述した仕様です。記述されたテキストがそのままプログラムとして実行可能であり、プロトコルの正確な動作検証やシミュレーションに用いられます。
+
+## signature aggregation
+- ja: 署名集約
+- related: [BLS signatures, BLS keys]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30041
+- auto_source_url: https://ethereum-magicians.org/t/research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics/30041
+- desc: |
+  複数の署名を単一のコンパクトな署名に結合する暗号技術。これにより、ブロックチェーン上のトランザクションの検証コストとデータサイズを削減できる。BLS署名で特に効率的です。
+
+## subgroup membership leakage
+- ja: サブグループメンバーシップ漏洩
+- related: [public key obfuscation, BLS signatures]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30041
+- auto_source_url: https://ethereum-magicians.org/t/research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics/30041
+- desc: |
+  楕円曲線暗号において、公開鍵が特定のサブグループに属しているかどうかの情報が漏洩する脆弱性。これにより、ユーザーの匿名性やプライバシーが損なわれる可能性があります。
+
+## full-scalar cofactor blinding/clearing
+- ja: フルスカラコファクタブラインディング/クリアリング
+- related: [subgroup membership leakage, Elligator Squared]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30041
+- auto_source_url: https://ethereum-magicians.org/t/research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics/30041
+- desc: |
+  楕円曲線上の点に対するスカラ乗算において、コファクタ（群の位数と素数位数の比）を考慮して、特定のサブグループへの漏洩を防ぐための暗号技術。ブラインディングは情報を隠蔽し、クリアリングは不正な要素を除去します。
+
+## Jacobi Quartic
+- ja: ヤコビ四次曲線 (Jacobi Quartic)
+- aliases: [Extended Jacobi Quartic]
+- related: [elliptic curve cryptography, Elligator Squared]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30041
+- auto_source_url: https://ethereum-magicians.org/t/research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics/30041
+- desc: |
+  楕円曲線の代替表現の一つで、特定の形式の四次方程式で定義されます。楕円曲線暗号の演算を最適化するために使用され、特に高速な加算や倍算の公式を持つことがあります。
+
+## Montgomery Batch Inversion
+- ja: モンゴメリバッチ逆元計算 (Montgomery Batch Inversion)
+- related: [finite field arithmetic, elliptic curve cryptography]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30041
+- auto_source_url: https://ethereum-magicians.org/t/research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics/30041
+- desc: |
+  複数の有限体要素の逆元を効率的に計算するためのアルゴリズム。個別に逆元を計算するよりも、バッチ処理することで計算コストを大幅に削減できるため、暗号プロトコルで広く利用されます。
+
+## AIFi Unit Framework
+- ja: AIFiユニットフレームワーク (AUF)
+- aliases: [AUF]
+- related: [Unit Definition, AUFUnitRegistry, AUFAssertionRegistry]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30040
+- auto_source_url: https://ethereum-magicians.org/t/erc-8454-aifi-unit-framework/30040
+- desc: |
+  AI駆動型経済における経済オブジェクトを、その名称、境界、記述、観測、分類、評価を一貫して行うためのレジストリおよび記述子モデルです。ERC-8454として提案されており、エージェント、スキル、タスクなどの経済的実体を統一的に扱う基盤を提供します。
+
+## Unit Definition
+- ja: ユニット定義
+- related: [AIFi Unit Framework, Unit]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30040
+- auto_source_url: https://ethereum-magicians.org/t/erc-8454-aifi-unit-framework/30040
+- desc: |
+  AIFiユニットフレームワークにおける経済オブジェクトの構成要素です。エージェント、スキル、タスクなどの要素、それらの権利と義務を規定する関係、経済的インターフェースとしてのポート、権限、および有効性を含みます。`boundaryHash`によってその定義がハッシュ化され、バージョン管理されます。
+
+## AUFUnitRegistry
+- ja: AUFユニットレジストリ
+- related: [AIFi Unit Framework, AUFAssertionRegistry]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30040
+- auto_source_url: https://ethereum-magicians.org/t/erc-8454-aifi-unit-framework/30040
+- desc: |
+  AIFiユニットフレームワークの2つの主要なレジストリの1つです。ユニット、そのバージョン、包含関係、定義の制御、および承認を管理します。経済オブジェクトの基本的な登録と構造を担います。
+
+## AUFAssertionRegistry
+- ja: AUFアサーションレジストリ
+- related: [AIFi Unit Framework, AUFUnitRegistry]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30040
+- auto_source_url: https://ethereum-magicians.org/t/erc-8454-aifi-unit-framework/30040
+- desc: |
+  AIFiユニットフレームワークの2つの主要なレジストリのもう1つです。特性評価、観測、評価、および拡張のためのアサーションエンベロープを管理します。有効性、取り消し、置換、およびEIP-712/ERC-1271署名付きアサーションを扱います。
+
+## Valuation receipts
+- ja: 評価レシート
+- related: [AIFi Unit Framework, Observation records]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30040
+- auto_source_url: https://ethereum-magicians.org/t/erc-8454-aifi-unit-framework/30040
+- desc: |
+  AIFiユニットフレームワークにおける測定と評価のステートメントの一部です。評価対象のユニットバージョン、評価境界、利害関係、視点、スナップショット、コンテンツアドレス指定された方法、入力、および型付きの結果（金銭的、区間、シナリオ、スコア、グレードなど）を固定します。
+
+## Credit-Matched Liquidity
+- ja: クレジットマッチ型流動性
+- related: [Token Bound Account, Concentrated Liquidity AMM]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30039
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-credit-matched-liquidity/30039
+- desc: |
+  信頼できる価格を持つトークン（例：トークン化された株式、ETH）の保有者がプール手数料を得ることを可能にする仕組み。貸し手が保有者の集中流動性ポジションのクォートサイドに資金を提供し、手数料がまず貸し手に返済される。
+
+## Unwind (position)
+- ja: ポジションの解消（アンワインド）
+- related: [Credit-Matched Liquidity, Escrow]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30039
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-credit-matched-liquidity/30039
+- desc: |
+  クレジットマッチ型流動性ポジションにおいて、貸し手への返済や担保の状況に基づいてポジションを閉じるプロセス。特に、オラクル価格がローンをカバーしなくなった場合に、誰でもポジションを解消できる。
+
+## Launch Declarations
+- ja: ローンチ宣言
+- aliases: [ERC-TBA]
+- related: [ERC-8376, Launchpad]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30038
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-launch-declarations-an-extension-of-erc-8376/30038
+- desc: |
+  ERC-8376の拡張として提案されたERC-TBAで定義される、ローンチパッドがトークンローンチ時に開示する一連の型付けされた事実。これには、作成者のID、供給配分、流動性ロック、資金調達、手数料受取人などが含まれる。
+
+## Launchpad
+- ja: ローンチパッド
+- related: [Token Launch]
+- auto_added: 2026-10-22
+- auto_source_topic_id: 30038
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-launch-declarations-an-extension-of-erc-8376/30038
+- desc: |
+  新しい暗号資産やトークンが初めて公開・配布されるプラットフォーム。プロジェクトが資金を調達し、初期ユーザーを獲得するための手段を提供する。

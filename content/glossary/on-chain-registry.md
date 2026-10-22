@@ -4,7 +4,7 @@ aliases:
   - オンチェーンレジストリ
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **オンチェーンレジストリ**
@@ -18,6 +18,7 @@ ERC-7730のクリア署名記述子を許可なく維持・更新できるスマ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-08-27-recomputable-verification-receipts-rvr-29521|再計算可能な検証レシート (RVR)]]（2026-08-27）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 - [[posts/magicians-2026-08-05-erc-8366-zero-knowledge-spending-policies-29281|ERC-8366: ゼロ知識支出ポリシー]]（2026-08-05）

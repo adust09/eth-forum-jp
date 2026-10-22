@@ -4,7 +4,7 @@ aliases:
   - エージェントによるオンチェーン操作
 tags:
   - glossary
-date: '2026-10-21'
+date: '2026-10-22'
 ---
 
 **エージェントによるオンチェーン操作**
@@ -19,6 +19,7 @@ date: '2026-10-21'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-10-16-erc-8420-aa-compatible-solver-29989|ERC-8420: AA互換ソルバー]]（2026-10-16）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）
 - [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
