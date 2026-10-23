@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15760,3 +15760,191 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-tba-launch-declarations-an-extension-of-erc-8376/30038
 - desc: |
   新しい暗号資産やトークンが初めて公開・配布されるプラットフォーム。プロジェクトが資金を調達し、初期ユーザーを獲得するための手段を提供する。
+
+## heterogeneous recursion
+- ja: 異種再帰
+- related: [recursive aggregation, non-uniform IVC]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26170
+- auto_source_url: https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+- desc: |
+  異なる証明サイズや検証関係を持つ複数の証明システムを、単一の再帰的集約プロセス内で組み合わせる手法。これにより、小さな集約にはより効率的な証明関係を使用できる。
+
+## authenticated class bank
+- ja: 認証済みクラスバンク
+- related: [verifier class, heterogeneous recursion]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26170
+- auto_source_url: https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+- desc: |
+  複数の異なる検証者クラス（証明関係、制約行列、多項式コミットメントパラメータなど）を格納し、それらの正当性をプロトコルレベルで認証する有限のバンク。異種再帰を可能にするためのメカニズム。
+
+## polynomial commitment
+- ja: 多項式コミットメント
+- related: [KZG commitment, proof system]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26170
+- auto_source_url: https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+- desc: |
+  ある多項式をコミットメント（約束）し、後でその多項式の特定の点での評価値を、多項式全体を公開することなく証明できる暗号プリミティブ。ZK-SNARKsなどの証明システムで広く利用される。
+
+## non-uniform IVC
+- ja: 非均一IVC
+- related: [IVC, heterogeneous recursion, SuperNova]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26170
+- auto_source_url: https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+- desc: |
+  インクリメンタル検証可能計算（IVC）の一種で、各再帰ステップで異なる計算（異なる証明関係や回路）を検証できるもの。これにより、より柔軟な再帰的証明の構成が可能になる。
+
+## proving relation
+- ja: 証明関係
+- aliases: [relation]
+- related: [constraint matrix, arithmetic circuit]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26170
+- auto_source_url: https://ethresear.ch/t/paranoid-eip-8288-heterogeneous-recursion-with-an-authenticated-class-bank/26170
+- desc: |
+  ゼロ知識証明システムにおいて、証明者が特定の計算が正しく実行されたことを検証者に納得させるために満たすべき数学的な関係性。通常、算術回路やR1CSなどの形式で表現される。
+
+## Blind Simultaneous Release
+- ja: ブラインド同時リリース (BSR)
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26169
+- auto_source_url: https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+- desc: |
+  暗号化されたメンプールにおける開示オプションの問題を解決するために提案されたメカニズムです。参加者が有用な情報を知る前に、全員がトランザクションの実行セットにコミットすることを強制します。ハッシュベースであるため、耐量子性があります。
+
+## conditional commitments
+- ja: 条件付きコミットメント
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26169
+- auto_source_url: https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+- desc: |
+  特定の条件が満たされた場合にのみ実行されるように設定されたコミットメントです。暗号化されたメンプールにおいて、送信者が複数の条件付きコミットメントを使用することで、開示オプションの価値を最大化し、手数料による抑止を回避する可能性があります。
+
+## sequential hash chain
+- ja: シーケンシャルハッシュチェーン
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26169
+- auto_source_url: https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+- desc: |
+  BSRプロトコルで使用される技術で、値が長い計算ステップを必要とするハッシュチェーンによってマスクされます。これにより、通常は迅速に開示されますが、送信者が開示を拒否した場合でも、誰でも計算して強制的に開示させることが可能になります。
+
+## hardware gap
+- ja: ハードウェアギャップ
+- auto_added: 2026-10-23
+- auto_source_topic_id: 26169
+- auto_source_url: https://ethresear.ch/t/reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it/26169
+- desc: |
+  BSRのようなプロトコルにおいて、攻撃者が正直なソルバーよりもシーケンシャル関数を計算する速度がどれだけ速いかを示す指標です。このギャップが小さいほど、プロトコルの健全性と適時強制開示の実現可能性が高まります。
+
+## Permissioned Token
+- ja: パーミッションドトークン
+- related: [ERC-7943, Real World Asset (RWA)]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30048
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-urwa-policy-interface/30048
+- desc: |
+  特定の条件（例: KYC/AML要件、地域制限、保有上限など）を満たすウォレットアドレス間でのみ送受信が許可されるトークン。主に現実世界の資産（RWA）をオンチェーンで表現する際に利用され、規制遵守を可能にする。
+
+## uRWA Policy Interface
+- ja: uRWAポリシーインターフェース (ERC-7943 Policy Interface)
+- aliases: [ERC-7943 Policy Interface]
+- related: [Permissioned Token, External Policy Contract, ERC-7943]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30048
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-urwa-policy-interface/30048
+- desc: |
+  ERC-7943 (uRWA)トークンと、そのトークンの送受信ルールを定義する外部ポリシーコントラクト間の標準化されたインターフェース。トークンのコンプライアンスロジックがトークン本体とは独立して進化・監査されることを可能にする。
+
+## External Policy Contract
+- ja: 外部ポリシーコントラクト
+- related: [Permissioned Token, uRWA Policy Interface]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30048
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-urwa-policy-interface/30048
+- desc: |
+  パーミッションドトークン（例: ERC-7943）の送受信やその他の操作に関するコンプライアンスロジックを格納する、トークンとは分離されたスマートコントラクト。これにより、規制要件の変更に柔軟に対応し、トークンのコアロジックを安定させることができる。
+
+## Pre-flight
+- ja: プリフライト（チェック）
+- aliases: [pre-flight check]
+- related: [uRWA Policy Interface, canTransfer]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30048
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-urwa-policy-interface/30048
+- desc: |
+  実際のトランザクション（送金、ミント、バーンなど）が実行される前に、そのトランザクションが成功するかどうかを事前に検証するプロセス。特にパーミッションドトークンの文脈では、`canTransfer`のような関数を通じて、コンプライアンスルールに適合しているかを確認するために用いられる。
+
+## Forced Transfer
+- ja: 強制送金
+- related: [Permissioned Token, ERC-7943]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30048
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-urwa-policy-interface/30048
+- desc: |
+  パーミッションドトークンにおいて、通常の送金ルールやユーザーの同意を迂回して、特定の権限を持つエンティティ（例: 規制当局や管理者）がトークンを強制的に移動させる操作。緊急時や規制遵守のために用いられるが、その利用には厳格な条件が伴う。
+
+## ERC-8004 agentWallet
+- ja: ERC-8004 エージェントウォレット
+- related: [ERC-8004, agent]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30047
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-income-statements/30047
+- desc: |
+  ERC-8004標準に準拠したエージェント専用のウォレット。エージェントの収入を受け取り、その取引履歴が透明性を持って記録される。
+
+## chained statements
+- ja: チェーン化されたステートメント
+- related: [Merkle root, ERC-TBA]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30047
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-income-statements/30047
+- desc: |
+  エージェントの収入に関する一連のリンクされたデータ記録。各ステートメントは個別の入金（トランザクション）のリーフとしてMerkleルートの下に配置され、検証可能である。
+
+## MetadataSet (event)
+- ja: MetadataSet（イベント）
+- related: [ERC-8004, event]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30047
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-income-statements/30047
+- desc: |
+  ERC-8004のようなレジストリによって発行されるイベント。特に`agentWallet`の変更など、関連するメタデータが更新されたことを示す。
+
+## Post-Quantum Validator Key Registry
+- ja: 量子耐性バリデータ鍵レジストリ
+- related: [leanXMSS key, beacon state, validator]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30046
+- auto_source_url: https://ethereum-magicians.org/t/eip-8450-post-quantum-validator-key-registry/30046
+- desc: |
+  Ethereumのビーコンステートに追加される、量子コンピュータ攻撃に耐性を持つバリデータ公開鍵の登録システムです。バリデータは既存のバリデータインデックスに紐付けられたleanXMSS鍵を登録します。
+
+## Validator Index
+- ja: バリデータインデックス
+- related: [validator, beacon chain]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30046
+- auto_source_url: https://ethereum-magicians.org/t/eip-8450-post-quantum-validator-key-registry/30046
+- desc: |
+  Ethereumのビーコンチェーンにおいて、各バリデータを一意に識別するための数値IDです。バリデータの登録、活動、報酬、離脱などの管理に用いられます。
+
+## Decoupled Consensus
+- ja: デカップルド・コンセンサス
+- related: [Consensus Layer, Execution Layer]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30045
+- auto_source_url: https://ethereum-magicians.org/t/eip-8453-decoupled-consensus/30045
+- desc: |
+  Ethereumのコンセンサス層と実行層の役割を分離する設計思想。これにより、各層の独立した進化と最適化が可能になり、プロトコルの複雑性を管理しやすくなる。
+
+## Jump and Call Tables
+- ja: ジャンプ・アンド・コール・テーブル (EVMの)
+- related: [EVM, JUMP opcode, JUMPI opcode, Control Flow]
+- auto_added: 2026-10-23
+- auto_source_topic_id: 30044
+- auto_source_url: https://ethereum-magicians.org/t/eip-8452-jump-and-call-tables-for-the-evm/30044
+- desc: |
+  EVMのスマートコントラクト実行における制御フローを構造化するための提案された機能です。これにより、コードの静的解析が容易になり、特定のパターンにおけるガスコストの削減やセキュリティの向上が期待されます。EIP-8452で導入が提案されています。

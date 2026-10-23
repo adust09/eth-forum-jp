@@ -4,7 +4,7 @@ aliases:
   - CLブロック保持期間
 tags:
   - glossary
-date: '2026-10-22'
+date: '2026-10-23'
 ---
 
 **CLブロック保持期間**

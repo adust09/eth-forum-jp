@@ -5,7 +5,7 @@ aliases:
   - protocol-level mempool addressability
 tags:
   - glossary
-date: '2026-10-22'
+date: '2026-10-23'
 ---
 
 **メムプールアドレス可能性 (mempool addressability)**
