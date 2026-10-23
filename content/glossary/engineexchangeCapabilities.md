@@ -4,7 +4,7 @@ aliases:
   - engine_exchangeCapabilities (Engine API)
 tags:
   - glossary
-date: '2026-10-22'
+date: '2026-10-23'
 ---
 
 **engine_exchangeCapabilities (Engine API)**
