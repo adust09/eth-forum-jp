@@ -5,7 +5,7 @@ aliases:
   - transfer-full block
 tags:
   - glossary
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 **アンカーブロック**

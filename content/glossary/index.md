@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -57,6 +57,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Adversarially-Reachable|Adversarially Reachable]] — 敵対的に到達可能
 - [[glossary/agent-action|agent action]] — エージェントアクション
 - [[glossary/Agent-Collective-Decision-Framework|Agent Collective Decision Framework]] — エージェント集団意思決定フレームワーク (ACDF)
+- [[glossary/Agent-Credit-Backers|Agent Credit Backers]] — エージェント信用保証者
 - [[glossary/Agent-Credit-Lines|Agent Credit Lines]] — エージェント信用枠
 - [[glossary/Agent-Default-Registry|Agent Default Registry]] — エージェントデフォルトレジストリ
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
@@ -186,6 +187,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Binding-branch|Binding branch]] — 結合ブランチ
 - [[glossary/Biometric-ZK-proof|Biometric ZK-proof]] — 生体認証ZK証明
 - [[glossary/bisection|bisection]] — バイセクション（二分探索）
+- [[glossary/Bitcoin-header-derived-settlement-index|Bitcoin-header-derived settlement index]] — Bitcoinヘッダー由来決済インデックス
 - [[glossary/Bitmask|Bitmask]] — ビットマスク（挙動フラグの）
 - [[glossary/Bitstring-Status-List|Bitstring Status List]] — ビットストリングステータスリスト
 - [[glossary/Blind-Session|Blind Session]] — ブラインドセッション
@@ -497,6 +499,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-tagging|EIP tagging]] — EIPタグ付け
 - [[glossary/EIP-1898|EIP-1898]] — EIP-1898 (ブロック識別子)
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
+- [[glossary/EIP-712-consent|EIP-712 consent]] — EIP-712同意
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
 - [[glossary/EIP-8037|EIP-8037]] — EIP-8037 (二次元ガス)
 - [[glossary/EIP-8288|EIP-8288]] — EIP-8288
@@ -854,6 +857,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanWOTS|leanWOTS]] — leanWOTS (署名アルゴリズム)
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
+- [[glossary/Lender-hooks|Lender hooks]] — 貸し手フック
 - [[glossary/Length-extension-problem|Length-extension problem]] — 長さ伸長攻撃 (長さ伸長問題)
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/Lifecycle|Lifecycle (IBond enum)]] — ライフサイクル (IBond enum)
@@ -1012,6 +1016,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Off-chain-coordination|Off-chain coordination]] — オフチェーン調整
 - [[glossary/Off-chain-facts|Off-chain facts]] — オフチェーンの事実
 - [[glossary/Offchain-orderbook|Offchain orderbook]] — オフチェーンオーダーブック
+- [[glossary/offline-replay|offline replay]] — オフラインリプレイ
 - [[glossary/Offline-state-migration|Offline state migration]] — オフライン状態移行
 - [[glossary/Omission|Omission]] — 省略（観測スコープからの）
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
@@ -1437,6 +1442,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Smart-Contract-Lifecycle-Registry|Smart Contract Lifecycle Registry]] — スマートコントラクトライフサイクルレジストリ
 - [[glossary/Smart-Contract-Oriented-Programming|Smart Contract Oriented Programming]] — スマートコントラクト指向プログラミング
 - [[glossary/Smart-Wallet|Smart Wallet]] — スマートウォレット
+- [[glossary/snapshot|snapshot]] — スナップショット
 - [[glossary/soft-consensus|soft consensus]] — ソフトコンセンサス
 - [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング

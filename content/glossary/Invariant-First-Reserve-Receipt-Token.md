@@ -6,7 +6,7 @@ aliases:
   - IFR-pETH
 tags:
   - glossary
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 **インバリアントファースト準備金受領トークン**

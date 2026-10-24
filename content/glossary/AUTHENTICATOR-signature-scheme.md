@@ -5,7 +5,7 @@ aliases:
   - AUTHENTICATOR (0x03)
 tags:
   - glossary
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 **AUTHENTICATOR署名スキーム**
