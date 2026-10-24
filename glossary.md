@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -15948,3 +15948,56 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8452-jump-and-call-tables-for-the-evm/30044
 - desc: |
   EVMのスマートコントラクト実行における制御フローを構造化するための提案された機能です。これにより、コードの静的解析が容易になり、特定のパターンにおけるガスコストの削減やセキュリティの向上が期待されます。EIP-8452で導入が提案されています。
+
+## snapshot
+- ja: スナップショット
+- related: [state, block]
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30064
+- auto_source_url: https://ethereum-magicians.org/t/wuji-seeking-an-independent-developer-to-replay-a-bitcoin-header-derived-index/30064
+- desc: |
+  特定の時点におけるブロックチェーンの状態やデータの完全なコピー。検証、バックアップ、または特定の歴史的時点の再現に利用される。
+
+## offline replay
+- ja: オフラインリプレイ
+- related: [transaction replay, replay]
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30064
+- auto_source_url: https://ethereum-magicians.org/t/wuji-seeking-an-independent-developer-to-replay-a-bitcoin-header-derived-index/30064
+- desc: |
+  ブロックチェーンのトランザクションや状態遷移を、ネットワークに接続せずにローカル環境で再現すること。検証、デバッグ、または特定の歴史的時点の再現に利用される。
+
+## Bitcoin-header-derived settlement index
+- ja: Bitcoinヘッダー由来決済インデックス
+- related: [settlement index, cross-chain interoperability]
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30064
+- auto_source_url: https://ethereum-magicians.org/t/wuji-seeking-an-independent-developer-to-replay-a-bitcoin-header-derived-index/30064
+- desc: |
+  Bitcoinのブロックヘッダーから派生した決済インデックス。クロスチェーン決済や相互運用性の文脈で、あるチェーンのデータを別のチェーンの決済に利用する際のメカニズムとして言及される可能性がある。
+
+## Agent Credit Backers
+- ja: エージェント信用保証者
+- related: [Agent Credit Lines]
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30062
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-backers/30062
+- desc: |
+  エージェントへの信用供与において、エージェントのデフォルト時に貸し手の損失を吸収する第三者（ステーカー、担保保管庫、保険会社など）。EIP-712の同意を得て機能する。
+
+## EIP-712 consent
+- ja: EIP-712同意
+- related: [EIP-712]
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30062
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-backers/30062
+- desc: |
+  EIP-712標準に基づいて構造化されたデータを署名することで、特定の行動や条件に対する同意を表明すること。エージェントの信用貸しを裏付ける際に、アイデンティティ所有者の同意を得るために使用される。
+
+## Lender hooks
+- ja: 貸し手フック
+- auto_added: 2026-10-24
+- auto_source_topic_id: 30062
+- auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-backers/30062
+- desc: |
+  貸し手がエージェントへの信用供与に関連する特定のイベント（借り入れ、デフォルト、ラインの解除など）が発生した際に、バックアに通知するために使用するメカニズム。固定ガス制限内で実行され、通知の失敗が貸し手の操作をブロックしないように設計されている。

@@ -4,7 +4,7 @@ aliases:
   - 前提条件
 tags:
   - glossary
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 **前提条件**

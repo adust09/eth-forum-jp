@@ -4,7 +4,7 @@ aliases:
   - ブロックトラック (Block track)
 tags:
   - glossary
-date: '2026-10-23'
+date: '2026-10-24'
 ---
 
 **ブロックトラック (Block track)**
