@@ -5,7 +5,7 @@ aliases:
   - FHE
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **完全準同型暗号 (FHE)**

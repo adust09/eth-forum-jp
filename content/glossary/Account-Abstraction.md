@@ -5,7 +5,7 @@ aliases:
   - AA
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **アカウント抽象化**
@@ -20,6 +20,7 @@ Ethereumにおけるユーザーアカウントの概念を抽象化し、スマ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/magicians-2026-09-27-l402-over-eth-layer2-29782|L402-over-eth-Layer2]]（2026-09-27）
 - [[posts/ethresear-2026-09-07-order-dependence-as-the-classifying-dimension-for-frame-transaction-mempool-admission-25934|フレームトランザクションのメムプール承認における分類軸としての順序依存性]]（2026-09-07）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）

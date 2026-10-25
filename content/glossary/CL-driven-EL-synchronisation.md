@@ -5,7 +5,7 @@ aliases:
   - CL-driven EL sync
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **CL主導型EL同期**

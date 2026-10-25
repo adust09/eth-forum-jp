@@ -4,7 +4,7 @@ aliases:
   - MEV機会帰属問題
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **MEV機会帰属問題**
