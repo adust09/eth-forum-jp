@@ -5,7 +5,7 @@ aliases:
   - Decay (of credits)
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **クレジットの減衰**

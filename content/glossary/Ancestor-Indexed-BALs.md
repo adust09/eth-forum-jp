@@ -4,7 +4,7 @@ aliases:
   - 祖先インデックス付きBALs
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **祖先インデックス付きBALs**

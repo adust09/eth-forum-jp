@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-10-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/ethresear-2026-10-22-reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it-26169|暗号化されたメムプールにおけるリビール選択性：送信者のフリーオプションの規模と、それを排除するポスト量子的な方法]]（2026-10-22）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）

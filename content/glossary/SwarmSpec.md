@@ -4,7 +4,7 @@ aliases:
   - スウォーム仕様 (SwarmSpec)
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **スウォーム仕様 (SwarmSpec)**

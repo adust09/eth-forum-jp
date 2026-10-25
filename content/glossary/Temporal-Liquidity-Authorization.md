@@ -5,7 +5,7 @@ aliases:
   - TLA
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **テンポラル・リクイディティ承認 (TLA)**

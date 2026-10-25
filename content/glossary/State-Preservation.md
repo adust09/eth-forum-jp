@@ -4,7 +4,7 @@ aliases:
   - 状態保存 (State Preservation)
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **状態保存 (State Preservation)**

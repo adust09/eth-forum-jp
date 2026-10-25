@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16001,3 +16001,51 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-tba-agent-credit-backers/30062
 - desc: |
   貸し手がエージェントへの信用供与に関連する特定のイベント（借り入れ、デフォルト、ラインの解除など）が発生した際に、バックアに通知するために使用するメカニズム。固定ガス制限内で実行され、通知の失敗が貸し手の操作をブロックしないように設計されている。
+
+## hash chain
+- ja: ハッシュチェーン
+- related: [Lamport signature, preimage resistance]
+- auto_added: 2026-10-25
+- auto_source_topic_id: 26172
+- auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
+- desc: |
+  一方向性ハッシュ関数を繰り返し適用して生成される一連のハッシュ値。Lamport署名などで使用され、過去のハッシュ値の原像を公開することで、次のハッシュ値の所有権を証明する。
+
+## preimage resistance
+- ja: 原像計算困難性（原像耐性）
+- aliases: [原像耐性]
+- related: [hash function, second-preimage resistance, collision resistance]
+- auto_added: 2026-10-25
+- auto_source_topic_id: 26172
+- auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
+- desc: |
+  暗号学的ハッシュ関数の重要な性質の一つで、与えられたハッシュ値から、そのハッシュ値を生成した元の入力（原像）を計算することが計算量的に困難であること。セキュリティの基盤となる。
+
+## commit–reveal step
+- ja: コミット・リビール方式（コミット・リビールステップ）
+- aliases: [commit-reveal scheme]
+- related: [zero-knowledge proof]
+- auto_added: 2026-10-25
+- auto_source_topic_id: 26172
+- auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
+- desc: |
+  暗号プロトコルでよく用いられる手法。まず参加者が秘密の値をコミット（ハッシュ値などを公開）し、後でその秘密の値をリビール（公開）して、コミットされた値が正しかったことを証明する。不正行為を防ぐために使われる。
+
+## dispute game
+- ja: 紛争解決ゲーム
+- related: [optimistic rollup, fault proof]
+- auto_added: 2026-10-25
+- auto_source_topic_id: 26172
+- auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
+- desc: |
+  オプティミスティックロールアップにおいて、L2の状態遷移が正しく行われたかを検証するためのメカニズム。不正な状態遷移が提案された場合、参加者がその不正を指摘し、ゲームを通じて真偽を決定する。
+
+## Stage 0 (L2BEAT)
+- ja: ステージ0 (L2BEAT)
+- aliases: [L2BEAT Stage 0]
+- related: [optimistic rollup, validium, L2BEAT]
+- auto_added: 2026-10-25
+- auto_source_topic_id: 26172
+- auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
+- desc: |
+  L2BEATが定義するロールアップのセキュリティ成熟度モデルにおける初期段階。この段階のロールアップは、まだ完全な不正証明システムが実装されておらず、オペレーターへの信頼が大きく残っている状態を指す。

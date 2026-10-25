@@ -4,7 +4,7 @@ aliases:
   - ポスト量子バイナリフィールドSNARK
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **ポスト量子バイナリフィールドSNARK**

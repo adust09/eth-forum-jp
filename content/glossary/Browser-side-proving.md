@@ -4,7 +4,7 @@ aliases:
   - ブラウザサイド証明生成 (Browser side proving)
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **ブラウザサイド証明生成 (Browser side proving)**

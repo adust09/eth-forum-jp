@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -304,6 +304,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Commit-and-Reveal-Scheme|Commit-and-Reveal Scheme]] — コミット＆リビール方式
 - [[glossary/commit-before-sign-durability-ordering|commit-before-sign durability ordering]] — 署名前コミット耐久性順序付け
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
+- [[glossary/commitreveal-step|commit–reveal step]] — コミット・リビール方式（コミット・リビールステップ）
 - [[glossary/commitment-digest|commitment digest]] — コミットメントダイジェスト
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
 - [[glossary/Committee-Signature|Committee Signature]] — 委員会署名
@@ -458,6 +459,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/discrete-logarithm|discrete logarithm]] — 離散対数
 - [[glossary/Dislocation-value|Dislocation value]] — ディスロケーション・バリュー（乖離価値）
 - [[glossary/Disposable-Stealth-Accounts|Disposable Stealth Accounts]] — 使い捨てステルスアカウント (Disposable Stealth Accounts)
+- [[glossary/dispute-game|dispute game]] — 紛争解決ゲーム
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
 - [[glossary/distance-weighted-head-reward|distance-weighted head reward]] — 距離加重ヘッド報酬
 - [[glossary/Distributed-Blobspace-Reconstruction|Distributed Blobspace Reconstruction]] — 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
@@ -715,6 +717,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/hardware-gap|hardware gap]] — ハードウェアギャップ
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
+- [[glossary/hash-chain|hash chain]] — ハッシュチェーン
 - [[glossary/hashtreeroot|hash_tree_root]] — ハッシュツリールート
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
@@ -1174,6 +1177,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Predeploys|Predeploys]] — プリデプロイ (Predeploys)
 - [[glossary/Prediction-markets|Prediction markets]] — 予測市場
 - [[glossary/Preferential-Gas-Schedule|Preferential Gas Schedule]] — 優遇ガススケジュール
+- [[glossary/preimage-resistance|preimage resistance]] — 原像計算困難性（原像耐性）
 - [[glossary/Prepared-Transaction-Envelope|Prepared Transaction Envelope]] — 準備済みトランザクションエンベロープ
 - [[glossary/Preregistered-Acceptance-Criteria|Preregistered Acceptance Criteria]] — 事前登録された受入基準
 - [[glossary/Price-Elasticity-of-Gas-Demand|Price Elasticity of Gas Demand]] — ガス需要の価格弾力性
@@ -1468,6 +1472,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Squaring-Degree-Engine|Squaring Degree Engine]] — 二乗次数エンジン
 - [[glossary/SSZ-Compact-Multiproofs|SSZ Compact Multiproofs]] — SSZコンパクトマルチプルーフ
 - [[glossary/sszsnappy|ssz_snappy]] — SSZ Snappy（エンコーディング）
+- [[glossary/Stage-0|Stage 0 (L2BEAT)]] — ステージ0 (L2BEAT)
 - [[glossary/staged-deprecation|staged deprecation]] — 段階的廃止
 - [[glossary/stake|stake]] — ステーク
 - [[glossary/Stake-secured-re-execution|Stake-secured re-execution]] — ステーク担保型再実行

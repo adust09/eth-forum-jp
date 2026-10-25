@@ -4,7 +4,7 @@ aliases:
   - ステートフルキー
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **ステートフルキー**
@@ -19,6 +19,7 @@ date: '2026-10-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/magicians-2026-08-05-native-eth-as-erc-20-system-contract-draft-for-feedback-29301|ネイティブETHをERC-20システムコントラクトとして — フィードバック募集ドラフト]]（2026-08-05）
 
 ## 元の表記（英語）

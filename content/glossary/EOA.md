@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **EOA (Externally Owned Account)**
@@ -18,6 +18,7 @@ date: '2026-10-24'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）
 - [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
 - [[posts/magicians-2026-10-08-erc-8439-settlement-decoupled-nanopayment-ledger-29919|ERC-8439: 決済分離型ナノペイメント台帳]]（2026-10-08）

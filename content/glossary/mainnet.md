@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-10-24'
+date: '2026-10-25'
 ---
 
 **メインネット**
@@ -17,6 +17,7 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-13-informed-diffusion-making-home-builders-publish-fast-26151|Informed Diffusion: ホームビルダーが高速に公開できるようにする]]（2026-10-13）
