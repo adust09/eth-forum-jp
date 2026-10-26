@@ -4,7 +4,7 @@ aliases:
   - BALリプレイ (Block Access List リプレイ)
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **BALリプレイ (Block Access List リプレイ)**

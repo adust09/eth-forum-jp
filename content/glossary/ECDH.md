@@ -5,7 +5,7 @@ aliases:
   - Elliptic Curve Diffie-Hellman
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **楕円曲線ディフィー・ヘルマン鍵共有 (ECDH)**

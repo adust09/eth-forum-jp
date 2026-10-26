@@ -5,7 +5,7 @@ aliases:
   - Execution Layer withdrawal credential type
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **0x01出金資格タイプ**

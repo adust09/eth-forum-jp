@@ -5,7 +5,7 @@ aliases:
   - w_a
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **ブーリアン幅**

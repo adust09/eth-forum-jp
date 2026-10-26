@@ -4,7 +4,7 @@ aliases:
   - 解決層
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **解決層**

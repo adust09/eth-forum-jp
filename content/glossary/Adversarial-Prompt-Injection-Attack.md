@@ -5,7 +5,7 @@ aliases:
   - Prompt Injection Attack
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **敵対的プロンプトインジェクション攻撃**

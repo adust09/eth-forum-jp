@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -66,6 +66,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Memory-State-Registry|Agent Memory State Registry]] — エージェントメモリ状態レジストリ (ERC-8337)
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
+- [[glossary/Agent-Safety-Framework|Agent Safety Framework]] — エージェント安全フレームワーク (ASF)
 - [[glossary/Agent-Service-Discovery|Agent Service Discovery]] — エージェントサービスディスカバリ
 - [[glossary/Agent-Service-Order-Amendments|Agent Service Order Amendments]] — エージェントサービス注文修正
 - [[glossary/Agent-Task-Stack|Agent Task Stack]] — エージェントタスクスタック
@@ -434,6 +435,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/Derived-bindings|Derived bindings]] — 派生バインディング
 - [[glossary/Descriptor-Attestations|Descriptor Attestations]] — ディスクリプタ・アッテステーション
 - [[glossary/Descriptor-hash|Descriptor hash]] — ディスクリプタ・ハッシュ
 - [[glossary/destruction-receipt|destruction receipt]] — 破壊証明 (destruction receipt)
@@ -791,6 +793,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/interface-discovery|interface discovery]] — インターフェース検出
 - [[glossary/Internal-arbitrage|Internal arbitrage]] — 内部アービトラージ
 - [[glossary/internal-extraction-window|internal extraction window]] — 内部抽出ウィンドウ
+- [[glossary/Intervener|Intervener]] — 介入者
 - [[glossary/Intra-batch-dependency-field|Intra-batch dependency field]] — バッチ内依存関係フィールド
 - [[glossary/Intra-cluster-communication|Intra-cluster communication]] — クラスター内通信
 - [[glossary/intrinsic-gas|intrinsic gas]] — 固有ガス
@@ -1361,6 +1364,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
 - [[glossary/safe-and-finalized-tags|safe and finalized tags]] — safeおよびfinalizedタグ
+- [[glossary/Safety-Binding|Safety Binding]] — 安全バインディング
+- [[glossary/Safety-Specification|Safety Specification]] — 安全仕様書
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
 - [[glossary/Sandwich-attack|Sandwich attack]] — サンドイッチ攻撃
 - [[glossary/Scheduler|Scheduler (for virtual machines)]] — スケジューラ（仮想マシン用）
