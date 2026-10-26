@@ -5,7 +5,7 @@ aliases:
   - GEV
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **一般化された抽出可能価値 (GEV)**

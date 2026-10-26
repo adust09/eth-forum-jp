@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16049,3 +16049,49 @@ description: |
 - auto_source_url: https://ethresear.ch/t/a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2/26172
 - desc: |
   L2BEATが定義するロールアップのセキュリティ成熟度モデルにおける初期段階。この段階のロールアップは、まだ完全な不正証明システムが実装されておらず、オペレーターへの信頼が大きく残っている状態を指す。
+
+## Agent Safety Framework
+- ja: エージェント安全フレームワーク (ASF)
+- aliases: [ASF]
+- related: [Safety Specification, Safety Binding]
+- auto_added: 2026-10-26
+- auto_source_topic_id: 30073
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
+- desc: |
+  AIエージェントがアカウント操作や資金移動を行う際の安全要件を定義し、その遵守状況を追跡するためのEthereumリサーチ提案。エージェントの行動を制約し、信頼性を確保することを目的とする。
+
+## Safety Specification
+- ja: 安全仕様書
+- related: [Agent Safety Framework, Safety Binding, Protected interests]
+- auto_added: 2026-10-26
+- auto_source_topic_id: 30073
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
+- desc: |
+  Agent Safety Framework (ASF) の中核をなす、バージョン管理されたコンテンツアドレス指定可能な文書。保護されるべき利益、適用範囲、制約、証拠、執行チャネル、障害処理、および是正措置を定義する。
+
+## Safety Binding
+- ja: 安全バインディング
+- related: [Agent Safety Framework, Safety Specification, Intervener, Derived bindings]
+- auto_added: 2026-10-26
+- auto_source_topic_id: 30073
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
+- desc: |
+  Agent Safety Framework (ASF) におけるオンチェーンステートメント。アダプターが特定の安全仕様書バージョンを特定の主体とスコープに対して採用したことを宣言する。有効期間、介入者、およびライフサイクル（アクティブ、一時停止、終了）を含む。
+
+## Intervener
+- ja: 介入者
+- related: [Safety Binding, Response requirements]
+- auto_added: 2026-10-26
+- auto_source_topic_id: 30073
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
+- desc: |
+  Agent Safety Framework (ASF) の安全バインディングにおいて、明示的な権利（一時停止、再開、終了）を持つエンティティ。アダプターの意図に反してエージェントの活動を停止させる権限を持つことができる。
+
+## Derived bindings
+- ja: 派生バインディング
+- related: [Safety Binding]
+- auto_added: 2026-10-26
+- auto_source_topic_id: 30073
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
+- desc: |
+  Agent Safety Framework (ASF) において、親バインディングから派生する安全バインディング。親と同じ安全仕様書バージョンを持ち、有効期間は親の範囲内に限定され、親の祖先も有効である必要がある。

@@ -4,7 +4,7 @@ aliases:
   - 機械レジスタ (EVM文脈)
 tags:
   - glossary
-date: '2026-10-25'
+date: '2026-10-26'
 ---
 
 **機械レジスタ (EVM文脈)**
