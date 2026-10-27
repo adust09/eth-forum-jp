@@ -4,7 +4,7 @@ aliases:
   - 依存関係フレーム (dependency frame)
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **依存関係フレーム (dependency frame)**

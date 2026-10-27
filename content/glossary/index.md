@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -250,6 +250,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CALLVALUEBASEGAS|CALL_VALUE_BASE_GAS]] — CALL_VALUEベースガス
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
 - [[glossary/Callee-Cap-Compatibility|Callee-Cap Compatibility]] — 被呼び出し元制限の互換性
+- [[glossary/CALLSTATUS-instruction|CALLSTATUS instruction]] — CALLSTATUS命令
 - [[glossary/callTracer|callTracer]] — callTracer (コールトレーサー)
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
 - [[glossary/Canonical-exit|Canonical exit]] — カノニカル・イグジット
@@ -308,6 +309,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/commitreveal-step|commit–reveal step]] — コミット・リビール方式（コミット・リビールステップ）
 - [[glossary/commitment-digest|commitment digest]] — コミットメントダイジェスト
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
+- [[glossary/committed-submission|committed submission]] — コミット済み提出（リクエスト）
 - [[glossary/Committee-Signature|Committee Signature]] — 委員会署名
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
 - [[glossary/commutative-tier|commutative tier]] — 可換ティア
@@ -335,6 +337,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Consensus-Issuance|Consensus Issuance]] — コンセンサス層発行（量）
 - [[glossary/Consensus-Layer|Consensus Layer]] — コンセンサス層
 - [[glossary/consensus-state|consensus state]] — コンセンサス状態
+- [[glossary/consensus-critical|consensus-critical]] — コンセンサス上重要（な要素）
 - [[glossary/Consensus-ordered-revocation|Consensus-ordered revocation]] — コンセンサス順序付けされた取り消し
 - [[glossary/Consensus-visible-timestamp|Consensus-visible timestamp]] — コンセンサス可視タイムスタンプ
 - [[glossary/Consent-Registry|Consent Registry]] — 同意レジストリ
@@ -516,6 +519,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/embedded-wallets|embedded wallets]] — 組み込み型ウォレット
 - [[glossary/eMBER|eMBER]] — eMBER (ePBS実行報酬強制焼却)
 - [[glossary/EmergencyStateChanged|EmergencyStateChanged]] — EmergencyStateChanged（緊急状態変更イベント）
+- [[glossary/emitted-withdrawal-request|emitted withdrawal request]] — 発行済み引き出しリクエスト
 - [[glossary/Encode-Prove-DAS|Encode + Prove DAS]] — エンコード＋証明DAS
 - [[glossary/Encrypt-The-Mempool|Encrypt The Mempool]] — メムプール暗号化
 - [[glossary/Encrypted-Mempool|Encrypted Mempool]] — 暗号化メムプール
@@ -592,6 +596,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EVM|EVM]] — EVM (イーサリアム仮想マシン)
 - [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
 - [[glossary/EVM-Code|EVM Code]] — EVMコード
+- [[glossary/EVM-execution-frame|EVM execution frame]] — EVM実行フレーム
 - [[glossary/EVM-Verification-Key-Registry|EVM Verification Key Registry]] — EVM検証鍵レジストリ
 - [[glossary/EVM64-instruction-set|EVM64 instruction set]] — EVM64命令セット
 - [[glossary/Exactly-Once-Execution|Exactly Once Execution]] — 厳密な1回実行
@@ -716,6 +721,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
 - [[glossary/guardian-quorum|guardian quorum]] — ガーディアンクォーラム
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
+- [[glossary/halt-bit|halt bit]] — ハルトビット
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/hardware-gap|hardware gap]] — ハードウェアギャップ
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
@@ -785,6 +791,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
 - [[glossary/Input-rule|Input rule]] — 入力ルール (Input rule)
 - [[glossary/instant-revoke|instant revoke]] — 即時取り消し
+- [[glossary/insufficient-gas-griefing|insufficient gas griefing]] — ガス不足グリフィング
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
@@ -1517,6 +1524,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Steganographic-Point-Obfuscation|Steganographic Point Obfuscation]] — ステガノグラフィック点難読化
 - [[glossary/Stepwise-approach|Stepwise approach]] — ステップワイズアプローチ
+- [[glossary/sticky-haltseen-flag|sticky halt_seen flag]] — スティッキーハルト検出フラグ
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
 - [[glossary/Stoichiometry-Constrained-Recurrent-Neural-Networks|Stoichiometry-Constrained Recurrent Neural Networks]] — 化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
@@ -1555,6 +1563,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Symbolization|Symbolization]] — 象徴化
 - [[glossary/Sync-Committee|Sync Committee]] — 同期委員会
 - [[glossary/sync-committee-proofs|sync committee proofs]] — 同期委員会証明
+- [[glossary/system-address|system address]] — システムアドレス
+- [[glossary/system-call|system call]] — システムコール
 - [[glossary/System-contract|System contract]] — システムコントラクト
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/Tapered-Issuance-Burn|Tapered Issuance Burn]] — テーパー型発行量バーン

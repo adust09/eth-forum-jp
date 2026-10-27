@@ -5,7 +5,7 @@ aliases:
   - PQS
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **量子耐性署名 (post-quantum signatures)**

@@ -4,7 +4,7 @@ aliases:
   - 権限境界
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **権限境界**

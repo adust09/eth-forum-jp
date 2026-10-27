@@ -4,7 +4,7 @@ aliases:
   - 再価格設定
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **再価格設定**
@@ -18,6 +18,7 @@ Ethereumネットワークにおけるトランザクション手数料やリソ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）
 - [[posts/ethresear-2026-10-15-how-much-screening-buys-a-second-speed-selection-and-the-makers-spread-26158|スクリーニングはどれだけの時間を稼ぐか？スピード、選択、そしてメイカーのスプレッド]]（2026-10-15）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-08-30-same-instruction-count-23x-the-wall-clock-working-set-effects-in-a-deterministic-risc-v-interpreter-25856|命令数同一、実時間23倍：決定論的RISC-Vインタプリタにおけるワーキングセットの影響]]（2026-08-30）

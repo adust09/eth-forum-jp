@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **Ethereum Request for Comments (ERC)**

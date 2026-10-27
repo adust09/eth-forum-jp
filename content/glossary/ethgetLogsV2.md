@@ -4,7 +4,7 @@ aliases:
   - eth_getLogsV2 (RPCメソッド)
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **eth_getLogsV2 (RPCメソッド)**

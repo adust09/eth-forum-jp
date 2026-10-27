@@ -4,7 +4,7 @@ aliases:
   - ガススケジュール
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **ガススケジュール**
@@ -18,7 +18,7 @@ Ethereumトランザクションの実行に必要なガス量を計算するた
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）
 
 ## 元の表記（英語）
 

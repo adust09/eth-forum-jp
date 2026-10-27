@@ -4,7 +4,7 @@ aliases:
   - EIP編集オフィスアワー
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **EIP編集オフィスアワー**
@@ -18,6 +18,7 @@ EIPエディターがコミュニティメンバーからのEIPに関する質�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-26-eipip-meeting-132-nov-18-2026-30084|EIPIP会議 #132、2026年11月18日]]（2026-10-26）
 - [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）
 - [[posts/magicians-2026-09-22-eipip-meeting-131-oct-20-2026-29748|EIPIPミーティング #131、2026年10月20日]]（2026-09-22）
 - [[posts/magicians-2026-08-13-eipip-meeting-130-sep-16-2026-29418|EIPIPミーティング #130、2026年9月16日]]（2026-08-13）
