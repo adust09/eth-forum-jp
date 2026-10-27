@@ -4,7 +4,7 @@ aliases:
   - NFT紐付け型予測市場
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **NFT紐付け型予測市場**

@@ -4,7 +4,7 @@ aliases:
   - 大まかな合意 (Rough Consensus)
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **大まかな合意 (Rough Consensus)**
@@ -18,7 +18,7 @@ Ethereum Improvement Proposal (EIP) の意思決定プロセスにおいて用�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-26-eipip-meeting-132-nov-18-2026-30084|EIPIP会議 #132、2026年11月18日]]（2026-10-26）
 
 ## 元の表記（英語）
 

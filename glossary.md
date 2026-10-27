@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16095,3 +16095,97 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-erc-agent-safety-framework-asf-attributable-adoption-of-versioned-safety-specifications/30073
 - desc: |
   Agent Safety Framework (ASF) において、親バインディングから派生する安全バインディング。親と同じ安全仕様書バージョンを持ち、有効期間は親の範囲内に限定され、親の祖先も有効である必要がある。
+
+## system call
+- ja: システムコール
+- related: [system contract, EIP-7002]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 26180
+- auto_source_url: https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180
+- desc: |
+  Ethereumプロトコル自体が特定のコントラクト（システムコントラクトなど）に対して行う特別な呼び出し。EIP-7002では、この呼び出しがブロックの有効性を左右するコンセンサス上重要な役割を果たす。
+
+## consensus-critical
+- ja: コンセンサス上重要（な要素）
+- related: [block invalidation, EIP-7002]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 26180
+- auto_source_url: https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180
+- desc: |
+  その機能の失敗がブロックの無効化やプロトコルの合意形成に直接的な影響を与える要素や操作を指す。EIP-7002のシステムコールがこれに該当する。
+
+## committed submission
+- ja: コミット済み提出（リクエスト）
+- aliases: [committed submissions]
+- related: [EIP-7002, withdrawal request, FIFO]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 26180
+- auto_source_url: https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180
+- desc: |
+  EIP-7002コントラクトにおいて、バリデータの退出や部分的な引き出しリクエストが正常に記録され、その後の処理でロールバックされなかったものを指す。これらはFIFOの順序で処理される。
+
+## emitted withdrawal request
+- ja: 発行済み引き出しリクエスト
+- aliases: [emissions]
+- related: [EIP-7002, withdrawal request, FIFO]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 26180
+- auto_source_url: https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180
+- desc: |
+  EIP-7002コントラクトを通じて、ブロックによって実際に処理され、出力された引き出しリクエストを指す。これらはコミット済み提出リクエストがFIFOの順序でサービスされた結果である。
+
+## system address
+- ja: システムアドレス
+- aliases: [0xff...fe]
+- related: [system call, EIP-4788, EIP-2935, EIP-7251]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 26180
+- auto_source_url: https://ethresear.ch/t/lean-verification-of-eip-7002-system-call-success-and-fifo-requests/26180
+- desc: |
+  Ethereumプロトコルがシステムコールを行う際に使用する特別なアドレス（例: 0xff...fe）。通常のユーザーアカウントやコントラクトとは異なり、プロトコル内部の操作のために予約されている。
+
+## CALLSTATUS instruction
+- ja: CALLSTATUS命令
+- related: [EIP-8456, CALL, CALLCODE, DELEGATECALL, STATICCALL, CREATE, CREATE2, EVM]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 30085
+- auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
+- desc: |
+  EIP-8456で提案されているEVMの新しい命令。現在のフレームにおける直近のCALL系命令やCREATE系命令の完了ステータス（成功、リバート、停止など）を3ビットでスタックにプッシュする。これにより、コントラクトはガスの残量に依存せず、呼び出しの失敗原因を正確に判断できるようになる。
+
+## EVM execution frame
+- ja: EVM実行フレーム
+- aliases: [frame]
+- related: [CALL, CALLCODE, DELEGATECALL, STATICCALL, CREATE, CREATE2, EVM]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 30085
+- auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
+- desc: |
+  EVMにおける関数呼び出しやコントラクト作成の実行コンテキストの単位。各フレームは独自のスタック、メモリ、ガス状態を持つ。CALLSTATUS命令は、現在のフレーム内で発生した直近の呼び出しのステータスを報告する。
+
+## halt bit
+- ja: ハルトビット
+- related: [CALLSTATUS instruction, revert, out-of-gas]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 30085
+- auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
+- desc: |
+  CALLSTATUS命令によって公開される3つのステータスビットの1つ（ビット1）。呼び出しが例外的に停止したか、転送されたガスを消費して失敗したことを示す。このビットがセットされると、呼び出しは「最終的ではない」と判断される。
+
+## insufficient gas griefing
+- ja: ガス不足グリフィング
+- related: [CALLSTATUS instruction, out-of-gas, revert]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 30085
+- auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
+- desc: |
+  攻撃者が意図的に少ないガスでトランザクションを送信し、呼び出し先のコントラクトがガス不足で失敗するように仕向ける行為。CALLSTATUS命令は、このガス不足による失敗と意図的なリバートを区別することで、この種のグリフィング攻撃への耐性を高めることを目的としている。
+
+## sticky halt_seen flag
+- ja: スティッキーハルト検出フラグ
+- related: [CALLSTATUS instruction, EVM execution frame, halt bit]
+- auto_added: 2026-10-27
+- auto_source_topic_id: 30085
+- auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
+- desc: |
+  EVMの各実行フレームが保持する内部フラグ。フレーム内のいずれかの呼び出しが「halt bit」をセットして終了した場合に設定され、そのフレームが完了（リバートまたはリターン）する際に親フレームに伝播する。これにより、プロキシなどの仲介コントラクトを介しても、下位フレームで発生した例外的な停止が上位フレームに正確に報告される。

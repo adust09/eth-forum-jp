@@ -4,7 +4,7 @@ aliases:
   - 物理的検証
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **物理的検証**

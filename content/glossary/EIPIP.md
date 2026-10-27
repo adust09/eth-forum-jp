@@ -4,7 +4,7 @@ aliases:
   - EIPIP
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **EIPIP**
@@ -17,6 +17,7 @@ Ethereum Improvement Proposal (EIP) の実装プロセスに関する会議体�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-26-eipip-meeting-132-nov-18-2026-30084|EIPIP会議 #132、2026年11月18日]]（2026-10-26）
 - [[posts/magicians-2026-08-19-proposal-for-a-new-erc-token-behavior-declaration-29464|新しいERCの提案：トークンの振る舞い宣言]]（2026-08-19）
 - [[posts/magicians-2026-08-13-eipip-meeting-130-sep-16-2026-29418|EIPIPミーティング #130、2026年9月16日]]（2026-08-13）
 - [[posts/magicians-2026-07-15-eip-editing-office-hour-eip-erc-meeting-107-july-21-2026-29014|EIP編集オフィスアワー (EIP + ERC) ミーティング #107、2026年7月21日]]（2026-07-15）

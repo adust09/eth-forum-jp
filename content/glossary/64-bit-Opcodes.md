@@ -4,7 +4,7 @@ aliases:
   - 64ビットオペコード (EVM)
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **64ビットオペコード (EVM)**

@@ -4,7 +4,7 @@ aliases:
   - ステートルート
 tags:
   - glossary
-date: '2026-10-26'
+date: '2026-10-27'
 ---
 
 **ステートルート**
@@ -18,6 +18,7 @@ date: '2026-10-26'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-26-lean-verification-of-eip-7002-system-call-success-and-fifo-requests-26180|EIP-7002のLean検証: システムコール成功とFIFOリクエスト]]（2026-10-26）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 - [[posts/magicians-2026-10-04-eip-8435-last-written-block-in-pbt-leaves-29860|EIP-8435: PBTリーフにおける最終書き込みブロック]]（2026-10-04）
