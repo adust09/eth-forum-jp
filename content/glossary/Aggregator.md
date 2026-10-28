@@ -5,7 +5,7 @@ aliases:
   - PQ Attestation Aggregator
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **アグリゲーター**
@@ -23,7 +23,7 @@ Post-Quantum Ethereumにおいて、BLS署名がより大きな耐量子ハッ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-24-all-core-devs-execution-acde-249-november-5-2026-30071|All Core Devs - Execution (ACDE) #249、2026年11月5日]]（2026-10-24）
 - [[posts/magicians-2026-10-17-all-core-devs-consensus-acdc-190-october-29-2026-29994|オールコア開発者会議 - コンセンサス (ACDC) #190、2026年10月29日]]（2026-10-17）
 - [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）

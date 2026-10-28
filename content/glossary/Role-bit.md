@@ -4,7 +4,7 @@ aliases:
   - 役割ビット
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **役割ビット**

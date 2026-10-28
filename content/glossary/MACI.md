@@ -5,7 +5,7 @@ aliases:
   - Minimum Anti-Collusion Infrastructure
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **MACI (Minimum Anti-Collusion Infrastructure)**
@@ -19,6 +19,7 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-27-proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review-26184|Proof of One: 暗号化された投票用紙による一人一票の投票システム — 設計と参照コード、批判的レビューを募集]]（2026-10-27）
 - [[posts/ethresear-2026-07-20-sovereign-space-when-values-need-architecture-25485|主権的空間：価値がアーキテクチャを必要とするとき]]（2026-07-20）
 - [[posts/ethresear-2026-07-02-designing-infrastructure-where-exploits-destroy-themselves-25348|エクスプロイトが自己破壊するインフラの設計]]（2026-07-02）
 - [[posts/ethresear-2026-06-19-the-reputation-wallet-why-knowledge-ethics-and-moral-judgment-belong-on-chain-25236|レピュテーションウォレット：知識、倫理、道徳的判断がオンチェーンに属する理由]]（2026-06-19）

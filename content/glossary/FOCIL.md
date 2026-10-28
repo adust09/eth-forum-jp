@@ -5,7 +5,7 @@ aliases:
   - EIP-7805
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **FOCIL (強制オンチェーンインクルージョンリスト)**
@@ -19,6 +19,8 @@ Ethereumの検閲耐性強化を目的とした提案EIP-7805の略称。特定�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）

@@ -4,7 +4,7 @@ aliases:
   - 証明集約
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **証明集約**
@@ -20,7 +20,8 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 
 ## 元の表記（英語）
 

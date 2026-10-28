@@ -5,7 +5,7 @@ aliases:
   - IL
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **インクルージョンリスト**
@@ -20,6 +20,7 @@ FOCILにおいて、特定のトランザクションをブロックに含める
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）
 - [[posts/magicians-2026-08-14-preserving-censorship-resistance-for-bal-data-in-eip-7999-29427|EIP-7999におけるBALデータの検閲耐性維持]]（2026-08-14）
 - [[posts/magicians-2026-08-05-eip-8369-vops-profiles-for-focil-eligibility-29298|EIP-8369: FOCIL適格性のためのVOPSプロファイル]]（2026-08-05）

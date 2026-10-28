@@ -4,7 +4,7 @@ aliases:
   - 検証結果 (Verification outcome)
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **検証結果 (Verification outcome)**

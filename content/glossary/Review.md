@@ -4,7 +4,7 @@ aliases:
   - レビュー (EIP/ERC)
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **レビュー (EIP/ERC)**
@@ -21,6 +21,7 @@ EIPまたはERCの提案がドラフト段階を終え、より広範なコミ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-26-eip-editing-office-hour-eip-erc-meeting-118-october-27-2026-30083|EIP編集オフィスアワー (EIP + ERC) ミーティング #118、2026年10月27日]]（2026-10-26）
 - [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）
 - [[posts/magicians-2026-10-12-eip-editing-office-hour-eip-erc-meeting-116-october-14-2026-29956|EIP編集オフィスアワー (EIP + ERC) ミーティング #116、2026年10月14日]]（2026-10-12）
 - [[posts/magicians-2026-08-13-eip-editing-office-hour-eip-erc-meeting-111-aug-18-2026-29423|EIP編集オフィスアワー (EIP + ERC) ミーティング #111、2026年8月18日]]（2026-08-13）

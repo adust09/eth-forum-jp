@@ -4,7 +4,7 @@ aliases:
   - VOPSプロファイル (Validity-Only Partial Statelessness Profiles)
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **VOPSプロファイル (Validity-Only Partial Statelessness Profiles)**

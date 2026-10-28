@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **ステーク**
@@ -19,6 +19,8 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-23-erc-tba-agent-credit-backers-30062|ERC-TBA: エージェント信用保証者]]（2026-10-23）
 - [[posts/magicians-2026-10-15-execution-batches-of-multiple-blocks-under-eip-7732-29981|EIP-7732に基づく複数ブロックの実行バッチ]]（2026-10-15）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）

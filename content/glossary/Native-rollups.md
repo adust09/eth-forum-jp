@@ -4,7 +4,7 @@ aliases:
   - ネイティブロールアップ
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **ネイティブロールアップ**
@@ -18,6 +18,7 @@ L1とのより深い統合を特徴とするロールアップの一種。特に
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/ethresear-2026-07-06-lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer-25374|リーン実行：世界のコンピュータをスケールさせるための、安全で、効率的で、適応性があり、リソース効率の高い実行スループットへの包括的アプローチ]]（2026-07-06）
 
 ## 元の表記（英語）

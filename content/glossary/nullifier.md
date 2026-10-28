@@ -5,7 +5,7 @@ aliases:
   - nf
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **ナリファイア**
@@ -19,6 +19,8 @@ ZK-UTXOモデルにおいて、ノートが消費された際に公開される�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/ethresear-2026-10-27-proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review-26184|Proof of One: 暗号化された投票用紙による一人一票の投票システム — 設計と参照コード、批判的レビューを募集]]（2026-10-27）
 - [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）

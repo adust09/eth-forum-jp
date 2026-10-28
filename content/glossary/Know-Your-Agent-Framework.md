@@ -6,7 +6,7 @@ aliases:
   - KYA
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **Know-Your-Agent (KYA) フレームワーク**

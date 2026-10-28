@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16189,3 +16189,279 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8456-callstatus-instruction/30085
 - desc: |
   EVMの各実行フレームが保持する内部フラグ。フレーム内のいずれかの呼び出しが「halt bit」をセットして終了した場合に設定され、そのフレームが完了（リバートまたはリターン）する際に親フレームに伝播する。これにより、プロキシなどの仲介コントラクトを介しても、下位フレームで発生した例外的な停止が上位フレームに正確に報告される。
+
+## Ephemeral Rollup
+- ja: エフェメラルロールアップ (Ephemeral Rollup)
+- related: [L1.5, Rollup, Account Abstraction, Proof Aggregation]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26187
+- auto_source_url: https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187
+- desc: |
+  ユーザーのステートを保持せず、計算のみを実行する一時的なロールアップのアーキテクチャパターン。L1が共有ステートとトランジションの検証を担い、ウォレットがユーザー自身のステートを管理します。
+
+## L1.5
+- ja: L1.5 (レイヤー1.5)
+- related: [Ephemeral Rollup, Rollup, Account Abstraction, Proof Aggregation]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26187
+- auto_source_url: https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187
+- desc: |
+  ウォレットとL1の間に位置する新しいアーキテクチャパターン。L1.5はステートを保持せず、計算と証明のみを行い、その出力はL1によって検証されます。エフェメラルロールアップの概念を指します。
+
+## Threshold blind signature
+- ja: 閾値ブラインド署名
+- related: [Blind signature, Threshold signature, Gas Ticketing]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26187
+- auto_source_url: https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187
+- desc: |
+  複数の署名者が協力してメッセージに署名するが、個々の署名者はメッセージの内容を知ることができない暗号技術。L1.5の文脈では、ガスレス支払い用のチケット発行に利用され、単一の信頼された発行者に依存しない仕組みを提供します。
+
+## Fluid MPC
+- ja: Fluid MPC (流動的マルチパーティ計算)
+- related: [Multi-Party Computation, YOSO]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26187
+- auto_source_url: https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187
+- desc: |
+  参加者が動的に変化する環境下でのマルチパーティ計算（MPC）プロトコル。L1.5の文脈では、プロトコルに組み込まれた役割（例：委員会）が、事前に固定されたシードから動的に選出される仕組みとして言及されます。
+
+## Co-SNARK
+- ja: Co-SNARK (コ・スナーク)
+- related: [SNARK, Proof aggregation]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26187
+- auto_source_url: https://ethresear.ch/t/ephemeral-rollup-the-new-l1-5-of-ethereum/26187
+- desc: |
+  複数の参加者が協力してSNARK証明を生成するが、各参加者は自身の秘密情報（witness）を共有することなく、秘密のシェアのみを提供する証明システム。ユーザーデバイス上での証明生成を支援する技術として言及されます。
+
+## one-person-one-identity polling
+- ja: 1人1投票型投票（one-person-one-identity polling）
+- related: [Proof of Personhood, Decentralized Governance]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26184
+- auto_source_url: https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184
+- desc: |
+  各参加者が唯一の人間であることを保証し、かつ投票者の匿名性を維持しながら行われる投票システム。分散型ガバナンスや本人確認（Proof of Personhood）の文脈で重要な課題です。
+
+## census of unique humans
+- ja: 唯一の人間であることの登録（census of unique humans）
+- related: [Proof of Personhood, Identity Leaf]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26184
+- auto_source_url: https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184
+- desc: |
+  投票や本人確認システムにおいて、各参加者が重複なく唯一の人間であることをプライバシーを保護しつつ登録する仕組み。ICAOパスポートチップのような実世界の身分証明書を利用して構築されます。
+
+## hidden revocation handle
+- ja: 隠された失効ハンドル（hidden revocation handle）
+- related: [Identity Leaf, Unlinkability]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26184
+- auto_source_url: https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184
+- desc: |
+  ユーザーのプライバシーを保護しながら、以前のアイデンティティを失効させるためのメカニズム。失効時にどのアイデンティティが失効されたかを明かさずに、再登録を可能にします。
+
+## OPRF document fingerprint
+- ja: OPRF文書フィンガープリント（OPRF document fingerprint）
+- related: [OPRF, Deduplication, Privacy-preserving Identity]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26184
+- auto_source_url: https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184
+- desc: |
+  秘匿擬似乱数関数（OPRF）を用いて生成される文書のフィンガープリント。プライバシーを保護しつつ、重複する文書やアイデンティティを検出するために使用されます。
+
+## identity leaf
+- ja: アイデンティティリーフ（identity leaf）
+- related: [Merkle Tree, ZK Proof, Identity Management]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26184
+- auto_source_url: https://ethresear.ch/t/proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review/26184
+- desc: |
+  ZK証明ベースのアイデンティティシステムにおいて、個々のユーザーのアイデンティティを表すデータ構造。通常、マークルツリーの葉ノードとして機能し、ユーザーの認証情報や状態を秘匿します。
+
+## PQ P2P
+- ja: 量子耐性P2P (Post-Quantum P2P)
+- aliases: [Post-Quantum P2P]
+- related: [Post-Quantum Cryptography, Quantum-Resistant Signature, ML-KEM, ML-DSA, SLH-DSA]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26183
+- auto_source_url: https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+- desc: |
+  量子コンピュータの脅威に耐えうるP2Pネットワークプロトコルへの移行を指します。特にEthereumのコンセンサス層において、既存の暗号プリミティブを量子耐性のあるものに置き換える取り組みです。
+
+## libp2p Peer ID
+- ja: libp2pピアID
+- related: [Node ID, ENR]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26183
+- auto_source_url: https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+- desc: |
+  libp2pネットワークにおいてノードを一意に識別するためのIDです。Ethereumのコンセンサス層では、ENRから導出されるノードIDとは別に、接続認証に使用されます。
+
+## Lattice-based schemes
+- ja: 格子ベース暗号方式 (Lattice-based schemes)
+- related: [ML-DSA, ML-KEM, Post-Quantum Cryptography]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26183
+- auto_source_url: https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+- desc: |
+  格子問題の計算困難性に基づいた暗号方式の総称です。P2Pネットワーク層のサイズ制約が厳しい環境において、量子耐性を持つ署名や鍵交換の候補として注目されています。
+
+## TLS CertificateVerify
+- ja: TLS CertificateVerify
+- aliases: [CertificateVerify]
+- related: [TLS 1.3, Connection authentication]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26183
+- auto_source_url: https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+- desc: |
+  TLS 1.3ハンドシェイクの一部で、クライアントまたはサーバーが自身の証明書秘密鍵の所有を証明するために、ハンドシェイクのトランスクリプトに署名するプロセスです。量子耐性移行においては、この署名メカニズムも量子耐性のあるものに置き換える必要があります。
+
+## Downgrade attacks
+- ja: ダウングレード攻撃
+- related: [Hybrid key exchange, Post-Quantum Cryptography]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 26183
+- auto_source_url: https://ethresear.ch/t/inventory-of-pq-p2p-migrations-in-the-consensus-layer/26183
+- desc: |
+  攻撃者がシステムに、より脆弱な古いプロトコルバージョンや暗号スイートを使用させることで、セキュリティを低下させる攻撃です。量子耐性移行においては、古典的な暗号方式と量子耐性のある暗号方式が共存する期間に特に注意が必要となります。
+
+## Secure Transaction Verification and Authorization
+- ja: 安全なトランザクション検証と認可 (STVA)
+- aliases: [STVA]
+- related: [Verification Payload, Semantic Intent, Independent Simulator, Scoped Capability]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30106
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106
+- desc: |
+  トランザクション署名が独立して検証可能で、人間にとって意味のあるものにするための提案されたERCの概念です。ブラインド署名やUI攻撃を防ぎ、「見たものが署名するもの」を強制可能にすることを目指します。
+
+## Verification Payload
+- ja: 検証ペイロード
+- related: [Semantic Intent, Independent Simulator]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30106
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106
+- desc: |
+  提案されたERCのコアコンセプトの一つです。生トランザクションやUserOperationに必須のメタデータを含んだ構造化オブジェクトで、署名前に独立した検証とシミュレーションを可能にします。
+
+## Semantic Intent
+- ja: セマンティックインテント
+- related: [Verification Payload]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30106
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106
+- desc: |
+  提案されたERCのコアコンセプトの一つです。トランザクションの効果を人間と機械が読み取り可能な形式で記述したもの（例：「1000 USDCを0xabc…に送金」、「Safeの実装を0xdef…にアップグレード」など）を指します。
+
+## Independent Simulator
+- ja: 独立シミュレーター
+- related: [Verification Payload]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30106
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106
+- desc: |
+  提案されたERCのコアコンセプトの一つです。ウォレット、ハードウェアデバイス、第三者検証者などが、特定のペイロードを再シミュレーションし、正規の結果を生成できるインターフェースを指します。
+
+## Scoped Capability
+- ja: スコープ付きケイパビリティ
+- related: [EIP-712, ERC-1271]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30106
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-secure-transaction-verification-and-authorization-stva-stopping-blind-signing-multisig-ui-attacks/30106
+- desc: |
+  提案されたERCのコアコンセプトの一つです。特定の行動のみを許可する、短命で目的が限定された認可トークン（EIP-712型データまたはERC-1271互換）を指します。
+
+## Stable Merkle positions for consensus fields
+- ja: コンセンサスフィールドの安定したマークルポジション
+- aliases: [Stable Merkle positions]
+- related: [EIP-7688, Merkle tree, Consensus layer]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30104
+- auto_source_url: https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104
+- desc: |
+  EIP-7688で提案されている、Ethereumのコンセンサス層データ構造におけるフィールドのマークルツリー内での位置を安定させる仕組み。これにより、プロトコルフォークによってスマートコントラクトが検証する証明が破損する問題を解決し、証明ベースの設計の耐久性を向上させる。
+
+## Beacon-state proofs
+- ja: ビーコンステート証明
+- related: [Beacon Chain, Proof, Consensus layer]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30104
+- auto_source_url: https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104
+- desc: |
+  Ethereumのコンセンサス層（ビーコンチェーン）の特定の状態に関する暗号学的証明。アプリケーション層のスマートコントラクトがビーコンチェーンの情報をオンチェーンで検証するために利用されるが、プロトコルフォークによって証明の検証回路が破損する課題がある。
+
+## Value leg
+- ja: バリューレッグ
+- related: [ePBS, Execution payment leg, Proposer]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30104
+- auto_source_url: https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104
+- desc: |
+  enshrined Proposer-Builder Separation (ePBS) において、ブロックプロポーザーがブロックの価値（トランザクション手数料やMEV）を受け取る部分を指す。この部分はプロトコルによって担保され、オンチェーンで決済されるため、信頼性が高い。
+
+## Execution payment leg
+- ja: 実行ペイメントレッグ
+- related: [ePBS, Value leg, Builder]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30104
+- auto_source_url: https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104
+- desc: |
+  enshrined Proposer-Builder Separation (ePBS) において、ビルダーがプロポーザーに実行ペイロードの対価として支払う部分を指す。この支払いはプロトコル外で信頼された約束として決済されるため、プロトコルによる強制力に限界がある。
+
+## Native validator key rotation
+- ja: ネイティブバリデータキーローテーション
+- related: [Validator key, BLS keys, Security]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30104
+- auto_source_url: https://ethereum-magicians.org/t/app-layer-input-on-eips-and-the-roadmap-staking-and-oracles/30104
+- desc: |
+  バリデータが既存のステークを終了して再入することなく、自身のBLSキーを更新できるプロトコルレベルの仕組み。インフラストラクチャのハッキングリスクが増加する中で、バリデータのセキュリティと運用の柔軟性を高めるために重要視されている。
+
+## LSM
+- ja: LSM（ログ構造化マージツリー）
+- aliases: [Log-Structured Merge-tree]
+- related: [compaction amplification, write amplification]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30092
+- auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
+- desc: |
+  データベースのストレージエンジンで用いられるデータ構造です。書き込みを最適化するために、データをログのように追記し、バックグラウンドでソートされたラン（SSTable）にマージします。Ethereumクライアントのストレージレイヤーでも採用されています。
+
+## B+tree
+- ja: B+ツリー
+- related: [copy-on-write B+tree]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30092
+- auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
+- desc: |
+  データベースで広く使われるツリー構造のデータインデックスです。すべてのデータがリーフノードに格納され、シーケンシャルアクセスに優れます。Ethereumクライアントのストレージエンジン（MDBXなど）でも利用されます。
+
+## NOMT
+- ja: NOMT（非重複マークルツリー）
+- aliases: [Non-Overlapping Merkle Tree]
+- related: [Merkle Tree, EIP-8297 PBT]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30092
+- auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
+- desc: |
+  マークルツリーの一種で、ノードの範囲が重複しないように設計されています。EIP-8297 PBTのページストア設計の比較対象として言及されており、効率的なストレージ管理に貢献します。
+
+## compaction amplification
+- ja: コンパクション増幅
+- related: [LSM, write amplification]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30092
+- auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
+- desc: |
+  LSM（ログ構造化マージツリー）ベースのストレージエンジンにおいて、データをマージ（コンパクション）する際に発生する実際の書き込み量と論理的な書き込み量の比率です。この値が高いと、ストレージの書き込み負荷が増大します。
+
+## zone prefix
+- ja: ゾーンプレフィックス
+- related: [EIP-8297 PBT]
+- auto_added: 2026-10-28
+- auto_source_topic_id: 30092
+- auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
+- desc: |
+  EIP-8297で導入されるPartitioned Binary Tree (PBT) のキー構造の一部です。キーに付与されるプレフィックスで、PBTのゾーン分割を可能にし、ツリーの効率的な管理を支援します。
