@@ -4,7 +4,7 @@ aliases:
   - EIPタグ付け
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **EIPタグ付け**

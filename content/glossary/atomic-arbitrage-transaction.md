@@ -5,7 +5,7 @@ aliases:
   - atomic arbitrage
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **アトミック裁定取引**

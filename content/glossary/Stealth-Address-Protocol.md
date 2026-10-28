@@ -5,7 +5,7 @@ aliases:
   - SAP
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **ステルスアドレスプロトコル (SAP)**
@@ -20,6 +20,7 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-09-erc-8441-hybrid-post-quantum-stealth-address-scheme-29923|ERC-8441: ハイブリッド量子耐性[[glossary/Stealth-Address-Protocol|ステルスアドレス]]スキーム]]（2026-10-09）
 
 ## 元の表記（英語）

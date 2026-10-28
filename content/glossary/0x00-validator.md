@@ -4,7 +4,7 @@ aliases:
   - 0x00バリデータ
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **0x00バリデータ**
@@ -19,6 +19,7 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-09-30-eip-8433-retire-0x00-validators-29808|EIP-8433: 0x00バリデータの引退]]（2026-09-30）
 
 ## 元の表記（英語）

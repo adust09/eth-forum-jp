@@ -4,7 +4,7 @@ aliases:
   - 能力評価
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **能力評価**

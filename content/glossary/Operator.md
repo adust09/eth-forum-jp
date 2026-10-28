@@ -4,7 +4,7 @@ aliases:
   - オペレーター
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **オペレーター**
@@ -20,6 +20,7 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-20-erc-tba-creator-fee-rights-30027|ERC-TBA: クリエイター手数料の権利]]（2026-10-20）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/magicians-2026-09-07-erc-8412-preregistered-acceptance-criteria-29609|ERC-8412: 事前登録された受諾基準]]（2026-09-07）

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-26-eip-editing-office-hour-eip-erc-meeting-118-october-27-2026-30083|EIP編集オフィスアワー (EIP + ERC) ミーティング #118、2026年10月27日]]（2026-10-26）
 - [[posts/magicians-2026-10-23-erc-tba-agent-credit-backers-30062|ERC-TBA: エージェント信用保証者]]（2026-10-23）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-10-19-eip-editing-office-hour-eip-erc-meeting-117-october-20-2026-30011|EIP編集オフィスアワー (EIP + ERC) ミーティング #117、2026年10月20日]]（2026-10-19）

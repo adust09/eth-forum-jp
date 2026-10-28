@@ -4,7 +4,7 @@ aliases:
   - ペクトラ
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **ペクトラ**
@@ -18,7 +18,7 @@ date: '2026-10-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 
 ## 元の表記（英語）
 

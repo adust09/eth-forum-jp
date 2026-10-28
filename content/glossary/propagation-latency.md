@@ -4,7 +4,7 @@ aliases:
   - 伝播遅延
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **伝播遅延**

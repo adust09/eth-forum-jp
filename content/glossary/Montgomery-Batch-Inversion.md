@@ -4,7 +4,7 @@ aliases:
   - モンゴメリバッチ逆元計算 (Montgomery Batch Inversion)
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **モンゴメリバッチ逆元計算 (Montgomery Batch Inversion)**

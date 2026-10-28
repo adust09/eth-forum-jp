@@ -4,7 +4,7 @@ aliases:
   - パーティション化されたバイナリツリー
 tags:
   - glossary
-date: '2026-10-27'
+date: '2026-10-28'
 ---
 
 **パーティション化されたバイナリツリー**
@@ -19,6 +19,7 @@ EIP-8297で提案されている、既存のヘキサリパトリシアトライ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-27-physical-storage-for-eip-8297-pbt-state-30092|EIP-8297 PBTステートのための物理ストレージ]]（2026-10-27）
 - [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 - [[posts/magicians-2026-10-04-eip-8435-last-written-block-in-pbt-leaves-29860|EIP-8435: PBTリーフにおける最終書き込みブロック]]（2026-10-04）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
