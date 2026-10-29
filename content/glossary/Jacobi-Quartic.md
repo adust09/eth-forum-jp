@@ -5,7 +5,7 @@ aliases:
   - Extended Jacobi Quartic
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **ヤコビ四次曲線 (Jacobi Quartic)**

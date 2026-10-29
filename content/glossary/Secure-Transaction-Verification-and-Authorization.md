@@ -5,7 +5,7 @@ aliases:
   - STVA
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **安全なトランザクション検証と認可 (STVA)**
@@ -21,7 +21,7 @@ date: '2026-10-28'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 
 ## 元の表記（英語）
 

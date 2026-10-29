@@ -4,7 +4,7 @@ aliases:
   - eth_estimateGas (ガス見積もり)
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **eth_estimateGas (ガス見積もり)**

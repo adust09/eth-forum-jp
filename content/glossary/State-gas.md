@@ -5,7 +5,7 @@ aliases:
   - state-gas
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **ステートガス**
@@ -22,6 +22,7 @@ Ethereumにおいて、ブロックチェーンの状態（ステート）への
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-28-eip-8455-reservoir-opcode-30116|EIP-8455: RESERVOIR オペコード]]（2026-10-28）
 - [[posts/ethresear-2026-10-06-who-cleans-up-the-code-setcodefroms-dangling-bytecode-and-futureproof-design-choices-26127|コードをクリーンアップするのは誰か？SETCODEFROMの宙ぶらりんバイトコードと将来を見据えた設計選択]]（2026-10-06）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-09-08-mempool-account-transaction-capacity-from-historical-activity-matcha-25949|履歴活動に基づくメムプールアカウントトランザクションキャパシティ (MATCHA)]]（2026-09-08）

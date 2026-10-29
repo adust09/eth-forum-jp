@@ -4,7 +4,7 @@ aliases:
   - Co-SNARK (コ・スナーク)
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **Co-SNARK (コ・スナーク)**
