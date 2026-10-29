@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **フォーク**
@@ -20,6 +20,7 @@ date: '2026-10-28'
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-28-eip-8455-reservoir-opcode-30116|EIP-8455: RESERVOIR オペコード]]（2026-10-28）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/ethresear-2026-10-26-lean-verification-of-eip-7002-system-call-success-and-fifo-requests-26180|EIP-7002のLean検証: システムコール成功とFIFOリクエスト]]（2026-10-26）
 - [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）

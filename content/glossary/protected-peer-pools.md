@@ -5,7 +5,7 @@ aliases:
   - protected set
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **保護されたピアプール**

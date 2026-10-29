@@ -5,7 +5,7 @@ aliases:
   - Smart Contract Account
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **スマートアカウント**
@@ -19,6 +19,7 @@ date: '2026-10-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/magicians-2026-10-20-erc-tba-agent-default-registry-30026|ERC-TBA: エージェントデフォルトレジストリ]]（2026-10-20）
 - [[posts/magicians-2026-10-20-idea-unified-wallet-aggregator-with-multi-token-gas-payment-30013|アイデア：マルチトークンガス支払い対応の統合ウォレットアグリゲーター]]（2026-10-20）
 - [[posts/magicians-2026-10-16-erc-8420-aa-compatible-solver-29989|ERC-8420: AA互換ソルバー]]（2026-10-16）

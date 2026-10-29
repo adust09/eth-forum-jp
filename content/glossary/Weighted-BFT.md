@@ -4,7 +4,7 @@ aliases:
   - 加重ビザンチンフォールトトレランス (Weighted BFT)
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **加重ビザンチンフォールトトレランス (Weighted BFT)**

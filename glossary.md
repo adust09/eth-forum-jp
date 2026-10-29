@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16465,3 +16465,151 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/physical-storage-for-eip-8297-pbt-state/30092
 - desc: |
   EIP-8297で導入されるPartitioned Binary Tree (PBT) のキー構造の一部です。キーに付与されるプレフィックスで、PBTのゾーン分割を可能にし、ツリーの効率的な管理を支援します。
+
+## Signing Ceremony
+- ja: 署名セレモニー
+- related: [Multisig, Smart Account]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 26192
+- auto_source_url: https://ethresear.ch/t/secure-transaction-verification-and-authorization-stva/26192
+- desc: |
+  マルチシグやスマートアカウントにおける署名プロセスの要件。フロントエンドのサプライチェーン攻撃やUIスプーフィングを防ぐための明確な手順や条件を指します。
+
+## AI Dispute Resolution Framework
+- ja: AI紛争解決フレームワーク
+- aliases: [ADRF]
+- related: [ERC-8471, AI agents]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30121
+- auto_source_url: https://ethereum-magicians.org/t/erc-8471-ai-dispute-resolution-framework-adrf/30121
+- desc: |
+  AIシステム、リソース、サービスに関する紛争を解決するためのフレームワーク。当事者（人、組織、エージェント、コントラクト）間の特定の主張（レコード、デリバリー、決済など）の適合性を評価し、その解決方法（検証者、証拠、人間またはAI支援による判断）を定義します。
+
+## Dispute Policy
+- ja: 紛争ポリシー
+- related: [Dispute Binding, ADRF]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30121
+- auto_source_url: https://ethereum-magicians.org/t/erc-8471-ai-dispute-resolution-framework-adrf/30121
+- desc: |
+  AI紛争解決フレームワーク（ADRF）において、各「義務の種類」と「質問タイプ」のペアを特定の方法コントラクトにバインドし、効果の語彙と手続きのトラックを宣言する、コンテンツアドレス指定されたバージョン管理されたドキュメントです。
+
+## Dispute Binding
+- ja: 紛争バインディング
+- related: [Dispute Policy, ADRF]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30121
+- auto_source_url: https://ethereum-magicians.org/t/erc-8471-ai-dispute-resolution-framework-adrf/30121
+- desc: |
+  AI紛争解決フレームワーク（ADRF）において、義務のソースが、そのオブジェクトに対してどの紛争ポリシーを受け入れるか、裁定がどの効果を承認するか、誰が実行できるか、誰が当事者となるかを宣言するステートメントです。裁定の権限の唯一のソースとなります。
+
+## FORMAL questions
+- ja: 形式的質問
+- related: [EVIDENCED questions, JUDGED questions, ADRF]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30121
+- auto_source_url: https://ethereum-magicians.org/t/erc-8471-ai-dispute-resolution-framework-adrf/30121
+- desc: |
+  AI紛争解決フレームワーク（ADRF）における質問タイプの一つ。提出時に固定された入力に対して決定論的な検証者によって処理され、その結果は「計算された（computed）」サポート種別として記録されます。
+
+## NoDecision
+- ja: 裁定不能
+- related: [Ruling, NotSustained, ADRF]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30121
+- auto_source_url: https://ethereum-magicians.org/t/erc-8471-ai-dispute-resolution-framework-adrf/30121
+- desc: |
+  AI紛争解決フレームワーク（ADRF）における裁定結果の一つで、主張が「支持されなかった（NotSustained）」とは異なります。ポリシーによって、未決定の決定的な発見が申立人に不利になるか、裁定不能となるかが定められ、事前にコミットされた処分にルーティングされます。
+
+## Event-only data
+- ja: イベントのみのデータ
+- related: [Indexer, View function]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30120
+- auto_source_url: https://ethereum-magicians.org/t/contracts-cant-read-events-a-gap-that-keeps-coming-up-in-erc-drafts/30120
+- desc: |
+  コントラクトのロジックから直接アクセスできない、イベントログにのみ記録される重要な情報。このデータはオフチェーンのインデクサーによって状態再構築に利用されるが、オンチェーンの他のコントラクトからは読み取れないため、設計上の課題となる。
+
+## Replay test
+- ja: リプレイテスト
+- related: [Event history vs. View consistency, Indexer]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30120
+- auto_source_url: https://ethereum-magicians.org/t/contracts-cant-read-events-a-gap-that-keeps-coming-up-in-erc-drafts/30120
+- desc: |
+  コントラクトのイベントログを記録し、それらから状態を再構築した後、コントラクトのビュー関数が返す状態と比較するテスト。イベントとビューの一貫性を保証するためにERCドラフトで推奨される。
+
+## Indexer
+- ja: インデクサー
+- related: [Event-only data, Event history vs. View consistency]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30120
+- auto_source_url: https://ethereum-magicians.org/t/contracts-cant-read-events-a-gap-that-keeps-coming-up-in-erc-drafts/30120
+- desc: |
+  ブロックチェーンのイベントログを監視し、それらの情報に基づいてオフチェーンで状態を再構築するプログラムまたはサービス。コントラクトが直接イベントを読み取れないというEVMの制約があるため、イベントのみのデータを活用する上で重要な役割を果たす。
+
+## Event history vs. View consistency
+- ja: イベント履歴とビューの一貫性
+- aliases: [Event-view consistency]
+- related: [Event-only data, Replay test, Indexer]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30120
+- auto_source_url: https://ethereum-magicians.org/t/contracts-cant-read-events-a-gap-that-keeps-coming-up-in-erc-drafts/30120
+- desc: |
+  コントラクトのビュー関数が返す現在のオンチェーン状態と、イベントログをリプレイして再構築されるオフチェーンの状態との間に矛盾がないことを保証する設計原則。この一貫性の欠如は、異なるコンシューマー間で状態の解釈に差異を生じさせる可能性がある。
+
+## RESERVOIR Opcode
+- ja: RESERVOIRオペコード
+- aliases: [0x4d]
+- related: [reservoir, state gas, execution gas, EIP-8037, EIP-8141]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30116
+- auto_source_url: https://ethereum-magicians.org/t/eip-8455-reservoir-opcode/30116
+- desc: |
+  EIP-8455で導入される新しいEVMオペコード。EIP-8037のレザバーモデルトランザクションやEIP-8141のフレームトランザクションにおいて、GASオペコードでは報告されないステートガス（レザバーから支払われるガス）の残量をスタックにプッシュする。これにより、コントラクトは利用可能な全ガス予算を正確に把握できる。
+
+## reservoir
+- ja: レザバー（ステートガス貯蔵庫）
+- aliases: [state gas reservoir]
+- related: [RESERVOIR Opcode, state gas, EIP-8037]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30116
+- auto_source_url: https://ethereum-magicians.org/t/eip-8455-reservoir-opcode/30116
+- desc: |
+  EIP-8037で導入された概念で、ステートガスを支払うための独立したガスプール。通常の実行ガスとは別に管理され、コントラクトが消費するストレージ関連のガス料金を賄う。
+
+## reservoir-model transactions
+- ja: レザバーモデルトランザクション
+- related: [reservoir, state gas, EIP-8037]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30116
+- auto_source_url: https://ethereum-magicians.org/t/eip-8455-reservoir-opcode/30116
+- desc: |
+  EIP-8037によって定義されるトランザクションタイプ。ガスを「実行ガス」と「ステートガス」に分割し、ステートガスをレザバーから支払うモデルを採用している。これにより、トランザクションのガス消費の計測方法に影響を与える。
+
+## detector
+- ja: 検出器（デテクター）
+- related: [ERC-8470, ERC-8462, launchpad, agent, wallet guard, router]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30112
+- auto_source_url: https://ethereum-magicians.org/t/erc-8470-launch-observations/30112
+- desc: |
+  トークンローンチに関する情報を監視し、その結果をオンチェーンレコードとして記録するエンティティ。任意のウォレットアドレスが検出器として機能でき、エージェントやウォレットガードなどがその情報を利用する。
+
+## Pre-ERC
+- ja: プレERC（提案段階のERC）
+- related: [ERC, EIP]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30112
+- auto_source_url: https://ethereum-magicians.org/t/erc-8470-launch-observations/30112
+- desc: |
+  Ethereum Improvement Proposal (EIP) の一種で、正式なERCとして承認される前の提案段階にあるものを指す。まだ最終化されていないが、標準化を目指して議論されている段階の提案。
+
+## append-only
+- ja: 追記専用
+- related: [on-chain record, observation]
+- auto_added: 2026-10-29
+- auto_source_topic_id: 30112
+- auto_source_url: https://ethereum-magicians.org/t/erc-8470-launch-observations/30112
+- desc: |
+  データが追加されるだけで、既存のデータが変更または削除されることがない特性。オンチェーンレコードにおいて、新しい観測結果が古いものを上書きしても、古いデータも引き続き読み取り可能であることを保証する。

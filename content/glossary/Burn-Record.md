@@ -4,7 +4,7 @@ aliases:
   - バーン記録
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **バーン記録**

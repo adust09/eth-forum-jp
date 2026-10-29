@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -21,6 +21,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
+- [[posts/magicians-2026-10-28-eip-8455-reservoir-opcode-30116|EIP-8455: RESERVOIR オペコード]]（2026-10-28）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-27-physical-storage-for-eip-8297-pbt-state-30092|EIP-8297 PBTステートのための物理ストレージ]]（2026-10-27）
 - [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）

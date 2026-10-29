@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -84,6 +84,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-Agent-Proof-of-Safety-Attestation|AI Agent Proof-of-Safety Attestation]] — AIエージェントの安全性証明アテステーション
 - [[glossary/AI-agent-verification-stack|AI agent verification stack]] — AIエージェント検証スタック
 - [[glossary/AI-agents|AI agents]] — AIエージェント
+- [[glossary/AI-Dispute-Resolution-Framework|AI Dispute Resolution Framework]] — AI紛争解決フレームワーク
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
 - [[glossary/AI-Sentinel|AI Sentinel]] — AIセンチネル
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
@@ -107,6 +108,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Anonymous-transaction|Anonymous transaction]] — 匿名トランザクション
 - [[glossary/Anti-ossification-incentives|Anti-ossification incentives]] — オシフィケーション防止インセンティブ
 - [[glossary/app-chain|app chain]] — アプリケーションチェーン
+- [[glossary/append-only|append-only]] — 追記専用
 - [[glossary/append-only-projection-engine|append-only projection engine]] — 追記専用プロジェクションエンジン
 - [[glossary/Application-Controlled-Execution|Application-Controlled Execution]] — アプリケーション制御型実行 (ACE)
 - [[glossary/ARCOS|ARCOS]] — ARCOS (アーコス)
@@ -447,6 +449,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Descriptor-Attestations|Descriptor Attestations]] — ディスクリプタ・アッテステーション
 - [[glossary/Descriptor-hash|Descriptor hash]] — ディスクリプタ・ハッシュ
 - [[glossary/destruction-receipt|destruction receipt]] — 破壊証明 (destruction receipt)
+- [[glossary/detector|detector]] — 検出器（デテクター）
 - [[glossary/Deterministic-Auditability|Deterministic Auditability]] — 決定論的監査可能性
 - [[glossary/Deterministic-Authority-Reconstruction|Deterministic Authority Reconstruction]] — 決定論的権限再構築
 - [[glossary/Deterministic-lower-median|Deterministic lower median]] — 決定論的下位中央値 (Deterministic lower median)
@@ -469,7 +472,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/discrete-logarithm|discrete logarithm]] — 離散対数
 - [[glossary/Dislocation-value|Dislocation value]] — ディスロケーション・バリュー（乖離価値）
 - [[glossary/Disposable-Stealth-Accounts|Disposable Stealth Accounts]] — 使い捨てステルスアカウント (Disposable Stealth Accounts)
+- [[glossary/Dispute-Binding|Dispute Binding]] — 紛争バインディング
 - [[glossary/dispute-game|dispute game]] — 紛争解決ゲーム
+- [[glossary/Dispute-Policy|Dispute Policy]] — 紛争ポリシー
 - [[glossary/Dispute-Resolution-Guidelines|Dispute Resolution Guidelines]] — 紛争解決ガイドライン
 - [[glossary/distance-weighted-head-reward|distance-weighted head reward]] — 距離加重ヘッド報酬
 - [[glossary/Distributed-Blobspace-Reconstruction|Distributed Blobspace Reconstruction]] — 分散型ブロブスペース再構築 (Distributed Blobspace Reconstruction)
@@ -591,6 +596,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ETNL-Semantic-Layer|ETNL Semantic Layer]] — ETNLセマンティックレイヤー (実行トレース正規化レイヤー)
 - [[glossary/etxseen-bitfield|etx_seen bitfield]] — etx_seenビットフィールド
 - [[glossary/Even-Cofactor-Curve|Even Cofactor Curve]] — 偶数コファクター曲線
+- [[glossary/Event-history-vs-View-consistency|Event history vs. View consistency]] — イベント履歴とビューの一貫性
+- [[glossary/Event-only-data|Event-only data]] — イベントのみのデータ
 - [[glossary/Events-only-write-side-design|Events-only write-side design]] — イベントのみの書き込み側設計
 - [[glossary/eviction-mechanism|eviction mechanism]] — 削除メカニズム
 - [[glossary/Evidence-Capsule|Evidence Capsule]] — エビデンスカプセル
@@ -684,6 +691,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fork-Container|Fork Container]] — フォークコンテナ
 - [[glossary/forkcast|forkcast]] — フォークキャスト
 - [[glossary/ForkchoiceStateV1|ForkchoiceStateV1]] — ForkchoiceStateV1 (フォーク選択状態V1)
+- [[glossary/FORMAL-questions|FORMAL questions]] — 形式的質問
 - [[glossary/Formal-Verification|Formal Verification]] — 形式検証
 - [[glossary/FORS|FORS]] — FORS（フォレスト・オブ・ランダム・サブセット）
 - [[glossary/Forward-compatible-consensus-data-structures|Forward compatible consensus data structures]] — 前方互換性のあるコンセンサスデータ構造
@@ -794,6 +802,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/independently-recomputable-identifier|independently-recomputable identifier]] — 独立して再計算可能な識別子
 - [[glossary/Index-Based-Multi-Facet-Proxy|Index-Based Multi-Facet Proxy]] — インデックスベース多面ファセットプロキシ
 - [[glossary/Indexed-Cell-Requests|Indexed Cell Requests]] — インデックス付きセルリクエスト
+- [[glossary/Indexer|Indexer]] — インデクサー
 - [[glossary/Indistinguishability-of-keys|Indistinguishability of keys]] — 鍵の不可分性 (IK-CCA, ANO-CCA)
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Informed-Diffusion|Informed Diffusion]] — Informed Diffusion（インフォームド・ディフュージョン）
@@ -1014,6 +1023,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/nested-iframe-pattern|nested iframe pattern]] — ネストされたiframeパターン
 - [[glossary/Net-Gas-Metering-for-Account-Changes|Net Gas Metering for Account Changes]] — アカウント変更のネットガス計測
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
+- [[glossary/NoDecision|NoDecision]] — 裁定不能
 - [[glossary/NOMT|NOMT]] — NOMT（非重複マークルツリー）
 - [[glossary/non-authoritative-reservation|non-authoritative reservation]] — 非権威的予約 (non-authoritative reservation)
 - [[glossary/Non-Binary-Nonce|Non-Binary Nonce]] — 非バイナリノンス
@@ -1200,6 +1210,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/PQ-P2P|PQ P2P]] — 量子耐性P2P (Post-Quantum P2P)
 - [[glossary/pq-account|pq-account]] — 量子耐性アカウント (pq-account)
 - [[glossary/PQ-DAS|PQ-DAS]] — 量子耐性データ可用性サンプリング (PQ-DAS)
+- [[glossary/Pre-ERC|Pre-ERC]] — プレERC（提案段階のERC）
 - [[glossary/Pre-flight|Pre-flight]] — プリフライト（チェック）
 - [[glossary/Pre-Mempool-Validation|Pre-Mempool Validation]] — プレ・メンプール検証
 - [[glossary/Precompile-target|Precompile target]] — プリコンパイルターゲット
@@ -1331,6 +1342,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Replay-Behavior|Replay Behavior]] — リプレイ挙動
 - [[glossary/Replay-Equivalence|Replay Equivalence]] — リプレイ同等性
 - [[glossary/replay-posture|replay posture]] — リプレイポスチャ (Replay Posture)
+- [[glossary/Replay-test|Replay test]] — リプレイテスト
 - [[glossary/Replay-based-Verification|Replay-based Verification]] — リプレイベース検証
 - [[glossary/Replay-domain-separation|Replay-domain separation]] — リプレイドメイン分離
 - [[glossary/Replay-Stable-Architecture|Replay-Stable Architecture]] — リプレイ安定性アーキテクチャ
@@ -1346,6 +1358,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reserve-states|reserve states]] — 準備金ステータス
 - [[glossary/reserve-backed-token|reserve-backed token]] — 準備金裏付けトークン
 - [[glossary/reserveId|reserveId]] — 準備金ID
+- [[glossary/reservoir|reservoir]] — レザバー（ステートガス貯蔵庫）
+- [[glossary/RESERVOIR-Opcode|RESERVOIR Opcode]] — RESERVOIRオペコード
+- [[glossary/reservoir-model-transactions|reservoir-model transactions]] — レザバーモデルトランザクション
 - [[glossary/Resistance-Contingent-Delivery|Resistance-Contingent Delivery]] — 抵抗依存型デリバリー
 - [[glossary/Resolution|Resolution]] — レゾリューション
 - [[glossary/Resolution-Envelope|Resolution Envelope]] — レゾリューション・エンベロープ
@@ -1454,6 +1469,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Signature-Consent|Signature Consent]] — 署名による同意
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
+- [[glossary/Signing-Ceremony|Signing Ceremony]] — 署名セレモニー
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
 - [[glossary/Silence-pays-the-fulfiller|Silence pays the fulfiller]] — 沈黙は履行者への支払いとなる
 - [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)

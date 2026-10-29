@@ -4,7 +4,7 @@ aliases:
   - 署名者
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **署名者**
@@ -18,6 +18,7 @@ date: '2026-10-28'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）
 - [[posts/magicians-2026-09-10-vantage-authority-resolution-profiles-public-companion-to-erc-8309s-divergence-boundary-1826-29637|Vantage-Authority解決プロファイル — ERC-8309の分岐境界に対する公開コンパニオン (#1826)]]（2026-09-10）
 

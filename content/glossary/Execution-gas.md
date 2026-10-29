@@ -5,7 +5,7 @@ aliases:
   - execution-gas
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **実行ガス**
@@ -21,6 +21,7 @@ Ethereumにおいて、EVM上でのトランザクション実行にかかる計
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-28-eip-8455-reservoir-opcode-30116|EIP-8455: RESERVOIR オペコード]]（2026-10-28）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-09-09-from-60m-to-200m-simulating-glamsterdam-s-fee-market-25957|Glamsterdamのガス制限を60Mから200Mにシミュレーション：手数料市場はどうなるか]]（2026-09-09）

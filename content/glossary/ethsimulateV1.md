@@ -4,7 +4,7 @@ aliases:
   - eth_simulateV1 (RPCメソッド)
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **eth_simulateV1 (RPCメソッド)**

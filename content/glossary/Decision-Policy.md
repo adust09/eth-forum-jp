@@ -5,7 +5,7 @@ aliases:
   - PolicySpec
 tags:
   - glossary
-date: '2026-10-28'
+date: '2026-10-29'
 ---
 
 **意思決定ポリシー**
