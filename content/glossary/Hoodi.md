@@ -4,7 +4,7 @@ aliases:
   - Hoodi (テストネット)
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **Hoodi (テストネット)**

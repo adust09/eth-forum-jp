@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-10-29'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-29-erc-8472-stock-locates-30128|ERC-8472: 株式貸出確認 (Stock Locates)]]（2026-10-29）
 - [[posts/magicians-2026-10-28-erc-8471-ai-dispute-resolution-framework-adrf-30121|ERC-8471: AI紛争解決フレームワーク (ADRF)]]（2026-10-28）
 - [[posts/ethresear-2026-10-26-lean-verification-of-eip-7002-system-call-success-and-fifo-requests-26180|EIP-7002のLean検証: システムコール成功とFIFOリクエスト]]（2026-10-26）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）

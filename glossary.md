@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-29
+last_updated: 2026-10-30
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16613,3 +16613,76 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8470-launch-observations/30112
 - desc: |
   データが追加されるだけで、既存のデータが変更または削除されることがない特性。オンチェーンレコードにおいて、新しい観測結果が古いものを上書きしても、古いデータも引き続き読み取り可能であることを保証する。
+
+## Stock Locates
+- ja: 株式調達（ストック・ロケート）
+- related: [tokenized stocks, short sale, lending venue]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30128
+- auto_source_url: https://ethereum-magicians.org/t/erc-8472-stock-locates/30128
+- desc: |
+  空売りを行う前に、借り手が株式（またはトークン化された株式）を借りられるかどうか、どれくらいの量と金利で借りられるかを確認するプロセス。このERCでは、トークン化された株式の貸付市場におけるこの情報取得を標準化する。
+
+## lending venue
+- ja: 貸付プラットフォーム
+- related: [DeFi, lending protocol]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30128
+- auto_source_url: https://ethereum-magicians.org/t/erc-8472-stock-locates/30128
+- desc: |
+  ユーザーがトークンを借りたり貸したりできるDeFiプロトコルや市場を指す。このERCでは、特にトークン化された株式の貸付を提供するプラットフォームを対象としている。
+
+## utilization
+- ja: 利用率
+- related: [borrow rate, lending protocol]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30128
+- auto_source_url: https://ethereum-magicians.org/t/erc-8472-stock-locates/30128
+- desc: |
+  DeFiの貸付プロトコルにおいて、貸付プール内の利用可能な資産のうち、実際に借りられている資産の割合。金利モデルの重要な入力となり、利用率が高いほど借入金利が上昇する傾向がある。
+
+## adaptive curve rate model
+- ja: 適応曲線金利モデル
+- related: [utilization, borrow rate, lending protocol]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30128
+- auto_source_url: https://ethereum-magicians.org/t/erc-8472-stock-locates/30128
+- desc: |
+  DeFi貸付プロトコルで採用される金利モデルの一種。貸付プールの利用率に応じて借入金利を動的に調整し、市場の需給に合わせて金利を最適化する。
+
+## Scoped Capability Token
+- ja: スコープ付きケイパビリティトークン
+- related: [Capability, Secure Transaction Verification and Authorization]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30124
+- auto_source_url: https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124
+- desc: |
+  特定の目的、期間、権限範囲に限定されたケイパビリティを表すトークン。トランザクションの検証と承認において、最小権限の原則を強制するために使用される。
+
+## UserOperation
+- ja: ユーザーオペレーション
+- aliases: [UserOp]
+- related: [Account Abstraction, EIP-4337]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30124
+- auto_source_url: https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124
+- desc: |
+  EIP-4337で定義される、ユーザーがスマートコントラクトウォレットを通じて実行したい操作を記述した構造体。EOAではなくスマートコントラクトによって処理される。
+
+## Simulation Binding
+- ja: シミュレーションバインディング
+- related: [Scoped Capability Token, Independent Simulation Result]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30124
+- auto_source_url: https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124
+- desc: |
+  ケイパビリティトークンが特定のトランザクションシミュレーション結果に紐付けられるメカニズム。これにより、ケイパビリティの消費が意図した動作と一致することを保証する。
+
+## Intent Hash
+- ja: インテントハッシュ
+- related: [Scoped Capability Token, Intent Layer]
+- auto_added: 2026-10-30
+- auto_source_topic_id: 30124
+- auto_source_url: https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124
+- desc: |
+  ユーザーの意図を表現するデータのハッシュ値。ケイパビリティトークンがこのハッシュにバインドされることで、特定の意図の実行を許可する。

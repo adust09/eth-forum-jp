@@ -4,7 +4,7 @@ aliases:
   - IERC8060Reservable
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **IERC8060Reservable**

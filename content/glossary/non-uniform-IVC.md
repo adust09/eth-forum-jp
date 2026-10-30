@@ -4,7 +4,7 @@ aliases:
   - 非均一IVC
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **非均一IVC**

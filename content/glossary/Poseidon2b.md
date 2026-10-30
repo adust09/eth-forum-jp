@@ -4,7 +4,7 @@ aliases:
   - Poseidon2b
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **Poseidon2b**
