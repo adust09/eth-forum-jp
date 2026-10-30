@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -46,6 +46,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/action-taxonomy|action taxonomy]] — アクション分類体系
 - [[glossary/Action-scoped|Action-scoped]] — アクションスコープ
 - [[glossary/Active-state|Active state]] — アクティブステート
+- [[glossary/adaptive-curve-rate-model|adaptive curve rate model]] — 適応曲線金利モデル
 - [[glossary/adaptor-signatures|adaptor signatures]] — アダプター署名
 - [[glossary/Adjusted-reputation|Adjusted reputation]] — 調整済み評判
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
@@ -815,6 +816,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/insufficient-gas-griefing|insufficient gas griefing]] — ガス不足グリフィング
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
+- [[glossary/Intent-Hash|Intent Hash]] — インテントハッシュ
 - [[glossary/intent-layer|intent layer]] — インテントレイヤー
 - [[glossary/Intent-based-execution|Intent-based execution]] — インテントベース実行
 - [[glossary/intentsolver-layer|intent/solver layer]] — インテント/ソルバー層
@@ -894,6 +896,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Lender-hooks|Lender hooks]] — 貸し手フック
+- [[glossary/lending-venue|lending venue]] — 貸付プラットフォーム
 - [[glossary/Length-extension-problem|Length-extension problem]] — 長さ伸長攻撃 (長さ伸長問題)
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/libp2p-Peer-ID|libp2p Peer ID]] — libp2pピアID
@@ -1415,6 +1418,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/schemeId|schemeId]] — スキームID
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
 - [[glossary/Scoped-Capability|Scoped Capability]] — スコープ付きケイパビリティ
+- [[glossary/Scoped-Capability-Token|Scoped Capability Token]] — スコープ付きケイパビリティトークン
 - [[glossary/scoped-cross-registry-references|scoped cross-registry references]] — スコープ付きクロスレジストリ参照
 - [[glossary/Screening-informed-flow|Screening informed flow]] — 情報保有フローの選別
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
@@ -1474,6 +1478,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Silence-pays-the-fulfiller|Silence pays the fulfiller]] — 沈黙は履行者への支払いとなる
 - [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ
+- [[glossary/Simulation-Binding|Simulation Binding]] — シミュレーションバインディング
 - [[glossary/single-instruction-Groth16-proof|single-instruction Groth16 proof]] — 単一命令Groth16証明
 - [[glossary/Single-Party-Block|Single-Party Block]] — シングルパーティブロック
 - [[glossary/single-slot-finality|single-slot finality]] — シングルスロットファイナリティ
@@ -1567,6 +1572,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Stepwise-approach|Stepwise approach]] — ステップワイズアプローチ
 - [[glossary/sticky-haltseen-flag|sticky halt_seen flag]] — スティッキーハルト検出フラグ
 - [[glossary/Stochastic-Exit|Stochastic Exit]] — 確率的脱出
+- [[glossary/Stock-Locates|Stock Locates]] — 株式調達（ストック・ロケート）
 - [[glossary/Stoichiometry-Constrained-Recurrent-Neural-Networks|Stoichiometry-Constrained Recurrent Neural Networks]] — 化学量論的制約付きリカレントニューラルネットワーク (SCRNNs)
 - [[glossary/Stop-pull|Stop-pull]] — ストッププル
 - [[glossary/Storage-Layout-Metadata|Storage Layout Metadata]] — ストレージレイアウトメタデータ
@@ -1718,6 +1724,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/uRWA-Policy-Interface|uRWA Policy Interface]] — uRWAポリシーインターフェース (ERC-7943 Policy Interface)
 - [[glossary/User-Intent|User Intent]] — ユーザーインテント
 - [[glossary/UserEnvelopeTx|UserEnvelopeTx]] — ユーザーエンベロープトランザクション
+- [[glossary/UserOperation|UserOperation]] — ユーザーオペレーション
+- [[glossary/utilization|utilization]] — 利用率
 - [[glossary/UTXO-Discovery|UTXO Discovery]] — UTXOディスカバリ
 - [[glossary/UTXO-Proof-Table|UTXO Proof Table]] — UTXOプルーフテーブル (UPT)
 - [[glossary/UUPS-Proxy|UUPS Proxy]] — UUPSプロキシ

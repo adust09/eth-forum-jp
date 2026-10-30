@@ -4,7 +4,7 @@ aliases:
   - スコープ付きケイパビリティ
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **スコープ付きケイパビリティ**
@@ -18,6 +18,7 @@ date: '2026-10-29'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-29-scoped-capability-tokens-for-stva-30124|STVA向けスコープ付きケイパビリティトークン]]（2026-10-29）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 
 ## 元の表記（英語）

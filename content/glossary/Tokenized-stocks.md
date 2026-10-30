@@ -4,7 +4,7 @@ aliases:
   - トークン化された株式
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **トークン化された株式**
@@ -18,6 +18,7 @@ date: '2026-10-29'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-29-erc-8472-stock-locates-30128|ERC-8472: 株式貸出確認 (Stock Locates)]]（2026-10-29）
 - [[posts/magicians-2026-09-24-standard-for-transferable-to-arbitrary-addresses-on-tokenized-rwas-locked-v4-pools-quoted-in-tokenized-stocks-29769|トークン化されたRWAにおける「任意のアドレスへの転送可能性」の標準？（トークン化された株式で引用されたロック済みv4プール）]]（2026-09-24）
 
 ## 元の表記（英語）

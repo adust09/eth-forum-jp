@@ -5,7 +5,7 @@ aliases:
   - proxy upgradeable system
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **プロキシベースのアップグレード可能システム**

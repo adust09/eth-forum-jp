@@ -4,7 +4,7 @@ aliases:
   - 不足状態
 tags:
   - glossary
-date: '2026-10-29'
+date: '2026-10-30'
 ---
 
 **不足状態**
