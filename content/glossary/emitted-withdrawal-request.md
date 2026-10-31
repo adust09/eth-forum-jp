@@ -5,7 +5,7 @@ aliases:
   - emissions
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **発行済み引き出しリクエスト**

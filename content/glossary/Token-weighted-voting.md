@@ -4,7 +4,7 @@ aliases:
   - トークン加重投票 (Token weighted voting)
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **トークン加重投票 (Token weighted voting)**

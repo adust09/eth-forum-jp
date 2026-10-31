@@ -5,7 +5,7 @@ aliases:
   - Kind
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **ARD Onchainの種別**

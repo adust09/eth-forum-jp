@@ -4,7 +4,7 @@ aliases:
   - ARCOS (アーコス)
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **ARCOS (アーコス)**

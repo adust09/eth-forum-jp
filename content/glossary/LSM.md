@@ -5,7 +5,7 @@ aliases:
   - Log-Structured Merge-tree
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **LSM（ログ構造化マージツリー）**

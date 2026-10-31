@@ -4,7 +4,7 @@ aliases:
   - BLS鍵
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **BLS鍵**

@@ -4,7 +4,7 @@ aliases:
   - プライベート参照 (Private Reference)
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **プライベート参照 (Private Reference)**

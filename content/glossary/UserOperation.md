@@ -5,7 +5,7 @@ aliases:
   - UserOp
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **ユーザーオペレーション**
@@ -19,6 +19,7 @@ EIP-4337で定義される、ユーザーがスマートコントラクトウォ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-30-erc-draft-independent-simulation-result-for-stva-30129|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 - [[posts/ethresear-2026-06-18-etherveil-an-ethereum-privacy-browser-25224|Etherveil - イーサリアムプライバシーブラウザ]]（2026-06-18）
 
 ## 元の表記（英語）
