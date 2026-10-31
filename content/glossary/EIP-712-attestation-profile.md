@@ -4,7 +4,7 @@ aliases:
   - EIP-712アテステーションプロファイル
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **EIP-712アテステーションプロファイル**
@@ -19,6 +19,7 @@ EIP-712標準を利用して、AI推論の入力来歴や実行結果などの�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-30-erc-draft-independent-simulation-result-for-stva-30129|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/magicians-2026-10-23-erc-tba-agent-credit-backers-30062|ERC-TBA: エージェント信用保証者]]（2026-10-23）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）

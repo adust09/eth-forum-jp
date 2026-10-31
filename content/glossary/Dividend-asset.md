@@ -4,7 +4,7 @@ aliases:
   - 配当資産
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **配当資産**

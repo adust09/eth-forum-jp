@@ -4,7 +4,7 @@ aliases:
   - Fluid MPC (流動的マルチパーティ計算)
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **Fluid MPC (流動的マルチパーティ計算)**

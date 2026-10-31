@@ -4,7 +4,7 @@ aliases:
   - 権限ルート
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **権限ルート**

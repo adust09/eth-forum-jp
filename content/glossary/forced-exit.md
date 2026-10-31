@@ -4,7 +4,7 @@ aliases:
   - 強制退出
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **強制退出**

@@ -4,7 +4,7 @@ aliases:
   - ステートトラック (State track)
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **ステートトラック (State track)**

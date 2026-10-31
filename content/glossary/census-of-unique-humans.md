@@ -4,7 +4,7 @@ aliases:
   - 唯一の人間であることの登録（census of unique humans）
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **唯一の人間であることの登録（census of unique humans）**

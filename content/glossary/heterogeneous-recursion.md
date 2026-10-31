@@ -4,7 +4,7 @@ aliases:
   - 異種再帰
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **異種再帰**

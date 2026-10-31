@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16686,3 +16686,175 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/scoped-capability-tokens-for-stva/30124
 - desc: |
   ユーザーの意図を表現するデータのハッシュ値。ケイパビリティトークンがこのハッシュにバインドされることで、特定の意図の実行を許可する。
+
+## Post-quantum signatureless authorization
+- ja: ポスト量子署名不要認証 (Post-quantum Signatureless Authorization)
+- related: [Post-quantum cryptography, Zero-knowledge proof]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 26196
+- auto_source_url: https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+- desc: |
+  Shorの量子アルゴリズムによって脅かされる既存のデジタル署名に代わり、再利用可能な秘密へのコミットメントと、要求されたアクションに紐付けられたゼロ知識証明の知識によって認証を行うメカニズム。量子耐性を持つ認証方式として提案されています。
+
+## Recursive verification
+- ja: 再帰的検証 (Recursive Verification)
+- related: [Recursive proof, ZK-rollup]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 26196
+- auto_source_url: https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+- desc: |
+  既存の証明システム内で別の証明の検証を行うプロセス。本稿では、特定の意図と権限に対するカプセル検証が、公開実行状態から独立して行われることを指し、ブロックプロバーが同じ認証カプセルを保持したまま実行証人を更新できることを可能にします。
+
+## Binary-field arithmetic
+- ja: 二元体演算 (Binary-field Arithmetic)
+- aliases: [GF(2^n) arithmetic]
+- related: [Finite field, Zero-knowledge proof]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 26196
+- auto_source_url: https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+- desc: |
+  2のべき乗個の要素を持つ有限体（二元体）上で行われる算術演算。特に、効率的なゼロ知識証明システムにおいて、その構成要素（回路や証明）の計算基盤として利用され、本稿の認証システムでも採用されています。
+
+## Authority circuit
+- ja: 認証回路 (Authority Circuit)
+- related: [Zero-knowledge proof, Cryptographic circuit]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 26196
+- auto_source_url: https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+- desc: |
+  提案されたポスト量子署名不要認証システムにおいて、秘密とコミットメントの関係を定義する特定の暗号回路。この回路は、認証の根幹となるロジックを実装し、秘密の知識を証明するために使用されます。
+
+## Verifier tile
+- ja: 検証タイル (Verifier Tile)
+- related: [Proof system, Zero-knowledge proof]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 26196
+- auto_source_url: https://ethresear.ch/t/post-quantum-signatureless-authorization-with-recursive-verification/26196
+- desc: |
+  再帰的証明システムにおけるモジュール化された検証コンポーネント。本稿では、特定の認証システムにおいて、その検証ロジックを実装し、インクリメンタルな行数（計算コスト）として測定される、証明システムのアーキテクチャ要素です。
+
+## agentWallet
+- ja: エージェントウォレット (agentWallet)
+- related: [ERC-8004, payee delegation]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30137
+- auto_source_url: https://ethereum-magicians.org/t/erc-8478-x402-payee-verification-for-erc-8004-agents/30137
+- desc: |
+  ERC-8004エージェントの登録ファイルに記載され、そのエージェントの管理下にあることが署名によって証明された唯一のアドレス。x402支払いにおいて、支払いの受取人（payTo）がこのウォレットと一致するか、またはこのウォレットによって委任されているかどうかが検証される。
+
+## payee delegation
+- ja: 受取人委任 (payee delegation)
+- related: [agentWallet, EIP-712, payTo]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30137
+- auto_source_url: https://ethereum-magicians.org/t/erc-8478-x402-payee-verification-for-erc-8004-agents/30137
+- desc: |
+  ERC-8004エージェントのagentWalletが、特定のpayToアドレス、ネットワーク、アセット、およびオリジンに対して署名するEIP-712ベースのオフチェーン委任。これにより、agentWalletと異なるアドレスが正当な受取人として承認される。有効期限が設定されており、agentWalletのローテーションによって失効する。
+
+## payTo
+- ja: 支払い先 (payTo)
+- related: [x402, agentWallet, payee delegation]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30137
+- auto_source_url: https://ethereum-magicians.org/t/erc-8478-x402-payee-verification-for-erc-8004-agents/30137
+- desc: |
+  x402支払い要求において、資金が送られるべき受取人のアドレス。ERC-8004エージェントの文脈では、このアドレスがagentWalletと一致するか、またはagentWalletによってpayee delegationが発行されているかどうかが検証される。
+
+## extra.erc8004
+- ja: extra.erc8004 (支払い要求のメタデータフィールド)
+- related: [x402, ERC-8004]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30137
+- auto_source_url: https://ethereum-magicians.org/t/erc-8478-x402-payee-verification-for-erc-8004-agents/30137
+- desc: |
+  x402支払い要求のメタデータに含まれるフィールドで、売り手のエージェントのID（IDレジストリとagentId）を記述する。支払い要求の検証プロセスにおいて、支払い先が正しいエージェントに紐付けられているかを確認するために利用される。
+
+## Permanent EOA Delegation Opt-Out
+- ja: EOA委任の永続的オプトアウト
+- related: [EIP-7702, EOA, non-executable account-code marker]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30134
+- auto_source_url: https://ethereum-magicians.org/t/eip-8476-permanent-eoa-delegation-opt-out/30134
+- desc: |
+  EIP-7702で導入されたEOAの委任実行機能を永続的に無効化するメカニズム。特定のトランザクション形式を用いて、アカウントコードに実行不可能なマーカーを設置することで実現される。
+
+## non-executable account-code marker
+- ja: 実行不可能なアカウントコードマーカー
+- related: [EOA, EIP-7702, set-code transaction]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30134
+- auto_source_url: https://ethereum-magicians.org/t/eip-8476-permanent-eoa-delegation-opt-out/30134
+- desc: |
+  EIP-8476で導入される、EOAの委任実行機能を永続的に無効化するためにアカウントコードに設置される特定のバイトコード（例: 0xef0200）。このマーカーが存在するアカウントは、EIP-7702の委任対象から除外される。
+
+## set-code transaction
+- ja: コード設定トランザクション
+- related: [EOA, account code]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30134
+- auto_source_url: https://ethereum-magicians.org/t/eip-8476-permanent-eoa-delegation-opt-out/30134
+- desc: |
+  アカウントのコードを変更するために使用されるトランザクションの一種。EIP-8476では、以前は無効だった特定の形式のコード設定トランザクションが、EOAの委任オプトアウトのために再定義される。
+
+## EIP-3607
+- ja: EIP-3607
+- related: [EOA, account code]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30134
+- auto_source_url: https://ethereum-magicians.org/t/eip-8476-permanent-eoa-delegation-opt-out/30134
+- desc: |
+  アカウントコードが空であるEOAがトランザクションを発信できるという例外を定義するEthereum Improvement Proposal。EIP-8476では、このEIPの例外が拡張され、特定の実行不可能なマーカーを持つアカウントも通常のトランザクションを発信できるようにする。
+
+## EXTCODESIZE
+- ja: EXTCODESIZE (EVMオペコード)
+- related: [EVM, EXTCODECOPY, EXTCODEHASH]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30134
+- auto_source_url: https://ethereum-magicians.org/t/eip-8476-permanent-eoa-delegation-opt-out/30134
+- desc: |
+  EVMのオペコードの一つで、指定されたアドレスのコントラクトコードのサイズを取得する。EIP-8476では、オプトアウトマーカーが設定されたアカウントに対してこのオペコードを実行すると、生のマーカーコードのサイズが返される。
+
+## Independent Simulation Result
+- ja: 独立シミュレーション結果
+- related: [SimulationResult, VerificationPayload]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30129
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
+- desc: |
+  任意の独立した検証者（ウォレット、ハードウェアデバイスなど）が、同じ入力と状態スナップショットから再現可能かつ機械的に検証可能な形で生成できる、標準化されたシミュレーション結果の構造。これにより、シミュレーションが信頼されたフロントエンドサービスから再現可能な成果物へと変わる。
+
+## VerificationPayload
+- ja: 検証ペイロード
+- related: [Independent Simulation Result, SimulationResult]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30129
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
+- desc: |
+  シミュレーションの入力として使用される、トランザクションの完全なプリイメージ、ブロック/状態ルート、関連する状態のMerkleプルーフなどを含むデータ構造。シミュレーション結果の再現性と検証可能性を保証するために不可欠な情報を提供する。
+
+## SimulationResult
+- ja: シミュレーション結果
+- related: [Independent Simulation Result, VerificationPayload, stateDiff]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30129
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
+- desc: |
+  シミュレーションによって生成される標準化された出力フォーマット。成功/失敗、使用ガス量、returnData、ログ、stateDiff、残高変更、トークン転送、セマンティック効果、スナップショットIDなどが含まれる。この構造は、シミュレーションの正規化された出力を提供する。
+
+## UI/calldata mismatch attack
+- ja: UI/calldata不一致攻撃
+- related: [calldata, phishing]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30129
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
+- desc: |
+  ユーザーインターフェースに表示される情報と、実際にトランザクションのcalldataに含まれる情報との間に不一致を意図的に作り出すことで、ユーザーを欺く攻撃手法。独立シミュレーション結果の導入により、この種の攻撃が軽減されることが期待される。
+
+## stateDiff
+- ja: 状態差分
+- related: [SimulationResult, state snapshot]
+- auto_added: 2026-10-31
+- auto_source_topic_id: 30129
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
+- desc: |
+  トランザクションの実行前後におけるブロックチェーンの状態変化を記録したもの。アカウントの残高、ストレージ、コントラクトコードなどの変更が含まれる。シミュレーション結果の重要な構成要素であり、状態の変更を詳細に把握するために用いられる。

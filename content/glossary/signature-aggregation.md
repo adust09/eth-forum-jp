@@ -4,7 +4,7 @@ aliases:
   - 署名集約
 tags:
   - glossary
-date: '2026-10-30'
+date: '2026-10-31'
 ---
 
 **署名集約**
