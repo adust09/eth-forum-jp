@@ -5,7 +5,7 @@ aliases:
   - cost per state byte
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **CPSB (ステートバイトあたりのコスト)**

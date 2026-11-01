@@ -5,7 +5,7 @@ aliases:
   - Ethereum Instruction Set Architecture
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **eISA (Ethereum Instruction Set Architecture)**

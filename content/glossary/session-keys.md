@@ -4,7 +4,7 @@ aliases:
   - セッションキー
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **セッションキー**
@@ -18,6 +18,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 
 ## 元の表記（英語）

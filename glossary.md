@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -16858,3 +16858,238 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-draft-independent-simulation-result-for-stva/30129
 - desc: |
   トランザクションの実行前後におけるブロックチェーンの状態変化を記録したもの。アカウントの残高、ストレージ、コントラクトコードなどの変更が含まれる。シミュレーション結果の重要な構成要素であり、状態の変更を詳細に把握するために用いられる。
+
+## maker state
+- ja: メーカー状態
+- aliases: [quote state]
+- related: [PropAMM, fill]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26201
+- auto_source_url: https://ethresear.ch/t/propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms/26201
+- desc: |
+  PropAMMにおいて、単一のマーケットメーカーがオンチェーンにプッシュする価格クォート情報。テイカーはこの状態を参照して取引を約定する。
+
+## fill
+- ja: 約定
+- related: [PropAMM, taker, maker state]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26201
+- auto_source_url: https://ethresear.ch/t/propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms/26201
+- desc: |
+  PropAMMにおいて、テイカーがメーカーの状態に基づいて取引を実行し、完了させること。取引の執行を指す。
+
+## PrioUpdateRegistry
+- ja: PrioUpdateRegistry
+- related: [PropAMM, maker state, same-block pairing]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26201
+- auto_source_url: https://ethresear.ch/t/propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms/26201
+- desc: |
+  PropAMMにおいて、マーケットメーカーの状態（価格クォート）を管理し、タイムスタンプ付きで保存するレジストリ契約。テイカーは指定されたタイムスタンプ範囲内の状態を読み取る。
+
+## markout
+- ja: マークアウト
+- related: [adverse selection, fill]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26201
+- auto_source_url: https://ethresear.ch/t/propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms/26201
+- desc: |
+  テイカーの取引約定後の損益を評価する指標。約定価格と一定時間後の市場価格の差を基準に計算され、取引執行の質やアドバースセレクションの有無を測るために用いられる。
+
+## hardware offline verifier
+- ja: ハードウェアオフライン検証者
+- related: [Independent Simulation Result, VerificationPayload]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26198
+- auto_source_url: https://ethresear.ch/t/erc-draft-independent-simulation-result-for-stva/26198
+- desc: |
+  トランザクションシミュレーションの結果を再検証するために、オフラインで動作するハードウェアデバイス。セキュリティを強化し、信頼されたフロントエンドサービスへの依存を減らす。
+
+## SafeTx
+- ja: SafeTx（Safeトランザクション）
+- related: [UserOperation, Account Abstraction]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26198
+- auto_source_url: https://ethresear.ch/t/erc-draft-independent-simulation-result-for-stva/26198
+- desc: |
+  Gnosis Safe（現Safe）ウォレットで使用される特定のトランザクション形式。複数の操作をバッチ処理し、スマートコントラクトウォレットのセキュリティと柔軟性を高める。
+
+## semanticEffects
+- ja: セマンティックエフェクト
+- related: [SimulationResult, ERC-7730 descriptors]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 26198
+- auto_source_url: https://ethresear.ch/t/erc-draft-independent-simulation-result-for-stva/26198
+- desc: |
+  トランザクションシミュレーションの出力に含まれる、オプションの派生サマリー。ERC-7730スタイルの記述子を通じて再計算され、トランザクションの意図や高レベルな影響をユーザーに伝える。
+
+## Agent Pre-Sign Risk Report
+- ja: エージェント事前署名リスクレポート
+- related: [Prepared Transaction Envelope, x402 Payee Verification, Launch Observations registry]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30145
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145
+- desc: |
+  AIエージェントがトランザクションに署名する前に、潜在的なリスクを評価し報告するためのフレームワーク。不正な承認、誤った送金先、偽のトークン購入などのリスクを特定する。
+
+## risk slot
+- ja: リスクスロット
+- related: [Prepared Transaction Envelope]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30145
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145
+- desc: |
+  Prepared Transaction Envelope (ERC-8265) の一部として提案されている、トランザクションの潜在的なリスク情報を格納するためのフィールド。アクション（ALLOW/WARN/BLOCK）、スコア、警告、スキャナーの評価などを含む。
+
+## risk source
+- ja: リスクソース
+- related: [Agent Pre-Sign Risk Report, Launch Observations registry, x402 Payee Verification]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30145
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145
+- desc: |
+  トランザクションの潜在的なリスクを評価し、リスクレポートを生成するエンティティまたはメカニズム。例えば、Launch Observations registry や x402 Payee Verification などがリスクソースとなりうる。
+
+## Launch Observations registry
+- ja: ローンチ観測レジストリ
+- related: [Launch Observations, ERC-8470, risk source]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30145
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145
+- desc: |
+  ERC-8470 に基づく、トークンのローンチに関する事実（例えば、発行者のリストされたトークンのコピーであるかなど）を記録するオンチェーンレジストリ。リスクソースの一つとして利用される。
+
+## pre-sign check
+- ja: 事前署名チェック
+- related: [Agent Pre-Sign Risk Report]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30145
+- auto_source_url: https://ethereum-magicians.org/t/pre-erc-agent-pre-sign-risk-report/30145
+- desc: |
+  AIエージェントやウォレットがトランザクションに署名する前に、そのトランザクションの安全性を評価するプロセス。潜在的なリスクを特定し、ユーザーに警告またはブロックする。
+
+## Sovereign Multi-Issuer Cross-Chain Transfer
+- ja: ソブリン型マルチイシュアー・クロスチェーン転送
+- related: [multi-issuer model, burn-and-mint standard, cross-chain transfer]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30144
+- auto_source_url: https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144
+- desc: |
+  複数の発行者がそれぞれ独自の検証者セットを持つことで、単一のブリッジの脆弱性からトークンを保護しつつ、異なるEVMチェーン間でERC-20トークンをバーン＆ミント方式で転送するための標準規格。
+
+## multi-issuer model
+- ja: マルチイシュアーモデル
+- related: [Sovereign Multi-Issuer Cross-Chain Transfer, verifier set]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30144
+- auto_source_url: https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144
+- desc: |
+  単一のデプロイメント内で複数の発行者がそれぞれ独自の検証者セット（キー、閾値、ローテーションポリシー）を持つことを可能にするモデル。これにより、ある発行者のキーが侵害されても他の発行者のトークンが不正にミントされるリスクを分離する。
+
+## transport contract
+- ja: トランスポートコントラクト
+- related: [transfer contract, execution contract, cross-chain transfer]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30144
+- auto_source_url: https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144
+- desc: |
+  クロスチェーン転送プロトコルにおいて、固定サイズのメッセージを運び、EIP-712署名を検証する役割を担うコントラクト。デプロイメントドメイン、チェーン、リレー、検証者セットのバージョンと設定にスコープされた署名を検証する。
+
+## transfer contract
+- ja: トランスファーコントラクト
+- related: [transport contract, execution contract, cross-chain transfer]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30144
+- auto_source_url: https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144
+- desc: |
+  クロスチェーン転送プロトコルにおいて、転送のライフサイクルとトークンごとのマッピングを管理するコントラクト。転送プロセスの中核的なロジックを担う。
+
+## execution contract
+- ja: 実行コントラクト
+- related: [transport contract, transfer contract, cross-chain transfer]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30144
+- auto_source_url: https://ethereum-magicians.org/t/add-erc-sovereign-multi-issuer-cross-chain-transfer/30144
+- desc: |
+  クロスチェーン転送プロトコルにおいて、トークンのミントまたはバーンのみを許可される唯一のアドレスであるコントラクト。これにより、トークンの供給量を厳密に制御し、不正な発行を防ぐ。
+
+## Transition System
+- ja: トランジションシステム
+- related: [Governed State, Authority Root, Lifecycle Rules, Preconditions and Invariants]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30141
+- auto_source_url: https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141
+- desc: |
+  デジタル資産の所有権モジュールにおいて、有効な状態から別の状態への変更を管理するシステム。提案されたアクションが、承認チェック、ライフサイクル制限、事前条件、不変条件を満たしているか検証した上で状態変更をコミットします。
+
+## Lifecycle Rules
+- ja: ライフサイクルルール
+- related: [Transition System, Governed State]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30141
+- auto_source_url: https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141
+- desc: |
+  デジタル資産の存在の異なる段階で許可されるアクションを決定する一連の規則。例えば、資産が「Minted」「Active」「Suspended」「Ended」といった段階に応じて、特定の操作を許可または制限します。
+
+## Independent Authority
+- ja: 独立権限
+- related: [Authority Root, Derived Authority, Computed Authority]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30141
+- auto_source_url: https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141
+- desc: |
+  デジタル資産の所有権モジュールにおいて、自身のドメイン内で確立される権限の一種。例えば、単独の所有者が所有権の移行を承認できる場合など、他の関係性から派生しない直接的な権限を指します。
+
+## Derived Authority
+- ja: 派生権限
+- related: [Authority Root, Independent Authority, Computed Authority, Delegation]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30141
+- auto_source_url: https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141
+- desc: |
+  デジタル資産の所有権モジュールにおいて、統治された状態内で確立された関係性（例：委任）から派生する権限の一種。委任されたアクションの範囲、条件、期間によって制約され、委任者が付与できる権限を超えることはありません。
+
+## Computed Authority
+- ja: 算出権限
+- related: [Authority Root, Independent Authority, Derived Authority]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30141
+- auto_source_url: https://ethereum-magicians.org/t/arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback/30141
+- desc: |
+  デジタル資産の所有権モジュールにおいて、複数のドメイン（所有権、有効な合意、ライセンス、使用権、時間条件、制限など）にわたる関連状態を考慮して、必要に応じて評価される権限の一種。単一の保存された値ではなく、現在の状態から動的に導出されます。
+
+## authority drift
+- ja: 権限ドリフト
+- related: [Account Authority Lifecycle, least-privilege management, Scoped Capabilities]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30138
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138
+- desc: |
+  アカウントに対する権限が、意図された目的や期間を超えて残存し、古くなった所有者、モジュール、またはキーがセキュリティリスクとなる状態を指します。このERCは、権限のライフサイクル管理を通じて、この問題を防止することを目的としています。
+
+## Review cadence
+- ja: レビュー周期
+- related: [Account Authority Lifecycle, authority drift]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30138
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138
+- desc: |
+  アカウントの権限設定が定期的に見直される頻度を指します。このERCでは、権限の継続的な最小権限管理を保証し、古い権限を特定するために、`lastAuthorityReview`タイムスタンプの公開を推奨しています。
+
+## AuthorityState
+- ja: 権限状態
+- related: [Account Authority Lifecycle, transitionAuthority]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30138
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138
+- desc: |
+  アカウントの権限のライフサイクルにおける現在の状態を定義する列挙型です。`Uninitialized`、`Active`、`Attenuated`、`Suspended`、`Revoked`、`Recovered`などの状態が含まれます。
+
+## transitionAuthority
+- ja: 権限移行（関数）
+- related: [AuthorityState, Scoped Capabilities, Independent Simulation Result]
+- auto_added: 2026-11-01
+- auto_source_topic_id: 30138
+- auto_source_url: https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138
+- desc: |
+  アカウントの権限状態を変更するための高権限関数です。提案された変更と一致する独立したシミュレーション結果と、その変更を明示的に承認するスコープ付き機能（またはマルチパーティセレモニー）を必要とします。

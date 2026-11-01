@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -65,6 +65,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Identity|Agent Identity]] — エージェントID (AID)
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
 - [[glossary/Agent-Memory-State-Registry|Agent Memory State Registry]] — エージェントメモリ状態レジストリ (ERC-8337)
+- [[glossary/Agent-Pre-Sign-Risk-Report|Agent Pre-Sign Risk Report]] — エージェント事前署名リスクレポート
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
 - [[glossary/Agent-Reputation|Agent Reputation]] — エージェントレピュテーション
 - [[glossary/Agent-Safety-Framework|Agent Safety Framework]] — エージェント安全フレームワーク (ASF)
@@ -152,10 +153,12 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Authority-Boundary|Authority Boundary]] — 権限境界
 - [[glossary/Authority-circuit|Authority circuit]] — 認証回路 (Authority Circuit)
 - [[glossary/Authority-Continuity|Authority Continuity]] — 権限の継続性
+- [[glossary/authority-drift|authority drift]] — 権限ドリフト
 - [[glossary/Authority-Root|Authority Root]] — 権限ルート
 - [[glossary/Authority-Visibility-Gap|Authority Visibility Gap]] — 権限可視性ギャップ
 - [[glossary/Authority-Visibility-Problem|Authority Visibility Problem]] — 権限可視性問題
 - [[glossary/Authority-Non-Expansive|Authority-Non-Expansive]] — 権限非拡大性
+- [[glossary/AuthorityState|AuthorityState]] — 権限状態
 - [[glossary/Auto-Stagnant-Bot|Auto Stagnant Bot]] — 自動停滞ボット
 - [[glossary/Auto-Activation-Pattern|Auto-Activation Pattern]] — 自動有効化パターン
 - [[glossary/Autonomous-Agent|Autonomous Agent]] — 自律エージェント
@@ -332,6 +335,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Composition|Composition]] — 構成（ACDF）
 - [[glossary/Computational-Opcodes|Computational Opcodes]] — 計算オペコード
 - [[glossary/Computational-Unit|Computational Unit]] — 計算単位
+- [[glossary/Computed-Authority|Computed Authority]] — 算出権限
 - [[glossary/Computed-versus-Judged|Computed versus Judged]] — 計算による検証と判断による検証
 - [[glossary/concentrated-liquidity-mechanisms|concentrated liquidity mechanisms]] — 集中流動性メカニズム
 - [[glossary/Concentration-sensitive-economics|Concentration-sensitive economics]] — 集中度感応型経済学
@@ -449,6 +453,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Deployer-Bond|Deployer Bond]] — デプロイヤーボンド（発行者保証金）
 - [[glossary/deposit-tree|deposit tree]] — デポジットツリー
 - [[glossary/depositContractAddress|depositContractAddress]] — デポジットコントラクトアドレス (Deposit Contract Address)
+- [[glossary/Derived-Authority|Derived Authority]] — 派生権限
 - [[glossary/Derived-bindings|Derived bindings]] — 派生バインディング
 - [[glossary/Descriptor-Attestations|Descriptor Attestations]] — ディスクリプタ・アッテステーション
 - [[glossary/Descriptor-hash|Descriptor hash]] — ディスクリプタ・ハッシュ
@@ -632,6 +637,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-Chain-Proofs|Execution Chain Proofs]] — 実行チェーン証明 (Execution Chain Proofs)
 - [[glossary/Execution-Client|Execution Client]] — 実行クライアント
 - [[glossary/execution-client-head|execution client head]] — 実行クライアントヘッド
+- [[glossary/execution-contract|execution contract]] — 実行コントラクト
 - [[glossary/Execution-Delegation-Framework|Execution Delegation Framework]] — 実行委任フレームワーク
 - [[glossary/Execution-fee-bounded-at-1-wei|Execution fee bounded at 1 wei]] — 1 weiに制限された実行手数料
 - [[glossary/Execution-gas|Execution gas]] — 実行ガス
@@ -673,6 +679,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Fee-on-transfer|Fee-on-transfer]] — 転送手数料（フィー・オン・トランスファー）
 - [[glossary/Feedback-network|Feedback network]] — フィードバックネットワーク
 - [[glossary/FHE-Computation-Verification|FHE Computation Verification]] — FHE計算検証 (Fully Homomorphic Encryption 計算検証)
+- [[glossary/fill|fill]] — 約定
 - [[glossary/Final|Final]] — ファイナル (EIP/ERC)
 - [[glossary/Finalization-bar|Finalization bar]] — ファイナリティバー
 - [[glossary/finalizedBlockHash|finalizedBlockHash]] — ファイナライズされたブロックハッシュ
@@ -748,6 +755,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/halt-bit|halt bit]] — ハルトビット
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/hardware-gap|hardware gap]] — ハードウェアギャップ
+- [[glossary/hardware-offline-verifier|hardware offline verifier]] — ハードウェアオフライン検証者
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/hash-chain|hash chain]] — ハッシュチェーン
 - [[glossary/hashtreeroot|hash_tree_root]] — ハッシュツリールート
@@ -800,6 +808,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/Independent-Authority|Independent Authority]] — 独立権限
 - [[glossary/Independent-blocks|Independent blocks]] — 独立ブロック
 - [[glossary/Independent-Simulation-Result|Independent Simulation Result]] — 独立シミュレーション結果
 - [[glossary/Independent-Simulator|Independent Simulator]] — 独立シミュレーター
@@ -887,6 +896,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
 - [[glossary/Lattice-based-schemes|Lattice-based schemes]] — 格子ベース暗号方式 (Lattice-based schemes)
 - [[glossary/Launch-Declarations|Launch Declarations]] — ローンチ宣言
+- [[glossary/Launch-Observations-registry|Launch Observations registry]] — ローンチ観測レジストリ
 - [[glossary/launch-primitive|launch primitive]] — ローンチプリミティブ
 - [[glossary/Launchpad|Launchpad]] — ローンチパッド
 - [[glossary/Layer-1|Layer 1]] — レイヤー1
@@ -908,6 +918,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Lessor-position-as-ERC-721|Lessor position as ERC-721]] — ERC-721としての貸し手ポジション
 - [[glossary/libp2p-Peer-ID|libp2p Peer ID]] — libp2pピアID
 - [[glossary/Lifecycle|Lifecycle (IBond enum)]] — ライフサイクル (IBond enum)
+- [[glossary/Lifecycle-Rules|Lifecycle Rules]] — ライフサイクルルール
 - [[glossary/Light-Client-Protocol|Light Client Protocol]] — ライトクライアントプロトコル
 - [[glossary/Lineage-Registry|Lineage Registry]] — リネージレジストリ (Lineage Registry)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
@@ -947,12 +958,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/majority-trigger-mechanism|majority-trigger mechanism]] — 過半数トリガーメカニズム
 - [[glossary/maker-freshness|maker freshness]] — メーカー鮮度
 - [[glossary/maker-priority|maker priority]] — メーカー優先
+- [[glossary/maker-state|maker state]] — メーカー状態
 - [[glossary/Maker-checker|Maker-checker (on-chain)]] — メイカーチェッカー（オンチェーン）
 - [[glossary/Malleable-offchain-metadata|Malleable offchain metadata]] — 可変なオフチェーンメタデータ
 - [[glossary/mandate-inheritance|mandate inheritance]] — 委任の継承
 - [[glossary/Manifest|Manifest]] — マニフェスト
 - [[glossary/manual-merkle-proofing|manual merkle proofing]] — 手動Merkle証明検証（manual Merkle proofing）
 - [[glossary/Market-microstructure-with-on-chain-data|Market microstructure with on-chain data]] — オンチェーンデータを用いた市場ミクロ構造分析
+- [[glossary/markout|markout]] — マークアウト
 - [[glossary/MATCHA|MATCHA]] — MATCHA (Mempool Account Transaction Capacity from Historical Activity)
 - [[glossary/MATMUL-Opcode|MATMUL Opcode]] — MATMULオペコード
 - [[glossary/Maturity-Settlement-Queue|Maturity Settlement Queue]] — 満期決済キュー
@@ -1007,6 +1020,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Multi-dimensional-metering|Multi-dimensional metering]] — 多次元メータリング
 - [[glossary/multi-dimensional-peer-protection|multi-dimensional peer protection]] — 多次元ピア保護
 - [[glossary/Multi-holder-semantics|Multi-holder semantics (for passes)]] — マルチホルダーセマンティクス（パス向け）
+- [[glossary/multi-issuer-model|multi-issuer model]] — マルチイシュアーモデル
 - [[glossary/Multi-lingual-Clear-Signing|Multi-lingual Clear Signing]] — 多言語対応クリア署名
 - [[glossary/Multi-Party-Block|Multi-Party Block]] — マルチパーティブロック
 - [[glossary/Multi-Party-Block-Construction|Multi-Party Block Construction]] — マルチパーティブロック構築
@@ -1228,6 +1242,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pre-ERC|Pre-ERC]] — プレERC（提案段階のERC）
 - [[glossary/Pre-flight|Pre-flight]] — プリフライト（チェック）
 - [[glossary/Pre-Mempool-Validation|Pre-Mempool Validation]] — プレ・メンプール検証
+- [[glossary/pre-sign-check|pre-sign check]] — 事前署名チェック
 - [[glossary/Precompile-target|Precompile target]] — プリコンパイルターゲット
 - [[glossary/Precomputed-MSMs|Precomputed MSMs]] — 事前計算された多点スカラー乗算 (MSM)
 - [[glossary/Precondition|Precondition]] — 前提条件
@@ -1242,6 +1257,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Price-Reconciliation|Price Reconciliation]] — 価格調整（リコンシリエーション）
 - [[glossary/Principal-at-Maturity-profile|Principal-at-Maturity profile]] — 満期時元本償還型プロファイル
 - [[glossary/Priority-Update-Registry|Priority Update Registry]] — プライオリティ更新レジストリ (PUR)
+- [[glossary/PrioUpdateRegistry|PrioUpdateRegistry]] — PrioUpdateRegistry
 - [[glossary/Privacy-as-Predicate|Privacy as Predicate]] — 述語としてのプライバシー
 - [[glossary/Privacy-of-Account-Policy|Privacy of Account Policy]] — アカウントポリシーのプライバシー
 - [[glossary/privacy-pool|privacy pool]] — プライバシープール (privacy pool)
@@ -1397,10 +1413,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/reversibility-ladder|reversibility ladder]] — 可逆性ラダー
 - [[glossary/Revert|Revert]] — リバート
 - [[glossary/Review|Review]] — レビュー (EIP/ERC)
+- [[glossary/Review-cadence|Review cadence]] — レビュー周期
 - [[glossary/Revocation-Registry|Revocation Registry]] — 取り消しレジストリ
 - [[glossary/Revolving-Credit|Revolving Credit]] — リボルビング信用（リボルビング・クレジット）
 - [[glossary/Reward-routing|Reward routing]] — 報酬ルーティング
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
+- [[glossary/risk-slot|risk slot]] — リスクスロット
+- [[glossary/risk-source|risk source]] — リスクソース
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
 - [[glossary/Role-bit|Role bit]] — 役割ビット
 - [[glossary/Role-Confusion-Attack|Role Confusion Attack]] — ロール混同攻撃
@@ -1423,6 +1442,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RWA-platforms|RWA platforms]] — RWAプラットフォーム (Real World Assetプラットフォーム)
 - [[glossary/RwaAttestation|RwaAttestation]] — RWAアテステーション
 - [[glossary/safe-and-finalized-tags|safe and finalized tags]] — safeおよびfinalizedタグ
+- [[glossary/SafeTx|SafeTx]] — SafeTx（Safeトランザクション）
 - [[glossary/Safety-Binding|Safety Binding]] — 安全バインディング
 - [[glossary/Safety-Specification|Safety Specification]] — 安全仕様書
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
@@ -1455,6 +1475,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Selfish-Mixing|Selfish Mixing]] — セルフィッシュミキシング (Selfish Mixing)
 - [[glossary/Semantic-Drift-Attack|Semantic Drift Attack]] — 意味ドリフト攻撃
 - [[glossary/Semantic-Intent|Semantic Intent]] — セマンティックインテント
+- [[glossary/semanticEffects|semanticEffects]] — セマンティックエフェクト
 - [[glossary/Semi-fungible-tokens|Semi-fungible tokens]] — 半代替性トークン
 - [[glossary/Sender-deanonymization|Sender deanonymization]] — 送信者匿名性解除
 - [[glossary/sentinel-value|sentinel value]] — センチネル値
@@ -1528,6 +1549,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Source-attributed-Runoff|Source-attributed Runoff]] — ソース帰属型ランオフ
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
+- [[glossary/Sovereign-Multi-Issuer-Cross-Chain-Transfer|Sovereign Multi-Issuer Cross-Chain Transfer]] — ソブリン型マルチイシュアー・クロスチェーン転送
 - [[glossary/Sovereign-Space|Sovereign Space]] — ソブリンスペース (主権空間)
 - [[glossary/Sparse-blobpools|Sparse blobpools]] — スパースブロブプール
 - [[glossary/Specialized-Builder-Network|Specialized Builder Network]] — 特殊化されたビルダーネットワーク
@@ -1701,9 +1723,13 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transaction-Validation|Transaction Validation]] — トランザクション検証
 - [[glossary/Transaction-Validity-Proofs|Transaction Validity Proofs]] — トランザクション有効性証明
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
+- [[glossary/transfer-contract|transfer contract]] — トランスファーコントラクト
 - [[glossary/transfer-eligibility-gate|transfer-eligibility gate]] — 転送適格性ゲート
 - [[glossary/Transient-Storage|Transient Storage]] — トランジェントストレージ
 - [[glossary/Transition-ID|Transition ID]] — トランジションID
+- [[glossary/Transition-System|Transition System]] — トランジションシステム
+- [[glossary/transitionAuthority|transitionAuthority]] — 権限移行（関数）
+- [[glossary/transport-contract|transport contract]] — トランスポートコントラクト
 - [[glossary/trie-migration|trie migration]] — トライ移行
 - [[glossary/triple-hash-commitment-scheme|triple-hash commitment scheme]] — トリプルハッシュコミットメントスキーム
 - [[glossary/Trusted-Computing-Base|Trusted Computing Base]] — 信頼された計算基盤 (TCB)

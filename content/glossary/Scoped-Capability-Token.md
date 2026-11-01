@@ -4,7 +4,7 @@ aliases:
   - スコープ付きケイパビリティトークン
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **スコープ付きケイパビリティトークン**
@@ -18,6 +18,8 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
+- [[posts/ethresear-2026-10-30-erc-draft-independent-simulation-result-for-stva-26198|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 - [[posts/magicians-2026-10-30-erc-draft-independent-simulation-result-for-stva-30129|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 
 ## 元の表記（英語）

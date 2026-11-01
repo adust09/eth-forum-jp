@@ -5,7 +5,7 @@ aliases:
   - Multi-signature
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **マルチシグ（マルチシグネチャ）**
@@ -20,6 +20,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/magicians-2026-08-27-erc-8391-execution-delegation-framework-29527|ERC-8391: 実行委任フレームワーク]]（2026-08-27）
 - [[posts/ethresear-2026-06-15-perc20-private-token-standard-draft-25200|pERC20: プライベートトークン標準 (ドラフト)]]（2026-06-15）

@@ -4,7 +4,7 @@ aliases:
   - 状態遷移関数
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **状態遷移関数**
@@ -17,6 +17,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-31-arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback-30141|ARCOS所有権モジュール: ガバナンスされた状態と権限ルート — アーキテクチャと開発者フィードバック]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）
 - [[posts/ethresear-2026-09-21-etheorem-update-the-complete-executable-consensus-specs-written-in-lean-4-26063|Etheoremアップデート: Lean 4で書かれた完全な実行可能コンセンサス仕様]]（2026-09-21）
