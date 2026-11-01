@@ -5,7 +5,7 @@ aliases:
   - PropAMM
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **プロプライエタリAMM (PropAMM)**
@@ -20,6 +20,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-31-propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms-26201|イーサリアムメインネットにおけるPropAMMのフィルとTEMBRI (ツールボックス) のPropAMMサポート: 同一ブロックのクォート、小さなスプレッド、遅延AMMからのフロー]]（2026-10-31）
 - [[posts/ethresear-2026-10-07-ethereum-propamms-today-and-tomorrow-26129|イーサリアムのPropAMM：現在と未来]]（2026-10-07）
 
 ## 元の表記（英語）

@@ -5,7 +5,7 @@ aliases:
   - atomic arbitrage
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **アトミック裁定取引**
@@ -19,6 +19,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-10-31-propamm-fills-on-ethereum-mainnet-and-propamm-support-for-tembri-toolbox-same-block-quotes-a-small-spread-and-flow-taken-from-lagging-amms-26201|イーサリアムメインネットにおけるPropAMMのフィルとTEMBRI (ツールボックス) のPropAMMサポート: 同一ブロックのクォート、小さなスプレッド、遅延AMMからのフロー]]（2026-10-31）
 - [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 
 ## 元の表記（英語）

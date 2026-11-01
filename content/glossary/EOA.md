@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **EOA (Externally Owned Account)**
@@ -18,6 +18,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 - [[posts/magicians-2026-10-10-pre-erc-discussion-agent-service-order-amendments-29936|[ERC事前議論] エージェントサービス注文の変更]]（2026-10-10）

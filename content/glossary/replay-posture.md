@@ -4,7 +4,7 @@ aliases:
   - リプレイポスチャ (Replay Posture)
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **リプレイポスチャ (Replay Posture)**

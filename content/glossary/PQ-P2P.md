@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum P2P
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **量子耐性P2P (Post-Quantum P2P)**

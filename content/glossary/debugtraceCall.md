@@ -4,7 +4,7 @@ aliases:
   - debug_traceCall (RPCメソッド)
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **debug_traceCall (RPCメソッド)**

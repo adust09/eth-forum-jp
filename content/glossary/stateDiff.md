@@ -4,7 +4,7 @@ aliases:
   - 状態差分
 tags:
   - glossary
-date: '2026-10-31'
+date: '2026-11-01'
 ---
 
 **状態差分**
@@ -18,7 +18,7 @@ date: '2026-10-31'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-10-30-erc-draft-independent-simulation-result-for-stva-26198|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 
 ## 元の表記（英語）
 
