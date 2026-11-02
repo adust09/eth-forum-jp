@@ -4,7 +4,7 @@ aliases:
   - 曖昧性生成 (Ambiguity Generation)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **曖昧性生成 (Ambiguity Generation)**

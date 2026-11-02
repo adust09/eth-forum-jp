@@ -4,7 +4,7 @@ aliases:
   - ETH発行曲線
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **ETH発行曲線**

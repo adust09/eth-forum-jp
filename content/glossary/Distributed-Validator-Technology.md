@@ -5,7 +5,7 @@ aliases:
   - DVT
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **分散型バリデータ技術 (DVT)**

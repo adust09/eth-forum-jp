@@ -4,7 +4,7 @@ aliases:
   - IRoleTier (ロール階層インターフェース)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **IRoleTier (ロール階層インターフェース)**

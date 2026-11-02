@@ -5,7 +5,7 @@ aliases:
   - NTT
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **数論変換 (NTT)**
@@ -20,6 +20,7 @@ date: '2026-11-01'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-07-06-qingming-g64-ntt-cuda-rtx4090-24g-results-for-native-goldilocks-g64-stark-lde-ntt-25373|Qingming-g64-ntt-cuda: ネイティブGoldilocks/G64 STARK-LDE NTTのRTX4090-24G結果レポート]]（2026-07-06）
 
 ## 元の表記（英語）

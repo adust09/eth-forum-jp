@@ -4,7 +4,7 @@ aliases:
   - Ethereum JSON-RPC仕様
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **Ethereum JSON-RPC仕様**

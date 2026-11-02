@@ -5,7 +5,7 @@ aliases:
   - coding limit
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **イレイジャーコーディング閾値**

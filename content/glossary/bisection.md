@@ -4,7 +4,7 @@ aliases:
   - バイセクション（二分探索）
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **バイセクション（二分探索）**
@@ -18,6 +18,7 @@ date: '2026-11-01'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-22-reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it-26169|暗号化されたメムプールにおけるリビール選択性：送信者のフリーオプションの規模と、それを排除するポスト量子的な方法]]（2026-10-22）
 
 ## 元の表記（英語）

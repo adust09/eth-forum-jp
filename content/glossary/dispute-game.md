@@ -4,7 +4,7 @@ aliases:
   - 紛争解決ゲーム
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **紛争解決ゲーム**
@@ -18,7 +18,7 @@ date: '2026-11-01'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 
 ## 元の表記（英語）
 

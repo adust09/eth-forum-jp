@@ -4,7 +4,7 @@ aliases:
   - ZK不正証明
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **ZK不正証明**
@@ -19,6 +19,7 @@ date: '2026-11-01'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）
 
 ## 元の表記（英語）

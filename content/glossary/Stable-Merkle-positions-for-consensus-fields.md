@@ -5,7 +5,7 @@ aliases:
   - Stable Merkle positions
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **コンセンサスフィールドの安定したマークルポジション**

@@ -4,7 +4,7 @@ aliases:
   - 受取人委任 (payee delegation)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **受取人委任 (payee delegation)**

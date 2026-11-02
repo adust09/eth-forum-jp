@@ -5,7 +5,7 @@ aliases:
   - Module-Lattice-Based Key-Encapsulation Mechanism
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)**

@@ -4,7 +4,7 @@ aliases:
   - 再計算ステータス (Recomputation status)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **再計算ステータス (Recomputation status)**

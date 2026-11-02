@@ -4,7 +4,7 @@ aliases:
   - 経済的検閲
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **経済的検閲**

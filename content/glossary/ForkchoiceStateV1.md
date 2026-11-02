@@ -4,7 +4,7 @@ aliases:
   - ForkchoiceStateV1 (フォーク選択状態V1)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **ForkchoiceStateV1 (フォーク選択状態V1)**

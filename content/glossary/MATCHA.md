@@ -5,7 +5,7 @@ aliases:
   - Mempool Account Transaction Capacity from Historical Activity
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **MATCHA (Mempool Account Transaction Capacity from Historical Activity)**
@@ -20,7 +20,7 @@ EIP-8141のFrame Transactionにおいて、共有のsenderから複数のトラ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-01-asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account-26205|資産レベルの支出制限とリカバリー：レート制限はアカウントではなく資産に置かれるべきか？]]（2026-11-01）
 
 ## 元の表記（英語）
 

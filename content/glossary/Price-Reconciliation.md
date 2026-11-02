@@ -5,7 +5,7 @@ aliases:
   - Reconciliation
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **価格調整（リコンシリエーション）**

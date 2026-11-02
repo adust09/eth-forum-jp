@@ -5,7 +5,7 @@ aliases:
   - 'role.{category}.{action}'
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **コントラクトロール命名パターン**

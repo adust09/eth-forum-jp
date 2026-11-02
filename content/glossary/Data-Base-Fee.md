@@ -4,7 +4,7 @@ aliases:
   - データベースフィー (Data Base Fee)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **データベースフィー (Data Base Fee)**

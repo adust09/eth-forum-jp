@@ -4,7 +4,7 @@ aliases:
   - B+ツリー
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **B+ツリー**
