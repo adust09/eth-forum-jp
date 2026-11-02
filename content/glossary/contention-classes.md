@@ -4,7 +4,7 @@ aliases:
   - 競合クラス
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **競合クラス**

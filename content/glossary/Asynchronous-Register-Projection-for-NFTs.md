@@ -5,7 +5,7 @@ aliases:
   - ERC-8415
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **NFTの非同期レジスタプロジェクション**
@@ -22,6 +22,7 @@ ERC-8415で提案されている、NFTの取引可能なトークンポジショ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-01-erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer-30170|ERC-8415とBinanceハッキング事件：何が凍結可能か、そしてRWAにアセットステート層が必要な理由]]（2026-11-01）
 - [[posts/magicians-2026-10-11-8415wallet-an-erc-8415-based-wallet-now-available-for-beta-testing-29945|8415Wallet: [[glossary/Asynchronous-Register-Projection-for-NFTs|ERC-8415 (NFTの非同期レジスタプロジェクション)]]ベースのウォレット、ベータテスト版が利用可能に]]（2026-10-11）
 
 ## 元の表記（英語）

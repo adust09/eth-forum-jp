@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **開発ネットワーク (devnet)**
@@ -18,6 +18,7 @@ Ethereumのプロトコルアップグレードや新機能のテストのため
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/magicians-2026-10-13-frame-transaction-breakout-7-oct-20-2026-29961|フレームトランザクション分科会 #7、2026年10月20日]]（2026-10-13）
 - [[posts/magicians-2026-10-07-all-core-devs-testing-acdt-100-october-12-2026-29903|全コア開発者会議 - テスト (ACDT) #100、2026年10月12日]]（2026-10-07）
 - [[posts/magicians-2026-09-29-all-core-devs-testing-acdt-99-october-5-2026-29802|全コア開発者会議 - テスト (ACDT) #99、2026年10月5日]]（2026-09-29）

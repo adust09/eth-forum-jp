@@ -4,7 +4,7 @@ aliases:
   - CALL_VALUEベースガス
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **CALL_VALUEベースガス**

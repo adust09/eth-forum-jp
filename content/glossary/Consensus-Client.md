@@ -4,7 +4,7 @@ aliases:
   - コンセンサスクライアント
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **コンセンサスクライアント**
@@ -19,6 +19,7 @@ Ethereumノードの主要コンポーネントの一つで、Proof-of-Stakeコ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/magicians-2026-10-27-physical-storage-for-eip-8297-pbt-state-30092|EIP-8297 PBTステートのための物理ストレージ]]（2026-10-27）
 - [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）

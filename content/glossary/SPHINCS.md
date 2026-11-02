@@ -5,7 +5,7 @@ aliases:
   - SPHINCS minus
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **SPHINCS-（SPHINCSマイナス）**
@@ -21,6 +21,7 @@ EVM向けに最適化されたSPHINCS+の派生形であり、ステートレス
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-06-24-towards-native-post-quantum-private-eth-25291|ネイティブな量子耐性プライベートETHに向けて]]（2026-06-24）
 
 ## 元の表記（英語）

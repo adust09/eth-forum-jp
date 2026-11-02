@@ -5,7 +5,7 @@ aliases:
   - Cost Per Computational Unit
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **CPCU（計算単位あたりのコスト）**

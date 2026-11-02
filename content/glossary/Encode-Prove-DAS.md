@@ -5,7 +5,7 @@ aliases:
   - Encode + Prove paradigm
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **エンコード＋証明DAS**

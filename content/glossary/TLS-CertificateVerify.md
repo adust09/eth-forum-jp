@@ -5,7 +5,7 @@ aliases:
   - CertificateVerify
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **TLS CertificateVerify**

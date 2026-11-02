@@ -4,7 +4,7 @@ aliases:
   - EIP-712同意
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **EIP-712同意**

@@ -4,7 +4,7 @@ aliases:
   - プライバシープール (privacy pool)
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **プライバシープール (privacy pool)**

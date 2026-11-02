@@ -5,7 +5,7 @@ aliases:
   - eclipse
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **エクリプス攻撃**

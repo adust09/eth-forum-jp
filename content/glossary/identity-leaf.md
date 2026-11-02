@@ -4,7 +4,7 @@ aliases:
   - アイデンティティリーフ（identity leaf）
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **アイデンティティリーフ（identity leaf）**

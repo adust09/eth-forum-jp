@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17093,3 +17093,215 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-draft-account-authority-lifecycle-for-stva/30138
 - desc: |
   アカウントの権限状態を変更するための高権限関数です。提案された変更と一致する独立したシミュレーション結果と、その変更を明示的に承認するスコープ付き機能（またはマルチパーティセレモニー）を必要とします。
+
+## Statement Authenticator
+- ja: ステートメント認証器
+- related: [Account Abstraction, EIP-8130, EIP-8430, Post-Quantum Signatures]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26208
+- auto_source_url: https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208
+- desc: |
+  EIP-8130/EIP-8430のAAトランザクションにおいて、署名をトランザクション外に保持し、プログラムの検証キーとステートメントに依存して認証を行う新しいタイプのアカウンタ。これにより、量子耐性署名のような大きな認証データをL1に含める必要がなくなる。
+
+## Dependency Gate
+- ja: 依存関係ゲート
+- related: [Optimistic Rollup, Aggregate Proof, Derivation]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26208
+- auto_source_url: https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208
+- desc: |
+  OP Stackの派生プロセスに追加されたステージ。依存関係を持つバッチを保持し、L1データから対応する集約証明（aggregate proof）が見つかるまで待機する。これにより、集約証明がトランザクション実行後にL1に到着するオプティミスティックロールアップの課題を解決する。
+
+## Class Key
+- ja: クラスキー
+- related: [leanVM, Aggregate Proof, zkVM]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26208
+- auto_source_url: https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208
+- desc: |
+  leanVMにおいて、任意のプログラムの証明を集約するために使用されるプロトコル定数。特定のプログラムではなく、サイズ制限によって固定された回路セットのダイジェストとして機能し、異なるプログラムの証明を単一の集約証明に含めることを可能にする。
+
+## Seal
+- ja: シール（証明）
+- related: [leanVM, Aggregate Proof, ZK Proof]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26208
+- auto_source_url: https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208
+- desc: |
+  leanVMの証明ツリーのルートに付加される最終的な証明。集約証明全体の検証コストを大幅に削減し、数ミリ秒で検証を完了させる。クラスキーと組み合わせて、集約証明の効率的な検証を可能にする。
+
+## Statement
+- ja: ステートメント（EIP-8288文脈）
+- related: [EIP-8288, Aggregate Proof, Verification Key]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26208
+- auto_source_url: https://ethresear.ch/t/its-time-to-scale-the-trust-eip-8288-on-op-stack/26208
+- desc: |
+  EIP-8288において、プログラムの検証キーのハッシュと、そのプログラムが公開した出力のダイジェストを組み合わせたもの。これは、特定のプログラムが特定の出力を生成したことを証明するデータ構造であり、集約証明の基本的な構成要素となる。
+
+## Asset-level spending limits
+- ja: アセットレベルの利用制限（資産レベルの利用制限）
+- aliases: [asset-side rate limiting]
+- related: [Account-level policy, declareCompromised(), Savior, Allowance bypass]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26205
+- auto_source_url: https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205
+- desc: |
+  トークンコントラクトやネイティブプロトコル自体で、アカウントではなく資産レベルで利用制限を強制するメカニズム。アカウントレベルのポリシーが持つ、アローワンスやデリゲーションの置き換えによる回避の問題を解決することを目指す。
+
+## declareCompromised()
+- ja: declareCompromised()（アカウント侵害宣言機能）
+- related: [Savior, Asset-level spending limits]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26205
+- auto_source_url: https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205
+- desc: |
+  侵害されたアカウントからの通常の資金流出を即座にブロックし、元に戻せない状態にするために提案された機能。これにより、攻撃者によるさらなる資金移動を防ぐ。
+
+## Savior
+- ja: セイバー（救済アドレス）
+- aliases: [CompromisedSavior]
+- related: [declareCompromised(), Recovery address]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26205
+- auto_source_url: https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205
+- desc: |
+  アカウントが侵害状態を宣言した際にのみ権限を得る、事前に登録されたリカバリーアドレス。侵害されたアカウントから残りの資金を安全な場所へ移動させる役割を果たす。
+
+## Allowance bypass
+- ja: アローワンス回避
+- related: [Asset-level spending limits, transferFrom, Account-level policy]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26205
+- auto_source_url: https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205
+- desc: |
+  ERC-20の`transferFrom`承認（アローワンス）が既存のアカウントレベルの利用ポリシーを迂回し、ウォレットの検証ロジックを再実行せずにトークンを移動できてしまう脆弱性。
+
+## Storage-touching limit check
+- ja: ストレージ参照型利用制限チェック
+- related: [Mempool admission, Scalable mempool validation]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 26205
+- auto_source_url: https://ethresear.ch/t/asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account/26205
+- desc: |
+  ストレージにアクセスして利用制限を検証するチェック機構。Mempoolのボトルネックとなる可能性があり、スケーラブルなMempool検証との互換性が課題となる。
+
+## Asset-state layer
+- ja: アセット状態レイヤー
+- related: [RWA, Authoritative register, Verifiable projection]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30170
+- auto_source_url: https://ethereum-magicians.org/t/erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer/30170
+- desc: |
+  トークン化された資産、特にRWA（Real World Asset）の基盤となる状態を管理するための概念的なレイヤー。オンチェーンのトークン移動とは独立して、資産の法的権利や物理的状態を記録する外部レジスタの情報を、スマートコントラクトが読み取れるようにする役割を果たす。
+
+## Authoritative register
+- ja: 権威あるレジスタ
+- related: [RWA, Asset-state layer, Verifiable projection]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30170
+- auto_source_url: https://ethereum-magicians.org/t/erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer/30170
+- desc: |
+  トークン化された資産の基礎となる権利を管理する、外部の公式な記録システム。例えば、倉庫の在庫台帳や証券登録簿などがこれに該当する。ERC-8415では、このレジスタがトークンの実際の保有者を最終的に確認する情報源となる。
+
+## Verifiable projection
+- ja: 検証可能なプロジェクション
+- related: [ERC-8415, Authoritative register, Asset-state layer]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30170
+- auto_source_url: https://ethereum-magicians.org/t/erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer/30170
+- desc: |
+  外部の権威あるレジスタの履歴を、オンチェーンで検証可能な形で公開するメカニズム。ERC-8415の核となる概念であり、トークンコントラクトが外部レジスタの情報を参照し、その状態の安定性や履歴上の最終性を確認できるようにする。
+
+## Registration gap
+- ja: 登録ギャップ
+- aliases: [outstanding registration gap]
+- related: [ERC-8415, Authoritative register, Historical finality]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30170
+- auto_source_url: https://ethereum-magicians.org/t/erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer/30170
+- desc: |
+  オンチェーンでのトークン転送が完了したにもかかわらず、外部の権威あるレジスタでのその転送の登録がまだ完了していない期間や状態。ERC-8415は、この未解決の登録状態を`openGapOf(tokenId)`インターフェースを通じて明示的に示す。
+
+## Post-Quantum PeerDAS
+- ja: 耐量子PeerDAS (Post-Quantum PeerDAS)
+- related: [PeerDAS, Post-Quantum, LeanDA STARK, Merkle commitments]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30167
+- auto_source_url: https://ethereum-magicians.org/t/eip-8479-post-quantum-peerdas-and-variable-size-blobs/30167
+- desc: |
+  量子コンピュータの攻撃に耐性を持つように設計されたPeerDASのデータ可用性構築です。KZGコミットメントをKeccak-256 MerkleコミットメントとLeanDA STARKに置き換えることで実現されます。
+
+## Variable-Size Blobs
+- ja: 可変サイズブロブ (Variable-Size Blobs)
+- related: [Blob, Rollup]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30167
+- auto_source_url: https://ethereum-magicians.org/t/eip-8479-post-quantum-peerdas-and-variable-size-blobs/30167
+- desc: |
+  ロールアップが固定サイズのブロブにパディングすることなく、必要な容量に応じて2 KiBから512 KiBの範囲で可変長のブロブを公開・利用できるようにする機能です。これにより、効率的なデータ公開とコスト削減が可能になります。
+
+## LeanDA STARK
+- ja: LeanDA STARK
+- related: [STARK, Reed–Solomon codes, Merkle commitments, Post-Quantum PeerDAS]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30167
+- auto_source_url: https://ethereum-magicians.org/t/eip-8479-post-quantum-peerdas-and-variable-size-blobs/30167
+- desc: |
+  Reed–Solomon符号化関係とMerkleコミットメントの正しい導出を証明するために使用される特定のSTARK証明システムです。Post-Quantum PeerDASの主要な構成要素の一つです。
+
+## Merkle commitments
+- ja: Merkleコミットメント (Merkle commitments)
+- related: [KZG commitment, Merkle proof, Keccak-256]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30167
+- auto_source_url: https://ethereum-magicians.org/t/eip-8479-post-quantum-peerdas-and-variable-size-blobs/30167
+- desc: |
+  データの可用性を保証するために使用されるハッシュベースのコミットメントスキームです。本EIPでは、KZGブロブコミットメントの代わりにKeccak-256ハッシュとMerkleツリーを用いてデータのコミットメントを行います。
+
+## Autonomous Self-Refunding Merchant Settlement
+- ja: 自律型自己返金マーチャント決済（ERC-8482）
+- aliases: [ERC-8482]
+- related: [Sovereign Checkout, Self-Refunding Smart Contract Checkout]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30162
+- auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
+- desc: |
+  中央集権的な仲介者を介さずに、支払いの不足が発生した場合に自動的に返金される仕組みを持つ、非カストディアルなマーチャント決済インターフェースおよびエスクローアーキテクチャです。ERC-8482として提案されています。
+
+## Sovereign Checkout
+- ja: ソブリンチェックアウト
+- aliases: [IERC_SovereignCheckout]
+- related: [Autonomous Self-Refunding Merchant Settlement, Self-Refunding Smart Contract Checkout]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30162
+- auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
+- desc: |
+  ERC-8482で定義される、非カストディアルなマーチャント決済のためのスマートコントラクトインターフェースです。支払いの不足時に自動返金機能を提供し、支払い者の資金の主権を保護します。
+
+## Self-Refunding Smart Contract Checkout
+- ja: 自己返金型スマートコントラクトチェックアウト
+- related: [Autonomous Self-Refunding Merchant Settlement, Sovereign Checkout]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30162
+- auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
+- desc: |
+  支払いの不足や期限切れの際に、マーチャントや仲介者の介入なしに、支払い者が自動的に資金を回収できる機能を持つスマートコントラクトベースの決済システムです。ERC-8482の主要なコンセプトの一つです。
+
+## Shortfall Trap
+- ja: 不足金トラップ
+- related: [Underpayment, Autonomous Refund Path]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30162
+- auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
+- desc: |
+  暗号通貨決済において、ネットワーク手数料の控除などにより支払額が不足した場合に、中央集権的なゲートウェイが資金を吸収し、支払い者が資金を失う問題です。ERC-8482はこの問題の解決を目指しています。
+
+## Autonomous Refund Path
+- ja: 自律型返金パス
+- related: [Shortfall Trap, Self-Refunding Smart Contract Checkout]
+- auto_added: 2026-11-02
+- auto_source_topic_id: 30162
+- auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
+- desc: |
+  マーチャントの同意や仲介者の介入なしに、支払い者がスマートコントラクトにロックされた資金を自動的に回収できる仕組みです。ERC-8482の主要な機能の一つであり、不足金トラップに対する解決策を提供します。

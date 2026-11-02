@@ -5,7 +5,7 @@ aliases:
   - state gas reservoir
 tags:
   - glossary
-date: '2026-11-01'
+date: '2026-11-02'
 ---
 
 **レザバー（ステートガス貯蔵庫）**
