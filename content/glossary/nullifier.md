@@ -5,7 +5,7 @@ aliases:
   - nf
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **ナリファイア**
@@ -19,6 +19,7 @@ ZK-UTXOモデルにおいて、ノートが消費された際に公開される�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better-26212|ストレージ最適化されたリプレイ保護: ハッシュからブール値への変換から、パックされたフラグレーン、そしてプロトコルはより良いものを提供できるか？]]（2026-11-02）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/ethresear-2026-10-27-proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review-26184|Proof of One: 暗号化された投票用紙による一人一票の投票システム — 設計と参照コード、批判的レビューを募集]]（2026-10-27）
 - [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）

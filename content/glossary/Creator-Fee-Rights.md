@@ -4,7 +4,7 @@ aliases:
   - クリエイターフィー権
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **クリエイターフィー権**
@@ -17,7 +17,7 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 
 ## 元の表記（英語）
 

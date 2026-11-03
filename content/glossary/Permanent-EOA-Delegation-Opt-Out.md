@@ -4,7 +4,7 @@ aliases:
   - EOA委任の永続的オプトアウト
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **EOA委任の永続的オプトアウト**

@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,7 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-21-research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics-30041|[研究] Jacobi Quarticsを用いたBLS曲線向けElligator Squaredの最適化]]（2026-10-21）

@@ -4,7 +4,7 @@ aliases:
   - ペクトラ
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **ペクトラ**
@@ -18,6 +18,7 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 
 ## 元の表記（英語）

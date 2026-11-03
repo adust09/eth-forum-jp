@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **メインネット**
@@ -17,6 +17,8 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
+- [[posts/ethresear-2026-11-02-storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better-26212|ストレージ最適化されたリプレイ保護: ハッシュからブール値への変換から、パックされたフラグレーン、そしてプロトコルはより良いものを提供できるか？]]（2026-11-02）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-27-physical-storage-for-eip-8297-pbt-state-30092|EIP-8297 PBTステートのための物理ストレージ]]（2026-10-27）
 - [[posts/ethresear-2026-10-26-lean-verification-of-eip-7002-system-call-success-and-fifo-requests-26180|EIP-7002のLean検証: システムコール成功とFIFOリクエスト]]（2026-10-26）

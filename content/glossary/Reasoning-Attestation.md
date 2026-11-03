@@ -4,7 +4,7 @@ aliases:
   - 推論証明
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **推論証明**

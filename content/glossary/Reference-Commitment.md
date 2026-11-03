@@ -4,7 +4,7 @@ aliases:
   - 参照コミットメント (Reference Commitment)
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **参照コミットメント (Reference Commitment)**

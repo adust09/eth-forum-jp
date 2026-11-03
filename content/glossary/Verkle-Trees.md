@@ -5,7 +5,7 @@ aliases:
   - VKTs
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **Verkleツリー**
@@ -19,6 +19,7 @@ Ethereumのステートツリーを置き換えるために提案されている
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better-26212|ストレージ最適化されたリプレイ保護: ハッシュからブール値への変換から、パックされたフラグレーン、そしてプロトコルはより良いものを提供できるか？]]（2026-11-02）
 - [[posts/ethresear-2026-08-04-why-decentralized-state-is-important-for-ethereum-25622|イーサリアムにとって分散型ステートが重要な理由]]（2026-08-04）
 - [[posts/ethresear-2026-07-06-lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer-25374|リーン実行：世界のコンピュータをスケールさせるための、安全で、効率的で、適応性があり、リソース効率の高い実行スループットへの包括的アプローチ]]（2026-07-06）
 

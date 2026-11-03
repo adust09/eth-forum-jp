@@ -4,7 +4,7 @@ aliases:
   - 事前署名チェック
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **事前署名チェック**
@@ -17,7 +17,7 @@ AIエージェントやウォレットがトランザクションに署名する
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-02-how-arbitrums-freezes-send-transactions-from-an-address-without-its-key-30175|Arbitrumの凍結が、鍵なしでアドレスからトランザクションを送信する方法]]（2026-11-02）
 
 ## 元の表記（英語）
 

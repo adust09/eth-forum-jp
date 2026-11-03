@@ -4,7 +4,7 @@ aliases:
   - スナップショット
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **スナップショット**
@@ -18,6 +18,7 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 
