@@ -5,7 +5,7 @@ aliases:
   - L2BEAT Stage 0
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **ステージ0 (L2BEAT)**

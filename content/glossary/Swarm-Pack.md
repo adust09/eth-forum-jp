@@ -4,7 +4,7 @@ aliases:
   - スウォームパック (Swarm Pack)
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **スウォームパック (Swarm Pack)**

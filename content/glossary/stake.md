@@ -4,7 +4,7 @@ aliases:
   - ステーク
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **ステーク**
@@ -19,6 +19,7 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-02-how-arbitrums-freezes-send-transactions-from-an-address-without-its-key-30175|Arbitrumの凍結が、鍵なしでアドレスからトランザクションを送信する方法]]（2026-11-02）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-23-erc-tba-agent-credit-backers-30062|ERC-TBA: エージェント信用保証者]]（2026-10-23）

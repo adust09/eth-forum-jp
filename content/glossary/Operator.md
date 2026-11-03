@@ -4,7 +4,7 @@ aliases:
   - オペレーター
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **オペレーター**
@@ -20,6 +20,7 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/magicians-2026-10-30-erc-8478-x402-payee-verification-for-erc-8004-agents-30137|ERC-8478: ERC-8004エージェント向けx402受取人検証]]（2026-10-30）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

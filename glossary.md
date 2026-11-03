@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-02
+last_updated: 2026-11-03
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17305,3 +17305,314 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8482-autonomous-self-refunding-merchant-settlement/30162
 - desc: |
   マーチャントの同意や仲介者の介入なしに、支払い者がスマートコントラクトにロックされた資金を自動的に回収できる仕組みです。ERC-8482の主要な機能の一つであり、不足金トラップに対する解決策を提供します。
+
+## Replay protection
+- ja: リプレイプロテクション
+- related: [Nullifier, Nonce]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 26212
+- auto_source_url: https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212
+- desc: |
+  ブロックチェーンにおいて、過去に有効だったトランザクションが再実行されるのを防ぐためのメカニズムです。トランザクションの一意性を保証し、二重支払いなどの攻撃を防ぐために不可欠なセキュリティ機能です。
+
+## Packed flag lanes
+- ja: パックドフラッグレーン
+- related: [Storage optimization, Replay protection]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 26212
+- auto_source_url: https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212
+- desc: |
+  EVMストレージにおいて、複数のフラグ（使用済みナンス、決済済みセッションなど）を1つの256ビットワード内に効率的にパックして保存するレイアウトです。特に、複数のパーティが関与する操作のフラグ管理において、ストレージコストを大幅に削減する最適化手法として提案されています。
+
+## Restricted-semantics pricing
+- ja: 制限されたセマンティクスに基づく価格設定
+- related: [Gas schedule, State growth]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 26212
+- auto_source_url: https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212
+- desc: |
+  特定の操作（例：追記専用ビットマップ、単調増加カウンター）が持つ制限されたセマンティクスに基づいて、一般的な操作よりも低いガス料金を設定する考え方です。これにより、状態成長への対応と効率的なリソース利用を両立させることを目指します。
+
+## Span allocation
+- ja: スパンアロケーション
+- related: [Verkle trees, Storage optimization]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 26212
+- auto_source_url: https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212
+- desc: |
+  コントラクトがN個の連続したストレージスロットの領域を宣言し、その領域内での書き込みが、ツリーのブランチコストを一度だけ支払い、リーフコストのみで済むようにする提案です。Verkleツリーなどの構造的利点を活用し、ストレージアクセスを効率化するEVMプリミティブのアイデアです。
+
+## Append-once bit-set type
+- ja: 追記専用ビットセット型
+- related: [Restricted-semantics pricing, Storage optimization]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 26212
+- auto_source_url: https://ethresear.ch/t/storage-optimized-replay-protection-from-hash-bool-to-packed-flag-lanes-and-can-the-protocol-offer-better/26212
+- desc: |
+  一度設定されたビットは変更できない、追記のみが可能なビットセットデータ型です。リプレイプロテクションのフラグ管理などに利用され、その制限されたセマンティクスにより効率的なストレージ利用と価格設定が期待されるEVMプリミティブのアイデアです。
+
+## NFT Controlled Application Space
+- ja: NFT制御型アプリケーションスペース
+- related: [logical application space, Runtime, Gateway, space’s toll]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30258
+- auto_source_url: https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258
+- desc: |
+  NFTによって論理的なアプリケーションスペースの制御権が表現されるプロトコル。NFT保有者はスペースの経済設定（手数料や支払い受取人など）を管理し、開発者はそのスペース内で独立したアプリケーションを公開できる。
+
+## logical application space
+- ja: 論理的アプリケーションスペース
+- aliases: [application space]
+- related: [NFT Controlled Application Space, Runtime, Gateway]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30258
+- auto_source_url: https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258
+- desc: |
+  ブロックチェーン上でNFTによって制御される、アプリケーションのための抽象的な実行および経済ドメイン。バリデータやブロック生成、グローバルストレージの制御は含まれない。
+
+## Runtime (NFT Controlled Application Space)
+- ja: ランタイム（NFT制御型アプリケーションスペース）
+- related: [NFT Controlled Application Space, logical application space, Gateway]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30258
+- auto_source_url: https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258
+- desc: |
+  NFT制御型アプリケーションスペース内でユーザーがアプリケーションと対話するための実行環境。スペースごとに独立したランタイムが提供され、手数料の見積もりや操作の実行を処理する。
+
+## Gateway (NFT Controlled Application Space)
+- ja: ゲートウェイ（NFT制御型アプリケーションスペース）
+- related: [NFT Controlled Application Space, logical application space, Runtime]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30258
+- auto_source_url: https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258
+- desc: |
+  NFT制御型アプリケーションスペース内で公開された各アプリケーションに割り当てられるインターフェース。ユーザーはゲートウェイを通じて特定のアプリケーションにアクセスし、操作を実行する。
+
+## space’s toll
+- ja: スペース手数料
+- aliases: [toll]
+- related: [NFT Controlled Application Space, owner allocation, treasury allocation]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30258
+- auto_source_url: https://ethereum-magicians.org/t/erc-idea-nft-controlled-application-spaces-from-voiddeeds/30258
+- desc: |
+  NFT制御型アプリケーションスペース内で実行される操作に対して課される手数料。NFT保有者がその金額と支払い受取人を設定し、アプリケーションの利用に対する経済的対価となる。
+
+## Pairing-friendly curve
+- ja: ペアリングフレンドリー曲線
+- related: [Consensus-layer BLS signatures]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30184
+- auto_source_url: https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184
+- desc: |
+  暗号学において、効率的なペアリング演算を可能にする楕円曲線です。BLS署名などのプロトコルで利用され、複数の署名を単一の署名に集約する際に重要な役割を果たします。
+
+## Consensus-layer BLS signatures
+- ja: コンセンサス層BLS署名
+- related: [Aggregator signatures, Selection proofs, Pairing-friendly curve]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30184
+- auto_source_url: https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184
+- desc: |
+  Ethereumのコンセンサス層で使用されるBLS署名です。バリデータの署名を集約し、ブロックのファイナリティやアテステーションの効率性を向上させるために用いられます。セキュリティ強化の対象となる主要な署名タイプです。
+
+## Selection proofs
+- ja: 選択証明
+- related: [RANDAO, Consensus-layer BLS signatures]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30184
+- auto_source_url: https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184
+- desc: |
+  Ethereumのコンセンサス層において、バリデータが特定の役割（例：プロポーザーやアテスター）に選ばれたことを証明するために使用される暗号学的証明です。RANDAOの出力に基づいて生成されます。
+
+## Aggregator signatures
+- ja: アグリゲーター署名
+- related: [Attestation, Consensus-layer BLS signatures]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30184
+- auto_source_url: https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184
+- desc: |
+  Ethereumのコンセンサス層において、複数のバリデータからのアテステーション署名を集約した単一のBLS署名です。ネットワークの帯域幅を節約し、処理効率を高めるために使用されます。
+
+## Classical break
+- ja: 古典的解読（攻撃）
+- related: [Post-quantum keys]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30184
+- auto_source_url: https://ethereum-magicians.org/t/draft-eip-higher-security-curve-for-bls-signatures/30184
+- desc: |
+  量子コンピュータを使用しない、従来の計算手法による暗号システムの解読攻撃です。本EIPでは、楕円曲線暗号のセキュリティが半減するような古典的解読攻撃に対するヘッジとして、より高セキュリティな曲線への移行が提案されています。
+
+## ERC-721 Composition Extension
+- ja: ERC-721コンポジション拡張
+- related: [ERC-721, ERC-6551, Constituent, Canonical assets of an NFT]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30181
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-composition-extension/30181
+- desc: |
+  ERC-721トークンが他の資産をコンテナ内に保持し、トークンが存在する間は資産がコンテナから移動せず、ミント時に宣言された構成が永続的に読み取れるようにする拡張機能です。ERC-6551のセキュリティ懸念に対処するために提案されました。
+
+## Constituent
+- ja: 構成要素（コンスティチュエント）
+- related: [ERC-721 Composition Extension, Native asset, ERC-20 token]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30181
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-composition-extension/30181
+- desc: |
+  ERC-721 Composition Extensionにおいて、NFTがコンテナ内に保持すると宣言された資産（ネイティブ資産またはERC-20トークン）とその量を定義する構造体です。ミント時に固定され、トークンがバーンされるまでロックされます。
+
+## Canonical assets of an NFT
+- ja: NFTの正準資産
+- related: [ERC-6551, ERC-721 Composition Extension, Constituent]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30181
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-composition-extension/30181
+- desc: |
+  NFTがそのアカウント内に保持することが期待され、バーンされるまでロックされるべき資産を指します。ERC-6551のようなNFTに紐付けられたアカウントのセキュリティ問題（購入後にアカウントが空になるなど）に対処する概念です。
+
+## Downward rebasing token
+- ja: 下方リベース型トークン
+- aliases: [rebasing token (downward)]
+- related: [ERC-721 Composition Extension, ERC-20 token]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30181
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-composition-extension/30181
+- desc: |
+  ホルダーによる送金なしに、その残高が減少する可能性があるトークンです。ERC-721 Composition Extensionの構成要素として宣言すべきではないとされており、その下限をコンテナが保護できないためです。
+
+## Shared container
+- ja: 共有コンテナ
+- related: [ERC-4626, ERC-721 Composition Extension]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30181
+- auto_source_url: https://ethereum-magicians.org/t/erc-721-composition-extension/30181
+- desc: |
+  複数のトークンやエンティティ間で資産を共有して保持するスマートコントラクトです。ERC-4626のようなプロトコルがこれに該当します。ERC-721 Composition Extensionでは、トークンごとの下限を検証できないため、この方式は採用されません。
+
+## Outgoing Window Limits
+- ja: 送金ウィンドウ制限
+- related: [ERC-8475, Per-transfer cap, Aggregate outgoing cap]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30178
+- auto_source_url: https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178
+- desc: |
+  ERC-20トークンに適用されるオプトインの拡張機能で、単一の送金に対する上限と、固定されたブロック期間内での合計送金量に対する上限を組み合わせたもの。これにより、秘密鍵の漏洩などによる大量の不正送金を防ぐことを目的とします。
+
+## Per-transfer cap
+- ja: 送金ごとの上限
+- related: [Outgoing Window Limits, Aggregate outgoing cap]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30178
+- auto_source_url: https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178
+- desc: |
+  ERC-20トークンにおいて、単一のトランザクションで送金できる最大量を制限する機能。これにより、一度に大量のトークンが不正に移動されるリスクを軽減します。
+
+## Aggregate outgoing cap
+- ja: 合計送金上限
+- related: [Outgoing Window Limits, Per-transfer cap, Fixed block window]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30178
+- auto_source_url: https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178
+- desc: |
+  ERC-20トークンにおいて、特定の固定ブロック期間内に送金できる合計量を制限する機能。個別の送金上限と組み合わせることで、複数のトランザクションに分割された大量送金も防ぎます。
+
+## Cap-change delay
+- ja: 上限変更遅延
+- related: [Outgoing Window Limits]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30178
+- auto_source_url: https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178
+- desc: |
+  ERC-20トークンの送金上限（Per-transfer capやAggregate outgoing cap）を変更する際に、その変更が有効になるまでに設定される固定の遅延期間。これにより、不正な上限引き上げによる資産流出を防ぐための時間的猶予を提供します。
+
+## Debit paths
+- ja: デビットパス
+- related: [Token-side accounting]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30178
+- auto_source_url: https://ethereum-magicians.org/t/erc-8475-erc-20-outgoing-window-limits/30178
+- desc: |
+  ERC-20トークンホルダーの残高を減少させる可能性のあるすべての経路を指します。これには、通常の`transfer`や`transferFrom`、トークンのバーン、自己送金、署名承認による支出などが含まれます。
+
+## ERC-20 Delayed Unlock
+- ja: ERC-20遅延アンロック
+- aliases: [ERC-8474]
+- related: [holder-controlled outgoing transfer locks, locking guardian]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30177
+- auto_source_url: https://ethereum-magicians.org/t/erc-8474-erc-20-delayed-unlock/30177
+- desc: |
+  ERC-20トークンに、保有者によって制御される送金ロックと、ブロックベースのアンロック遅延、および独立したロックガーディアンを導入するオプトイン拡張機能です。これにより、秘密鍵が侵害された場合でも、トークンがアカウントから不正に移動するのを防ぐための時間的猶予が生まれます。
+
+## holder-controlled outgoing transfer locks
+- ja: 保有者制御型送金ロック
+- related: [ERC-20 Delayed Unlock, locking guardian]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30177
+- auto_source_url: https://ethereum-magicians.org/t/erc-8474-erc-20-delayed-unlock/30177
+- desc: |
+  ERC-20トークンの保有者が、自身のトークンの外部への送金をロックするメカニズムです。これにより、保有者は、不正な送金が発生する前に対応するための猶予期間を設けることができます。
+
+## locking guardian
+- ja: ロックガーディアン
+- related: [ERC-20 Delayed Unlock, immutable enrollment model]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30177
+- auto_source_url: https://ethereum-magicians.org/t/erc-8474-erc-20-delayed-unlock/30177
+- desc: |
+  ERC-20 Delayed Unlockのメカニズムにおいて、トークンの保有者とは別に指定されるエンティティです。保有者が送金ロックを解除するカウントダウンをキャンセルし、即座に再ロックする権限を持ちますが、トークンのアンロックや送金はできません。
+
+## immutable enrollment model
+- ja: 不変登録モデル
+- related: [ERC-20 Delayed Unlock, locking guardian]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30177
+- auto_source_url: https://ethereum-magicians.org/t/erc-8474-erc-20-delayed-unlock/30177
+- desc: |
+  ERC-20 Delayed Unlockにおいて、保有者が一度設定したクールダウン期間とロックガーディアンが変更できない設計モデルです。これにより、セキュリティ上の堅牢性が高まる一方で、リカバリの柔軟性にトレードオフが生じます。
+
+## ArbOS
+- ja: ArbOS (Arbitrumオペレーティングシステム)
+- related: [Arbitrum, L2]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30175
+- auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
+- desc: |
+  Arbitrumチェーンのオペレーティングシステム。L2トランザクションの処理や、L1からL2へのメッセージの解釈など、チェーンの基本的な動作を司る。
+
+## ArbitrumUnsignedTx
+- ja: Arbitrum署名なしトランザクション
+- aliases: [type 0x65 transaction]
+- related: [Arbitrum, forced transaction]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30175
+- auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
+- desc: |
+  Arbitrumチェーンで利用される特殊なトランザクションタイプ（0x65）。秘密鍵による署名なしに、特定のアドレスから強制的にトランザクションを実行するために使用される。
+
+## Bridge
+- ja: ブリッジ (L2)
+- related: [L1, L2, Inbox]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30175
+- auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
+- desc: |
+  レイヤー1（L1）とレイヤー2（L2）の間で資産やメッセージを移動させるためのスマートコントラクトとメカニズムの集合体。Arbitrumの文脈では、L1からL2へのメッセージ配信において送信元アドレスの記録に重要な役割を果たす。
+
+## L1 UpgradeExecutor
+- ja: L1アップグレードエグゼキューター
+- related: [Inbox proxy, Arbitrum Security Council]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30175
+- auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
+- desc: |
+  ArbitrumチェーンのL1側にあるコントラクトで、Inboxプロキシなどの主要なL1コントラクトの実装をアップグレードする権限を持つ。Arbitrum Security CouncilやDAOがこのコントラクトを通じてL2の動作に影響を与えることができる。
+
+## Inbox proxy
+- ja: Inboxプロキシ
+- related: [L1 UpgradeExecutor, Bridge]
+- auto_added: 2026-11-03
+- auto_source_topic_id: 30175
+- auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
+- desc: |
+  ArbitrumチェーンのL1側にあるプロキシコントラクトで、L1からL2へのすべてのメッセージの主要なエントリポイントとして機能する。L1 UpgradeExecutorによってその実装が変更されることで、強制トランザクションのような特殊な操作が可能になる。

@@ -4,7 +4,7 @@ aliases:
   - 実行入札
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **実行入札**

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-11-02'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
+- [[posts/magicians-2026-11-02-erc-8475-erc-20-outgoing-window-limits-30178|ERC-8475: ERC-20 送金ウィンドウ制限]]（2026-11-02）
 - [[posts/ethresear-2026-11-01-asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account-26205|資産レベルの支出制限とリカバリー：レート制限はアカウントではなく資産に置かれるべきか？]]（2026-11-01）
 - [[posts/magicians-2026-10-31-arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback-30141|ARCOS所有権モジュール: ガバナンスされた状態と権限ルート — アーキテクチャと開発者フィードバック]]（2026-10-31）
 - [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）

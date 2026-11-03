@@ -4,7 +4,7 @@ aliases:
   - 再実行
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **再実行**

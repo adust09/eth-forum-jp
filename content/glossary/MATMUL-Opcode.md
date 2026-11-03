@@ -5,7 +5,7 @@ aliases:
   - '0x0C'
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **MATMULオペコード**

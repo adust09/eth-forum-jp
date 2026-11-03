@@ -4,7 +4,7 @@ aliases:
   - 減衰再委譲
 tags:
   - glossary
-date: '2026-11-02'
+date: '2026-11-03'
 ---
 
 **減衰再委譲**
