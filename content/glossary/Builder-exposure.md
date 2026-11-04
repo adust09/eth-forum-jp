@@ -4,7 +4,7 @@ aliases:
   - ビルダーエクスポージャー (Builder exposure)
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **ビルダーエクスポージャー (Builder exposure)**

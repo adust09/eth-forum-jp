@@ -5,7 +5,7 @@ aliases:
   - ERC-TBA
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **ローンチ宣言**

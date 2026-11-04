@@ -5,7 +5,7 @@ aliases:
   - ACDE
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **All Core Devs - Execution (ACDE)**

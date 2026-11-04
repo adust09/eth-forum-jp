@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **ブロック構築**
@@ -23,6 +23,7 @@ date: '2026-11-03'
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
+- [[posts/ethresear-2026-11-02-why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam-26211|なぜサーチャーとビルダーはキャンドルオークションを好むのか（そしてグラムステルダム後のビルダー市場にとってそれがなぜ重要なのか）]]（2026-11-02）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）
 - [[posts/magicians-2026-10-20-erc-tba-creator-fee-rights-30027|ERC-TBA: クリエイター手数料の権利]]（2026-10-20）

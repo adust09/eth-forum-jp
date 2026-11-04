@@ -4,7 +4,7 @@ aliases:
   - eth_fillTransaction (トランザクション補完)
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **eth_fillTransaction (トランザクション補完)**

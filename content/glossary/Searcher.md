@@ -4,7 +4,7 @@ aliases:
   - サーチャー
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **サーチャー**
@@ -18,6 +18,7 @@ Ethereumなどのブロックチェーンにおいて、MEV（Maximal Extractabl
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-02-why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam-26211|なぜサーチャーとビルダーはキャンドルオークションを好むのか（そしてグラムステルダム後のビルダー市場にとってそれがなぜ重要なのか）]]（2026-11-02）
 - [[posts/magicians-2026-10-12-private-stablecoin-on-ethereum-29946|イーサリアム上のプライベートステーブルコイン]]（2026-10-12）
 - [[posts/ethresear-2026-10-09-private-stablecoin-on-ethereum-26140|イーサリアム上のプライベートステーブルコイン]]（2026-10-09）
 - [[posts/ethresear-2026-08-27-amm-yield-maximization-convergence-of-the-liquidity-provider-and-arbitrageur-roles-25826|AMMのイールド最大化：流動性プロバイダーとアービトラージャーの役割の収束]]（2026-08-27）

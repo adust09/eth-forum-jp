@@ -4,7 +4,7 @@ aliases:
   - 構成（ACDF）
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **構成（ACDF）**
