@@ -5,7 +5,7 @@ aliases:
   - Non-Overlapping Merkle Tree
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **NOMT（非重複マークルツリー）**

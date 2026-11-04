@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -200,6 +200,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
 - [[glossary/Bid-commitment|Bid commitment]] — ビッドコミットメント (Bid commitment)
+- [[glossary/bid-tick|bid tick]] — ビッドティック
 - [[glossary/Bidding-War-for-Block-Position|Bidding War for Block Position]] — ブロックポジション獲得競争
 - [[glossary/Binary-Nonce|Binary Nonce]] — バイナリノンス
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
@@ -255,6 +256,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Builder-Defection|Builder Defection]] — ビルダーの逸脱
 - [[glossary/Builder-Execution-Requests|Builder Execution Requests]] — ビルダー実行リクエスト
 - [[glossary/Builder-exposure|Builder exposure]] — ビルダーエクスポージャー (Builder exposure)
+- [[glossary/builder-market|builder market]] — ビルダー市場
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
@@ -275,6 +277,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Callee-Cap-Compatibility|Callee-Cap Compatibility]] — 被呼び出し元制限の互換性
 - [[glossary/CALLSTATUS-instruction|CALLSTATUS instruction]] — CALLSTATUS命令
 - [[glossary/callTracer|callTracer]] — callTracer (コールトレーサー)
+- [[glossary/candle-auctions|candle auctions]] — キャンドルオークション
 - [[glossary/Canonical-assets-of-an-NFT|Canonical assets of an NFT]] — NFTの正準資産
 - [[glossary/Canonical-Document-Bundle-Anchor|Canonical Document Bundle Anchor]] — 規範的文書バンドルアンカー
 - [[glossary/Canonical-exit|Canonical exit]] — カノニカル・イグジット
@@ -830,12 +833,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Importance-score|Importance score]] — 重要度スコア
 - [[glossary/Impossibility-Triad|Impossibility Triad]] — 不可能性の三つ組 (インポッシビリティ・トライアド)
+- [[glossary/in-protocol-channel|in-protocol channel]] — プロトコル内チャネル
 - [[glossary/In-Protocol-Client-Reporting|In-Protocol Client Reporting]] — プロトコル内クライアント報告
 - [[glossary/Inactive-state|Inactive state]] — 非アクティブステート
 - [[glossary/Inbox-proxy|Inbox proxy]] — Inboxプロキシ
 - [[glossary/Incentive-Compatibility-condition|Incentive Compatibility condition]] — インセンティブ整合性条件 (IC条件)
 - [[glossary/Incentive-Design|Incentive Design]] — インセンティブ設計
 - [[glossary/Inclusion-List|Inclusion List]] — インクルージョンリスト
+- [[glossary/inclusion-window|inclusion window]] — 包含ウィンドウ
 - [[glossary/Independent-Authority|Independent Authority]] — 独立権限
 - [[glossary/Independent-blocks|Independent blocks]] — 独立ブロック
 - [[glossary/Independent-Simulation-Result|Independent Simulation Result]] — 独立シミュレーション結果
@@ -1067,6 +1072,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Namespaced-Storage|Namespaced Storage]] — 名前空間付きストレージ
 - [[glossary/Nanopayment|Nanopayment]] — ナノペイメント
 - [[glossary/Native-AA-transaction|Native AA transaction]] — ネイティブAAトランザクション (Native AA transaction)
+- [[glossary/native-authorization-processing|native authorization processing]] — ネイティブ承認処理
 - [[glossary/Native-Ethereum-Delegation|Native Ethereum Delegation]] — ネイティブ・イーサリアム・デリゲーション
 - [[glossary/Native-rollups|Native rollups]] — ネイティブロールアップ
 - [[glossary/Native-UTXOs|Native UTXOs]] — ネイティブUTXO
@@ -1210,6 +1216,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pectra|Pectra]] — ペクトラ
 - [[glossary/PeerDAS|PeerDAS]] — PeerDAS
 - [[glossary/Pending-Transaction-Privacy|Pending Transaction Privacy]] — ペンディングトランザクションプライバシー
+- [[glossary/pennying-equilibrium|pennying equilibrium]] — ペニーイング均衡
 - [[glossary/Per-Asset-Isolation|Per-Asset Isolation]] — アセットごとの分離
 - [[glossary/per-chain-singleton|per-chain singleton]] — チェーンごとのシングルトン
 - [[glossary/per-item-cap|per-item cap]] — アイテム別供給上限
@@ -1378,6 +1385,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/receipt-freeness|receipt-freeness]] — 領収書不要性
 - [[glossary/ReceiptOS|ReceiptOS]] — ReceiptOS (検証可能なエージェント実行のためのポータブルな証明基盤)
 - [[glossary/Received-Floor|Received Floor]] — 受容された基盤
+- [[glossary/Recent-Block-Bound-Delegation-Authorizations|Recent Block Bound Delegation Authorizations]] — 最近のブロックに紐付けられた委任承認
 - [[glossary/recent-root-bound|recent-root-bound]] — 最近のルートにバインドされた状態
 - [[glossary/Recipient-range-proofs|Recipient-range proofs]] — 受信者範囲証明
 - [[glossary/Recomputable-Verification-Receipts|Recomputable Verification Receipts]] — 再計算可能な検証レシート
@@ -1559,6 +1567,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
 - [[glossary/Signing-Ceremony|Signing Ceremony]] — 署名セレモニー
 - [[glossary/signing-kernel|signing kernel]] — 署名カーネル
+- [[glossary/signing-prefix|signing prefix]] — 署名プレフィックス
 - [[glossary/Silence-pays-the-fulfiller|Silence pays the fulfiller]] — 沈黙は履行者への支払いとなる
 - [[glossary/Silent-One-Shot-threshold-encryption|Silent, One-Shot threshold encryption]] — サイレント・ワンショット閾値暗号 (Silent, One-Shot threshold encryption)
 - [[glossary/Simple-Serialize|Simple Serialize]] — シンプルシリアライズ

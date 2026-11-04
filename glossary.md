@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17616,3 +17616,84 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/how-arbitrums-freezes-send-transactions-from-an-address-without-its-key/30175
 - desc: |
   ArbitrumチェーンのL1側にあるプロキシコントラクトで、L1からL2へのすべてのメッセージの主要なエントリポイントとして機能する。L1 UpgradeExecutorによってその実装が変更されることで、強制トランザクションのような特殊な操作が可能になる。
+
+## candle auctions
+- ja: キャンドルオークション
+- related: [open-bidding, sealed-bid auctions, MEV]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 26211
+- auto_source_url: https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211
+- desc: |
+  ランダムな終了時刻を持つ公開入札オークションの一種で、MEVエコシステムにおいて、入札者が少数の場合、封印入札よりも高い利益をもたらす可能性があるとされます。
+
+## pennying equilibrium
+- ja: ペニーイング均衡
+- related: [candle auctions, bid tick]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 26211
+- auto_source_url: https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211
+- desc: |
+  キャンドルオークションのような公開入札において、入札者が最小単位（bid tick）で相手を上回る入札を繰り返すことで、最終的に勝者が決まる戦略的均衡です。入札者は全価値を提示することなく、利益を最大化しようとします。
+
+## bid tick
+- ja: ビッドティック
+- related: [candle auctions, pennying equilibrium]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 26211
+- auto_source_url: https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211
+- desc: |
+  オークションにおける最小の入札単位または価格増分を指します。入札者はこの単位で価格を上げていくことが想定されます。
+
+## builder market
+- ja: ビルダー市場
+- related: [builder, MEV, proposer]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 26211
+- auto_source_url: https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211
+- desc: |
+  EthereumのMEVエコシステムにおいて、ブロックビルダーがブロック構築の機会を競い合う市場です。プロポーザーへの支払いとビルダー自身の利益のバランスが重要となります。
+
+## in-protocol channel
+- ja: プロトコル内チャネル
+- related: [ePBS, builder, proposer]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 26211
+- auto_source_url: https://ethresear.ch/t/why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam/26211
+- desc: |
+  Ethereumプロトコル自体に組み込まれた通信またはトランザクション送信経路を指します。ePBSの文脈では、ビルダーがプロポーザーに直接、封印された形でブロックを提出するチャネルを意味します。
+
+## Recent Block Bound Delegation Authorizations
+- ja: 最近のブロックに紐付けられた委任承認
+- related: [EIP-7702, Delegation Authorizations]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 30269
+- auto_source_url: https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269
+- desc: |
+  EIP-7702の委任承認に、署名時の最近の実行ブロック番号とそのヘッダーハッシュを含めることで、署名の有効期間を制限するメカニズム。これにより、未使用の署名の長期保存と再生を防ぎます。
+
+## native authorization processing
+- ja: ネイティブ承認処理
+- related: [EIP-7702, Account Abstraction]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 30269
+- auto_source_url: https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269
+- desc: |
+  EIP-7702のようなプロトコルレベルの承認を処理するプロセス。署名検証や権限固有のステートアクセスに先立って、承認の有効性（例：ブロックの鮮度）がチェックされます。
+
+## inclusion window
+- ja: 包含ウィンドウ
+- related: [Block Inclusion, Transaction Validity]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 30269
+- auto_source_url: https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269
+- desc: |
+  特定のトランザクションや署名がブロックに含まれることが許容される期間。EIP-8477では、委任承認の署名に紐付けられたブロック番号と現在のブロック番号との差によってこの期間が制限されます。
+
+## signing prefix
+- ja: 署名プレフィックス
+- related: [EIP-712, Transaction Signature]
+- auto_added: 2026-11-04
+- auto_source_topic_id: 30269
+- auto_source_url: https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269
+- desc: |
+  Ethereumのトランザクション署名において、署名されるデータに付加される特定のバイト列。これにより、異なるタイプのデータやチェーン間での署名の衝突を防ぎ、署名の意図を明確にします。

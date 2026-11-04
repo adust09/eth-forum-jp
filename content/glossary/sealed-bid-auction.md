@@ -5,7 +5,7 @@ aliases:
   - sealed-bid format
 tags:
   - glossary
-date: '2026-11-03'
+date: '2026-11-04'
 ---
 
 **封印入札オークション**
@@ -19,7 +19,7 @@ date: '2026-11-03'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-02-why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam-26211|なぜサーチャーとビルダーはキャンドルオークションを好むのか（そしてグラムステルダム後のビルダー市場にとってそれがなぜ重要なのか）]]（2026-11-02）
 
 ## 元の表記（英語）
 
