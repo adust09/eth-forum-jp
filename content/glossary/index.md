@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -489,6 +489,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/deterministic-RISC-V-interpreter|deterministic RISC-V interpreter]] — 決定論的RISC-Vインタープリタ
 - [[glossary/Deterministic-Verifier-Runtime|Deterministic Verifier Runtime]] — 決定論的検証ランタイム
 - [[glossary/Deterrence-Bid|Deterrence Bid]] — 抑止入札
+- [[glossary/Devcon-cities|Devcon cities]] — Devcon都市名
 - [[glossary/devnet|devnet]] — 開発ネットワーク (devnet)
 - [[glossary/devp2p|devp2p]] — devp2p (Ethereum P2Pネットワークプロトコル)
 - [[glossary/Diamond|Diamond (pattern)]] — ダイヤモンド（パターン）
@@ -803,6 +804,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/holderAsOf|holderAsOf]] — 特定時点のホルダー
 - [[glossary/Holding-Time-Auto-Staking|Holding-Time Auto Staking]] — ホールディングタイム自動ステーキング
 - [[glossary/home-builder|home builder]] — ホームビルダー
+- [[glossary/Homomorphic-Blind-ReedSolomon-Decoding-Problem|Homomorphic Blind Reed–Solomon Decoding Problem]] — 準同型ブラインドリード・ソロモン復号問題
 - [[glossary/Homomorphic-tallying|Homomorphic tallying]] — 準同型集計 (Homomorphic tallying)
 - [[glossary/honeypot|honeypot]] — ハニーポット
 - [[glossary/Hoodi|Hoodi]] — Hoodi (テストネット)
@@ -890,6 +892,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ISZERO|ISZERO]] — ISZERO (EVMオペコード)
 - [[glossary/Itemized-Non-Fungible-Token|Itemized Non-Fungible Token]] — アイテム化非代替性トークン
 - [[glossary/ITwoPhaseEscrow|ITwoPhaseEscrow]] — ITwoPhaseEscrow（二段階エスクロー）
+- [[glossary/J-star-name|J-star name]] — Jスター名
 - [[glossary/Jaccard-similarity|Jaccard similarity]] — Jaccard類似度 (ジャカード類似度)
 - [[glossary/Jacobi-Quartic|Jacobi Quartic]] — ヤコビ四次曲線 (Jacobi Quartic)
 - [[glossary/JSON-pass-manifest|JSON pass manifest]] — JSONパスマニフェスト
@@ -1628,6 +1631,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SSZ-Compact-Multiproofs|SSZ Compact Multiproofs]] — SSZコンパクトマルチプルーフ
 - [[glossary/sszsnappy|ssz_snappy]] — SSZ Snappy（エンコーディング）
 - [[glossary/Stable-Merkle-positions-for-consensus-fields|Stable Merkle positions for consensus fields]] — コンセンサスフィールドの安定したマークルポジション
+- [[glossary/STAC-Paradigm|STAC Paradigm]] — STACパラダイム (Uniform Noise Indistinguishability)
 - [[glossary/Stage-0|Stage 0 (L2BEAT)]] — ステージ0 (L2BEAT)
 - [[glossary/staged-deprecation|staged deprecation]] — 段階的廃止
 - [[glossary/stake|stake]] — ステーク
@@ -1667,6 +1671,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Static-data|Static data]] — 静的データ
 - [[glossary/Static-Data-Component|Static-Data Component]] — 静的データコンポーネント (Static-Data Component)
 - [[glossary/Stealth-Address-Protocol|Stealth Address Protocol]] — ステルスアドレスプロトコル (SAP)
+- [[glossary/Stealth-Attribute-Based-Broadcast-Encryption|Stealth Attribute-Based Broadcast Encryption]] — ステルス属性ベースブロードキャスト暗号 (Stealth ABBE)
 - [[glossary/stealth-meta-address|stealth meta-address]] — ステルスメタアドレス
 - [[glossary/Stealth-Name-Resolution|Stealth Name Resolution]] — ステルス名解決
 - [[glossary/Steganographic-Point-Obfuscation|Steganographic Point Obfuscation]] — ステガノグラフィック点難読化
@@ -1912,12 +1917,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/x402|x402]] — x402 (エックス402)
 - [[glossary/Zero-atom|Zero atom]] — ゼロアトム
 - [[glossary/Zero-Knowledge-Proof-of-Seed|Zero Knowledge Proof of Seed]] — シードのゼロ知識証明 (Zero Knowledge Proof of Seed)
+- [[glossary/Zero-Communication-Intra-Epoch-Revocation|Zero-Communication Intra-Epoch Revocation]] — ゼロ通信エポック内取り消し
 - [[glossary/zero-coupon-bond|zero-coupon bond]] — ゼロクーポン債
 - [[glossary/Zero-Fee-Joint-Optimum|Zero-Fee Joint Optimum]] — ゼロ手数料共同最適（命題1）
 - [[glossary/Zero-Knowledge-Consensus-Layer|Zero-Knowledge Consensus Layer]] — ゼロ知識コンセンサス層 (zkCL)
 - [[glossary/Zero-Knowledge-Contingent-Payments|Zero-Knowledge Contingent Payments]] — ゼロ知識条件付き支払い
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
 - [[glossary/Zero-Knowledge-Spending-Policies|Zero-Knowledge Spending Policies]] — ゼロ知識支出ポリシー
+- [[glossary/Zero-Metadata-Broadcast|Zero-Metadata Broadcast]] — ゼロメタデータブロードキャスト
 - [[glossary/Zero-tip-transactions|Zero-tip transactions]] — ゼロチップトランザクション
 - [[glossary/Zeroed-proxy-storage|Zeroed proxy storage]] — ゼロ化されたプロキシストレージ
 - [[glossary/Zilkworm|Zilkworm]] — Zilkworm

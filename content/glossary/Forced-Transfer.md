@@ -4,7 +4,7 @@ aliases:
   - 強制送金
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **強制送金**

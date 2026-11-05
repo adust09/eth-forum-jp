@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17697,3 +17697,69 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8477-recent-block-bound-delegation-authorizations/30269
 - desc: |
   Ethereumのトランザクション署名において、署名されるデータに付加される特定のバイト列。これにより、異なるタイプのデータやチェーン間での署名の衝突を防ぎ、署名の意図を明確にします。
+
+## J-star name
+- ja: Jスター名
+- related: [star names, Consensus Layer]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30285
+- auto_source_url: https://ethereum-magicians.org/t/j-star-name-for-consensus-layer-upgrade/30285
+- desc: |
+  Ethereumのコンセンサスレイヤーのアップグレードに用いられる命名規則の一つ。アルファベット順に「Aスター名」「Bスター名」と続き、国際天文学連合（IAU）の星名カタログから選ばれた星の名前が付けられます。
+
+## Devcon cities
+- ja: Devcon都市名
+- related: [Execution Layer, Devcon]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30285
+- auto_source_url: https://ethereum-magicians.org/t/j-star-name-for-consensus-layer-upgrade/30285
+- desc: |
+  Ethereumの実行レイヤーのアップグレードに用いられる命名規則の一つ。Devconが開催された都市の名前が選ばれます。
+
+## Stealth Attribute-Based Broadcast Encryption
+- ja: ステルス属性ベースブロードキャスト暗号 (Stealth ABBE)
+- aliases: [Stealth ABBE]
+- related: [Attribute-Based Encryption, Broadcast Encryption, BLS12-381, EIP-4844 blob, Homomorphic Blind Reed–Solomon Decoding Problem, STAC Paradigm]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30282
+- auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
+- desc: |
+  ゼロメタデータでプライベートコントラクトや暗号化された状態をEthereumのDA層に配信するための暗号化フレームワーク。属性ベース暗号とブロードキャスト暗号の特性を組み合わせ、アクセス制御をリード・ソロモン復号問題として再構築することで、受信者やポリシーを隠蔽する。
+
+## Zero-Metadata Broadcast
+- ja: ゼロメタデータブロードキャスト
+- aliases: [Zero Visible Headers, Zero Revocation Lists]
+- related: [Stealth Attribute-Based Broadcast Encryption, EIP-4844 blob, Deep Packet Inspection, Uniform Noise Indistinguishability]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30282
+- auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
+- desc: |
+  ブロードキャストされるデータに、受信者やアクセスポリシーに関する明示的なヘッダーやメタデータを一切含まない方式。これにより、外部のオブザーバーからは均一なランダムバイトとして認識され、プライバシーが向上し、検閲耐性も高まる。
+
+## Homomorphic Blind Reed–Solomon Decoding Problem
+- ja: 準同型ブラインドリード・ソロモン復号問題
+- related: [Stealth Attribute-Based Broadcast Encryption, Reed–Solomon code, ElGamal ciphertexts, F256]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30282
+- auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
+- desc: |
+  Stealth ABBEにおいて、アクセス制御を再構築するために用いられる暗号学的問題。加法準同型性を利用して、暗号文の状態でリード・ソロモン符号の復号を行うことで、メタデータを隠蔽し、特定の属性を持つ受信者のみが情報を復元できるようにする。
+
+## STAC Paradigm
+- ja: STACパラダイム (Uniform Noise Indistinguishability)
+- aliases: [Uniform Noise Indistinguishability]
+- related: [Stealth Attribute-Based Broadcast Encryption, Elligator Squared, Deep Packet Inspection, mempool]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30282
+- auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
+- desc: |
+  ブロードキャストされるフレーム全体が、均一なチャネルノイズと統計的に区別できないようにするセキュリティパラダイム。これにより、MempoolやBlobのディープパケットインスペクション、コホートグラフ分析を無効化し、高度なプライバシーと検閲耐性を確保する。
+
+## Zero-Communication Intra-Epoch Revocation
+- ja: ゼロ通信エポック内取り消し
+- related: [Stealth Attribute-Based Broadcast Encryption, Tier-1 Cover-Free Error-Budget Shifting]
+- auto_added: 2026-11-05
+- auto_source_topic_id: 30282
+- auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
+- desc: |
+  エポックの途中で不正なバリデーターや監査者を、他の参加者のキーを再生成したり、取り消しリストを公開したりすることなく、O(1)の時間で即座に排除できるメカニズム。これにより、動的なコホート管理における効率性とプライバシーが大幅に向上する。

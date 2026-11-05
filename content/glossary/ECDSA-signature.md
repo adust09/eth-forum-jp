@@ -5,7 +5,7 @@ aliases:
   - ECDSA
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **ECDSA署名 (楕円曲線デジタル署名アルゴリズム署名)**

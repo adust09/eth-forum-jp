@@ -4,7 +4,7 @@ aliases:
   - 予測市場
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **予測市場**
