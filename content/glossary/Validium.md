@@ -4,7 +4,7 @@ aliases:
   - Validium (バリディウム)
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **Validium (バリディウム)**
@@ -19,7 +19,7 @@ date: '2026-11-04'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - ポスチャー (Swarm AI)
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **ポスチャー (Swarm AI)**

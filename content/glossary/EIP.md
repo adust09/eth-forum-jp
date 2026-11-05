@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,7 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-11-02-eip-8483-post-quantum-material-registration-30186|EIP-8483: ポスト量子マテリアル登録]]（2026-11-02）
 - [[posts/ethresear-2026-11-01-asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account-26205|資産レベルの支出制限とリカバリー：レート制限はアカウントではなく資産に置かれるべきか？]]（2026-11-01）

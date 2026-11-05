@@ -5,7 +5,7 @@ aliases:
   - GF(2^n) arithmetic
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **二元体演算 (Binary-field Arithmetic)**

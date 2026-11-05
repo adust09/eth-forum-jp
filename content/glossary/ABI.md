@@ -4,7 +4,7 @@ aliases:
   - ABI (Application Binary Interface)
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **ABI (Application Binary Interface)**

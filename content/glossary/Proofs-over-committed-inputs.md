@@ -4,7 +4,7 @@ aliases:
   - コミットされた入力に対する証明 (Proofs over committed inputs)
 tags:
   - glossary
-date: '2026-11-04'
+date: '2026-11-05'
 ---
 
 **コミットされた入力に対する証明 (Proofs over committed inputs)**
