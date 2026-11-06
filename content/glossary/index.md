@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -273,6 +273,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/CALLVALUE|CALL_VALUE]] — CALL値
 - [[glossary/CALLVALUEBASEGAS|CALL_VALUE_BASE_GAS]] — CALL_VALUEベースガス
+- [[glossary/callback-driven-execution|callback-driven execution]] — コールバック駆動型実行
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
 - [[glossary/Callee-Cap-Compatibility|Callee-Cap Compatibility]] — 被呼び出し元制限の互換性
 - [[glossary/CALLSTATUS-instruction|CALLSTATUS instruction]] — CALLSTATUS命令
@@ -339,6 +340,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/commit-before-sign-durability-ordering|commit-before-sign durability ordering]] — 署名前コミット耐久性順序付け
 - [[glossary/Commit-reveal-batch-auction|Commit-reveal batch auction]] — コミット・リビール型バッチオークション
 - [[glossary/commitreveal-step|commit–reveal step]] — コミット・リビール方式（コミット・リビールステップ）
+- [[glossary/Commit-Bond-and-Challenge-Design|Commit, Bond and Challenge Design]] — コミット・ボンド・チャレンジ設計
 - [[glossary/commitment-digest|commitment digest]] — コミットメントダイジェスト
 - [[glossary/commitment-tree|commitment tree]] — コミットメントツリー
 - [[glossary/committed-submission|committed submission]] — コミット済み提出（リクエスト）
@@ -465,6 +467,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
 - [[glossary/Delayed-Validation|Delayed Validation]] — 遅延検証
 - [[glossary/Delegate|Delegate (Spend Grants)]] — デリゲート（スペンド・グラント）
+- [[glossary/DELEGATECALL|DELEGATECALL]] — DELEGATECALL (デリゲートコール)
 - [[glossary/Delegation-by-constraint|Delegation by constraint]] — 制約による委任
 - [[glossary/delegation-chain|delegation chain]] — 委任チェーン (Delegation Chain)
 - [[glossary/Delegation-Contract|Delegation Contract]] — 委任コントラクト
@@ -550,6 +553,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-Editors|EIP Editors]] — EIPエディター
 - [[glossary/EIP-Numbering|EIP Numbering]] — EIPナンバリング
 - [[glossary/EIP-tagging|EIP tagging]] — EIPタグ付け
+- [[glossary/EIP-170-deployed-contract-code-size-limit|EIP-170 deployed-contract code-size limit]] — EIP-170 デプロイ済みコントラクトコードサイズ制限
 - [[glossary/EIP-1898|EIP-1898]] — EIP-1898 (ブロック識別子)
 - [[glossary/EIP-3607|EIP-3607]] — EIP-3607
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
@@ -589,6 +593,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/epoch-boundary|epoch boundary]] — エポック境界
 - [[glossary/Epoch-Boundary-Block|Epoch Boundary Block]] — エポック境界ブロック
 - [[glossary/Epoch-Based-Fixed-Rate-Vault|Epoch-Based Fixed-Rate Vault]] — エポックベース固定金利ボルト (Epoch-Based Fixed-Rate Vault)
+- [[glossary/equilibrium|equilibrium (exchange economy)]] — 均衡（交換経済）
+- [[glossary/equilibrium-based-decentralized-exchange|equilibrium-based decentralized exchange]] — 均衡ベースの分散型取引所
 - [[glossary/Equivocation-as-a-censorship-channel|Equivocation as a censorship channel]] — 検閲チャネルとしての二重署名（equivocation）
 - [[glossary/Erasure-code-commitment-scheme|Erasure code commitment scheme]] — 消去符号コミットメントスキーム
 - [[glossary/erasure-coding-threshold|erasure-coding threshold]] — イレイジャーコーディング閾値
@@ -649,6 +655,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EVM-assembly|EVM assembly]] — EVMアセンブリ
 - [[glossary/EVM-Code|EVM Code]] — EVMコード
 - [[glossary/EVM-execution-frame|EVM execution frame]] — EVM実行フレーム
+- [[glossary/EVM-Object-Format|EVM Object Format]] — EVMオブジェクトフォーマット (EOF)
 - [[glossary/EVM-Verification-Key-Registry|EVM Verification Key Registry]] — EVM検証鍵レジストリ
 - [[glossary/EVM64-instruction-set|EVM64 instruction set]] — EVM64命令セット
 - [[glossary/Exactly-Once-Execution|Exactly Once Execution]] — 厳密な1回実行
@@ -856,6 +863,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Indexed-Cell-Requests|Indexed Cell Requests]] — インデックス付きセルリクエスト
 - [[glossary/Indexer|Indexer]] — インデクサー
 - [[glossary/Indistinguishability-of-keys|Indistinguishability of keys]] — 鍵の不可分性 (IK-CCA, ANO-CCA)
+- [[glossary/Inference-Programs|Inference Programs]] — 推論プログラム
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Informed-Diffusion|Informed Diffusion]] — Informed Diffusion（インフォームド・ディフュージョン）
 - [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
@@ -1155,6 +1163,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Operator|Operator]] — オペレーター
 - [[glossary/Operator-Family|Operator Family]] — オペレーターファミリー
 - [[glossary/opHash|opHash]] — opHash (操作ハッシュ)
+- [[glossary/opML|opML]] — オプティミスティック機械学習 (opML)
 - [[glossary/OPRF-document-fingerprint|OPRF document fingerprint]] — OPRF文書フィンガープリント（OPRF document fingerprint）
 - [[glossary/Opted-in-contract|Opted-in contract]] — オプトインコントラクト
 - [[glossary/Optimality-of-Structured-Silence|Optimality of Structured Silence]] — 構造化された沈黙の最適性
@@ -1359,6 +1368,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/proving-relation|proving relation]] — 証明関係
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Public-flow|Public flow]] — パブリックフロー
+- [[glossary/public-order-flow|public order flow]] — 公開オーダーフロー
 - [[glossary/Public-mempool-gas-sponsorship|Public-mempool gas sponsorship]] — パブリックメンプールガススポンサーシップ
 - [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
 - [[glossary/Pure-Box|Pure Box]] — ピュアボックス
@@ -1704,6 +1714,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/succinct-proofs|succinct proofs]] — 簡潔な証明
 - [[glossary/Sumcheck-degree|Sumcheck degree]] — Sumcheck次数
 - [[glossary/supernodes|supernodes]] — スーパーノード
+- [[glossary/supply-function|supply function (exchange economy)]] — 供給関数（交換経済）
 - [[glossary/Swarm|Swarm]] — スウォーム (AIエージェント)
 - [[glossary/Swarm-Pack|Swarm Pack]] — スウォームパック (Swarm Pack)
 - [[glossary/SwarmSpec|SwarmSpec]] — スウォーム仕様 (SwarmSpec)
@@ -1822,6 +1833,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Unidirectional-payment-channel|Unidirectional payment channel]] — 単方向ペイメントチャネル
 - [[glossary/Unified-Binary-Tree|Unified Binary Tree]] — 統合バイナリツリー
 - [[glossary/Uniform-clearing-price|Uniform clearing price]] — 均一清算価格
+- [[glossary/uniform-clearing-prices|uniform clearing prices]] — 統一清算価格
 - [[glossary/Unit-Definition|Unit Definition]] — ユニット定義
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
 - [[glossary/Unmeasured-contribution|Unmeasured contribution]] — 未測定の貢献
@@ -1923,6 +1935,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Zero-Knowledge-Consensus-Layer|Zero-Knowledge Consensus Layer]] — ゼロ知識コンセンサス層 (zkCL)
 - [[glossary/Zero-Knowledge-Contingent-Payments|Zero-Knowledge Contingent Payments]] — ゼロ知識条件付き支払い
 - [[glossary/Zero-Knowledge-Proof|Zero-Knowledge Proof]] — ゼロ知識証明
+- [[glossary/Zero-Knowledge-Proofs-of-LLM-Inference|Zero-Knowledge Proofs of LLM Inference]] — LLM推論のゼロ知識証明
 - [[glossary/Zero-Knowledge-Spending-Policies|Zero-Knowledge Spending Policies]] — ゼロ知識支出ポリシー
 - [[glossary/Zero-Metadata-Broadcast|Zero-Metadata Broadcast]] — ゼロメタデータブロードキャスト
 - [[glossary/Zero-tip-transactions|Zero-tip transactions]] — ゼロチップトランザクション

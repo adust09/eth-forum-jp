@@ -5,7 +5,7 @@ aliases:
   - Bonded Reconciliation Oracle AMM
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **BRO-AMM（Bonded Reconciliation Oracle AMM）**

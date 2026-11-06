@@ -5,7 +5,7 @@ aliases:
   - runtime_link
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **ランタイム・モデル間証明**

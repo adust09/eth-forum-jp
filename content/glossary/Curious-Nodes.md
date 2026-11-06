@@ -5,7 +5,7 @@ aliases:
   - Honest-but-Curious Observers
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **好奇心旺盛なノード (Honest-but-Curious Observers)**

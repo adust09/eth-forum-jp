@@ -4,7 +4,7 @@ aliases:
   - Merkle-Damgard構造 (マークル・ダムガード構造)
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **Merkle-Damgard構造 (マークル・ダムガード構造)**

@@ -4,7 +4,7 @@ aliases:
   - ポスト量子署名不要認証 (Post-quantum Signatureless Authorization)
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **ポスト量子署名不要認証 (Post-quantum Signatureless Authorization)**
