@@ -4,7 +4,7 @@ aliases:
   - 均一清算価格
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **均一清算価格**
@@ -18,6 +18,7 @@ date: '2026-11-05'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-05-walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity-26219|Walraswap: 外部AMM流動性を統合する均衡ベースの分散型取引所]]（2026-11-05）
 - [[posts/ethresear-2026-07-28-structural-oev-elimination-through-state-synchronization-25555|状態同期による構造的OEV排除]]（2026-07-28）
 - [[posts/ethresear-2026-07-22-positive-sum-microstructure-design-is-the-last-bottleneck-25505|ポジティブサムのマイクロストラクチャ設計が最後のボトルネック]]（2026-07-22）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）

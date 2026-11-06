@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17763,3 +17763,127 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs/30282
 - desc: |
   エポックの途中で不正なバリデーターや監査者を、他の参加者のキーを再生成したり、取り消しリストを公開したりすることなく、O(1)の時間で即座に排除できるメカニズム。これにより、動的なコホート管理における効率性とプライバシーが大幅に向上する。
+
+## equilibrium-based decentralized exchange
+- ja: 均衡ベースの分散型取引所
+- related: [equilibrium (exchange economy), decentralized exchange, uniform clearing prices]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 26219
+- auto_source_url: https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219
+- desc: |
+  ブロックインターバル中に受け取られた取引注文を、公平性の基準に従ってバッチ処理し、均衡価格ベクトルで決済する分散型取引所の一種。Walraswapはこのアプローチを採用している。
+
+## equilibrium (exchange economy)
+- ja: 均衡（交換経済）
+- aliases: [equilibrium]
+- related: [price vector, uniform clearing prices, Walraswap]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 26219
+- auto_source_url: https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219
+- desc: |
+  有限個の取引注文が与えられた場合、すべての注文がトークンの不足や余剰なしに実行できる価格ベクトル。Walraswapの基盤となる概念であり、取引の公平な決済を目指す。
+
+## uniform clearing prices
+- ja: 統一清算価格
+- related: [equilibrium (exchange economy), batch trading]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 26219
+- auto_source_url: https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219
+- desc: |
+  バッチ取引において、すべての注文が単一の価格で清算されるメカニズム。Walraswapが採用する「均衡」よりも弱い概念であり、すべての利用可能な取引注文の包含を保証しない。
+
+## public order flow
+- ja: 公開オーダーフロー
+- related: [MEV, censorship resistance]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 26219
+- auto_source_url: https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219
+- desc: |
+  分散型取引所において、すべての取引注文が公開される設計。Walraswapでは、ソルバーによる注文の検閲を防ぎ、MEV操作を検出可能にするためにこの方式を採用している。
+
+## supply function (exchange economy)
+- ja: 供給関数（交換経済）
+- aliases: [supply function]
+- related: [equilibrium (exchange economy), convex optimization]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 26219
+- auto_source_url: https://ethresear.ch/t/walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity/26219
+- desc: |
+  交換経済の文脈で、ある価格ベクトルに対して各参加者が供給する財の量を表す関数。Walraswapの数学的フレームワークの基礎であり、均衡解の存在、一意性、計算を扱う。
+
+## Inference Programs
+- ja: 推論プログラム
+- aliases: [AI-evaluated contracts, Actually Smart Contracts]
+- related: [Smart Contract, AI Models, Zero-Knowledge Proofs of LLM Inference]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30291
+- auto_source_url: https://ethereum-magicians.org/t/would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum/30291
+- desc: |
+  AIモデルによって評価される新しい種類のスマートコントラクト。プロンプトとルールを格納し、オフチェーンのAIモデルが証拠に基づいて質問に回答し、その結果がオンチェーンで検証される。
+
+## Zero-Knowledge Proofs of LLM Inference
+- ja: LLM推論のゼロ知識証明
+- aliases: [ZK-LLM Inference Proofs]
+- related: [Zero-Knowledge Proof, LLM, Inference Programs]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30291
+- auto_source_url: https://ethereum-magicians.org/t/would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum/30291
+- desc: |
+  大規模言語モデル（LLM）の推論結果が正確であることを、その推論の詳細を明かすことなく検証するためのゼロ知識証明。オンチェーンでの検証コストが課題。
+
+## opML
+- ja: オプティミスティック機械学習 (opML)
+- aliases: [Optimistic Machine Learning]
+- related: [Optimistic Oracles, Machine Learning]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30291
+- auto_source_url: https://ethereum-magicians.org/t/would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum/30291
+- desc: |
+  オプティミスティックなメカニズムを利用して、オフチェーンの機械学習モデルの計算結果をオンチェーンで検証する手法。不正な計算結果に対して異議申し立てとペナルティの仕組みを持つ。
+
+## Commit, Bond and Challenge Design
+- ja: コミット・ボンド・チャレンジ設計
+- related: [Optimistic Rollup, Optimistic Oracles, Dispute Game]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30291
+- auto_source_url: https://ethereum-magicians.org/t/would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum/30291
+- desc: |
+  オプティミスティックなシステムで不正行為を防止するための一般的な設計パターン。参加者はまず結果をコミットし、保証金（ボンド）を預け、異議申し立て期間中に不正が発見されれば、ボンドが没収される。
+
+## DELEGATECALL
+- ja: DELEGATECALL (デリゲートコール)
+- related: [CALL, EVM, proxy contract]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30289
+- auto_source_url: https://ethereum-magicians.org/t/erc-8486-flash-loan-proxy/30289
+- desc: |
+  EVMのオペコードの一つで、呼び出し元のコンテキスト（ストレージ、msg.sender、msg.valueなど）を維持したまま、別のコントラクトのコードを実行します。プロキシコントラクトパターンで広く利用され、ロジックのアップグレード可能性や共有を可能にします。
+
+## EVM Object Format
+- ja: EVMオブジェクトフォーマット (EOF)
+- aliases: [EOF]
+- related: [EVM, bytecode, EIP-3540]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30289
+- auto_source_url: https://ethereum-magicians.org/t/erc-8486-flash-loan-proxy/30289
+- desc: |
+  EVMのバイトコードの構造を改善するためのフォーマットで、コードの検証を容易にし、新しいEVM機能の導入を可能にします。複数のEIP（EIP-3540など）で構成され、コントラクトのデプロイと実行の効率性および安全性を向上させることを目指しています。
+
+## callback-driven execution
+- ja: コールバック駆動型実行
+- related: [callback, reentrant invocations, Flash Loan]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30289
+- auto_source_url: https://ethereum-magicians.org/t/erc-8486-flash-loan-proxy/30289
+- desc: |
+  スマートコントラクトが外部コントラクトを呼び出し、その外部コントラクトが特定の処理を完了した後に、元のスマートコントラクトに定義されたコールバック関数を呼び出すことで処理を継続する実行モデルです。DeFiプロトコルなどで複雑なインタラクションを調整するために用いられます。
+
+## EIP-170 deployed-contract code-size limit
+- ja: EIP-170 デプロイ済みコントラクトコードサイズ制限
+- aliases: [EIP-170 limit, contract code-size limit]
+- related: [EIP-170, EVM, bytecode]
+- auto_added: 2026-11-06
+- auto_source_topic_id: 30289
+- auto_source_url: https://ethereum-magicians.org/t/erc-8486-flash-loan-proxy/30289
+- desc: |
+  EIP-170で導入された、Ethereumブロックチェーンにデプロイできるスマートコントラクトのバイトコードサイズの上限（24KB）です。この制限は、DoS攻撃を防ぎ、EVMの効率的な実行を保証するために設けられました。

@@ -5,7 +5,7 @@ aliases:
   - privacy stablecoin
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **プライベートステーブルコイン**

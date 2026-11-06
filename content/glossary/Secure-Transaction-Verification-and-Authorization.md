@@ -5,7 +5,7 @@ aliases:
   - STVA
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **安全なトランザクション検証と認可 (STVA)**

@@ -4,7 +4,7 @@ aliases:
   - FHE計算検証 (Fully Homomorphic Encryption 計算検証)
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **FHE計算検証 (Fully Homomorphic Encryption 計算検証)**

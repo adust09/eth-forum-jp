@@ -5,7 +5,7 @@ aliases:
   - Uniform Noise Indistinguishability
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **STACパラダイム (Uniform Noise Indistinguishability)**

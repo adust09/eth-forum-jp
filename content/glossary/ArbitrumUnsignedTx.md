@@ -5,7 +5,7 @@ aliases:
   - type 0x65 transaction
 tags:
   - glossary
-date: '2026-11-05'
+date: '2026-11-06'
 ---
 
 **Arbitrum署名なしトランザクション**
