@@ -5,7 +5,7 @@ aliases:
   - FM
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **失敗モード**

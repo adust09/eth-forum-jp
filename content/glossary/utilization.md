@@ -4,7 +4,7 @@ aliases:
   - 利用率
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **利用率**

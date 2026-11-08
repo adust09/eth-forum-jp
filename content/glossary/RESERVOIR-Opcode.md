@@ -5,7 +5,7 @@ aliases:
   - '0x4d'
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **RESERVOIRオペコード**

@@ -4,7 +4,7 @@ aliases:
   - セルマスク
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **セルマスク**

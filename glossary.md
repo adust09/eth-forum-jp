@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-06
+last_updated: 2026-11-08
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17887,3 +17887,66 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8486-flash-loan-proxy/30289
 - desc: |
   EIP-170で導入された、Ethereumブロックチェーンにデプロイできるスマートコントラクトのバイトコードサイズの上限（24KB）です。この制限は、DoS攻撃を防ぎ、EVMの効率的な実行を保証するために設けられました。
+
+## block-delay attack
+- ja: ブロック遅延攻撃
+- related: [failing transactions]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 26224
+- auto_source_url: https://ethresear.ch/t/how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark/26224
+- desc: |
+  攻撃者がノードに検証失敗トランザクションを大量に送信することで、ブロックのインポートや構築を遅延させ、ノードの運用を妨害するDoS攻撃の一種。
+
+## failing transactions
+- ja: 検証失敗トランザクション
+- related: [block-delay attack, MAX_VERIFY_GAS, VERIFY frame, validation prefix]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 26224
+- auto_source_url: https://ethresear.ch/t/how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark/26224
+- desc: |
+  DoS攻撃の一環として、ノードのCPUリソースを消費した後に検証に失敗するように意図的に作成されたトランザクション。送信者はこの作業に対して料金を支払わない。
+
+## Protected Accounts
+- ja: プロテクトアカウント
+- related: [ERC-20]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 30297
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
+- desc: |
+  ERC-20トークン向けに、アカウント単位でオプトイン可能な「保護」フラグを提供する仕組み。盗難や強制による資産流出を防ぐため、一定額以上の送金を保留し、事前登録されたバックアップウォレットによるキャンセルや緊急移動を可能にする。
+
+## Wrench attack
+- ja: レンチ攻撃
+- related: [Coerced holder]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 30297
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
+- desc: |
+  秘密鍵の所有者が物理的な脅迫や強制によって資産を不正に送金させられる攻撃。プロテクトアカウントの「ストレスアクション」は、この種の攻撃に対処するために設計されている。
+
+## Scheduled Transfer
+- ja: スケジュール送金
+- related: [Protected Accounts, hold window]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 30297
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
+- desc: |
+  プロテクトアカウントにおいて、設定された日次制限を超える送金が自動的にキューに入れられ、一定の保留期間（hold window）後に実行される仕組み。この期間中に所有者またはバックアップウォレットが送金をキャンセルできる。
+
+## Stress Action
+- ja: ストレスアクション
+- related: [Protected Accounts, Wrench attack, Backup Wallet]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 30297
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
+- desc: |
+  プロテクトアカウントの緊急時対応機能。保留中の全ての送金をキャンセルし、アカウントの全残高を事前設定されたバックアップウォレットに移動させ、指定された期間ロックする。強制された所有者による不正な操作を防ぐ。
+
+## Backup Wallet
+- ja: バックアップウォレット
+- related: [Protected Accounts, Stress Action]
+- auto_added: 2026-11-08
+- auto_source_topic_id: 30297
+- auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
+- desc: |
+  プロテクトアカウントのセキュリティ機能の一部として、事前に登録される予備のウォレット。アカウントの保護設定の変更承認や、スケジュール送金のキャンセル、ストレスアクションによる資産の緊急移動先として機能する。

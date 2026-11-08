@@ -4,7 +4,7 @@ aliases:
   - 証明集約
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **証明集約**
@@ -20,6 +20,7 @@ date: '2026-11-06'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-06-a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet-26223|フレームトランザクション上のプライバシープール: 機能するものと、まだ機能しないもの]]（2026-11-06）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 

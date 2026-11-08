@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **フレームトランザクション (Frame Transactions)**
@@ -19,6 +19,7 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-06-a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet-26223|フレームトランザクション上のプライバシープール: 機能するものと、まだ機能しないもの]]（2026-11-06）
 - [[posts/ethresear-2026-11-01-asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account-26205|資産レベルの支出制限とリカバリー：レート制限はアカウントではなく資産に置かれるべきか？]]（2026-11-01）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

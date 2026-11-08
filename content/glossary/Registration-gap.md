@@ -5,7 +5,7 @@ aliases:
   - outstanding registration gap
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **登録ギャップ**

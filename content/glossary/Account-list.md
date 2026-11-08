@@ -5,7 +5,7 @@ aliases:
   - Client-submitted account list
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **アカウントリスト（トランザクションペイロード内）**

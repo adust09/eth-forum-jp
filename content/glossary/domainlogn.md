@@ -4,7 +4,7 @@ aliases:
   - ドメインの対数サイズ (domain_logn)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **ドメインの対数サイズ (domain_logn)**

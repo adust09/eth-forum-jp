@@ -6,7 +6,7 @@ aliases:
   - FIPS 205
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **SLH-DSA (SPHINCS+)**
@@ -22,6 +22,7 @@ NISTによって標準化されたハッシュベースのデジタル署名ス�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-06-how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark-26224|[[glossary/EIP-8141|EIP-8141]]の検証予算はどれくらい大きくできるか？メムプールDoSベンチマーク]]（2026-11-06）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 
 ## 元の表記（英語）

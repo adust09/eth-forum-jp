@@ -5,7 +5,7 @@ aliases:
   - rebasing token (downward)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **下方リベース型トークン**

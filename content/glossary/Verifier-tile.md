@@ -4,7 +4,7 @@ aliases:
   - 検証タイル (Verifier Tile)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **検証タイル (Verifier Tile)**

@@ -4,7 +4,7 @@ aliases:
   - コールドキー・イグジット (Cold-key exit)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **コールドキー・イグジット (Cold-key exit)**

@@ -4,7 +4,7 @@ aliases:
   - ランタイムBAL (Runtime BAL)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **ランタイムBAL (Runtime BAL)**

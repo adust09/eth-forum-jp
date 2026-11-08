@@ -4,7 +4,7 @@ aliases:
   - 設計上信頼しない (Untrusted-by-design)
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **設計上信頼しない (Untrusted-by-design)**

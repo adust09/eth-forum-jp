@@ -4,7 +4,7 @@ aliases:
   - KoalaBear素体
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **KoalaBear素体**
@@ -19,6 +19,7 @@ XMSSスキームとSNARKアグリゲーターの演算に用いられる31ビッ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 - [[posts/magicians-2026-06-23-eip-8310-post-quantum-keystore-for-stateful-keys-28853|EIP-8310: ステートフル鍵のためのポスト量子キーストア]]（2026-06-23）
 
 ## 元の表記（英語）
