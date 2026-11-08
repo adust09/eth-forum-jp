@@ -4,7 +4,7 @@ aliases:
   - 派生権限
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **派生権限**

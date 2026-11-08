@@ -4,7 +4,7 @@ aliases:
   - 低リスクDeFiプリミティブ
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **低リスクDeFiプリミティブ**

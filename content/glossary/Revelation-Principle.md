@@ -4,7 +4,7 @@ aliases:
   - 啓示原理
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **啓示原理**

@@ -4,7 +4,7 @@ aliases:
   - 位置拘束性
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **位置拘束性**
@@ -19,7 +19,7 @@ date: '2026-11-06'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 
 ## 元の表記（英語）
 

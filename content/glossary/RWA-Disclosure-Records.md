@@ -4,7 +4,7 @@ aliases:
   - RWA開示記録
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **RWA開示記録**

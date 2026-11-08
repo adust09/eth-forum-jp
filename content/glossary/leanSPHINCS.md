@@ -4,7 +4,7 @@ aliases:
   - leanSPHINCS（リーンSPHINCS）
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **leanSPHINCS（リーンSPHINCS）**

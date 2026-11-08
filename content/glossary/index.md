@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -176,6 +176,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Available-value|Available value]] — 利用可能な価値
 - [[glossary/Btree|B+tree]] — B+ツリー
 - [[glossary/BabyJubJub-ElGamal|BabyJubJub ElGamal]] — BabyJubJubエルガマル暗号 (BabyJubJub ElGamal)
+- [[glossary/Backup-Wallet|Backup Wallet]] — バックアップウォレット
 - [[glossary/BAL-data|BAL data]] — BALデータ (Bytecode Access Listデータ)
 - [[glossary/BAL-replay|BAL replay]] — BALリプレイ (Block Access List リプレイ)
 - [[glossary/BAL-Inclusive-Parent-Prices|BAL-Inclusive Parent Prices]] — BAL込みの親価格 (BAL-Inclusive Parent Prices)
@@ -225,6 +226,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-stuffing|Block stuffing]] — ブロックスタッフィング
 - [[glossary/Block-track|Block track]] — ブロックトラック (Block track)
 - [[glossary/block-utilisation|block utilisation]] — ブロック利用率
+- [[glossary/block-delay-attack|block-delay attack]] — ブロック遅延攻撃
 - [[glossary/BLOCKHASH|BLOCKHASH]] — BLOCKHASH (オペコード)
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
@@ -701,6 +703,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/extraerc8004|extra.erc8004]] — extra.erc8004 (支払い要求のメタデータフィールド)
 - [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
 - [[glossary/FAIL-ASSET|FAIL-ASSET]] — FAIL-ASSET (否決時資産)
+- [[glossary/failing-transactions|failing transactions]] — 検証失敗トランザクション
 - [[glossary/Failure-Mode|Failure Mode]] — 失敗モード
 - [[glossary/fair-exchange-problem|fair exchange problem]] — フェアエクスチェンジ問題
 - [[glossary/fake-exponential-update-rule|fake-exponential update rule]] — 擬似指数的更新ルール
@@ -1355,6 +1358,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Proposal-Lookahead|Proposal Lookahead]] — プロポーザル・ルックアヘッド
 - [[glossary/Proposer-Boost|Proposer Boost]] — プロポーザーブースト
 - [[glossary/Proprietary-AMM|Proprietary AMM]] — プロプライエタリAMM (PropAMM)
+- [[glossary/Protected-Accounts|Protected Accounts]] — プロテクトアカウント
 - [[glossary/protected-peer-pools|protected peer pools]] — 保護されたピアプール
 - [[glossary/Protocol-Interaction-Manifest|Protocol Interaction Manifest]] — プロトコルインタラクションマニフェスト (PIM)
 - [[glossary/Protocol-Maturity|Protocol Maturity]] — プロトコル成熟度
@@ -1512,6 +1516,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/salted-commitment|salted commitment]] — ソルト付きコミットメント
 - [[glossary/Sandwich-attack|Sandwich attack]] — サンドイッチ攻撃
 - [[glossary/Savior|Savior]] — セイバー（救済アドレス）
+- [[glossary/Scheduled-Transfer|Scheduled Transfer]] — スケジュール送金
 - [[glossary/Scheduler|Scheduler (for virtual machines)]] — スケジューラ（仮想マシン用）
 - [[glossary/schemeId|schemeId]] — スキームID
 - [[glossary/Scope-Contestation-Registry|Scope Contestation Registry]] — スコープ異議申し立てレジストリ
@@ -1695,6 +1700,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Storage-proof|Storage proof]] — ストレージ証明
 - [[glossary/storage-to-account-cascade|storage-to-account cascade]] — ストレージからアカウントへのカスケード
 - [[glossary/Storage-touching-limit-check|Storage-touching limit check]] — ストレージ参照型利用制限チェック
+- [[glossary/Stress-Action|Stress Action]] — ストレスアクション
 - [[glossary/Strict-role-alternation|Strict role alternation]] — 厳格な役割交代
 - [[glossary/Strict-Cap-Call-Opcode|Strict-Cap Call Opcode]] — 厳格な上限付きコールオペコード
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
@@ -1922,6 +1928,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
 - [[glossary/working-set-effects|working-set effects]] — ワーキングセット効果
 - [[glossary/WOTS-39|WOTS-39]] — WOTS-39
+- [[glossary/Wrench-attack|Wrench attack]] — レンチ攻撃
 - [[glossary/write-age-signal|write-age signal]] — 書き込み経過時間シグナル
 - [[glossary/write-age-tier|write-age tier]] — 書き込み経過時間階層
 - [[glossary/write-once-cap|write-once cap]] — 書き込み一度きりの供給上限

@@ -4,7 +4,7 @@ aliases:
   - 流動性統合
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **流動性統合**

@@ -4,7 +4,7 @@ aliases:
   - Bitcoinヘッダー由来決済インデックス
 tags:
   - glossary
-date: '2026-11-06'
+date: '2026-11-08'
 ---
 
 **Bitcoinヘッダー由来決済インデックス**
