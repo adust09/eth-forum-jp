@@ -4,7 +4,7 @@ aliases:
   - Sepolia (テストネット)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **Sepolia (テストネット)**
@@ -19,6 +19,7 @@ Ethereumの主要なテストネットの一つ。開発者がスマートコン
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-10-28-erc-8471-ai-dispute-resolution-framework-adrf-30121|ERC-8471: AI紛争解決フレームワーク (ADRF)]]（2026-10-28）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）

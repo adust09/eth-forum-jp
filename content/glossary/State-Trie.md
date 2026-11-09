@@ -4,7 +4,7 @@ aliases:
   - ステートツリー (State Trie)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **ステートツリー (State Trie)**

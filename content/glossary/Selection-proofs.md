@@ -4,7 +4,7 @@ aliases:
   - 選択証明
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **選択証明**

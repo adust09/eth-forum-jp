@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -49,6 +49,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/adaptive-curve-rate-model|adaptive curve rate model]] — 適応曲線金利モデル
 - [[glossary/adaptor-signatures|adaptor signatures]] — アダプター署名
 - [[glossary/Adjusted-reputation|Adjusted reputation]] — 調整済み評判
+- [[glossary/Admin-slot|Admin slot]] — 管理者スロット
 - [[glossary/Admin-Centric-Delay-Lookup|Admin-Centric Delay Lookup]] — 管理者中心遅延参照
 - [[glossary/Administrative-invalidation|Administrative invalidation]] — 管理的無効化 (Administrative invalidation)
 - [[glossary/Admission-rule|Admission rule]] — アドミッションルール
@@ -64,6 +65,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Agent-Escrow|Agent Escrow]] — エージェントエスクロー
 - [[glossary/Agent-Identity|Agent Identity]] — エージェントID (AID)
 - [[glossary/Agent-identity-layer|Agent identity layer]] — エージェントIDレイヤー
+- [[glossary/Agent-Information-Flow-Paradigm|Agent Information Flow Paradigm]] — エージェント情報フローパラダイム (AIFP)
 - [[glossary/Agent-Memory-State-Registry|Agent Memory State Registry]] — エージェントメモリ状態レジストリ (ERC-8337)
 - [[glossary/Agent-Pre-Sign-Risk-Report|Agent Pre-Sign Risk Report]] — エージェント事前署名リスクレポート
 - [[glossary/Agent-Registry|Agent Registry]] — エージェントレジストリ
@@ -307,6 +309,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CEXDEX-convergence|CEX–DEX convergence]] — CEX-DEXコンバージェンス (CEX-DEX収束)
 - [[glossary/chain-anchored|chain-anchored]] — チェーンアンカー型
 - [[glossary/chained-statements|chained statements]] — チェーン化されたステートメント
+- [[glossary/Channel|Channel]] — チャネル
 - [[glossary/charge|charge (MATCHA)]] — charge (MATCHAにおける)
 - [[glossary/Checkpoint|Checkpoint]] — チェックポイント
 - [[glossary/Checks-before-effects|Checks-before-effects]] — 事前チェック・事後効果（Checks-before-effects）
@@ -557,6 +560,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-tagging|EIP tagging]] — EIPタグ付け
 - [[glossary/EIP-170-deployed-contract-code-size-limit|EIP-170 deployed-contract code-size limit]] — EIP-170 デプロイ済みコントラクトコードサイズ制限
 - [[glossary/EIP-1898|EIP-1898]] — EIP-1898 (ブロック識別子)
+- [[glossary/EIP-1967-proxy|EIP-1967 proxy]] — EIP-1967プロキシ
 - [[glossary/EIP-3607|EIP-3607]] — EIP-3607
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-712-consent|EIP-712 consent]] — EIP-712同意
@@ -757,6 +761,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Full-DAS-throughput|Full DAS throughput]] — フルDASスループット
 - [[glossary/full-scalar-cofactor-blindingclearing|full-scalar cofactor blinding/clearing]] — フルスカラコファクタブラインディング/クリアリング
 - [[glossary/Full-target-approval|Full-target approval]] — フルターゲット承認
+- [[glossary/full-verifier-recursion|full-verifier recursion]] — フルベリファイアリカーシブ検証
 - [[glossary/Fully-Homomorphic-Encryption|Fully Homomorphic Encryption]] — 完全準同型暗号 (FHE)
 - [[glossary/Fulu-types|Fulu types]] — Fulu型
 - [[glossary/Function-Selector|Function Selector]] — 関数セレクター
@@ -798,6 +803,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/hash-chain|hash chain]] — ハッシュチェーン
 - [[glossary/hashtreeroot|hash_tree_root]] — ハッシュツリールート
+- [[glossary/hash-based-accumulation|hash-based accumulation]] — ハッシュベースのアキュムレーション
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
 - [[glossary/HAVE-bitmaps|HAVE bitmaps]] — HAVEビットマップ
@@ -911,6 +917,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Judgment-Window|Judgment Window]] — 判断期間
 - [[glossary/Jump-and-Call-Tables|Jump and Call Tables]] — ジャンプ・アンド・コール・テーブル (EVMの)
 - [[glossary/K-block-attack|K-block attack]] — Kブロック攻撃
+- [[glossary/Keccak-GKR|Keccak GKR]] — Keccak GKR
 - [[glossary/keccak256-hash|keccak256 hash]] — Keccak-256ハッシュ
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
 - [[glossary/Key-Rotation|Key Rotation]] — キーローテーション
@@ -1141,6 +1148,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Omission|Omission]] — 省略（観測スコープからの）
 - [[glossary/On-chain-AI-agent-systems|On-chain AI agent systems]] — オンチェーンAIエージェントシステム
 - [[glossary/On-chain-Anchor|On-chain Anchor]] — オンチェーンアンカー
+- [[glossary/On-chain-delay|On-chain delay]] — オンチェーン遅延
 - [[glossary/On-chain-delinquency-tiers|On-chain delinquency tiers]] — オンチェーン延滞ティア
 - [[glossary/On-chain-Execution-Authority|On-chain Execution Authority]] — オンチェーン実行権限
 - [[glossary/On-chain-Mechanism-Design|On-chain Mechanism Design]] — オンチェーンメカニズム設計
@@ -1203,6 +1211,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pairing-friendly-curve|Pairing-friendly curve]] — ペアリングフレンドリー曲線
 - [[glossary/Panic-State|Panic State]] — パニック状態
 - [[glossary/Panini-Standard|Panini Standard]] — Panini標準
+- [[glossary/Paradigm|Paradigm]] — パラダイム
 - [[glossary/Parameter-discretion|Parameter discretion]] — パラメータ裁量
 - [[glossary/Parametric-Token|Parametric Token]] — パラメトリックトークン
 - [[glossary/Parity-trace-APIs|Parity trace APIs]] — ParityトレースAPI
@@ -1500,6 +1509,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/RowDAS|RowDAS]] — RowDAS
 - [[glossary/RS-Membership-Check-Instantiations|RS Membership Check Instantiations]] — RSメンバーシップチェックの実装
 - [[glossary/Rug-Vector|Rug Vector]] — ラグベクター（詐欺経路）
+- [[glossary/Rule-dimensions|Rule dimensions]] — ルールディメンション
 - [[glossary/Runtime|Runtime (NFT Controlled Application Space)]] — ランタイム（NFT制御型アプリケーションスペース）
 - [[glossary/Runtime-BAL|Runtime BAL]] — ランタイムBAL (Runtime BAL)
 - [[glossary/Runtime-block-level-access-lists|Runtime block-level access lists]] — ランタイムブロックレベルアクセスリスト
@@ -1706,6 +1716,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Structural-Extraction|Structural Extraction]] — 構造的抽出
 - [[glossary/Structural-Invariant|Structural Invariant]] — 構造的不変条件
 - [[glossary/Structural-OEV-Elimination|Structural OEV Elimination]] — 構造的OEV排除 (Oracle Extractable Value排除)
+- [[glossary/Structural-operators|Structural operators]] — 構造オペレーター
 - [[glossary/Structured-Evidence-Review|Structured Evidence Review]] — 構造化された証拠レビュー
 - [[glossary/Sub-MTU-0-RTT-Envelope-Architectures|Sub-MTU 0-RTT Envelope Architectures]] — サブMTU 0-RTTエンベロープアーキテクチャ
 - [[glossary/Sub-rooted-execution|Sub-rooted execution]] — サブルート実行
@@ -1764,6 +1775,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Time-Delayed-Access-Control|Time-Delayed Access Control]] — 時間遅延型アクセス制御
 - [[glossary/Time-locked-blind-sessions|Time-locked blind sessions]] — タイムロックされたブラインドセッション
 - [[glossary/Time-Series-Features|Time-Series Features]] — 時系列特徴量
+- [[glossary/Timelock|Timelock]] — タイムロック
 - [[glossary/Timelock-Account-recovery|Timelock Account recovery]] — タイムロックアカウントリカバリー
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ
@@ -1850,6 +1862,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/update-authority|update authority]] — 更新権限
 - [[glossary/Update-anticipation-extraction|Update-anticipation extraction]] — 更新予測抽出
 - [[glossary/Update-timing-extraction|Update-timing extraction]] — 更新タイミング抽出
+- [[glossary/Upgrade-control|Upgrade control]] — アップグレード制御
 - [[glossary/Upgradeable-Proxies|Upgradeable Proxies]] — アップグレード可能なプロキシ
 - [[glossary/uRWA-Policy-Interface|uRWA Policy Interface]] — uRWAポリシーインターフェース (ERC-7943 Policy Interface)
 - [[glossary/User-Intent|User Intent]] — ユーザーインテント
@@ -1916,6 +1929,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/WebAuthn-PRF-extension|WebAuthn PRF extension]] — WebAuthn PRF拡張機能 (WebAuthn Pseudo Random Function extension)
 - [[glossary/Weighted-BFT|Weighted BFT]] — 加重ビザンチンフォールトトレランス (Weighted BFT)
 - [[glossary/Weighted-endorsement|Weighted endorsement]] — 加重型承認 (Weighted endorsement)
+- [[glossary/WHIR-opening|WHIR opening]] — WHIRオープニング
 - [[glossary/WHIR-proof|WHIR proof]] — WHIR証明
 - [[glossary/Whole-payload-gossip|Whole-payload gossip]] — ホールペイロードゴシップ (Whole-payload gossip)
 - [[glossary/Whole-standard-assurance|Whole-standard assurance]] — 全体標準保証

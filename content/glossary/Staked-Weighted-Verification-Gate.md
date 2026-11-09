@@ -4,7 +4,7 @@ aliases:
   - ステーク型加重検証ゲート (Staked Weighted Verification Gate)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **ステーク型加重検証ゲート (Staked Weighted Verification Gate)**

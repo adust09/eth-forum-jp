@@ -5,7 +5,7 @@ aliases:
   - Tokenized funds
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **トークン化投資ファンド**
@@ -19,6 +19,7 @@ date: '2026-11-08'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-09-who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control-30313|イーサリアム上の7つのトークン化された国債/金トークンをアップグレードできるのは誰か？アップグレード制御の読み取り専用調査]]（2026-11-09）
 - [[posts/magicians-2026-10-29-erc-8472-stock-locates-30128|ERC-8472: 株式貸出確認 (Stock Locates)]]（2026-10-29）
 - [[posts/ethresear-2026-10-14-measuring-priority-fees-positions-and-transaction-classification-of-ethereum-blocks-july-2025-to-october-2026-26156|イーサリアムブロックにおける優先手数料、ポジション、トランザクション分類の測定：2025年7月から2026年10月]]（2026-10-14）
 - [[posts/magicians-2026-08-24-erc-8392-asset-status-interface-for-tokenized-assets-29489|ERC-8392: トークン化資産のアセットステータスインターフェース]]（2026-08-24）

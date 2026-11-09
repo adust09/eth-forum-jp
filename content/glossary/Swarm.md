@@ -4,7 +4,7 @@ aliases:
   - スウォーム (AIエージェント)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **スウォーム (AIエージェント)**
@@ -17,6 +17,7 @@ date: '2026-11-08'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 
 ## 元の表記（英語）

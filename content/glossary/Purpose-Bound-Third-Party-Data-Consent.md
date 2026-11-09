@@ -4,7 +4,7 @@ aliases:
   - 目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **目的拘束型第三者データ同意 (Purpose-Bound Third-Party Data Consent)**

@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **EOA (Externally Owned Account)**
@@ -18,6 +18,7 @@ date: '2026-11-08'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-09-who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control-30313|イーサリアム上の7つのトークン化された国債/金トークンをアップグレードできるのは誰か？アップグレード制御の読み取り専用調査]]（2026-11-09）
 - [[posts/magicians-2026-11-07-erc-xxxx-protected-accounts-for-fungible-tokens-30297|ERC-XXXX: ファンジブルトークン向け保護アカウント]]（2026-11-07）
 - [[posts/ethresear-2026-11-01-asset-level-spending-limits-and-recovery-should-rate-limiting-live-in-the-asset-rather-than-the-account-26205|資産レベルの支出制限とリカバリー：レート制限はアカウントではなく資産に置かれるべきか？]]（2026-11-01）
 - [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）

@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-08
+last_updated: 2026-11-09
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -17950,3 +17950,131 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-xxxx-protected-accounts-for-fungible-tokens/30297
 - desc: |
   プロテクトアカウントのセキュリティ機能の一部として、事前に登録される予備のウォレット。アカウントの保護設定の変更承認や、スケジュール送金のキャンセル、ストレスアクションによる資産の緊急移動先として機能する。
+
+## hash-based accumulation
+- ja: ハッシュベースのアキュムレーション
+- aliases: [WARP-style PESAT, R1CS accumulation]
+- related: [full-verifier recursion, WARP, Arc, PESAT]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 26227
+- auto_source_url: https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227
+- desc: |
+  複数の証明やデータをハッシュ関数を用いて集約する手法。特にゼロ知識証明の文脈で、個々の証明を直接検証するのではなく、そのハッシュ値を集約して単一の簡潔な証明を生成するために用いられる。
+
+## full-verifier recursion
+- ja: フルベリファイアリカーシブ検証
+- related: [hash-based accumulation, zkVM, recursive proof]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 26227
+- auto_source_url: https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227
+- desc: |
+  ゼロ知識証明システムにおいて、ある証明の検証ロジック全体を別のゼロ知識証明の回路内に含めることで、再帰的に証明を検証する手法。本稿では、ハッシュベースのアキュムレーションと比較される。
+
+## WHIR opening
+- ja: WHIRオープニング
+- related: [WHIR, polynomial commitment scheme, Reed-Solomon codes]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 26227
+- auto_source_url: https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227
+- desc: |
+  WHIR（Reed-Solomon Proximity Testing with Super-Fast Verification）という多項式コミットメントスキームにおける、コミットされた多項式の特定の点での評価値を検証するプロセス。leanVMの検証コストの主要な部分を占める。
+
+## Keccak GKR
+- ja: Keccak GKR
+- related: [Keccak-256, GKR, Grand Product Argument]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 26227
+- auto_source_url: https://ethresear.ch/t/folding-vs-full-verifier-recursion-for-pq-signature-aggregation-in-leanvm-measurements-and-negative-results/26227
+- desc: |
+  Keccak-256ハッシュ関数の計算を、GKR（Grand Product Argument）というゼロ知識証明のコンポーネントを用いて証明・検証する仕組み。leanVMの検証コストにおいて、Keccak呼び出しの大部分を占める。
+
+## EIP-1967 proxy
+- ja: EIP-1967プロキシ
+- related: [proxy, upgradeable contract, Admin slot]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30313
+- auto_source_url: https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313
+- desc: |
+  Ethereum Improvement Proposal 1967で定義された、アップグレード可能なスマートコントラクトの標準的なプロキシパターン。ロジックコントラクトとデータストレージを分離し、ロジックのアップグレードを可能にする。
+
+## Admin slot
+- ja: 管理者スロット
+- related: [EIP-1967 proxy, storage slot]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30313
+- auto_source_url: https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313
+- desc: |
+  EIP-1967プロキシコントラクトにおいて、アップグレード権限を持つ管理者アドレスが格納される特定のストレージスロット。このスロットの値を読み取ることで、コントラクトのアップグレード権限者を確認できる。
+
+## Timelock
+- ja: タイムロック
+- related: [On-chain delay, governance]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30313
+- auto_source_url: https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313
+- desc: |
+  スマートコントラクトの特定の操作（例：アップグレード、資金移動）に時間的な遅延を強制するメカニズム。これにより、悪意のある変更や誤操作に対するセーフティネットを提供する。
+
+## On-chain delay
+- ja: オンチェーン遅延
+- related: [Timelock, governance]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30313
+- auto_source_url: https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313
+- desc: |
+  スマートコントラクトの実行において、特定の操作が実際に適用されるまでにブロックチェーン上で強制される時間的な遅延。ガバナンスの透明性とセキュリティを高めるために用いられる。
+
+## Upgrade control
+- ja: アップグレード制御
+- related: [upgradeable contract, governance]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30313
+- auto_source_url: https://ethereum-magicians.org/t/who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control/30313
+- desc: |
+  スマートコントラクトのロジックや機能を変更する権限とプロセスを管理する仕組み。特に、プロキシパターンを用いたアップグレード可能なコントラクトにおいて、その権限の所在と実行方法が重要となる。
+
+## Agent Information Flow Paradigm
+- ja: エージェント情報フローパラダイム (AIFP)
+- aliases: [AIFP]
+- related: [Paradigm, Channel, Agent]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30300
+- auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
+- desc: |
+  エージェント間の情報レイヤーを定義するフレームワークERCです。相互作用コンテキストをコンテンツアドレス指定可能でバージョン管理された記述として定義し、エージェントが情報を見つけ、読み書き、再配布するためのルールを標準化します。
+
+## Paradigm
+- ja: パラダイム
+- related: [Agent Information Flow Paradigm, Channel, Structural operators, Rule dimensions]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30300
+- auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
+- desc: |
+  AIFPフレームワークにおける、エージェント間の相互作用の「パターン」を指します。ブロードキャスト、パネル、クローズドグループ、ピアツーピア、インテーク、ブラックボードなど、特定の情報フローの形態を定義します。
+
+## Channel
+- ja: チャネル
+- related: [Agent Information Flow Paradigm, Paradigm]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30300
+- auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
+- desc: |
+  AIFPフレームワークにおける、エージェント間の特定の相互作用コンテキストを指します。フィード、ルーム、スレッド、共有ドキュメント、イベントストリームなど、特定のパラダイムバージョンに準拠して情報が交換される場です。
+
+## Structural operators
+- ja: 構造オペレーター
+- related: [Paradigm, Agent Information Flow Paradigm]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30300
+- auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
+- desc: |
+  AIFPパラダイム内で、情報交換が取りうる「形状」を定義する要素です。ファンアウト、ファンイン、フィードバック、N者間、選択、転送、派生、マージといった操作が含まれ、情報フローの構造を規定します。
+
+## Rule dimensions
+- ja: ルールディメンション
+- related: [Paradigm, Agent Information Flow Paradigm]
+- auto_added: 2026-11-09
+- auto_source_topic_id: 30300
+- auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
+- desc: |
+  AIFPパラダイム内で、相互作用コンテキストに関するルールを定義する13の側面を指します。発見、観測、貢献、管理、再配布、履歴、時間、開示タイミング、貢献者の可視性、承認基準、表現、オブジェクト関係、順序付けが含まれます。

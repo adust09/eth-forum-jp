@@ -4,7 +4,7 @@ aliases:
   - クロスチェーンNullifier同期
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **クロスチェーンNullifier同期**

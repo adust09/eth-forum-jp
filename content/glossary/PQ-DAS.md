@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Data Availability Sampling
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **量子耐性データ可用性サンプリング (PQ-DAS)**

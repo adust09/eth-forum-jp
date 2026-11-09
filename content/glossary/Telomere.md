@@ -5,7 +5,7 @@ aliases:
   - Generation counter
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **テロメア（複製カウンター）**
