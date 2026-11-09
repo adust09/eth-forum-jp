@@ -5,7 +5,7 @@ aliases:
   - Ratchets (EIP-8429)
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **ガスラチェット（EIP-8429）**

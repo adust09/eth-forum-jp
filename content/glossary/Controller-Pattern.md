@@ -4,7 +4,7 @@ aliases:
   - コントローラーパターン
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **コントローラーパターン**
@@ -18,6 +18,7 @@ date: '2026-11-08'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-06-08-erc-xxxx-role-based-timelock-operation-28742|ERC-XXXX ロールベースのタイムロック操作]]（2026-06-08）
 
 ## 元の表記（英語）

@@ -5,7 +5,7 @@ aliases:
   - Zero-Knowledge Virtual Machine
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **zkVM (Zero-Knowledge Virtual Machine)**

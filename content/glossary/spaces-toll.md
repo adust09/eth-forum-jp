@@ -5,7 +5,7 @@ aliases:
   - toll
 tags:
   - glossary
-date: '2026-11-08'
+date: '2026-11-09'
 ---
 
 **スペース手数料**
