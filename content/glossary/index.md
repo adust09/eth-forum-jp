@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -188,6 +188,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/balance-update-proof|balance update proof]] — 残高更新証明
 - [[glossary/BALANCERESETREFUND|BALANCE_RESET_REFUND]] — 残高リセット返金
 - [[glossary/band|band (temporal ordering)]] — バンド（時系列順序付け）
+- [[glossary/Bandwidth-Collapse|Bandwidth Collapse]] — 帯域幅崩壊
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
@@ -205,6 +206,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bid-commitment|Bid commitment]] — ビッドコミットメント (Bid commitment)
 - [[glossary/bid-tick|bid tick]] — ビッドティック
 - [[glossary/Bidding-War-for-Block-Position|Bidding War for Block Position]] — ブロックポジション獲得競争
+- [[glossary/billing-credits|billing credits]] — 請求クレジット
 - [[glossary/Binary-Nonce|Binary Nonce]] — バイナリノンス
 - [[glossary/binary-state-tree|binary state tree]] — バイナリステートツリー
 - [[glossary/Binary-field-arithmetic|Binary-field arithmetic]] — 二元体演算 (Binary-field Arithmetic)
@@ -273,6 +275,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/burned-tokenId-reuse|burned tokenId reuse]] — 焼却済みトークンIDの再利用
 - [[glossary/burnedBy|burnedBy]] — burnedBy (関数)
 - [[glossary/CAIP-19-anchor|CAIP-19 anchor]] — CAIP-19アンカー
+- [[glossary/call-forwarding|call forwarding]] — コール転送
 - [[glossary/Call-Frame|Call Frame]] — コールフレーム
 - [[glossary/call-scoping|call scoping]] — コールスコープ設定
 - [[glossary/CALLVALUE|CALL_VALUE]] — CALL値
@@ -432,6 +435,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Cross-Domain-State-Preservation|Cross-Domain State Preservation]] — クロスドメイン状態保存 (Cross-Domain State Preservation)
 - [[glossary/cross-resource-pricing-constraints|cross-resource pricing constraints]] — リソース間価格制約
 - [[glossary/cross-shard-messaging|cross-shard messaging]] — クロスシャードメッセージング
+- [[glossary/Cryptanalytically-Relevant-Quantum-Computer|Cryptanalytically Relevant Quantum Computer]] — 暗号解読関連量子コンピュータ (CRQC)
 - [[glossary/Cryptographic-Amnesia|Cryptographic Amnesia]] — 暗号学的健忘
 - [[glossary/Cryptographic-Isolation|Cryptographic Isolation]] — 暗号的隔離
 - [[glossary/Cumulative-EIP-712-vouchers|Cumulative EIP-712 vouchers]] — 累積型EIP-712バウチャー
@@ -467,6 +471,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/decode-memory-amplification|decode memory amplification]] — デコード時のメモリ増幅
 - [[glossary/Decoupled-Consensus|Decoupled Consensus]] — デカップルド・コンセンサス
 - [[glossary/decryption-trilemma|decryption trilemma]] — 復号のトリレンマ
+- [[glossary/DeductionsSkipped|DeductionsSkipped]] — DeductionsSkipped (イベント)
 - [[glossary/Default-Deny-Permission-Layer|Default-Deny Permission Layer]] — デフォルト拒否パーミッションレイヤー
 - [[glossary/DeFi-Composability|DeFi Composability]] — DeFiコンポーザビリティ
 - [[glossary/Delayed-Role-Activation|Delayed Role Activation]] — 遅延ロール有効化
@@ -679,6 +684,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-Client|Execution Client]] — 実行クライアント
 - [[glossary/execution-client-head|execution client head]] — 実行クライアントヘッド
 - [[glossary/execution-contract|execution contract]] — 実行コントラクト
+- [[glossary/execution-credits|execution credits]] — 実行クレジット
 - [[glossary/Execution-Delegation-Framework|Execution Delegation Framework]] — 実行委任フレームワーク
 - [[glossary/Execution-fee-bounded-at-1-wei|Execution fee bounded at 1 wei]] — 1 weiに制限された実行手数料
 - [[glossary/Execution-gas|Execution gas]] — 実行ガス
@@ -769,6 +775,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Funding-Efficiency|Funding Efficiency]] — 資金効率
 - [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
 - [[glossary/Futarchy|Futarchy]] — フターキー
+- [[glossary/GAS-opcode|GAS opcode]] — GASオペコード
 - [[glossary/Gas-ratchets|Gas ratchets (EIP-8429)]] — ガスラチェット（EIP-8429）
 - [[glossary/gas-schedule|gas schedule]] — ガススケジュール
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
@@ -949,6 +956,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
 - [[glossary/last-look|last look]] — ラストルック
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
+- [[glossary/Lattice-HSM|Lattice HSM]] — 格子HSM (Hardware Security Module)
 - [[glossary/Lattice-based-schemes|Lattice-based schemes]] — 格子ベース暗号方式 (Lattice-based schemes)
 - [[glossary/Launch-Declarations|Launch Declarations]] — ローンチ宣言
 - [[glossary/Launch-Observations-registry|Launch Observations registry]] — ローンチ観測レジストリ
@@ -967,6 +975,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/leanVM|leanVM]] — leanVM
 - [[glossary/leanWOTS|leanWOTS]] — leanWOTS (署名アルゴリズム)
 - [[glossary/leanxmss|leanxmss]] — leanXMSS
+- [[glossary/legacy-gas-schedule|legacy gas schedule]] — レガシーガススケジュール
 - [[glossary/legalHash|legalHash]] — legalHash (法的ハッシュ)
 - [[glossary/Lender-hooks|Lender hooks]] — 貸し手フック
 - [[glossary/lending-venue|lending venue]] — 貸付プラットフォーム
@@ -1433,6 +1442,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Reference-Commitment|Reference Commitment]] — 参照コミットメント (Reference Commitment)
 - [[glossary/reference-count|reference count]] — 参照カウント
 - [[glossary/Reference-Kernel|Reference Kernel]] — 参照カーネル
+- [[glossary/Reference-policy-profile|Reference policy profile]] — 参照ポリシープロファイル
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
 - [[glossary/register-confirmed-holder-record|register-confirmed holder record]] — レジスタで確認されたホルダー記録
 - [[glossary/Registration-gap|Registration gap]] — 登録ギャップ
@@ -1575,6 +1585,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/set-code-transaction|set-code transaction]] — コード設定トランザクション
 - [[glossary/SETCODEFROM|SETCODEFROM]] — SETCODEFROM (EVM命令)
 - [[glossary/Settlement-Chain|Settlement Chain]] — 決済チェーン
+- [[glossary/Settlement-Deductions|Settlement Deductions]] — 決済控除
 - [[glossary/Settlement-layer|Settlement layer]] — 決済レイヤー
 - [[glossary/Settlement-Mechanism|Settlement Mechanism]] — 決済メカニズム
 - [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
@@ -1587,6 +1598,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Shielded-Note-Teleportation|Shielded Note Teleportation]] — シールドノートのテレポート
 - [[glossary/Shors-algorithm|Shor's algorithm]] — ショアのアルゴリズム
 - [[glossary/Shortfall-Trap|Shortfall Trap]] — 不足金トラップ
+- [[glossary/Side-Channel-Analysis|Side-Channel Analysis]] — サイドチャネル攻撃 (SCA)
 - [[glossary/sigHash|sigHash]] — sigHash
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signature-aggregation|signature aggregation]] — 署名集約
@@ -1751,6 +1763,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/T0-settlement|T+0 settlement]] — T+0決済（即時決済）
 - [[glossary/Tapered-Issuance-Burn|Tapered Issuance Burn]] — テーパー型発行量バーン
 - [[glossary/targetGasLimit|targetGasLimit]] — targetGasLimit (目標ガス制限)
+- [[glossary/Task-Escrow|Task Escrow]] — タスクエスクロー
 - [[glossary/Task-Tender|Task Tender]] — タスクテンダー（タスク入札募集）
 - [[glossary/Task-Token|Task Token]] — タスクトークン
 - [[glossary/TBA-Custody-Pattern|TBA Custody Pattern]] — TBAカストディパターン (Token Bound Account Custody Pattern)
@@ -1792,6 +1805,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/token-based-role-access-control|token-based role access control]] — トークンベースのロールアクセス制御
 - [[glossary/Token-Bound-Executable-Skills|Token-Bound Executable Skills]] — トークン結合型実行可能スキル
 - [[glossary/Token-bound-reservations|Token-bound reservations]] — トークンに紐づく予約
+- [[glossary/Token-bound-task-tender|Token-bound task tender]] — トークン結合型タスクテンダー (ERC-8414)
 - [[glossary/token-gated-access|token-gated access]] — トークンゲートアクセス
 - [[glossary/Token-side-interfaces|Token-side interfaces]] — トークン側インターフェース
 - [[glossary/Token-weighted-governance|Token-weighted governance]] — トークン加重ガバナンス

@@ -4,7 +4,7 @@ aliases:
   - 保存の特性
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **保存の特性**
@@ -17,6 +17,7 @@ date: '2026-11-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/ethresear-2026-07-06-augmented-mechanism-design-one-operator-every-substrate-25379|拡張メカニズム設計：一つのオペレーター、あらゆる基盤]]（2026-07-06）
 
 ## 元の表記（英語）

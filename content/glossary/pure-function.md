@@ -4,7 +4,7 @@ aliases:
   - pure関数 (純粋関数)
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **pure関数 (純粋関数)**

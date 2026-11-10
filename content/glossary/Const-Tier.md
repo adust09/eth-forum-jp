@@ -4,7 +4,7 @@ aliases:
   - 定数層 (Const Tier)
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **定数層 (Const Tier)**

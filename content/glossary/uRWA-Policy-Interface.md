@@ -5,7 +5,7 @@ aliases:
   - ERC-7943 Policy Interface
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **uRWAポリシーインターフェース (ERC-7943 Policy Interface)**

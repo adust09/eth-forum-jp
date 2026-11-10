@@ -4,7 +4,7 @@ aliases:
   - 検閲耐性
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **検閲耐性**

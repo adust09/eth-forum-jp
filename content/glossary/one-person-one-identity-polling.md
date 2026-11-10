@@ -4,7 +4,7 @@ aliases:
   - 1人1投票型投票（one-person-one-identity polling）
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **1人1投票型投票（one-person-one-identity polling）**

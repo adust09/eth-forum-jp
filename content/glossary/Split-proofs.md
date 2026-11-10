@@ -4,7 +4,7 @@ aliases:
   - 分割証明 (Split proofs)
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **分割証明 (Split proofs)**
