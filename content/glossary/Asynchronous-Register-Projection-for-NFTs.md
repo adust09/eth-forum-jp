@@ -5,7 +5,7 @@ aliases:
   - ERC-8415
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **NFTの非同期レジスタプロジェクション**

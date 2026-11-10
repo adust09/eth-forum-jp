@@ -4,7 +4,7 @@ aliases:
   - 不変条件
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **不変条件**
@@ -17,6 +17,7 @@ date: '2026-11-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/magicians-2026-10-31-arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback-30141|ARCOS所有権モジュール: ガバナンスされた状態と権限ルート — アーキテクチャと開発者フィードバック]]（2026-10-31）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-06-ownership-module-29894|所有権モジュール]]（2026-10-06）

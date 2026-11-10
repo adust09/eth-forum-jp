@@ -4,7 +4,7 @@ aliases:
   - リベース
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **リベース**
@@ -17,7 +17,7 @@ date: '2026-11-09'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 
 ## 元の表記（英語）
 

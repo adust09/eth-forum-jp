@@ -5,7 +5,7 @@ aliases:
   - content hash of the descriptor
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **ディスクリプタ・ハッシュ**

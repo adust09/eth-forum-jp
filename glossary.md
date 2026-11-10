@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-09
+last_updated: 2026-11-10
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18078,3 +18078,132 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8489-agent-information-flow-paradigm/30300
 - desc: |
   AIFPパラダイム内で、相互作用コンテキストに関するルールを定義する13の側面を指します。発見、観測、貢献、管理、再配布、履歴、時間、開示タイミング、貢献者の可視性、承認基準、表現、オブジェクト関係、順序付けが含まれます。
+
+## Cryptanalytically Relevant Quantum Computer
+- ja: 暗号解読関連量子コンピュータ (CRQC)
+- aliases: [CRQC]
+- related: [Post-Quantum Cryptography, SNDL Threat]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 26229
+- auto_source_url: https://ethresear.ch/t/solving-pqc-bandwidth-via-nybrind-wiesner-money-lattice-hsms/26229
+- desc: |
+  現在の暗号システムを効果的に破ることができる能力を持つ量子コンピュータを指します。ポスト量子暗号（PQC）への移行が議論される主要な理由の一つであり、SNDL脅威などの攻撃の前提となる存在です。
+
+## Bandwidth Collapse
+- ja: 帯域幅崩壊
+- related: [Post-Quantum Cryptography, Lattice-based algorithms]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 26229
+- auto_source_url: https://ethresear.ch/t/solving-pqc-bandwidth-via-nybrind-wiesner-money-lattice-hsms/26229
+- desc: |
+  次世代の格子ベース暗号アルゴリズム（例: ML-KEM/Kyber）が使用する公開鍵やデジタル署名が、従来の暗号方式に比べて著しく大きいため、P2Pバリデータネットワークが経験する深刻な遅延とスループット低下の問題です。PQC移行における主要なボトルネックの一つとされています。
+
+## Lattice HSM
+- ja: 格子HSM (Hardware Security Module)
+- related: [Post-Quantum Cryptography, Hardware Security Module, Lattice-based algorithms]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 26229
+- auto_source_url: https://ethresear.ch/t/solving-pqc-bandwidth-via-nybrind-wiesner-money-lattice-hsms/26229
+- desc: |
+  ポスト量子暗号（PQC）への移行において、格子ベースのアルゴリズムを物理的なハードウェアセキュリティモジュール（HSM）に統合したシステムです。ネットワーク帯域幅のボトルネックを回避し、量子攻撃に対する耐性を提供することを目的としています。
+
+## Side-Channel Analysis
+- ja: サイドチャネル攻撃 (SCA)
+- aliases: [SCA]
+- related: [Hardware Security Module, Tamper-Proof Staking Infrastructure]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 26229
+- auto_source_url: https://ethresear.ch/t/solving-pqc-bandwidth-via-nybrind-wiesner-money-lattice-hsms/26229
+- desc: |
+  暗号デバイスの実装から漏洩する物理的情報（消費電力、電磁波、処理時間など）を分析して、秘密鍵などの機密情報を推測する攻撃手法です。ハードウェアセキュリティモジュール（HSM）などの物理層での防御が重要となる文脈で言及されます。
+
+## Settlement Deductions
+- ja: 決済控除
+- related: [Task Escrow, ERC-8414]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30323
+- auto_source_url: https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323
+- desc: |
+  エスクローが支払いから税金、紹介料、ローン返済などの特定の金額を差し引くことを可能にするメカニズム。これにより、ペイアウトが滞ることなく、複数の請求者が支払いを受け取れるようになる。
+
+## Task Escrow
+- ja: タスクエスクロー
+- related: [Settlement Deductions, AI agents, ERC-8414]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30323
+- auto_source_url: https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323
+- desc: |
+  オンチェーンでの有償作業において、クライアントが支払いをロックし、作業が承認された際にエージェントに支払うためのエスクロー契約。決済控除の対象となる。
+
+## Token-bound task tender
+- ja: トークン結合型タスクテンダー (ERC-8414)
+- aliases: [ERC-8414]
+- related: [Task Escrow, AI agents]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30323
+- auto_source_url: https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323
+- desc: |
+  作業の完了、承認、またはタイムアウト時に履行者に支払いを実行するメカニズムを定義するERCドラフト。AIエージェントの有償作業における支払いフローを標準化する。
+
+## Reference policy profile
+- ja: 参照ポリシープロファイル
+- related: [Settlement Deductions]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30323
+- auto_source_url: https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323
+- desc: |
+  決済控除ERCにおけるオプションのポリシー実装パターン。公開税率スケジュール、手数料、返済の割り当てなどを含み、控除の合計が上限を超えないようにする。
+
+## DeductionsSkipped
+- ja: DeductionsSkipped (イベント)
+- related: [Settlement Deductions]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30323
+- auto_source_url: https://ethereum-magicians.org/t/erc-settlement-deductions-for-task-escrows/30323
+- desc: |
+  決済控除ポリシーの呼び出しが失敗した場合（例：呼び出しが成功しない、32バイト以外のデータを返す、ガス制限を超えるなど）にエスクローによって発行されるイベント。この場合、受取人には全額が支払われる。
+
+## execution credits
+- ja: 実行クレジット
+- related: [billing credits, gas schedule, GAS opcode]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
+- desc: |
+  EIP-8487で提案された、EVMが内部的に認識するガス消費量を示すカウンターです。従来のガススケジュールに従い、GASオペコードやコール転送、コントラクト作成時のガス計算に用いられます。
+
+## billing credits
+- ja: 請求クレジット
+- related: [execution credits, transaction fee, gas schedule]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
+- desc: |
+  EIP-8487で提案された、トランザクションの手数料を決定するためのガス消費量を示すカウンターです。新しいガススケジュールに従い、このクレジットが尽きるとトランザクション全体がアボートします。
+
+## GAS opcode
+- ja: GASオペコード
+- related: [EVM, execution credits]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
+- desc: |
+  EVMのオペコードの一つで、現在の実行コンテキストで利用可能な残りのガス量を取得するために使用されます。EIP-8487では、このオペコードが「実行クレジット」の値を参照するとされています。
+
+## call forwarding
+- ja: コール転送
+- related: [delegatecall, EVM]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
+- desc: |
+  スマートコントラクトが、受け取ったコールを別のコントラクトに転送するパターンです。EIP-8487では、コール転送時のガス計算が「実行クレジット」に依存すると説明されています。
+
+## legacy gas schedule
+- ja: レガシーガススケジュール
+- related: [gas schedule, execution credits, billing credits]
+- auto_added: 2026-11-10
+- auto_source_topic_id: 30320
+- auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
+- desc: |
+  EIP-8487の提案以前にEthereumで使用されていた、トランザクションのガス消費量と手数料を決定する従来のルールセットです。このEIPでは、実行クレジットがこのスケジュールに従うとされています。

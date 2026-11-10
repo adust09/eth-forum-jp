@@ -5,7 +5,7 @@ aliases:
   - AIFP
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **エージェント情報フローパラダイム (AIFP)**

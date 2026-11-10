@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-11-09'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/magicians-2026-11-05-would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum-30291|推論プログラム（AI評価型コントラクト）のためのERCはイーサリアムで実現可能か？]]（2026-11-05）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-11-02-erc-8475-erc-20-outgoing-window-limits-30178|ERC-8475: ERC-20 送金ウィンドウ制限]]（2026-11-02）

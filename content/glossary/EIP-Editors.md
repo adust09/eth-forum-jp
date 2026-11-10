@@ -4,7 +4,7 @@ aliases:
   - EIPエディター
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **EIPエディター**
@@ -18,7 +18,7 @@ Ethereum Improvement Proposal (EIP) のレビュー、編集、公開を担当�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-09-eip-editing-office-hour-eip-erc-meeting-119-november-10-2026-30319|EIP編集オフィスアワー (EIP + ERC) ミーティング #119、2026年11月10日]]（2026-11-09）
 
 ## 元の表記（英語）
 

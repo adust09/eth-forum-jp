@@ -4,7 +4,7 @@ aliases:
   - Orchardアクション回路
 tags:
   - glossary
-date: '2026-11-09'
+date: '2026-11-10'
 ---
 
 **Orchardアクション回路**
