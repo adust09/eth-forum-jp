@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -35,6 +35,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Account-level-authorization|Account level authorization]] — アカウントレベル承認
 - [[glossary/Account-list|Account list (in transaction payload)]] — アカウントリスト（トランザクションペイロード内）
 - [[glossary/Account-locking|Account locking]] — アカウントロック
+- [[glossary/Account-Period|Account Period]] — 会計期間
 - [[glossary/Account-recovery|Account recovery]] — アカウント復旧
 - [[glossary/Account-Root|Account Root]] — アカウントルート
 - [[glossary/Account-Validation-Module|Account Validation Module]] — アカウント検証モジュール
@@ -198,6 +199,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Batch-FIFO|Batch-FIFO]] — バッチFIFO (Batch-FIFO)
 - [[glossary/Beacon-Block-Reporting-Field|Beacon Block Reporting Field]] — ビーコンブロック報告フィールド
 - [[glossary/Beacon-chain-randomness|Beacon chain randomness]] — ビーコンチェーンのランダム性
+- [[glossary/beacon-slot|beacon slot]] — ビーコンスロット
 - [[glossary/Beacon-state-proofs|Beacon-state proofs]] — ビーコンステート証明
 - [[glossary/BeaconBlockBody|BeaconBlockBody]] — ビーコンブロックボディ
 - [[glossary/Behavioral-Entity-Object|Behavioral Entity Object]] — 行動エンティティオブジェクト (BEO)
@@ -408,6 +410,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Contract-level-metadata|Contract-level metadata]] — コントラクトレベルメタデータ
 - [[glossary/Contribution-score|Contribution score]] — 貢献スコア
 - [[glossary/Contribution-denominated-bond|Contribution-denominated bond]] — 貢献額建て債券 (Contribution-denominated bond)
+- [[glossary/Controlled-Entry-Point|Controlled Entry Point]] — 制御されたエントリーポイント
 - [[glossary/Controller-Pattern|Controller Pattern]] — コントローラーパターン
 - [[glossary/Cooperative-capitalism|Cooperative capitalism]] — 協調的資本主義
 - [[glossary/Coordinate|Coordinate]] — 座標（観測スコープ内の）
@@ -454,6 +457,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/data-gas|data gas]] — データガス
 - [[glossary/Data-homogeneity|Data homogeneity]] — データ均一性
 - [[glossary/data-reserve|data reserve]] — データリザーブ
+- [[glossary/Data-URI|Data URI]] — Data URI (トークンメタデータにおける)
 - [[glossary/datacenter-builder|datacenter builder]] — データセンタービルダー
 - [[glossary/deadweight-loss|deadweight loss]] — 死荷重（デッドウェイトロス）
 - [[glossary/Debit-paths|Debit paths]] — デビットパス
@@ -507,6 +511,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/devp2p|devp2p]] — devp2p (Ethereum P2Pネットワークプロトコル)
 - [[glossary/Diamond|Diamond (pattern)]] — ダイヤモンド（パターン）
 - [[glossary/Diamond-Storage|Diamond Storage]] — ダイヤモンドストレージ
+- [[glossary/DiamondCut|DiamondCut]] — DiamondCut（ダイアモンドカット）
 - [[glossary/Digital-Reserve-Currency|Digital Reserve Currency]] — デジタル基軸通貨 (Digital Reserve Currency)
 - [[glossary/Directional-Transfer-Domain-Registry|Directional Transfer Domain Registry]] — 方向性移転ドメインレジストリ
 - [[glossary/Dirty-modules|Dirty modules]] — 汚染モジュール
@@ -750,6 +755,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/forced-exit|forced-exit]] — 強制退出
 - [[glossary/Forensic-Token|Forensic Token]] — フォレンジックトークン
 - [[glossary/fork|fork]] — フォーク
+- [[glossary/fork-boundaries|fork boundaries]] — フォーク境界
 - [[glossary/Fork-Container|Fork Container]] — フォークコンテナ
 - [[glossary/forkcast|forkcast]] — フォークキャスト
 - [[glossary/ForkchoiceStateV1|ForkchoiceStateV1]] — ForkchoiceStateV1 (フォーク選択状態V1)
@@ -775,8 +781,10 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Funding-Efficiency|Funding Efficiency]] — 資金効率
 - [[glossary/Fungible-Agent-Tokens|Fungible Agent Tokens]] — ファンジブルエージェントトークン (FAT)
 - [[glossary/Futarchy|Futarchy]] — フターキー
+- [[glossary/gas-invariants|gas invariants]] — ガス不変量
 - [[glossary/GAS-opcode|GAS opcode]] — GASオペコード
 - [[glossary/Gas-ratchets|Gas ratchets (EIP-8429)]] — ガスラチェット（EIP-8429）
+- [[glossary/Gas-Repricing|Gas Repricing]] — ガス再価格設定
 - [[glossary/gas-schedule|gas schedule]] — ガススケジュール
 - [[glossary/Gas-station-network|Gas station network]] — ガスステーションネットワーク (GSN)
 - [[glossary/gate|gate]] — ゲート (コントラクト)
@@ -854,6 +862,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/immutable-contract|immutable contract]] — 不変コントラクト
 - [[glossary/Immutable-Cryptographic-Predicates|Immutable Cryptographic Predicates]] — 不変な暗号学的述語
 - [[glossary/immutable-enrollment-model|immutable enrollment model]] — 不変登録モデル
+- [[glossary/immutables|immutables]] — イミュータブル（不変変数）
 - [[glossary/impactbps|impact_bps]] — インパクトbps (impact_bps)
 - [[glossary/Imperfect-Commitment|Imperfect Commitment]] — 不完全なコミットメント
 - [[glossary/Importance-score|Importance score]] — 重要度スコア
@@ -888,6 +897,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/input-provenance|input provenance]] — 入力来歴 (input provenance)
 - [[glossary/Input-rule|Input rule]] — 入力ルール (Input rule)
 - [[glossary/instant-revoke|instant revoke]] — 即時取り消し
+- [[glossary/Institution-Managed-User-Payment-Ledger|Institution-Managed User Payment Ledger]] — 機関管理型ユーザー決済台帳
 - [[glossary/insufficient-gas-griefing|insufficient gas griefing]] — ガス不足グリフィング
 - [[glossary/Integrated-Pattern|Integrated Pattern]] — 統合パターン
 - [[glossary/Intelligent-life|Intelligent life (for agents)]] — 知的生命体（エージェント向け）
@@ -927,6 +937,9 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Keccak-GKR|Keccak GKR]] — Keccak GKR
 - [[glossary/keccak256-hash|keccak256 hash]] — Keccak-256ハッシュ
 - [[glossary/key-encapsulation-mechanism|key encapsulation mechanism]] — 鍵カプセル化メカニズム (KEM)
+- [[glossary/Key-Publisher|Key Publisher]] — 鍵発行者
+- [[glossary/Key-Publisher-Priority-List|Key Publisher Priority List]] — 鍵発行者優先リスト
+- [[glossary/Key-Release-Optionality|Key Release Optionality]] — 鍵リリースオプション性
 - [[glossary/Key-Rotation|Key Rotation]] — キーローテーション
 - [[glossary/Key-Selling|Key Selling]] — キー売却
 - [[glossary/keyid|key_id]] — キーID
@@ -985,6 +998,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Lifecycle|Lifecycle (IBond enum)]] — ライフサイクル (IBond enum)
 - [[glossary/Lifecycle-Rules|Lifecycle Rules]] — ライフサイクルルール
 - [[glossary/Light-Client-Protocol|Light Client Protocol]] — ライトクライアントプロトコル
+- [[glossary/Limit-Baseline|Limit Baseline]] — 制限基準値
 - [[glossary/Lineage-Registry|Lineage Registry]] — リネージレジストリ (Lineage Registry)
 - [[glossary/Linear-correction-chain|Linear correction chain]] — 線形訂正チェーン (Linear correction chain)
 - [[glossary/Liquid-Staking|Liquid Staking]] — リキッドステーキング
@@ -1037,6 +1051,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/MATMUL-Opcode|MATMUL Opcode]] — MATMULオペコード
 - [[glossary/Maturity-Settlement-Queue|Maturity Settlement Queue]] — 満期決済キュー
 - [[glossary/MAXVERIFYGAS|MAX_VERIFY_GAS]] — 検証ガス上限 (MAX_VERIFY_GAS)
+- [[glossary/maxFeePerBlobGas|maxFeePerBlobGas]] — maxFeePerBlobGas (ブロブガス最大手数料)
 - [[glossary/Maximum-Viable-Security|Maximum Viable Security]] — 最大実行可能セキュリティ
 - [[glossary/Measured-verification|Measured verification]] — 測定型検証 (Measured verification)
 - [[glossary/Mechanism-design|Mechanism design]] — メカニズム設計
@@ -1168,6 +1183,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/On-chain-status-anchor|On-chain status anchor]] — オンチェーンステータスアンカー
 - [[glossary/Onchain-IP-Asset-and-License-Registry|Onchain IP Asset and License Registry]] — オンチェーンIP資産・ライセンスレジストリ
 - [[glossary/Onchain-metadata|Onchain metadata]] — オンチェーンメタデータ
+- [[glossary/onchain-URI-scheme|onchain: URI scheme]] — onchain: URIスキーム
 - [[glossary/one-directional-guarantee|one-directional guarantee]] — 一方向保証
 - [[glossary/one-person-one-identity-polling|one-person-one-identity polling]] — 1人1投票型投票（one-person-one-identity polling）
 - [[glossary/One-sided-add|One-sided add]] — 片側流動性追加 (One-sided add)
@@ -1545,6 +1561,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/scoped-cross-registry-references|scoped cross-registry references]] — スコープ付きクロスレジストリ参照
 - [[glossary/Screening-informed-flow|Screening informed flow]] — 情報保有フローの選別
 - [[glossary/Seal|Seal]] — シール（証明）
+- [[glossary/Sealed-Transactions|Sealed Transactions]] — 確定済みトランザクション（封印済みトランザクション）
 - [[glossary/sealed-bid-auction|sealed-bid auction]] — 封印入札オークション
 - [[glossary/Sealed-Bid-Award-Mechanism|Sealed-Bid Award Mechanism]] — 封印入札型落札メカニズム
 - [[glossary/Searcher|Searcher]] — サーチャー
@@ -1640,12 +1657,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/snapshot|snapshot]] — スナップショット
 - [[glossary/soft-consensus|soft consensus]] — ソフトコンセンサス
 - [[glossary/Soft-Rug-Pull|Soft Rug Pull]] — ソフトラグプル
+- [[glossary/solc|solc]] — solc（ソリディティコンパイラ）
 - [[glossary/Solo-Staking|Solo Staking]] — ソロステーキング
 - [[glossary/solvency-as-a-transaction-validity-condition|solvency as a transaction-validity condition]] — トランザクション有効性条件としてのソルベンシー
 - [[glossary/Solvency-without-escrow|Solvency without escrow]] — エスクローなしの支払い能力 (SwE)
 - [[glossary/Solver|Solver]] — ソルバー
 - [[glossary/Source-attributed-Runoff|Source-attributed Runoff]] — ソース帰属型ランオフ
 - [[glossary/Source-Token-Agent-Binding|Source-Token Agent Binding]] — ソーストークン・エージェントバインディング
+- [[glossary/Sourcify|Sourcify]] — Sourcify（ソーシファイ）
 - [[glossary/Sovereign-Checkout|Sovereign Checkout]] — ソブリンチェックアウト
 - [[glossary/Sovereign-collective-intelligence|Sovereign collective intelligence]] — 主権的集合知
 - [[glossary/Sovereign-Multi-Issuer-Cross-Chain-Transfer|Sovereign Multi-Issuer Cross-Chain Transfer]] — ソブリン型マルチイシュアー・クロスチェーン転送
@@ -1800,6 +1819,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Token-Bound-Account-Agent-Registry|Token Bound Account Agent Registry]] — トークンバウンドアカウントエージェントレジストリ
 - [[glossary/Token-engineering|Token engineering]] — トークンエンジニアリング
 - [[glossary/Token-Launch-Abuse-Detection-and-Remediation|Token Launch Abuse Detection and Remediation]] — トークンローンチ不正検出および是正
+- [[glossary/Token-Metadata|Token Metadata]] — トークンメタデータ
 - [[glossary/Token-Pull-Authorization|Token Pull Authorization]] — トークンプル承認
 - [[glossary/Token-weighted-voting|Token weighted voting]] — トークン加重投票 (Token weighted voting)
 - [[glossary/token-based-role-access-control|token-based role access control]] — トークンベースのロールアクセス制御
@@ -1815,6 +1835,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Tokenized-Real-World-Assets|Tokenized Real World Assets]] — トークン化されたリアルワールドアセット (Tokenized RWA)
 - [[glossary/Tokenized-stocks|Tokenized stocks]] — トークン化された株式
 - [[glossary/Tokenized-Vault|Tokenized Vault]] — トークン化されたボルト
+- [[glossary/tokenURI|tokenURI]] — tokenURI (関数)
 - [[glossary/Top-of-Block-ordering|Top of Block ordering]] — ブロック先頭順序付け
 - [[glossary/Top-up-sync|Top-up sync]] — トップアップ同期
 - [[glossary/Topic-streams-extension|Topic streams extension]] — トピックストリーム拡張
@@ -1923,6 +1944,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Verifier-tile|Verifier tile]] — 検証タイル (Verifier Tile)
 - [[glossary/VERIFY-frame|VERIFY frame]] — VERIFYフレーム
 - [[glossary/Verkle-Trees|Verkle Trees]] — Verkleツリー
+- [[glossary/Versioned-Opcodes|Versioned Opcodes]] — バージョン付きオペコード
 - [[glossary/Vietoris-Rips-construction|Vietoris-Rips construction]] — ヴィエトリス・リップス構成
 - [[glossary/virtual-mempools|virtual mempools]] — 仮想メモリプール
 - [[glossary/VOPS-Profiles|VOPS Profiles]] — VOPSプロファイル (Validity-Only Partial Statelessness Profiles)

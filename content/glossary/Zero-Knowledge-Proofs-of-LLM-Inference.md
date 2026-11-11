@@ -5,7 +5,7 @@ aliases:
   - ZK-LLM Inference Proofs
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **LLM推論のゼロ知識証明**

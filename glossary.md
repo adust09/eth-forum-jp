@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-10
+last_updated: 2026-11-11
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18207,3 +18207,203 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8487-separate-execution-credits-and-billing-credits/30320
 - desc: |
   EIP-8487の提案以前にEthereumで使用されていた、トランザクションのガス消費量と手数料を決定する従来のルールセットです。このEIPでは、実行クレジットがこのスケジュールに従うとされています。
+
+## Token Metadata
+- ja: トークンメタデータ
+- related: [ERC-721, ERC-1155, JSON Schema]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30339
+- auto_source_url: https://ethereum-magicians.org/t/erc-8495-token-metadata-json-schema/30339
+- desc: |
+  ERC-721やERC-1155などのNFTやトークンに付随する情報（名前、説明、画像など）を記述したJSONドキュメントです。ウォレットやマーケットプレイスでの表示方法の統一性を図るため、そのスキーマが標準化されます。
+
+## onchain: URI scheme
+- ja: onchain: URIスキーム
+- related: [ERC-8048, ERC-8049, URI schemes]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30339
+- auto_source_url: https://ethereum-magicians.org/t/erc-8495-token-metadata-json-schema/30339
+- desc: |
+  トークンメタデータ内で、画像などのフィールドがブロックチェーン上の特定の値（ERC-8048やERC-8049で定義されたもの）を直接参照できるように提案されているURIスキームです。オフチェーンのデータに依存せず、オンチェーンで完結するメタデータの参照を可能にします。
+
+## tokenURI
+- ja: tokenURI (関数)
+- related: [ERC-721, Token Metadata, uri]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30339
+- auto_source_url: https://ethereum-magicians.org/t/erc-8495-token-metadata-json-schema/30339
+- desc: |
+  ERC-721標準で定義されている関数で、特定のトークンIDに関連付けられたメタデータ（通常はJSON形式）のURIを返します。このURIは、トークンの名前、説明、画像などの詳細情報を提供します。
+
+## Data URI
+- ja: Data URI (トークンメタデータにおける)
+- related: [Token Metadata, URI schemes]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30339
+- auto_source_url: https://ethereum-magicians.org/t/erc-8495-token-metadata-json-schema/30339
+- desc: |
+  トークンメタデータ内で、データを直接URIに埋め込む形式です。特にJSONデータを含む場合、`#`文字のエンコード問題やBase64エンコードの推奨など、クライアントでの解釈に関する特定の課題が議論されています。
+
+## Versioned Opcodes
+- ja: バージョン付きオペコード
+- aliases: [V2 opcode set]
+- related: [opcode, gas schedule, EIP-8488, DELEGATECALL_V2]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8488-versioned-opcodes-for-gas-repricing/30332
+- desc: |
+  EthereumのEVMオペコードにバージョンを導入する提案。これにより、新しいコントラクトには更新されたガススケジュールを適用しつつ、既存のコントラクトはレガシーなガススケジュールを維持できる。EIP-8488で提案されている。
+
+## Gas Repricing
+- ja: ガス再価格設定
+- aliases: [forward-compatible gas repricing]
+- related: [gas schedule, opcode, EIP-8488]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30332
+- auto_source_url: https://ethereum-magicians.org/t/eip-8488-versioned-opcodes-for-gas-repricing/30332
+- desc: |
+  Ethereumトランザクションのガスコストを調整するプロセス。EIP-8488では、バージョン付きオペコードを通じて、将来のガス価格変更に互換性を持たせる方法が提案されている。これにより、既存のコントラクトに影響を与えずに新しいガススケジュールを導入できる。
+
+## maxFeePerBlobGas
+- ja: maxFeePerBlobGas (ブロブガス最大手数料)
+- related: [blob, EIP-4844, transaction]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30331
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-38-november-16-2026/30331
+- desc: |
+  EIP-4844で導入されたトランザクションフィールドで、ブロブのデータに支払う意思のある1ガス単位あたりの最大手数料を指定します。この値は、ブロブのデータ利用に対する優先順位付けと料金設定に使用されます。
+
+## fork boundaries
+- ja: フォーク境界
+- related: [fork, network upgrade, hard fork]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30331
+- auto_source_url: https://ethereum-magicians.org/t/rpc-standards-38-november-16-2026/30331
+- desc: |
+  Ethereumネットワークのアップグレード（フォーク）が有効になる特定のブロック番号またはエポックを指します。これらの境界は、プロトコルの変更が適用される時点を定義し、クライアントの同期と互換性にとって重要です。
+
+## Key Publisher
+- ja: 鍵発行者
+- related: [LUCID, Key Release Optionality]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30330
+- auto_source_url: https://ethereum-magicians.org/t/eip-8491-lucid-key-publisher-priority-lists/30330
+- desc: |
+  LUCIDプロトコルにおいて、鍵のリリースに関するオプション性を持つエンティティ。EIP-8491では、バリデータによって管理される優先リストに含めることで、そのオプション性がトランザクション実行に与える影響を軽減する。
+
+## Key Publisher Priority List
+- ja: 鍵発行者優先リスト
+- related: [Key Publisher, LUCID, Sealed Transactions]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30330
+- auto_source_url: https://ethereum-magicians.org/t/eip-8491-lucid-key-publisher-priority-lists/30330
+- desc: |
+  EIP-8491で導入される、バリデータによって管理される鍵発行者のリスト。このリストに含まれる鍵発行者を利用するトランザクションは、他の確定済みトランザクションよりも先に実行される。
+
+## Sealed Transactions
+- ja: 確定済みトランザクション（封印済みトランザクション）
+- related: [Key Publisher Priority List, MEV]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30330
+- auto_source_url: https://ethereum-magicians.org/t/eip-8491-lucid-key-publisher-priority-lists/30330
+- desc: |
+  特定の条件の下で確定または封印されたトランザクション。EIP-8491の文脈では、鍵発行者優先リストに含まれるトランザクションが、これらのトランザクションよりも先に実行されることで、鍵リリースのオプション性による影響を軽減する。
+
+## Key Release Optionality
+- ja: 鍵リリースオプション性
+- related: [Key Publisher, LUCID]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30330
+- auto_source_url: https://ethereum-magicians.org/t/eip-8491-lucid-key-publisher-priority-lists/30330
+- desc: |
+  鍵発行者が鍵をリリースするタイミングや方法について持つ選択権。EIP-8491は、このオプション性がトランザクションの実行順序に与える影響を軽減することを目的としている。
+
+## Institution-Managed User Payment Ledger
+- ja: 機関管理型ユーザー決済台帳
+- related: [ERC-8494, Payment Network]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30329
+- auto_source_url: https://ethereum-magicians.org/t/erc-8494-institution-managed-user-payment-ledger/30329
+- desc: |
+  ERC-8494で提案されている、機関が管理するユーザーのデビットとクレジットを記録するための台帳。資金決済とは独立して、支出能力の強制と会計期間の確定を行います。
+
+## Account Period
+- ja: 会計期間
+- related: [Institution-Managed User Payment Ledger, Rollup (ledger operation), User-Period Identifier]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30329
+- auto_source_url: https://ethereum-magicians.org/t/erc-8494-institution-managed-user-payment-ledger/30329
+- desc: |
+  ERC-8494の機関管理型ユーザー決済台帳において、ユーザーの取引記録を区切る期間。この期間は「ロールアップ」操作によって確定され、次の期間へと進みます。
+
+## Limit Baseline
+- ja: 制限基準値
+- related: [Spending Capacity, Institution-Managed User Payment Ledger]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30329
+- auto_source_url: https://ethereum-magicians.org/t/erc-8494-institution-managed-user-payment-ledger/30329
+- desc: |
+  ERC-8494の機関管理型ユーザー決済台帳における、アカウントの利用可能残高を計算するための基準値。`addLimit`や`subLimit`操作によって調整され、`rollup`操作によって現在の利用可能残高が新たな基準値として設定されます。
+
+## Controlled Entry Point
+- ja: 制御されたエントリーポイント
+- related: [Institution-Managed User Payment Ledger, Authorization Policy]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30329
+- auto_source_url: https://ethereum-magicians.org/t/erc-8494-institution-managed-user-payment-ledger/30329
+- desc: |
+  ERC-8494の機関管理型ユーザー決済台帳において、外部プロトコルが台帳にエントリを記録する際の信頼境界を指します。このエントリーポイントは、各エントリが一度だけ発行されることを保証する役割を担います。
+
+## gas invariants
+- ja: ガス不変量
+- related: [Gas Repricing, invariant]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30326
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-103-november-16-2026/30326
+- desc: |
+  Ethereumのガス消費メカニズムにおいて、システムの健全性や予測可能性を保証するために維持されるべき不変の特性や条件を指します。特にガス料金再設定の提案（例: EIP-8037）の文脈で、その影響を評価し検証する際に重要となります。
+
+## immutables
+- ja: イミュータブル（不変変数）
+- related: [runtime bytecode, solc]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30318
+- auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
+- desc: |
+  Solidityスマートコントラクトにおいて、デプロイ時に一度だけ設定され、その後変更できない変数のこと。コントラクトのランタイムバイトコードに直接値が書き込まれるため、バイトコード比較時に特別な処理が必要となる。
+
+## solc
+- ja: solc（ソリディティコンパイラ）
+- related: [EVM, Solidity, bytecode]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30318
+- auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
+- desc: |
+  Solidity言語で書かれたスマートコントラクトをEVMバイトコードにコンパイルするためのコマンドラインコンパイラ。コンパイル設定（バージョン、オプティマイザ設定など）がバイトコードの生成に影響する。
+
+## Sourcify
+- ja: Sourcify（ソーシファイ）
+- related: [verified badge, bytecode, metadata]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30318
+- auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
+- desc: |
+  イーサリアムなどのEVM互換ブロックチェーンにデプロイされたスマートコントラクトのソースコードを検証し、公開するためのサービス。コンパイルされたバイトコードと提供されたソースコードが一致するかを確認し、その一致度合い（完全一致か部分一致か）を示す。
+
+## beacon slot
+- ja: ビーコンスロット
+- related: [proxy, EIP-1967, implementation slot]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30318
+- auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
+- desc: |
+  ビーコンプロキシにおいて、そのプロキシが参照する実装コントラクトのアドレスを格納するために使用される特定のストレージスロット。このスロットが指すビーコンコントラクトをアップグレードすることで、そのビーコンを参照する全てのプロキシの実装を一括で変更できる。
+
+## DiamondCut
+- ja: DiamondCut（ダイアモンドカット）
+- related: [Diamond, facet list, upgradeable contract]
+- auto_added: 2026-11-11
+- auto_source_topic_id: 30318
+- auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
+- desc: |
+  Diamond標準（EIP-2535）において、Diamondコントラクトのファセット（機能モジュール）を追加、削除、または置換する操作。この操作は、Diamondコントラクトのアップグレードメカニズムの核となる。

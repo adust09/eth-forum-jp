@@ -4,7 +4,7 @@ aliases:
   - 最小出力量 (minAmountOut)
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **最小出力量 (minAmountOut)**

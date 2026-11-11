@@ -4,7 +4,7 @@ aliases:
   - NFTの正準資産
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **NFTの正準資産**

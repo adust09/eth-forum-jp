@@ -4,7 +4,7 @@ aliases:
   - 再価格設定
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **再価格設定**
@@ -18,6 +18,8 @@ Ethereumネットワークにおけるトランザクション手数料やリソ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-10-all-core-devs-testing-acdt-103-november-16-2026-30326|全コア開発者会議 - テスト (ACDT) #103、2026年11月16日]]（2026-11-10）
+- [[posts/magicians-2026-11-10-eip-8488-versioned-opcodes-for-gas-repricing-30332|EIP-8488: ガス再価格設定のためのバージョン付きオペコード]]（2026-11-10）
 - [[posts/magicians-2026-11-09-eip-8487-separate-execution-credits-and-billing-credits-30320|EIP-8487: 実行クレジットと請求クレジットの分離]]（2026-11-09）
 - [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）
 - [[posts/ethresear-2026-10-15-how-much-screening-buys-a-second-speed-selection-and-the-makers-spread-26158|スクリーニングはどれだけの時間を稼ぐか？スピード、選択、そしてメイカーのスプレッド]]（2026-10-15）
