@@ -5,7 +5,7 @@ aliases:
   - EIP-8184
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **LUCID (EIP-8184)**
@@ -19,6 +19,7 @@ date: '2026-11-10'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-10-eip-8491-lucid-key-publisher-priority-lists-30330|EIP-8491: LUCID鍵発行者優先リスト]]（2026-11-10）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 - [[posts/ethresear-2026-10-22-reveal-optionality-in-encrypted-mempools-how-big-is-the-sender-s-free-option-and-a-post-quantum-way-to-remove-it-26169|暗号化されたメムプールにおけるリビール選択性：送信者のフリーオプションの規模と、それを排除するポスト量子的な方法]]（2026-10-22）
 - [[posts/ethresear-2026-09-18-towards-encrypted-mempools-from-threshold-ibe-without-batching-26040|バッチ処理なしの閾値IBEによる暗号化メムプールに向けて]]（2026-09-18）

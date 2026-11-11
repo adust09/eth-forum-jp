@@ -4,7 +4,7 @@ aliases:
   - 算出権限
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **算出権限**

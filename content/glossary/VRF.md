@@ -5,7 +5,7 @@ aliases:
   - Verifiable Random Function
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **検証可能乱数関数 (VRF)**

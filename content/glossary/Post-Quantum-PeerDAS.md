@@ -4,7 +4,7 @@ aliases:
   - 耐量子PeerDAS (Post-Quantum PeerDAS)
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **耐量子PeerDAS (Post-Quantum PeerDAS)**

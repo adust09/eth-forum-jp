@@ -5,7 +5,7 @@ aliases:
   - committed submissions
 tags:
   - glossary
-date: '2026-11-10'
+date: '2026-11-11'
 ---
 
 **コミット済み提出（リクエスト）**
