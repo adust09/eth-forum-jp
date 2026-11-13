@@ -4,7 +4,7 @@ aliases:
   - solc（ソリディティコンパイラ）
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **solc（ソリディティコンパイラ）**

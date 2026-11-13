@@ -4,7 +4,7 @@ aliases:
   - エポック境界
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **エポック境界**
@@ -18,6 +18,7 @@ Ethereumのコンセンサス層におけるエポックの区切り。スロッ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-07-13-eip-8333-align-checkpoint-with-epoch-boundary-block-29003|EIP-8333: チェックポイントとエポック境界ブロックの整合]]（2026-07-13）
 
 ## 元の表記（英語）

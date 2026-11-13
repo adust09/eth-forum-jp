@@ -5,7 +5,7 @@ aliases:
   - Isogeny Bridge
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **逆同種写像ブリッジ**

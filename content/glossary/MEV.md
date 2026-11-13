@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-13-rfc-warcoin-deterministic-1-1-usd-stablecoin-via-serialized-7-day-color-ring-buffers-and-burn-on-egress-invariants-26246|WARCoin: シリアル化された7日間カラーリングバッファと出金時焼却不変条件による決定論的1:1 USDステーブルコイン]]（2026-11-13）
 - [[posts/ethresear-2026-11-05-walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity-26219|Walraswap: 外部AMM流動性を統合する均衡ベースの分散型取引所]]（2026-11-05）
 - [[posts/ethresear-2026-11-02-why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam-26211|なぜサーチャーとビルダーはキャンドルオークションを好むのか（そしてグラムステルダム後のビルダー市場にとってそれがなぜ重要なのか）]]（2026-11-02）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）

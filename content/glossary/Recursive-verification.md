@@ -4,7 +4,7 @@ aliases:
   - 再帰的検証 (Recursive Verification)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **再帰的検証 (Recursive Verification)**

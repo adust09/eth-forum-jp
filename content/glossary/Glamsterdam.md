@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-12-more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum-26244|より多くのメーターか、より多くの価格か？イーサリアムにおける1次元 vs. 多次元手数料メカニズム]]（2026-11-12）
 - [[posts/magicians-2026-11-10-all-core-devs-testing-acdt-103-november-16-2026-30326|全コア開発者会議 - テスト (ACDT) #103、2026年11月16日]]（2026-11-10）
 - [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）
 - [[posts/ethresear-2026-11-02-why-searchers-and-builders-like-candle-auctions-and-why-it-matters-for-the-builder-market-post-glamsterdam-26211|なぜサーチャーとビルダーはキャンドルオークションを好むのか（そしてグラムステルダム後のビルダー市場にとってそれがなぜ重要なのか）]]（2026-11-02）

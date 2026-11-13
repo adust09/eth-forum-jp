@@ -5,7 +5,7 @@ aliases:
   - equilibrium
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **均衡（交換経済）**
@@ -20,6 +20,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-12-more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum-26244|より多くのメーターか、より多くの価格か？イーサリアムにおける1次元 vs. 多次元手数料メカニズム]]（2026-11-12）
 - [[posts/ethresear-2026-11-05-walraswap-equilibrium-based-decentralized-exchange-integrating-external-amm-liquidity-26219|Walraswap: 外部AMM流動性を統合する均衡ベースの分散型取引所]]（2026-11-05）
 
 ## 元の表記（英語）

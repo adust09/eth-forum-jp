@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-11
+last_updated: 2026-11-13
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18407,3 +18407,315 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/checking-that-a-deployed-contract-still-runs-the-audited-commit/30318
 - desc: |
   Diamond標準（EIP-2535）において、Diamondコントラクトのファセット（機能モジュール）を追加、削除、または置換する操作。この操作は、Diamondコントラクトのアップグレードメカニズムの核となる。
+
+## one-dimensional fee market
+- ja: 一次元手数料市場
+- related: [EIP-1559, separate metering]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26244
+- auto_source_url: https://ethresear.ch/t/more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum/26244
+- desc: |
+  EthereumのEIP-1559で導入された手数料メカニズム。単一のガス価格に基づいてトランザクション費用を決定し、ブロックの利用率に応じて基本手数料を調整する。
+
+## separate metering
+- ja: 個別計測
+- related: [one-dimensional fee market, separate pricing]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26244
+- auto_source_url: https://ethresear.ch/t/more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum/26244
+- desc: |
+  ブロックチェーンのリソース（例: 実行ガス、データガス）を個別に計測するが、単一の基本手数料で価格設定するアプローチ。リソースの利用状況を把握できるが、価格調整は一元的に行われる。
+
+## separate pricing
+- ja: 個別価格設定
+- related: [multidimensional fee market, separate metering]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26244
+- auto_source_url: https://ethresear.ch/t/more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum/26244
+- desc: |
+  ブロックチェーンのリソース（例: 実行ガス、データガス）を個別に計測し、それぞれに独立した価格を設定するアプローチ。リソースごとの需要と供給に基づいて価格が決定され、より効率的な市場メカニズムを目指す。
+
+## target-to-limit ratio
+- ja: 目標対制限比率
+- related: [EIP-1559, gas limit, gas target]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26244
+- auto_source_url: https://ethresear.ch/t/more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum/26244
+- desc: |
+  EIP-1559ベースの手数料メカニズムにおいて、ブロックの目標ガス使用量と最大ガス制限の比率。この比率が高いほど、ブロックが目標を超過する余地が少なくなり、混雑度が高まる可能性がある。
+
+## Atomic Ownership Blockchains
+- ja: アトミック・オーナーシップ・ブロックチェーン（AOB）
+- aliases: [AOB]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26242
+- auto_source_url: https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242
+- desc: |
+  各アトミック・オブジェクトが独自のチェーンを持ち、現在の所有者のみが書き込み可能なブロックチェーンアーキテクチャ。二重支払いを防ぐための独自のルールセットを持つ。
+
+## Consensus dependency scope
+- ja: コンセンサス依存スコープ
+- related: [decentralization metrics, Nakamoto coefficient]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26242
+- auto_source_url: https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242
+- desc: |
+  ブロックチェーンアーキテクチャの分散化度合いを評価するための次元の一つ。特定のトランザクションをファイナライズするために、そのトランザクションと無関係な参加者からの合意が必要かどうかを示す。
+
+## double-spend rule
+- ja: 二重支払いルール
+- related: [double-spending, payment finality]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26242
+- auto_source_url: https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242
+- desc: |
+  ブロックチェーンシステムにおいて、二重支払いの試みを検出・解決するためのメカニズムやポリシー。どのトランザクションが有効であるかを決定する基準を定める。
+
+## atomic object
+- ja: アトミック・オブジェクト
+- related: [Atomic Ownership Blockchains]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26242
+- auto_source_url: https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242
+- desc: |
+  Atomic Ownership Blockchains (AOB) における基本的な構成要素。それぞれが独自のチェーンを持ち、そのチェーンは現在の所有者によってのみ書き込み可能である。
+
+## First broadcast wins
+- ja: 最初ブロードキャスト優先ルール
+- related: [double-spend rule, broadcast time]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26242
+- auto_source_url: https://ethresear.ch/t/multi-dimensional-decentralization-metrics-and-an-open-question-on-first-broadcast-double-spend-rules/26242
+- desc: |
+  二重支払いが発生した場合に、最初にネットワークにブロードキャストされたトランザクションが有効であると見なされるポリシー。Atomic Ownership Blockchains (AOB) の二重支払いルールの一部として提案されている。
+
+## shielded payment
+- ja: シールド支払い
+- related: [zero-knowledge proof, privacy]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26239
+- auto_source_url: https://ethresear.ch/t/seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains/26239
+- desc: |
+  送信者、受信者、取引金額などの詳細がゼロ知識証明によって秘匿されるプライベートな支払い。Zcashなどのプライバシーコインで利用され、ユーザーの金融プライバシーを保護します。
+
+## FlyClient-style light client
+- ja: FlyClient型ライトクライアント
+- aliases: [FlyClient]
+- related: [light client, Merkle proof]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26239
+- auto_source_url: https://ethresear.ch/t/seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains/26239
+- desc: |
+  ブロックヘッダーのMerkleツリーを利用して、少数のブロックヘッダーのみをダウンロードすることでチェーンの正当性を検証するライトクライアントの一種。効率的な検証を可能にし、リソースの少ないデバイスでの利用に適しています。
+
+## sampled proof
+- ja: サンプリング証明
+- related: [data availability sampling, zero-knowledge proof]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26239
+- auto_source_url: https://ethresear.ch/t/seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains/26239
+- desc: |
+  大量のデータ全体を検証する代わりに、その一部をランダムにサンプリングして検証することで、全体の正当性を確率的に保証する証明手法。データ可用性サンプリング（DAS）などで利用され、検証コストを削減します。
+
+## PoW-chain relay on EVM chains
+- ja: EVMチェーン上のPoWチェーンリレー
+- related: [bridge, light client, EVM]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26239
+- auto_source_url: https://ethresear.ch/t/seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains/26239
+- desc: |
+  プルーフ・オブ・ワーク（PoW）ベースのブロックチェーンのヘッダーをEVM互換チェーン上で検証し、そのチェーンの状態をEVMチェーンに中継するシステム。クロスチェーンの信頼性を確立し、異なるブロックチェーン間の相互運用性を実現します。
+
+## Elastic Ethereum
+- ja: エラスティック・イーサリアム（Elastic Ethereum）
+- related: [Congestion Collapse, Pipelining, Batching, Stable Control]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26236
+- auto_source_url: https://ethresear.ch/t/elastic-ethereum/26236
+- desc: |
+  Ethereumの容量を動的に調整し、需要と供給に応じてスケールアップ・ダウンする設計思想。輻輳崩壊を防ぎ、ネットワークの安定性と効率性を向上させることを目指す。
+
+## Work in Flight
+- ja: 処理中の作業（Work in Flight）
+- related: [Mempool, Available Chain, Finality]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26236
+- auto_source_url: https://ethresear.ch/t/elastic-ethereum/26236
+- desc: |
+  システムが処理を開始したが、まだ完了しておらず、失われる可能性のある作業。Ethereumの文脈では、mempool内の未処理トランザクションや、ファイナリティ前のブロックチェーン上のブロックを指す。
+
+## Available Chain
+- ja: 利用可能なチェーン（Available Chain）
+- related: [Mempool, Finality, Work in Flight, Decoupled Consensus]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26236
+- auto_source_url: https://ethresear.ch/t/elastic-ethereum/26236
+- desc: |
+  ブロックが構築された後、ファイナリティが確定するまでの間のブロックチェーンの状態。現在のEthereumではブロックのツリー構造、将来の設計ではDAGとして扱われる可能性があり、未確定の作業（work in flight）が存在する領域。
+
+## Stable Control
+- ja: 安定制御（Stable Control）
+- related: [Pipelining, Batching, Elastic Ethereum]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26236
+- auto_source_url: https://ethresear.ch/t/elastic-ethereum/26236
+- desc: |
+  パイプライン化され、バッチ処理されたシステムをバランスの取れた状態に保つための制御メカニズム。システムの弾力的な容量調整を可能にし、輻輳崩壊を防ぐ上で重要となる。
+
+## Organic Prover Killers
+- ja: オーガニック・プロバー・キラー（Organic Prover Killers）
+- related: [Execution Proofs, ZK Proofs, Prover]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 26236
+- auto_source_url: https://ethresear.ch/t/elastic-ethereum/26236
+- desc: |
+  メインネット上で発見された、ガス消費量に比して証明生成（proving）に非常に長い時間を要するブロック。特定のトランザクションパターンや複雑な計算が原因で、プロバーのリソースを過剰に消費する。
+
+## post-quantum signature aggregation
+- ja: 量子耐性署名集約 (ポスト量子署名集約)
+- related: [post-quantum cryptography, BLS signatures, leanVM]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30367
+- auto_source_url: https://ethereum-magicians.org/t/eip-draft-run-leanvm-aggregation-in-shadow-mode-alongside-bls-until-pq-ai-day/30367
+- desc: |
+  量子コンピュータの脅威に耐えうる署名方式を用いて、複数の署名を単一の集約署名にまとめる技術。Ethereumの将来のセキュリティを確保するために、BLS署名に代わるものとして研究されている。
+
+## shadow mode
+- ja: シャドウモード
+- related: [mainnet, hard fork, leanVM]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30367
+- auto_source_url: https://ethereum-magicians.org/t/eip-draft-run-leanvm-aggregation-in-shadow-mode-alongside-bls-until-pq-ai-day/30367
+- desc: |
+  新しいコードやプロトコル変更を本番環境（メインネット）で実行するが、その結果がコンセンサスに影響を与えない運用モード。これにより、実際の負荷の下でコードをテストし、バグを特定しながら、ネットワークのセキュリティリスクを回避できる。
+
+## PQ/AI day
+- ja: 量子コンピュータ/AI脅威到来日
+- related: [post-quantum cryptography, AI-assisted cryptanalysis, quantum computer]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30367
+- auto_source_url: https://ethereum-magicians.org/t/eip-draft-run-leanvm-aggregation-in-shadow-mode-alongside-bls-until-pq-ai-day/30367
+- desc: |
+  量子コンピュータまたはAIによる暗号解読技術が既存の暗号方式（例: BLS署名）を安全でなくする時点を指す。Ethereumがこの脅威に備え、量子耐性のある署名方式へ移行する必要がある期限として認識されている。
+
+## AI-assisted cryptanalysis
+- ja: AI支援型暗号解読
+- related: [cryptanalysis, PQ/AI day, quantum computer]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30367
+- auto_source_url: https://ethereum-magicians.org/t/eip-draft-run-leanvm-aggregation-in-shadow-mode-alongside-bls-until-pq-ai-day/30367
+- desc: |
+  人工知能（AI）技術を用いて、既存の暗号アルゴリズムの脆弱性を分析し、解読を試みるプロセス。量子コンピュータと並び、現在のブロックチェーンのセキュリティを脅かす可能性のある新たな脅威として認識されている。
+
+## Lindell 2-of-2 MPC signing
+- ja: リンデル2-of-2 MPC署名 (Lindell 2-of-2 Multi-Party Computation Signing)
+- aliases: [Lindell 2-of-2 MPC, Lindell signing protocol, two-party ECDSA protocol]
+- related: [Multi-Party Computation, ECDSA, private share, joint signing key]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30364
+- auto_source_url: https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364
+- desc: |
+  2つのデバイスがそれぞれ秘密鍵のシェアを保持し、完全な秘密鍵を再構築することなく共同でECDSA署名を生成するプロトコル。いずれか一方のデバイスが侵害されても単独で署名権限を得られないセキュリティを提供する。
+
+## QR-only initialization
+- ja: QRコードのみによる初期化
+- aliases: [QR setup]
+- related: [pairing fingerprint, communication keys]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30364
+- auto_source_url: https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364
+- desc: |
+  ウォレットのセットアッププロセスにおいて、秘密鍵の生成やデバイス間の信頼確立を、双方向QRコードの交換のみで行う方式。NFCリーダーなどの第三者を介さずに安全な初期設定を可能にする。
+
+## Encrypted NFC communication
+- ja: 暗号化されたNFC通信
+- aliases: [NFC communication]
+- related: [NFC reader, authenticated encryption]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30364
+- auto_source_url: https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364
+- desc: |
+  コンピュータと電話間で、NFC（近距離無線通信）を介して認証・暗号化されたメッセージを交換する通信方式。ウォレットの署名プロトコルにおいて、安全なメッセージ伝送路として利用される。
+
+## Approval boundary
+- ja: 承認境界
+- related: [2-of-2 MPC, transaction review]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30364
+- auto_source_url: https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364
+- desc: |
+  複数デバイスが関与する署名プロトコルにおいて、各デバイスが独立してトランザクションの内容をレビューし、承認または拒否する権限を持つセキュリティ上の概念。いずれか一方のデバイスが侵害されても、もう一方のデバイスが不正な署名を阻止できる。
+
+## Private share
+- ja: 秘密シェア
+- aliases: [secret contribution]
+- related: [Multi-Party Computation, joint signing key]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30364
+- auto_source_url: https://ethereum-magicians.org/t/a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing/30364
+- desc: |
+  マルチパーティ計算（MPC）プロトコルにおいて、完全な秘密鍵を構成する断片の一つ。各参加者が自身の秘密シェアを保持し、他の参加者に開示することなく共同で計算を行う。
+
+## pqai27
+- ja: pqai27 (ポスト量子・ポストAI 2027年目標)
+- related: [post-quantum, post-AI, pqai-ready, pqai-scaled]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30351
+- auto_source_url: https://ethereum-magicians.org/t/an-ethlabs-view-on-post-quantum-and-post-ai-timelines-pqai27/30351
+- desc: |
+  Ethereumが2027年までにポスト量子暗号とポストAIの脅威に対応することを目指す目標年。これにより、Ethereumのセキュリティと信頼性を将来にわたって確保する。
+
+## post-AI
+- ja: ポストAI (post-AI)
+- aliases: [pai]
+- related: [post-quantum, pqai27, client diversity, formal verification]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30351
+- auto_source_url: https://ethereum-magicians.org/t/an-ethlabs-view-on-post-quantum-and-post-ai-timelines-pqai27/30351
+- desc: |
+  AIの能力向上による脅威（数学的問題の解決、ソフトウェア脆弱性の発見など）に対応したEthereumの状態を指す。暗号の仮定を最小限にし、クライアントをフロンティアモデルに対して強化することを含む。
+
+## frontier model
+- ja: フロンティアモデル
+- related: [post-AI, AI capabilities]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30351
+- auto_source_url: https://ethereum-magicians.org/t/an-ethlabs-view-on-post-quantum-and-post-ai-timelines-pqai27/30351
+- desc: |
+  OpenAIの内部モデルのように、高度なAI能力を持つモデルを指す。これらのモデルは、数学的問題を解決したり、ソフトウェアの脆弱性を大規模に発見したりする能力を持ち、ブロックチェーンのセキュリティに新たな脅威をもたらす可能性がある。
+
+## Gasper
+- ja: Gasper (ギャスパー)
+- related: [LMD-GHOST, Casper FFG, consensus protocol, decoupled consensus]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30351
+- auto_source_url: https://ethereum-magicians.org/t/an-ethlabs-view-on-post-quantum-and-post-ai-timelines-pqai27/30351
+- desc: |
+  Ethereumのコンセンサス層で現在使用されているコンセンサスプロトコル。LMD-GHOSTとCasper FFGを組み合わせたもので、ブロックのファイナリティとチェーンの選択を管理する。
+
+## ERC-8048
+- ja: ERC-8048
+- related: [Onchain URI Scheme, ERC-8049, metadata contract]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30344
+- auto_source_url: https://ethereum-magicians.org/t/erc-8493-onchain-uri-scheme/30344
+- desc: |
+  オンチェーンメタデータをキーと値のペアとして保存するためのEthereum改善提案。ERC-8493のオンチェーンURIスキームが参照するメタデータ取得方法の一つを定義し、特定のトークンIDに関連するメタデータを提供する。
+
+## ERC-8049
+- ja: ERC-8049
+- related: [Onchain URI Scheme, ERC-8048, metadata contract]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30344
+- auto_source_url: https://ethereum-magicians.org/t/erc-8493-onchain-uri-scheme/30344
+- desc: |
+  コントラクトレベルのオンチェーンメタデータをキーと値のペアとして保存するためのEthereum改善提案。ERC-8493のオンチェーンURIスキームが参照するメタデータ取得方法の一つを定義し、コントラクト全体に共通のメタデータを提供する。
+
+## contractURI
+- ja: contractURI
+- related: [tokenURI, Onchain URI Scheme, ERC-8049]
+- auto_added: 2026-11-13
+- auto_source_topic_id: 30344
+- auto_source_url: https://ethereum-magicians.org/t/erc-8493-onchain-uri-scheme/30344
+- desc: |
+  コントラクト自体に関連付けられたメタデータURIを返すために使用される関数。ERC-8493のオンチェーンURIスキームが参照するメタデータ取得方法の一つとして言及されており、コントラクト全体の情報を指し示す。

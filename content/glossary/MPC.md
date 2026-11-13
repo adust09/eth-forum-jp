@@ -5,7 +5,7 @@ aliases:
   - Multi-Party Computation
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **MPC (マルチパーティ計算)**
@@ -19,6 +19,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-12-a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing-30364|QRセットアップとNFC署名による2-of-2 MPCウォレット]]（2026-11-12）
 - [[posts/magicians-2026-11-09-who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control-30313|イーサリアム上の7つのトークン化された国債/金トークンをアップグレードできるのは誰か？アップグレード制御の読み取り専用調査]]（2026-11-09）
 - [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

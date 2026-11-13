@@ -5,7 +5,7 @@ aliases:
   - CREL
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **反実仮想拒否イベントログ (CREL)**

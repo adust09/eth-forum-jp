@@ -5,7 +5,7 @@ aliases:
   - SwE
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **エスクローなしの支払い能力 (SwE)**

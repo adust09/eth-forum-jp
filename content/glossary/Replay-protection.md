@@ -4,7 +4,7 @@ aliases:
   - リプレイプロテクション
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **リプレイプロテクション**
@@ -18,7 +18,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-12-a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing-30364|QRセットアップとNFC署名による2-of-2 MPCウォレット]]（2026-11-12）
 
 ## 元の表記（英語）
 

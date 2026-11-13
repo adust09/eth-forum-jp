@@ -5,7 +5,7 @@ aliases:
   - pledgeable creator fee stream
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **担保可能なストリーム (Pledgeable Stream)**

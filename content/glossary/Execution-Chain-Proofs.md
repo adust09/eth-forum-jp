@@ -4,7 +4,7 @@ aliases:
   - 実行チェーン証明 (Execution Chain Proofs)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **実行チェーン証明 (Execution Chain Proofs)**
