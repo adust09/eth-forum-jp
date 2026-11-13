@@ -4,7 +4,7 @@ aliases:
   - 格子ベース暗号方式 (Lattice-based schemes)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **格子ベース暗号方式 (Lattice-based schemes)**

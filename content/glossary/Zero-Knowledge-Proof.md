@@ -6,7 +6,7 @@ aliases:
   - ZK proof
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **ゼロ知識証明**
@@ -21,6 +21,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-27-proof-of-one-one-person-one-identity-polling-with-encrypted-ballots-design-and-reference-code-requesting-critical-review-26184|Proof of One: 暗号化された投票用紙による一人一票の投票システム — 設計と参照コード、批判的レビューを募集]]（2026-10-27）

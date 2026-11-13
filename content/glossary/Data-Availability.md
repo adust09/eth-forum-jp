@@ -7,7 +7,7 @@ aliases:
   - DAS
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **データアベイラビリティ**
@@ -24,6 +24,7 @@ Danksharding/EIP-4844 では blob として実装され、DAS で全ダウンロ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

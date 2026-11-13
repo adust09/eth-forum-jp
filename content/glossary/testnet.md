@@ -4,7 +4,7 @@ aliases:
   - テストネット
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **テストネット**
@@ -17,6 +17,8 @@ Ethereumプロトコルの開発やテストのために使用されるネット
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
+- [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）
 - [[posts/magicians-2026-09-25-erc-tbd-portable-spend-grants-29776|ERC TBD: ポータブル支出許可]]（2026-09-25）
 - [[posts/magicians-2026-09-15-all-core-devs-testing-acdt-97-sept-21-2026-29686|全コア開発者会議 - テスト (ACDT) #97、2026年9月21日]]（2026-09-15）

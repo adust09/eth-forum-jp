@@ -5,7 +5,7 @@ aliases:
   - cost per state byte
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **CPSB (ステートバイトあたりのコスト)**
@@ -20,6 +20,7 @@ EIP-8037で導入された、Ethereumの新しいステートバイトを導入�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-12-more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum-26244|より多くのメーターか、より多くの価格か？イーサリアムにおける1次元 vs. 多次元手数料メカニズム]]（2026-11-12）
 - [[posts/ethresear-2026-09-21-post-glamsterdam-one-dimensional-fee-market-and-comparison-with-eip-7999-26062|ポスト・グラムステルダムの一次元手数料市場とEIP-7999との比較]]（2026-09-21）
 - [[posts/ethresear-2026-09-03-how-hegota-can-influence-the-state-roadmap-25895|ヘゴタ (Hegotá) がステートロードマップにどう影響するか]]（2026-09-03）
 - [[posts/ethresear-2026-08-31-equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier-25868|EIP-7999の多次元手数料市場における均衡：実行-データ手数料フロアのフロンティア]]（2026-08-31）

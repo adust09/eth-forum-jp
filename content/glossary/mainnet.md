@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **メインネット**
@@ -17,6 +17,9 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-12-more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum-26244|より多くのメーターか、より多くの価格か？イーサリアムにおける1次元 vs. 多次元手数料メカニズム]]（2026-11-12）
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
+- [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）
 - [[posts/magicians-2026-11-07-erc-xxxx-protected-accounts-for-fungible-tokens-30297|ERC-XXXX: ファンジブルトークン向け保護アカウント]]（2026-11-07）
 - [[posts/ethresear-2026-11-06-how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark-26224|[[glossary/EIP-8141|EIP-8141]]の検証予算はどれくらい大きくできるか？メムプールDoSベンチマーク]]（2026-11-06）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）

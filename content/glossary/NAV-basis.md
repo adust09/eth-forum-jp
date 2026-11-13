@@ -4,7 +4,7 @@ aliases:
   - NAV基準 (NAV basis)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **NAV基準 (NAV basis)**

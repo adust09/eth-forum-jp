@@ -4,7 +4,7 @@ aliases:
   - アテステーション（証明）
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **アテステーション（証明）**
@@ -18,6 +18,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/ethresear-2026-10-08-the-unleashed-power-of-stacking-eez-fcr-seen-through-an-example-26133|EEZとFCRを組み合わせることで解き放たれる力：具体例を通して]]（2026-10-08）
 - [[posts/ethresear-2026-10-02-six-defects-in-one-signature-verification-tool-found-from-outside-in-six-rounds-26109|6ラウンドの外部検証で発見された、ある署名検証ツールの6つの欠陥]]（2026-10-02）

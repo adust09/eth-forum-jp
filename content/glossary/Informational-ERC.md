@@ -6,7 +6,7 @@ aliases:
   - Informational track
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **情報提供ERC (Informational ERC)**

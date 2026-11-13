@@ -4,7 +4,7 @@ aliases:
   - P2Pネットワーキング
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **P2Pネットワーキング**
@@ -18,6 +18,7 @@ Ethereumクライアントがブロック、トランザクション、アッテ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 

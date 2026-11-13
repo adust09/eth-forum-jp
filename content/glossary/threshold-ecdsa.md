@@ -4,7 +4,7 @@ aliases:
   - しきい値ECDSA (Threshold ECDSA)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **しきい値ECDSA (Threshold ECDSA)**

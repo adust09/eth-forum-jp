@@ -5,7 +5,7 @@ aliases:
   - SCA
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **サイドチャネル攻撃 (SCA)**

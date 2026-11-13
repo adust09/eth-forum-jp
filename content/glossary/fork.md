@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **フォーク**
@@ -19,6 +19,7 @@ date: '2026-11-11'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

@@ -4,7 +4,7 @@ aliases:
   - インパクトbps (impact_bps)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **インパクトbps (impact_bps)**

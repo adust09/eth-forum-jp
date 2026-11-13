@@ -4,7 +4,7 @@ aliases:
   - ゴシップサブ
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **ゴシップサブ**
@@ -18,6 +18,7 @@ P2Pネットワークにおけるトピックベースのメッセージ伝播�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/ethresear-2026-10-13-informed-diffusion-making-home-builders-publish-fast-26151|Informed Diffusion: ホームビルダーが高速に公開できるようにする]]（2026-10-13）
 - [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）

@@ -5,7 +5,7 @@ aliases:
   - SAP
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **ステルスアドレスプロトコル (SAP)**

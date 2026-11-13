@@ -4,7 +4,7 @@ aliases:
   - 論理ドメインの対数サイズ (logical_logn)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **論理ドメインの対数サイズ (logical_logn)**

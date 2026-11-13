@@ -4,7 +4,7 @@ aliases:
   - 認証回路 (Authority Circuit)
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **認証回路 (Authority Circuit)**

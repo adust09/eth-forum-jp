@@ -5,7 +5,7 @@ aliases:
   - V2 opcode set
 tags:
   - glossary
-date: '2026-11-11'
+date: '2026-11-13'
 ---
 
 **バージョン付きオペコード**
