@@ -5,7 +5,7 @@ aliases:
   - Static transaction data
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **静的データ**

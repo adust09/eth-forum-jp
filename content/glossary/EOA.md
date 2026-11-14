@@ -4,7 +4,7 @@ aliases:
   - EOA (Externally Owned Account)
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **EOA (Externally Owned Account)**

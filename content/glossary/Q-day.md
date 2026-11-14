@@ -4,7 +4,7 @@ aliases:
   - Qデー (Q-day)
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **Qデー (Q-day)**

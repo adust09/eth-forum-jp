@@ -4,7 +4,7 @@ aliases:
   - CAIP-19アンカー
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **CAIP-19アンカー**

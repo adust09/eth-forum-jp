@@ -5,7 +5,7 @@ aliases:
   - equilibrium
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **均衡（交換経済）**

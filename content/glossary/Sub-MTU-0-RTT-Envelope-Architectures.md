@@ -4,7 +4,7 @@ aliases:
   - サブMTU 0-RTTエンベロープアーキテクチャ
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **サブMTU 0-RTTエンベロープアーキテクチャ**

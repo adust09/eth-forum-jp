@@ -5,7 +5,7 @@ aliases:
   - CL
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **コンセンサス層**
@@ -18,6 +18,7 @@ Ethereumの2つの主要な層のうちの1つで、ブロックのファイナ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-13-pq-cl-breakout-1-november-17-2026-30379|PQ-CLブレイクアウト #1、2026年11月17日]]（2026-11-13）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-04-j-star-name-for-consensus-layer-upgrade-30285|コンセンサス層アップグレードのためのJ-star名]]（2026-11-04）
 - [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）

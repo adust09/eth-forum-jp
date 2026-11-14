@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,7 @@ date: '2026-11-13'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-13-pq-cl-breakout-1-november-17-2026-30379|PQ-CLブレイクアウト #1、2026年11月17日]]（2026-11-13）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/ethresear-2026-11-06-how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark-26224|[[glossary/EIP-8141|EIP-8141]]の検証予算はどれくらい大きくできるか？メムプールDoSベンチマーク]]（2026-11-06）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）

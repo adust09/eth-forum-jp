@@ -5,7 +5,7 @@ aliases:
   - ZKCP
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **ゼロ知識条件付き支払い**

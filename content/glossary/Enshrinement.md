@@ -4,7 +4,7 @@ aliases:
   - プロトコルへの組み込み (Enshrinement)
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **プロトコルへの組み込み (Enshrinement)**

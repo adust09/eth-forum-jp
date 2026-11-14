@@ -4,7 +4,7 @@ aliases:
   - declareCompromised()（アカウント侵害宣言機能）
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **declareCompromised()（アカウント侵害宣言機能）**
