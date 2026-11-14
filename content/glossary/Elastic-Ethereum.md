@@ -4,7 +4,7 @@ aliases:
   - エラスティック・イーサリアム（Elastic Ethereum）
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **エラスティック・イーサリアム（Elastic Ethereum）**

@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -40,6 +40,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Account-Root|Account Root]] — アカウントルート
 - [[glossary/Account-Validation-Module|Account Validation Module]] — アカウント検証モジュール
 - [[glossary/Account-warming-charge|Account-warming charge]] — アカウントウォーミングチャージ
+- [[glossary/AccountChanges|AccountChanges]] — アカウント変更
 - [[glossary/accounting-actions|accounting actions]] — 会計アクション
 - [[glossary/accounting-invariant|accounting invariant]] — 会計不変条件
 - [[glossary/Accounts-only-nodes|Accounts-only nodes]] — アカウントオンリーノード
@@ -238,6 +239,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Block-track|Block track]] — ブロックトラック (Block track)
 - [[glossary/block-utilisation|block utilisation]] — ブロック利用率
 - [[glossary/block-delay-attack|block-delay attack]] — ブロック遅延攻撃
+- [[glossary/Block-Level-Access-Lists|Block-Level Access Lists]] — ブロックレベルアクセスリスト (BAL)
 - [[glossary/BLOCKHASH|BLOCKHASH]] — BLOCKHASH (オペコード)
 - [[glossary/BLOCKID-opcode|BLOCKID opcode]] — BLOCKID オペコード
 - [[glossary/BlockNumberOrTagOrHash|BlockNumberOrTagOrHash]] — BlockNumberOrTagOrHash (ブロック識別子型)
@@ -339,6 +341,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Code-Delegation|Code Delegation]] — コード委譲
 - [[glossary/Code-Immutability|Code Immutability]] — コードの不変性
 - [[glossary/code-overrides|code overrides]] — コードオーバーライド
+- [[glossary/Code-Reads|Code Reads]] — コード読み取り
 - [[glossary/codesize|code_size]] — コードサイズ
 - [[glossary/Code-binding|Code-binding]] — コード拘束性
 - [[glossary/code-deposit-gas|code-deposit gas]] — コードデポジットガス
@@ -583,6 +586,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-712-attestation-profile|EIP-712 attestation profile]] — EIP-712アテステーションプロファイル
 - [[glossary/EIP-712-consent|EIP-712 consent]] — EIP-712同意
 - [[glossary/EIP-7702|EIP-7702]] — EIP-7702
+- [[glossary/EIP-7928|EIP-7928]] — EIP-7928
 - [[glossary/EIP-8037|EIP-8037]] — EIP-8037 (二次元ガス)
 - [[glossary/EIP-8288|EIP-8288]] — EIP-8288
 - [[glossary/EIP-8363|EIP-8363]] — EIP-8363
@@ -829,12 +833,14 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
 - [[glossary/halt-bit|halt bit]] — ハルトビット
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
+- [[glossary/Hardened-child|Hardened child]] — ハード化された子鍵
 - [[glossary/hardware-gap|hardware gap]] — ハードウェアギャップ
 - [[glossary/hardware-offline-verifier|hardware offline verifier]] — ハードウェアオフライン検証者
 - [[glossary/harvest-now-decrypt-later-attacks|harvest-now-decrypt-later attacks]] — 今すぐ収集し、後で解読する攻撃
 - [[glossary/hash-chain|hash chain]] — ハッシュチェーン
 - [[glossary/hashtreeroot|hash_tree_root]] — ハッシュツリールート
 - [[glossary/hash-based-accumulation|hash-based accumulation]] — ハッシュベースのアキュムレーション
+- [[glossary/Hash-Based-Key-Derivation|Hash-Based Key Derivation]] — ハッシュベース鍵導出 (HBKD)
 - [[glossary/Hash-based-signatures|Hash-based signatures]] — ハッシュベース署名
 - [[glossary/Hash-chain-RANDAO|Hash-chain RANDAO]] — ハッシュチェーンRANDAO
 - [[glossary/HAVE-bitmaps|HAVE bitmaps]] — HAVEビットマップ
@@ -1340,6 +1346,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Post-quantum-binary-field-SNARK|Post-quantum binary-field SNARK]] — ポスト量子バイナリフィールドSNARK
 - [[glossary/Post-Quantum-Interop|Post-Quantum Interop]] — ポスト量子相互運用性 (PQ相互運用性)
 - [[glossary/Post-Quantum-Key|Post-Quantum Key]] — 耐量子鍵
+- [[glossary/Post-quantum-keys|Post-quantum keys]] — ポスト量子鍵
 - [[glossary/Post-quantum-migration|Post-quantum migration]] — ポスト量子移行
 - [[glossary/Post-Quantum-PeerDAS|Post-Quantum PeerDAS]] — 耐量子PeerDAS (Post-Quantum PeerDAS)
 - [[glossary/Post-Quantum-Public-Key-Registry|Post-Quantum Public Key Registry]] — 量子耐性公開鍵レジストリ
@@ -1352,6 +1359,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Posture|Posture (Swarm AI)]] — ポスチャー (Swarm AI)
 - [[glossary/PoW-network|PoW network]] — PoWネットワーク (Proof of Workネットワーク)
 - [[glossary/PoW-chain-relay-on-EVM-chains|PoW-chain relay on EVM chains]] — EVMチェーン上のPoWチェーンリレー
+- [[glossary/PQ-Consensus-Layer|PQ Consensus Layer]] — PQコンセンサスレイヤー (Post-Quantum Consensus Layer)
 - [[glossary/PQ-Ethereum|PQ Ethereum]] — 耐量子イーサリアム (PQ Ethereum)
 - [[glossary/PQ-P2P|PQ P2P]] — 量子耐性P2P (Post-Quantum P2P)
 - [[glossary/pq-account|pq-account]] — 量子耐性アカウント (pq-account)
@@ -1750,9 +1758,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-creation-costs|State-creation costs]] — 状態作成コスト
 - [[glossary/state-demand-tail|state-demand tail]] — ステート需要の裾野
 - [[glossary/stateDiff|stateDiff]] — 状態差分
+- [[glossary/Stateful-key|Stateful key]] — ステートフル鍵
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント
 - [[glossary/Stateless-Clients|Stateless Clients]] — ステートレスクライアント
+- [[glossary/Stateless-key|Stateless key]] — ステートレス鍵
 - [[glossary/Statement|Statement]] — ステートメント（EIP-8288文脈）
 - [[glossary/Statement-Authenticator|Statement Authenticator]] — ステートメント認証器
 - [[glossary/Static-control-flow|Static control flow]] — 静的制御フロー

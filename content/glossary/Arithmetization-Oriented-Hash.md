@@ -5,7 +5,7 @@ aliases:
   - AO hash
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **算術化指向ハッシュ (AOハッシュ)**

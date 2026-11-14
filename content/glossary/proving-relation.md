@@ -5,7 +5,7 @@ aliases:
   - relation
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **証明関係**

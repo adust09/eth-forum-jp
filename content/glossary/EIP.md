@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **EIP（Ethereum 改善提案）**

@@ -5,7 +5,7 @@ aliases:
   - Confidential RWA Token
 tags:
   - glossary
-date: '2026-11-13'
+date: '2026-11-14'
 ---
 
 **機密性リアルワールドアセットトークン (Confidential RWA Token)**

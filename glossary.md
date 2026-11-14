@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18719,3 +18719,96 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8493-onchain-uri-scheme/30344
 - desc: |
   コントラクト自体に関連付けられたメタデータURIを返すために使用される関数。ERC-8493のオンチェーンURIスキームが参照するメタデータ取得方法の一つとして言及されており、コントラクト全体の情報を指し示す。
+
+## PQ Consensus Layer
+- ja: PQコンセンサスレイヤー (Post-Quantum Consensus Layer)
+- aliases: [Post-Quantum Consensus Layer]
+- related: [Post-Quantum, Consensus Layer]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30379
+- auto_source_url: https://ethereum-magicians.org/t/pq-cl-breakout-1-november-17-2026/30379
+- desc: |
+  量子コンピュータによる攻撃に耐性を持つように設計されたイーサリアムのコンセンサスレイヤー。将来の量子脅威に備え、暗号プリミティブのアップグレードやプロトコルの変更が検討されている。
+
+## Hash-Based Key Derivation
+- ja: ハッシュベース鍵導出 (HBKD)
+- aliases: [HBKD]
+- related: [BIP-39, Post-quantum cryptography, Hash-based signatures]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30375
+- auto_source_url: https://ethereum-magicians.org/t/erc-8499-hash-based-key-derivation-from-bip-39/30375
+- desc: |
+  BIP-39ニーモニックフレーズから、ポスト量子暗号で用いられるハッシュベース署名スキーム（例: SPHINCS+, SLH-DSA）の鍵を導出するための標準化されたプロセス。異なるウォレット間での鍵の互換性と復元性を確保することを目的とします。
+
+## Post-quantum keys
+- ja: ポスト量子鍵
+- related: [Post-quantum cryptography, Hash-based signatures]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30375
+- auto_source_url: https://ethereum-magicians.org/t/erc-8499-hash-based-key-derivation-from-bip-39/30375
+- desc: |
+  量子コンピュータによる攻撃に対して安全であると設計された暗号鍵。既存の楕円曲線暗号などが量子コンピュータによって破られる可能性に備え、Ethereumのようなブロックチェーンシステムで将来的に採用が検討されています。
+
+## Hardened child
+- ja: ハード化された子鍵
+- related: [BIP-32, Hierarchical Deterministic Wallet]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30375
+- auto_source_url: https://ethereum-magicians.org/t/erc-8499-hash-based-key-derivation-from-bip-39/30375
+- desc: |
+  BIP-32階層的決定性ウォレットにおいて、親の公開鍵から導出できない子鍵。親の秘密鍵からのみ導出されるため、親の公開鍵が漏洩しても、ハード化された子鍵の秘密鍵は安全に保たれます。
+
+## Stateless key
+- ja: ステートレス鍵
+- related: [Stateful key, Hash-based signatures, Post-quantum keys]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30375
+- auto_source_url: https://ethereum-magicians.org/t/erc-8499-hash-based-key-derivation-from-bip-39/30375
+- desc: |
+  署名プロセスにおいて、以前の署名に関する状態情報を保持する必要がない暗号鍵。ハッシュベース署名スキームの一部（例: SLH-DSA）で用いられ、鍵の管理が比較的容易です。
+
+## Stateful key
+- ja: ステートフル鍵
+- related: [Stateless key, Hash-based signatures, Post-quantum keys, One-time key]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30375
+- auto_source_url: https://ethereum-magicians.org/t/erc-8499-hash-based-key-derivation-from-bip-39/30375
+- desc: |
+  署名プロセスにおいて、以前の署名に関する状態情報（例: 使用済みワンタイム署名鍵のインデックス）を保持し、更新する必要がある暗号鍵。ハッシュベース署名スキームの一部（例: WOTS, XMSS）で用いられ、状態管理の複雑さが伴います。
+
+## Block-Level Access Lists
+- ja: ブロックレベルアクセスリスト (BAL)
+- aliases: [BAL]
+- related: [Code Reads, code_hash, AccountChanges]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30354
+- auto_source_url: https://ethereum-magicians.org/t/eip-8496-code-reads-in-block-level-access-lists/30354
+- desc: |
+  ブロックが読み取るプリブロック状態のすべての要素をリストアップするメカニズム。ステートレスな実行や証明入力の構築に利用され、EIP-8496ではコードの読み取りも含まれるようになる。
+
+## Code Reads
+- ja: コード読み取り
+- related: [Block-Level Access Lists, code_hash, pre-block bytecode]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30354
+- auto_source_url: https://ethereum-magicians.org/t/eip-8496-code-reads-in-block-level-access-lists/30354
+- desc: |
+  ブロックの実行中にアカウントのバイトコードが読み取られること。EIP-8496は、このコード読み取りをブロックレベルアクセスリストに明示的に含めることで、ステートレスな実行や証明の完全性を向上させる。
+
+## AccountChanges
+- ja: アカウント変更
+- related: [EIP-7928, code_hash, Block-Level Access Lists]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30354
+- auto_source_url: https://ethereum-magicians.org/t/eip-8496-code-reads-in-block-level-access-lists/30354
+- desc: |
+  EIP-7928で定義される、ブロック実行によって発生するアカウントの状態変更を記述するエントリ。EIP-8496により、このエントリに`code_hash`が追加され、コードの読み取りも記録されるようになる。
+
+## EIP-7928
+- ja: EIP-7928
+- related: [AccountChanges, EIP-8496, Block-Level Access Lists]
+- auto_added: 2026-11-14
+- auto_source_topic_id: 30354
+- auto_source_url: https://ethereum-magicians.org/t/eip-8496-code-reads-in-block-level-access-lists/30354
+- desc: |
+  `AccountChanges`エントリを定義するEthereum Improvement Proposal。EIP-8496はこのEIPを拡張し、`code_hash`要素を追加することで、ブロックレベルアクセスリストにおけるコード読み取りの追跡を可能にする。
