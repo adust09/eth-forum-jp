@@ -4,7 +4,7 @@ aliases:
   - タスクテンダー（タスク入札募集）
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **タスクテンダー（タスク入札募集）**
@@ -21,6 +21,7 @@ Ethereumのエージェントエコシステムにおいて、特定のタスク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 

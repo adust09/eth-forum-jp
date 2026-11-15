@@ -4,7 +4,7 @@ aliases:
   - 追記専用
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **追記専用**

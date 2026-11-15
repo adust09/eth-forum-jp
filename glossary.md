@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18812,3 +18812,96 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8496-code-reads-in-block-level-access-lists/30354
 - desc: |
   `AccountChanges`エントリを定義するEthereum Improvement Proposal。EIP-8496はこのEIPを拡張し、`code_hash`要素を追加することで、ブロックレベルアクセスリストにおけるコード読み取りの追跡を可能にする。
+
+## Stateful Error-Caching Attack
+- ja: ステートフル・エラーキャッシュ攻撃
+- related: [Tier-1 revocation]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30397
+- auto_source_url: https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases/30397
+- desc: |
+  以前に認証されたノードが、取り消し後に静的ベースラインエラーベクトルをローカルにキャッシュし、それを利用して新しいフレームからエラーを減算することで、隔離を回避する攻撃。
+
+## Half-Radius Blind Noise
+- ja: 半径ブラインドノイズ (Half-Radius Blind Noise)
+- aliases: [Ephemeral Half-Radius Blind Noise, ξ_i-Entropy]
+- related: [decoding radius, Berlekamp–Massey]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30397
+- auto_source_url: https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases/30397
+- desc: |
+  アクティブなTier-1隔離中にブロードキャスターが注入する、フレーム固有のスパースノイズベクトル。デコード半径の半分を厳密に超える重みを持つことで、キャッシュされたエラーベクトルによる攻撃を防ぐ。
+
+## Monolithic KEM
+- ja: モノリシックKEM (Monolithic KEM)
+- related: [KEM]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30397
+- auto_source_url: https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases/30397
+- desc: |
+  外部ヘッダーオーバーヘッドなしで、192バイトのKEMタプル全体を吸収する鍵カプセル化メカニズム。非系統的MDSパンクチャリング防御と組み合わせて使用される。
+
+## Non-Systematic MDS Puncturing
+- ja: 非系統的MDSパンクチャリング (Non-Systematic MDS Puncturing)
+- related: [MDS code, erasure-puncturing adversary]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30397
+- auto_source_url: https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases/30397
+- desc: |
+  コード次元を上げて、イレイジャーパンクチャリング攻撃者に対して十分なセキュリティマージンを確保しつつ、モノリシックKEMタプルを吸収するための防御メカニズム。
+
+## Base-3 carry avalanche
+- ja: 基数3桁上げ連鎖 (Base-3 carry avalanche)
+- related: [homomorphic aggregation]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30397
+- auto_source_url: https://ethereum-magicians.org/t/update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases/30397
+- desc: |
+  属性ゲート付き暗号化Mempoolにおいて、閾値委員会が復号する前に、共謀するリレーがペイロードのホモモルフィック集約を試みた際に発生する、リード・ソロモンシンボルを破損させる現象。
+
+## Generative Engine Optimization Framework
+- ja: 生成エンジン最適化フレームワーク (GEOF)
+- aliases: [GEOF]
+- related: [generative engines]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30396
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
+- desc: |
+  生成エンジン（AI検索、エージェントランタイムなど）がオブジェクトをどのように表現し、その表現がどのように測定され、独立した当事者が測定値を交換・検証するかを記録するための記述フレームワーク。
+
+## generative engines
+- ja: 生成エンジン
+- aliases: [answer engines, AI search surfaces, agent runtimes with discovery layers]
+- related: [Generative Engine Optimization Framework]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30396
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
+- desc: |
+  AI検索エンジン、AI検索サーフェス、ディスカバリーレイヤーを持つエージェントランタイムなど、オブジェクトの表現、測定、検証を行うシステム。
+
+## content-addressed record types
+- ja: コンテンツアドレス型レコードタイプ
+- related: [Generative Engine Optimization Framework]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30396
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
+- desc: |
+  GEOFフレームワークで定義される、オブジェクト、フレーム、ソース、メソッド、インテント、メトリック定義、観測、プロファイルの8種類のレコードタイプ。コンテンツのハッシュによって一意に識別される。
+
+## observation commitments
+- ja: 観測コミットメント
+- related: [Generative Engine Optimization Framework]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30396
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
+- desc: |
+  GEOFプロセスにおいて、アカウントが観測バッチ（Merkle rootとカウントを含む）をコミットする行為、またはそのコミットされたデータ。送信者に帰属可能である。
+
+## Metric grammar
+- ja: メトリック文法
+- related: [Generative Engine Optimization Framework]
+- auto_added: 2026-11-15
+- auto_source_topic_id: 30396
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
+- desc: |
+  GEOFで定義されるメトリックの識別子構造。`geof:<family>/<metric>/vN`の形式で、統計単位、分子、分母、適格性、重複排除、集計方法を固定する。

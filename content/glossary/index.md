@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -198,6 +198,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Bandwidth-Collapse|Bandwidth Collapse]] — 帯域幅崩壊
 - [[glossary/bandwidth-scaling|bandwidth scaling]] — 帯域幅スケーリング
 - [[glossary/Base-Block|Base Block]] — ベースブロック
+- [[glossary/Base-3-carry-avalanche|Base-3 carry avalanche]] — 基数3桁上げ連鎖 (Base-3 carry avalanche)
 - [[glossary/based-sequencing|based sequencing]] — ベースド・シーケンシング
 - [[glossary/BASICDATA|BASIC_DATA]] — BASIC_DATA
 - [[glossary/Batch-hash|Batch hash]] — バッチハッシュ
@@ -404,6 +405,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Constant-function-pool|Constant-function pool]] — 定数関数型プール
 - [[glossary/Constituent|Constituent]] — 構成要素（コンスティチュエント）
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
+- [[glossary/content-addressed-record-types|content-addressed record types]] — コンテンツアドレス型レコードタイプ
 - [[glossary/content-addressed-terms|content-addressed terms]] — コンテンツアドレス型条件
 - [[glossary/contention-classes|contention classes]] — 競合クラス
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
@@ -811,6 +813,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Gateway|Gateway (NFT Controlled Application Space)]] — ゲートウェイ（NFT制御型アプリケーションスペース）
 - [[glossary/Generalized-Extractable-Value|Generalized Extractable Value]] — 一般化された抽出可能価値 (GEV)
 - [[glossary/Generational-fungible-liquidity|Generational fungible liquidity]] — 世代別代替可能流動性 (Generational fungible liquidity)
+- [[glossary/Generative-Engine-Optimization-Framework|Generative Engine Optimization Framework]] — 生成エンジン最適化フレームワーク (GEOF)
+- [[glossary/generative-engines|generative engines]] — 生成エンジン
 - [[glossary/Generic-Key-Value-String-Surface|Generic Key-Value String Surface]] — 汎用キー・バリュー文字列インターフェース
 - [[glossary/Gentle-Methodology|Gentle Methodology]] — ジェントルメソドロジー
 - [[glossary/GetCells-message|GetCells message]] — GetCellsメッセージ
@@ -830,6 +834,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Guard-contract|Guard contract]] — ガードコントラクト (Guard contract)
 - [[glossary/guardian-model|guardian model]] — ガーディアンモデル
 - [[glossary/guardian-quorum|guardian quorum]] — ガーディアンクォーラム
+- [[glossary/Half-Radius-Blind-Noise|Half-Radius Blind Noise]] — 半径ブラインドノイズ (Half-Radius Blind Noise)
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
 - [[glossary/halt-bit|halt bit]] — ハルトビット
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
@@ -1096,6 +1101,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Metering-multiplier|Metering multiplier]] — メータリング乗数
 - [[glossary/Methodology-Transition|Methodology Transition]] — メソドロジー移行
 - [[glossary/Methodology-Versioning-Interface|Methodology-Versioning Interface]] — メソドロジーバージョン管理インターフェース
+- [[glossary/Metric-grammar|Metric grammar]] — メトリック文法
 - [[glossary/MEV|MEV]] — MEV（最大抽出可能価値）
 - [[glossary/MEV-opportunity-attribution-problem|MEV opportunity attribution problem]] — MEV機会帰属問題
 - [[glossary/Microstructure-Design|Microstructure Design]] — マイクロストラクチャー設計
@@ -1118,6 +1124,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Module|Module]] — モジュール
 - [[glossary/Module-Activation-System|Module Activation System]] — モジュールアクティベーションシステム (MAS)
 - [[glossary/Modulo-Bias-Invariant|Modulo Bias Invariant]] — モジュロバイアス不変量
+- [[glossary/Monolithic-KEM|Monolithic KEM]] — モノリシックKEM (Monolithic KEM)
 - [[glossary/Montgomery-Batch-Inversion|Montgomery Batch Inversion]] — モンゴメリバッチ逆元計算 (Montgomery Batch Inversion)
 - [[glossary/MPC|MPC]] — MPC (マルチパーティ計算)
 - [[glossary/MTU-Fragmentation-Trap|MTU Fragmentation Trap]] — MTUフラグメンテーション・トラップ
@@ -1162,6 +1169,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Non-Blocking-Settlement|Non-Blocking Settlement]] — 非ブロッキング決済
 - [[glossary/non-executable-account-code-marker|non-executable account-code marker]] — 実行不可能なアカウントコードマーカー
 - [[glossary/Non-Self-Authorizing-State-Transitions|Non-Self-Authorizing State Transitions]] — 自己承認しない状態遷移
+- [[glossary/Non-Systematic-MDS-Puncturing|Non-Systematic MDS Puncturing]] — 非系統的MDSパンクチャリング (Non-Systematic MDS Puncturing)
 - [[glossary/Non-transferable-credits|Non-transferable credits]] — 譲渡不可能なクレジット
 - [[glossary/non-uniform-IVC|non-uniform IVC]] — 非均一IVC
 - [[glossary/Non-upgradeable-contracts|Non-upgradeable contracts]] — アップグレード不可能なコントラクト
@@ -1181,6 +1189,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Observability-Gap|Observability Gap]] — 可視性ギャップ
 - [[glossary/Observation|Observation]] — 観測
 - [[glossary/Observation-Commitment-Protocol|Observation Commitment Protocol]] — Observation Commitment Protocol (OCP)
+- [[glossary/observation-commitments|observation commitments]] — 観測コミットメント
 - [[glossary/Observation-layer|Observation layer]] — 観測レイヤー
 - [[glossary/Observation-Scope|Observation Scope]] — 観測スコープ
 - [[glossary/Observation-Only-Anchoring|Observation-Only Anchoring]] — 観測のみアンカリング (OOA)
@@ -1758,6 +1767,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/State-creation-costs|State-creation costs]] — 状態作成コスト
 - [[glossary/state-demand-tail|state-demand tail]] — ステート需要の裾野
 - [[glossary/stateDiff|stateDiff]] — 状態差分
+- [[glossary/Stateful-Error-Caching-Attack|Stateful Error-Caching Attack]] — ステートフル・エラーキャッシュ攻撃
 - [[glossary/Stateful-key|Stateful key]] — ステートフル鍵
 - [[glossary/Stateful-Keys|Stateful Keys]] — ステートフルキー
 - [[glossary/Stateless-Accounts|Stateless Accounts]] — ステートレスアカウント

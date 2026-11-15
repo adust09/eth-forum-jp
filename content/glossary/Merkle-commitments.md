@@ -4,7 +4,7 @@ aliases:
   - Merkleコミットメント (Merkle commitments)
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **Merkleコミットメント (Merkle commitments)**

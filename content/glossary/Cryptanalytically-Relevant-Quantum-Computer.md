@@ -5,7 +5,7 @@ aliases:
   - CRQC
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **暗号解読関連量子コンピュータ (CRQC)**

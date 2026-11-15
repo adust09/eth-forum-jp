@@ -4,7 +4,7 @@ aliases:
   - 利用可能なチェーン（Available Chain）
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **利用可能なチェーン（Available Chain）**

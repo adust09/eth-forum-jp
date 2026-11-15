@@ -4,7 +4,7 @@ aliases:
   - EIPナンバリング
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **EIPナンバリング**
