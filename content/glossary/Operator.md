@@ -4,7 +4,7 @@ aliases:
   - オペレーター
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **オペレーター**
@@ -20,6 +20,7 @@ date: '2026-11-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 - [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-11-05-would-an-erc-for-inference-programs-ai-evaluated-contracts-be-feasible-on-ethereum-30291|推論プログラム（AI評価型コントラクト）のためのERCはイーサリアムで実現可能か？]]（2026-11-05）
 - [[posts/magicians-2026-11-03-erc-idea-nft-controlled-application-spaces-from-voiddeeds-30258|ERCのアイデア: VoiddeedsによるNFT制御型アプリケーションスペース]]（2026-11-03）

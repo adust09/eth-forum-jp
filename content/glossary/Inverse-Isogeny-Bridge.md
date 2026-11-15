@@ -5,7 +5,7 @@ aliases:
   - Isogeny Bridge
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **逆同種写像ブリッジ**
@@ -20,6 +20,7 @@ date: '2026-11-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/magicians-2026-10-21-research-optimizing-elligator-squared-for-bls-curves-via-jacobi-quartics-30041|[研究] Jacobi Quarticsを用いたBLS曲線向けElligator Squaredの最適化]]（2026-10-21）
 
 ## 元の表記（英語）

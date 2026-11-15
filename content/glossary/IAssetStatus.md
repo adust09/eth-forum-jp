@@ -4,7 +4,7 @@ aliases:
   - IAssetStatus (資産ステータスインターフェース)
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **IAssetStatus (資産ステータスインターフェース)**

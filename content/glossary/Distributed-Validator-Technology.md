@@ -5,7 +5,7 @@ aliases:
   - DVT
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **分散型バリデータ技術 (DVT)**
@@ -19,7 +19,7 @@ date: '2026-11-14'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 
 ## 元の表記（英語）
 

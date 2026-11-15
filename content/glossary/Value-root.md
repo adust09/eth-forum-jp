@@ -5,7 +5,7 @@ aliases:
   - settlement root
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **バリュー・ルート**
@@ -18,7 +18,7 @@ Agentic Resource Discovery (ARD) Onchainフレームワークにおける、レ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 
 ## 元の表記（英語）
 

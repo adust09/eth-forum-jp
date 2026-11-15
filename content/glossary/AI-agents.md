@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-11-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 - [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-10-29-erc-8472-stock-locates-30128|ERC-8472: 株式貸出確認 (Stock Locates)]]（2026-10-29）

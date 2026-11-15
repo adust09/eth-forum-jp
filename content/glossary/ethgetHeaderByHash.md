@@ -4,7 +4,7 @@ aliases:
   - eth_getHeaderByHash (RPCメソッド)
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **eth_getHeaderByHash (RPCメソッド)**

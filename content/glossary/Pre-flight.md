@@ -5,7 +5,7 @@ aliases:
   - pre-flight check
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **プリフライト（チェック）**

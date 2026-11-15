@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-11-14'
+date: '2026-11-15'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-11-14'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/ethresear-2026-11-06-a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet-26223|フレームトランザクション上のプライバシープール: 機能するものと、まだ機能しないもの]]（2026-11-06）
 - [[posts/ethresear-2026-11-06-how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark-26224|[[glossary/EIP-8141|EIP-8141]]の検証予算はどれくらい大きくできるか？メムプールDoSベンチマーク]]（2026-11-06）
