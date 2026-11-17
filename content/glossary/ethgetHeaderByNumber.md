@@ -4,7 +4,7 @@ aliases:
   - eth_getHeaderByNumber (ブロックヘッダー取得RPC、番号指定)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **eth_getHeaderByNumber (ブロックヘッダー取得RPC、番号指定)**

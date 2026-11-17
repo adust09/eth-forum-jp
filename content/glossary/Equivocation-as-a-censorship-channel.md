@@ -4,7 +4,7 @@ aliases:
   - 検閲チャネルとしての二重署名（equivocation）
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **検閲チャネルとしての二重署名（equivocation）**

@@ -4,7 +4,7 @@ aliases:
   - extra.erc8004 (支払い要求のメタデータフィールド)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **extra.erc8004 (支払い要求のメタデータフィールド)**

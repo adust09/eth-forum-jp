@@ -4,7 +4,7 @@ aliases:
   - 基数3桁上げ連鎖 (Base-3 carry avalanche)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **基数3桁上げ連鎖 (Base-3 carry avalanche)**

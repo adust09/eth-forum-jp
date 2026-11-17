@@ -4,7 +4,7 @@ aliases:
   - ecrecover (組み込み関数)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **ecrecover (組み込み関数)**

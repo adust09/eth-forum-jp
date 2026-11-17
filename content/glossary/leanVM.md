@@ -4,7 +4,7 @@ aliases:
   - leanVM
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **leanVM**
@@ -19,6 +19,7 @@ Ethereumのポスト量子署名検証のために特別に設計された、Cai
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-08-exposing-an-isa-for-post-quantum-proofs-on-ethereum-26136|Ethereumにおけるポスト量子証明のためのISA公開]]（2026-10-08）
 - [[posts/ethresear-2026-08-18-formally-verified-security-for-pq-das-leanda-25746|PQ-DAS / leanDA の形式検証されたセキュリティ]]（2026-08-18）
