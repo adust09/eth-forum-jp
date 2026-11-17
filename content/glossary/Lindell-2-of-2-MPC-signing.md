@@ -7,7 +7,7 @@ aliases:
   - two-party ECDSA protocol
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **リンデル2-of-2 MPC署名 (Lindell 2-of-2 Multi-Party Computation Signing)**

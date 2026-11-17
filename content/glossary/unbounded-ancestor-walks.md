@@ -4,7 +4,7 @@ aliases:
   - 無制限の祖先辿り (unbounded ancestor walks)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **無制限の祖先辿り (unbounded ancestor walks)**

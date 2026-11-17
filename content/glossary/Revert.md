@@ -4,7 +4,7 @@ aliases:
   - リバート
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **リバート**
@@ -19,6 +19,7 @@ EthereumトランザクションまたはEVMコールが失敗し、その実行
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-16-hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix-30405|呼び出し元のバイトがセレクターとなる手動構築されたcalldata（Scrollの11月10日の修正）]]（2026-11-16）
 - [[posts/magicians-2026-11-07-erc-xxxx-protected-accounts-for-fungible-tokens-30297|ERC-XXXX: ファンジブルトークン向け保護アカウント]]（2026-11-07）
 - [[posts/magicians-2026-10-26-eip-8456-callstatus-instruction-30085|EIP-8456: CALLSTATUS命令]]（2026-10-26）
 - [[posts/ethresear-2026-10-24-a-hash-only-rollup-op-stack-l2-accounts-as-lamport-style-hash-chains-no-ecdsa-inside-the-l2-26172|ハッシュのみのロールアップ: OP Stack L2アカウントをLamport型ハッシュチェーンとして利用、L2内部にECDSAなし]]（2026-10-24）

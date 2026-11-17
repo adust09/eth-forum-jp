@@ -4,7 +4,7 @@ aliases:
   - ML-DSA (格子ベース署名アルゴリズム)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **ML-DSA (格子ベース署名アルゴリズム)**
@@ -18,6 +18,7 @@ NISTによって標準化された、量子耐性を持つデジタル署名ア�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）
 - [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）

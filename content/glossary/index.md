@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -292,6 +292,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/CALLVALUEBASEGAS|CALL_VALUE_BASE_GAS]] — CALL_VALUEベースガス
 - [[glossary/callback-driven-execution|callback-driven execution]] — コールバック駆動型実行
 - [[glossary/calldata-floor|calldata floor]] — コールデータフロア
+- [[glossary/Calldata-Injection|Calldata Injection]] — コールデータインジェクション
 - [[glossary/Callee-Cap-Compatibility|Callee-Cap Compatibility]] — 被呼び出し元制限の互換性
 - [[glossary/CALLSTATUS-instruction|CALLSTATUS instruction]] — CALLSTATUS命令
 - [[glossary/callTracer|callTracer]] — callTracer (コールトレーサー)
@@ -328,6 +329,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Checks-before-effects|Checks-before-effects]] — 事前チェック・事後効果（Checks-before-effects）
 - [[glossary/CICO-Ideal-Degree|CICO Ideal Degree]] — CICO理想次数
 - [[glossary/CL-Block-Retention-Window|CL Block Retention Window]] — CLブロック保持期間
+- [[glossary/CL-Breakout|CL Breakout]] — CLブレイクアウト（コンセンサス層ブレイクアウト）
 - [[glossary/CL-node|CL node]] — CLノード (コンセンサスレイヤーノード)
 - [[glossary/CL-driven-EL-synchronisation|CL-driven EL synchronisation]] — CL主導型EL同期
 - [[glossary/claim-types|claim types]] — クレームタイプ
@@ -595,6 +597,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/EIP-8411|EIP-8411]] — EIP-8411
 - [[glossary/EIPIP|EIPIP]] — EIPIP
 - [[glossary/eISA|eISA]] — eISA (Ethereum Instruction Set Architecture)
+- [[glossary/EL-Breakout|EL Breakout]] — ELブレイクアウト（実行層ブレイクアウト）
 - [[glossary/Elastic-Ethereum|Elastic Ethereum]] — エラスティック・イーサリアム（Elastic Ethereum）
 - [[glossary/Eligibility-Module|Eligibility Module]] — 適格性モジュール
 - [[glossary/Elligator-Squared|Elligator Squared]] — エリゲーター・スクエアード
@@ -617,6 +620,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/engineexchangeCapabilities|engine_exchangeCapabilities]] — engine_exchangeCapabilities (Engine API)
 - [[glossary/engineforkchoiceUpdated|engine_forkchoiceUpdated]] — engine_forkchoiceUpdated (Engine APIメソッド)
 - [[glossary/Enshrinement|Enshrinement]] — プロトコルへの組み込み (Enshrinement)
+- [[glossary/envelope-gossip-validation|envelope gossip validation]] — エンベロープゴシップ検証
 - [[glossary/EOA|EOA]] — EOA (Externally Owned Account)
 - [[glossary/ePBS|ePBS]] — ePBS (enshrined Proposer-Builder Separation)
 - [[glossary/ePBS-circuit-breakers|ePBS circuit breakers]] — ePBSサーキットブレーカー
@@ -714,6 +718,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
 - [[glossary/Execution-hooks|Execution hooks]] — 実行フック
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
+- [[glossary/execution-payload-root|execution payload root]] — 実行ペイロードルート
 - [[glossary/Execution-payment-leg|Execution payment leg]] — 実行ペイメントレッグ
 - [[glossary/execution-position|execution position]] — 実行位置
 - [[glossary/Execution-Receipt|Execution Receipt]] — 実行レシート
@@ -836,6 +841,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/guardian-quorum|guardian quorum]] — ガーディアンクォーラム
 - [[glossary/Half-Radius-Blind-Noise|Half-Radius Blind Noise]] — 半径ブラインドノイズ (Half-Radius Blind Noise)
 - [[glossary/Hallucinated-Transaction-Call|Hallucinated Transaction Call]] — 幻覚による取引呼び出し
+- [[glossary/Halo2-Verifier|Halo2 Verifier]] — Halo2検証者
 - [[glossary/halt-bit|halt bit]] — ハルトビット
 - [[glossary/Hard-Rug-Pull|Hard Rug Pull]] — ハードラグプル
 - [[glossary/Hardened-child|Hardened child]] — ハード化された子鍵
@@ -1330,6 +1336,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Platform-Ownership-Endorsement|Platform Ownership Endorsement]] — プラットフォーム所有権保証 (PoE)
 - [[glossary/Pledgeable-Stream|Pledgeable Stream]] — 担保可能なストリーム (Pledgeable Stream)
 - [[glossary/Plonkish|Plonkish]] — Plonkish (証明システム)
+- [[glossary/Pluggable-Verifier|Pluggable Verifier]] — プラガブル検証者
 - [[glossary/Plutocratic-Capture|Plutocratic Capture]] — 金権的支配 (Plutocratic Capture)
 - [[glossary/Pointer-Map|Pointer Map]] — ポインタマップ
 - [[glossary/Pointer-based-Confidentiality-System|Pointer-based Confidentiality System]] — ポインタベースの機密性システム
@@ -1413,6 +1420,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Probabilistic-Frontrunning|Probabilistic Frontrunning]] — 確率的フロントランニング
 - [[glossary/Procedure-Manifest|Procedure Manifest]] — プロシージャマニフェスト
 - [[glossary/Program-Key|Program Key]] — プログラムキー
+- [[glossary/programmable-account-validation|programmable account validation]] — プログラマブルアカウント検証
 - [[glossary/Programmable-Settlement-Locks|Programmable Settlement Locks]] — プログラマブル決済ロック (Programmable Settlement Locks)
 - [[glossary/Progressive-containers|Progressive containers]] — プログレッシブコンテナ
 - [[glossary/proof-aggregation|proof aggregation]] — 証明集約
@@ -1448,6 +1456,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/proving-relation|proving relation]] — 証明関係
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Public-flow|Public flow]] — パブリックフロー
+- [[glossary/Public-Input-Hash|Public Input Hash]] — 公開入力ハッシュ
 - [[glossary/public-order-flow|public order flow]] — 公開オーダーフロー
 - [[glossary/Public-mempool-gas-sponsorship|Public-mempool gas sponsorship]] — パブリックメンプールガススポンサーシップ
 - [[glossary/Pull-Refund-Model|Pull-Refund Model]] — プル型返金モデル
@@ -1465,6 +1474,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Quantum-preimage|Quantum preimage]] — 量子的原像（耐性）
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
 - [[glossary/R1CS-Constraint|R1CS Constraint]] — R1CS制約
+- [[glossary/Raccoon|Raccoon]] — ラクーン (Raccoon)
+- [[glossary/Raccoon-G|Raccoon-G]] — ラクーン-G (Raccoon-G)
 - [[glossary/Ragged-embedding|Ragged embedding]] — ラギッド埋め込み
 - [[glossary/RANDAO|RANDAO]] — RANDAO
 - [[glossary/RANDAO-target-slot-attack|RANDAO target slot attack]] — RANDAOターゲットスロット攻撃
@@ -1490,6 +1501,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Recovery-class-taxonomy|Recovery-class taxonomy]] — リカバリークラス分類
 - [[glossary/recursive-proof|recursive proof]] — 再帰的証明
 - [[glossary/Recursive-STARK|Recursive STARK]] — 再帰的STARK
+- [[glossary/recursive-STARK-aggregation|recursive STARK aggregation]] — 再帰的STARK集約
 - [[glossary/recursive-STARK-transaction-pre-authorization|recursive STARK transaction pre-authorization]] — 再帰的STARKトランザクション事前承認
 - [[glossary/recursive-validity|recursive validity]] — 再帰的有効性
 - [[glossary/Recursive-verification|Recursive verification]] — 再帰的検証 (Recursive Verification)

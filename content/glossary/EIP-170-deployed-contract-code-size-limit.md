@@ -6,7 +6,7 @@ aliases:
   - contract code-size limit
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **EIP-170 デプロイ済みコントラクトコードサイズ制限**

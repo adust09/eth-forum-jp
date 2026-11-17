@@ -4,7 +4,7 @@ aliases:
   - validateUserOp (関数)
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **validateUserOp (関数)**

@@ -4,7 +4,7 @@ aliases:
   - 介入者
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **介入者**

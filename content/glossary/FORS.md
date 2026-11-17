@@ -5,7 +5,7 @@ aliases:
   - Forest of Random Subsets
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **FORS（フォレスト・オブ・ランダム・サブセット）**
@@ -20,7 +20,7 @@ SPHINCS+における「数回署名」スキームの構成要素。k個の独�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）
 
 ## 元の表記（英語）
 

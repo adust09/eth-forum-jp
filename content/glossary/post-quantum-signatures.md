@@ -5,7 +5,7 @@ aliases:
   - PQS
 tags:
   - glossary
-date: '2026-11-15'
+date: '2026-11-17'
 ---
 
 **量子耐性署名 (post-quantum signatures)**
@@ -19,6 +19,7 @@ date: '2026-11-15'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）
 - [[posts/ethresear-2026-11-06-how-large-can-eip-8141s-validation-budget-be-a-mempool-dos-benchmark-26224|[[glossary/EIP-8141|EIP-8141]]の検証予算はどれくらい大きくできるか？メムプールDoSベンチマーク]]（2026-11-06）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/ethresear-2026-10-30-post-quantum-signatureless-authorization-with-recursive-verification-26196|再帰的検証によるポスト量子署名不要認可]]（2026-10-30）

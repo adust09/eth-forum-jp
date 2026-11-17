@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -18905,3 +18905,113 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects/30396
 - desc: |
   GEOFで定義されるメトリックの識別子構造。`geof:<family>/<metric>/vN`の形式で、統計単位、分子、分母、適格性、重複排除、集計方法を固定する。
+
+## Raccoon
+- ja: ラクーン (Raccoon)
+- related: [Raccoon-G, post-quantum signature schemes]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 26261
+- auto_source_url: https://ethresear.ch/t/exploring-post-quantum-signature-aggregation-for-eip-8288/26261
+- desc: |
+  量子耐性署名スキームの一つ。本文では、その検証コストがleanVMのコミットメント上限を超えるため、Multi-STARK検証アプローチが必要となることが述べられている。
+
+## Raccoon-G
+- ja: ラクーン-G (Raccoon-G)
+- related: [Raccoon, post-quantum signature schemes]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 26261
+- auto_source_url: https://ethresear.ch/t/exploring-post-quantum-signature-aggregation-for-eip-8288/26261
+- desc: |
+  量子耐性署名スキーム「Raccoon」の派生形。特に検証コストが高く、単一のSTARK証明に収まらないため、複数のSTARK証明に分割して集約するMulti-STARK検証アプローチが検討されている。
+
+## programmable account validation
+- ja: プログラマブルアカウント検証
+- related: [EIP-8141, account abstraction]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 26261
+- auto_source_url: https://ethresear.ch/t/exploring-post-quantum-signature-aggregation-for-eip-8288/26261
+- desc: |
+  アカウントの検証ロジックをプログラム可能にする機能。EIP-8141で提案されており、ウォレットが多様な署名スキームやセキュリティモデルをサポートするための基盤となる。
+
+## recursive STARK aggregation
+- ja: 再帰的STARK集約
+- related: [EIP-8288, STARK, proof aggregation]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 26261
+- auto_source_url: https://ethresear.ch/t/exploring-post-quantum-signature-aggregation-for-eip-8288/26261
+- desc: |
+  複数のSTARK証明を再帰的に集約し、最終的に単一のSTARK証明として検証可能にする技術。EIP-8288で提案されており、複雑な検証ロジックをオフチェーンで処理し、オンチェーンでの検証コストを削減する。
+
+## envelope gossip validation
+- ja: エンベロープゴシップ検証
+- related: [gossipsub, payload envelope, consensus layer]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30411
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-104-november-23-2026/30411
+- desc: |
+  コンセンサス層において、ゴシップネットワークを通じて伝播されるペイロードエンベロープの整合性を検証するプロセス。これには、ブロックのハッシュやその他のメタデータが正当であることを確認する作業が含まれ、不正な情報の拡散を防ぐ。
+
+## execution payload root
+- ja: 実行ペイロードルート
+- related: [execution payload, state root, block hash]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30411
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-104-november-23-2026/30411
+- desc: |
+  イーサリアムの実行層ブロックのペイロードに含まれるすべてのデータのルートハッシュ。このルートは、ブロック内のトランザクションや状態変更の完全性と一貫性を検証するために不可欠な要素である。
+
+## EL Breakout
+- ja: ELブレイクアウト（実行層ブレイクアウト）
+- aliases: [Execution Layer Breakout]
+- related: [All Core Devs - Testing, Execution Layer]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30411
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-104-november-23-2026/30411
+- desc: |
+  イーサリアムの実行層（Execution Layer）に関する特定のトピックや課題に焦点を当てた、All Core Devs - Testing (ACDT) 会議内の分科会。参加者がより詳細な議論や技術的な検討を行う場として機能する。
+
+## CL Breakout
+- ja: CLブレイクアウト（コンセンサス層ブレイクアウト）
+- aliases: [Consensus Layer Breakout]
+- related: [All Core Devs - Testing, Consensus Layer]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30411
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-104-november-23-2026/30411
+- desc: |
+  イーサリアムのコンセンサス層（Consensus Layer）に関する特定のトピックや課題に焦点を当てた、All Core Devs - Testing (ACDT) 会議内の分科会。実行層ブレイクアウトと同様に、専門的な議論を深めるために設けられている。
+
+## Public Input Hash
+- ja: 公開入力ハッシュ
+- related: [Zero-Knowledge Proof, Public Input]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30405
+- auto_source_url: https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405
+- desc: |
+  ゼロ知識証明において、証明の検証に必要な公開入力のハッシュ値。これにより、検証者は実際の公開入力データ全体を知ることなく、その整合性を確認できる。
+
+## Halo2 Verifier
+- ja: Halo2検証者
+- related: [Halo2, Zero-Knowledge Proof, Verifier]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30405
+- auto_source_url: https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405
+- desc: |
+  Halo2証明システムによって生成されたゼロ知識証明の有効性を検証するコンポーネント。EVM環境で実行されることが多く、L2ロールアップなどで利用される。
+
+## Pluggable Verifier
+- ja: プラガブル検証者
+- related: [Verifier, Modular Smart Accounts]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30405
+- auto_source_url: https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405
+- desc: |
+  異なる証明システムやそのバージョンを柔軟に統合できるよう、検証ロジックを交換可能なモジュールとして設計するパターン。L2ロールアップやスマートコントラクトのアップグレード戦略で重要となる。
+
+## Calldata Injection
+- ja: コールデータインジェクション
+- related: [Fallback Function, Function Selector, Reentrancy]
+- auto_added: 2026-11-17
+- auto_source_topic_id: 30405
+- auto_source_url: https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405
+- desc: |
+  操作されたコールデータを用いて、コントラクトに意図しない関数やロジックパスを実行させる脆弱性または攻撃手法。関数セレクタの偽装やフォールバック機能の悪用などが含まれる。
