@@ -4,7 +4,7 @@ aliases:
   - ポリシーインタープリター (Policy interpreter)
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **ポリシーインタープリター (Policy interpreter)**

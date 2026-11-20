@@ -4,7 +4,7 @@ aliases:
   - libp2pピアID
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **libp2pピアID**

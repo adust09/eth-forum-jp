@@ -7,7 +7,7 @@ aliases:
   - Transfer-Derived Staking
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **ホールディングタイム自動ステーキング**

@@ -4,7 +4,7 @@ aliases:
   - 安全仕様書
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **安全仕様書**

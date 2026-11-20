@@ -5,7 +5,7 @@ aliases:
   - Smart Contract Account
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **スマートアカウント**
@@ -19,6 +19,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-encrypted-account-a-pin-that-lives-in-the-contract-26265|暗号化されたアカウント: コントラクト内に存在するPIN]]（2026-11-18）
 - [[posts/magicians-2026-10-31-erc-draft-account-authority-lifecycle-for-stva-30138|ERCドラフト: [[glossary/Secure-Transaction-Verification-and-Authorization|STVA（安全なトランザクション検証と認可）]]向けアカウント権限ライフサイクル]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）
 - [[posts/magicians-2026-10-20-erc-tba-agent-default-registry-30026|ERC-TBA: エージェントデフォルトレジストリ]]（2026-10-20）

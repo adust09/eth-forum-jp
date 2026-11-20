@@ -4,7 +4,7 @@ aliases:
   - 状態タプル
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **状態タプル**

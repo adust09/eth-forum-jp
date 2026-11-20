@@ -4,7 +4,7 @@ aliases:
   - 不完全なコミットメント
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **不完全なコミットメント**
@@ -18,7 +18,7 @@ MEVオークションにおいて、ビルダーが提出された入札やペ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 
 ## 元の表記（英語）
 

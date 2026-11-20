@@ -5,7 +5,7 @@ aliases:
   - Sandwiching
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **サンドイッチ攻撃**

@@ -4,7 +4,7 @@ aliases:
   - devp2p (Ethereum P2Pネットワークプロトコル)
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **devp2p (Ethereum P2Pネットワークプロトコル)**
@@ -18,7 +18,7 @@ Ethereumクライアント間の通信に使用される基盤となるピアツ
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-19-probing-ethereum-nodes-using-sonar-26268|Sonarを用いたイーサリアムノードのプロービング]]（2026-11-19）
 
 ## 元の表記（英語）
 

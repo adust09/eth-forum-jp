@@ -4,7 +4,7 @@ aliases:
   - シビル耐性
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **シビル耐性**
@@ -18,6 +18,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/ethresear-2026-09-14-public-mempool-gas-sponsorship-needs-escrow-a-bond-or-trust-25995|パブリックメムプールでのガス代スポンサーシップにはエスクロー、ボンド、または信頼が必要]]（2026-09-14）
 - [[posts/ethresear-2026-08-13-idea-native-ethereum-delegation-ned-operator-families-and-concentration-reserve-25699|[アイデア] ネイティブイーサリアムデリゲーション (NED) - オペレーターファミリーと集中化準備金]]（2026-08-13）
 - [[posts/ethresear-2026-08-02-dynamic-leverage-pricing-for-non-transferable-time-credits-solving-skill-mismatch-in-volunteer-public-good-labor-25602|譲渡不可能な時間クレジットの動的レバレッジ価格設定：ボランティアおよび公共財労働におけるスキルミスマッチの解決]]（2026-08-02）

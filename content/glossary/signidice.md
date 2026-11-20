@@ -4,7 +4,7 @@ aliases:
   - サイニダイス (Signidice)
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **サイニダイス (Signidice)**

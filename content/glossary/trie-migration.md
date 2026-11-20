@@ -4,7 +4,7 @@ aliases:
   - トライ移行
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **トライ移行**

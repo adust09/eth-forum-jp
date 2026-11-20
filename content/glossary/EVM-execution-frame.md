@@ -5,7 +5,7 @@ aliases:
   - frame
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **EVM実行フレーム**

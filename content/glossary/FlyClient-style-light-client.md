@@ -5,7 +5,7 @@ aliases:
   - FlyClient
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **FlyClient型ライトクライアント**

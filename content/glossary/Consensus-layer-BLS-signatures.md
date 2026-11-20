@@ -4,7 +4,7 @@ aliases:
   - コンセンサス層BLS署名
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **コンセンサス層BLS署名**

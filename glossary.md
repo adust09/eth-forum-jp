@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-17
+last_updated: 2026-11-20
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19015,3 +19015,290 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix/30405
 - desc: |
   操作されたコールデータを用いて、コントラクトに意図しない関数やロジックパスを実行させる脆弱性または攻撃手法。関数セレクタの偽装やフォールバック機能の悪用などが含まれる。
+
+## FastPay
+- ja: FastPay (高速決済プロトコル)
+- related: [Owned Objects, D4 Mutual Exclusion]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26272
+- auto_source_url: https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272
+- desc: |
+  単一の所有者に紐づくオブジェクト（Owned Objects）に対して、順序付け不要なビザンチンブロードキャストを行う高速決済プロトコル。Isopoliaの3層レイテンシアーキテクチャにおける「Direct FastPath」層で利用され、低レイテンシのトランザクション処理を実現する。
+
+## D4 Mutual Exclusion
+- ja: D4相互排他
+- related: [FastPay, DAG-BFT, SealFenceCertificate]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26272
+- auto_source_url: https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272
+- desc: |
+  高速パス（FastPay）とより低速なDAG-BFTコンセンサスの間で、アカウントの状態が分岐するのを防ぐための厳格なメカニズム。DAG-BFTがアカウントを変更する前に、そのアカウントをFastPayのデビットおよび入金からロックする。
+
+## Owned Objects
+- ja: 所有オブジェクト
+- related: [Shared Objects, FastPay]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26272
+- auto_source_url: https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272
+- desc: |
+  Isopoliaのステートモデルにおいて、単一の所有者に紐づく状態（残高、メタデータ、チェックポイントなど）を指す。これらのオブジェクトは、高速パス（FastPay）での順序付け不要な処理を可能にし、低レイテンシのトランザクションに適している。
+
+## Sponsor Shielded Runway Buffer
+- ja: スポンサーシールドランウェイバッファ
+- related: [Harvest-Now-Decrypt-Later, ML-KEM-768]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26272
+- auto_source_url: https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272
+- desc: |
+  自律型AIエージェントの運用プライバシーを保護するためのメカニズム。エージェントの正確な資金残高をオンチェーンで公開せず、代わりにカーディナリティ制限付きのMerkleルートと合計ロック資金のみを公開する。これにより、競合他社によるMEVやグリーフィング攻撃を防ぐ。
+
+## Stratified Cohort Sortition
+- ja: 階層化コホート抽選
+- related: [Sybil capture, Patient-Sybil-Resistant Governance]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26272
+- auto_source_url: https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272
+- desc: |
+  シビル攻撃に耐性のあるガバナンスメカニズムの一つ。参加者をコホート（期間）で階層化し、ステークや在籍期間に応じて委員会の議席数を制限することで、長期的な攻撃者による乗っ取りを防ぐ。
+
+## Flashblocks
+- ja: フラッシュブロック
+- related: [Base L2, PropAMM]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26271
+- auto_source_url: https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271
+- desc: |
+  Base L2で導入された、約200ミリ秒間隔で生成されるサブブロック。Solanaの高速なブロック生成に似た特性を持ち、PropAMMのような高速な価格更新を可能にします。
+
+## Freshness protection
+- ja: 鮮度保護
+- related: [PropAMM, Stale-price problem, Builder]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26271
+- auto_source_url: https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271
+- desc: |
+  PropAMMにおいて、ビルダーが古い価格に対するアービトラージを防ぐために実装するメカニズム。取引が、取引送信から一定時間以上新しい価格更新に対してのみ実行されるように保証します。
+
+## Quote clock
+- ja: クオートクロック
+- related: [PropAMM, Slot clock]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26271
+- auto_source_url: https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271
+- desc: |
+  PropAMMの価格更新のタイミングを指す概念。ブロックの確定時間（スロットクロック）とは異なり、マーケットメーカーが価格を更新し、ビルダーがブロックにその価格を組み込むまでの時間を表します。
+
+## Slot clock
+- ja: スロットクロック
+- related: [Ethereum L1, Quote clock]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26271
+- auto_source_url: https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271
+- desc: |
+  Ethereumのブロックが確定するタイミングを指す概念。12秒のスロット時間に基づいており、PropAMMの価格更新タイミング（クオートクロック）と対比されます。
+
+## Stale-price problem
+- ja: 期限切れ価格問題
+- related: [PropAMM, AMM, Arbitrageur, Loss-versus-rebalancing]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26271
+- auto_source_url: https://ethresear.ch/t/anatomy-of-a-fill-propamms-on-ethereum/26271
+- desc: |
+  クラシックなAMMにおいて、ブロック内の最初の取引が古い価格に対して行われ、流動性プロバイダーがアービトラージによって損失を被る問題。PropAMMはこの問題を解決するために設計されました。
+
+## ENR
+- ja: Ethereumノードレコード (ENR)
+- related: [discv5, node ID]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26268
+- auto_source_url: https://ethresear.ch/t/probing-ethereum-nodes-using-sonar/26268
+- desc: |
+  Ethereumノードの公開情報（IPアドレス、ポート、公開鍵など）をコンパクトにまとめたレコードです。discv5プロトコルでノードの発見と識別に使用されます。
+
+## discv5
+- ja: discv5 (ディスカバリーv5)
+- related: [ENR, Kademlia DHT]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26268
+- auto_source_url: https://ethresear.ch/t/probing-ethereum-nodes-using-sonar/26268
+- desc: |
+  Ethereumのノード発見プロトコルのバージョン5です。Kademlia DHTに基づいており、ENRを使用してネットワーク上のノードを効率的に見つけるために利用されます。
+
+## libp2p
+- ja: libp2p (リブピー・ツー・ピー)
+- related: [devp2p, P2P]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26268
+- auto_source_url: https://ethresear.ch/t/probing-ethereum-nodes-using-sonar/26268
+- desc: |
+  分散型アプリケーションのためのモジュール式ネットワークスタックです。Ethereumのコンセンサス層ノード間の通信や、様々なP2Pネットワークで広く利用されています。
+
+## RLPx
+- ja: RLPx (RLPエックス)
+- related: [devp2p, RLP]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26268
+- auto_source_url: https://ethresear.ch/t/probing-ethereum-nodes-using-sonar/26268
+- desc: |
+  Ethereumのdevp2pプロトコルで使用されるトランスポートプロトコルです。RLPエンコーディングを基盤とし、暗号化されたセキュアな通信チャネルを提供します。
+
+## Encrypted Account
+- ja: 暗号化アカウント
+- related: [ERC-4337, Threshold FHE, Smart Account]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26265
+- auto_source_url: https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265
+- desc: |
+  ERC-4337スマートアカウントの一種で、PINをZamaの閾値FHEで暗号化してコントラクト内に保持する。PINの検証と試行回数のカウントをオンチェーンで行い、オフラインでのブルートフォース攻撃を防ぎ、オンラインでの試行回数を制限する。
+
+## Threshold FHE
+- ja: 閾値FHE (Threshold Fully Homomorphic Encryption)
+- related: [FHE, Fully Homomorphic Encryption, Threshold Network]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26265
+- auto_source_url: https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265
+- desc: |
+  完全に準同型暗号化（FHE）の一種で、暗号文の復号や計算結果の復号に複数のパーティ（閾値ネットワーク）の協力が必要となる。これにより、単一のエンティティが秘密鍵を保持することなく、暗号化されたデータに対する計算を可能にする。
+
+## Threshold Network
+- ja: 閾値ネットワーク
+- related: [Threshold FHE, MPC, Threshold KMS]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26265
+- auto_source_url: https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265
+- desc: |
+  閾値暗号システムにおいて、秘密鍵を共有し、閾値以上のメンバーが協力することで暗号文の復号や署名などの操作を実行する分散型ネットワーク。単一障害点のリスクを軽減し、分散型の信頼モデルを提供する。
+
+## Encrypted Policy
+- ja: 暗号化ポリシー
+- related: [Encrypted Account, FHE]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26265
+- auto_source_url: https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265
+- desc: |
+  スマートコントラクトの動作ルールや制限（例：既知のアドレスリスト、支払い上限）が暗号化された状態でオンチェーンに保存される設計パターン。これにより、ポリシーの内容が公開されることなく、コントラクトがそのポリシーに基づいて動作できる。
+
+## FHEVM
+- ja: FHEVM (Fully Homomorphic Encryption Virtual Machine)
+- related: [FHE, EVM]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26265
+- auto_source_url: https://ethresear.ch/t/encrypted-account-a-pin-that-lives-in-the-contract/26265
+- desc: |
+  完全に準同型暗号（FHE）の計算をサポートするように設計された仮想マシン。これにより、ブロックチェーン上で暗号化されたデータに対する複雑な計算を、データを復号することなく実行できるようになる。EVMの拡張または代替として検討される。
+
+## Pre-seeding
+- ja: プリシーディング
+- related: [Gloas, ePBS, Payload timeliness committee]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26264
+- auto_source_url: https://ethresear.ch/t/reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal/26264
+- desc: |
+  ePBSにおいて、ビルダーがブロックの入札時にペイロードを暗号化してチャンク化し、ブロックが有効になった後に暗号化されたペイロードチャンクをプッシュする手法。これにより、ペイロードの転送時間を短縮し、キーの公開のみを待つことで、ペイロードの可用性を向上させる。
+
+## SEACAST
+- ja: SEACAST (高速ブロードキャストプロトコル)
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26264
+- auto_source_url: https://ethresear.ch/t/reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal/26264
+- desc: |
+  Ethereumの高速ブロードキャストプロトコルとして提案されているもの。シミュレーションでは、1 MiBのペイロードを全ホームネットワークの99%に約0.6秒で到達させることが可能とされる。
+
+## Builder's option
+- ja: ビルダーのオプション
+- related: [ePBS, MEV]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26264
+- auto_source_url: https://ethresear.ch/t/reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal/26264
+- desc: |
+  ePBSの文脈における、ビルダーがペイロードを公開するタイミングに関する戦略的な決定の自由度。このオプションの価値は、決定可能な期間が長くなるほど増大するとされる。
+
+## Self-builder
+- ja: セルフビルダー
+- related: [Builder, Proposer-builder separation]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 26264
+- auto_source_url: https://ethresear.ch/t/reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal/26264
+- desc: |
+  ePBSモデルにおいて、外部のビルダーに依存せず、自身でペイロードを構築するバリデーターまたはエンティティ。この場合、ペイロードの事前配布などの最適化が不要になる可能性がある。
+
+## Dependency Verification Frame
+- ja: 依存関係検証フレーム
+- related: [EIP-8141 frame transaction, EIP-8288, leanSPHINCS signatures]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30448
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-dependency-frames-for-leansphincs-signatures/30448
+- desc: |
+  EIP-8141フレームトランザクションにネイティブなleanSPHINCS署名を付与するためのメカニズムです。このフレームはコードを実行せず、署名が依存する(scheme, data_hash, verification_key_hash)のリストを宣言します。トランザクションの実行前にノードによって検証されます。
+
+## FRAMEPARAM
+- ja: FRAMEPARAM（フレームパラメータ）
+- related: [Dependency Verification Frame, EIP-8141 frame transaction]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30448
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-dependency-frames-for-leansphincs-signatures/30448
+- desc: |
+  アカウントが依存関係検証フレームからパラメータを読み取るために使用する命令です。これにより、アカウントはトランザクションが依存する署名やその他のデータを承認できます。EIP-8141フレームトランザクションのコンテキストで導入されます。
+
+## FRAMEDATACOPY
+- ja: FRAMEDATACOPY（フレームデータコピー）
+- related: [Dependency Verification Frame, EIP-8141 frame transaction]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30448
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-dependency-frames-for-leansphincs-signatures/30448
+- desc: |
+  アカウントが依存関係検証フレームからデータをコピーするために使用する命令です。FRAMEPARAMと同様に、アカウントがトランザクションの依存関係を処理し、承認するために不可欠な機能を提供します。EIP-8141フレームトランザクションのコンテキストで導入されます。
+
+## Aggregate Proof
+- ja: 集約証明
+- related: [Proof Aggregation, leanSPHINCS signatures]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30448
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-dependency-frames-for-leansphincs-signatures/30448
+- desc: |
+  複数の個別の署名や証明を単一の証明にまとめたものです。これにより、ブロックあたりのデータサイズを削減し、検証コストを効率化できます。将来のアップグレードで、個別の署名を集約証明に置き換えることが想定されています。
+
+## Evaluated Work Record
+- ja: 評価済み作業記録
+- related: [ERC-8004, ERC-8183]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30447
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-evaluated-work-records/30447
+- desc: |
+  ERC-8004のフィードバックエントリに、エスクロー決済されたタスクの成果と支払いを結びつけるための記録。作業の受諾、拒否、未完了などの結果と、関連するエスクローログの証拠を含む。
+
+## Dynamic individual consolidation incentive
+- ja: 動的個別統合インセンティブ
+- related: [consolidation, per-validator balance deduction, target validator count]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30436
+- auto_source_url: https://ethereum-magicians.org/t/eip-8502-dynamic-individual-consolidation-incentive/30436
+- desc: |
+  EIP-8502で提案された、バリデータ数の統合を促すためのメカニズム。バリデータ数が目標値を超えている間はバリデータごとの残高控除が増加し、下回ると減少します。これにより、ステーカーはネットワークへの負荷を減らすためにバリデータ数を統合する動機付けを得ます。
+
+## Per-validator balance deduction
+- ja: バリデータごとの残高控除
+- related: [Dynamic individual consolidation incentive, validator balance]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30436
+- auto_source_url: https://ethereum-magicians.org/t/eip-8502-dynamic-individual-consolidation-incentive/30436
+- desc: |
+  各バリデータの残高から個別に差し引かれる金額。EIP-8502では、バリデータ数の統合を促す「動的個別統合インセンティブ」として機能します。バリデータがネットワークに与える負荷に応じて変動します。
+
+## Target validator count
+- ja: 目標バリデータ数
+- related: [Dynamic individual consolidation incentive, validator count, terminal target value]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30436
+- auto_source_url: https://ethereum-magicians.org/t/eip-8502-dynamic-individual-consolidation-incentive/30436
+- desc: |
+  ネットワークの健全性と効率性を維持するためにプロトコルが目指すバリデータの理想的な数。EIP-8502では、この目標値に基づいて「動的個別統合インセンティブ」が動的に調整されます。
+
+## Terminal target value
+- ja: 最終目標値
+- related: [Target validator count, Dynamic individual consolidation incentive]
+- auto_added: 2026-11-20
+- auto_source_topic_id: 30436
+- auto_source_url: https://ethereum-magicians.org/t/eip-8502-dynamic-individual-consolidation-incentive/30436
+- desc: |
+  EIP-8502において、バリデータ数の削減期間が終了した後にプロトコルが維持するバリデータ数の固定目標値。この値に達すると、バリデータ数の動的な調整は停止し、インセンティブは安定します。
