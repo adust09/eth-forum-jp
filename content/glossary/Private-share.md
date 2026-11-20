@@ -5,7 +5,7 @@ aliases:
   - secret contribution
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **秘密シェア**

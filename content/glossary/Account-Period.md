@@ -4,7 +4,7 @@ aliases:
   - 会計期間
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **会計期間**

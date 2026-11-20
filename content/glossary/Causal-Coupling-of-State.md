@@ -5,7 +5,7 @@ aliases:
   - causal coupling
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **状態の因果的結合**

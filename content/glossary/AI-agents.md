@@ -4,7 +4,7 @@ aliases:
   - AIエージェント
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **AIエージェント**
@@ -18,6 +18,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 - [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）

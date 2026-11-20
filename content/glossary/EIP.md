@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,8 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-19-add-eip-dependency-frames-for-leansphincs-signatures-30448|EIPの追加: leanSPHINCS署名のための依存関係フレーム]]（2026-11-19）
+- [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-10-eip-8488-versioned-opcodes-for-gas-repricing-30332|EIP-8488: ガス再価格設定のためのバージョン付きオペコード]]（2026-11-10）

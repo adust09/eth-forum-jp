@@ -5,7 +5,7 @@ aliases:
   - GEOF
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **生成エンジン最適化フレームワーク (GEOF)**

@@ -4,7 +4,7 @@ aliases:
   - モノリシックKEM (Monolithic KEM)
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **モノリシックKEM (Monolithic KEM)**

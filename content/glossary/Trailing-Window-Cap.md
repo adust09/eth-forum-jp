@@ -5,7 +5,7 @@ aliases:
   - rolling window cap
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **トレーリングウィンドウ・キャップ**

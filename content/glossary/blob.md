@@ -4,7 +4,7 @@ aliases:
   - ブロブ
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **ブロブ**
@@ -18,6 +18,7 @@ EIP-4844 (Proto-Danksharding) で導入された、一時的に大量のデー�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-10-rpc-standards-38-november-16-2026-30331|RPC標準 #38、2026年11月16日]]（2026-11-10）

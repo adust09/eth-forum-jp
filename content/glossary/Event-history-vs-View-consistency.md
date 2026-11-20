@@ -5,7 +5,7 @@ aliases:
   - Event-view consistency
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **イベント履歴とビューの一貫性**

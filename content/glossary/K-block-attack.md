@@ -4,7 +4,7 @@ aliases:
   - Kブロック攻撃
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **Kブロック攻撃**

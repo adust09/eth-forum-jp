@@ -5,7 +5,7 @@ aliases:
   - Execution Layer Breakout
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **ELブレイクアウト（実行層ブレイクアウト）**

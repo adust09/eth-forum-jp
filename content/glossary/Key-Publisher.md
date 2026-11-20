@@ -4,7 +4,7 @@ aliases:
   - 鍵発行者
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **鍵発行者**

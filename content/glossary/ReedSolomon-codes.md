@@ -4,7 +4,7 @@ aliases:
   - リード・ソロモン符号
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **リード・ソロモン符号**
@@ -18,6 +18,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）

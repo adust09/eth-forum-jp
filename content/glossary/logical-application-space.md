@@ -5,7 +5,7 @@ aliases:
   - application space
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **論理的アプリケーションスペース**

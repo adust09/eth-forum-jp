@@ -5,7 +5,7 @@ aliases:
   - Multi-Party Computation
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **MPC (マルチパーティ計算)**
@@ -19,6 +19,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-encrypted-account-a-pin-that-lives-in-the-contract-26265|暗号化されたアカウント: コントラクト内に存在するPIN]]（2026-11-18）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/magicians-2026-11-12-a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing-30364|QRセットアップとNFC署名による2-of-2 MPCウォレット]]（2026-11-12）
 - [[posts/magicians-2026-11-09-who-can-upgrade-7-tokenized-treasury-gold-tokens-on-ethereum-a-read-only-look-at-upgrade-control-30313|イーサリアム上の7つのトークン化された国債/金トークンをアップグレードできるのは誰か？アップグレード制御の読み取り専用調査]]（2026-11-09）

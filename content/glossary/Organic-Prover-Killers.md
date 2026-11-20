@@ -4,7 +4,7 @@ aliases:
   - オーガニック・プロバー・キラー（Organic Prover Killers）
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **オーガニック・プロバー・キラー（Organic Prover Killers）**

@@ -5,7 +5,7 @@ aliases:
   - FHE
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **完全準同型暗号 (FHE)**
@@ -19,6 +19,7 @@ date: '2026-11-17'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-encrypted-account-a-pin-that-lives-in-the-contract-26265|暗号化されたアカウント: コントラクト内に存在するPIN]]（2026-11-18）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）
 
 ## 元の表記（英語）

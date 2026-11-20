@@ -5,7 +5,7 @@ aliases:
   - SpendGrant
 tags:
   - glossary
-date: '2026-11-17'
+date: '2026-11-20'
 ---
 
 **ポータブル・スペンド・グラント**
