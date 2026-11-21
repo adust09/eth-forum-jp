@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-20
+last_updated: 2026-11-21
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19302,3 +19302,169 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/eip-8502-dynamic-individual-consolidation-incentive/30436
 - desc: |
   EIP-8502において、バリデータ数の削減期間が終了した後にプロトコルが維持するバリデータ数の固定目標値。この値に達すると、バリデータ数の動的な調整は停止し、インセンティブは安定します。
+
+## Risk Duration Integral
+- ja: リスク期間積分 (T_acc)
+- aliases: [T_acc]
+- related: [Allocation Weight, Continuous Integral Pricing]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26275
+- auto_source_url: https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275
+- desc: |
+  Unrigプロトコルにおいて、各ポジションが負うリスクを時間経過とともに累積的に測定する変数。参加者が賭けを行った時点から市場終了までのリスク総量を定量化し、それに基づいてリターンを分配する。
+
+## Continuous Integral Pricing
+- ja: 連続積分価格設定
+- related: [Early Exit, Penalty Pricing]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26275
+- auto_source_url: https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275
+- desc: |
+  Unrigプロトコルにおける早期退出時のペナルティ計算メカニズム。退出額を無限に小さな要素として扱い、それぞれの瞬時確率に基づいて価格設定することで、退出経路に依存しない公正なペナルティを保証する。
+
+## Allocation Weight
+- ja: 配分ウェイト
+- related: [Risk Duration Integral, Profit Pool]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26275
+- auto_source_url: https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275
+- desc: |
+  Unrigプロトコルにおいて、各参加者のプリンシパルとリスク期間積分の積によって計算される値。市場終了時に、このウェイトに基づいて勝者への利益が分配される。
+
+## Early Exit
+- ja: 早期退出
+- related: [Continuous Integral Pricing, Penalty Pricing]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26275
+- auto_source_url: https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275
+- desc: |
+  Unrigプロトコルにおいて、市場が終了する前にポジションを清算する機能。退出時には、その時点の市場確率に基づいて計算されたペナルティが適用され、残りのプリンシパルが返還される。
+
+## Outcome Determination System
+- ja: 結果決定システム
+- related: [Prediction Market Protocol, Community Sovereign Voting mechanism]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26275
+- auto_source_url: https://ethresear.ch/t/unrig-a-prediction-market-protocol-that-needs-no-liquidity-and-cant-be-rigged/26275
+- desc: |
+  分散型予測市場プロトコルにおいて、イベントの勝敗を正確かつ信頼性高く決定するためのシステム。特に、市場数の増加に対応できるよう、スケーラビリティと信頼性を重視して設計される。
+
+## Proving network
+- ja: プルービングネットワーク
+- related: [Recursive STARK, mempool, EIP-8288]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26263
+- auto_source_url: https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263
+- desc: |
+  EIP-8288で提案されている、トランザクションの依存関係を再帰的STARKに折り畳む機能を持つMempool。ノードがトランザクションを伝播させる際に、その依存関係を再帰的STARKに集約し、ブロックにはそれら全ての証明が1つだけ含まれるようにする。
+
+## Privacy transaction
+- ja: プライバシートランザクション
+- related: [User STARK, EIP-8288, witness]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26263
+- auto_source_url: https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263
+- desc: |
+  EIP-8288の文脈で、ユーザーSTARKを伴うトランザクションを指す。STARKのwitnessが大きすぎて現在の方法ではゴシップできないような、プライバシー保護を目的としたトランザクションの伝播を可能にする。
+
+## Mode 0 wrapper
+- ja: モード0ラッパー
+- related: [Raw transaction, witness, EIP-8288]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26263
+- auto_source_url: https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263
+- desc: |
+  EIP-8288において、ユーザーが直接提出する、トランザクション本体とwitness（署名またはSTARK）を含むデータ構造。ノードはこれを受け取り、集約プロセスを開始する。
+
+## Mode 1 wrapper
+- ja: モード1ラッパー
+- related: [Recursive STARK, proof, EIP-8288, aggregation]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26263
+- auto_source_url: https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263
+- desc: |
+  EIP-8288において、ノードが一定間隔で生成し、ピアに転送するデータ構造。複数のトランザクションのwitnessを再帰的STARK証明として集約し、その証明とカバーするトランザクションの本体（またはハッシュ）を含む。
+
+## Nested proof
+- ja: ネストされた証明 (Nested proof)
+- related: [Recursive STARK, aggregation, fold]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 26263
+- auto_source_url: https://ethresear.ch/t/eip-8288-the-networking-side-of-recursive-aggregation/26263
+- desc: |
+  再帰的STARKの集約プロセスにおいて、既存の証明を別の証明の内部で検証する際に使用される証明。ノードが自身の集約とピアからの集約をマージする際に、複数のネストされた証明を処理する必要がある。
+
+## AI Inference Token Onchain
+- ja: AI推論トークンオンチェーン
+- aliases: [AITO]
+- related: [ERC-1155, ERC-20, AI inference]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30453
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453
+- desc: |
+  AI推論の供給に対する消費可能な権利をオンチェーンで保持、転送、消費するためのフレームワーク。推論の使用量を計数する単位であり、ブロックチェーン上のトークンそのものではない。ERC-1155およびERC-20トークンを通じて権利が流通する。
+
+## Consumer Co-signature
+- ja: 消費者共同署名
+- related: [AI Inference Token Onchain, Acceptance Rule]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30453
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453
+- desc: |
+  AI Inference Token Onchain (AITO) における3つの受諾ルールの一つ。消費者が推論の使用を共同で署名することで、その消費が承認されるメカニズム。これにより、消費の正当性が保証される。
+
+## Optimistic Acceptance with an Objection Window
+- ja: 異議申し立て期間付き楽観的受諾
+- related: [AI Inference Token Onchain, Acceptance Rule, Optimistic Rollup]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30453
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453
+- desc: |
+  AI Inference Token Onchain (AITO) における3つの受諾ルールの一つ。AI推論の使用がまず楽観的に受諾され、その後一定期間内に異議申し立てがなければ確定するメカニズム。異議申し立て期間を設けることで、不正な消費を防ぐ。
+
+## Provider Metering
+- ja: プロバイダー計量
+- related: [AI Inference Token Onchain, Acceptance Rule]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30453
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453
+- desc: |
+  AI Inference Token Onchain (AITO) における3つの受諾ルールの一つ。AI推論の供給プロバイダーが使用量を計量し、その報告に基づいて消費が受諾されるメカニズム。プロバイダーが消費量を直接記録し、それをシステムが承認する。
+
+## Critical Extension
+- ja: クリティカル拡張（AITO）
+- related: [AI Inference Token Onchain, ERC]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30453
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement/30453
+- desc: |
+  AI Inference Token Onchain (AITO) シリーズの拡張メカニズム。拡張を理解しない当事者は、その拡張が影響を及ぼす操作を実行しないことで、安全性を維持する。これにより、プロトコルの進化と後方互換性の維持を両立させる。
+
+## STARK Proof Exchange
+- ja: STARKプルーフ交換 (STARK Proof Exchange)
+- related: [STARK, Proof aggregation, Zero-Knowledge Proof]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30430
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-eth-74-stark-proof-exchange/30430
+- desc: |
+  STARK証明の交換に関するEthereum Improvement Proposal (EIP)で定義されるプロトコルまたはメカニズム。異なるシステム間でSTARK証明を効率的かつ安全にやり取りする方法を確立することを目的とします。
+
+## SFI'd
+- ja: SFI済み (Standardized for Inclusion済み)
+- aliases: [Standardized for Inclusion]
+- related: [DFI'ing, EIP]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30421
+- auto_source_url: https://ethereum-magicians.org/t/thoughts-on-pqai-hegota-and-focil/30421
+- desc: |
+  Ethereum Improvement Proposal (EIP)が、コア開発者とコミュニティによってプロトコルに含めることが適切であると合意された状態を指します。実装と統合の準備が整っていることを意味します。
+
+## DFI'ing
+- ja: DFI中 (Deferred for Inclusion中)
+- aliases: [Deferred for Inclusion]
+- related: [SFI'd, EIP]
+- auto_added: 2026-11-21
+- auto_source_topic_id: 30421
+- auto_source_url: https://ethereum-magicians.org/t/thoughts-on-pqai-hegota-and-focil/30421
+- desc: |
+  Ethereum Improvement Proposal (EIP)のプロトコルへの組み込みが、特定の理由（例：未解決の課題、リソースの制約、より優先度の高い作業）により延期されている状態を指します。

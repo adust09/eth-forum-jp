@@ -4,7 +4,7 @@ aliases:
   - 再帰的証明
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **再帰的証明**
@@ -19,6 +19,7 @@ date: '2026-11-20'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/ethresear-2026-10-14-rapidblocks-with-split-proofs-execution-proofs-that-outlive-their-state-26157|分割証明によるRapidblocks: ステートよりも長く存続する実行証明]]（2026-10-14）
 

@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,7 @@ date: '2026-11-20'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-20-draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement-30453|ドラフトERC: オンチェーンAI推論トークン (AITO) - 計測、承認済み消費、決済を伴うAI推論供給の消費可能な権利]]（2026-11-20）
 - [[posts/magicians-2026-11-16-hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix-30405|呼び出し元のバイトがセレクターとなる手動構築されたcalldata（Scrollの11月10日の修正）]]（2026-11-16）
 - [[posts/magicians-2026-11-14-draft-erc-generative-engine-optimization-framework-geof-attributable-declarations-observation-commitments-and-profiles-for-how-generative-engines-represent-objects-30396|ドラフトERC: 生成エンジン最適化フレームワーク (GEOF) — 生成エンジンによるオブジェクト表現の帰属可能な宣言、観測コミットメント、プロファイル]]（2026-11-14）
 - [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）

@@ -5,7 +5,7 @@ aliases:
   - XMSS
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **拡張マークル署名スキーム (XMSS)**
@@ -20,6 +20,7 @@ date: '2026-11-20'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-18-p2p-networking-11-november-18-2026-30433|P2Pネットワーキング #11 2026年11月18日]]（2026-11-18）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 - [[posts/magicians-2026-06-05-post-quantum-erc-4337-wots-39-winternitz-one-time-signature-wallet-for-ethereum-28715|[ポスト量子ERC-4337] WOTS-39: イーサリアム向けWinternitzワンタイム署名ウォレット]]（2026-06-05）
 

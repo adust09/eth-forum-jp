@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -96,6 +96,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/AI-agents|AI agents]] — AIエージェント
 - [[glossary/AI-Dispute-Resolution-Framework|AI Dispute Resolution Framework]] — AI紛争解決フレームワーク
 - [[glossary/AI-inference-input-provenance|AI inference input provenance]] — AI推論入力の来歴
+- [[glossary/AI-Inference-Token-Onchain|AI Inference Token Onchain]] — AI推論トークンオンチェーン
 - [[glossary/AI-Sentinel|AI Sentinel]] — AIセンチネル
 - [[glossary/AI-Stewards|AI Stewards]] — AIスチュワード
 - [[glossary/AI-assisted-cryptanalysis|AI-assisted cryptanalysis]] — AI支援型暗号解読
@@ -108,6 +109,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/All-Core-Devs-Testing|All Core Devs - Testing]] — 全コア開発者会議 - テスト (ACDT)
 - [[glossary/all-home-network|all-home network]] — オールホームネットワーク
 - [[glossary/All-Subnets-Node|All-Subnets Node]] — 全サブネットノード
+- [[glossary/Allocation-Weight|Allocation Weight]] — 配分ウェイト
 - [[glossary/Allowance-bypass|Allowance bypass]] — アローワンス回避
 - [[glossary/Alternative-Mempools|Alternative Mempools]] — 代替メムプール
 - [[glossary/Ambiguity-Generation|Ambiguity Generation]] — 曖昧性生成 (Ambiguity Generation)
@@ -408,6 +410,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Const-Tier|Const Tier]] — 定数層 (Const Tier)
 - [[glossary/Constant-function-pool|Constant-function pool]] — 定数関数型プール
 - [[glossary/Constituent|Constituent]] — 構成要素（コンスティチュエント）
+- [[glossary/Consumer-Co-signature|Consumer Co-signature]] — 消費者共同署名
 - [[glossary/Consumer-cutoff|Consumer cutoff]] — コンシューマーカットオフ
 - [[glossary/content-addressed-record-types|content-addressed record types]] — コンテンツアドレス型レコードタイプ
 - [[glossary/content-addressed-terms|content-addressed terms]] — コンテンツアドレス型条件
@@ -415,6 +418,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Contestability|Contestability]] — 異議申し立て可能性
 - [[glossary/Context-Opcodes|Context Opcodes]] — コンテキストオペコード
 - [[glossary/Contextual-validity|Contextual validity]] — 文脈的有効性
+- [[glossary/Continuous-Integral-Pricing|Continuous Integral Pricing]] — 連続積分価格設定
 - [[glossary/Contract-bytecode-reuse|Contract bytecode reuse]] — コントラクトバイトコードの再利用
 - [[glossary/Contract-Deactivation|Contract Deactivation]] — コントラクト非アクティブ化
 - [[glossary/Contract-Payer-Transaction|Contract Payer Transaction]] — コントラクト支払いトランザクション
@@ -448,6 +452,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Credibly-neutral|Credibly neutral]] — 信頼できる中立性
 - [[glossary/Credit-decay|Credit decay]] — クレジットの減衰
 - [[glossary/Credit-Matched-Liquidity|Credit-Matched Liquidity]] — クレジットマッチ型流動性
+- [[glossary/Critical-Extension|Critical Extension]] — クリティカル拡張（AITO）
 - [[glossary/CROPS-framework|CROPS framework]] — CROPSフレームワーク
 - [[glossary/Cross-Chain-Nullifier-Synchronization|Cross Chain Nullifier Synchronization]] — クロスチェーンNullifier同期
 - [[glossary/cross-chain-reads|cross-chain reads]] — クロスチェーンリード
@@ -527,6 +532,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Devcon-cities|Devcon cities]] — Devcon都市名
 - [[glossary/devnet|devnet]] — 開発ネットワーク (devnet)
 - [[glossary/devp2p|devp2p]] — devp2p (Ethereum P2Pネットワークプロトコル)
+- [[glossary/DFIing|DFI'ing]] — DFI中 (Deferred for Inclusion中)
 - [[glossary/Diamond|Diamond (pattern)]] — ダイヤモンド（パターン）
 - [[glossary/Diamond-Storage|Diamond Storage]] — ダイヤモンドストレージ
 - [[glossary/DiamondCut|DiamondCut]] — DiamondCut（ダイアモンドカット）
@@ -572,6 +578,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Dynamic-individual-consolidation-incentive|Dynamic individual consolidation incentive]] — 動的個別統合インセンティブ
 - [[glossary/Dynamic-Step-Function-Penalty-Curve|Dynamic Step-Function Penalty Curve]] — 動的ステップ関数ペナルティカーブ
 - [[glossary/Dynamic-Voting-Cap-Generation|Dynamic Voting Cap Generation]] — 動的投票上限生成
+- [[glossary/Early-Exit|Early Exit]] — 早期退出
 - [[glossary/ECDH|ECDH]] — 楕円曲線ディフィー・ヘルマン鍵共有 (ECDH)
 - [[glossary/ECDSA-signature|ECDSA signature]] — ECDSA署名 (楕円曲線デジタル署名アルゴリズム署名)
 - [[glossary/Eclipse-attack|Eclipse attack]] — エクリプス攻撃
@@ -1142,6 +1149,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/ML-DSA|ML-DSA]] — ML-DSA (格子ベース署名アルゴリズム)
 - [[glossary/ML-KEM|ML-KEM]] — ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)
 - [[glossary/ML-KEM-768|ML-KEM-768]] — ML-KEM-768
+- [[glossary/Mode-0-wrapper|Mode 0 wrapper]] — モード0ラッパー
+- [[glossary/Mode-1-wrapper|Mode 1 wrapper]] — モード1ラッパー
 - [[glossary/Modular-smart-accounts|Modular smart accounts]] — モジュラー型スマートアカウント (Modular Smart Accounts)
 - [[glossary/Modular-Trust-Architecture|Modular Trust Architecture]] — モジュラー信頼アーキテクチャ
 - [[glossary/Module|Module]] — モジュール
@@ -1182,6 +1191,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/NAV-cutoffs|NAV cutoffs]] — NAVカットオフ
 - [[glossary/NAV-freshnessstaleness|NAV freshness/staleness]] — NAVの鮮度/陳腐度
 - [[glossary/nested-iframe-pattern|nested iframe pattern]] — ネストされたiframeパターン
+- [[glossary/Nested-proof|Nested proof]] — ネストされた証明 (Nested proof)
 - [[glossary/Net-Gas-Metering-for-Account-Changes|Net Gas Metering for Account Changes]] — アカウント変更のネットガス計測
 - [[glossary/NFT-Controlled-Application-Space|NFT Controlled Application Space]] — NFT制御型アプリケーションスペース
 - [[glossary/NFT-Bound-Prediction-Markets|NFT-Bound Prediction Markets]] — NFT紐付け型予測市場
@@ -1259,6 +1269,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/OPRF-document-fingerprint|OPRF document fingerprint]] — OPRF文書フィンガープリント（OPRF document fingerprint）
 - [[glossary/Opted-in-contract|Opted-in contract]] — オプトインコントラクト
 - [[glossary/Optimality-of-Structured-Silence|Optimality of Structured Silence]] — 構造化された沈黙の最適性
+- [[glossary/Optimistic-Acceptance-with-an-Objection-Window|Optimistic Acceptance with an Objection Window]] — 異議申し立て期間付き楽観的受諾
 - [[glossary/optimistic-dispute-window|optimistic dispute window]] — オプティミスティック紛争期間
 - [[glossary/Optimistic-Handler|Optimistic Handler]] — オプティミスティックハンドラー
 - [[glossary/Option-Deterrence|Option Deterrence]] — オプション抑止
@@ -1278,6 +1289,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ossification-Candidate|Ossification Candidate]] — 骨化候補
 - [[glossary/Ossification-resistant|Ossification-resistant]] — オシフィケーション耐性 (硬化耐性)
 - [[glossary/Ossified|Ossified (status)]] — 骨化済み（ステータス）
+- [[glossary/Outcome-Determination-System|Outcome Determination System]] — 結果決定システム
 - [[glossary/Outcome-Switching|Outcome Switching]] — アウトカム・スイッチング（結果のすり替え）
 - [[glossary/Outgoing-Window-Limits|Outgoing Window Limits]] — 送金ウィンドウ制限
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
@@ -1427,6 +1439,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Privacy-Primitive|Privacy Primitive]] — プライバシープリミティブ (Privacy Primitive)
 - [[glossary/Privacy-Relay|Privacy Relay]] — プライバシーリレー
 - [[glossary/privacy-set|privacy set]] — プライバシーセット
+- [[glossary/Privacy-transaction|Privacy transaction]] — プライバシートランザクション
 - [[glossary/Privacy-native-fungible-token|Privacy-native fungible token]] — プライバシーネイティブなファンジブルトークン
 - [[glossary/PrivacyCall|PrivacyCall]] — PrivacyCall (プライバシーコール)
 - [[glossary/Private-order-flow|Private order flow]] — プライベートオーダーフロー
@@ -1473,6 +1486,8 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Protocol-Property-Finality|Protocol-Property Finality]] — プロトコルプロパティのファイナリティ
 - [[glossary/Provenance-Class|Provenance Class]] — プロベナンスクラス
 - [[glossary/prover|prover]] — プルーバー
+- [[glossary/Provider-Metering|Provider Metering]] — プロバイダー計量
+- [[glossary/Proving-network|Proving network]] — プルービングネットワーク
 - [[glossary/proving-relation|proving relation]] — 証明関係
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Public-flow|Public flow]] — パブリックフロー
@@ -1596,6 +1611,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Revolving-Credit|Revolving Credit]] — リボルビング信用（リボルビング・クレジット）
 - [[glossary/Reward-routing|Reward routing]] — 報酬ルーティング
 - [[glossary/RIP|RIP]] — Rollup Improvement Proposal (RIP)
+- [[glossary/Risk-Duration-Integral|Risk Duration Integral]] — リスク期間積分 (T_acc)
 - [[glossary/risk-slot|risk slot]] — リスクスロット
 - [[glossary/risk-source|risk source]] — リスクソース
 - [[glossary/RLP|RLP]] — RLP (Recursive Length Prefix)
@@ -1690,6 +1706,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Settlement-Object|Settlement Object]] — 決済オブジェクト (Settlement Object)
 - [[glossary/Settlement-Decoupled-Nanopayment-Ledger|Settlement-Decoupled Nanopayment Ledger]] — 決済分離型ナノペイメント台帳
 - [[glossary/sexed-DAG|sexed DAG]] — 性別付きDAG (sexed DAG)
+- [[glossary/SFId|SFI'd]] — SFI済み (Standardized for Inclusion済み)
 - [[glossary/shadow-mode|shadow mode]] — シャドウモード
 - [[glossary/shadow-root|shadow-root]] — シャドウルート
 - [[glossary/Shapley-Value|Shapley Value]] — シャプレー値
@@ -1788,6 +1805,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Standards-Track-proposal|Standards Track proposal]] — 標準トラック提案
 - [[glossary/STARK|STARK]] — STARK (スケーラブルで透過的な知識の引数)
 - [[glossary/STARK-Aggregation|STARK Aggregation]] — STARK集約
+- [[glossary/STARK-Proof-Exchange|STARK Proof Exchange]] — STARKプルーフ交換 (STARK Proof Exchange)
 - [[glossary/STARK-LDE-NTT|STARK-LDE NTT]] — STARK-LDE NTT (STARK低次拡張数論変換)
 - [[glossary/STARK-style-LDE|STARK-style LDE]] — STARK形式のLDE (STARK-style LDE)
 - [[glossary/state-access|state access]] — 状態アクセス

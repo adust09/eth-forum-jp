@@ -5,7 +5,7 @@ aliases:
   - supply function
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **供給関数（交換経済）**

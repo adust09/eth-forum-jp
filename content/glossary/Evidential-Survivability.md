@@ -4,7 +4,7 @@ aliases:
   - 証拠の存続可能性 (Evidential Survivability)
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **証拠の存続可能性 (Evidential Survivability)**

@@ -4,7 +4,7 @@ aliases:
   - プルーバー
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **プルーバー**
@@ -18,6 +18,7 @@ zkEVMのブロック検証フローにおいて、ブロックのトランザク
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-18-eip-8288-the-networking-side-of-recursive-aggregation-26263|EIP-8288: 再帰的集約のネットワーキング側面]]（2026-11-18）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）

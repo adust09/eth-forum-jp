@@ -5,7 +5,7 @@ aliases:
   - development network
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **開発ネットワーク (devnet)**
@@ -19,6 +19,7 @@ Ethereumのプロトコルアップグレードや新機能のテストのため
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-04-frame-transaction-breakout-8-nov-17-2026-30274|[[glossary/Frame-Transactions|フレームトランザクション]]ブレイクアウト #8、2026年11月17日]]（2026-11-04）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）
 - [[posts/magicians-2026-10-13-frame-transaction-breakout-7-oct-20-2026-29961|フレームトランザクション分科会 #7、2026年10月20日]]（2026-10-13）

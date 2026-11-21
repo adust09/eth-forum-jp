@@ -4,7 +4,7 @@ aliases:
   - AI支援型暗号解読
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **AI支援型暗号解読**

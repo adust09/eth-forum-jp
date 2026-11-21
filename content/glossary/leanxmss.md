@@ -4,7 +4,7 @@ aliases:
   - leanXMSS
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **leanXMSS**
@@ -18,6 +18,7 @@ Ethereumのコンセンサス層（lean Ethereum）で使用されることを�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/ethresear-2026-08-16-ethereum-lessons-from-a-live-end-to-end-pq-proof-native-protocol-25730|ライブなエンドツーエンドのポスト量子プルーフネイティブプロトコルから得られたイーサリアムの教訓]]（2026-08-16）
 
 ## 元の表記（英語）

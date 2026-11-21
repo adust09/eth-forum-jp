@@ -5,7 +5,7 @@ aliases:
   - pai
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **ポストAI (post-AI)**
@@ -21,7 +21,7 @@ AIの能力向上による脅威（数学的問題の解決、ソフトウェア
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 
 ## 元の表記（英語）
 

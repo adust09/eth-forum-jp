@@ -6,7 +6,7 @@ aliases:
   - warm access costs
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **コールド/ウォームアクセスコスト**
