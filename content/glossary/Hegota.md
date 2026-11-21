@@ -4,7 +4,7 @@ aliases:
   - ヘゴタ
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **ヘゴタ**
@@ -18,6 +18,7 @@ Glamsterdamの後にガスリミットのスケーリングを維持するため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）
 - [[posts/magicians-2026-10-07-all-core-devs-testing-acdt-100-october-12-2026-29903|全コア開発者会議 - テスト (ACDT) #100、2026年10月12日]]（2026-10-07）
 - [[posts/magicians-2026-10-03-all-core-devs-consensus-acdc-189-october-15-2026-29847|全コア開発者会議 - コンセンサス (ACDC) #189、2026年10月15日]]（2026-10-03）

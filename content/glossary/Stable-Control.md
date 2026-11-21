@@ -4,7 +4,7 @@ aliases:
   - 安定制御（Stable Control）
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **安定制御（Stable Control）**

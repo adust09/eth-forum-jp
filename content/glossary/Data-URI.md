@@ -4,7 +4,7 @@ aliases:
   - Data URI (トークンメタデータにおける)
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **Data URI (トークンメタデータにおける)**

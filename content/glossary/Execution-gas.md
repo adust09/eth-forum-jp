@@ -5,7 +5,7 @@ aliases:
   - execution-gas
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **実行ガス**

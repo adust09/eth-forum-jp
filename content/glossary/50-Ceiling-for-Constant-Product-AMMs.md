@@ -5,7 +5,7 @@ aliases:
   - Proposition 2
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **定数積AMMにおける50%上限（命題2）**

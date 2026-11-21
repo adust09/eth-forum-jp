@@ -4,7 +4,7 @@ aliases:
   - 非系統的MDSパンクチャリング (Non-Systematic MDS Puncturing)
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **非系統的MDSパンクチャリング (Non-Systematic MDS Puncturing)**

@@ -4,7 +4,7 @@ aliases:
   - CALLSTATUS命令
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **CALLSTATUS命令**

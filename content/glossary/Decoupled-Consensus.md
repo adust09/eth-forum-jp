@@ -4,7 +4,7 @@ aliases:
   - デカップルド・コンセンサス
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **デカップルド・コンセンサス**
@@ -18,6 +18,7 @@ Ethereumのコンセンサス層と実行層の役割を分離する設計思想
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 
 ## 元の表記（英語）

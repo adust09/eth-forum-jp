@@ -4,7 +4,7 @@ aliases:
   - burnedBy (関数)
 tags:
   - glossary
-date: '2026-11-20'
+date: '2026-11-21'
 ---
 
 **burnedBy (関数)**
