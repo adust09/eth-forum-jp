@@ -5,7 +5,7 @@ aliases:
   - L2 Rollup
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **ロールアップ**

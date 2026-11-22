@@ -4,7 +4,7 @@ aliases:
   - 破壊証明 (destruction receipt)
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **破壊証明 (destruction receipt)**

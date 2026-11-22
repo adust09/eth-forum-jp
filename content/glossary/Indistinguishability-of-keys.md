@@ -6,7 +6,7 @@ aliases:
   - ANO-CCA
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **鍵の不可分性 (IK-CCA, ANO-CCA)**

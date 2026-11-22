@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -493,6 +493,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Decentralized-State|Decentralized State]] — 分散型ステート
 - [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
 - [[glossary/Decision-Policy|Decision Policy]] — 意思決定ポリシー
+- [[glossary/Decision-receipts|Decision receipts]] — 決定レシート
 - [[glossary/declareCompromised|declareCompromised()]] — declareCompromised()（アカウント侵害宣言機能）
 - [[glossary/decode-memory-amplification|decode memory amplification]] — デコード時のメモリ増幅
 - [[glossary/Decoupled-Consensus|Decoupled Consensus]] — デカップルド・コンセンサス
@@ -754,6 +755,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/eXtended-Merkle-Signature-Scheme|eXtended Merkle Signature Scheme]] — 拡張マークル署名スキーム (XMSS)
 - [[glossary/Extensible-Contract-Metadata|Extensible Contract Metadata]] — 拡張可能なコントラクトメタデータ
 - [[glossary/External-Policy-Contract|External Policy Contract]] — 外部ポリシーコントラクト
+- [[glossary/external-policy-signer|external policy signer]] — 外部ポリシー署名者
 - [[glossary/External-value-anchor|External value anchor]] — 外部価値アンカー
 - [[glossary/extraerc8004|extra.erc8004]] — extra.erc8004 (支払い要求のメタデータフィールド)
 - [[glossary/Facet|Facet (smart contract)]] — ファセット（スマートコントラクト）
@@ -945,6 +947,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Indexer|Indexer]] — インデクサー
 - [[glossary/Indistinguishability-of-keys|Indistinguishability of keys]] — 鍵の不可分性 (IK-CCA, ANO-CCA)
 - [[glossary/Inference-Programs|Inference Programs]] — 推論プログラム
+- [[glossary/Inference-Receipts|Inference Receipts]] — 推論レシート (Inference Receipts)
 - [[glossary/Informational-ERC|Informational ERC]] — 情報提供ERC (Informational ERC)
 - [[glossary/Informed-Diffusion|Informed Diffusion]] — Informed Diffusion（インフォームド・ディフュージョン）
 - [[glossary/Infrastructure-Layer-Gatekeeper|Infrastructure-Layer Gatekeeper]] — インフラ層ゲートキーパー
@@ -1372,9 +1375,11 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Pointer-Map|Pointer Map]] — ポインタマップ
 - [[glossary/Pointer-based-Confidentiality-System|Pointer-based Confidentiality System]] — ポインタベースの機密性システム
 - [[glossary/Poisoned-Address|Poisoned Address]] — ポイズンドアドレス
+- [[glossary/Policy-commitments|Policy commitments]] — ポリシーコミットメント
 - [[glossary/Policy-Domain|Policy Domain]] — ポリシードメイン (Policy Domain)
 - [[glossary/Policy-interpreter|Policy interpreter]] — ポリシーインタープリター (Policy interpreter)
 - [[glossary/Policy-Layer|Policy Layer]] — ポリシー層
+- [[glossary/Policy-Enforced-Agent-Accounts|Policy-Enforced Agent Accounts]] — ポリシー強制型エージェントアカウント
 - [[glossary/polynomial-commitment|polynomial commitment]] — 多項式コミットメント
 - [[glossary/Ponzi-Scheme-Detection|Ponzi Scheme Detection]] — ポンジスキーム検出
 - [[glossary/populated-read|populated read]] — 値あり読み取り
@@ -1518,6 +1523,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/random-churn|random churn]] — ランダムチャーン
 - [[glossary/Rapidblocks|Rapidblocks]] — Rapidblocks（ラピッドブロック）
 - [[glossary/Re-execution|Re-execution]] — 再実行
+- [[glossary/read-and-evidence-layer|read-and-evidence layer]] — 読み取り・証拠レイヤー
 - [[glossary/read-only-contract|read-only contract]] — 読み取り専用コントラクト
 - [[glossary/Reasoned-Settlement|Reasoned Settlement]] — 推論に基づく決済
 - [[glossary/Reasoning-Attestation|Reasoning Attestation]] — 推論証明

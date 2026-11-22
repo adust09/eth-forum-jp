@@ -5,7 +5,7 @@ aliases:
   - ASF
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **エージェント安全フレームワーク (ASF)**

@@ -4,7 +4,7 @@ aliases:
   - 入力ルール (Input rule)
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **入力ルール (Input rule)**

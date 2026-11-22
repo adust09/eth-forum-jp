@@ -4,7 +4,7 @@ aliases:
   - 最終目標値
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **最終目標値**
