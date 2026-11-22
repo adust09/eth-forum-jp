@@ -5,7 +5,7 @@ aliases:
   - SCOP
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **スマートコントラクト指向プログラミング**

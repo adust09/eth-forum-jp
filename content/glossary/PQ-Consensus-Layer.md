@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Consensus Layer
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **PQコンセンサスレイヤー (Post-Quantum Consensus Layer)**

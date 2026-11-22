@@ -4,7 +4,7 @@ aliases:
   - 離散対数
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **離散対数**

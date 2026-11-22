@@ -4,7 +4,7 @@ aliases:
   - 不変条件
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **不変条件**

@@ -4,7 +4,7 @@ aliases:
   - ライフサイクル (IBond enum)
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **ライフサイクル (IBond enum)**

@@ -5,7 +5,7 @@ aliases:
   - EIP-7805
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **FOCIL (強制オンチェーンインクルージョンリスト)**

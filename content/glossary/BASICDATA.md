@@ -4,7 +4,7 @@ aliases:
   - BASIC_DATA
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **BASIC_DATA**

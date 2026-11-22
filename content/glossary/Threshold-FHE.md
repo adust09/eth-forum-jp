@@ -4,7 +4,7 @@ aliases:
   - 閾値FHE (Threshold Fully Homomorphic Encryption)
 tags:
   - glossary
-date: '2026-11-21'
+date: '2026-11-22'
 ---
 
 **閾値FHE (Threshold Fully Homomorphic Encryption)**

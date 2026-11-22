@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19468,3 +19468,57 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/thoughts-on-pqai-hegota-and-focil/30421
 - desc: |
   Ethereum Improvement Proposal (EIP)のプロトコルへの組み込みが、特定の理由（例：未解決の課題、リソースの制約、より優先度の高い作業）により延期されている状態を指します。
+
+## Policy-Enforced Agent Accounts
+- ja: ポリシー強制型エージェントアカウント
+- related: [Agent Accounts, ERC-7579, ERC-7780, ERC-7710, ERC-8226, ERC-8196]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30467
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467
+- desc: |
+  アプリ、ウォレット、またはレンダラーがエージェントのアカウントが外部のポリシー署名者によって保護されているか、そのポリシーが何を許可しているか、または何かが拒否された理由を判断するための標準的な方法を提供するERCの概念。
+
+## external policy signer
+- ja: 外部ポリシー署名者
+- related: [Policy-Enforced Agent Accounts, policy signer]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30467
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467
+- desc: |
+  エージェントアカウントの動作を制御するポリシーを外部から署名し、強制するエンティティ。アカウントのセキュリティと権限管理を強化するために使用される。
+
+## read-and-evidence layer
+- ja: 読み取り・証拠レイヤー
+- related: [Policy-Enforced Agent Accounts, Policy commitments, Decision receipts]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30467
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467
+- desc: |
+  エージェントアカウントに適用されるポリシーの内容を読み取り、そのポリシーに基づく決定の証拠を提供するレイヤー。ポリシーの透明性と検証可能性を向上させる。
+
+## Policy commitments
+- ja: ポリシーコミットメント
+- related: [Policy-Enforced Agent Accounts, read-and-evidence layer, policy document hash]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30467
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467
+- desc: |
+  オフチェーンのポリシー文書のハッシュ値であり、オンチェーンでコミットされる。これにより、ポリシーの整合性と検証可能性が保証される。
+
+## Decision receipts
+- ja: 決定レシート
+- related: [Policy-Enforced Agent Accounts, EIP-712, ERC-1271]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30467
+- auto_source_url: https://ethereum-magicians.org/t/draft-erc-policy-enforced-agent-accounts/30467
+- desc: |
+  ポリシーに基づく決定（承認または拒否）の検証可能な証拠。EIP-712形式で、特定のインテント、ポリシーハッシュ、および有効期限にバインドされる。
+
+## Inference Receipts
+- ja: 推論レシート (Inference Receipts)
+- related: [ERC-8510, x402, EIP-3009]
+- auto_added: 2026-11-22
+- auto_source_topic_id: 30464
+- auto_source_url: https://ethereum-magicians.org/t/erc-8510-inference-receipts/30464
+- desc: |
+  ERC-8510で提案されている、AIモデルエンドポイントへの支払いごとに発行される署名付きレシート。リクエストとレスポンスのハッシュ、モデル、トークン数、価格、支払い情報を含み、エンドポイントが署名する。これにより、支払い証明とサービス内容の検証が可能となる。
