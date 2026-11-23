@@ -5,7 +5,7 @@ aliases:
   - Standardized for Inclusion
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **SFI済み (Standardized for Inclusion済み)**

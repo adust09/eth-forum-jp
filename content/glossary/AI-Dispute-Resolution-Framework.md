@@ -5,7 +5,7 @@ aliases:
   - ADRF
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **AI紛争解決フレームワーク**

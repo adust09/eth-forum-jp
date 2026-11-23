@@ -4,7 +4,7 @@ aliases:
   - FHEVM (Fully Homomorphic Encryption Virtual Machine)
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **FHEVM (Fully Homomorphic Encryption Virtual Machine)**

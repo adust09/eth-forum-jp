@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -356,6 +356,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Codehash|Codehash]] — コードハッシュ
 - [[glossary/Cohort|Cohort]] — コホート
 - [[glossary/Cohort-Order-Book|Cohort Order Book]] — コホートオーダーブック
+- [[glossary/Cold-SLOADs|Cold SLOADs]] — コールドSLOAD
 - [[glossary/cold-storage-reads|cold storage reads]] — コールドストレージ読み取り
 - [[glossary/Cold-subtree|Cold subtree]] — コールドサブツリー
 - [[glossary/Cold-key-exit|Cold-key exit]] — コールドキー・イグジット (Cold-key exit)
@@ -736,6 +737,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Execution-homogeneity|Execution homogeneity]] — 実行均一性
 - [[glossary/Execution-hooks|Execution hooks]] — 実行フック
 - [[glossary/execution-layer|execution layer]] — 実行レイヤー
+- [[glossary/Execution-Payload|Execution Payload]] — 実行ペイロード
 - [[glossary/execution-payload-root|execution payload root]] — 実行ペイロードルート
 - [[glossary/Execution-payment-leg|Execution payment leg]] — 実行ペイメントレッグ
 - [[glossary/execution-position|execution position]] — 実行位置
@@ -792,6 +794,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Flash-loan-manipulation|Flash-loan manipulation]] — フラッシュローン操作
 - [[glossary/Flashblocks|Flashblocks]] — フラッシュブロック
 - [[glossary/Flock|Flock]] — Flock (フロック)
+- [[glossary/Floor-bound-transaction|Floor-bound transaction]] — フロア制約トランザクション
 - [[glossary/Fluid-MPC|Fluid MPC]] — Fluid MPC (流動的マルチパーティ計算)
 - [[glossary/FlyClient-style-light-client|FlyClient-style light client]] — FlyClient型ライトクライアント
 - [[glossary/FN-DSA|FN-DSA]] — FN-DSA (Falcon)
@@ -1727,6 +1730,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signature-aggregation|signature aggregation]] — 署名集約
 - [[glossary/Signature-Consent|Signature Consent]] — 署名による同意
+- [[glossary/SignedExecutionPayloadEnvelope|SignedExecutionPayloadEnvelope]] — 署名済み実行ペイロードエンベロープ
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
 - [[glossary/Signing-Ceremony|Signing Ceremony]] — 署名セレモニー
@@ -1746,6 +1750,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/SizzLean|SizzLean]] — SizzLean
 - [[glossary/SkillBinding|SkillBinding]] — スキルバインディング
 - [[glossary/SkillRoot|SkillRoot]] — スキルルート
+- [[glossary/Skipped-authorizations|Skipped authorizations]] — スキップされた承認
 - [[glossary/slashed-collateral|slashed collateral]] — スラッシュされた担保（slashed collateral）
 - [[glossary/Slashing-curves|Slashing curves]] — スラッシング曲線 (Slashing curves)
 - [[glossary/Slashing-backed-finality|Slashing-backed finality]] — スラッシング担保型ファイナリティ

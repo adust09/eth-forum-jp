@@ -5,7 +5,7 @@ aliases:
   - forward-compatible gas repricing
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **ガス再価格設定**

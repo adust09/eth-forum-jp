@@ -4,7 +4,7 @@ aliases:
   - 累積型EIP-712バウチャー
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **累積型EIP-712バウチャー**

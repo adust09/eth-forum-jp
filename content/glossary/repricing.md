@@ -4,7 +4,7 @@ aliases:
   - 再価格設定
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **再価格設定**
@@ -18,6 +18,7 @@ Ethereumネットワークにおけるトランザクション手数料やリソ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-10-all-core-devs-testing-acdt-103-november-16-2026-30326|全コア開発者会議 - テスト (ACDT) #103、2026年11月16日]]（2026-11-10）
 - [[posts/magicians-2026-11-10-eip-8488-versioned-opcodes-for-gas-repricing-30332|EIP-8488: ガス再価格設定のためのバージョン付きオペコード]]（2026-11-10）

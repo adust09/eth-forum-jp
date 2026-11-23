@@ -5,7 +5,7 @@ aliases:
   - CompromisedSavior
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **セイバー（救済アドレス）**

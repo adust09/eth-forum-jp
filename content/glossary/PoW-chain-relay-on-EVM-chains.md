@@ -4,7 +4,7 @@ aliases:
   - EVMチェーン上のPoWチェーンリレー
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **EVMチェーン上のPoWチェーンリレー**

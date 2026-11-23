@@ -5,7 +5,7 @@ aliases:
   - QR setup
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **QRコードのみによる初期化**

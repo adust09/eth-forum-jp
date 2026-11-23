@@ -5,7 +5,7 @@ aliases:
   - Groth16
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **Groth16証明**
