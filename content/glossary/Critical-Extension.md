@@ -4,7 +4,7 @@ aliases:
   - クリティカル拡張（AITO）
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **クリティカル拡張（AITO）**

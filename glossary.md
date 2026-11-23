@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19522,3 +19522,48 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-8510-inference-receipts/30464
 - desc: |
   ERC-8510で提案されている、AIモデルエンドポイントへの支払いごとに発行される署名付きレシート。リクエストとレスポンスのハッシュ、モデル、トークン数、価格、支払い情報を含み、エンドポイントが署名する。これにより、支払い証明とサービス内容の検証が可能となる。
+
+## SignedExecutionPayloadEnvelope
+- ja: 署名済み実行ペイロードエンベロープ
+- related: [Execution Payload, CL envelope, SSZ]
+- auto_added: 2026-11-23
+- auto_source_topic_id: 26281
+- auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
+- desc: |
+  コンセンサス層（CL）でゴシップされるブロックのデータ構造です。実行ペイロード、ブロックアクセスリスト、実行リクエスト、BLS署名などを含み、CLのゴシップメッセージサイズ上限（10 MiB）の対象となります。
+
+## Execution Payload
+- ja: 実行ペイロード
+- related: [SignedExecutionPayloadEnvelope, EL block]
+- auto_added: 2026-11-23
+- auto_source_topic_id: 26281
+- auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
+- desc: |
+  Ethereumの実行層（EL）のブロック内容をカプセル化したデータ構造です。トランザクション、引き出し、ヘッダーフィールドなどが含まれ、コンセンサス層のエンベロープ内で転送されます。
+
+## Skipped authorizations
+- ja: スキップされた承認
+- related: [EIP-7702, Authorization]
+- auto_added: 2026-11-23
+- auto_source_topic_id: 26281
+- auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
+- desc: |
+  EIP-7702で導入された承認メカニズムにおいて、特定の条件（例：誤ったチェーンID）により検証がスキップされる承認です。トランザクションは有効なまま、ガスを消費せずにブロックサイズを増大させるために悪用される可能性があります。
+
+## Cold SLOADs
+- ja: コールドSLOAD
+- related: [SLOAD, Block Access List (BAL), Cold access costs]
+- auto_added: 2026-11-23
+- auto_source_topic_id: 26281
+- auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
+- desc: |
+  Ethereumのストレージからデータを読み込むSLOAD操作のうち、アクセスリストに含まれていない「コールド」なストレージキーに対するものです。高いガスコストがかかり、ブロックアクセスリスト（BAL）のサイズを増大させる要因となります。
+
+## Floor-bound transaction
+- ja: フロア制約トランザクション
+- related: [Intrinsic gas, Gas floor]
+- auto_added: 2026-11-23
+- auto_source_topic_id: 26281
+- auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
+- desc: |
+  トランザクションのガス使用量が、その実行ガスではなく、EIP-7623およびEIP-7976で定義された「フロア」値によって決定される状態のトランザクションです。フロア値を超えない範囲での追加実行はガスコストを増やさないため、効率的にブロックサイズを増やすために利用されることがあります。

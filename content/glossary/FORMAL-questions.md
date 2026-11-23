@@ -4,7 +4,7 @@ aliases:
   - 形式的質問
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **形式的質問**

@@ -4,7 +4,7 @@ aliases:
   - 個別計測
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **個別計測**

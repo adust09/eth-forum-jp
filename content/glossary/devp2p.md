@@ -4,7 +4,7 @@ aliases:
   - devp2p (Ethereum P2Pネットワークプロトコル)
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **devp2p (Ethereum P2Pネットワークプロトコル)**

@@ -4,7 +4,7 @@ aliases:
   - 集約証明
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **集約証明**

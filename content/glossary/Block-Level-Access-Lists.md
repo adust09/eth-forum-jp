@@ -5,7 +5,7 @@ aliases:
   - BAL
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **ブロックレベルアクセスリスト (BAL)**
@@ -20,6 +20,7 @@ date: '2026-11-22'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 
 ## 元の表記（英語）

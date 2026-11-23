@@ -5,7 +5,7 @@ aliases:
   - quote state
 tags:
   - glossary
-date: '2026-11-22'
+date: '2026-11-23'
 ---
 
 **メーカー状態**
