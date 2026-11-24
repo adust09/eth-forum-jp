@@ -5,7 +5,7 @@ aliases:
   - Subject
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **開示対象**

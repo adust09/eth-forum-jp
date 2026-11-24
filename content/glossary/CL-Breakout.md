@@ -5,7 +5,7 @@ aliases:
   - Consensus Layer Breakout
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **CLブレイクアウト（コンセンサス層ブレイクアウト）**

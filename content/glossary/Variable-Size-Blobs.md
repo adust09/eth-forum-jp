@@ -4,7 +4,7 @@ aliases:
   - 可変サイズブロブ (Variable-Size Blobs)
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **可変サイズブロブ (Variable-Size Blobs)**

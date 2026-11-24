@@ -5,7 +5,7 @@ aliases:
   - Grand Product Argument
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **GKR (Grand Product Argument)**

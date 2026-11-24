@@ -4,7 +4,7 @@ aliases:
   - SEACAST (高速ブロードキャストプロトコル)
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **SEACAST (高速ブロードキャストプロトコル)**

@@ -4,7 +4,7 @@ aliases:
   - ドラフト (EIP/ERC)
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **ドラフト (EIP/ERC)**
@@ -21,6 +21,7 @@ EIPまたはERCの提案が初期段階にあり、まだ変更が頻繁に行�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-23-erc-8512-gpu-collateral-evidence-30476|ERC-8512: GPU担保の証拠]]（2026-11-23）
 - [[posts/magicians-2026-11-10-eip-8488-versioned-opcodes-for-gas-repricing-30332|EIP-8488: ガス再価格設定のためのバージョン付きオペコード]]（2026-11-10）
 - [[posts/ethresear-2026-11-06-a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet-26223|フレームトランザクション上のプライバシープール: 機能するものと、まだ機能しないもの]]（2026-11-06）
 - [[posts/magicians-2026-11-01-erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer-30170|ERC-8415とBinanceハッキング事件：何が凍結可能か、そしてRWAにアセットステート層が必要な理由]]（2026-11-01）

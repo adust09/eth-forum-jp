@@ -4,7 +4,7 @@ aliases:
   - FastPay (高速決済プロトコル)
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **FastPay (高速決済プロトコル)**

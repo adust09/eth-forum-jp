@@ -5,7 +5,7 @@ aliases:
   - HBKD
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **ハッシュベース鍵導出 (HBKD)**

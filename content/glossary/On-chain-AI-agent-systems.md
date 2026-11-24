@@ -4,7 +4,7 @@ aliases:
   - オンチェーンAIエージェントシステム
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **オンチェーンAIエージェントシステム**
@@ -18,6 +18,7 @@ date: '2026-11-23'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-20-erc-8507-agent-allowlist-framework-aaf-30456|ERC-8507: エージェント許可リストフレームワーク (AAF)]]（2026-11-20）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 - [[posts/magicians-2026-06-13-draft-erc-ai-agent-execution-28785|ドラフトERC: AIエージェント実行]]（2026-06-13）
 

@@ -5,7 +5,7 @@ aliases:
   - Agent Repay-First Payee
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **返済優先受取人 (Repay-First Payee)**

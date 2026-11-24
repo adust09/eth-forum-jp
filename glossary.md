@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19567,3 +19567,342 @@ description: |
 - auto_source_url: https://ethresear.ch/t/whats-a-block-and-how-big-can-it-get/26281
 - desc: |
   トランザクションのガス使用量が、その実行ガスではなく、EIP-7623およびEIP-7976で定義された「フロア」値によって決定される状態のトランザクションです。フロア値を超えない範囲での追加実行はガスコストを増やさないため、効率的にブロックサイズを増やすために利用されることがあります。
+
+## ProgressiveBitlist
+- ja: プログレッシブビットリスト
+- related: [Attestation, Bitlist]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 26283
+- auto_source_url: https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283
+- desc: |
+  Ethereumのコンセンサス仕様において、アテステーションの集約ビットを表現するために使用されるデータ構造。従来の固定サイズのビットリストとは異なり、より効率的な表現を可能にする。特にGloasフォークで導入された。
+
+## DataColumnSidecar
+- ja: データカラムサイドカー
+- related: [blob, data availability, SignedBeaconBlock]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 26283
+- auto_source_url: https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283
+- desc: |
+  Ethereumのブロック処理において、署名済みビーコンブロックと共に伝達される補助的なデータ構造。データ可用性サンプリング（DAS）などの文脈で、ブロックのデータ部分を効率的に管理・検証するために使用される可能性がある。
+
+## Checked Arithmetic Types (EthCLLib)
+- ja: チェック済み算術型 (EthCLLib)
+- aliases: [CLUint64, CLInt, Checked α]
+- related: [pyspec, formal verification, StateTransitionError]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 26283
+- auto_source_url: https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283
+- desc: |
+  EthCLLibフレームワークでEthereumコンセンサス仕様のPython実装の整数演算を厳密にモデル化するために導入された型。オーバーフロー、アンダーフロー、ゼロ除算などのエラーを検出し、仕様に沿った拒否動作を保証する。これにより、形式検証における算術的正確性を高める。
+
+## EIP as a unit
+- ja: EIPの単位化
+- related: [EIP, fork, proof transfer]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 26283
+- auto_source_url: https://ethresear.ch/t/ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs/26283
+- desc: |
+  Ethereum Improvement Proposal (EIP) を、フレームワーク内で独立した変更の単位として扱い、それぞれが独自のオーバーライドと宣言を持つようにする概念。これにより、各EIPのプロパティを個別に証明し、異なるフォークへの適用やEIP間の合成を柔軟に行えるようにすることを目指す。
+
+## Sovereign ERC-20 Receive Protection
+- ja: ソブリンERC-20受信保護
+- related: [Recipient-side sovereignty, Address poisoning, Tainted inflows]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30485
+- auto_source_url: https://ethereum-magicians.org/t/erc-8516-sovereign-erc-20-receive-protection/30485
+- desc: |
+  ERC-20トークンにおいて、受信者が着信トークン転送とミントをゲート（許可・拒否）できるようにするオプトイン拡張機能。アドレスポイズニングやコンプライアンス問題など、意図しないトークン受信による問題を軽減することを目的としています。
+
+## Recipient-side sovereignty
+- ja: 受信者側主権
+- related: [Sovereign ERC-20 Receive Protection]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30485
+- auto_source_url: https://ethereum-magicians.org/t/erc-8516-sovereign-erc-20-receive-protection/30485
+- desc: |
+  ERC-20トークンの受信者が、自身のウォレットに着信するトークンの転送やミントを制御できる原則。従来のトークン転送が送信者主導であったのに対し、受信者に拒否権を与えることで、アドレスポイズニングや不要なトークン受信を防ぎます。
+
+## Address poisoning
+- ja: アドレスポイズニング
+- related: [Sovereign ERC-20 Receive Protection]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30485
+- auto_source_url: https://ethereum-magicians.org/t/erc-8516-sovereign-erc-20-receive-protection/30485
+- desc: |
+  攻撃者が、ターゲットとなるユーザーの過去の取引履歴に似たアドレスから、少額またはゼロ値のトークンを送信する攻撃手法。ユーザーが誤って攻撃者のアドレスに資金を送金してしまうことを狙います。
+
+## Tainted inflows
+- ja: 汚染された流入
+- related: [Sovereign ERC-20 Receive Protection]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30485
+- auto_source_url: https://ethereum-magicians.org/t/erc-8516-sovereign-erc-20-receive-protection/30485
+- desc: |
+  未検証または制裁対象のソースから、ウォレットやコントラクトに意図せず流入するトークン。特に財務部門、DAO、規制対象の事業体にとって、コンプライアンス上のリスクや会計上の問題を引き起こす可能性があります。
+
+## Economic Sender Attribution
+- ja: 経済的送信者帰属
+- related: [Sovereign ERC-20 Receive Protection]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30485
+- auto_source_url: https://ethereum-magicians.org/t/erc-8516-sovereign-erc-20-receive-protection/30485
+- desc: |
+  ERC-20受信保護のチェックにおいて、`msg.sender`（DEXルーターや承認された支出者である可能性）ではなく、実際に経済的な送信者である`from`アドレスを評価するルール。これにより、仲介者を介した取引でも受信保護が正しく適用されます。
+
+## Bounded Storage Credit and Debit
+- ja: バウンドストレージクレジットおよびデビット
+- related: [SCREDIT, SDEBIT, EIP-7519, Concurrent Block Building]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30477
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-bounded-storage-credit-and-debit/30477
+- desc: |
+  ストレージスロットの値が指定された下限と上限の範囲内にある場合にのみ、その値を増減させる新しいオペコード（SCREDITとSDEBIT）を導入するEIP。これにより、並行ブロック構築環境下でのトランザクションの有効性を高め、競合を減少させることを目的とします。
+
+## SCREDIT
+- ja: SCREDIT（ストレージクレジット）
+- related: [Bounded Storage Credit and Debit, SDEBIT]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30477
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-bounded-storage-credit-and-debit/30477
+- desc: |
+  Bounded Storage Credit and Debit EIPで提案される新しいEVMオペコードです。ストレージスロットの値が指定された下限と上限の範囲内にある場合にのみ、その値を増加させます。成功フラグをプッシュし、失敗した場合はスロットは変更されません。
+
+## SDEBIT
+- ja: SDEBIT（ストレージデビット）
+- related: [Bounded Storage Credit and Debit, SCREDIT]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30477
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-bounded-storage-credit-and-debit/30477
+- desc: |
+  Bounded Storage Credit and Debit EIPで提案される新しいEVMオペコードです。ストレージスロットの値が指定された下限と上限の範囲内にある場合にのみ、その値を減少させます。成功フラグをプッシュし、失敗した場合はスロットは変更されません。
+
+## Concurrent Block Building
+- ja: 並行ブロック構築
+- related: [MEV, Block Builder, Bounded Storage Credit and Debit]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30477
+- auto_source_url: https://ethereum-magicians.org/t/add-eip-bounded-storage-credit-and-debit/30477
+- desc: |
+  複数のビルダーが同時にブロックを構築するプロセスです。これにより、ブロック構築の効率と分散化を向上させ、MEVの集中を緩和することを目指します。Bounded Storage Credit and Debitのようなメカニズムがその実現を支援します。
+
+## device key
+- ja: デバイスキー
+- related: [attestation, identity key]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30476
+- auto_source_url: https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476
+- desc: |
+  物理GPUの識別子で、工場出荷時のIDキーから派生し、アテステーションチャレンジに応答するために使用されます。レジストリに登録されたGPUの重複担保を検出可能にします。
+
+## GPU-seconds served
+- ja: GPU稼働秒数
+- related: [attestation, utilization]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30476
+- auto_source_url: https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476
+- desc: |
+  GPUが実際に作業を提供した時間を計測する単位です。アテステーションチェックがGPUの生存を示すのに対し、この指標は実際の利用状況を示します。
+
+## servicer
+- ja: サービサー
+- related: [collateral, registry]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30476
+- auto_source_url: https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476
+- desc: |
+  GPU担保の管理において、デバイスキーの登録、担保設定、期間ごとのレポート提出などを行う役割を担うエンティティです。
+
+## collateral identifier
+- ja: 担保識別子
+- related: [ERC-8325, NFT, collateral]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30476
+- auto_source_url: https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476
+- desc: |
+  オンチェーンで担保を識別するための標準化された方法です。ERC-8325アンカーやローン/リースNFT自体がこれに該当しえます。
+
+## servicing attestations
+- ja: サービシングアテステーション
+- related: [attestation, financial lease, servicer]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30476
+- auto_source_url: https://ethereum-magicians.org/t/erc-8512-gpu-collateral-evidence/30476
+- desc: |
+  担保として提供されたGPUが稼働していることや、実際に作業を提供していることを証明するためのアテステーションです。金融リース契約の条件入力として使用されます。
+
+## Pre-seeded Encrypted Execution Payloads
+- ja: 事前シード型暗号化実行ペイロード
+- aliases: [Encrypted Execution Payloads]
+- related: [Execution Payload, EIP-7732, Payload Timeliness Committee, Builder]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30475
+- auto_source_url: https://ethereum-magicians.org/t/eip-8513-pre-seeded-encrypted-execution-payloads/30475
+- desc: |
+  EIP-8513で提案された、ビルダーがブロックの入札が有効になった直後に実行ペイロードを暗号化して送信するメカニズム。ペイロードの復号鍵は後で公開され、ペイロード転送時間を短縮し、ペイロード期限までの到達を容易にする。
+
+## Payload Transfer Time
+- ja: ペイロード転送時間
+- aliases: [Payload Propagation Time]
+- related: [Payload Deadline, Payload Timeliness Committee, Reveal]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30475
+- auto_source_url: https://ethereum-magicians.org/t/eip-8513-pre-seeded-encrypted-execution-payloads/30475
+- desc: |
+  ビルダーがブロックの実行ペイロードを公開してから、それがPayload Timeliness Committee (PTC) に到達するまでの時間。EIP-8513は、この時間を短縮することで、ペイロードが期限内に到達する可能性を高めることを目的としている。
+
+## Waggle Object
+- ja: ワグルオブジェクト
+- related: [Waggle Protocol, Payload]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30475
+- auto_source_url: https://ethereum-magicians.org/t/eip-8513-pre-seeded-encrypted-execution-payloads/30475
+- desc: |
+  Waggleプロトコル内で使用される特定のデータ構造。EIP-8513の文脈では、ビルダーがペイロードの復号鍵とそのMerkleブランチを送信するために利用される。
+
+## Encrypted Reed-Solomon
+- ja: 暗号化リード・ソロモン（チャンキングスキーム）
+- related: [EIP-8411, Reed-Solomon Codes, Chunking Schemes]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30475
+- auto_source_url: https://ethereum-magicians.org/t/eip-8513-pre-seeded-encrypted-execution-payloads/30475
+- desc: |
+  EIP-8411で定義されるペイロードチャンキングスキームの一つ。Snappy圧縮されたデータをChaCha20で暗号化した後、リード・ソロモン符号化を適用する。
+
+## Encrypted Plain
+- ja: 暗号化プレーン（チャンキングスキーム）
+- related: [EIP-8411, Chunking Schemes]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30475
+- auto_source_url: https://ethereum-magicians.org/t/eip-8513-pre-seeded-encrypted-execution-payloads/30475
+- desc: |
+  EIP-8411で定義されるペイロードチャンキングスキームの一つ。Snappy圧縮されたデータをChaCha20で暗号化する。
+
+## Agent Linkability Report
+- ja: エージェントリンカビリティレポート
+- aliases: [ERC-8509]
+- related: [ERC-8004 agent, agentWallet, identity registry, stealth meta-address, shielded pool receipts]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30462
+- auto_source_url: https://ethereum-magicians.org/t/erc-8509-agent-linkability-report/30462
+- desc: |
+  ERC-8004エージェントのオンチェーンデータを分析し、その所有者、ウォレット、支払いアドレス間のリンクを公開する標準化されたレポート形式です。エージェントのプライバシーリスクを評価するために使用されます。
+
+## shielded pool receipts
+- ja: シールドプールレシート
+- related: [shielded pool, privacy, Agent Linkability Report]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30462
+- auto_source_url: https://ethereum-magicians.org/t/erc-8509-agent-linkability-report/30462
+- desc: |
+  プライバシー保護を目的としたシールドプールからのレシートを指します。エージェントリンカビリティレポートにおいて、エージェントがプライバシー対策を利用しているか、その効果を評価するための情報として利用されます。
+
+## payment wallet leaks
+- ja: 支払いウォレットの漏洩情報
+- related: [Agent Linkability Report, privacy, wallet]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30462
+- auto_source_url: https://ethereum-magicians.org/t/erc-8509-agent-linkability-report/30462
+- desc: |
+  エージェントの支払いウォレットに関連する潜在的なプライバシー漏洩を示す情報群です。資金源、リンクされた取引相手、活動時間の集中度、保有資産の可視性などが含まれ、エージェントリンカビリティレポートのオプション項目として定義されます。
+
+## linkability
+- ja: リンカビリティ（連結可能性）
+- related: [privacy, Agent Linkability Report, deanonymization]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30462
+- auto_source_url: https://ethereum-magicians.org/t/erc-8509-agent-linkability-report/30462
+- desc: |
+  異なるオンチェーンデータ（トランザクション、アドレス、エージェントなど）を特定のエンティティや個人に結びつけることができる特性を指します。プライバシー保護の文脈で、匿名性を損なうリスクとして議論される重要な概念です。
+
+## Agent Allowlist Framework
+- ja: エージェント許可リストフレームワーク (AAF)
+- aliases: [AAF, Agent Whitelist Framework, AWF]
+- related: [Allowlist, Denylist, Agent]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30456
+- auto_source_url: https://ethereum-magicians.org/t/erc-8507-agent-allowlist-framework-aaf/30456
+- desc: |
+  ERC-8507で定義されるフレームワーク。宣言された活動内で、1つ以上の主体がどのエージェントや他のオブジェクトを許可または拒否するか、その理由と効果を規定します。
+
+## Allowlist / Denylist
+- ja: 許可リスト / 拒否リスト (Allowlist / Denylist)
+- aliases: [Whitelist, Blacklist]
+- related: [Agent Allowlist Framework, Typed subjects]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30456
+- auto_source_url: https://ethereum-magicians.org/t/erc-8507-agent-allowlist-framework-aaf/30456
+- desc: |
+  Agent Allowlist Framework (AAF) において、特定の活動に対してエージェントやオブジェクトを許可または拒否するために使用されるリスト。これらは極性（許可または拒否）のみが異なる単一のリストとして定義されます。
+
+## Three-valued results
+- ja: 3値結果 (Three-valued results)
+- related: [Agent Allowlist Framework, Binding]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30456
+- auto_source_url: https://ethereum-magicians.org/t/erc-8507-agent-allowlist-framework-aaf/30456
+- desc: |
+  Agent Allowlist Framework (AAF) におけるリスト評価の標準的な結果。MATCH（一致）、NO_MATCH（不一致）、UNDETERMINED（未確定）のいずれかを返します。
+
+## Related-object extension
+- ja: 関連オブジェクト拡張 (Related-object extension)
+- related: [Agent Allowlist Framework, Derived list]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30456
+- auto_source_url: https://ethereum-magicians.org/t/erc-8507-agent-allowlist-framework-aaf/30456
+- desc: |
+  Agent Allowlist Framework (AAF) の機能の一つで、許可または拒否の決定を、リストに記載されたオブジェクトに関連する他のオブジェクトに拡張するメカニズム。
+
+## Proofs of absence
+- ja: 不在証明 (Proofs of absence)
+- related: [Zero-knowledge set proofs, Sorted sets]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30456
+- auto_source_url: https://ethereum-magicians.org/t/erc-8507-agent-allowlist-framework-aaf/30456
+- desc: |
+  特定の要素がセット内に存在しないことを証明する暗号学的メカニズム。Agent Allowlist Framework (AAF) では、ソートされたセットに対して、ゼロ知識証明または隣接する2つのキーのハッシュ開示によって不在を証明する可能性が議論されています。
+
+## Onchain Announcements
+- ja: オンチェーンアナウンスメント
+- related: [Announcement event, EndAnnouncement event, self-targeted calls, announcement reference]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30428
+- auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
+- desc: |
+  人間が読める開示情報と、それが記述する状態変更を結合するための規約を定義するERC。アナウンスメントは、`Announcement`イベントで始まり、`EndAnnouncement`イベントで閉じられる一連の自己ターゲット型呼び出しを原子的に実行するブラケットとして機能する。
+
+## Announcement event
+- ja: Announcementイベント
+- related: [Onchain Announcements, EndAnnouncement event]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30428
+- auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
+- desc: |
+  Onchain Announcements ERCで定義されるイベントで、アナウンスメントのブラケットを開始することを示す。これにより、関連する状態変更と開示情報が紐付けられる。
+
+## EndAnnouncement event
+- ja: EndAnnouncementイベント
+- related: [Onchain Announcements, Announcement event]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30428
+- auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
+- desc: |
+  Onchain Announcements ERCで定義されるイベントで、アナウンスメントのブラケットを閉じること、つまり一連の関連する状態変更の終了を示す。
+
+## self-targeted calls
+- ja: 自己ターゲット型呼び出し
+- related: [Onchain Announcements]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30428
+- auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
+- desc: |
+  Onchain Announcements ERCにおいて、アナウンスメントのブラケット内で原子的に実行される、自身をターゲットとする呼び出し。これにより、アナウンスメントに関連する一連の状態変更が実行される。
+
+## announcement reference
+- ja: アナウンスメント参照
+- related: [Onchain Announcements, ERC-7930 Interoperable Addresses]
+- auto_added: 2026-11-24
+- auto_source_topic_id: 30428
+- auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
+- desc: |
+  Onchain Announcements ERCで導入されるメカニズムで、資産がERC-7930の相互運用可能なアドレスによって識別されるアナウンスメント参照を指定し、サービスプロバイダーやホームチェーンフィードがその資産に代わってアナウンスメントを行えるようにする。

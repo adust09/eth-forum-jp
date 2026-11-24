@@ -4,7 +4,7 @@ aliases:
   - EIP-712アテステーションプロファイル
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **EIP-712アテステーションプロファイル**
@@ -19,6 +19,8 @@ EIP-712標準を利用して、AI推論の入力来歴や実行結果などの�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-23-erc-8512-gpu-collateral-evidence-30476|ERC-8512: GPU担保の証拠]]（2026-11-23）
+- [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/ethresear-2026-10-30-erc-draft-independent-simulation-result-for-stva-26198|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 - [[posts/magicians-2026-10-30-erc-draft-independent-simulation-result-for-stva-30129|ERCドラフト: (STVA) 独立シミュレーション結果]]（2026-10-30）
 - [[posts/ethresear-2026-10-28-secure-transaction-verification-and-authorization-stva-26192|安全なトランザクション検証と認可 (STVA)]]（2026-10-28）

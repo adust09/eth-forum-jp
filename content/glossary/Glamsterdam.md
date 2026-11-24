@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **グラムステルダム**
@@ -18,6 +18,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 ## この用語を使っている記事
 
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
+- [[posts/magicians-2026-11-21-all-core-devs-execution-acde-250-december-3-2026-30463|全コア開発者会議 - 実行 (ACDE) #250、2026年12月3日]]（2026-11-21）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-14-all-core-devs-consensus-acdc-192-november-26-2026-30388|オールコア開発者会議 - コンセンサス (ACDC) #192、2026年11月26日]]（2026-11-14）
