@@ -4,7 +4,7 @@ aliases:
   - OPRF文書フィンガープリント（OPRF document fingerprint）
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **OPRF文書フィンガープリント（OPRF document fingerprint）**

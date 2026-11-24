@@ -4,7 +4,7 @@ aliases:
   - 裁定不能
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **裁定不能**

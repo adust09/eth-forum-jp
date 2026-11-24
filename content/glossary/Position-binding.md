@@ -4,7 +4,7 @@ aliases:
   - 位置拘束性
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **位置拘束性**

@@ -6,7 +6,7 @@ aliases:
   - floor
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **絶対クォーラムフロア**

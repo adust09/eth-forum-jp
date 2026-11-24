@@ -5,7 +5,7 @@ aliases:
   - ERC-7943 Policy Interface
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **uRWAポリシーインターフェース (ERC-7943 Policy Interface)**
@@ -20,6 +20,7 @@ ERC-7943 (uRWA)トークンと、そのトークンの送受信ルールを定�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/magicians-2026-11-01-erc-8415-and-the-binance-heist-what-can-be-frozen-and-why-rwas-need-an-asset-state-layer-30170|ERC-8415とBinanceハッキング事件：何が凍結可能か、そしてRWAにアセットステート層が必要な理由]]（2026-11-01）
 
 ## 元の表記（英語）

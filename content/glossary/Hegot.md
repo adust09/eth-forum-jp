@@ -4,7 +4,7 @@ aliases:
   - ヘゴタ (Hegotá)
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **ヘゴタ (Hegotá)**
@@ -17,6 +17,7 @@ Ethereumの次期アップグレードのコードネームの一つ。プロト
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-21-all-core-devs-execution-acde-250-december-3-2026-30463|全コア開発者会議 - 実行 (ACDE) #250、2026年12月3日]]（2026-11-21）
 - [[posts/magicians-2026-11-14-all-core-devs-consensus-acdc-192-november-26-2026-30388|オールコア開発者会議 - コンセンサス (ACDC) #192、2026年11月26日]]（2026-11-14）
 - [[posts/magicians-2026-10-31-all-core-devs-consensus-acdc-191-november-12-2026-30139|オールコア開発者会議 - コンセンサス (ACDC) #191、2026年11月12日]]（2026-10-31）
 - [[posts/ethresear-2026-10-28-ephemeral-rollup-the-new-l1-5-of-ethereum-26187|エフェメラルロールアップ：イーサリアムの新たな「L1.5」]]（2026-10-28）

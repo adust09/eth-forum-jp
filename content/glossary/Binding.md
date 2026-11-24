@@ -7,7 +7,7 @@ aliases:
   - token-ID binding
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **バインディング**
@@ -20,6 +20,7 @@ date: '2026-11-23'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-20-erc-8507-agent-allowlist-framework-aaf-30456|ERC-8507: エージェント許可リストフレームワーク (AAF)]]（2026-11-20）
 - [[posts/magicians-2026-09-05-task-token-as-a-reverse-asset-token-bound-task-tenders-29597|逆資産としてのタスクトークン：トークン結合型タスクテンダー]]（2026-09-05）
 
 ## 元の表記（英語）

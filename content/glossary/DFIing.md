@@ -5,7 +5,7 @@ aliases:
   - Deferred for Inclusion
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **DFI中 (Deferred for Inclusion中)**

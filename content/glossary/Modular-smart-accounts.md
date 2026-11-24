@@ -5,7 +5,7 @@ aliases:
   - Modular accounts
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **モジュラー型スマートアカウント (Modular Smart Accounts)**
@@ -19,6 +19,7 @@ date: '2026-11-23'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/magicians-2026-07-27-eip-editing-office-hour-eip-erc-meeting-108-july-28-2026-29107|EIP編集オフィスアワー (EIP + ERC) ミーティング #108、2026年7月28日]]（2026-07-27）
 
 ## 元の表記（英語）

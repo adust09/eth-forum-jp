@@ -4,7 +4,7 @@ aliases:
   - アイデンティティ層
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **アイデンティティ層**
@@ -19,7 +19,7 @@ ERC-8277で定義されるPersistent Identity Tokenの3つのインターフェ�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-20-erc-8507-agent-allowlist-framework-aaf-30456|ERC-8507: エージェント許可リストフレームワーク (AAF)]]（2026-11-20）
 
 ## 元の表記（英語）
 

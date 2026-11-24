@@ -4,7 +4,7 @@ aliases:
   - プレERC（提案段階のERC）
 tags:
   - glossary
-date: '2026-11-23'
+date: '2026-11-24'
 ---
 
 **プレERC（提案段階のERC）**
