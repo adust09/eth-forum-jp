@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19906,3 +19906,51 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-onchain-announcements/30428
 - desc: |
   Onchain Announcements ERCで導入されるメカニズムで、資産がERC-7930の相互運用可能なアドレスによって識別されるアナウンスメント参照を指定し、サービスプロバイダーやホームチェーンフィードがその資産に代わってアナウンスメントを行えるようにする。
+
+## bid cancellation
+- ja: 入札キャンセル
+- aliases: [cancellation]
+- related: [MEV-Boost, ePBS, builder, proposer, stale bid]
+- auto_added: 2026-11-25
+- auto_source_topic_id: 26287
+- auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
+- desc: |
+  MEV-Boostオークションにおいて、ビルダーがブロックの価値が下がった際に、以前に提出した入札額を引き下げること。プロポーザーがこれを尊重するかどうかが議論の対象となる。
+
+## latest-bid rule
+- ja: 最新入札ルール
+- related: [highest-bid rule, bid cancellation, MEV-Boost, ePBS, proposer]
+- auto_added: 2026-11-25
+- auto_source_topic_id: 26287
+- auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
+- desc: |
+  プロポーザーがMEV-Boostオークションにおいて、各リレーから受け取った最新のビルダー入札のみを考慮するルール。これにより、ビルダーの入札キャンセルが尊重される。
+
+## highest-bid rule
+- ja: 最高入札ルール
+- related: [latest-bid rule, bid cancellation, MEV-Boost, ePBS, proposer]
+- auto_added: 2026-11-25
+- auto_source_topic_id: 26287
+- auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
+- desc: |
+  プロポーザーがMEV-Boostオークションにおいて、各リレーから受け取ったビルダーの全入札の中から最も高いものを選択するルール。これにより、ビルダーの入札キャンセルは無視される。
+
+## stale bid
+- ja: 古い入札（ステール・ビット）
+- aliases: [outdated bid]
+- related: [bid cancellation, latest-bid rule, highest-bid rule, MEV-Boost]
+- auto_added: 2026-11-25
+- auto_source_topic_id: 26287
+- auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
+- desc: |
+  ブロックの実際の価値が変動したにもかかわらず、ビルダーが以前に提出した入札額が更新されずに残っている状態の入札。プロポーザーがこれを採用すると、ビルダーは不利益を被る可能性がある。
+
+## common-value auction model
+- ja: 共通価値オークションモデル
+- aliases: [common-value auctions]
+- related: [first-price auction, MEV-Boost]
+- auto_added: 2026-11-25
+- auto_source_topic_id: 26287
+- auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
+- desc: |
+  オークション理論におけるモデルの一つで、競売対象の価値が全ての入札者にとって同じであるが、その正確な価値は不確実であると仮定する。MEV-Boostオークションの分析に用いられる。

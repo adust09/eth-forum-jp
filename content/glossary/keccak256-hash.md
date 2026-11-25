@@ -4,7 +4,7 @@ aliases:
   - Keccak-256ハッシュ
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **Keccak-256ハッシュ**

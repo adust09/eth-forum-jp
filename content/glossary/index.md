@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -221,6 +221,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Behavioral-Entity-Object|Behavioral Entity Object]] — 行動エンティティオブジェクト (BEO)
 - [[glossary/Behavioral-Record|Behavioral Record]] — 行動記録
 - [[glossary/Behavioral-vector|Behavioral vector]] — 行動ベクトル
+- [[glossary/bid-cancellation|bid cancellation]] — 入札キャンセル
 - [[glossary/Bid-commitment|Bid commitment]] — ビッドコミットメント (Bid commitment)
 - [[glossary/bid-tick|bid tick]] — ビッドティック
 - [[glossary/Bidding-War-for-Block-Position|Bidding War for Block Position]] — ブロックポジション獲得競争
@@ -381,6 +382,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/committed-submission|committed submission]] — コミット済み提出（リクエスト）
 - [[glossary/Committee-Signature|Committee Signature]] — 委員会署名
 - [[glossary/common-execution-envelope|common execution envelope]] — 共通実行エンベロープ
+- [[glossary/common-value-auction-model|common-value auction model]] — 共通価値オークションモデル
 - [[glossary/commutative-tier|commutative tier]] — 可換ティア
 - [[glossary/Compact-Block|Compact Block]] — コンパクトブロック
 - [[glossary/compaction-amplification|compaction amplification]] — コンパクション増幅
@@ -909,6 +911,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/hidden-revocation-handle|hidden revocation handle]] — 隠された失効ハンドル（hidden revocation handle）
 - [[glossary/hidden-watchtowers|hidden watchtowers]] — 隠されたウォッチタワー
 - [[glossary/high-custody-nodes|high-custody nodes]] — 高カストディノード
+- [[glossary/highest-bid-rule|highest-bid rule]] — 最高入札ルール
 - [[glossary/holder-controlled-outgoing-transfer-locks|holder-controlled outgoing transfer locks]] — 保有者制御型送金ロック
 - [[glossary/holder-only-scan|holder-only scan]] — ホルダーのみのスキャン
 - [[glossary/holderAsOf|holderAsOf]] — 特定時点のホルダー
@@ -1049,6 +1052,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Last-Call|Last Call]] — ラストコール (EIP/ERC)
 - [[glossary/last-look|last look]] — ラストルック
 - [[glossary/lastwrittenblock|last_written_block]] — 最終書き込みブロック
+- [[glossary/latest-bid-rule|latest-bid rule]] — 最新入札ルール
 - [[glossary/Lattice-HSM|Lattice HSM]] — 格子HSM (Hardware Security Module)
 - [[glossary/Lattice-based-schemes|Lattice-based schemes]] — 格子ベース暗号方式 (Lattice-based schemes)
 - [[glossary/Launch-Declarations|Launch Declarations]] — ローンチ宣言
@@ -1844,6 +1848,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Staked-gas|Staked gas (EIP-8429)]] — ステークされたガス（EIP-8429）
 - [[glossary/Staked-Weighted-Verification-Gate|Staked Weighted Verification Gate]] — ステーク型加重検証ゲート (Staked Weighted Verification Gate)
 - [[glossary/staking-season|staking season]] — ステーキングシーズン
+- [[glossary/stale-bid|stale bid]] — 古い入札（ステール・ビット）
 - [[glossary/Stale-quote|Stale quote]] — ステーブクオート（古い引用価格）
 - [[glossary/Stale-price-problem|Stale-price problem]] — 期限切れ価格問題
 - [[glossary/standard-exit-churn|standard exit churn]] — 標準退出チャーン

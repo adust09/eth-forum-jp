@@ -4,7 +4,7 @@ aliases:
   - Devcon都市名
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **Devcon都市名**

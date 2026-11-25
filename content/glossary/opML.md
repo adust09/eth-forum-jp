@@ -5,7 +5,7 @@ aliases:
   - Optimistic Machine Learning
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **オプティミスティック機械学習 (opML)**

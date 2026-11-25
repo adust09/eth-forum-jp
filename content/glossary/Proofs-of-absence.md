@@ -4,7 +4,7 @@ aliases:
   - 不在証明 (Proofs of absence)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **不在証明 (Proofs of absence)**

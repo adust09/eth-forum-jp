@@ -4,7 +4,7 @@ aliases:
   - 再帰的証明
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **再帰的証明**

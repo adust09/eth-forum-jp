@@ -4,7 +4,7 @@ aliases:
   - tokenURI (関数)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **tokenURI (関数)**

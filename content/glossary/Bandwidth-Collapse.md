@@ -4,7 +4,7 @@ aliases:
   - 帯域幅崩壊
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **帯域幅崩壊**

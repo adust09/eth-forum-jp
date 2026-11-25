@@ -5,7 +5,7 @@ aliases:
   - solo staker building its own payload
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **ホームビルダー**

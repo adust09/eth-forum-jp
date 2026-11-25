@@ -5,7 +5,7 @@ aliases:
   - Leighton-Micali Signature key
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **LMSキー (Leighton-Micali Signature key)**

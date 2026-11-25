@@ -5,7 +5,7 @@ aliases:
   - T_acc
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **リスク期間積分 (T_acc)**
