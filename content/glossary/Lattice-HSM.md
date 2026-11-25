@@ -4,7 +4,7 @@ aliases:
   - 格子HSM (Hardware Security Module)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **格子HSM (Hardware Security Module)**

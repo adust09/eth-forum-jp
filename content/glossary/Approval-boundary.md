@@ -4,7 +4,7 @@ aliases:
   - 承認境界
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **承認境界**

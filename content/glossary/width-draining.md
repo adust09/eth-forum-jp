@@ -4,7 +4,7 @@ aliases:
   - width枯渇攻撃
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **width枯渇攻撃**

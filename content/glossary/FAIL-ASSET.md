@@ -4,7 +4,7 @@ aliases:
   - FAIL-ASSET (否決時資産)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **FAIL-ASSET (否決時資産)**

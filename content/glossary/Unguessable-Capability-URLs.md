@@ -5,7 +5,7 @@ aliases:
   - Capability URLs (for passes)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **推測不可能なケイパビリティURL**

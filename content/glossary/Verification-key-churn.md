@@ -4,7 +4,7 @@ aliases:
   - 検証キーの頻繁な更新 (Verification key churn)
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **検証キーの頻繁な更新 (Verification key churn)**

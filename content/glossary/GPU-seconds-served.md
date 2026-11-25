@@ -4,7 +4,7 @@ aliases:
   - GPU稼働秒数
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **GPU稼働秒数**

@@ -5,7 +5,7 @@ aliases:
   - Standards Track
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **標準トラック提案**

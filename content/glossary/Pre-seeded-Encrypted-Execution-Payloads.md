@@ -5,7 +5,7 @@ aliases:
   - Encrypted Execution Payloads
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **事前シード型暗号化実行ペイロード**

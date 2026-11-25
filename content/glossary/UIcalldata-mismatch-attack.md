@@ -4,7 +4,7 @@ aliases:
   - UI/calldata不一致攻撃
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **UI/calldata不一致攻撃**

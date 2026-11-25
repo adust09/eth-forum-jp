@@ -5,7 +5,7 @@ aliases:
   - ERC-8474
 tags:
   - glossary
-date: '2026-11-24'
+date: '2026-11-25'
 ---
 
 **ERC-20遅延アンロック**
