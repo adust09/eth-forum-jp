@@ -4,7 +4,7 @@ aliases:
   - maxFeePerBlobGas (ブロブガス最大手数料)
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **maxFeePerBlobGas (ブロブガス最大手数料)**

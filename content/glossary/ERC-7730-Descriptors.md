@@ -4,7 +4,7 @@ aliases:
   - ERC-7730記述子
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ERC-7730記述子**

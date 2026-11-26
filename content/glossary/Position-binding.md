@@ -4,7 +4,7 @@ aliases:
   - 位置拘束性
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **位置拘束性**
@@ -19,6 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-24-post-quantum-das-with-improved-provable-security-26285|証明可能なセキュリティが向上したポスト量子DAS]]（2026-11-24）
 - [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 
 ## 元の表記（英語）

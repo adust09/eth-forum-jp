@@ -4,7 +4,7 @@ aliases:
   - パラメトリックトークン
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **パラメトリックトークン**
@@ -18,6 +18,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
 - [[posts/magicians-2026-09-29-eip-8429-escalating-gas-for-repeated-calls-29798|EIP-8429: 繰り返し呼び出しに対するエスカレートするガス料金]]（2026-09-29）
 
 ## 元の表記（英語）

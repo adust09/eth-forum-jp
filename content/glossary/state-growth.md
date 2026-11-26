@@ -4,7 +4,7 @@ aliases:
   - 状態成長
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **状態成長**
@@ -19,6 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/ethresear-2026-11-12-more-meters-or-more-prices-one-vs-multi-dimensional-fee-mechanisms-on-ethereum-26244|より多くのメーターか、より多くの価格か？イーサリアムにおける1次元 vs. 多次元手数料メカニズム]]（2026-11-12）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）

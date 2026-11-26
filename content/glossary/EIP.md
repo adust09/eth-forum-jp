@@ -5,7 +5,7 @@ aliases:
   - Ethereum Improvement Proposal
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **EIP（Ethereum 改善提案）**
@@ -20,6 +20,9 @@ Core, Networking, Interface, ERC などのカテゴリがある。
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
+- [[posts/magicians-2026-11-24-all-core-devs-testing-acdt-105-november-30-2026-30500|全コア開発者会議 - テスト (ACDT) #105、2026年11月30日]]（2026-11-24）
 - [[posts/ethresear-2026-11-23-ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs-26283|EthCLLib: Ethereumコンセンサス仕様のためのLean 4フレームワーク]]（2026-11-23）
 - [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）

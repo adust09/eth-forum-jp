@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ブロック構築**
@@ -22,6 +22,8 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
+- [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）

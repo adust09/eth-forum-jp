@@ -5,7 +5,7 @@ aliases:
   - state gas reservoir
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **レザバー（ステートガス貯蔵庫）**
@@ -20,7 +20,7 @@ EIP-8037で導入された概念で、ステートガスを支払うための独
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 
 ## 元の表記（英語）
 

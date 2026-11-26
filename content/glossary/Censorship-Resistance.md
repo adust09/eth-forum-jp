@@ -4,7 +4,7 @@ aliases:
   - 検閲耐性
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **検閲耐性**
@@ -18,6 +18,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/magicians-2026-10-27-app-layer-input-on-eips-and-the-roadmap-staking-and-oracles-30104|EIPとロードマップに関するアプリケーション層からの意見：ステーキングとオラクル]]（2026-10-27）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/magicians-2026-10-03-research-steganographic-point-obfuscation-via-inverse-2-isogenies-for-bls12-curves-dpi-censorship-resistance-29849|BLS12曲線に対する逆2-アイソジェニーによるステガノグラフィック点難読化（DPI検閲耐性）]]（2026-10-03）

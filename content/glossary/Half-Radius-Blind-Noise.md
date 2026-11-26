@@ -6,7 +6,7 @@ aliases:
   - ξ_i-Entropy
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **半径ブラインドノイズ (Half-Radius Blind Noise)**

@@ -4,7 +4,7 @@ aliases:
   - スウォーム (AIエージェント)
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **スウォーム (AIエージェント)**
@@ -17,6 +17,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/magicians-2026-11-08-erc-8490-agent-meditation-mechanism-30304|ERC-8490: エージェント瞑想メカニズム]]（2026-11-08）
 - [[posts/magicians-2026-10-21-erc-8454-aifi-unit-framework-30040|ERC-8454: AIFiユニットフレームワーク]]（2026-10-21）
 

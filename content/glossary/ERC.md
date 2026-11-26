@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
+- [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/magicians-2026-11-23-erc-8512-gpu-collateral-evidence-30476|ERC-8512: GPU担保の証拠]]（2026-11-23）
 - [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/magicians-2026-11-20-draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement-30453|ドラフトERC: オンチェーンAI推論トークン (AITO) - 計測、承認済み消費、決済を伴うAI推論供給の消費可能な権利]]（2026-11-20）

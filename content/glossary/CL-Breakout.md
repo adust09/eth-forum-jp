@@ -5,7 +5,7 @@ aliases:
   - Consensus Layer Breakout
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **CLブレイクアウト（コンセンサス層ブレイクアウト）**
@@ -19,7 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-24-all-core-devs-testing-acdt-105-november-30-2026-30500|全コア開発者会議 - テスト (ACDT) #105、2026年11月30日]]（2026-11-24）
 
 ## 元の表記（英語）
 

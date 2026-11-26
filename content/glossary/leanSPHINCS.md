@@ -4,7 +4,7 @@ aliases:
   - leanSPHINCS（リーンSPHINCS）
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **leanSPHINCS（リーンSPHINCS）**
@@ -20,6 +20,7 @@ SPHINCS-の将来的なバリアントで、基盤となるハッシュ関数が
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/magicians-2026-11-19-add-eip-dependency-frames-for-leansphincs-signatures-30448|EIPの追加: leanSPHINCS署名のための依存関係フレーム]]（2026-11-19）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/ethresear-2026-11-02-its-time-to-scale-the-trust-eip-8288-on-op-stack-26208|信頼のスケーリングの時：OP StackにおけるEIP-8288]]（2026-11-02）

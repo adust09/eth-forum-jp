@@ -5,7 +5,7 @@ aliases:
   - Verifiable Random Function
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **検証可能乱数関数 (VRF)**
@@ -19,7 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-24-post-quantum-das-with-improved-provable-security-26285|証明可能なセキュリティが向上したポスト量子DAS]]（2026-11-24）
 
 ## 元の表記（英語）
 
