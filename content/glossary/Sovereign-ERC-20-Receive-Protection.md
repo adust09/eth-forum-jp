@@ -4,7 +4,7 @@ aliases:
   - ソブリンERC-20受信保護
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ソブリンERC-20受信保護**

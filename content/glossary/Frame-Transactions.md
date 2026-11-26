@@ -5,7 +5,7 @@ aliases:
   - EIP-8141 frame transaction
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **フレームトランザクション (Frame Transactions)**
@@ -19,6 +19,7 @@ EIP-8141で導入されたトランザクションタイプ。EIP-8250は、こ�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/magicians-2026-11-19-add-eip-dependency-frames-for-leansphincs-signatures-30448|EIPの追加: leanSPHINCS署名のための依存関係フレーム]]（2026-11-19）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/ethresear-2026-11-06-a-privacy-pool-on-frame-transactions-what-works-and-the-case-that-does-not-yet-26223|フレームトランザクション上のプライバシープール: 機能するものと、まだ機能しないもの]]（2026-11-06）

@@ -4,7 +4,7 @@ aliases:
   - P2Pネットワーキング
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **P2Pネットワーキング**
@@ -18,6 +18,7 @@ Ethereumクライアントがブロック、トランザクション、アッテ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）

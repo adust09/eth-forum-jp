@@ -6,7 +6,7 @@ aliases:
   - contract code-size limit
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **EIP-170 デプロイ済みコントラクトコードサイズ制限**
@@ -21,6 +21,7 @@ EIP-170で導入された、Ethereumブロックチェーンにデプロイで�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
 - [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 
 ## 元の表記（英語）

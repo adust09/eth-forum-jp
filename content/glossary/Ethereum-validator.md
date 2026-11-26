@@ -5,7 +5,7 @@ aliases:
   - validator
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **イーサリアムバリデータ**
@@ -21,6 +21,7 @@ EthereumのProof of Stake (PoS) コンセンサスにおいて、トランザク
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）

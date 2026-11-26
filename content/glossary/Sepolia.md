@@ -4,7 +4,7 @@ aliases:
   - Sepolia (テストネット)
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **Sepolia (テストネット)**
@@ -19,6 +19,7 @@ Ethereumの主要なテストネットの一つ。開発者がスマートコン
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/magicians-2026-11-20-draft-erc-ai-inference-token-onchain-aito-consumable-entitlements-to-ai-inference-supply-with-metering-authorized-consumption-and-settlement-30453|ドラフトERC: オンチェーンAI推論トークン (AITO) - 計測、承認済み消費、決済を伴うAI推論供給の消費可能な権利]]（2026-11-20）
 - [[posts/magicians-2026-11-20-erc-8507-agent-allowlist-framework-aaf-30456|ERC-8507: エージェント許可リストフレームワーク (AAF)]]（2026-11-20）
 - [[posts/ethresear-2026-11-18-encrypted-account-a-pin-that-lives-in-the-contract-26265|暗号化されたアカウント: コントラクト内に存在するPIN]]（2026-11-18）

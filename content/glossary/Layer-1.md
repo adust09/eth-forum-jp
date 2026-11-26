@@ -5,7 +5,7 @@ aliases:
   - L1
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **レイヤー1**
@@ -20,6 +20,8 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-optimal-dynamic-fees-for-l2s-a-vault-approach-26293|L2の最適な動的手数料: ボールトアプローチ]]（2026-11-25）
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/ethresear-2026-11-11-seam-verifying-zcash-headers-on-base-with-eip-152-and-proving-shielded-payments-without-linking-the-chains-26239|Seam: EIP-152を用いてBase上でZcashヘッダーを検証し、チェーンをリンクせずにシールドされた支払いを証明する]]（2026-11-11）

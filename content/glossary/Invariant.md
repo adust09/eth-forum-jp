@@ -4,7 +4,7 @@ aliases:
   - 不変条件
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **不変条件**
@@ -17,6 +17,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/magicians-2026-11-10-erc-settlement-deductions-for-task-escrows-30323|ERC: タスクエスクローにおける決済控除]]（2026-11-10）
 - [[posts/magicians-2026-10-31-arcos-ownership-module-governed-state-authority-root-architecture-and-developer-feedback-30141|ARCOS所有権モジュール: ガバナンスされた状態と権限ルート — アーキテクチャと開発者フィードバック]]（2026-10-31）

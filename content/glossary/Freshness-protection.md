@@ -4,7 +4,7 @@ aliases:
   - 鮮度保護
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **鮮度保護**

@@ -4,7 +4,7 @@ aliases:
   - メインネット
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **メインネット**
@@ -17,6 +17,7 @@ Ethereumの主要な本番ネットワーク。実際の価値を持つETHやト
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/ethresear-2026-11-18-encrypted-account-a-pin-that-lives-in-the-contract-26265|暗号化されたアカウント: コントラクト内に存在するPIN]]（2026-11-18）
 - [[posts/magicians-2026-11-16-hand-built-calldata-where-the-callers-bytes-become-the-selector-scrolls-10-nov-fix-30405|呼び出し元のバイトがセレクターとなる手動構築されたcalldata（Scrollの11月10日の修正）]]（2026-11-16）

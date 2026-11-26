@@ -5,7 +5,7 @@ aliases:
   - Stealth ABBE
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ステルス属性ベースブロードキャスト暗号 (Stealth ABBE)**

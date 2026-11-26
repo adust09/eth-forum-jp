@@ -4,7 +4,7 @@ aliases:
   - 判断期間
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **判断期間**

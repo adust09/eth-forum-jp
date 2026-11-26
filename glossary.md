@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -19954,3 +19954,217 @@ description: |
 - auto_source_url: https://ethresear.ch/t/do-bid-cancellations-matter/26287
 - desc: |
   オークション理論におけるモデルの一つで、競売対象の価値が全ての入札者にとって同じであるが、その正確な価値は不確実であると仮定する。MEV-Boostオークションの分析に用いられる。
+
+## L2 fee vault
+- ja: L2フィーボールト
+- related: [L1 posting costs, fee-setting rule]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26293
+- auto_source_url: https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293
+- desc: |
+  L2がL1にトランザクションデータを投稿するために支払うコストと、ユーザーから徴収する手数料の差額を追跡するメカニズムです。その残高は、L2の経済的健全性を示す指標となります。
+
+## Fee-setting rule
+- ja: 手数料設定ルール
+- related: [L2 fee vault, break-even fee, proportional rule, linear-quadratic regulator]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26293
+- auto_source_url: https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293
+- desc: |
+  L2がユーザーに請求する手数料を決定するためのアルゴリズムまたは方針です。L1へのデータ投稿コストを回収し、L2フィーボールトの目標残高を維持するために設計されます。
+
+## Break-even fee
+- ja: 損益分岐手数料
+- related: [L1 posting costs, fee-setting rule]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26293
+- auto_source_url: https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293
+- desc: |
+  L2がL1へのデータ投稿コストを平均的に賄うために必要な手数料です。この手数料だけでは、過去のボールトの赤字を回復することはできません。
+
+## Fee-memory coefficient
+- ja: 手数料記憶係数 (π)
+- aliases: [π]
+- related: [linear-quadratic regulator, fee smoothness, vault tracking]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26293
+- auto_source_url: https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293
+- desc: |
+  線形二次レギュレータ（LQR）に基づく手数料設定ルールにおいて、以前の手数料がどれだけ保持されるかを決定するパラメータです。値が高いほど手数料の変動が滑らかになるが、ボールト残高の回復は遅くなります。
+
+## Linear-Quadratic Regulator
+- ja: 線形二次レギュレータ (LQR)
+- aliases: [LQR]
+- related: [fee-setting rule, fee-memory coefficient, vault tracking, fee smoothness]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26293
+- auto_source_url: https://ethresear.ch/t/optimal-dynamic-fees-for-l2s-a-vault-approach/26293
+- desc: |
+  L2の手数料設定を制御問題として捉え、ボールトの誤差と手数料の変動の加重和を最小化する最適なルールを導出する制御理論の手法です。手数料の「記憶」を考慮に入れます。
+
+## PQ transition
+- ja: PQ移行 (ポスト量子移行)
+- aliases: [Post-Quantum transition]
+- related: [Post-Quantum cryptography, PQ Gasper, PQ Decoupled Consensus]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26292
+- auto_source_url: https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292
+- desc: |
+  Ethereumがポスト量子暗号（PQ暗号）を導入するプロセス全体を指します。これにより、現在の暗号方式が量子コンピュータによって破られるリスクに対処します。
+
+## Includers
+- ja: インクルーダー
+- related: [FOCIL, IL committee, Builders]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26292
+- auto_source_url: https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292
+- desc: |
+  FOCIL（First-Order Censorship Inclusion List）メカニズムにおいて、インクルージョンリスト（IL）の構築と伝播を担当する特定の役割を持つノードまたはエンティティです。
+
+## Attesters
+- ja: アテスター
+- related: [Attestation, Beacon Chain, Validators]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26292
+- auto_source_url: https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292
+- desc: |
+  EthereumのProof-of-Stakeコンセンサスにおいて、ブロックの有効性を証言（attest）する役割を持つバリデーターです。彼らの証言は、ブロックのファイナリティを確立するために集約されます。
+
+## IL committee
+- ja: IL委員会 (インクルージョンリスト委員会)
+- aliases: [Inclusion List committee]
+- related: [FOCIL, Includers, Beacon committees]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26292
+- auto_source_url: https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292
+- desc: |
+  FOCILメカニズムの一部として、インクルージョンリスト（IL）の構築と伝播を担当するために選出されるビーコン委員会の一部メンバーです。
+
+## PQ Decoupled Consensus
+- ja: PQデカップルドコンセンサス (ポスト量子デカップルドコンセンサス)
+- aliases: [Post-Quantum Decoupled Consensus]
+- related: [Decoupled Consensus, PQ transition, Gasper]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26292
+- auto_source_url: https://ethresear.ch/t/focil-and-ethereums-pq-transition/26292
+- desc: |
+  ポスト量子暗号（PQ暗号）の導入を考慮して設計された、デカップルドコンセンサスアーキテクチャの将来の形態です。利用可能なチェーンとファイナリティガジェットの分離により、P2Pネットワークの帯域幅要件を緩和することを目指します。
+
+## Succinct non-interactive argument of knowledge
+- ja: 簡潔非対話型知識証明 (SNARK)
+- aliases: [SNARK]
+- related: [Zero-knowledge proof]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26285
+- auto_source_url: https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285
+- desc: |
+  非常に簡潔な証明サイズと検証時間を持つ、知識の非対話型証明システム。証明者が特定の秘密情報（知識）を持っていることを、検証者にその秘密情報自体を開示することなく証明できる。
+
+## Forking lemma
+- ja: フォーク補題
+- related: [Rewinding]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26285
+- auto_source_url: https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285
+- desc: |
+  暗号学のセキュリティ証明で用いられる補題。特定のプロトコルに対する攻撃者が、ランダムオラクルへのクエリに対する異なる応答に対して、有効な署名や証明を2つ生成できる場合、その攻撃者から秘密鍵や知識を抽出できることを示す。
+
+## Random oracle model
+- ja: ランダムオラクルモデル
+- aliases: [ROM]
+- related: [Ideal cipher model]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26285
+- auto_source_url: https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285
+- desc: |
+  暗号プロトコルのセキュリティ証明で用いられる理想化されたモデル。ハッシュ関数が、入力に対して完全にランダムな出力を返す「ランダムオラクル」として振る舞うと仮定する。
+
+## Knowledge soundness
+- ja: 知識健全性
+- related: [Soundness, Zero-knowledge proof, SNARK]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 26285
+- auto_source_url: https://ethresear.ch/t/post-quantum-das-with-improved-provable-security/26285
+- desc: |
+  知識証明システムにおけるセキュリティ特性の一つ。有効な証明を生成できる証明者は、その証明が示す「知識」を実際に持っていることを保証する。
+
+## L1 scaling
+- ja: L1スケーリング (L1 scaling)
+- related: [zkEVM, ePBS, BALs]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30518
+- auto_source_url: https://ethereum-magicians.org/t/ethlabs-position-on-glamsterdam/30518
+- desc: |
+  イーサリアムのレイヤー1（基盤層）の処理能力やデータ容量を向上させる取り組み。トランザクションのスループットを高め、ネットワーク全体の効率を改善することを目的とします。
+
+## repricing state creation
+- ja: ステート作成の再価格設定 (repricing state creation)
+- related: [state growth, gas costs, EIP-8037]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30518
+- auto_source_url: https://ethereum-magicians.org/t/ethlabs-position-on-glamsterdam/30518
+- desc: |
+  イーサリアムのステート（アカウントやコントラクトのデータ）を新規作成する際のガス料金を調整すること。ステートの肥大化を抑制し、ネットワークの持続可能性を確保するために行われます。
+
+## agent-driven impact analysis
+- ja: エージェント駆動型影響分析 (agent-driven impact analysis)
+- related: [AI agents, EIP, impact analysis]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30518
+- auto_source_url: https://ethereum-magicians.org/t/ethlabs-position-on-glamsterdam/30518
+- desc: |
+  AIエージェントを活用して、EIPなどのプロトコル変更が既存のスマートコントラクトやアプリケーションに与える影響を自動的に評価する手法です。潜在的な問題や脆弱性を早期に特定することを目的とします。
+
+## subcall
+- ja: サブコール (subcall)
+- related: [EVM, smart contract, gas]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30518
+- auto_source_url: https://ethereum-magicians.org/t/ethlabs-position-on-glamsterdam/30518
+- desc: |
+  スマートコントラクトが別のスマートコントラクト、または自身に対して行う内部的な関数呼び出しです。EVMの実行コンテキスト内で発生し、ガス消費やステート変更に影響を与えます。
+
+## BIP-39 mnemonic
+- ja: BIP-39ニーモニック
+- related: [seed phrase, key derivation]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30516
+- auto_source_url: https://ethereum-magicians.org/t/erc-8517-post-quantum-validator-seed-derivation/30516
+- desc: |
+  BIP-39は、暗号通貨ウォレットのシードフレーズを生成するための標準です。これにより、ユーザーは覚えやすい単語のリストから秘密鍵を導出できます。
+
+## Post-Quantum Validator Seed Derivation
+- ja: 量子耐性バリデータシード導出
+- related: [Post-quantum cryptography, Validator, BIP-39 mnemonic, Post-quantum seeds]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30516
+- auto_source_url: https://ethereum-magicians.org/t/erc-8517-post-quantum-validator-seed-derivation/30516
+- desc: |
+  量子コンピュータの脅威に耐えうるバリデータのシードを生成するプロセスを指します。BIP-39ニーモニックなどの既存の標準を基盤としつつ、量子耐性のあるアルゴリズムを組み込むことで、将来的なセキュリティを確保します。
+
+## Post-quantum seeds
+- ja: 量子耐性シード
+- related: [Post-quantum cryptography, Seed derivation, BIP-39 mnemonic]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30516
+- auto_source_url: https://ethereum-magicians.org/t/erc-8517-post-quantum-validator-seed-derivation/30516
+- desc: |
+  量子コンピュータによる攻撃に対して安全な、暗号鍵生成の基となる乱数またはデータです。従来のシードが量子攻撃によって脆弱になる可能性を考慮し、量子耐性のあるアルゴリズムを用いて生成されます。
+
+## ERC-8517
+- ja: ERC-8517
+- related: [Ethereum Improvement Proposal, Post-Quantum Validator Seed Derivation]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30516
+- auto_source_url: https://ethereum-magicians.org/t/erc-8517-post-quantum-validator-seed-derivation/30516
+- desc: |
+  イーサリアム改善提案（ERC）の一つで、イーサリアムのバリデータやビルダーが量子耐性のあるシードをBIP-39ニーモニックからどのように導出するかを定義しています。これは、将来の量子コンピュータによる攻撃からイーサリアムネットワークを保護するための重要なステップです。
+
+## consume-reorg
+- ja: コンシューム・リオーグ (consume-reorg)
+- related: [reorg, execution layer]
+- auto_added: 2026-11-26
+- auto_source_topic_id: 30500
+- auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-105-november-30-2026/30500
+- desc: |
+  イーサリアムの実行層クライアントが、ブロックチェーンの再編成（reorg）を処理するメカニズムを指します。特に、新しいチェーン構造を取り込み、状態を適切に更新する一連の動作を意味します。テストシミュレーターでこの動作が検証されます。

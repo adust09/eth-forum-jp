@@ -4,7 +4,7 @@ aliases:
   - ヘゴタ
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ヘゴタ**
@@ -18,6 +18,8 @@ Glamsterdamの後にガスリミットのスケーリングを維持するため
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
+- [[posts/magicians-2026-11-24-all-core-devs-testing-acdt-105-november-30-2026-30500|全コア開発者会議 - テスト (ACDT) #105、2026年11月30日]]（2026-11-24）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-03-devcon-city-name-for-execution-layer-upgrade-after-bogota-30195|ボゴタ後の実行レイヤーアップグレードのDevcon都市名]]（2026-11-03）

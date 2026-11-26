@@ -5,7 +5,7 @@ aliases:
   - L2 Rollup
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ロールアップ**
@@ -21,6 +21,7 @@ L2 スケーリング手法。実行を L2 で行い、データ・証明・状�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-optimal-dynamic-fees-for-l2s-a-vault-approach-26293|L2の最適な動的手数料: ボールトアプローチ]]（2026-11-25）
 - [[posts/magicians-2026-11-14-update-patching-the-stateful-tier-1-error-caching-vulnerability-via-half-radius-i-entropy-new-ethereum-2-0-use-cases-30397|更新: 半径ξ_iエントロピーと新たなEthereum 2.0ユースケースによるステートフルなTier-1エラーキャッシュ脆弱性のパッチ適用]]（2026-11-14）
 - [[posts/ethresear-2026-11-07-gkr-with-a-machine-checked-core-and-a-sparse-prover-made-faster-with-byte-identical-proofs-26226|機械検証済みコアを持つGKRと、バイト同一証明で高速化されたスパースプロバー]]（2026-11-07）
 - [[posts/magicians-2026-11-04-stealth-abbe-over-bls12-381-zero-metadata-broadcast-of-private-contracts-encrypted-state-via-eip-4844-blobs-30282|BLS12-381上のステルスABBE：EIP-4844ブロブを介したプライベートコントラクトと暗号化されたステートのゼロメタデータブロードキャスト]]（2026-11-04）

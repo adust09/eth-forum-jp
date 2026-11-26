@@ -4,7 +4,7 @@ aliases:
   - ハッシュベース署名
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ハッシュベース署名**
@@ -19,6 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/ethresear-2026-11-11-elastic-ethereum-26236|弾力的なイーサリアム]]（2026-11-11）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 - [[posts/magicians-2026-06-23-eip-8310-post-quantum-keystore-for-stateful-keys-28853|EIP-8310: ステートフル鍵のためのポスト量子キーストア]]（2026-06-23）

@@ -5,7 +5,7 @@ aliases:
   - PQ
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ポスト量子 (PQ)**
@@ -18,6 +18,8 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
+- [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/magicians-2026-11-19-add-eip-dependency-frames-for-leansphincs-signatures-30448|EIPの追加: leanSPHINCS署名のための依存関係フレーム]]（2026-11-19）
 - [[posts/magicians-2026-11-17-focil-breakout-47-november-24-2026-30420|FOCILブレイクアウト #47、2026年11月24日]]（2026-11-17）

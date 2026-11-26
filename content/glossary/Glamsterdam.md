@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,9 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
+- [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
+- [[posts/magicians-2026-11-24-all-core-devs-testing-acdt-105-november-30-2026-30500|全コア開発者会議 - テスト (ACDT) #105、2026年11月30日]]（2026-11-24）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/magicians-2026-11-21-all-core-devs-execution-acde-250-december-3-2026-30463|全コア開発者会議 - 実行 (ACDE) #250、2026年12月3日]]（2026-11-21）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）

@@ -5,7 +5,7 @@ aliases:
   - ECDSA
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **ECDSA署名 (楕円曲線デジタル署名アルゴリズム署名)**
@@ -19,6 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/magicians-2026-11-23-erc-8516-sovereign-erc-20-receive-protection-30485|ERC-8516: ERC-20受信保護の主権的制御]]（2026-11-23）
 - [[posts/magicians-2026-11-12-a-2-of-2-mpc-wallet-with-qr-setup-and-nfc-signing-30364|QRセットアップとNFC署名による2-of-2 MPCウォレット]]（2026-11-12）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）

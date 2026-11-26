@@ -4,7 +4,7 @@ aliases:
   - 再帰的STARK
 tags:
   - glossary
-date: '2026-11-25'
+date: '2026-11-26'
 ---
 
 **再帰的STARK**
@@ -19,6 +19,7 @@ date: '2026-11-25'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/ethresear-2026-11-18-eip-8288-the-networking-side-of-recursive-aggregation-26263|EIP-8288: 再帰的集約のネットワーキング側面]]（2026-11-18）
 - [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
