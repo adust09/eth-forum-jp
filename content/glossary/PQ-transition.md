@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum transition
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **PQ移行 (ポスト量子移行)**

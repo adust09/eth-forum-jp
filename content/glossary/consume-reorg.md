@@ -4,7 +4,7 @@ aliases:
   - コンシューム・リオーグ (consume-reorg)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **コンシューム・リオーグ (consume-reorg)**

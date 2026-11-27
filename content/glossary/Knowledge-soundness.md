@@ -4,7 +4,7 @@ aliases:
   - 知識健全性
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **知識健全性**

@@ -4,7 +4,7 @@ aliases:
   - ラクーン-G (Raccoon-G)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **ラクーン-G (Raccoon-G)**

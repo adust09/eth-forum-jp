@@ -5,7 +5,7 @@ aliases:
   - Zero tip
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **ゼロチップトランザクション**

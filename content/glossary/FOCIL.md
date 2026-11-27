@@ -5,7 +5,7 @@ aliases:
   - EIP-7805
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **FOCIL (強制オンチェーンインクルージョンリスト)**
@@ -19,6 +19,7 @@ Ethereumの検閲耐性強化を目的とした提案EIP-7805の略称。特定�
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/ethresear-2026-11-23-ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs-26283|EthCLLib: Ethereumコンセンサス仕様のためのLean 4フレームワーク]]（2026-11-23）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）

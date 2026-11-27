@@ -5,7 +5,7 @@ aliases:
   - Inclusion List committee
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **IL委員会 (インクルージョンリスト委員会)**

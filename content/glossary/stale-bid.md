@@ -5,7 +5,7 @@ aliases:
   - outdated bid
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **古い入札（ステール・ビット）**

@@ -4,7 +4,7 @@ aliases:
   - コール転送
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **コール転送**

@@ -4,7 +4,7 @@ aliases:
   - ワグルプロトコル (Waggle protocol)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **ワグルプロトコル (Waggle protocol)**
@@ -18,6 +18,7 @@ EthereumのP2Pネットワーキングに関する議論で言及された特定
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/magicians-2026-11-18-p2p-networking-11-november-18-2026-30433|P2Pネットワーキング #11 2026年11月18日]]（2026-11-18）
 - [[posts/ethresear-2026-09-17-eip-8411-what-segmented-payload-diffusion-is-made-of-26025|EIP-8411: セグメント化されたペイロード拡散の構成要素]]（2026-09-17）
 

@@ -4,7 +4,7 @@ aliases:
   - アトミック決済 (Atomic Settlement)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **アトミック決済 (Atomic Settlement)**

@@ -4,7 +4,7 @@ aliases:
   - 実行ペイロードルート
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **実行ペイロードルート**
@@ -19,6 +19,7 @@ date: '2026-11-26'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/magicians-2026-11-16-all-core-devs-testing-acdt-104-november-23-2026-30411|全コア開発者会議 - テスト (ACDT) #104、2026年11月23日]]（2026-11-16）
 
 ## 元の表記（英語）

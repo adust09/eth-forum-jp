@@ -4,7 +4,7 @@ aliases:
   - 量子攻撃
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **量子攻撃**

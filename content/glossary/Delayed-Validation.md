@@ -5,7 +5,7 @@ aliases:
   - n_k_declaration
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **遅延検証**

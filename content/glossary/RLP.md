@@ -5,7 +5,7 @@ aliases:
   - Recursive Length Prefix
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **RLP (Recursive Length Prefix)**
@@ -18,6 +18,7 @@ Ethereumでデータ構造（オブジェクト、リスト、文字列など）
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 - [[posts/magicians-2026-10-04-eip-8435-last-written-block-in-pbt-leaves-29860|EIP-8435: PBTリーフにおける最終書き込みブロック]]（2026-10-04）
 - [[posts/ethresear-2026-08-31-equilibrium-in-eip-7999-s-multidimensional-fee-market-the-execution-data-fee-floor-frontier-25868|EIP-7999の多次元手数料市場における均衡：実行-データ手数料フロアのフロンティア]]（2026-08-31）
