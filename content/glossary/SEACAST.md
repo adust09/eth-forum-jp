@@ -4,7 +4,7 @@ aliases:
   - SEACAST (高速ブロードキャストプロトコル)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **SEACAST (高速ブロードキャストプロトコル)**
@@ -17,7 +17,7 @@ Ethereumの高速ブロードキャストプロトコルとして提案されて
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 
 ## 元の表記（英語）
 

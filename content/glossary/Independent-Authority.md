@@ -4,7 +4,7 @@ aliases:
   - 独立権限
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **独立権限**

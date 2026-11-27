@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-26
+last_updated: 2026-11-27
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -20168,3 +20168,57 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/all-core-devs-testing-acdt-105-november-30-2026/30500
 - desc: |
   イーサリアムの実行層クライアントが、ブロックチェーンの再編成（reorg）を処理するメカニズムを指します。特に、新しいチェーン構造を取り込み、状態を適切に更新する一連の動作を意味します。テストシミュレーターでこの動作が検証されます。
+
+## Aggregated Proof Propagation
+- ja: 集約された証明の伝播 (Aggregated Proof Propagation)
+- related: [proof aggregation, aggregate proof]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30502
+- auto_source_url: https://ethereum-magicians.org/t/eip-8518-eth-76-aggregated-proof-propagation/30502
+- desc: |
+  EIP-8518で提案されている、集約された証明をネットワーク全体に効率的に伝播させるためのメカニズム。これにより、ブロックの検証に必要なデータ量を削減し、ネットワークのスケーラビリティと効率の向上を目指す。
+
+## Transferable Timelock
+- ja: 譲渡可能なタイムロック (Transferable Timelock)
+- related: [timelocked balance, unlocked balance, mint → action → burn sequence]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30493
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
+- desc: |
+  ERC-20トークンに提案された拡張機能で、新しくミントされたトークンが同じブロック内でバーンされるのを防ぎます。タイムロックされた残高は譲渡可能ですが、バーンにはアンロックされた残高のみが使用されます。
+
+## timelocked balance
+- ja: タイムロックされた残高
+- related: [Transferable Timelock, unlocked balance]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30493
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
+- desc: |
+  Transferable Timelockメカニズムにおいて、バーンが制限されているトークンの残高。この残高は譲渡可能ですが、同じブロック内でのバーンには使用できません。
+
+## unlocked balance
+- ja: アンロックされた残高
+- related: [Transferable Timelock, timelocked balance]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30493
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
+- desc: |
+  Transferable Timelockメカニズムにおいて、バーンを含む通常のDeFi操作に使用できるトークンの残高。アカウントの総残高からタイムロックされた残高を引いたものです。
+
+## mint → action → burn sequence
+- ja: ミント→アクション→バーンシーケンス
+- related: [Transferable Timelock, flash loan manipulation]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30493
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
+- desc: |
+  同じブロック内でトークンをミントし、それを使って何らかのアクションを実行し、すぐにバーンする一連の操作。LPトークンやボルトシェアなどで潜在的な攻撃面となることがあります。
+
+## inventory swap
+- ja: インベントリスワップ
+- related: [Transferable Timelock, fungibility]
+- auto_added: 2026-11-27
+- auto_source_topic_id: 30493
+- auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
+- desc: |
+  Transferable Timelockメカニズムにおいて、タイムロックされたトークンをAMMsなどの共有流動性プールに売却し、プール内の既存のアンロックされたトークンを買い戻すことで、実質的にタイムロックを解除する操作。

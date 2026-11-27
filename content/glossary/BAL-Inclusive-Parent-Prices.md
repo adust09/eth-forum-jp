@@ -6,7 +6,7 @@ aliases:
   - BAL-inclusive state price
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **BAL込みの親価格 (BAL-Inclusive Parent Prices)**

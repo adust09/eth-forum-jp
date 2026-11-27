@@ -4,7 +4,7 @@ aliases:
   - 同期委員会
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **同期委員会**
@@ -18,7 +18,7 @@ Beacon Chainにおいて、ライトクライアントの同期を支援する�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 
 ## 元の表記（英語）
 

@@ -5,7 +5,7 @@ aliases:
   - commit-reveal scheme
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **コミット・リビール方式（コミット・リビールステップ）**

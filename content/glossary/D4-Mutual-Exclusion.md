@@ -4,7 +4,7 @@ aliases:
   - D4相互排他
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **D4相互排他**

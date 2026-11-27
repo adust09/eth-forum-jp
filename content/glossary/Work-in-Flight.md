@@ -4,7 +4,7 @@ aliases:
   - 処理中の作業（Work in Flight）
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **処理中の作業（Work in Flight）**

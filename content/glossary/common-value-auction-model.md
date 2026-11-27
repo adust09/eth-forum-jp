@@ -5,7 +5,7 @@ aliases:
   - common-value auctions
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **共通価値オークションモデル**

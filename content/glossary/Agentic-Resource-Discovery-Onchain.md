@@ -5,7 +5,7 @@ aliases:
   - ARD Onchain
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **オンチェーン型エージェントリソース発見 (ARD Onchain)**

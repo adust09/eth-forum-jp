@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Consensus Layer
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **PQコンセンサスレイヤー (Post-Quantum Consensus Layer)**
@@ -19,6 +19,7 @@ date: '2026-11-26'
 
 ## この用語を使っている記事
 
+- [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/magicians-2026-11-20-pq-cl-breakout-4-november-24-2026-30460|PQ-CLブレイクアウト #4、2026年11月24日]]（2026-11-20）
 - [[posts/magicians-2026-11-18-pq-cl-breakout-3-november-20-2026-30437|PQ-CLブレイクアウト #3、2026年11月20日]]（2026-11-18）
 - [[posts/magicians-2026-11-17-pq-cl-breakout-2-november-18-2026-30422|PQコンセンサス層ブレイクアウト #2、2026年11月18日]]（2026-11-17）

@@ -4,7 +4,7 @@ aliases:
   - 偽陽性合意（False Green）
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **偽陽性合意（False Green）**

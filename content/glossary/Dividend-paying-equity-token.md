@@ -6,7 +6,7 @@ aliases:
   - ERC-20 share token
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **配当支払い型株式トークン**

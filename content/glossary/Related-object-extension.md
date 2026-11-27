@@ -4,7 +4,7 @@ aliases:
   - 関連オブジェクト拡張 (Related-object extension)
 tags:
   - glossary
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 **関連オブジェクト拡張 (Related-object extension)**

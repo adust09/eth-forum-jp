@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-26'
+date: '2026-11-27'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -91,6 +91,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Aggregate-degrees|Aggregate degrees]] — 集約度 (Aggregate degrees)
 - [[glossary/Aggregate-outgoing-cap|Aggregate outgoing cap]] — 合計送金上限
 - [[glossary/Aggregate-Proof|Aggregate Proof]] — 集約証明
+- [[glossary/Aggregated-Proof-Propagation|Aggregated Proof Propagation]] — 集約された証明の伝播 (Aggregated Proof Propagation)
 - [[glossary/Aggregator|Aggregator]] — アグリゲーター
 - [[glossary/Aggregator-signatures|Aggregator signatures]] — アグリゲーター署名
 - [[glossary/Agreement-Hash|Agreement Hash]] — 合意ハッシュ
@@ -1008,6 +1009,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/intrinsic-gas|intrinsic gas]] — 固有ガス
 - [[glossary/Invariant|Invariant]] — 不変条件
 - [[glossary/Invariant-First-Reserve-Receipt-Token|Invariant-First Reserve Receipt Token]] — インバリアントファースト準備金受領トークン
+- [[glossary/inventory-swap|inventory swap]] — インベントリスワップ
 - [[glossary/Inverse-Isogeny-Bridge|Inverse Isogeny Bridge]] — 逆同種写像ブリッジ
 - [[glossary/IProjectionSettlement|IProjectionSettlement]] — IProjectionSettlement（プロジェクション決済インターフェース）
 - [[glossary/IRegisterProjection|IRegisterProjection]] — IRegisterProjection（レジスタプロジェクションインターフェース）
@@ -1185,6 +1187,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/minHash|minHash]] — minHash (ミニハッシュ)
 - [[glossary/minimal-enforcement-primitives|minimal enforcement primitives]] — 最小限の執行プリミティブ
 - [[glossary/Minimal-proxy-clones|Minimal-proxy clones]] — ミニマルプロキシクローン
+- [[glossary/mint-action-burn-sequence|mint → action → burn sequence]] — ミント→アクション→バーンシーケンス
 - [[glossary/MIPS-leaf-execution|MIPS leaf execution]] — MIPSリーフ実行
 - [[glossary/mirror-payload|mirror payload]] — ミラーペイロード
 - [[glossary/missing-history|missing history]] — 不足履歴
@@ -1999,6 +2002,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Time-Series-Features|Time-Series Features]] — 時系列特徴量
 - [[glossary/Timelock|Timelock]] — タイムロック
 - [[glossary/Timelock-Account-recovery|Timelock Account recovery]] — タイムロックアカウントリカバリー
+- [[glossary/timelocked-balance|timelocked balance]] — タイムロックされた残高
 - [[glossary/Timing-based-attack|Timing-based attack]] — タイミングベース攻撃
 - [[glossary/titled-asset-infrastructure|titled asset infrastructure]] — 権利証付き資産インフラ
 - [[glossary/TLOAD|TLOAD]] — TLOAD (オペコード)
@@ -2048,6 +2052,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transaction-Ordering-Extraction|Transaction-Ordering Extraction]] — トランザクション順序付け抽出
 - [[glossary/transfer-contract|transfer contract]] — トランスファーコントラクト
 - [[glossary/transfer-eligibility-gate|transfer-eligibility gate]] — 転送適格性ゲート
+- [[glossary/Transferable-Timelock|Transferable Timelock]] — 譲渡可能なタイムロック (Transferable Timelock)
 - [[glossary/Transient-Storage|Transient Storage]] — トランジェントストレージ
 - [[glossary/Transition-ID|Transition ID]] — トランジションID
 - [[glossary/Transition-System|Transition System]] — トランジションシステム
@@ -2079,6 +2084,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/uniform-clearing-prices|uniform clearing prices]] — 統一清算価格
 - [[glossary/Unit-Definition|Unit Definition]] — ユニット定義
 - [[glossary/Universal-coordination-tree|Universal coordination tree]] — ユニバーサル調整ツリー
+- [[glossary/unlocked-balance|unlocked balance]] — アンロックされた残高
 - [[glossary/Unmeasured-contribution|Unmeasured contribution]] — 未測定の貢献
 - [[glossary/Unmigrated-accounts|Unmigrated accounts]] — 未移行アカウント
 - [[glossary/Untrusted-by-design|Untrusted-by-design]] — 設計上信頼しない (Untrusted-by-design)
