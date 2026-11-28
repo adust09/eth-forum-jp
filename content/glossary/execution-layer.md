@@ -4,7 +4,7 @@ aliases:
   - 実行レイヤー
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **実行レイヤー**
@@ -19,6 +19,7 @@ Protocol Interaction Manifest (PIM) の構成要素の一つで、ユーザー�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/magicians-2026-11-17-thoughts-on-pqai-hegota-and-focil-30421|pqai、ヘゴタ、FOCILに関する考察]]（2026-11-17）
 - [[posts/magicians-2026-11-04-eip-8484-slotduration-opcode-30276|EIP-8484: SLOTDURATION オペコード]]（2026-11-04）
 - [[posts/ethresear-2026-10-26-lean-verification-of-eip-7002-system-call-success-and-fifo-requests-26180|EIP-7002のLean検証: システムコール成功とFIFOリクエスト]]（2026-10-26）

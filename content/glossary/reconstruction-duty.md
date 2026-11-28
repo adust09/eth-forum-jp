@@ -4,7 +4,7 @@ aliases:
   - 再構築義務
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **再構築義務**

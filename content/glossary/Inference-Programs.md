@@ -6,7 +6,7 @@ aliases:
   - Actually Smart Contracts
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **推論プログラム**

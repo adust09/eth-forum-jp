@@ -5,7 +5,7 @@ aliases:
   - Ethereum Virtual Machine
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **EVM (イーサリアム仮想マシン)**
@@ -21,6 +21,8 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/ethresear-2026-11-18-eip-8288-the-networking-side-of-recursive-aggregation-26263|EIP-8288: 再帰的集約のネットワーキング側面]]（2026-11-18）
 - [[posts/ethresear-2026-11-16-exploring-post-quantum-signature-aggregation-for-eip-8288-26261|EIP-8288における量子耐性署名集約の探求]]（2026-11-16）

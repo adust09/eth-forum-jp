@@ -4,7 +4,7 @@ aliases:
   - 集約された証明の伝播 (Aggregated Proof Propagation)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **集約された証明の伝播 (Aggregated Proof Propagation)**

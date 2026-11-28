@@ -5,7 +5,7 @@ aliases:
   - FRI
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **高速リード・ソロモン対話型近接性オラクル証明 (FRI)**

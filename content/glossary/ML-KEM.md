@@ -5,7 +5,7 @@ aliases:
   - Module-Lattice-Based Key-Encapsulation Mechanism
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ML-KEM (モジュール格子ベース鍵カプセル化メカニズム)**
@@ -20,6 +20,7 @@ NISTによって標準化された、モジュール格子ベースの鍵カプ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs-26305|secp256k1の破綻後のステルスアドレス：支払い者による取り戻し、署名由来鍵、およびERC-8441出力のリカバリーステートメント]]（2026-11-27）
 - [[posts/magicians-2026-10-17-post-quantum-stateless-steganography-mtu-bounds-bridging-p2p-censorship-resistance-to-quantum-networks-29995|ポスト量子ステートレスステガノグラフィーとMTU境界：P2P検閲耐性を量子ネットワークへ橋渡しする]]（2026-10-17）
 - [[posts/magicians-2026-10-14-erc-8443-quantum-bridge-shield-29969|ERC-8443: 量子ブリッジシールド]]（2026-10-14）
 

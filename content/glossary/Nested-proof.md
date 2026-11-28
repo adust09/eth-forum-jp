@@ -4,7 +4,7 @@ aliases:
   - ネストされた証明 (Nested proof)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ネストされた証明 (Nested proof)**

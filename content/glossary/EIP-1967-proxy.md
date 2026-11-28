@@ -4,7 +4,7 @@ aliases:
   - EIP-1967プロキシ
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **EIP-1967プロキシ**

@@ -4,7 +4,7 @@ aliases:
   - STARKプルーフ交換 (STARK Proof Exchange)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **STARKプルーフ交換 (STARK Proof Exchange)**

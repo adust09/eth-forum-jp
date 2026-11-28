@@ -4,7 +4,7 @@ aliases:
   - フォーク
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **フォーク**
@@ -19,6 +19,9 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
+- [[posts/ethresear-2026-11-27-stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs-26305|secp256k1の破綻後のステルスアドレス：支払い者による取り戻し、署名由来鍵、およびERC-8441出力のリカバリーステートメント]]（2026-11-27）
 - [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）
 - [[posts/ethresear-2026-11-23-ethcllib-a-lean-4-framework-for-the-ethereum-consensus-specs-26283|EthCLLib: Ethereumコンセンサス仕様のためのLean 4フレームワーク]]（2026-11-23）

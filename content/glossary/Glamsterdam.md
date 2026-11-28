@@ -4,7 +4,7 @@ aliases:
   - グラムステルダム
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **グラムステルダム**
@@ -17,6 +17,7 @@ Ethereumの将来のアップグレードまたは開発ネットワークのコ
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/magicians-2026-11-26-a-better-pipeline-toward-pq-and-censorship-resistant-ethereum-30522|PQと検閲耐性イーサリアムに向けたより良いパイプライン]]（2026-11-26）
 - [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
 - [[posts/magicians-2026-11-25-ethlabs-position-on-glamsterdam-30518|Ethlabsのグラムステルダムに関する見解]]（2026-11-25）

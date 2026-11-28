@@ -4,7 +4,7 @@ aliases:
   - ポスト量子鍵
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ポスト量子鍵**
@@ -18,7 +18,7 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/magicians-2026-11-27-erc-8519-post-quantum-validator-and-builder-keystore-30525|ERC-8519: ポスト量子バリデータおよびビルダーのキーストア]]（2026-11-27）
 
 ## 元の表記（英語）
 

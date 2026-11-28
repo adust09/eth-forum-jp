@@ -6,7 +6,7 @@ aliases:
   - Miner Extractable Value
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **MEV（最大抽出可能価値）**
@@ -22,6 +22,8 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/ethresear-2026-11-19-isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds-26272|Isopolia: 自律AIエージェントのための3層レイテンシーL1アーキテクチャ - 所有オブジェクトFastPay (D4フェンシング)、Day-1 X25519 + ML-KEM-768プライバシー、および内生AMM清算バウンド]]（2026-11-19）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）
 - [[posts/ethresear-2026-11-13-rfc-warcoin-deterministic-1-1-usd-stablecoin-via-serialized-7-day-color-ring-buffers-and-burn-on-egress-invariants-26246|WARCoin: シリアル化された7日間カラーリングバッファと出金時焼却不変条件による決定論的1:1 USDステーブルコイン]]（2026-11-13）

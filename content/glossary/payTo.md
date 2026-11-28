@@ -4,7 +4,7 @@ aliases:
   - 支払い先 (payTo)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **支払い先 (payTo)**

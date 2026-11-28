@@ -5,7 +5,7 @@ aliases:
   - LQR
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **線形二次レギュレータ (LQR)**

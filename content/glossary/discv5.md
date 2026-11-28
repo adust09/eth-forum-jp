@@ -4,7 +4,7 @@ aliases:
   - discv5 (ディスカバリーv5)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **discv5 (ディスカバリーv5)**

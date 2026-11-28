@@ -4,7 +4,7 @@ aliases:
   - メムプール (Mempool)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **メムプール (Mempool)**
@@ -17,6 +17,7 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/magicians-2026-11-19-add-eip-dependency-frames-for-leansphincs-signatures-30448|EIPの追加: leanSPHINCS署名のための依存関係フレーム]]（2026-11-19）
 - [[posts/ethresear-2026-11-18-eip-8288-the-networking-side-of-recursive-aggregation-26263|EIP-8288: 再帰的集約のネットワーキング側面]]（2026-11-18）
 - [[posts/ethresear-2026-11-18-reveal-a-key-not-a-payload-sending-the-epbs-payload-before-the-reveal-26264|ペイロードではなく鍵を公開する：公開前にePBSペイロードを送信する]]（2026-11-18）

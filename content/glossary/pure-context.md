@@ -4,7 +4,7 @@ aliases:
   - ピュアコンテキスト
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ピュアコンテキスト**
@@ -17,7 +17,7 @@ AUTHENTICATOR署名スキームの暗号検証が実行される環境を指し�
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 
 ## 元の表記（英語）
 

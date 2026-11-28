@@ -5,7 +5,7 @@ aliases:
   - NTT
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **数論変換 (NTT)**

@@ -4,7 +4,7 @@ aliases:
   - ブロックアクセスリストのバイトフロア
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ブロックアクセスリストのバイトフロア**
@@ -18,6 +18,7 @@ EIP-8279で提案された、ブロックのアクセスリストに適用され
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
 - [[posts/magicians-2026-08-26-eip-8397-frame-authenticator-signatures-29517|EIP-8397: フレーム認証署名]]（2026-08-26）
 
 ## 元の表記（英語）

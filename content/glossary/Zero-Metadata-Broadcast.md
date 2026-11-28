@@ -6,7 +6,7 @@ aliases:
   - Zero Revocation Lists
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ゼロメタデータブロードキャスト**

@@ -4,7 +4,7 @@ aliases:
   - 推論レシート (Inference Receipts)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **推論レシート (Inference Receipts)**
