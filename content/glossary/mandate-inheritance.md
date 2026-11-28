@@ -4,7 +4,7 @@ aliases:
   - 委任の継承
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **委任の継承**

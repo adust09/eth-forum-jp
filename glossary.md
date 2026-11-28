@@ -1,6 +1,6 @@
 ---
 title: Ethereum Research 用語集（編集ソース）
-last_updated: 2026-11-27
+last_updated: 2026-11-28
 description: |
   用語集の編集源です。人手編集に加え、翻訳パイプラインが新出の専門用語を自動追記します
   （自動追加分は auto_added / auto_source_topic_id / auto_source_url マーカー付き）。
@@ -20222,3 +20222,130 @@ description: |
 - auto_source_url: https://ethereum-magicians.org/t/erc-discussion-erc-20-transferable-timelock/30493
 - desc: |
   Transferable Timelockメカニズムにおいて、タイムロックされたトークンをAMMsなどの共有流動性プールに売却し、プール内の既存のアンロックされたトークンを買い戻すことで、実質的にタイムロックを解除する操作。
+
+## Payer clawback
+- ja: ペイヤーによる資金回収（Payer clawback）
+- related: [Stealth address, Quantum adversary]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26305
+- auto_source_url: https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305
+- desc: |
+  量子攻撃者がsecp256k1を破った後、支払元（payer）が自身の行った支払いについて、まだ受取人が回収していないステルスアドレスの資金を回収できる脆弱性。支払元が支払いのss（共有シークレット）を知っていることに起因する。
+
+## Signature-derived keys
+- ja: 署名由来鍵
+- related: [ECDSA, Quantum adversary, ML-KEM]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26305
+- auto_source_url: https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305
+- desc: |
+  ユーザーのメインアカウントによる確定的なECDSA署名からアプリケーションキーを導出するUXパターン。量子攻撃者がメインアカウントの秘密鍵を回復すると、すべての派生ステルス鍵も再導出され、ML-KEMによる保護が無効になる脆弱性がある。
+
+## Claw problem
+- ja: クロー問題
+- related: [Preimage problem, Quantum walk, Random oracle]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26305
+- auto_source_url: https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305
+- desc: |
+  2つの異なる関数fとgに対して、f(x) = g(y)となるようなxとyのペア（クロー）を見つける問題。量子アルゴリズムでは古典アルゴリズムよりも効率的に解決できる可能性があり、量子緊急時の資金回復メカニズムのセキュリティ分析において考慮される。
+
+## Registry-bound statement
+- ja: レジストリ結合型ステートメント
+- related: [R_stealth, ERC-6538, Merkle root, Zero-knowledge proof]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26305
+- auto_source_url: https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305
+- desc: |
+  特定のブロックにおけるERC-6538レジストリのマークルルートに結合された、知識証明のステートメント。ステルスアドレスの回復メカニズムにおいて、秘密鍵の知識を証明しつつ、その鍵がレジストリに登録された正当なものであることを検証するために使用される。
+
+## Quantum Random Oracle Model
+- ja: 量子ランダムオラクルモデル（QROM）
+- aliases: [QROM]
+- related: [Random oracle model, Cryptographic proof]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26305
+- auto_source_url: https://ethresear.ch/t/stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs/26305
+- desc: |
+  暗号プロトコルのセキュリティを分析するために使用されるモデルで、ハッシュ関数を量子クエリに応答できるランダムオラクルとして扱う。量子攻撃に対する暗号スキームの耐性を評価する際に用いられる。
+
+## Builder-side aggregation
+- ja: ビルダー側集約 (Builder-side aggregation)
+- related: [Proposer-Builder Separation, MEV, Mempool aggregation]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26304
+- auto_source_url: https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304
+- desc: |
+  ブロックビルダーが、複数のトランザクションに含まれる署名や証明を単一の再帰的証明に集約するプロセスです。これにより、ブロックサイズを削減し、検証コストを効率化できる可能性があります。
+
+## Witness segregation
+- ja: 証人分離 (Witness segregation)
+- related: [Witness, Transaction identity, Builder-side aggregation]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26304
+- auto_source_url: https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304
+- desc: |
+  トランザクションの正当性を証明する「証人」（署名や証明）を、メインのトランザクションデータとは別に扱う設計アプローチです。これにより、トランザクションのハッシュやネットワークトラフィックの管理に影響を与えます。
+
+## Declarative claims
+- ja: 宣言的クレーム (Declarative claims)
+- related: [EIP-8288, Transaction validation]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26304
+- auto_source_url: https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304
+- desc: |
+  トランザクションが満たすべき暗号学的ステートメント（クレーム）を、そのトランザクション内で明示的に宣言する方式です。これにより、検証ロジックを柔軟に定義し、集約を容易にすることができます。
+
+## Transaction identity
+- ja: トランザクションの同一性 (Transaction identity)
+- related: [Transaction hash, Reorg, Mempool]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26304
+- auto_source_url: https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304
+- desc: |
+  トランザクションを一意に識別する特性です。特に、集約やプロトコルアップグレードによってトランザクションの内容が変更される場合、その同一性が維持されるかどうかが、追跡、インデックス作成、再編成処理において重要となります。
+
+## Mempool aggregation
+- ja: メムプール集約 (Mempool aggregation)
+- related: [Mempool, Builder-side aggregation, Transaction aggregation]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26304
+- auto_source_url: https://ethresear.ch/t/paths-to-post-quantum-execution-in-hegota-an-experimental-comparison/26304
+- desc: |
+  ブロックビルダーがトランザクションを選択する前の段階で、メムプール内で複数のトランザクションの署名や証明を集約するプロセスです。これにより、ビルダーの作業負荷を分散し、ネットワークトラフィックを削減する可能性があります。
+
+## Account modes
+- ja: アカウントモード
+- related: [SETCODEFROM]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26300
+- auto_source_url: https://ethresear.ch/t/a-state-backed-validation-of-setcodefrom/26300
+- desc: |
+  SETCODEFROM命令のドラフト版が持つ柔軟性に基づいて構築された、アカウントの動作様式を分類する概念。この分類は、SETCODEFROMがアカウントのコードをどのように変更できるかに影響を与える。
+
+## Outermost frame
+- ja: 最外フレーム
+- related: [EVM, DELEGATECALL, Call frame]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26300
+- auto_source_url: https://ethresear.ch/t/a-state-backed-validation-of-setcodefrom/26300
+- desc: |
+  EVMの実行コンテキストにおいて、あるアカウントに対する一連の呼び出しの中で最も外側の実行フレームを指す。SETCODEFROMの提案では、コードの変更がこの最外フレームが正常に終了するまで反映されないようにするルールが導入された。
+
+## Proxy graduation
+- ja: プロキシの卒業
+- related: [Proxy, SETCODEFROM, DELEGATECALL]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 26300
+- auto_source_url: https://ethresear.ch/t/a-state-backed-validation-of-setcodefrom/26300
+- desc: |
+  プロキシコントラクトが、その実装コードを直接自身のアカウントコードとして採用し、通常のアップグレードパスから「卒業」する概念。SETCODEFROMのドラフトではこれが可能になるはずだったが、セキュリティ上の懸念から提案されたルールによって阻止された。
+
+## Post-Quantum Validator and Builder Keystore
+- ja: ポスト量子バリデータおよびビルダーキーストア
+- related: [Post-Quantum Keys, Validator, Builder, Keystore]
+- auto_added: 2026-11-28
+- auto_source_topic_id: 30525
+- auto_source_url: https://ethereum-magicians.org/t/erc-8519-post-quantum-validator-and-builder-keystore/30525
+- desc: |
+  Ethereumのバリデータとビルダーがポスト量子暗号鍵を安全に管理するためのキーストアの仕様。将来の量子コンピュータによる攻撃から鍵を保護することを目的としている。

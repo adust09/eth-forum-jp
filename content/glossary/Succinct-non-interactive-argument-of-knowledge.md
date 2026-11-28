@@ -5,7 +5,7 @@ aliases:
   - SNARK
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **簡潔非対話型知識証明 (SNARK)**

@@ -4,7 +4,7 @@ aliases:
   - DELEGATECALL (デリゲートコール)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **DELEGATECALL (デリゲートコール)**
@@ -19,6 +19,7 @@ EVMのオペコードの一つで、呼び出し元のコンテキスト（ス�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
 - [[posts/magicians-2026-07-31-draft-fungible-agent-tokens-fat-a-minimal-standard-for-ai-agents-as-on-chain-economic-entities-29220|ファンジブルエージェントトークン (FAT) — オンチェーン経済エンティティとしてのAIエージェントの最小標準]]（2026-07-31）
 
 ## 元の表記（英語）

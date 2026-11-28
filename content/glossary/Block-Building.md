@@ -6,7 +6,7 @@ aliases:
   - Builder
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ブロック構築**
@@ -22,6 +22,8 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
+- [[posts/magicians-2026-11-27-erc-8519-post-quantum-validator-and-builder-keystore-30525|ERC-8519: ポスト量子バリデータおよびビルダーのキーストア]]（2026-11-27）
 - [[posts/ethresear-2026-11-25-focil-and-ethereums-pq-transition-26292|FOCILとイーサリアムのPQ移行]]（2026-11-25）
 - [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）

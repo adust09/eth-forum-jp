@@ -7,7 +7,7 @@ aliases:
   - agent runtimes with discovery layers
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **生成エンジン**

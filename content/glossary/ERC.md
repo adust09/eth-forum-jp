@@ -5,7 +5,7 @@ aliases:
   - Ethereum Request for Comments
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **Ethereum Request for Comments (ERC)**
@@ -19,6 +19,8 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs-26305|secp256k1の破綻後のステルスアドレス：支払い者による取り戻し、署名由来鍵、およびERC-8441出力のリカバリーステートメント]]（2026-11-27）
+- [[posts/magicians-2026-11-27-erc-8519-post-quantum-validator-and-builder-keystore-30525|ERC-8519: ポスト量子バリデータおよびビルダーのキーストア]]（2026-11-27）
 - [[posts/magicians-2026-11-26-erc-xxxx-serial-numbered-fungible-tokens-30519|ERC-XXXX: シリアル番号付きファンジブルトークン]]（2026-11-26）
 - [[posts/magicians-2026-11-25-erc-8517-post-quantum-validator-seed-derivation-30516|ERC-8517: ポスト量子バリデータシード導出]]（2026-11-25）
 - [[posts/magicians-2026-11-23-erc-8512-gpu-collateral-evidence-30476|ERC-8512: GPU担保の証拠]]（2026-11-23）

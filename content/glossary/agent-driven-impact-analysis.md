@@ -4,7 +4,7 @@ aliases:
   - エージェント駆動型影響分析 (agent-driven impact analysis)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **エージェント駆動型影響分析 (agent-driven impact analysis)**

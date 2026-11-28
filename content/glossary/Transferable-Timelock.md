@@ -4,7 +4,7 @@ aliases:
   - 譲渡可能なタイムロック (Transferable Timelock)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **譲渡可能なタイムロック (Transferable Timelock)**

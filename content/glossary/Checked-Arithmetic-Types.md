@@ -7,7 +7,7 @@ aliases:
   - Checked α
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **チェック済み算術型 (EthCLLib)**

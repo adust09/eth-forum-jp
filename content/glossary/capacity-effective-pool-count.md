@@ -5,7 +5,7 @@ aliases:
   - N_eff
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **実効プール数 (N_eff)**

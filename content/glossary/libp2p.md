@@ -4,7 +4,7 @@ aliases:
   - libp2p (リブピー・ツー・ピー)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **libp2p (リブピー・ツー・ピー)**

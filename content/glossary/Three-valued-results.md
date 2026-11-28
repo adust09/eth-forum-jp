@@ -4,7 +4,7 @@ aliases:
   - 3値結果 (Three-valued results)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **3値結果 (Three-valued results)**

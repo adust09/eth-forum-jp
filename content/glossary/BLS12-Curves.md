@@ -4,7 +4,7 @@ aliases:
   - BLS12曲線
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **BLS12曲線**

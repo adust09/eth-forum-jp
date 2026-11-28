@@ -5,7 +5,7 @@ aliases:
   - Post-Quantum Decoupled Consensus
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **PQデカップルドコンセンサス (ポスト量子デカップルドコンセンサス)**

@@ -4,7 +4,7 @@ aliases:
   - 実行クライアント
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **実行クライアント**
@@ -19,6 +19,7 @@ Ethereumノードの主要コンポーネントの一つで、Ethereum Virtual M
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/magicians-2026-11-04-eip-8484-slotduration-opcode-30276|EIP-8484: SLOTDURATION オペコード]]（2026-11-04）
 - [[posts/magicians-2026-11-01-eip-8479-post-quantum-peerdas-and-variable-size-blobs-30167|EIP-8479: 量子耐性PeerDASと可変サイズブロブ]]（2026-11-01）
 - [[posts/magicians-2026-10-20-eip-8449-engine-api-proposal-lookahead-30016|EIP-8449: エンジンAPI提案の先行情報]]（2026-10-20）

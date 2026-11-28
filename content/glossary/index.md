@@ -3,7 +3,7 @@ title: 用語集
 tags:
   - glossary
   - index
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 Ethereum Research 翻訳で使用している専門用語の一覧です。各記事中に出てくる英語表記は、ここで定義された日本語表記とウィキリンクされます。
@@ -35,6 +35,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Account-level-authorization|Account level authorization]] — アカウントレベル承認
 - [[glossary/Account-list|Account list (in transaction payload)]] — アカウントリスト（トランザクションペイロード内）
 - [[glossary/Account-locking|Account locking]] — アカウントロック
+- [[glossary/Account-modes|Account modes]] — アカウントモード
 - [[glossary/Account-Period|Account Period]] — 会計期間
 - [[glossary/Account-recovery|Account recovery]] — アカウント復旧
 - [[glossary/Account-Root|Account Root]] — アカウントルート
@@ -290,6 +291,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Builder-exposure|Builder exposure]] — ビルダーエクスポージャー (Builder exposure)
 - [[glossary/builder-market|builder market]] — ビルダー市場
 - [[glossary/builder-claimed-transaction-index|builder-claimed transaction index]] — ビルダー主張トランザクションインデックス
+- [[glossary/Builder-side-aggregation|Builder-side aggregation]] — ビルダー側集約 (Builder-side aggregation)
 - [[glossary/Builders-option|Builder's option]] — ビルダーのオプション
 - [[glossary/Bundle|Bundle]] — バンドル
 - [[glossary/Bundle-Hash|Bundle Hash]] — バンドルハッシュ
@@ -354,6 +356,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Class-Key|Class Key]] — クラスキー
 - [[glossary/Classical-break|Classical break]] — 古典的解読（攻撃）
 - [[glossary/Classical-preimage|Classical preimage]] — 古典的原像（耐性）
+- [[glossary/Claw-problem|Claw problem]] — クロー問題
 - [[glossary/CLEANBALANCECHANGEGAS|CLEAN_BALANCE_CHANGE_GAS]] — クリーン残高変更ガス
 - [[glossary/Clear-Signing|Clear Signing]] — クリア署名
 - [[glossary/Clear-Signing-On-Chain-Descriptors-Registry|Clear Signing On-Chain Descriptors Registry]] — クリア署名オンチェーン記述子レジストリ
@@ -514,6 +517,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/decentralized-studbook|decentralized studbook]] — 分散型血統登録簿 (decentralized studbook)
 - [[glossary/Decision-Policy|Decision Policy]] — 意思決定ポリシー
 - [[glossary/Decision-receipts|Decision receipts]] — 決定レシート
+- [[glossary/Declarative-claims|Declarative claims]] — 宣言的クレーム (Declarative claims)
 - [[glossary/declareCompromised|declareCompromised()]] — declareCompromised()（アカウント侵害宣言機能）
 - [[glossary/decode-memory-amplification|decode memory amplification]] — デコード時のメモリ増幅
 - [[glossary/Decoupled-Consensus|Decoupled Consensus]] — デカップルド・コンセンサス
@@ -1165,6 +1169,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Mempool|Mempool]] — メムプール (Mempool)
 - [[glossary/mempool-addressability|mempool addressability]] — メムプールアドレス可能性 (mempool addressability)
 - [[glossary/mempool-admission|mempool admission]] — メンプールアドミッション
+- [[glossary/Mempool-aggregation|Mempool aggregation]] — メムプール集約 (Mempool aggregation)
 - [[glossary/Mempool-safe-Second-Factor|Mempool-safe Second Factor]] — メムプールセーフな第二要素
 - [[glossary/Merkle-commitments|Merkle commitments]] — Merkleコミットメント (Merkle commitments)
 - [[glossary/Merkle-proof|Merkle proof]] — マークル証明
@@ -1339,6 +1344,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Ossified|Ossified (status)]] — 骨化済み（ステータス）
 - [[glossary/Outcome-Determination-System|Outcome Determination System]] — 結果決定システム
 - [[glossary/Outcome-Switching|Outcome Switching]] — アウトカム・スイッチング（結果のすり替え）
+- [[glossary/Outermost-frame|Outermost frame]] — 最外フレーム
 - [[glossary/Outgoing-Window-Limits|Outgoing Window Limits]] — 送金ウィンドウ制限
 - [[glossary/Over-collateralization|Over-collateralization]] — 過剰担保（過剰担保化）
 - [[glossary/Overflow|Overflow]] — オーバーフロー
@@ -1369,6 +1375,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/passURI|passURI]] — passURI (パスURI)
 - [[glossary/PAY-opcode|PAY opcode]] — PAYオペコード
 - [[glossary/payee-delegation|payee delegation]] — 受取人委任 (payee delegation)
+- [[glossary/Payer-clawback|Payer clawback]] — ペイヤーによる資金回収（Payer clawback）
 - [[glossary/Payer-Services|Payer Services]] — ペイヤーサービス
 - [[glossary/payload-envelope|payload envelope]] — ペイロードエンベロープ
 - [[glossary/Payload-Transfer-Time|Payload Transfer Time]] — ペイロード転送時間
@@ -1455,6 +1462,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/post-quantum-signatures|post-quantum signatures]] — 量子耐性署名 (post-quantum signatures)
 - [[glossary/Post-Quantum-Stateless-Steganography|Post-Quantum Stateless Steganography]] — 量子耐性ステートレス・ステガノグラフィ
 - [[glossary/Post-quantum-switch|Post-quantum switch]] — ポスト量子スイッチ
+- [[glossary/Post-Quantum-Validator-and-Builder-Keystore|Post-Quantum Validator and Builder Keystore]] — ポスト量子バリデータおよびビルダーキーストア
 - [[glossary/Post-Quantum-Validator-Key-Registry|Post-Quantum Validator Key Registry]] — 量子耐性バリデータ鍵レジストリ
 - [[glossary/Post-Quantum-Validator-Seed-Derivation|Post-Quantum Validator Seed Derivation]] — 量子耐性バリデータシード導出
 - [[glossary/Posture|Posture (Swarm AI)]] — ポスチャー (Swarm AI)
@@ -1548,6 +1556,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Provider-Metering|Provider Metering]] — プロバイダー計量
 - [[glossary/Proving-network|Proving network]] — プルービングネットワーク
 - [[glossary/proving-relation|proving relation]] — 証明関係
+- [[glossary/Proxy-graduation|Proxy graduation]] — プロキシの卒業
 - [[glossary/proxy-based-upgradeable-system|proxy-based upgradeable system]] — プロキシベースのアップグレード可能システム
 - [[glossary/Public-flow|Public flow]] — パブリックフロー
 - [[glossary/Public-Input-Hash|Public Input Hash]] — 公開入力ハッシュ
@@ -1566,6 +1575,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Quantum-Bridge-Shield|Quantum Bridge Shield]] — 量子ブリッジシールド
 - [[glossary/Quantum-emergency|Quantum emergency]] — 量子緊急事態
 - [[glossary/Quantum-preimage|Quantum preimage]] — 量子的原像（耐性）
+- [[glossary/Quantum-Random-Oracle-Model|Quantum Random Oracle Model]] — 量子ランダムオラクルモデル（QROM）
 - [[glossary/Quantum-resistant-Signature|Quantum-resistant Signature]] — 量子耐性署名
 - [[glossary/Quote-clock|Quote clock]] — クオートクロック
 - [[glossary/R1CS-Constraint|R1CS Constraint]] — R1CS制約
@@ -1615,6 +1625,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Reference-Relative-Slippage-Bounds|Reference-Relative Slippage Bounds]] — 参照相対スリッページ制限
 - [[glossary/register-confirmed-holder-record|register-confirmed holder record]] — レジスタで確認されたホルダー記録
 - [[glossary/Registration-gap|Registration gap]] — 登録ギャップ
+- [[glossary/Registry-bound-statement|Registry-bound statement]] — レジストリ結合型ステートメント
 - [[glossary/Regulated-Agent-Mandate|Regulated Agent Mandate]] — 規制されたエージェントの委任 (ERC-8226)
 - [[glossary/Regulated-Asset-Claim|Regulated Asset Claim]] — 規制資産クレーム
 - [[glossary/Regulatory-Compliance-Protocol|Regulatory Compliance Protocol]] — 規制コンプライアンスプロトコル (RCP)
@@ -1791,6 +1802,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Sign-In-With-Ethereum|Sign-In With Ethereum]] — Sign-In With Ethereum (SIWE)
 - [[glossary/signature-aggregation|signature aggregation]] — 署名集約
 - [[glossary/Signature-Consent|Signature Consent]] — 署名による同意
+- [[glossary/Signature-derived-keys|Signature-derived keys]] — 署名由来鍵
 - [[glossary/SignedExecutionPayloadEnvelope|SignedExecutionPayloadEnvelope]] — 署名済み実行ペイロードエンベロープ
 - [[glossary/signers|signers]] — 署名者
 - [[glossary/signidice|signidice]] — サイニダイス (Signidice)
@@ -2045,6 +2057,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/Transaction-Batching|Transaction Batching]] — トランザクションバッチ処理
 - [[glossary/transaction-envelope|transaction envelope]] — トランザクションエンベロープ
 - [[glossary/Transaction-Events-View|Transaction Events View]] — トランザクションイベントビュー (EIP-8386)
+- [[glossary/Transaction-identity|Transaction identity]] — トランザクションの同一性 (Transaction identity)
 - [[glossary/transaction-simulation|transaction simulation]] — トランザクションシミュレーション
 - [[glossary/Transaction-Ticket|Transaction Ticket]] — トランザクションチケット
 - [[glossary/Transaction-Validation|Transaction Validation]] — トランザクション検証
@@ -2172,6 +2185,7 @@ Ethereum Research 翻訳で使用している専門用語の一覧です。各�
 - [[glossary/withdrawal-credential|withdrawal credential]] — 出金資格情報
 - [[glossary/Withholding|Withholding]] — 意図的なブロック非公開（Withholding）
 - [[glossary/withholding-bias|withholding bias]] — 意図的なブロック非提出によるバイアス (Withholding Bias)
+- [[glossary/Witness-segregation|Witness segregation]] — 証人分離 (Witness segregation)
 - [[glossary/Work-in-Flight|Work in Flight]] — 処理中の作業（Work in Flight）
 - [[glossary/Work-backed-Conflict-Resolution|Work-backed Conflict Resolution]] — 作業担保型紛争解決
 - [[glossary/working-set-effects|working-set effects]] — ワーキングセット効果

@@ -4,7 +4,7 @@ aliases:
   - 初期化コード
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **初期化コード**
@@ -19,7 +19,7 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
 
 ## 元の表記（英語）
 

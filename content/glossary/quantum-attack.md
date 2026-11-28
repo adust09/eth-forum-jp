@@ -4,7 +4,7 @@ aliases:
   - 量子攻撃
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **量子攻撃**
@@ -18,7 +18,7 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
-(なし)
+- [[posts/ethresear-2026-11-27-stealth-addresses-after-secp256k1-falls-payer-clawback-signature-derived-keys-and-a-recovery-statement-for-erc-8441-outputs-26305|secp256k1の破綻後のステルスアドレス：支払い者による取り戻し、署名由来鍵、およびERC-8441出力のリカバリーステートメント]]（2026-11-27）
 
 ## 元の表記（英語）
 

@@ -4,7 +4,7 @@ aliases:
   - ファセット（スマートコントラクト）
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ファセット（スマートコントラクト）**
@@ -18,6 +18,7 @@ date: '2026-11-27'
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-a-state-backed-validation-of-setcodefrom-26300|SETCODEFROMのステート担保型検証]]（2026-11-27）
 - [[posts/magicians-2026-07-21-erc-xxxx-cento-proxy-index-based-multi-facet-proxy-29054|ERC-XXXX: Cento Proxy – インデックスベースのマルチファセットプロキシ]]（2026-07-21）
 
 ## 元の表記（英語）

@@ -4,7 +4,7 @@ aliases:
   - ecrecover (組み込み関数)
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **ecrecover (組み込み関数)**
@@ -18,6 +18,7 @@ Ethereum Virtual Machine (EVM) の組み込み関数で、楕円曲線デジタ�
 
 ## この用語を使っている記事
 
+- [[posts/ethresear-2026-11-27-paths-to-post-quantum-execution-in-hegota-an-experimental-comparison-26304|Hegotáにおけるポスト量子実行への道筋：実験的比較]]（2026-11-27）
 - [[posts/ethresear-2026-11-22-whats-a-block-and-how-big-can-it-get-26281|ブロックとは何か、そしてそのサイズはどれくらいになり得るか？]]（2026-11-22）
 
 ## 元の表記（英語）

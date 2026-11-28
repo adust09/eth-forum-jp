@@ -4,7 +4,7 @@ aliases:
   - 隠された失効ハンドル（hidden revocation handle）
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **隠された失効ハンドル（hidden revocation handle）**

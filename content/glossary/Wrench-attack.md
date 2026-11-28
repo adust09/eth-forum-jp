@@ -4,7 +4,7 @@ aliases:
   - レンチ攻撃
 tags:
   - glossary
-date: '2026-11-27'
+date: '2026-11-28'
 ---
 
 **レンチ攻撃**
